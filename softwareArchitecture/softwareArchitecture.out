@@ -1,0 +1,130 @@
+\BOOKMARK [0][-]{section*.1}{Contents}{}
+\BOOKMARK [0][-]{chapter.1}{Themes and techniques}{}
+\BOOKMARK [1][-]{section.1.1}{Engineering Process}{chapter.1}
+\BOOKMARK [-1][-]{part.1}{Art of Engineering software}{}
+\BOOKMARK [0][-]{chapter.2}{The overall picture}{part.1}
+\BOOKMARK [1][-]{section.2.1}{Analogies}{chapter.2}
+\BOOKMARK [1][-]{section.2.2}{Understanding specifications}{chapter.2}
+\BOOKMARK [0][-]{chapter.3}{Programming paradigms}{part.1}
+\BOOKMARK [1][-]{section.3.1}{Chapter Scope}{chapter.3}
+\BOOKMARK [1][-]{section.3.2}{Imperative vs declarative programming}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.2.1}{Imperative programming}{section.3.2}
+\BOOKMARK [3][-]{subsubsection.3.2.1.1}{Structured programming}{subsection.3.2.1}
+\BOOKMARK [2][-]{subsection.3.2.2}{Declarative programming}{section.3.2}
+\BOOKMARK [1][-]{section.3.3}{Modularity With Object oriented programming}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.3.1}{Encapsulation/ locality}{section.3.3}
+\BOOKMARK [3][-]{subsubsection.3.3.1.1}{Member addition test}{subsection.3.3.1}
+\BOOKMARK [2][-]{subsection.3.3.2}{Class relationships}{section.3.3}
+\BOOKMARK [3][-]{subsubsection.3.3.2.1}{Identifying shared code and state}{subsection.3.3.2}
+\BOOKMARK [3][-]{subsubsection.3.3.2.2}{Sharing code and state}{subsection.3.3.2}
+\BOOKMARK [3][-]{subsubsection.3.3.2.3}{Inheritence vs aggregation}{subsection.3.3.2}
+\BOOKMARK [2][-]{subsection.3.3.3}{Add function interface to classes}{section.3.3}
+\BOOKMARK [3][-]{subsubsection.3.3.3.1}{Problem}{subsection.3.3.3}
+\BOOKMARK [3][-]{subsubsection.3.3.3.2}{Inheritence}{subsection.3.3.3}
+\BOOKMARK [3][-]{subsubsection.3.3.3.3}{Generic function use}{subsection.3.3.3}
+\BOOKMARK [3][-]{subsubsection.3.3.3.4}{Creating concrete fn objects with generic interfaces}{subsection.3.3.3}
+\BOOKMARK [1][-]{section.3.4}{Functional programming paradigm}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.4.1}{Introduction}{section.3.4}
+\BOOKMARK [3][-]{subsubsection.3.4.1.1}{Facilitating parallel programming}{subsection.3.4.1}
+\BOOKMARK [3][-]{subsubsection.3.4.1.2}{Computation as a vector function}{subsection.3.4.1}
+\BOOKMARK [2][-]{subsection.3.4.2}{Monad}{section.3.4}
+\BOOKMARK [3][-]{subsubsection.3.4.2.1}{None monad: error handling}{subsection.3.4.2}
+\BOOKMARK [1][-]{section.3.5}{Exception handling}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.5.1}{Error codes}{section.3.5}
+\BOOKMARK [2][-]{subsection.3.5.2}{Monads vs exception throwing}{section.3.5}
+\BOOKMARK [2][-]{subsection.3.5.3}{Advantages}{section.3.5}
+\BOOKMARK [3][-]{subsubsection.3.5.3.1}{Conciseness}{subsection.3.5.3}
+\BOOKMARK [3][-]{subsubsection.3.5.3.2}{Highly parallelizable}{subsection.3.5.3}
+\BOOKMARK [0][-]{chapter.4}{Correct coding}{part.1}
+\BOOKMARK [1][-]{section.4.1}{High level strategy}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.1.1}{Modularity}{section.4.1}
+\BOOKMARK [3][-]{subsubsection.4.1.1.1}{Separation of concerns}{subsection.4.1.1}
+\BOOKMARK [3][-]{subsubsection.4.1.1.2}{Benefits}{subsection.4.1.1}
+\BOOKMARK [3][-]{subsubsection.4.1.1.3}{Service Layers}{subsection.4.1.1}
+\BOOKMARK [3][-]{subsubsection.4.1.1.4}{Organizing code}{subsection.4.1.1}
+\BOOKMARK [3][-]{subsubsection.4.1.1.5}{In implementing a monolithic function}{subsection.4.1.1}
+\BOOKMARK [2][-]{subsection.4.1.2}{Code reuse}{section.4.1}
+\BOOKMARK [3][-]{subsubsection.4.1.2.1}{Beware of redoing others' work}{subsection.4.1.2}
+\BOOKMARK [2][-]{subsection.4.1.3}{Conciseness}{section.4.1}
+\BOOKMARK [1][-]{section.4.2}{Module-level strategy overview}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.2.1}{Preconditions}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.2}{Activities}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.3}{'Correct conception' vs 'Debugging until correctness'}{section.4.2}
+\BOOKMARK [3][-]{subsubsection.4.2.3.1}{Choice}{subsection.4.2.3}
+\BOOKMARK [2][-]{subsection.4.2.4}{Changes to old code}{section.4.2}
+\BOOKMARK [1][-]{section.4.3}{Specify behaviour perfectly}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.3.1}{Check input validity}{section.4.3}
+\BOOKMARK [2][-]{subsection.4.3.2}{Module comments}{section.4.3}
+\BOOKMARK [2][-]{subsection.4.3.3}{Function comments}{section.4.3}
+\BOOKMARK [1][-]{section.4.4}{Systematic code review}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.4.1}{Very important!}{section.4.4}
+\BOOKMARK [2][-]{subsection.4.4.2}{Over-Confidence bias}{section.4.4}
+\BOOKMARK [2][-]{subsection.4.4.3}{Tracking confidence}{section.4.4}
+\BOOKMARK [2][-]{subsection.4.4.4}{Prove correctness}{section.4.4}
+\BOOKMARK [3][-]{subsubsection.4.4.4.1}{Write statements to prove}{subsection.4.4.4}
+\BOOKMARK [3][-]{subsubsection.4.4.4.2}{Axioms for external functions calls}{subsection.4.4.4}
+\BOOKMARK [3][-]{subsubsection.4.4.4.3}{Thoroughness vs Time required}{subsection.4.4.4}
+\BOOKMARK [1][-]{section.4.5}{Test}{chapter.4}
+\BOOKMARK [1][-]{section.4.6}{Desiderata}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.6.1}{Isolating modules}{section.4.6}
+\BOOKMARK [3][-]{subsubsection.4.6.1.1}{Fake}{subsection.4.6.1}
+\BOOKMARK [3][-]{subsubsection.4.6.1.2}{Mock}{subsection.4.6.1}
+\BOOKMARK [1][-]{section.4.7}{Debug}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.7.1}{Syntactic errors}{section.4.7}
+\BOOKMARK [2][-]{subsection.4.7.2}{Semantic errors}{section.4.7}
+\BOOKMARK [3][-]{subsubsection.4.7.2.1}{Verify input validity}{subsection.4.7.2}
+\BOOKMARK [3][-]{subsubsection.4.7.2.2}{Take a step back}{subsection.4.7.2}
+\BOOKMARK [3][-]{subsubsection.4.7.2.3}{Logging}{subsection.4.7.2}
+\BOOKMARK [2][-]{subsection.4.7.3}{Errors in memory/ process management}{section.4.7}
+\BOOKMARK [0][-]{chapter.5}{Speedy coding}{part.1}
+\BOOKMARK [1][-]{section.5.1}{Syntax references}{chapter.5}
+\BOOKMARK [1][-]{section.5.2}{Choosing programming languages}{chapter.5}
+\BOOKMARK [2][-]{subsection.5.2.1}{Expressiveness/ conciseness}{section.5.2}
+\BOOKMARK [3][-]{subsubsection.5.2.1.1}{Iteration}{subsection.5.2.1}
+\BOOKMARK [1][-]{section.5.3}{Complexity}{chapter.5}
+\BOOKMARK [2][-]{subsection.5.3.1}{Cyclostomic complexity}{section.5.3}
+\BOOKMARK [1][-]{section.5.4}{Maintainability}{chapter.5}
+\BOOKMARK [2][-]{subsection.5.4.1}{Comments for enabling understandability}{section.5.4}
+\BOOKMARK [2][-]{subsection.5.4.2}{Naming conventions}{section.5.4}
+\BOOKMARK [2][-]{subsection.5.4.3}{Version control}{section.5.4}
+\BOOKMARK [2][-]{subsection.5.4.4}{Coding conventions}{section.5.4}
+\BOOKMARK [1][-]{section.5.5}{Automate tests}{chapter.5}
+\BOOKMARK [2][-]{subsection.5.5.1}{Externalizing messages}{section.5.5}
+\BOOKMARK [1][-]{section.5.6}{For research}{chapter.5}
+\BOOKMARK [2][-]{subsection.5.6.1}{Have a good library}{section.5.6}
+\BOOKMARK [2][-]{subsection.5.6.2}{Experiment functions}{section.5.6}
+\BOOKMARK [2][-]{subsection.5.6.3}{Automatic logging}{section.5.6}
+\BOOKMARK [0][-]{chapter.6}{Writing efficient code}{part.1}
+\BOOKMARK [1][-]{section.6.1}{Optimizing code for speed}{chapter.6}
+\BOOKMARK [0][-]{chapter.7}{Group programming strategy}{part.1}
+\BOOKMARK [1][-]{section.7.1}{Processes}{chapter.7}
+\BOOKMARK [1][-]{section.7.2}{Pair programming}{chapter.7}
+\BOOKMARK [-1][-]{part.2}{Special software}{}
+\BOOKMARK [0][-]{chapter.8}{Computer networks}{part.2}
+\BOOKMARK [0][-]{chapter.9}{Operating systems}{part.2}
+\BOOKMARK [1][-]{section.9.1}{Scheduling}{chapter.9}
+\BOOKMARK [1][-]{section.9.2}{Threads}{chapter.9}
+\BOOKMARK [2][-]{subsection.9.2.1}{Coordinating processes}{section.9.2}
+\BOOKMARK [0][-]{chapter.10}{User interfaces}{part.2}
+\BOOKMARK [1][-]{section.10.1}{GUI Metaphors}{chapter.10}
+\BOOKMARK [2][-]{subsection.10.1.1}{Desktop}{section.10.1}
+\BOOKMARK [3][-]{subsubsection.10.1.1.1}{Layering}{subsection.10.1.1}
+\BOOKMARK [2][-]{subsection.10.1.2}{Taskbar, statusbar}{section.10.1}
+\BOOKMARK [2][-]{subsection.10.1.3}{Windows}{section.10.1}
+\BOOKMARK [3][-]{subsubsection.10.1.3.1}{Task switching}{subsection.10.1.3}
+\BOOKMARK [2][-]{subsection.10.1.4}{Views and perspectives}{section.10.1}
+\BOOKMARK [2][-]{subsection.10.1.5}{Widget}{section.10.1}
+\BOOKMARK [1][-]{section.10.2}{GUI Software Stack}{chapter.10}
+\BOOKMARK [2][-]{subsection.10.2.1}{Comparison}{section.10.2}
+\BOOKMARK [3][-]{subsubsection.10.2.1.1}{Look vs utility}{subsection.10.2.1}
+\BOOKMARK [1][-]{section.10.3}{Special input hardware}{chapter.10}
+\BOOKMARK [2][-]{subsection.10.3.1}{Buttons}{section.10.3}
+\BOOKMARK [2][-]{subsection.10.3.2}{Dials}{section.10.3}
+\BOOKMARK [1][-]{section.10.4}{Special indicators}{chapter.10}
+\BOOKMARK [2][-]{subsection.10.4.1}{Lighted icons}{section.10.4}
+\BOOKMARK [0][-]{chapter.11}{Logging systems}{part.2}
+\BOOKMARK [1][-]{section.11.1}{Requirements}{chapter.11}
+\BOOKMARK [0][-]{chapter.12}{Domain specific languages \(DSL\)}{part.2}
+\BOOKMARK [1][-]{section.12.1}{Objectives}{chapter.12}
+\BOOKMARK [1][-]{section.12.2}{Compiler implementation}{chapter.12}
+\BOOKMARK [0][-]{chapter.13}{Compilers}{part.2}

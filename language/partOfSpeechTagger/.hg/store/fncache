@@ -1,0 +1,15 @@
+data/README.htm.i
+data/src/partofspeechtagger/CorpusProcessor.scala.i
+data/src/partofspeechtagger/HMM.scala.i
+data/src/partofspeechtagger/LabelPropogationTagger.scala.i
+data/src/partofspeechtagger/Main.scala.i
+data/src/partofspeechtagger/Tagger.scala.i
+data/src/utils/collection/BijectiveMap.scala.i
+data/src/utils/collection/MatrixBuffer.scala.i
+data/src/utils/io/TextTableParser.scala.i
+data/src/partofspeechtagger/runtimeSettings.properties.i
+data/src/languageCodes.i
+data/src/languageCodes.properties.i
+data/src/partofspeechtagger/languageCodes.properties.i
+data/src/partofspeechtagger/LabelPropagationTagger.scala.i
+data/src/partofspeechtagger/OpenNLP.scala.i

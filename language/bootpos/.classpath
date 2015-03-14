@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/scala"/>
+	<classpathentry kind="lib" path="bin/sbt-launch.jar"/>
+	<classpathentry kind="lib" path="lib_managed/compile/jwnl-1.3.3.jar"/>
+	<classpathentry kind="lib" path="lib_managed/compile/opennlp-maxent-3.0.1-incubating.jar"/>
+	<classpathentry kind="lib" path="lib_managed/compile/opennlp-tools-1.5.1-incubating.jar"/>
+	<classpathentry kind="lib" path="lib_managed/jars/ch.qos.logback/logback-classic/logback-classic-0.9.30.jar"/>
+	<classpathentry kind="lib" path="lib_managed/jars/ch.qos.logback/logback-core/logback-core-0.9.30.jar"/>
+	<classpathentry kind="lib" path="lib_managed/jars/com.weiglewilczek.slf4s/slf4s_2.9.1/slf4s_2.9.1-1.0.7.jar"/>
+	<classpathentry kind="lib" path="lib_managed/jars/jwnl/jwnl/jwnl-1.3.3.jar"/>
+	<classpathentry kind="lib" path="lib_managed/jars/org.apache.opennlp/opennlp-maxent/opennlp-maxent-3.0.1-incubating.jar"/>
+	<classpathentry kind="lib" path="lib_managed/jars/org.apache.opennlp/opennlp-tools/opennlp-tools-1.5.1-incubating.jar"/>
+	<classpathentry kind="lib" path="lib_managed/jars/org.slf4j/slf4j-api/slf4j-api-1.6.2.jar"/>
+	<classpathentry kind="lib" path="lib/junto-assembly.jar"/>
+	<classpathentry kind="lib" path="project/boot/old-scala-2.9.1/lib/jansi.jar"/>
+	<classpathentry kind="lib" path="project/boot/old-scala-2.9.1/lib/jline.jar"/>
+	<classpathentry kind="lib" path="project/boot/old-scala-2.9.1/lib/scala-compiler.jar"/>
+	<classpathentry kind="lib" path="project/boot/old-scala-2.9.1/lib/scala-library.jar"/>
+	<classpathentry kind="lib" path="project/boot/other/net.java.dev.jna/jna/3.2.3/jna-3.2.3.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

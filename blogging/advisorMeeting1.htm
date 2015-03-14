@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN">
+<html><head>
+    <meta name="generator" content="HTML Tidy for Linux/x86 (vers 1st October 2002), see www.w3.org">
+    <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+    
+    <title>Research meeting record</title><link rel="stylesheet" href="../../contentStylesheet.css" type="text/css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head>
+<body>
+    <p>Data mining research meeting</p>
+    <h4>Progress since last meeting:</h4>
+    <h5>What I've been thinking about:</h5><p>Read Leskovec paper which introduced the <a href="http://www.cs.cmu.edu/%7Ejure/pubs/kronecker-pkdd05.pdf">Kronecker
+    product model</a>. Did not understand the following:</p><ul><li>How does multinomial degree distribution translate so well into power law distribution, as demonstrated in the paper?</li><li>What are the weaknesses of this model? The following things are not answered in the paper.</li><ul><li>Is it true that it lacks community structure? How to check this?</li><li>Does it have a good variety of network motifs?</li><li>Is its clustering coefficient as desired?</li></ul></ul><p>Read <a href="http://www.cs.utexas.edu/users/inderjit/public_papers/kdd_cocluster.pdf">
+    Information theoretic clustering</a> paper.</p><ul><li>Did not verify monotonic convergence and some other proofs.</li><li>Don't yet understand how preserving marginals will preserve/ ensure good degree distribution.</li><li>Don't yet know how information theoretic coclustering may be used in generating graphs.</li></ul><p>Currently reading the relevant parts of Leskovec's thesis.</p><p>Talked to others. Yet to follow up on suggestions.</p><ul><li>Zhengdong suggested
+looking at Stochastic block model too, but later intuited problems in
+preserving degree distribution. Yet to read that paper.</li><li>Prateek suggested the <a href="http://research.google.com/pubs/pub35369.html">Affiliation networks</a> paper.</li></ul>
+    <h5>Attempted attacks on problems:</h5>
+    
+    Suggest Kronecker product of real world graphs.
+     
+    <h5>Other progress:</h5><p></p>
+    <h4>Ideas and questions to discuss:</h4><p>Explain
+current befuddlement about the use of information theoretic
+coclustering in graph generation. Received following clarification.</p><ul><li>Take
+adjascency matrix corresponding to a graph with power law degree
+distribution, scale to a joint probability distribution matrix.</li><li>Look
+upon this as the matrix q(X,Y) in the information theoretic
+coclustering paper. Can you use the algorithm which transitions between
+different iterates of q in the paper to create new iterates which show
+better clustering properties.</li><ul><li>Problem, easily seen by Zhengdong: Something akin to matrix p(X,Y) in the information theoretic coclustering paper is required.</li></ul></ul><p>Suggest plans for the coming month.</p><ul><li>Check if ideas for experimentation will be a worthy research goal.</li><ul><li>Agreed.</li></ul><li>Acquire
+approval for working on other interesting problems I find by discussing
+papers with senior lab-members, in case I am stuck while he is away.</li><ul><li>Approved.</li></ul></ul>
+    <h4>Suggested Plans for the coming week:</h4>Read papers related to the problem.<br><ul><li>Relevant parts of Lekovec's thesis.</li><li>
+    Consider the <a href="http://dspace.mit.edu/bitstream/handle/1721.1/30489/MIT-CSAIL-TR-2004-050.pdf?sequence=2">Stochastic Block model</a> paper. However, Zhendong intuits that it may not work because it won't preserve the degree distribution.</li><li>The <a href="http://research.google.com/pubs/pub35369.html">Affiliation networks</a> paper.</li><li>Read papers authored by Kleinberg and Lekovec, where it is
+    shown that as graphs evolve, even though more verteces are
+    added, the diameter shrinks.</li><li>Look at Kleinberg's video lectures online.
+    </li></ul><p>Analyze the weaknesses of the Kronecker product paper with
+experiments.</p><p>Try out the "Kronecker product of real world graphs" idea,
+if you don't get a better idea upon reading other papers.</p><ul><li>Does this overcome any defect of the Kronecker model? It does introduce randomness of a different sort.</li></ul><p>Read ICML papers being discussed, observe current research.</p><p>Try
+to reverse information theoretic coclustering to create a graph
+generator. How to make a graph starting with a clustering? Try to
+understand this statement: "We can specify the marginals, so we can feed the power
+      law distribution, but figure out how to provide other
+      properties."</p><h4>Feedback:</h4><p></p><h5>Suggested papers to read:</h5><p>Gravity clustering was suggested. A couple of other suggestions escape the mind.</p><h4>Evaluation of the meeting:</h4>
+    <p><br></p>
+    <p><br>
+    </p>
+    <h4>Action required:</h4>
+    <p>Learn about
+    forest fire and preferential attachment models.</p>
+    <p>Read suggested papers.&nbsp;</p><p>Read ICML papers being discussed.</p><h4>Appendix:</h4><p></p>
+  </body></html>

@@ -1,0 +1,287 @@
+\documentclass[oneside, article]{memoir}
+
+\input{../packages}
+\input{../packagesMemoir}
+\input{../macros}
+
+%opening
+\title{Software: architecture, engineering: Survey}
+\author{vishvAs vAsuki}
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+
+\chapter{Themes and techniques}
+For distributed computing, computer networks, software engineering, see elsewhere.
+
+Architecture considers how code may be organized.
+
+\section{Engineering Process}
+How to come up with better processes to get teams to churn out more reliable software with fewer resources?
+
+\part{Art of Engineering software}
+\chapter{The overall picture}
+Programming is a matter of unambiguously telling the computer what to do, in a language it understands.
+
+\section{Understanding specifications}
+In the industry, this involves surveying customers, rapid prototyping, talking to end-users etc.. In research, the specifications come from the research problem.
+
+\chapter{Correct coding}
+\section{High level strategy}
+\subsection{Modularity}
+This is an excellent technique for dealing with complexity in software construction. Its benefits are described elsewhere. Use it to break up code into small easily codeable, provable and testable pieces.
+
+\subsubsection{Separation of concerns}
+Each module may provide certain services and may inturn require services provided by other modules for their realization.
+
+However, the internal workings of any module is, to a great extant opaque to other modules.
+
+\subsubsection{Benefits}
+The greatest benefit of modularity is the ability to reduce complexity in designing, analyzing and implementing complex pieces of software.
+
+Also, it facilitates code reuse, and Fewer lines of code imply fewer bugs.
+
+The abstraction/ hiding of inner working of modules also enables a high degree of mutability: Modules may be rewritten, tuned for different conditions freely as long as they provide the agreed-upon services.
+
+\subsubsection{Service Layers}
+In case module A depends on the services provided by module B, but not vice-versa, module B can be considered to occupy a lower level/ layer in a software/ service stack.
+
+Examples of use of this powerful simplifying technique: designing computer networks' protocols, operating system design, compilers etc..
+
+\subsubsection{Organizing code}
+Clearly understand what functions are available, where they are likely to be used etc..
+
+Organize code using OOP ideas even if you use functional programming: use namespaces. If you have state info in various objects, use access specifiers well: don't provide public access unless you have to.
+
+Also use nested functions where possible!
+
+\exclaim{Refactor often.}
+
+
+\subsubsection{In implementing a monolithic function}
+Also, make use of anonymous/ nested functions to neatly chop up the logic which goes into a function!
+
+\subsection{Code reuse}
+\subsubsection{Beware of redoing others' work}
+Try hard not to write code when others have already done that. Debugging takes time. Eg: Tempted by P's suggestions that it is easy to implement, I wrote matlab version of block coordinate descent algorithm described in the van-greer paper; but debugging it took much time. Eg2: wrote cross validation code, only to discover that it is part of the matlab statistics toolbox.
+
+\section{Module-level strategy overview}
+Write down an implementation suitable for the language being used.
+
+\subsection{Preconditions}
+Don't write code in computer language until you are clear about the logic. You should be surprised if the program fails.
+
+\subsection{Activities}
+Do this cyclically: coding attempt, systematic code review, run tests.
+
+\subsection{'Correct conception' vs 'Debugging until correctness'}
+Usual case: It is difficult to write perfectly correct programs at the first attempt. Often, most of the time is spent in debugging code, rather than in conceiving its logic.
+
+Maybe this does not have to be the case. If more time and care is spent in correctly conceiving the program, less time is spent in debugging.
+
+\subsubsection{Choice}
+The former activity is slightly slow (to the point of being boring) while latter is frustrating. However, the former is the lesser of two evils, and must be chosen.
+
+Don't stray too far from the pen and paper. Increases clarity, increases enthusiasm.
+
+\subsection{Changes to old code}
+When ever you make a change to old code, follow the 'correct coding' protocol again. Be very sure to systematically review the altered function to ensure that it works as intended. If possible rerun test.
+
+\section{Specify behaviour perfectly}
+Specify the domain and range of the function perfectly.
+
+Specifying the behaviour of a function on various inputs and contingencies can drastically reduce negligence.
+
+\subsection{Check input validity}
+Include checks for calls with invalid input. This is facilitated by programming language constructs called 'assertions'.
+
+\subsection{Module comments}
+Comment on various state variables, where they are altered etc..
+
+\subsection{Function comments}
+Include the following parts:
+Description, Syntax, Input, Output, Examples, References, 'see also'.
+
+\section{Systematic code review}
+Critique the implementation to check faithfulness to the logic.
+
+\subsection{Very important!}
+Don't run/ test the code until you are sure that the logic is perfect, if not the syntactic expression.
+
+Don't be sure that the implementation is correct until you have systematically reviewed the functioning! This is because, often, it is not possible to design a complete set of test cases.
+
+\subsection{Over-Confidence bias}
+This is best done with a fresh mind, rather than immediately after the coding attempt.
+
+\subsection{Tracking confidence}
+One's confidence in each function's implementation should be carefully tracked - perhaps through comments of the form 'Confidence in correctness: High. Reason: Tested multiple times'.
+
+\subsection{Prove correctness}
+Then write down the logic in detail. Use safety and progress properties to reason about algorithms: particularly the former. You should be surprised if the program fails.
+
+\subsubsection{Write statements to prove}
+Simply writing down the statements to be proved and arguing at a high level why they are correct yields major results.
+
+Demands of correctness often correspond to invariant propositions involving certain variables.
+
+\tbc
+
+\subsubsection{Axioms for external functions calls}
+State your expectations of the functions you are calling.
+
+\subsubsection{Thoroughness vs Time required}
+This can take a long time : especially when recursion, distributed computing or other intricate logic is involved.
+
+This is not necessarily a trivial task, even when the logic, at a high level, seems simple. Eg: Find the path in a tree to a leaf with a certain property, while implementing pruning to avoid visiting leaves unnecessarily.
+
+\section{Run tests, debug}
+Be a detective! Understand the bug, solve it in minimum time. Use tools such as debuggers which allow 'stepping into the code', loggers etc..
+
+\subsection{Syntactic errors}
+These are the easiest to resolve. But, in case of poorly documented / new language features or in case of complicated instructions, these can be time consuming.
+
+\subsection{Semantic errors}
+\subsubsection{Verify input validity}
+If some function call does not go through, first verify that arguments which are being passed are not weird.
+
+\subsubsection{Take a step back}
+It is best to return to 'design and prove correctness' stage of program implementation and do everything that follows. It is important to know when to step back - do not rush with this!
+
+\subsubsection{Logging}
+Include logger statements at critical points in functions, ye should be able to control the logging level.
+
+\subsection{Errors in memory/ process management}
+Make good use of debuggers.
+
+In case of memory leaks, the computer may end up allocating an ever increasing amount of memory to the program until it runs out of resources.
+
+
+\chapter{Speedy coding}
+Coding speed, in most applications, should not come at the cost of errors.
+
+\section{Syntax references}
+Make and use surveys / examples to easily lookup language syntax and functions.
+
+\section{Choosing programming languages}
+One must use the language most appropriate language to solve the problem at hand quickly and with computational efficiency.
+
+Sometimes, a tradeoff may be involved: tradeoff between expressiveness and efficiency of a language. One may even use different programming languages to specify different parts of the logic to the computer.
+
+\subsection{Expressiveness}
+Expressiveness is important in rapid prototyping/ programming.
+
+Writing linear algebra logic in Java or C, for example, is far more tedious and cumbersome than using Matlab for the purpose, even in the presence of some good library functions: You end up worrying about low-level things like data representation and casting, rather than the linear algebra.
+
+Common operations and transformations on collections like Lists, Maps etc are much more efficient in functional languages like Scala than in C or Java.
+
+\section{Complexity}
+More complex code is harder to implement : sometimes, there one can make choices which lead to simpler code - by simplifying requirements or interface languages for example.
+
+\subsection{Cyclostomic complexity}
+THis is the number of edges in a representation of a program as a flow chart. The more conditional and looping statements there are, the greater the cyclostomic complexity.
+
+\section{Maintainability}
+Constructs may need to be changed or extended in the future. Code written in the past should be easy to understand.
+
+\subsection{Comments for enabling understandability}
+So make comments and documentation copious.
+
+When declaring (class) variables, write comments indicating purpose, desired properties.
+
+When a particular design choice is implemented, comments may be included to justify the choice.
+
+\subsection{Naming conventions}
+Use good naming conventions for all identifiers. Use meaningful names; make it easy to read with capital letters at word beginnings: listIterator.
+
+Macros and constants in CAPS.
+
+Classes starting with capital letter. methods, objects, packagesMemoir start with small case. Maybe variable names prefixed to indicate data type.
+
+In case of collections/ namespaces of multiple objects of type Str, the Java convention is to use the name str, rather than strs.
+
+\subsection{Version control}
+Use version control or just dropbox. \tbc
+
+\section{Automate tests}
+In case of code to be shipped: test every function; make test scripts.
+
+\subsection{Externalizing messages}
+Message strings should, in most cases, not be hard-coded inside the code. Instead, message strings should be externalized; perhaps be returned by a function when provided with an appropriate key. 
+
+This separates the program logic from the messages cleanly. One advantage of doing this is that these messages can be changed without touching the program logic.
+
+This is also convenient when the program needs to be made available in several different languages.
+
+\section{For research}
+\subsection{Have a good library}
+Don't rewrite the same logic multiple times: put it away in functions.
+
+\subsection{Experiment functions}
+Make a function out of each experiment.
+
+Clearly make program variables for all parameters involved in the experiment. You should not have to comment or uncomment code to run different variations of the experiment; you should just set the experiment parameters as necessary.
+
+\subsection{Automatic logging}
+Corresponding to each experiment, create a log file with a time stamp automatically, perhaps of the same name.
+
+
+\chapter{Writing efficient code}
+Put theoretical analysis from algorithms and data structures to good use.
+
+\section{Optimizing code for speed}
+Use a profiler to detect parts of the code which are slow. Use libraries optimized for speed.
+
+Avoid repeated memory allocation.
+
+Avoid writing loops in interpreted languages without 'just in time compiling' facilities like Matlab: use a compiled language like C instead: otherwise interpretation costs for executing the code piles up.
+
+\chapter{Group programming strategy}
+\section{Processes}
+Hold code reviews.
+
+Use a bug/ task management system.
+
+Have major and minor code-releases.
+
+\section{Pair programming}
+Advantage is that you learn from your partner. Programming is more social, enjoyable; enthusiasm is maintained.
+
+\part{Special software}
+\chapter{Computer networks}
+Considered in a separate survey.
+
+\chapter{Operating systems}
+Act as an interface between the various software jobs and the hardware.
+
+Tasks include scheduling, memory management, disk management, handling i/o etc.
+
+\section{Scheduling}
+Swapping: must remember location of current instruction, memory contents etc..
+
+\section{Threads}
+There are threads/ processes. States: ready to be executed, executing, blocked: waiting for resource or a signal, terminated.
+
+\subsection{Coordinating processes}
+See distributed computing ref.
+
+\chapter{Logging systems}
+Examples include various java logging frameworks including log4j.
+
+\section{Requirements}
+One is to be able to log at various levels, usually named debug, info, error etc..
+
+Log messages should be informative and customizable: printing things like the name of the function where it originates, the class-name, the line number, the time, the log-message level etc..
+
+Logging is to have a simple, yet expressive syntax for constructing messages.
+
+One is to be able to set logging levels for various modules at various levels.
+
+\chapter{Compilers}
+\tbc
+
+% \bibliographystyle{plain}
+% \bibliography{randomizedAlgorithms}
+
+\end{document}

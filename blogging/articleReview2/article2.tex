@@ -1,0 +1,82 @@
+\documentclass[10pt]{amsart}
+
+
+\input{../../macros}
+
+%opening
+\title{Estimating the Support of a High-Dimensional Distribution: Scholkopf et al}
+\author{vishvAs vAsuki}
+
+\begin{document}
+\maketitle
+
+
+\section{Depth with which this was read, progress}
+Did not read and understand sections 2, 4, parts of 5, parts of 7 and appendix A well.
+
+\section{Problems}
+Given a sample drawn from a distribution drawn from a high dimensional space, how would you estimate its support?
+
+\section{Motivating real life scenarios}
+Novelty detection. They try out the example on the USPS hand-written digit database and seem to succeed in identifying outliers
+
+\section{The Model}
+\subsection{Terms and Variables used}
+
+\subsection{The specification of the problem}
+Find set S such that $Pr(x \notin S)<p \in (0,1]$. Can be solved by probability density estimation techniques, but actually simpler.
+
+\section{Results, methods and ideas}
+\subsection{Using soft margin hyperplane in feature space corresponding to a kernel}
+
+Given N examples $\set{s_{i}}$; project to some feature space associated with kernel $k(x,y) = \gf(x)^{T}\gf(y)$; want to find hyperplane $w^{T}\gf(x) - \gr$ such that all points in the support fall on one side of the hyperplane, outliers fall on the other side: support identifier $f = sgn(w^{T}x - \gr)$; so, allowing a soft margin, want to solve $\max_{\gr, w} \frac{\gr}{\norm{w}} + C\sum \gx_{i}$ such that $w^{T}\gf(x_{i}) + \gx_{i} \geq \gr, \gx_{i} \geq 0$; $\equiv$ obj fn: $\min_{w, \gx, \gr} \norm{w}^{2}/2 + \frac{1}{\gn N} \sum \gx_{i} - \gr$, for some coefficient $0 \leq \gn \leq 1$.
+
+Thence get Lagrangian: $L(w, \gx, \gr, \ga, \gb) =  \norm{w}^{2}/2 + \frac{1}{\gn N} \sum \gx_{i} - \gr - \sum \ga_{i}(w^{T}\gf(x_{i}) + \gx_{i} - \gr) - \sum \gb_{i}\gx_{i}$ with $\ga, \gb \geq 0$.
+
+Set derivatives wrt primal vars $w, \gx, \gr$ to 0 to get: $w = \sum_{i}\ga_{i}\gf(x_{i}); \ga_{i} = \frac{1}{\gn N} - \gb_{i} \leq \frac{1}{\gn N}, \sum_{i} \ga_{i} = 1$. Thence, the support identifier becomes \\
+$f = sgn(\sum_{i}\ga_{i}k(x_{i},x) - \gr)$; dual optimization problem becomes \\
+$min_{\ga} - 2^{-1} \sum_{i,j}a_{i}a_{j}k(x_{i}, x_{j})$ subject to $0 \leq \ga_{i} \leq (\gn N)^{-1}, \sum_{i}\ga_{i} =1$. Solving this, discover w; then recover $\gr$ using $\gr = w^{T}\gf(x_{i})$ for $x_{i}$ with $\ga_{i} \neq 0; \gb_{i} \neq 0$ (support vector with $\gb_{i} > 0$): $\exists x_{i}$ as $\sum \ga_{i} = 1; \ga_{i} \geq 0$.
+
+\subsubsection{Choosing kernel, tuning parameters}
+$\gn \propto$ softness of the margin, number of support vectors, thence the runtime, sensitivity to appearence of novelty.
+
+With Gaussian kernel, any data set is seperable as everything is mapped to same quadrant in feature space.
+
+\subsubsection{Comparison with thresholded Kernel Density estimator}
+If $\gn = 1, \ga_{i} = 1/N$, support identifier $f = sgn(\sum_{i}\ga_{i}k(x_{i},x) - \gr)$ same as one using a Kernel (Parzen) Density estimator. What happens when $\gn < 1$?
+
+\subsubsection{Comparison with using soft margin balls in the feature space}
+Here one solves: \\
+$\min_{R, \gx, c} R^{2} + \frac{1}{\gn N} \sum_{i}\gx_{i}$ subject to $\norm{\gf(x_{i} - c)}^{2}  - \gx_{i}\leq R^{2}, \gx_{i}\geq 0$.
+
+After using the Lagrangian, finding the critical points and substituting, this leads to the dual $\min_{\ga}\sum_{i,j}\ga_{i}\ga_{j}k(x_{i}, x_{j}) - \sum_{i}\ga_{i}k(x_{i}, x_{i})$ subject to $0 \leq \ga_{i} \leq \frac{1}{\gn N}, \sum \ga_{i} = 1$, and the solution $c = \sum \ga_{i}\gf(x_{i})$ corresponding to support identifier $f = sgn(R^{2} - \sum_{i,j}\ga_{i}\ga_{j}k(x_{i}, x_{j}) + 2\sum_{i}k(x_{i}, x)- k(x,x) )$ \chk.
+
+For homogenous kernels, $k(x,x)$ is a constant and the dual minimization problem and the support identifier is equivalent to the minimization problem derived from the hyperplane formulation. So, all mapped patterns lie in a sphere in feature space; finding the smallest sphere containing them is equivalent to finding the segment of the sphere containing the data points, which reduces to finding the separating hyperplane.
+
+\subsubsection{Connection to binary classification}
+Hyperplane $(w, \gr = 0)$ \\
+separates $\set{(x_{i}, 1)}$ from $(-x_{i}, -1)$ with margin $\gr/\norm{w}$ and vice-versa.
+
+
+\section{Assumptions}
+
+\section{What could have been tried to yield equivalent results}
+
+\section{Shortcomings of the results (Very important)}
+
+
+\section{Open problems}
+\oprob How to decide width of Gaussian kernel to use? Can you use information about the abnormal class in choosing the kernel?
+
+\section{Interesting facts and results from elsewhere}
+
+
+\section{Comments on writing style}
+Well written. Some graphs could have used better explanation.
+
+\section{Questions}
+
+
+
+
+\end{document}

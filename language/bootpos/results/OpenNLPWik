@@ -1,0 +1,823 @@
+/home/vvasuki/vishvas/work/language/bootpos/target/classes:/home/vvasuki/vishvas/work/language/bootpos/src/main/resources:/home/vvasuki/vishvas/work/language/bootpos/lib/junto-assembly.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/compile/opennlp-tools-1.5.1-incubating.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/compile/jwnl-1.3.3.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/compile/opennlp-maxent-3.0.1-incubating.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/jars/org.slf4j/slf4j-api/slf4j-api-1.6.2.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/jars/jwnl/jwnl/jwnl-1.3.3.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/jars/com.weiglewilczek.slf4s/slf4s_2.9.1/slf4s_2.9.1-1.0.7.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/jars/ch.qos.logback/logback-classic/logback-classic-0.9.30.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/jars/ch.qos.logback/logback-core/logback-core-0.9.30.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/jars/org.apache.opennlp/opennlp-maxent/opennlp-maxent-3.0.1-incubating.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/jars/org.apache.opennlp/opennlp-tools/opennlp-tools-1.5.1-incubating.jar:
+Properties file: /home/vvasuki/Dropbox/Public/vishvas/work/language/bootpos/src/main/resources/default/runtimeSettings.properties
+taggerType: OpenNLP
+Using universal tags? true
+Using wiktionary? true
+bRawDataFromTrainingFile? true
+Using training data? false
+Training tokens limit 99000
+Raw tokens limit 99000
+en ptb
+Encoding: UTF-8
+18:21:31 o.b.a.CorpusProcessor 103 --- Training with mode TEMP-S20110618.tsv
+18:21:31 o.b.a.CorpusProcessor 196 --- mode TEMP-S20110618.tsv
+18:21:31 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, EX -> DET, JJS -> ADJ, : -> ., ? -> ., NN|NNS -> NOUN, RBR -> ADV, NOUN -> NOUN, WH -> X, WDT -> DET, VBD|VBN -> VERB, VB -> VERB, IN -> ADP, VP -> VERB, # -> ., ( -> ., FW -> X, CC -> CONJ, JJR -> ADJ, , -> ., NN|SYM -> NOUN, PRP$ -> PRON, RB|RP -> ADV, VBG|NN -> VERB, JJ|RB -> ADJ, X -> X, TO -> PRT, JJRJR -> ADJ, JJ|VBG -> ADJ, WP -> PRON, NP -> NOUN, VBZ -> VERB, CD|RB -> X, ! -> ., . -> ., ADV -> ADV, JJ -> ADJ, WRB -> ADV, VBN -> VERB, VBD -> VERB, RB|VBG -> ADV, VBP -> VERB, NNP -> NOUN, RN -> X, ### -> ###, RB -> ADV, NNPS -> NOUN, ADJ -> ADJ, RP -> PRT, ADP -> ADP, WP$ -> PRON, LS -> X, PRP -> PRON, PRT -> PRT, CD -> NUM, NN -> NOUN, VBG -> VERB, DT -> DET, -LRB- -> ., SYM -> X, RBS -> ADV, DET -> DET, `` -> ., $ -> ., ) -> ., POS -> PRT, PRP|VBP -> PRON, '' -> ., PDT -> DET, CONJ -> CONJ, UH -> X, NUM -> NUM, VBP|TO -> VERB, IN|RP -> ADP, MD -> VERB, VERB -> VERB, -RRB- -> ., NN|VBG -> NOUN, NNS -> NOUN)
+18:21:31 o.b.a.CorpusProcessor 83 --- Processing untagged data.
+18:21:31 o.b.a.CorpusProcessor 196 --- mode train
+18:21:31 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/en/ptb/train/train.pos
+18:21:32 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, EX -> DET, JJS -> ADJ, : -> ., ? -> ., NN|NNS -> NOUN, RBR -> ADV, NOUN -> NOUN, WH -> X, WDT -> DET, VBD|VBN -> VERB, VB -> VERB, IN -> ADP, VP -> VERB, # -> ., ( -> ., FW -> X, CC -> CONJ, JJR -> ADJ, , -> ., NN|SYM -> NOUN, PRP$ -> PRON, RB|RP -> ADV, VBG|NN -> VERB, JJ|RB -> ADJ, X -> X, TO -> PRT, JJRJR -> ADJ, JJ|VBG -> ADJ, WP -> PRON, NP -> NOUN, VBZ -> VERB, CD|RB -> X, ! -> ., . -> ., ADV -> ADV, JJ -> ADJ, WRB -> ADV, VBN -> VERB, VBD -> VERB, RB|VBG -> ADV, VBP -> VERB, NNP -> NOUN, RN -> X, ### -> ###, RB -> ADV, NNPS -> NOUN, ADJ -> ADJ, RP -> PRT, ADP -> ADP, WP$ -> PRON, LS -> X, PRP -> PRON, PRT -> PRT, CD -> NUM, NN -> NOUN, VBG -> VERB, DT -> DET, -LRB- -> ., SYM -> X, RBS -> ADV, DET -> DET, `` -> ., $ -> ., ) -> ., POS -> PRT, PRP|VBP -> PRON, '' -> ., PDT -> DET, CONJ -> CONJ, UH -> X, NUM -> NUM, VBP|TO -> VERB, IN|RP -> ADP, MD -> VERB, VERB -> VERB, -RRB- -> ., NN|VBG -> NOUN, NNS -> NOUN)
+18:21:33 o.b.a.CorpusProcessor 94 --- Got 99000
+18:21:33 o.b.a.CorpusProcessor 113 --- Loading test words too while picking dictionary entries.
+18:21:33 o.b.a.CorpusProcessor 196 --- mode test
+18:21:33 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/en/ptb/test/test0.pos
+18:21:33 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, EX -> DET, JJS -> ADJ, : -> ., ? -> ., NN|NNS -> NOUN, RBR -> ADV, NOUN -> NOUN, WH -> X, WDT -> DET, VBD|VBN -> VERB, VB -> VERB, IN -> ADP, VP -> VERB, # -> ., ( -> ., FW -> X, CC -> CONJ, JJR -> ADJ, , -> ., NN|SYM -> NOUN, PRP$ -> PRON, RB|RP -> ADV, VBG|NN -> VERB, JJ|RB -> ADJ, X -> X, TO -> PRT, JJRJR -> ADJ, JJ|VBG -> ADJ, WP -> PRON, NP -> NOUN, VBZ -> VERB, CD|RB -> X, ! -> ., . -> ., ADV -> ADV, JJ -> ADJ, WRB -> ADV, VBN -> VERB, VBD -> VERB, RB|VBG -> ADV, VBP -> VERB, NNP -> NOUN, RN -> X, ### -> ###, RB -> ADV, NNPS -> NOUN, ADJ -> ADJ, RP -> PRT, ADP -> ADP, WP$ -> PRON, LS -> X, PRP -> PRON, PRT -> PRT, CD -> NUM, NN -> NOUN, VBG -> VERB, DT -> DET, -LRB- -> ., SYM -> X, RBS -> ADV, DET -> DET, `` -> ., $ -> ., ) -> ., POS -> PRT, PRP|VBP -> PRON, '' -> ., PDT -> DET, CONJ -> CONJ, UH -> X, NUM -> NUM, VBP|TO -> VERB, IN|RP -> ADP, MD -> VERB, VERB -> VERB, -RRB- -> ., NN|VBG -> NOUN, NNS -> NOUN)
+18:21:36 o.b.a.TagMap 76 --- unknown tag PHRASE :word & cetera
+18:21:36 o.b.a.TagMap 78 --- PHRASE -> X
+18:21:36 o.b.a.TagMap 76 --- unknown tag INTERJECTION :word 'ave it
+18:21:36 o.b.a.TagMap 78 --- INTERJECTION -> X
+18:21:36 o.b.a.TagMap 76 --- unknown tag SUFFIX :word 'd
+18:21:36 o.b.a.TagMap 78 --- SUFFIX -> X
+18:21:36 o.b.a.TagMap 76 --- unknown tag CONTRACTION :word 'd better
+18:21:36 o.b.a.TagMap 78 --- CONTRACTION -> X
+18:21:36 o.b.a.TagMap 76 --- unknown tag AFFIX :word -a-
+18:21:36 o.b.a.TagMap 78 --- AFFIX -> X
+18:21:36 o.b.a.TagMap 76 --- unknown tag INFIX :word -bloody-
+18:21:36 o.b.a.TagMap 78 --- INFIX -> X
+18:21:36 o.b.a.TagMap 76 --- unknown tag INTERFIX :word -i-
+18:21:36 o.b.a.TagMap 78 --- INTERFIX -> X
+18:21:36 o.b.a.TagMap 76 --- unknown tag ETYMOLOGY :word -ory
+18:21:36 o.b.a.TagMap 78 --- ETYMOLOGY -> X
+18:21:36 o.b.a.TagMap 76 --- unknown tag LETTER :word A
+18:21:36 o.b.a.TagMap 78 --- LETTER -> X
+18:21:36 o.b.a.TagMap 76 --- unknown tag PREFIX :word Afro-
+18:21:36 o.b.a.TagMap 78 --- PREFIX -> X
+18:21:37 o.b.a.TagMap 76 --- unknown tag IDIOM :word a piece of cake
+18:21:37 o.b.a.TagMap 78 --- IDIOM -> X
+18:21:37 o.b.a.TagMap 76 --- unknown tag CIRCUMFIX :word a- -ing
+18:21:37 o.b.a.TagMap 78 --- CIRCUMFIX -> X
+18:21:39 o.b.a.TagMap 76 --- unknown tag ETYMOLOGY 2 :word plums
+18:21:39 o.b.a.TagMap 78 --- ETYMOLOGY 2 -> X
+18:21:54 o.b.u.c.Dictionary 44 --- 74902 in 99002
+18:21:54 o.b.u.c.Dictionary 46 --- Dict completeness 0.7564949172743985
+Indexing events using cutoff of 5
+
+	Computing event counts...  done. 43141 events
+	Indexing...  done.
+Sorting and merging events... done. Reduced 43141 events to 33886.
+Done indexing.
+Incorporating indexed data for training...  
+done.
+	Number of Event Tokens: 33886
+	    Number of Outcomes: 9
+	  Number of Predicates: 20434
+...done.
+Computing model parameters...
+Performing 100 iterations.
+  1:  .. loglikelihood=-94790.4654908495	0.0026888574673744232
+  2:  .. loglikelihood=-45590.87287648306	0.6953709927910804
+  3:  .. loglikelihood=-35554.16889161202	0.7360979114995017
+  4:  .. loglikelihood=-31374.03828887595	0.7510952458218401
+  5:  .. loglikelihood=-29042.310259820082	0.7620592939431168
+  6:  .. loglikelihood=-27522.220948525082	0.7706126422660579
+  7:  .. loglikelihood=-26431.093585405128	0.7755499408914953
+  8:  .. loglikelihood=-25595.31244336029	0.7803249808766602
+  9:  .. loglikelihood=-24924.803646690183	0.7840801094086831
+ 10:  .. loglikelihood=-24368.102540147098	0.7870239447393431
+ 11:  .. loglikelihood=-23893.578973094965	0.7896432627894578
+ 12:  .. loglikelihood=-23480.664452293957	0.7921003221992999
+ 13:  .. loglikelihood=-23115.369682361434	0.7944183027746228
+ 14:  .. loglikelihood=-22787.825583844824	0.7968753621844649
+ 15:  .. loglikelihood=-22490.85517981724	0.798915185090749
+ 16:  .. loglikelihood=-22219.10389510048	0.800955007997033
+ 17:  .. loglikelihood=-21968.488168501553	0.802577594399759
+ 18:  .. loglikelihood=-21735.833651579054	0.8048260355578221
+ 19:  .. loglikelihood=-21518.630701984464	0.8067267796295867
+ 20:  .. loglikelihood=-21314.864903714642	0.8081175679747804
+ 21:  .. loglikelihood=-21122.897021150144	0.8096937947659999
+ 22:  .. loglikelihood=-20941.376387355624	0.8112004821399597
+ 23:  .. loglikelihood=-20769.177412188754	0.8127071695139195
+ 24:  .. loglikelihood=-20605.352365448773	0.813982058830347
+ 25:  .. loglikelihood=-20449.095781229888	0.8150483298949954
+ 26:  .. loglikelihood=-20299.717264346298	0.8163000394056698
+ 27:  .. loglikelihood=-20156.620447431043	0.8178067267796296
+ 28:  .. loglikelihood=-20019.286510653965	0.8192206949305765
+ 29:  .. loglikelihood=-19887.26113279212	0.8207737419160428
+ 30:  .. loglikelihood=-19760.144057406927	0.8217704735634316
+ 31:  .. loglikelihood=-19637.58067629555	0.8227672052108204
+ 32:  .. loglikelihood=-19519.25518565048	0.8236943974409494
+ 33:  .. loglikelihood=-19404.884979702743	0.8246911290883382
+ 34:  .. loglikelihood=-19294.21602606143	0.8256415011242206
+ 35:  .. loglikelihood=-19187.01902560303	0.8267541318003755
+ 36:  .. loglikelihood=-19083.086203696366	0.8276581442247514
+ 37:  .. loglikelihood=-18982.228612782514	0.8288866739296725
+ 38:  .. loglikelihood=-18884.273851730995	0.8296979671310355
+ 39:  .. loglikelihood=-18789.06412694739	0.8307874180014372
+ 40:  .. loglikelihood=-18696.454595341394	0.831784149648826
+ 41:  .. loglikelihood=-18606.311941080803	0.8327808812962147
+ 42:  .. loglikelihood=-18518.513147302023	0.8337312533320971
+ 43:  .. loglikelihood=-18432.944431254662	0.8347743445909923
+ 44:  .. loglikelihood=-18349.50031712769	0.8356783570153682
+ 45:  .. loglikelihood=-18268.08282542887	0.8365360098282376
+ 46:  .. loglikelihood=-18188.60076145879	0.8374400222526135
+ 47:  .. loglikelihood=-18110.969088410628	0.8380658770079507
+ 48:  .. loglikelihood=-18035.108373011513	0.8388771702093136
+ 49:  .. loglikelihood=-17960.944293589193	0.8399202614682089
+ 50:  .. loglikelihood=-17888.40720203218	0.8407315546695718
+ 51:  .. loglikelihood=-17817.4317324305	0.8413805892306623
+ 52:  .. loglikelihood=-17747.95645027707	0.842168702626272
+ 53:  .. loglikelihood=-17679.92353701076	0.8429104564103753
+ 54:  .. loglikelihood=-17613.27850546587	0.8438608284462576
+ 55:  .. loglikelihood=-17547.969942445405	0.8445562226188544
+ 56:  .. loglikelihood=-17483.949275213556	0.8453443360144642
+ 57:  .. loglikelihood=-17421.170559204445	0.8460629099928143
+ 58:  .. loglikelihood=-17359.59028467747	0.8465265061078788
+ 59:  .. loglikelihood=-17299.167200431944	0.8471987204747224
+ 60:  .. loglikelihood=-17239.862152999223	0.848079553093345
+ 61:  .. loglikelihood=-17181.63793997834	0.8488676664889548
+ 62:  .. loglikelihood=-17124.45917635966	0.8498180385248372
+ 63:  .. loglikelihood=-17068.292172785445	0.8503743538629146
+ 64:  .. loglikelihood=-17013.104824757083	0.8506988711434598
+ 65:  .. loglikelihood=-16958.866511814496	0.8512088268700309
+ 66:  .. loglikelihood=-16905.548005712524	0.851834681625368
+ 67:  .. loglikelihood=-16853.1213866337	0.852645974826731
+ 68:  .. loglikelihood=-16801.559966492427	0.8530863911360422
+ 69:  .. loglikelihood=-16750.83821845288	0.8535268074453536
+ 70:  .. loglikelihood=-16700.931711864403	0.8540367631719247
+ 71:  .. loglikelihood=-16651.81705191581	0.8545930785100021
+ 72:  .. loglikelihood=-16603.471823434364	0.8552421130710924
+ 73:  .. loglikelihood=-16555.874538355245	0.8558447880206764
+ 74:  .. loglikelihood=-16509.004586489616	0.8562620245242345
+ 75:  .. loglikelihood=-16462.842189298375	0.8568183398623119
+ 76:  .. loglikelihood=-16417.36835643927	0.857536913840662
+ 77:  .. loglikelihood=-16372.564844900886	0.8579077907327136
+ 78:  .. loglikelihood=-16328.414120562658	0.8584409262650379
+ 79:  .. loglikelihood=-16284.899322042707	0.8588813425743492
+ 80:  .. loglikelihood=-16242.004226700059	0.8594840175239331
+ 81:  .. loglikelihood=-16199.71321867259	0.859878074221738
+ 82:  .. loglikelihood=-16158.011258827704	0.8603184905310494
+ 83:  .. loglikelihood=-16116.883856512914	0.8607589068403607
+ 84:  .. loglikelihood=-16076.31704299358	0.8610138847036461
+ 85:  .. loglikelihood=-16036.29734647108	0.8613847615956979
+ 86:  .. loglikelihood=-15996.81176857618	0.8618947173222689
+ 87:  .. loglikelihood=-15957.847762242458	0.8623583134373334
+ 88:  .. loglikelihood=-15919.39321086632	0.8627523701351383
+ 89:  .. loglikelihood=-15881.436408665128	0.8633086854732157
+ 90:  .. loglikelihood=-15843.966042156153	0.8638186411997868
+ 91:  .. loglikelihood=-15806.971172676655	0.8641199786745787
+ 92:  .. loglikelihood=-15770.441219879363	0.8645372151781368
+ 93:  .. loglikelihood=-15734.36594613472	0.8649776314874481
+ 94:  .. loglikelihood=-15698.735441783292	0.8654875872140192
+ 95:  .. loglikelihood=-15663.540111180355	0.8656498458542917
+ 96:  .. loglikelihood=-15628.770659483513	0.8660439025520966
+ 97:  .. loglikelihood=-15594.418080134732	0.8663915996383951
+ 98:  .. loglikelihood=-15560.473642992776	0.866692937113187
+ 99:  .. loglikelihood=-15526.928883078419	0.8669710947822257
+100:  .. loglikelihood=-15493.775589890374	0.8672492524512645
+18:22:19 o.b.a.CorpusProcessor 144 --- Testing en ptb
+18:22:19 o.b.a.CorpusProcessor 196 --- mode test
+18:22:19 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/en/ptb/test/test0.pos
+18:22:19 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, EX -> DET, PRONOUN -> NOUN, INTERFIX -> X, JJS -> ADJ, PROPER NOUN -> NOUN, ? -> ., : -> ., NN|NNS -> NOUN, PREFIX -> X, RBR -> ADV, {{ACRONYM|ENGLISH}} -> X, {{ABBREVIATION|LANG=EN}} -> X, NOUN -> NOUN, INFIX -> X, VB -> VERB, VBD|VBN -> VERB, WDT -> DET, WH -> X, IN -> ADP, VP -> VERB, ETYMOLOGY 2 -> X, {{INITIALISM|EN}} -> X, # -> ., ( -> ., FW -> X, CC -> CONJ, JJR -> ADJ, PRP$ -> PRON, NN|SYM -> NOUN, , -> ., RB|RP -> ADV, PHRASE -> X, VBG|NN -> VERB, CONJUNCTION -> CONJ, ORDINAL NUMBER -> NUM, {{INITIALISM}} 1 -> X, JJ|RB -> ADJ, X -> X, TO -> PRT, JJRJR -> ADJ, JJ|VBG -> ADJ, {{ACRONYM|EN}} -> X, SUFFIX -> X, WP -> PRON, NP -> NOUN, CARDINAL NUMBER -> NUM, VBZ -> VERB, POSTPOSITION -> ADP, {{ACRONYM}} -> X, NUMERAL -> NUM, . -> ., ! -> ., CD|RB -> X, DETERMINER -> DET, INITIALISM -> X, ADV -> ADV, PREPOSITIONAL PHRASE -> ADP, SYMBOL -> NOUN, PUNCTUATION MARK -> X, JJ -> ADJ, {{INITIALISM}} 2 -> X, LETTER -> X, WRB -> ADV, VBD -> VERB, VBN -> VERB, ARTICLE -> DET, ACRONYM -> X, RB|VBG -> ADV, VBP -> VERB, NNP -> NOUN, ABBREVIATION -> X, RN -> X, RB -> ADV, ### -> ###, ADJECTIVE -> ADJ, NNPS -> NOUN, ADJ -> ADJ, RP -> PRT, WP$ -> PRON, ADP -> ADP, IDIOM -> X, INTERJECTION -> X, {{INITIALISM|ENGLISH}} -> X, PRP -> PRON, LS -> X, NUMBER -> NUM, PRT -> PRT, {{INITIALISM}} -> X, NN -> NOUN, CD -> NUM, ADVERB -> VERB, -LRB- -> ., DT -> DET, VBG -> VERB, SYM -> X, AFFIX -> X, {{ABBREVIATION|ENGLISH}} -> X, RBS -> ADV, DET -> DET, POS -> PRT, ) -> ., $ -> ., `` -> ., ETYMOLOGY -> X, CIRCUMFIX -> X, PRP|VBP -> PRON, PDT -> DET, '' -> ., {{ACRONYM|LANG=EN}} -> X, UH -> X, CONJ -> CONJ, PREPOSITION -> ADP, CONTRACTION -> X, VBP|TO -> VERB, NUM -> NUM, IN|RP -> ADP, PROVERB -> VERB, VERB FORM -> VERB, {{ABBREVIATION}} -> X, PARTICLE -> PRT, {{INITIALISM|LANG=EN}} -> X, {{ABBREVIATION|EN}} -> X, MD -> VERB, VERB -> VERB, -RRB- -> ., NN|VBG -> NOUN, NNS -> NOUN)
+18:22:19 o.b.a.CorpusProcessor 150 --- test tokens: 137295
+18:22:35 o.b.a.TaggerTester 90 --- ((The,DET),NOUN) ((Arizona,NOUN),NOUN) ((Corporations,NOUN),NOUN) ((Commission,NOUN),NOUN) ((authorized,VERB),VERB) ((an,DET),CONJ) ((11.5,NUM),X) ((%,NOUN),NOUN) ((rate,NOUN),NOUN) ((increase,NOUN),NOUN) ((at,ADP),NOUN) ((Tucson,NOUN),NOUN) ((Electric,NOUN),NOUN) ((Power,NOUN),NOUN) ((Co.,NOUN),X) ((,,.),NOUN) ((substantially,ADV),VERB) ((lower,ADJ),VERB) ((than,ADP),CONJ) ((recommended,VERB),VERB) ((last,ADJ),VERB) ((month,NOUN),NOUN) ((by,ADP),VERB) ((a,DET),NOUN) ((commission,NOUN),NOUN) ((hearing,NOUN),VERB) ((officer,NOUN),VERB) ((and,CONJ),CONJ) ((barely,ADV),VERB) ((half,DET),ADJ) ((the,DET),NOUN) ((rise,NOUN),VERB) ((sought,VERB),VERB) ((by,ADP),VERB) ((the,DET),VERB) ((utility,NOUN),NOUN) ((.,.),X) ((###,###),###) ((The,DET),NOUN) ((ruling,NOUN),VERB) ((follows,VERB),NOUN) ((a,DET),NOUN) ((host,NOUN),VERB) ((of,ADP),VERB) ((problems,NOUN),VERB) ((at,ADP),ADJ) ((Tucson,NOUN),NOUN) ((Electric,NOUN),NOUN) ((,,.),NOUN) ((including,VERB),VERB)
+18:22:36 o.b.a.TaggerTester 95 --- numTags 1 numWordsTraining 1 numWordsSeen 0 numWordsTotal 16506
+18:22:36 o.b.a.TaggingResult 55 --- Accuracy: 0.354, (Training: NaN, Seen: NaN, Novel: 0.354)
+
+18:22:36 o.b.a.TaggingResult 56 --- Non training tokens: 1.000
+
+18:22:36 o.b.a.CorpusProcessor 153 --- 13 unmapped tags.
+pt bosque
+Encoding: UTF-8
+18:22:36 o.b.a.CorpusProcessor 103 --- Training with mode TEMP-S20110618.tsv
+18:22:36 o.b.a.CorpusProcessor 196 --- mode TEMP-S20110618.tsv
+18:22:36 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, ? -> ., NOUN -> NOUN, IN -> X, ART -> DET, CONJ-S -> CONJ, VP -> VERB, V-PCP -> VERB, X -> X, PRON-DET -> PRON, V-GER -> VERB, CONJ-C -> CONJ, EC -> X, . -> ., ADV -> ADV, PRON-INDP -> PRON, PROP -> NOUN, ### -> ###, ADJ -> ADJ, ADP -> ADP, PRON-PERS -> PRON, V -> VERB, PRP -> ADP, PRT -> PRT, PP -> NOUN, PUNC -> ., DET -> DET, N -> NOUN, V-FIN -> VERB, CONJ -> CONJ, V-INF -> VERB, NUM -> NUM, VERB -> VERB)
+18:22:36 o.b.a.CorpusProcessor 83 --- Processing untagged data.
+18:22:36 o.b.a.CorpusProcessor 196 --- mode train
+18:22:36 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/pt/bosque/train/portuguese_bosque_train.conll
+18:22:36 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, ? -> ., NOUN -> NOUN, IN -> X, ART -> DET, CONJ-S -> CONJ, VP -> VERB, V-PCP -> VERB, X -> X, PRON-DET -> PRON, V-GER -> VERB, CONJ-C -> CONJ, EC -> X, . -> ., ADV -> ADV, PRON-INDP -> PRON, PROP -> NOUN, ### -> ###, ADJ -> ADJ, ADP -> ADP, PRON-PERS -> PRON, V -> VERB, PRP -> ADP, PRT -> PRT, PP -> NOUN, PUNC -> ., DET -> DET, N -> NOUN, V-FIN -> VERB, CONJ -> CONJ, V-INF -> VERB, NUM -> NUM, VERB -> VERB)
+18:22:37 o.b.a.CorpusProcessor 94 --- Got 99000
+18:22:37 o.b.a.CorpusProcessor 113 --- Loading test words too while picking dictionary entries.
+18:22:37 o.b.a.CorpusProcessor 196 --- mode test
+18:22:37 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/pt/bosque/test/portuguese_bosque_test.conll
+18:22:37 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, ? -> ., NOUN -> NOUN, IN -> X, ART -> DET, CONJ-S -> CONJ, VP -> VERB, V-PCP -> VERB, X -> X, PRON-DET -> PRON, V-GER -> VERB, CONJ-C -> CONJ, EC -> X, . -> ., ADV -> ADV, PRON-INDP -> PRON, PROP -> NOUN, ### -> ###, ADJ -> ADJ, ADP -> ADP, PRON-PERS -> PRON, V -> VERB, PRP -> ADP, PRT -> PRT, PP -> NOUN, PUNC -> ., DET -> DET, N -> NOUN, V-FIN -> VERB, CONJ -> CONJ, V-INF -> VERB, NUM -> NUM, VERB -> VERB)
+18:22:52 o.b.a.TagMap 76 --- unknown tag SUFFIX :word -agem
+18:22:52 o.b.a.TagMap 78 --- SUFFIX -> X
+18:22:52 o.b.a.TagMap 76 --- unknown tag AFFIX :word -un-
+18:22:52 o.b.a.TagMap 78 --- AFFIX -> X
+18:22:52 o.b.a.TagMap 76 --- unknown tag PHRASE :word Bicho Ignorante Operando o Sistema
+18:22:52 o.b.a.TagMap 78 --- PHRASE -> X
+18:22:52 o.b.a.TagMap 76 --- unknown tag DIACRITICAL MARK :word ^
+18:22:52 o.b.a.TagMap 78 --- DIACRITICAL MARK -> X
+18:22:52 o.b.a.TagMap 76 --- unknown tag CONTRACTION :word a
+18:22:52 o.b.a.TagMap 78 --- CONTRACTION -> X
+18:22:52 o.b.a.TagMap 76 --- unknown tag LETTER :word a
+18:22:52 o.b.a.TagMap 78 --- LETTER -> X
+18:22:52 o.b.a.TagMap 76 --- unknown tag IDIOM :word a curiosidade matou o gato
+18:22:52 o.b.a.TagMap 78 --- IDIOM -> X
+18:22:52 o.b.a.TagMap 76 --- unknown tag INTERJECTION :word adeus
+18:22:52 o.b.a.TagMap 78 --- INTERJECTION -> X
+18:22:52 o.b.a.TagMap 76 --- unknown tag PREFIX :word ambi-
+18:22:52 o.b.a.TagMap 78 --- PREFIX -> X
+18:22:56 o.b.u.c.Dictionary 44 --- 56081 in 99002
+18:22:56 o.b.u.c.Dictionary 46 --- Dict completeness 0.5664066574412638
+Indexing events using cutoff of 5
+
+	Computing event counts...  done. 5105 events
+	Indexing...  done.
+Sorting and merging events... done. Reduced 5105 events to 4583.
+Done indexing.
+Incorporating indexed data for training...  
+done.
+	Number of Event Tokens: 4583
+	    Number of Outcomes: 8
+	  Number of Predicates: 1707
+...done.
+Computing model parameters...
+Performing 100 iterations.
+  1:  .. loglikelihood=-10615.54907027551	0.3872673849167483
+  2:  .. loglikelihood=-5906.387932671199	0.7651322233104799
+  3:  .. loglikelihood=-4532.589573386138	0.7755142017629775
+  4:  .. loglikelihood=-3924.4597563472666	0.7849167482859941
+  5:  .. loglikelihood=-3575.8870697897196	0.7915768854064642
+  6:  .. loglikelihood=-3343.890803071233	0.7998041136141039
+  7:  .. loglikelihood=-3174.7363988318493	0.804309500489716
+  8:  .. loglikelihood=-3043.7585590874082	0.8078354554358472
+  9:  .. loglikelihood=-2937.964924887561	0.8115572967678746
+ 10:  .. loglikelihood=-2849.8082487799998	0.8146914789422135
+ 11:  .. loglikelihood=-2774.5702227906186	0.8172380019588639
+ 12:  .. loglikelihood=-2709.1299278481342	0.8199804113614104
+ 13:  .. loglikelihood=-2651.3313813068094	0.8227228207639569
+ 14:  .. loglikelihood=-2599.634286474569	0.8252693437806072
+ 15:  .. loglikelihood=-2552.908500274414	0.8266405484818805
+ 16:  .. loglikelihood=-2510.3061050692613	0.8276199804113614
+ 17:  .. loglikelihood=-2471.1781534376696	0.8295788442703232
+ 18:  .. loglikelihood=-2435.0187892696326	0.8329089128305582
+ 19:  .. loglikelihood=-2401.4269106939	0.8344760039177277
+ 20:  .. loglikelihood=-2370.079355286623	0.8354554358472086
+ 21:  .. loglikelihood=-2340.711789504134	0.8378060724779628
+ 22:  .. loglikelihood=-2313.104865231008	0.8399608227228208
+ 23:  .. loglikelihood=-2287.07408556517	0.8417238001958864
+ 24:  .. loglikelihood=-2262.462360448122	0.8421155729676787
+ 25:  .. loglikelihood=-2239.1345391640757	0.843486777668952
+ 26:  .. loglikelihood=-2216.9733764173466	0.8442703232125367
+ 27:  .. loglikelihood=-2195.876503387953	0.8458374142997062
+ 28:  .. loglikelihood=-2175.75408149661	0.8468168462291871
+ 29:  .. loglikelihood=-2156.5269198709834	0.8479921645445642
+ 30:  .. loglikelihood=-2138.124922707021	0.8505386875612145
+ 31:  .. loglikelihood=-2120.485789486758	0.8511263467189031
+ 32:  .. loglikelihood=-2103.553921631438	0.8523016650342801
+ 33:  .. loglikelihood=-2087.279502883891	0.8546523016650343
+ 34:  .. loglikelihood=-2071.6177264218027	0.8560235063663075
+ 35:  .. loglikelihood=-2056.5281448449714	0.8562193927522037
+ 36:  .. loglikelihood=-2041.9741220353546	0.8573947110675808
+ 37:  .. loglikelihood=-2027.9223689417072	0.8577864838393732
+ 38:  .. loglikelihood=-2014.3425484017166	0.8583741429970617
+ 39:  .. loglikelihood=-2001.2069369091896	0.8601371204701274
+ 40:  .. loglikelihood=-1988.490133604977	0.8609206660137121
+ 41:  .. loglikelihood=-1976.1688086870488	0.8617042115572968
+ 42:  .. loglikelihood=-1964.221484944169	0.8620959843290892
+ 43:  .. loglikelihood=-1952.6283472940943	0.8622918707149853
+ 44:  .. loglikelihood=-1941.3710761278178	0.8634671890303623
+ 45:  .. loglikelihood=-1930.4327009868728	0.8644466209598433
+ 46:  .. loglikelihood=-1919.7974716810284	0.8646425073457394
+ 47:  .. loglikelihood=-1909.4507444227072	0.865230166503428
+ 48:  .. loglikelihood=-1899.3788809366804	0.8660137120470127
+ 49:  .. loglikelihood=-1889.5691588188088	0.867384916748286
+ 50:  .. loglikelihood=-1880.009691678221	0.8681684622918707
+ 51:  .. loglikelihood=-1870.689357813908	0.8685602350636631
+ 52:  .. loglikelihood=-1861.5977363578136	0.8693437806072478
+ 53:  .. loglikelihood=-1852.7250499684264	0.8703232125367287
+ 54:  .. loglikelihood=-1844.0621132859874	0.8707149853085211
+ 55:  .. loglikelihood=-1835.600286468778	0.8711067580803135
+ 56:  .. loglikelihood=-1827.331433220536	0.8714985308521058
+ 57:  .. loglikelihood=-1819.2478827972354	0.8722820763956906
+ 58:  .. loglikelihood=-1811.342395547134	0.8726738491674828
+ 59:  .. loglikelihood=-1803.6081315952467	0.8730656219392752
+ 60:  .. loglikelihood=-1796.0386223315131	0.872869735553379
+ 61:  .. loglikelihood=-1788.627744404535	0.8732615083251714
+ 62:  .. loglikelihood=-1781.3696959585864	0.8740450538687561
+ 63:  .. loglikelihood=-1774.2589748832372	0.8744368266405484
+ 64:  .. loglikelihood=-1767.2903588721822	0.8754162585700294
+ 65:  .. loglikelihood=-1760.4588871115016	0.8752203721841332
+ 66:  .. loglikelihood=-1753.7598434384872	0.8758080313418217
+ 67:  .. loglikelihood=-1747.1887408298592	0.8767874632713026
+ 68:  .. loglikelihood=-1740.7413070941543	0.8773751224289912
+ 69:  .. loglikelihood=-1734.4134716568583	0.8783545543584721
+ 70:  .. loglikelihood=-1728.2013533388183	0.8787463271302645
+ 71:  .. loglikelihood=-1722.1012490390092	0.8791380999020568
+ 72:  .. loglikelihood=-1716.1096232422967	0.8791380999020568
+ 73:  .. loglikelihood=-1710.2230982806147	0.8799216454456416
+ 74:  .. loglikelihood=-1704.438445283672	0.8803134182174339
+ 75:  .. loglikelihood=-1698.752575761206	0.8801175318315377
+ 76:  .. loglikelihood=-1693.1625337648102	0.8801175318315377
+ 77:  .. loglikelihood=-1687.6654885822293	0.8805093046033301
+ 78:  .. loglikelihood=-1682.2587279213535	0.8816846229187072
+ 79:  .. loglikelihood=-1676.9396515454844	0.8822722820763957
+ 80:  .. loglikelihood=-1671.7057653244144	0.8828599412340842
+ 81:  .. loglikelihood=-1666.5546756695765	0.8830558276199804
+ 82:  .. loglikelihood=-1661.4840843240818	0.8832517140058765
+ 83:  .. loglikelihood=-1656.491783481029	0.8840352595494613
+ 84:  .. loglikelihood=-1651.5756512057662	0.884818805093046
+ 85:  .. loglikelihood=-1646.733647139988	0.884818805093046
+ 86:  .. loglikelihood=-1641.9638084671833	0.8850146914789422
+ 87:  .. loglikelihood=-1637.2642461208777	0.8852105778648384
+ 88:  .. loglikelihood=-1632.6331412184468	0.8854064642507345
+ 89:  .. loglikelihood=-1628.0687417048118	0.8856023506366307
+ 90:  .. loglikelihood=-1623.5693591914453	0.8854064642507345
+ 91:  .. loglikelihood=-1619.133365977439	0.8856023506366307
+ 92:  .. loglikelihood=-1614.7591922402555	0.8859941234084231
+ 93:  .. loglikelihood=-1610.4453233848512	0.886973555337904
+ 94:  .. loglikelihood=-1606.1902975406435	0.8875612144955926
+ 95:  .. loglikelihood=-1601.9927031967197	0.8883447600391773
+ 96:  .. loglikelihood=-1597.8511769661793	0.8889324191968658
+ 97:  .. loglikelihood=-1593.7644014715552	0.8889324191968658
+ 98:  .. loglikelihood=-1589.7311033433036	0.8889324191968658
+ 99:  .. loglikelihood=-1585.7500513245095	0.889128305582762
+100:  .. loglikelihood=-1581.8200544750962	0.889128305582762
+18:22:59 o.b.a.CorpusProcessor 144 --- Testing pt bosque
+18:22:59 o.b.a.CorpusProcessor 196 --- mode test
+18:22:59 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/pt/bosque/test/portuguese_bosque_test.conll
+18:22:59 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, PRONOUN -> NOUN, PROPER NOUN -> NOUN, ? -> ., PREFIX -> X, NOUN -> NOUN, IN -> X, ART -> DET, ORDINAL NUMERAL -> NUM, VP -> VERB, CONJ-S -> CONJ, V-PCP -> VERB, {{ABBREVIATION|LANG=PT}} -> X, {{ACRONYM|PT}} -> X, PHRASE -> X, CONJUNCTION -> CONJ, X -> X, PRON-DET -> PRON, DIACRITICAL MARK -> X, V-GER -> VERB, SUFFIX -> X, {{ACRONYM|PORTUGUESE}} -> X, CONJ-C -> CONJ, CARDINAL NUMBER -> NUM, EC -> X, . -> ., {{INITIALISM|LANG=PT}} -> X, CARDINAL NUMERAL -> NUM, ADV -> ADV, INITIALISM -> X, SYMBOL -> NOUN, LETTER -> X, PRON-INDP -> PRON, ARTICLE -> DET, ACRONYM -> X, ABBREVIATION -> X, PROP -> NOUN, ### -> ###, ADJECTIVE -> ADJ, {{ABBREVIATION|PORTUGUESE}} -> X, ADJ -> ADJ, V -> VERB, PRON-PERS -> PRON, ADP -> ADP, INTERJECTION -> X, IDIOM -> X, PRP -> ADP, PRT -> PRT, PUNC -> ., PP -> NOUN, ADVERB -> VERB, AFFIX -> X, V-FIN -> VERB, DET -> DET, N -> NOUN, {{ABBREVIATION|PT}} -> X, V-INF -> VERB, PREPOSITION -> ADP, CONTRACTION -> X, CONJ -> CONJ, NUM -> NUM, PROVERB -> VERB, PRONOMINAL ADVERB -> VERB, VERB FORM -> VERB, VERB -> VERB)
+18:22:59 o.b.a.CorpusProcessor 150 --- test tokens: 6155
+18:22:59 o.b.a.TaggerTester 90 --- ((É,ADV),NOUN) ((por,ADP),ADP) ((isso,PRON),NOUN) ((que,ADV),CONJ) ((,,.),VERB) ((explica,VERB),VERB) ((,,.),VERB) ((não,ADV),VERB) ((tem,VERB),VERB) ((pena,NOUN),NOUN) ((de,ADP),ADP) ((Hillary_Clinton,NOUN),NOUN) ((.,.),ADJ) ((###,###),###) ((«,.),NOUN) ((Eles,PRON),X) (([,.),NOUN) ((Hillary,NOUN),NOUN) ((e,CONJ),NOUN) ((Bill_Clinton,NOUN),NOUN) ((],.),NOUN) ((podem,VERB),VERB) ((ter,VERB),VERB) ((alguma,PRON),ADJ) ((espécie,NOUN),NOUN) ((de,ADP),ADP) ((acordo,NOUN),VERB) ((e,CONJ),CONJ) ((quem,PRON),NOUN) ((somos,VERB),NOUN) ((nós,PRON),NOUN) ((para,ADP),VERB) ((dizer,VERB),VERB) ((se,CONJ),NOUN) ((é,VERB),VERB) ((bom,ADJ),VERB) ((ou,CONJ),CONJ) ((mau,ADJ),ADJ) ((?,.),NOUN) ((###,###),###) ((Acho,VERB),NOUN) ((que,CONJ),CONJ) ((eles,PRON),X) ((têm,VERB),VERB) ((mais,PRON),VERB) ((maturidade,NOUN),NOUN) ((em_relação_a,ADP),NOUN) ((o,DET),NOUN) ((sexo,NOUN),NOUN) ((,,.),NOUN)
+18:22:59 o.b.a.TaggerTester 95 --- numTags 1 numWordsTraining 1 numWordsSeen 0 numWordsTotal 4924
+18:22:59 o.b.a.TaggingResult 55 --- Accuracy: 0.464, (Training: NaN, Seen: NaN, Novel: 0.464)
+
+18:22:59 o.b.a.TaggingResult 56 --- Non training tokens: 1.000
+
+18:22:59 o.b.a.CorpusProcessor 153 --- 9 unmapped tags.
+da ddt
+Encoding: UTF-8
+18:22:59 o.b.a.CorpusProcessor 103 --- Training with mode TEMP-S20110618.tsv
+18:22:59 o.b.a.CorpusProcessor 196 --- mode TEMP-S20110618.tsv
+18:22:59 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, U -> X, SP -> ADP, NOUN -> NOUN, XP -> X, PI -> PRON, PD -> PRON, CC -> CONJ, X -> X, VA -> VERB, NP -> NOUN, AO -> ADJ, PC -> PRON, . -> ., ADV -> ADV, XA -> X, XS -> X, XF -> X, ### -> ###, RG -> ADV, ADJ -> ADJ, ADP -> ADP, AN -> ADJ, PRT -> PRT, PP -> PRON, CS -> CONJ, DET -> DET, I -> X, VE -> VERB, CONJ -> CONJ, XR -> X, NUM -> NUM, XX -> X, AC -> ADJ, VERB -> VERB, PO -> PRON, NC -> NOUN, PT -> PRON)
+18:22:59 o.b.a.CorpusProcessor 83 --- Processing untagged data.
+18:22:59 o.b.a.CorpusProcessor 196 --- mode train
+18:22:59 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/da/ddt/train/danish_ddt_train.conll
+18:22:59 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, U -> X, SP -> ADP, NOUN -> NOUN, XP -> X, PI -> PRON, PD -> PRON, CC -> CONJ, X -> X, VA -> VERB, NP -> NOUN, AO -> ADJ, PC -> PRON, . -> ., ADV -> ADV, XA -> X, XS -> X, XF -> X, ### -> ###, RG -> ADV, ADJ -> ADJ, ADP -> ADP, AN -> ADJ, PRT -> PRT, PP -> PRON, CS -> CONJ, DET -> DET, I -> X, VE -> VERB, CONJ -> CONJ, XR -> X, NUM -> NUM, XX -> X, AC -> ADJ, VERB -> VERB, PO -> PRON, NC -> NOUN, PT -> PRON)
+18:23:00 o.b.a.CorpusProcessor 94 --- Got 99000
+18:23:00 o.b.a.CorpusProcessor 113 --- Loading test words too while picking dictionary entries.
+18:23:00 o.b.a.CorpusProcessor 196 --- mode test
+18:23:00 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/da/ddt/test/danish_ddt_test.conll
+18:23:00 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, U -> X, SP -> ADP, NOUN -> NOUN, XP -> X, PI -> PRON, PD -> PRON, CC -> CONJ, X -> X, VA -> VERB, NP -> NOUN, AO -> ADJ, PC -> PRON, . -> ., ADV -> ADV, XA -> X, XS -> X, XF -> X, ### -> ###, RG -> ADV, ADJ -> ADJ, ADP -> ADP, AN -> ADJ, PRT -> PRT, PP -> PRON, CS -> CONJ, DET -> DET, I -> X, VE -> VERB, CONJ -> CONJ, XR -> X, NUM -> NUM, XX -> X, AC -> ADJ, VERB -> VERB, PO -> PRON, NC -> NOUN, PT -> PRON)
+18:23:01 o.b.a.TagMap 76 --- unknown tag SUFFIX :word -else
+18:23:01 o.b.a.TagMap 78 --- SUFFIX -> X
+18:23:01 o.b.a.TagMap 76 --- unknown tag LETTER :word W
+18:23:01 o.b.a.TagMap 78 --- LETTER -> X
+18:23:01 o.b.a.TagMap 76 --- unknown tag INTERJECTION :word adjø
+18:23:01 o.b.a.TagMap 78 --- INTERJECTION -> X
+18:23:01 o.b.a.TagMap 76 --- unknown tag PHRASE :word alle gode gange tre
+18:23:01 o.b.a.TagMap 78 --- PHRASE -> X
+18:23:01 o.b.a.TagMap 76 --- unknown tag PREFIX :word bi-
+18:23:01 o.b.a.TagMap 78 --- PREFIX -> X
+18:23:01 o.b.a.TagMap 76 --- unknown tag IDIOM :word dyden i midten
+18:23:01 o.b.a.TagMap 78 --- IDIOM -> X
+18:23:01 o.b.a.TagMap 76 --- unknown tag NUN :word insekts
+18:23:01 o.b.a.TagMap 78 --- NUN -> X
+18:23:18 o.b.u.c.Dictionary 44 --- 54282 in 99002
+18:23:18 o.b.u.c.Dictionary 46 --- Dict completeness 0.5482371245025353
+Indexing events using cutoff of 5
+
+	Computing event counts...  done. 6462 events
+	Indexing...  done.
+Sorting and merging events... done. Reduced 6462 events to 5823.
+Done indexing.
+Incorporating indexed data for training...  
+done.
+	Number of Event Tokens: 5823
+	    Number of Outcomes: 9
+	  Number of Predicates: 3292
+...done.
+Computing model parameters...
+Performing 100 iterations.
+  1:  .. loglikelihood=-14198.465218745394	0.005416279789538843
+  2:  .. loglikelihood=-7598.648405810861	0.7290312596719282
+  3:  .. loglikelihood=-5790.440379931977	0.7477561126586196
+  4:  .. loglikelihood=-4990.835810903515	0.7624574435159394
+  5:  .. loglikelihood=-4537.5221446584455	0.7711234911792015
+  6:  .. loglikelihood=-4241.093166978822	0.7777777777777778
+  7:  .. loglikelihood=-4028.8450995165863	0.7838130609718353
+  8:  .. loglikelihood=-3867.126633815307	0.7887650882079852
+  9:  .. loglikelihood=-3738.2254862942223	0.7930981120396162
+ 10:  .. loglikelihood=-3631.908141213267	0.797121634168988
+ 11:  .. loglikelihood=-3541.836776515638	0.7989786443825441
+ 12:  .. loglikelihood=-3463.87469249289	0.801454658000619
+ 13:  .. loglikelihood=-3395.2095195088123	0.8028474156607861
+ 14:  .. loglikelihood=-3333.8651168215238	0.8047044258743423
+ 15:  .. loglikelihood=-3278.41391612424	0.8062519343856391
+ 16:  .. loglikelihood=-3227.7995903272376	0.8073351903435468
+ 17:  .. loglikelihood=-3181.223622545757	0.8102754565150109
+ 18:  .. loglikelihood=-3138.070526718163	0.812132466728567
+ 19:  .. loglikelihood=-3097.8573294857024	0.8142989786443825
+ 20:  .. loglikelihood=-3060.1987402048458	0.8147632311977716
+ 21:  .. loglikelihood=-3024.7827047369997	0.8158464871556793
+ 22:  .. loglikelihood=-2991.352963645078	0.8178582482203652
+ 23:  .. loglikelihood=-2959.696413131671	0.819870009285051
+ 24:  .. loglikelihood=-2929.6338084125828	0.8214175177963479
+ 25:  .. loglikelihood=-2901.01282614317	0.8240482822655525
+ 26:  .. loglikelihood=-2873.7028147023816	0.8255957907768493
+ 27:  .. loglikelihood=-2847.590768452047	0.8271432992881461
+ 28:  .. loglikelihood=-2822.578201449338	0.8280718043949242
+ 29:  .. loglikelihood=-2798.5786907985544	0.8297740637573506
+ 30:  .. loglikelihood=-2775.5159248627533	0.8316310739709069
+ 31:  .. loglikelihood=-2753.322136693162	0.8324048282265553
+ 32:  .. loglikelihood=-2731.936834714543	0.833488084184463
+ 33:  .. loglikelihood=-2711.305765206786	0.8344165892912411
+ 34:  .. loglikelihood=-2691.3800573025355	0.8350355926957598
+ 35:  .. loglikelihood=-2672.115512999321	0.8362735995047973
+ 36:  .. loglikelihood=-2653.472013360015	0.8379758588672238
+ 37:  .. loglikelihood=-2635.413018539859	0.8395233673785206
+ 38:  .. loglikelihood=-2617.9051441443175	0.8416898792943361
+ 39:  .. loglikelihood=-2600.917800120066	0.8424636335499845
+ 40:  .. loglikelihood=-2584.4228812171855	0.8433921386567627
+ 41:  .. loglikelihood=-2568.3945002527116	0.8443206437635407
+ 42:  .. loglikelihood=-2552.8087571117626	0.8458681522748375
+ 43:  .. loglikelihood=-2537.6435377613743	0.8472609099350047
+ 44:  .. loglikelihood=-2522.878338607672	0.8484989167440421
+ 45:  .. loglikelihood=-2508.4941123662143	0.8494274218508202
+ 46:  .. loglikelihood=-2494.4731322857488	0.8500464252553389
+ 47:  .. loglikelihood=-2480.7988721034285	0.850974930362117
+ 48:  .. loglikelihood=-2467.455899545611	0.8515939337666357
+ 49:  .. loglikelihood=-2454.4297815415853	0.8523676880222841
+ 50:  .. loglikelihood=-2441.7069996064556	0.8531414422779325
+ 51:  .. loglikelihood=-2429.274874086863	0.8542246982358404
+ 52:  .. loglikelihood=-2417.1214961588234	0.854843701640359
+ 53:  .. loglikelihood=-2405.235666629644	0.8549984524914888
+ 54:  .. loglikelihood=-2393.606840730575	0.8560817084493965
+ 55:  .. loglikelihood=-2382.225078201114	0.8567007118539152
+ 56:  .. loglikelihood=-2371.080998059961	0.8573197152584339
+ 57:  .. loglikelihood=-2360.1657375391164	0.8580934695140823
+ 58:  .. loglikelihood=-2349.470914725151	0.8590219746208604
+ 59:  .. loglikelihood=-2338.98859450997	0.8593314763231198
+ 60:  .. loglikelihood=-2328.7112575028063	0.8599504797276385
+ 61:  .. loglikelihood=-2318.631771598302	0.8610337356855463
+ 62:  .. loglikelihood=-2308.743365931083	0.8614979882389353
+ 63:  .. loglikelihood=-2299.0396069799854	0.862116991643454
+ 64:  .. loglikelihood=-2289.514376611616	0.8624264933457134
+ 65:  .. loglikelihood=-2280.161851877063	0.8633549984524915
+ 66:  .. loglikelihood=-2270.9764863962296	0.8642835035592695
+ 67:  .. loglikelihood=-2261.9529931823213	0.8647477561126586
+ 68:  .. loglikelihood=-2253.086328774713	0.8653667595171773
+ 69:  .. loglikelihood=-2244.371678562701	0.865985762921696
+ 70:  .. loglikelihood=-2235.80444319441	0.8664500154750852
+ 71:  .. loglikelihood=-2227.3802259761705	0.8667595171773445
+ 72:  .. loglikelihood=-2219.094821177294	0.8670690188796039
+ 73:  .. loglikelihood=-2210.9442031632875	0.8675332714329929
+ 74:  .. loglikelihood=-2202.924516288546	0.8686165273909007
+ 75:  .. loglikelihood=-2195.032065485586	0.86892602909316
+ 76:  .. loglikelihood=-2187.263307494475	0.8692355307954194
+ 77:  .. loglikelihood=-2179.614842680916	0.8692355307954194
+ 78:  .. loglikelihood=-2172.083407396507	0.8698545341999381
+ 79:  .. loglikelihood=-2164.66586683857	0.8715567935623646
+ 80:  .. loglikelihood=-2157.3592083714125	0.871866295264624
+ 81:  .. loglikelihood=-2150.1605352733377	0.8724852986691427
+ 82:  .. loglikelihood=-2143.0670608778596	0.8729495512225317
+ 83:  .. loglikelihood=-2136.0761030793765	0.8740328071804395
+ 84:  .. loglikelihood=-2129.185079176884	0.8741875580315692
+ 85:  .. loglikelihood=-2122.3915010308847	0.8744970597338285
+ 86:  .. loglikelihood=-2115.692970511288	0.8748065614360879
+ 87:  .. loglikelihood=-2109.087175215408	0.8754255648406066
+ 88:  .. loglikelihood=-2102.571884437323	0.8751160631383472
+ 89:  .. loglikelihood=-2096.1449453709793	0.875735066542866
+ 90:  .. loglikelihood=-2089.8042795311903	0.8763540699473847
+ 91:  .. loglikelihood=-2083.5478793776233	0.8765088207985144
+ 92:  .. loglikelihood=-2077.3738051281484	0.876663571649644
+ 93:  .. loglikelihood=-2071.2801817490777	0.8771278242030331
+ 94:  .. loglikelihood=-2065.2651961106176	0.8772825750541628
+ 95:  .. loglikelihood=-2059.3270942967415	0.8772825750541628
+ 96:  .. loglikelihood=-2053.4641790596907	0.8779015784586816
+ 97:  .. loglikelihood=-2047.6748074096977	0.8780563293098113
+ 98:  .. loglikelihood=-2041.9573883316823	0.87867533271433
+ 99:  .. loglikelihood=-2036.3103806207114	0.879139585267719
+100:  .. loglikelihood=-2030.732290829128	0.8796038378211081
+18:23:22 o.b.a.CorpusProcessor 144 --- Testing da ddt
+18:23:22 o.b.a.CorpusProcessor 196 --- mode test
+18:23:22 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/da/ddt/test/danish_ddt_test.conll
+18:23:22 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, U -> X, PROPER NOUN -> NOUN, PRONOUN -> NOUN, SP -> ADP, PREFIX -> X, NOUN -> NOUN, XP -> X, CC -> CONJ, PD -> PRON, PI -> PRON, PHRASE -> X, CONJUNCTION -> CONJ, X -> X, NOUN 1 -> NOUN, VA -> VERB, SUFFIX -> X, CARDINAL NUMBER -> NUM, AO -> ADJ, NP -> NOUN, PC -> PRON, NUMERAL -> NUM, . -> ., INITIALISM -> X, ADV -> ADV, NOUN 2 -> NOUN, LETTER -> X, ARTICLE -> DET, XS -> X, XA -> X, XF -> X, ABBREVIATION -> X, {{ACRONYM|DA}} -> X, RG -> ADV, ### -> ###, ADJECTIVE -> ADJ, ADJ -> ADJ, ADP -> ADP, IDIOM -> X, INTERJECTION -> X, NUN -> X, AN -> ADJ, PRT -> PRT, ADVERB -> VERB, PP -> PRON, CS -> CONJ, {{INITIALISM|LANG=DA}} -> X, DET -> DET, I -> X, VE -> VERB, {{ABBREVIATION|DANISH}} -> X, XR -> X, CONJ -> CONJ, {{ABBREVIATION|LANG=DA}} -> X, PREPOSITION -> ADP, NUM -> NUM, PROVERB -> VERB, AC -> ADJ, VERB FORM -> VERB, XX -> X, PARTICLE -> PRT, VERB -> VERB, NC -> NOUN, PO -> PRON, PT -> PRON)
+18:23:22 o.b.a.CorpusProcessor 150 --- test tokens: 6174
+18:23:22 o.b.a.TaggerTester 90 --- ((To,ADJ),NOUN) ((kendte,ADJ),VERB) ((russiske,ADJ),VERB) ((historikere,NOUN),NOUN) ((Andronik,NOUN),NOUN) ((Mirganjan,NOUN),NOUN) ((og,CONJ),CONJ) ((Igor,NOUN),NOUN) ((Klamkin,NOUN),NOUN) ((tror,VERB),VERB) ((ikke,ADV),VERB) ((,,X),NOUN) ((at,CONJ),CONJ) ((Rusland,NOUN),NOUN) ((kan,VERB),NOUN) ((udvikles,VERB),NOUN) ((uden,ADP),NOUN) ((en,PRON),NOUN) ((",X),NOUN) ((jernnæve,NOUN),NOUN) ((",X),NOUN) ((.,X),X) ((###,###),###) ((De,PRON),NOUN) ((hævder,VERB),NOUN) ((,,X),NOUN) ((at,CONJ),CONJ) ((Ruslands,NOUN),NOUN) ((vej,NOUN),NOUN) ((til,ADP),VERB) ((demokrati,NOUN),NOUN) ((går,VERB),NOUN) ((gennem,ADP),NOUN) ((diktatur,NOUN),NOUN) ((.,X),X) ((###,###),###) ((I,ADP),NOUN) ((en,PRON),NOUN) ((af,ADP),VERB) ((deres,PRON),NOUN) ((artikler,NOUN),NOUN) ((hedder,VERB),NOUN) ((det,PRON),NOUN) ((:,X),NOUN) ((",X),NOUN) ((I,ADP),NOUN) ((et,PRON),NOUN) ((autoritært,ADJ),NOUN) ((regime,NOUN),NOUN) ((lagdel,X),NOUN)
+18:23:22 o.b.a.TaggerTester 95 --- numTags 1 numWordsTraining 1 numWordsSeen 0 numWordsTotal 4814
+18:23:22 o.b.a.TaggingResult 55 --- Accuracy: 0.469, (Training: NaN, Seen: NaN, Novel: 0.469)
+
+18:23:22 o.b.a.TaggingResult 56 --- Non training tokens: 1.000
+
+18:23:22 o.b.a.CorpusProcessor 153 --- 7 unmapped tags.
+nl alpino
+Encoding: UTF-8
+18:23:22 o.b.a.CorpusProcessor 103 --- Training with mode TEMP-S20110618.tsv
+18:23:22 o.b.a.CorpusProcessor 196 --- mode TEMP-S20110618.tsv
+18:23:22 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, NOUN -> NOUN, ART -> DET, MISC -> X, INT -> X, X -> X, . -> ., ADV -> ADV, PREP -> ADP, ### -> ###, ADJ -> ADJ, ADP -> ADP, V -> VERB, PRT -> PRT, PUNC -> ., MWU -> NOUN, DET -> DET, N -> NOUN, CONJ -> CONJ, NUM -> NUM, VERB -> VERB)
+18:23:22 o.b.a.CorpusProcessor 83 --- Processing untagged data.
+18:23:22 o.b.a.CorpusProcessor 196 --- mode train
+18:23:22 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/nl/alpino/train/dutch_alpino_train.conll
+18:23:22 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, NOUN -> NOUN, ART -> DET, MISC -> X, INT -> X, X -> X, . -> ., ADV -> ADV, PREP -> ADP, ### -> ###, ADJ -> ADJ, ADP -> ADP, V -> VERB, PRT -> PRT, PUNC -> ., MWU -> NOUN, DET -> DET, N -> NOUN, CONJ -> CONJ, NUM -> NUM, VERB -> VERB)
+18:23:23 o.b.a.CorpusProcessor 94 --- Got 99000
+18:23:23 o.b.a.CorpusProcessor 113 --- Loading test words too while picking dictionary entries.
+18:23:23 o.b.a.CorpusProcessor 196 --- mode test
+18:23:23 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/nl/alpino/test/dutch_alpino_test.conll
+18:23:23 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, NOUN -> NOUN, ART -> DET, MISC -> X, INT -> X, X -> X, . -> ., ADV -> ADV, PREP -> ADP, ### -> ###, ADJ -> ADJ, ADP -> ADP, V -> VERB, PRT -> PRT, PUNC -> ., MWU -> NOUN, DET -> DET, N -> NOUN, CONJ -> CONJ, NUM -> NUM, VERB -> VERB)
+18:23:24 o.b.a.TagMap 76 --- unknown tag PREFIX :word 's
+18:23:24 o.b.a.TagMap 78 --- PREFIX -> X
+18:23:24 o.b.a.TagMap 76 --- unknown tag SUFFIX :word 's
+18:23:24 o.b.a.TagMap 78 --- SUFFIX -> X
+18:23:24 o.b.a.TagMap 76 --- unknown tag IDIOM :word 't kofschip
+18:23:24 o.b.a.TagMap 78 --- IDIOM -> X
+18:23:24 o.b.a.TagMap 76 --- unknown tag PHRASE :word 40 fikt
+18:23:24 o.b.a.TagMap 78 --- PHRASE -> X
+18:23:24 o.b.a.TagMap 76 --- unknown tag LETTER :word A
+18:23:24 o.b.a.TagMap 78 --- LETTER -> X
+18:23:24 o.b.a.TagMap 76 --- unknown tag EXPRESSION :word aan de hand van
+18:23:24 o.b.a.TagMap 78 --- EXPRESSION -> X
+18:23:24 o.b.a.TagMap 76 --- unknown tag INTERJECTION :word ach
+18:23:24 o.b.a.TagMap 78 --- INTERJECTION -> X
+18:23:24 o.b.a.TagMap 76 --- unknown tag CONTRACTION :word da's
+18:23:24 o.b.a.TagMap 78 --- CONTRACTION -> X
+18:23:41 o.b.u.c.Dictionary 44 --- 71325 in 99002
+18:23:41 o.b.u.c.Dictionary 46 --- Dict completeness 0.7203679471121796
+Indexing events using cutoff of 5
+
+	Computing event counts...  done. 11841 events
+	Indexing...  done.
+Sorting and merging events... done. Reduced 11841 events to 10938.
+Done indexing.
+Incorporating indexed data for training...  
+done.
+	Number of Event Tokens: 10938
+	    Number of Outcomes: 8
+	  Number of Predicates: 3961
+...done.
+Computing model parameters...
+Performing 100 iterations.
+  1:  .. loglikelihood=-24622.66729502806	0.4122118064352673
+  2:  .. loglikelihood=-14182.951879331516	0.6962249809982265
+  3:  .. loglikelihood=-11353.30496494109	0.715311206823748
+  4:  .. loglikelihood=-10092.815920613315	0.7289924837429271
+  5:  .. loglikelihood=-9350.192527879013	0.7375221687357487
+  6:  .. loglikelihood=-8842.86571038995	0.7456295920952623
+  7:  .. loglikelihood=-8465.426252439249	0.751372350308251
+  8:  .. loglikelihood=-8168.903891366771	0.7558483236213158
+  9:  .. loglikelihood=-7926.9487175399845	0.7613377248543197
+ 10:  .. loglikelihood=-7723.878044516338	0.7657292458407229
+ 11:  .. loglikelihood=-7549.66473847648	0.7696985051938181
+ 12:  .. loglikelihood=-7397.554665509014	0.7735833122202517
+ 13:  .. loglikelihood=-7262.817339138641	0.7770458576133773
+ 14:  .. loglikelihood=-7142.036684087329	0.7793260704332404
+ 15:  .. loglikelihood=-7032.6825950380635	0.7811840216197956
+ 16:  .. loglikelihood=-6932.8397204988805	0.7837175914196436
+ 17:  .. loglikelihood=-6841.02957789024	0.7854910902795372
+ 18:  .. loglikelihood=-6756.090592332204	0.7877713030994004
+ 19:  .. loglikelihood=-6677.0953659783745	0.7888691833460012
+ 20:  .. loglikelihood=-6603.2925540644	0.7897137066126172
+ 21:  .. loglikelihood=-6534.065349123603	0.7914872054725107
+ 22:  .. loglikelihood=-6468.9013467740315	0.7926695380457731
+ 23:  .. loglikelihood=-6407.370312221074	0.7951186555189595
+ 24:  .. loglikelihood=-6349.107509344208	0.7963854404188836
+ 25:  .. loglikelihood=-6293.801012054093	0.7978211299721307
+ 26:  .. loglikelihood=-6241.181917534998	0.7990034625453931
+ 27:  .. loglikelihood=-6191.01670931931	0.8003546997719787
+ 28:  .. loglikelihood=-6143.101235670705	0.8017059369985643
+ 29:  .. loglikelihood=-6097.255916007161	0.8036483405117811
+ 30:  .. loglikelihood=-6053.321890410622	0.8048306730850435
+ 31:  .. loglikelihood=-6011.15790004042	0.8054218393716747
+ 32:  .. loglikelihood=-5970.637738926787	0.8068575289249219
+ 33:  .. loglikelihood=-5931.648156205507	0.8079554091715226
+ 34:  .. loglikelihood=-5894.087116373438	0.8094755510514314
+ 35:  .. loglikelihood=-5857.8623463818385	0.8107423359513555
+ 36:  .. loglikelihood=-5822.890114305173	0.8119246685246179
+ 37:  .. loglikelihood=-5789.094196335928	0.8129380964445571
+ 38:  .. loglikelihood=-5756.404997990498	0.8138670720378346
+ 39:  .. loglikelihood=-5724.758802408291	0.8148804999577738
+ 40:  .. loglikelihood=-5694.097124031138	0.8161472848576978
+ 41:  .. loglikelihood=-5664.366150161427	0.8170762604509755
+ 42:  .. loglikelihood=-5635.516256202953	0.8178363313909298
+ 43:  .. loglikelihood=-5607.5015830067005	0.8185964023308843
+ 44:  .. loglikelihood=-5580.279666829134	0.8191031162908539
+ 45:  .. loglikelihood=-5553.811114080651	0.819694282577485
+ 46:  .. loglikelihood=-5528.059314388076	0.820961067477409
+ 47:  .. loglikelihood=-5502.990186583623	0.8216366860907018
+ 48:  .. loglikelihood=-5478.571953114554	0.822650114010641
+ 49:  .. loglikelihood=-5454.774939089077	0.8234101849505954
+ 50:  .. loglikelihood=-5431.57139276278	0.8242547082172114
+ 51:  .. loglikelihood=-5408.935324752972	0.8254370407904738
+ 52:  .. loglikelihood=-5386.842363669345	0.8263660163837514
+ 53:  .. loglikelihood=-5365.269626181411	0.8271260873237057
+ 54:  .. loglikelihood=-5344.195599818955	0.8278861582636602
+ 55:  .. loglikelihood=-5323.6000370355805	0.8290684908369226
+ 56:  .. loglikelihood=-5303.4638592608	0.8299974664302001
+ 57:  .. loglikelihood=-5283.769069831958	0.8304197280635082
+ 58:  .. loglikelihood=-5264.498674839362	0.8312642513301242
+ 59:  .. loglikelihood=-5245.63661103885	0.8323621315767249
+ 60:  .. loglikelihood=-5227.1676800886025	0.8332066548433409
+ 61:  .. loglikelihood=-5209.077488458914	0.8341356304366185
+ 62:  .. loglikelihood=-5191.3523924376	0.8346423443965881
+ 63:  .. loglikelihood=-5173.9794477236965	0.8353179630098809
+ 64:  .. loglikelihood=-5156.946363158513	0.8357402246431889
+ 65:  .. loglikelihood=-5140.241458194172	0.8363313909298201
+ 66:  .. loglikelihood=-5123.853623744309	0.8367536525631282
+ 67:  .. loglikelihood=-5107.772286100352	0.837429271176421
+ 68:  .. loglikelihood=-5091.987373630206	0.8377670804830674
+ 69:  .. loglikelihood=-5076.4892860074015	0.8379359851363906
+ 70:  .. loglikelihood=-5061.268865743291	0.8384426990963602
+ 71:  .. loglikelihood=-5046.317371819798	0.8392872223629761
+ 72:  .. loglikelihood=-5031.626455239673	0.8397094839962841
+ 73:  .. loglikelihood=-5017.188136330573	0.8407229119162233
+ 74:  .. loglikelihood=-5002.994783653534	0.8411451735495313
+ 75:  .. loglikelihood=-4989.039094383531	0.8418207921628241
+ 76:  .. loglikelihood=-4975.31407603983	0.8426653154294401
+ 77:  .. loglikelihood=-4961.8130294571865	0.8433409340427329
+ 78:  .. loglikelihood=-4948.529532898767	0.8437631956760409
+ 79:  .. loglikelihood=-4935.4574272197415	0.8441854573093489
+ 80:  .. loglikelihood=-4922.590802000514	0.8445232666159953
+ 81:  .. loglikelihood=-4909.923982574263	0.8446921712693185
+ 82:  .. loglikelihood=-4897.451517880759	0.8452833375559496
+ 83:  .. loglikelihood=-4885.168169085332	0.8459589561692424
+ 84:  .. loglikelihood=-4873.068898904353	0.8462967654758888
+ 85:  .. loglikelihood=-4861.148861587551	0.8468879317625201
+ 86:  .. loglikelihood=-4849.403393507829	0.8469723840891816
+ 87:  .. loglikelihood=-4837.828004316533	0.8472257410691665
+ 88:  .. loglikelihood=-4826.418368622663	0.8476480027024744
+ 89:  .. loglikelihood=-4815.17031816071	0.8479013596824593
+ 90:  .. loglikelihood=-4804.079834412614	0.848154716662444
+ 91:  .. loglikelihood=-4793.143041653032	0.8485769782957521
+ 92:  .. loglikelihood=-4782.356200388954	0.8489147876023985
+ 93:  .. loglikelihood=-4771.715701167823	0.8490836922557217
+ 94:  .. loglikelihood=-4761.218058729486	0.8494215015623681
+ 95:  .. loglikelihood=-4750.859906479101	0.8496748585423528
+ 96:  .. loglikelihood=-4740.637991261236	0.8502660248289841
+ 97:  .. loglikelihood=-4730.549168414439	0.8505193818089688
+ 98:  .. loglikelihood=-4720.5903970899635	0.8508571911156152
+ 99:  .. loglikelihood=-4710.758735816887	0.8511950004222616
+100:  .. loglikelihood=-4701.051338298813	0.8516172620555696
+18:23:46 o.b.a.CorpusProcessor 144 --- Testing nl alpino
+18:23:46 o.b.a.CorpusProcessor 196 --- mode test
+18:23:46 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/nl/alpino/test/dutch_alpino_test.conll
+18:23:46 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, PRONOUN -> NOUN, PROPER NOUN -> NOUN, PREFIX -> X, NOUN -> NOUN, ART -> DET, MISC -> X, {{ABBREVIATION|DUTCH}} -> X, {{INITIALISM|DUTCH}} -> X, INT -> X, PHRASE -> X, CONJUNCTION -> CONJ, ORDINAL NUMBER -> NUM, X -> X, NOUN 1 -> NOUN, EXPRESSION -> X, SUFFIX -> X, CARDINAL NUMBER -> NUM, POSTPOSITION -> ADP, {{ABBREVIATION|NL}} -> X, {{INITIALISM|LANG=NL}} -> X, NUMERAL -> NUM, CIRCUMPOSITION -> ADP, . -> ., DETERMINER -> DET, ADV -> ADV, INITIALISM -> X, {{INITIALISM|NL}} -> X, NOUN 2 -> NOUN, LETTER -> X, {{ABBREVIATION|LANG=NL}} -> X, ACRONYM -> X, ARTICLE -> DET, ABBREVIATION -> X, PREP -> ADP, ### -> ###, ADJECTIVE -> ADJ, ADJ -> ADJ, ADP -> ADP, V -> VERB, IDIOM -> X, INTERJECTION -> X, PRT -> PRT, PUNC -> ., ADVERB -> VERB, MWU -> NOUN, DET -> DET, N -> NOUN, CONTRACTION -> X, CONJ -> CONJ, PREPOSITION -> ADP, NUM -> NUM, PROVERB -> VERB, PRONOMINAL ADVERB -> VERB, {{ABBREVIATION}} -> X, VERB FORM -> VERB, PARTICLE -> PRT, VERB -> VERB, {{ACRONYM|NL}} -> X)
+18:23:46 o.b.a.CorpusProcessor 150 --- test tokens: 5971
+18:23:47 o.b.a.TaggerTester 90 --- ((BASISTAKENPAKKET,ADP),NOUN) ((JEUGDGEZONDHEIDSZORG,NOUN),NOUN) ((0-19,NUM),X) ((JAAR,NOUN),NOUN) ((###,###),###) ((Daarvoor,ADV),NOUN) ((is,VERB),VERB) ((gekozen,VERB),VERB) ((omdat,CONJ),VERB) ((gemeenten,NOUN),NOUN) ((bij,ADP),ADP) ((uitstek,NOUN),ADJ) ((het,DET),DET) ((lokale,ADJ),ADJ) ((gezondheidsbeleid,NOUN),VERB) ((kunnen,VERB),VERB) ((toespitsen,VERB),NOUN) ((op,ADP),VERB) ((de,DET),VERB) ((specifieke,ADJ),ADJ) ((gezondheidssituatie,NOUN),NOUN) ((en,CONJ),CONJ) ((zorgbehoeften,NOUN),VERB) ((van,ADP),VERB) ((kinderen,NOUN),NOUN) ((en,CONJ),CONJ) ((jongeren,ADJ),NOUN) ((in,ADP),ADP) ((de,DET),DET) ((eigen,PRON),NOUN) ((gemeente,NOUN),NOUN) ((.,.),X) ((###,###),###) ((Ook,ADV),NOUN) ((kunnen,VERB),VERB) ((gemeenten,NOUN),NOUN) ((rekening,NOUN),NOUN) ((houden,VERB),VERB) ((met,ADP),ADP) ((het,DET),DET) ((aanbod,NOUN),NOUN) ((dat,CONJ),NOUN) ((er,ADV),ADJ) ((op,ADP),NOUN) ((lokaal,NOUN),ADJ) ((of,CONJ),CONJ) ((regionaal,ADJ),NOUN) ((niveau,NOUN),NOUN) ((al,ADV),VERB) ((is,VERB),VERB)
+18:23:47 o.b.a.TaggerTester 95 --- numTags 1 numWordsTraining 1 numWordsSeen 0 numWordsTotal 7892
+18:23:47 o.b.a.TaggingResult 55 --- Accuracy: 0.495, (Training: NaN, Seen: NaN, Novel: 0.495)
+
+18:23:47 o.b.a.TaggingResult 56 --- Non training tokens: 1.000
+
+18:23:47 o.b.a.CorpusProcessor 153 --- 8 unmapped tags.
+sv talbanken05
+Encoding: UTF-8
+18:23:47 o.b.a.CorpusProcessor 103 --- Training with mode TEMP-S20110618.tsv
+18:23:47 o.b.a.CorpusProcessor 196 --- mode TEMP-S20110618.tsv
+18:23:47 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, EN -> NUM, IQ -> ., IG -> ., SP -> VERB, IP -> ., UK -> CONJ, IU -> ., NOUN -> NOUN, IS -> ., IR -> ., FV -> VERB, QV -> VERB, PR -> ADP, IK -> ., X -> X, IT -> ., MV -> VERB, AJ -> ADJ, MN -> NOUN, . -> ., GV -> VERB, ADV -> ADV, VV -> VERB, AB -> ADV, YY -> X, RO -> NUM, ### -> ###, I? -> ., ADJ -> ADJ, ID -> X, HV -> VERB, SV -> VERB, ADP -> ADP, IM -> PRT, IC -> ., VN -> NOUN, AN -> NOUN, PRT -> PRT, KV -> VERB, NN -> NOUN, PU -> ., PN -> NOUN, DET -> DET, TP -> VERB, WV -> VERB, CONJ -> CONJ, NUM -> NUM, BV -> VERB, XX -> X, AV -> VERB, VERB -> VERB, PO -> PRON, ++ -> CONJ)
+18:23:47 o.b.a.CorpusProcessor 83 --- Processing untagged data.
+18:23:47 o.b.a.CorpusProcessor 196 --- mode train
+18:23:47 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/sv/talbanken05/train/swedish_talbanken05_train.conll
+18:23:47 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, EN -> NUM, IQ -> ., IG -> ., SP -> VERB, IP -> ., UK -> CONJ, IU -> ., NOUN -> NOUN, IS -> ., IR -> ., FV -> VERB, QV -> VERB, PR -> ADP, IK -> ., X -> X, IT -> ., MV -> VERB, AJ -> ADJ, MN -> NOUN, . -> ., GV -> VERB, ADV -> ADV, VV -> VERB, AB -> ADV, YY -> X, RO -> NUM, ### -> ###, I? -> ., ADJ -> ADJ, ID -> X, HV -> VERB, SV -> VERB, ADP -> ADP, IM -> PRT, IC -> ., VN -> NOUN, AN -> NOUN, PRT -> PRT, KV -> VERB, NN -> NOUN, PU -> ., PN -> NOUN, DET -> DET, TP -> VERB, WV -> VERB, CONJ -> CONJ, NUM -> NUM, BV -> VERB, XX -> X, AV -> VERB, VERB -> VERB, PO -> PRON, ++ -> CONJ)
+18:23:47 o.b.a.CorpusProcessor 94 --- Got 99000
+18:23:47 o.b.a.CorpusProcessor 113 --- Loading test words too while picking dictionary entries.
+18:23:47 o.b.a.CorpusProcessor 196 --- mode test
+18:23:47 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/sv/talbanken05/test/swedish_talbanken05_test.conll
+18:23:47 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, EN -> NUM, IQ -> ., IG -> ., SP -> VERB, IP -> ., UK -> CONJ, IU -> ., NOUN -> NOUN, IS -> ., IR -> ., FV -> VERB, QV -> VERB, PR -> ADP, IK -> ., X -> X, IT -> ., MV -> VERB, AJ -> ADJ, MN -> NOUN, . -> ., GV -> VERB, ADV -> ADV, VV -> VERB, AB -> ADV, YY -> X, RO -> NUM, ### -> ###, I? -> ., ADJ -> ADJ, ID -> X, HV -> VERB, SV -> VERB, ADP -> ADP, IM -> PRT, IC -> ., VN -> NOUN, AN -> NOUN, PRT -> PRT, KV -> VERB, NN -> NOUN, PU -> ., PN -> NOUN, DET -> DET, TP -> VERB, WV -> VERB, CONJ -> CONJ, NUM -> NUM, BV -> VERB, XX -> X, AV -> VERB, VERB -> VERB, PO -> PRON, ++ -> CONJ)
+18:24:05 o.b.a.TagMap 76 --- unknown tag SUFFIX :word -a
+18:24:05 o.b.a.TagMap 78 --- SUFFIX -> X
+18:24:05 o.b.a.TagMap 76 --- unknown tag INTERFIX :word -s-
+18:24:05 o.b.a.TagMap 78 --- INTERFIX -> X
+18:24:05 o.b.a.TagMap 76 --- unknown tag INTERJECTION :word OK
+18:24:05 o.b.a.TagMap 78 --- INTERJECTION -> X
+18:24:05 o.b.a.TagMap 76 --- unknown tag PREFIX :word af-
+18:24:05 o.b.a.TagMap 78 --- PREFIX -> X
+18:24:05 o.b.a.TagMap 76 --- unknown tag IDIOM :word bakom flötet
+18:24:05 o.b.a.TagMap 78 --- IDIOM -> X
+18:24:05 o.b.a.TagMap 76 --- unknown tag LETTER :word delta
+18:24:05 o.b.a.TagMap 78 --- LETTER -> X
+18:24:05 o.b.a.TagMap 76 --- unknown tag PHRASE :word den som sa det kan va det
+18:24:05 o.b.a.TagMap 78 --- PHRASE -> X
+18:24:05 o.b.a.TagMap 76 --- unknown tag PARTICIPLE :word hålande
+18:24:05 o.b.a.TagMap 78 --- PARTICIPLE -> X
+18:24:05 o.b.a.TagMap 76 --- unknown tag CONTRACTION :word venne
+18:24:05 o.b.a.TagMap 78 --- CONTRACTION -> X
+18:24:06 o.b.u.c.Dictionary 44 --- 76817 in 99002
+18:24:06 o.b.u.c.Dictionary 46 --- Dict completeness 0.7758360265449183
+Indexing events using cutoff of 5
+
+	Computing event counts...  done. 7753 events
+	Indexing...  done.
+Sorting and merging events... done. Reduced 7753 events to 7212.
+Done indexing.
+Incorporating indexed data for training...  
+done.
+	Number of Event Tokens: 7212
+	    Number of Outcomes: 9
+	  Number of Predicates: 2748
+...done.
+Computing model parameters...
+Performing 100 iterations.
+  1:  .. loglikelihood=-17035.08214808596	0.008641816071198245
+  2:  .. loglikelihood=-9869.553738666462	0.739455694569844
+  3:  .. loglikelihood=-7657.7254903096255	0.7554495034180317
+  4:  .. loglikelihood=-6627.1047197787775	0.7637043725009673
+  5:  .. loglikelihood=-6021.2050118079405	0.7698955243131691
+  6:  .. loglikelihood=-5614.369190972752	0.7755707468076873
+  7:  .. loglikelihood=-5317.5288946181945	0.7803430929962595
+  8:  .. loglikelihood=-5088.391367099312	0.7845995098671482
+  9:  .. loglikelihood=-4904.154946336421	0.7883399974203534
+ 10:  .. loglikelihood=-4751.380948747827	0.790661679349929
+ 11:  .. loglikelihood=-4621.624830205656	0.792725396620663
+ 12:  .. loglikelihood=-4509.311414420996	0.7956919901973429
+ 13:  .. loglikelihood=-4410.604793394894	0.7984006191151812
+ 14:  .. loglikelihood=-4322.769846626731	0.8004643363859151
+ 15:  .. loglikelihood=-4243.795684680166	0.8031729653037534
+ 16:  .. loglikelihood=-4172.165263448955	0.8048497355862246
+ 17:  .. loglikelihood=-4106.709190515572	0.8076873468334839
+ 18:  .. loglikelihood=-4046.509470270312	0.809493099445376
+ 19:  .. loglikelihood=-3990.8339499101817	0.8112988520572681
+ 20:  .. loglikelihood=-3939.090423990298	0.8127176576808978
+ 21:  .. loglikelihood=-3890.793796760264	0.8138784986456855
+ 22:  .. loglikelihood=-3845.542159363512	0.816329162904682
+ 23:  .. loglikelihood=-3802.9990775956194	0.8172320392106281
+ 24:  .. loglikelihood=-3762.8802799010646	0.8187798271636786
+ 25:  .. loglikelihood=-3724.943512951679	0.8201986327873081
+ 26:  .. loglikelihood=-3688.9807128859034	0.8212304914226751
+ 27:  .. loglikelihood=-3654.811894249706	0.8235521733522507
+ 28:  .. loglikelihood=-3622.2803301423723	0.8253579259641429
+ 29:  .. loglikelihood=-3591.248714568377	0.826260802270089
+ 30:  .. loglikelihood=-3561.596079883863	0.8279375725525603
+ 31:  .. loglikelihood=-3533.215300286594	0.8301302721527151
+ 32:  .. loglikelihood=-3506.0110541235135	0.8310331484586612
+ 33:  .. loglikelihood=-3479.8981483382236	0.832193989423449
+ 34:  .. loglikelihood=-3454.800130962465	0.8334838127176577
+ 35:  .. loglikelihood=-3430.648134409031	0.8352895653295499
+ 36:  .. loglikelihood=-3407.3799050168072	0.837095317941442
+ 37:  .. loglikelihood=-3384.9389839285727	0.8377402295885463
+ 38:  .. loglikelihood=-3363.274011742593	0.8391590352121759
+ 39:  .. loglikelihood=-3342.3381350412988	0.8394169998710177
+ 40:  .. loglikelihood=-3322.0884972860367	0.8409647878240681
+ 41:  .. loglikelihood=-3302.485799984169	0.8422546111182768
+ 42:  .. loglikelihood=-3283.4939227154237	0.8427705404359602
+ 43:  .. loglikelihood=-3265.0795927196564	0.8444473107184316
+ 44:  .. loglikelihood=-3247.2120964269534	0.8454791693537985
+ 45:  .. loglikelihood=-3229.863026652602	0.8468979749774281
+ 46:  .. loglikelihood=-3213.006060256558	0.8475428866245325
+ 47:  .. loglikelihood=-3196.6167619373314	0.8492196569070037
+ 48:  .. loglikelihood=-3180.6724105372427	0.8498645685541081
+ 49:  .. loglikelihood=-3165.1518448133065	0.8507674448600542
+ 50:  .. loglikelihood=-3150.0353261019054	0.8510254095188959
+ 51:  .. loglikelihood=-3135.3044156962005	0.851928285824842
+ 52:  .. loglikelihood=-3120.9418650792986	0.8530891267896298
+ 53:  .. loglikelihood=-3106.931517425882	0.8539920030955759
+ 54:  .. loglikelihood=-3093.258219010426	0.8541209854249968
+ 55:  .. loglikelihood=-3079.907739349817	0.8545079324132594
+ 56:  .. loglikelihood=-3066.8666990671654	0.8543789500838385
+ 57:  .. loglikelihood=-3054.122504599642	0.8546369147426802
+ 58:  .. loglikelihood=-3041.6632889869993	0.8559267380368889
+ 59:  .. loglikelihood=-3029.4778580757247	0.8564426673545724
+ 60:  .. loglikelihood=-3017.5556415574974	0.856829614342835
+ 61:  .. loglikelihood=-3005.886648331681	0.8581194376370437
+ 62:  .. loglikelihood=-2994.461425744501	0.8586353669547272
+ 63:  .. loglikelihood=-2983.2710223092645	0.8591512962724107
+ 64:  .. loglikelihood=-2972.306953559918	0.8596672255900941
+ 65:  .. loglikelihood=-2961.561170728562	0.8603121372371985
+ 66:  .. loglikelihood=-2951.026031973751	0.8613439958725655
+ 67:  .. loglikelihood=-2940.6942759157287	0.8619889075196698
+ 68:  .. loglikelihood=-2930.5589972624743	0.8622468721785116
+ 69:  .. loglikelihood=-2920.6136243321857	0.862762801496195
+ 70:  .. loglikelihood=-2910.8518983004683	0.862762801496195
+ 71:  .. loglikelihood=-2901.267854015966	0.863794660131562
+ 72:  .. loglikelihood=-2891.8558022466063	0.8636656778021411
+ 73:  .. loglikelihood=-2882.6103132307285	0.8640526247904037
+ 74:  .. loglikelihood=-2873.526201421168	0.864826518766929
+ 75:  .. loglikelihood=-2864.598511320541	0.8659873597317167
+ 76:  .. loglikelihood=-2855.822504316526	0.8659873597317167
+ 77:  .. loglikelihood=-2847.1936464341366	0.8665032890494002
+ 78:  .. loglikelihood=-2838.7075969302405	0.8666322713788212
+ 79:  .. loglikelihood=-2830.360197662279	0.8668902360376628
+ 80:  .. loglikelihood=-2822.147463169601	0.8671482006965046
+ 81:  .. loglikelihood=-2814.0655714113163	0.8676641300141881
+ 82:  .. loglikelihood=-2806.1108551096804	0.8676641300141881
+ 83:  .. loglikelihood=-2798.2797936525562	0.8679220946730298
+ 84:  .. loglikelihood=-2790.5690055124005	0.868695988649555
+ 85:  .. loglikelihood=-2782.975241143347	0.8688249709789759
+ 86:  .. loglikelihood=-2775.495376320722	0.8688249709789759
+ 87:  .. loglikelihood=-2768.126405890714	0.8689539533083968
+ 88:  .. loglikelihood=-2760.865437900596	0.8694698826260803
+ 89:  .. loglikelihood=-2753.7096880818376	0.8695988649555011
+ 90:  .. loglikelihood=-2746.6564746619915	0.8699858119437637
+ 91:  .. loglikelihood=-2739.703213481394	0.8705017412614472
+ 92:  .. loglikelihood=-2732.8474133941395	0.8711466529085515
+ 93:  .. loglikelihood=-2726.0866719338997	0.8714046175673933
+ 94:  .. loglikelihood=-2719.4186712262963	0.871662582226235
+ 95:  .. loglikelihood=-2712.8411741316327	0.8717915645556559
+ 96:  .. loglikelihood=-2706.3520206025414	0.8719205468850767
+ 97:  .. loglikelihood=-2699.949124242568	0.8721785115439185
+ 98:  .. loglikelihood=-2693.6304690524994	0.8724364762027602
+ 99:  .. loglikelihood=-2687.39410635248	0.8723074938733394
+100:  .. loglikelihood=-2681.238151868768	0.8732103701792855
+18:24:09 o.b.a.CorpusProcessor 144 --- Testing sv talbanken05
+18:24:09 o.b.a.CorpusProcessor 196 --- mode test
+18:24:09 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/sv/talbanken05/test/swedish_talbanken05_test.conll
+18:24:09 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, EN -> NUM, PRONOUN -> NOUN, PROPER NOUN -> NOUN, INTERFIX -> X, IQ -> ., IG -> ., SP -> VERB, PREFIX -> X, IP -> ., UK -> CONJ, IU -> ., NOUN -> NOUN, IS -> ., IR -> ., FV -> VERB, QV -> VERB, PHRASE -> X, PR -> ADP, CONJUNCTION -> CONJ, {{ABBREVIATION|LANG=SV}} -> X, IK -> ., ORDINAL NUMBER -> NUM, X -> X, NOUN 1 -> NOUN, IT -> ., SUFFIX -> X, {{ABBREVIATION|SWEDISH}} -> X, MV -> VERB, {{ABBREVIATION|SV}} -> X, CARDINAL NUMBER -> NUM, AJ -> ADJ, MN -> NOUN, POSTPOSITION -> ADP, NUMERAL -> NUM, . -> ., GV -> VERB, DETERMINER -> DET, INITIALISM -> X, ADV -> ADV, NOUN 2 -> NOUN, PUNCTUATION MARK -> X, LETTER -> X, VV -> VERB, AB -> ADV, ARTICLE -> DET, ACRONYM -> X, YY -> X, {{INITIALISM|SV}} -> X, ABBREVIATION -> X, RO -> NUM, ### -> ###, ADJECTIVE -> ADJ, PARTICIPLE -> X, I? -> ., ADJ -> ADJ, ID -> X, HV -> VERB, SV -> VERB, ADP -> ADP, IDIOM -> X, INTERJECTION -> X, IM -> PRT, IC -> ., VN -> NOUN, {{INITIALISM|LANG=SV}} -> X, AN -> NOUN, PRT -> PRT, KV -> VERB, ADVERB -> VERB, NN -> NOUN, PU -> ., PN -> NOUN, DET -> DET, TP -> VERB, WV -> VERB, CONTRACTION -> X, PREPOSITION -> ADP, CONJ -> CONJ, NUM -> NUM, PROVERB -> VERB, BV -> VERB, XX -> X, PARTICLE -> PRT, AV -> VERB, VERB -> VERB, PO -> PRON, ++ -> CONJ)
+18:24:09 o.b.a.CorpusProcessor 150 --- test tokens: 6045
+18:24:10 o.b.a.TaggerTester 90 --- ((Individuell,ADJ),ADJ) ((beskattning,NOUN),NOUN) ((av,ADP),VERB) ((arbetsinkomster,NOUN),NOUN) ((###,###),###) ((Genom,ADP),ADP) ((skattereformen,NOUN),NOUN) ((införs,VERB),VERB) ((individuell,ADJ),ADJ) ((beskattning,NOUN),NOUN) (((,.),NOUN) ((särbeskattning,NOUN),NOUN) ((),.),ADJ) ((av,ADP),VERB) ((arbetsinkomster,NOUN),NOUN) ((.,.),X) ((###,###),###) ((Det,PRON),NOUN) ((innebär,VERB),VERB) ((bl.,ADV),VERB) ((a.,X),NOUN) ((att,CONJ),CONJ) ((endast,ADV),ADJ) ((en,NUM),NOUN) ((skatteskala,NOUN),NOUN) ((kommer,VERB),NOUN) ((att,PRT),CONJ) ((finnas,VERB),VERB) ((för,ADP),VERB) ((beräkning,NOUN),NOUN) ((av,ADP),ADP) ((statlig,ADJ),ADJ) ((inkomstskatt,NOUN),VERB) ((.,.),X) ((###,###),###) ((Den,PRON),NOUN) ((blir,VERB),VERB) ((gemensam,ADJ),ADJ) ((för,ADP),VERB) ((alla,PRON),NOUN) ((inkomsttagare,NOUN),ADJ) ((oavsett,ADP),ADJ) ((civilstånd,NOUN),NOUN) ((.,.),X) ((###,###),###) ((Den,PRON),NOUN) ((gäller,VERB),VERB) ((även,ADV),VERB) ((för,ADP),VERB) ((oskifta,ADJ),ADJ)
+18:24:10 o.b.a.TaggerTester 95 --- numTags 1 numWordsTraining 1 numWordsSeen 0 numWordsTotal 5795
+18:24:10 o.b.a.TaggingResult 55 --- Accuracy: 0.466, (Training: NaN, Seen: NaN, Novel: 0.466)
+
+18:24:10 o.b.a.TaggingResult 56 --- Non training tokens: 1.000
+
+18:24:10 o.b.a.CorpusProcessor 153 --- 9 unmapped tags.
+en-ptb	0.35403891688422073	NaN	NaN	0.35403891688422073	1.0	(VERB,NOUN)
+pt-bosque	0.4637804670189194	NaN	NaN	0.4637804670189194	1.0	(NOUN,.)
+da-ddt	0.46941216678058784	NaN	NaN	0.46941216678058784	1.0	(NOUN,PRON)
+nl-alpino	0.4947179946284691	NaN	NaN	0.4947179946284691	1.0	(VERB,ADP)
+sv-talbanken05	0.4657001414427157	NaN	NaN	0.4657001414427157	1.0	(NOUN,PRON)
+en-ptb	pt-bosque	da-ddt	nl-alpino	sv-talbanken05
+0.35403891688422073	0.4637804670189194	0.46941216678058784	0.4947179946284691	0.4657001414427157
+NaN	NaN	NaN	NaN	NaN
+NaN	NaN	NaN	NaN	NaN
+0.35403891688422073	0.4637804670189194	0.46941216678058784	0.4947179946284691	0.4657001414427157
+1.0	1.0	1.0	1.0	1.0
+(VERB,NOUN)	(NOUN,.)	(NOUN,PRON)	(VERB,ADP)	(NOUN,PRON)

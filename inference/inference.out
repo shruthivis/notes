@@ -1,0 +1,64 @@
+\BOOKMARK [-1][-]{part.1}{Introduction}{}
+\BOOKMARK [0][-]{chapter.1}{Themes and Problems}{part.1}
+\BOOKMARK [1][-]{section.1.1}{Boolean inference}{chapter.1}
+\BOOKMARK [2][-]{subsection.1.1.1}{Satisfiability vs validity}{section.1.1}
+\BOOKMARK [3][-]{subsubsection.1.1.1.1}{Model checking}{subsection.1.1.1}
+\BOOKMARK [1][-]{section.1.2}{Probabilistic inference}{chapter.1}
+\BOOKMARK [0][-]{chapter.2}{Statement}{part.1}
+\BOOKMARK [1][-]{section.2.1}{Language}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.1.1}{Syntax}{section.2.1}
+\BOOKMARK [3][-]{subsubsection.2.1.1.1}{Values}{subsection.2.1.1}
+\BOOKMARK [2][-]{subsection.2.1.2}{Semantics}{section.2.1}
+\BOOKMARK [1][-]{section.2.2}{Variables}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.2.1}{Assignment}{section.2.2}
+\BOOKMARK [3][-]{subsubsection.2.2.1.1}{Model}{subsection.2.2.1}
+\BOOKMARK [2][-]{subsection.2.2.2}{Free and bound variables}{section.2.2}
+\BOOKMARK [2][-]{subsection.2.2.3}{Boolean valued}{section.2.2}
+\BOOKMARK [1][-]{section.2.3}{Proposition}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.3.1}{Truth value}{section.2.3}
+\BOOKMARK [3][-]{subsubsection.2.3.1.1}{Validity}{subsection.2.3.1}
+\BOOKMARK [1][-]{section.2.4}{Predicates}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.4.1}{Free variables}{section.2.4}
+\BOOKMARK [2][-]{subsection.2.4.2}{As a set}{section.2.4}
+\BOOKMARK [2][-]{subsection.2.4.3}{Quantification and assignment}{section.2.4}
+\BOOKMARK [3][-]{subsubsection.2.4.3.1}{Special cases}{subsection.2.4.3}
+\BOOKMARK [1][-]{section.2.5}{Types}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.5.1}{Compound propositions}{section.2.5}
+\BOOKMARK [3][-]{subsubsection.2.5.1.1}{Implication, equivalnce}{subsection.2.5.1}
+\BOOKMARK [2][-]{subsection.2.5.2}{Quantification}{section.2.5}
+\BOOKMARK [3][-]{subsubsection.2.5.2.1}{Notations}{subsection.2.5.2}
+\BOOKMARK [1][-]{section.2.6}{Other perspectives}{chapter.2}
+\BOOKMARK [0][-]{chapter.3}{Degrees of expressiveness}{part.1}
+\BOOKMARK [1][-]{section.3.1}{Propositional logic: 0th order logic}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.1.1}{Limitations}{section.3.1}
+\BOOKMARK [1][-]{section.3.2}{First order predicate logic}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.2.1}{Limitations}{section.3.2}
+\BOOKMARK [1][-]{section.3.3}{Fuzzy logic}{chapter.3}
+\BOOKMARK [1][-]{section.3.4}{Temporal logic}{chapter.3}
+\BOOKMARK [0][-]{chapter.4}{Inference}{part.1}
+\BOOKMARK [1][-]{section.4.1}{Proving validity of theorems}{chapter.4}
+\BOOKMARK [1][-]{section.4.2}{Use rules of inference}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.2.1}{Resolution}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.2}{Other Properties}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.3}{Implications: Strengthening and weakening}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.4}{Using truth tables}{section.4.2}
+\BOOKMARK [1][-]{section.4.3}{Chaining}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.3.1}{Forward chaining}{section.4.3}
+\BOOKMARK [3][-]{subsubsection.4.3.1.1}{Backward chaining}{subsection.4.3.1}
+\BOOKMARK [1][-]{section.4.4}{Inference with quantifiers}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.4.1}{Instantiation}{section.4.4}
+\BOOKMARK [1][-]{section.4.5}{Satisfiability}{chapter.4}
+\BOOKMARK [1][-]{section.4.6}{Applications}{chapter.4}
+\BOOKMARK [-1][-]{part.2}{Knowledge storage and representation}{}
+\BOOKMARK [0][-]{chapter.5}{Ontology}{part.2}
+\BOOKMARK [1][-]{section.5.1}{Theme}{chapter.5}
+\BOOKMARK [2][-]{subsection.5.1.1}{Motivation}{section.5.1}
+\BOOKMARK [1][-]{section.5.2}{Entity-types}{chapter.5}
+\BOOKMARK [2][-]{subsection.5.2.1}{Graph notation}{section.5.2}
+\BOOKMARK [2][-]{subsection.5.2.2}{Taxonomy}{section.5.2}
+\BOOKMARK [2][-]{subsection.5.2.3}{Examples}{section.5.2}
+\BOOKMARK [1][-]{section.5.3}{Instantiation of ontology}{chapter.5}
+\BOOKMARK [2][-]{subsection.5.3.1}{Motivation}{section.5.3}
+\BOOKMARK [0][-]{chapter.6}{Storing statements}{part.2}
+\BOOKMARK [1][-]{section.6.1}{Propositional statements}{chapter.6}
+\BOOKMARK [2][-]{subsection.6.1.1}{The knowledge base in Horn form}{section.6.1}

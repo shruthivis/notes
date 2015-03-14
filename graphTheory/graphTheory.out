@@ -1,0 +1,188 @@
+\BOOKMARK [0][-]{section*.1}{Contents}{}
+\BOOKMARK [-1][-]{part.1}{Notation}{}
+\BOOKMARK [-1][-]{part.2}{Themes}{}
+\BOOKMARK [0][-]{chapter.1}{Characterization of research effort}{part.2}
+\BOOKMARK [-1][-]{part.3}{Graphs and their basic properties}{}
+\BOOKMARK [0][-]{chapter.2}{Graph G=\(V,E\)}{part.3}
+\BOOKMARK [1][-]{section.2.1}{Vertex properties}{chapter.2}
+\BOOKMARK [1][-]{section.2.2}{Associated objects}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.2.1}{Special vertex sets}{section.2.2}
+\BOOKMARK [2][-]{subsection.2.2.2}{Walks}{section.2.2}
+\BOOKMARK [2][-]{subsection.2.2.3}{Cut}{section.2.2}
+\BOOKMARK [3][-]{subsubsection.2.2.3.1}{Weight of a cut}{subsection.2.2.3}
+\BOOKMARK [2][-]{subsection.2.2.4}{Subgraphs}{section.2.2}
+\BOOKMARK [3][-]{subsubsection.2.2.4.1}{Spanning trees}{subsection.2.2.4}
+\BOOKMARK [1][-]{section.2.3}{Subtypes}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.3.1}{Tree}{section.2.3}
+\BOOKMARK [2][-]{subsection.2.3.2}{Biconnected graph}{section.2.3}
+\BOOKMARK [2][-]{subsection.2.3.3}{Based on degree}{section.2.3}
+\BOOKMARK [2][-]{subsection.2.3.4}{Perfect graph G}{section.2.3}
+\BOOKMARK [3][-]{subsubsection.2.3.4.1}{Bipartite graph}{subsection.2.3.4}
+\BOOKMARK [3][-]{subsubsection.2.3.4.2}{Chordal graph G}{subsection.2.3.4}
+\BOOKMARK [2][-]{subsection.2.3.5}{Planar graphs}{section.2.3}
+\BOOKMARK [1][-]{section.2.4}{Directred graph, networks}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.4.1}{Directed acyclic graphs \(DAG\)}{section.2.4}
+\BOOKMARK [3][-]{subsubsection.2.4.1.1}{Topological numbering t of nodes}{subsection.2.4.1}
+\BOOKMARK [2][-]{subsection.2.4.2}{Singly connected directed graph}{section.2.4}
+\BOOKMARK [1][-]{section.2.5}{Generalizations}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.5.1}{Hypergraphs}{section.2.5}
+\BOOKMARK [1][-]{section.2.6}{Properties}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.6.1}{Hop plot}{section.2.6}
+\BOOKMARK [2][-]{subsection.2.6.2}{Diameter}{section.2.6}
+\BOOKMARK [2][-]{subsection.2.6.3}{Single source \(s\) shortest paths}{section.2.6}
+\BOOKMARK [1][-]{section.2.7}{Associated matreces}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.7.1}{Graph Laplacian of no-self-loop undirected graph}{section.2.7}
+\BOOKMARK [3][-]{subsubsection.2.7.1.1}{+ve semidefiniteness}{subsection.2.7.1}
+\BOOKMARK [3][-]{subsubsection.2.7.1.2}{Smoothness of vectors from quadratic form}{subsection.2.7.1}
+\BOOKMARK [3][-]{subsubsection.2.7.1.3}{Eigenvectors}{subsection.2.7.1}
+\BOOKMARK [3][-]{subsubsection.2.7.1.4}{Smoothness of ev}{subsection.2.7.1}
+\BOOKMARK [2][-]{subsection.2.7.2}{Normalized graph Laplacian}{section.2.7}
+\BOOKMARK [3][-]{subsubsection.2.7.2.1}{Normalized adjacency matrix has norm 1.}{subsection.2.7.2}
+\BOOKMARK [3][-]{subsubsection.2.7.2.2}{Quadratic form: Normalized smoothness measure}{subsection.2.7.2}
+\BOOKMARK [0][-]{chapter.3}{Metrics and similarity measures on V}{part.3}
+\BOOKMARK [1][-]{section.3.1}{Based on paths and random walks}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.1.1}{Katz measure}{section.3.1}
+\BOOKMARK [3][-]{subsubsection.3.1.1.1}{The damping parameter}{subsection.3.1.1}
+\BOOKMARK [2][-]{subsection.3.1.2}{Variants of Katz}{section.3.1}
+\BOOKMARK [2][-]{subsection.3.1.3}{Hitting time}{section.3.1}
+\BOOKMARK [2][-]{subsection.3.1.4}{Rooted PageRank}{section.3.1}
+\BOOKMARK [2][-]{subsection.3.1.5}{SimRank}{section.3.1}
+\BOOKMARK [1][-]{section.3.2}{Common neighbor based}{chapter.3}
+\BOOKMARK [0][-]{chapter.4}{Random graphs: ..}{part.3}
+\BOOKMARK [1][-]{section.4.1}{G\(n,p\)}{chapter.4}
+\BOOKMARK [0][-]{chapter.5}{Expanders}{part.3}
+\BOOKMARK [1][-]{section.5.1}{Edge expansion of G}{chapter.5}
+\BOOKMARK [1][-]{section.5.2}{alpha vertex expansion of G}{chapter.5}
+\BOOKMARK [1][-]{section.5.3}{Other Examples}{chapter.5}
+\BOOKMARK [0][-]{chapter.6}{Clique tree of G}{part.3}
+\BOOKMARK [1][-]{section.6.1}{Junction tree property}{chapter.6}
+\BOOKMARK [2][-]{subsection.6.1.1}{Finding a junction tree}{section.6.1}
+\BOOKMARK [2][-]{subsection.6.1.2}{Tree width of G}{section.6.1}
+\BOOKMARK [0][-]{chapter.7}{Relationship with Electric network analysis}{part.3}
+\BOOKMARK [0][-]{chapter.8}{Random walks on G}{part.3}
+\BOOKMARK [1][-]{section.8.1}{Markov process with state graph G}{chapter.8}
+\BOOKMARK [1][-]{section.8.2}{Hitting and cover times}{chapter.8}
+\BOOKMARK [1][-]{section.8.3}{Connection with resistive electric networks}{chapter.8}
+\BOOKMARK [-1][-]{part.4}{Determining graph properties}{}
+\BOOKMARK [0][-]{chapter.9}{Node search}{part.4}
+\BOOKMARK [1][-]{section.9.1}{Searching for a goal node}{chapter.9}
+\BOOKMARK [1][-]{section.9.2}{Uninformed Search problem}{chapter.9}
+\BOOKMARK [1][-]{section.9.3}{Informed search}{chapter.9}
+\BOOKMARK [1][-]{section.9.4}{Local search/ optimization}{chapter.9}
+\BOOKMARK [1][-]{section.9.5}{Offline vs online search}{chapter.9}
+\BOOKMARK [0][-]{chapter.10}{Network flow}{part.4}
+\BOOKMARK [1][-]{section.10.1}{Max flow problem}{chapter.10}
+\BOOKMARK [1][-]{section.10.2}{Min cut problem}{chapter.10}
+\BOOKMARK [0][-]{chapter.11}{Tree search}{part.4}
+\BOOKMARK [1][-]{section.11.1}{Find minimum spanning tree \(MST\)}{chapter.11}
+\BOOKMARK [0][-]{chapter.12}{As data structures}{part.4}
+\BOOKMARK [-1][-]{part.5}{Evolution of real world graphs}{}
+\BOOKMARK [0][-]{chapter.13}{Networks in the Real world: Properties}{part.5}
+\BOOKMARK [1][-]{section.13.1}{Examples}{chapter.13}
+\BOOKMARK [2][-]{subsection.13.1.1}{Affiliation networks}{section.13.1}
+\BOOKMARK [1][-]{section.13.2}{Static patterns}{chapter.13}
+\BOOKMARK [2][-]{subsection.13.2.1}{Small diameter}{section.13.2}
+\BOOKMARK [2][-]{subsection.13.2.2}{In and out Degree distribution}{section.13.2}
+\BOOKMARK [2][-]{subsection.13.2.3}{Scree plot}{section.13.2}
+\BOOKMARK [2][-]{subsection.13.2.4}{Clustering coefficient}{section.13.2}
+\BOOKMARK [2][-]{subsection.13.2.5}{Community structure}{section.13.2}
+\BOOKMARK [3][-]{subsubsection.13.2.5.1}{2 meanings}{subsection.13.2.5}
+\BOOKMARK [3][-]{subsubsection.13.2.5.2}{Hierarchical structure}{subsection.13.2.5}
+\BOOKMARK [3][-]{subsubsection.13.2.5.3}{Fractal or onion structure}{subsection.13.2.5}
+\BOOKMARK [3][-]{subsubsection.13.2.5.4}{Communities in the social networking websites}{subsection.13.2.5}
+\BOOKMARK [2][-]{subsection.13.2.6}{Core-periphery structure}{section.13.2}
+\BOOKMARK [2][-]{subsection.13.2.7}{Network motifs}{section.13.2}
+\BOOKMARK [2][-]{subsection.13.2.8}{Microscopic properties}{section.13.2}
+\BOOKMARK [1][-]{section.13.3}{Other properties}{chapter.13}
+\BOOKMARK [1][-]{section.13.4}{Temporal evolution patterns}{chapter.13}
+\BOOKMARK [2][-]{subsection.13.4.1}{Densification}{section.13.4}
+\BOOKMARK [3][-]{subsubsection.13.4.1.1}{Relationship with power law degree distribution}{subsection.13.4.1}
+\BOOKMARK [2][-]{subsection.13.4.2}{Shrinking diameter}{section.13.4}
+\BOOKMARK [2][-]{subsection.13.4.3}{Node arrival function}{section.13.4}
+\BOOKMARK [2][-]{subsection.13.4.4}{Edge initiation process}{section.13.4}
+\BOOKMARK [3][-]{subsubsection.13.4.4.1}{Node lifetime L}{subsection.13.4.4}
+\BOOKMARK [3][-]{subsubsection.13.4.4.2}{Age}{subsection.13.4.4}
+\BOOKMARK [3][-]{subsubsection.13.4.4.3}{Time gap G between edges}{subsection.13.4.4}
+\BOOKMARK [2][-]{subsection.13.4.5}{Edge \(u, v\) destination selection process}{section.13.4}
+\BOOKMARK [0][-]{chapter.14}{Generative models for real world graphs}{part.5}
+\BOOKMARK [1][-]{section.14.1}{Applications}{chapter.14}
+\BOOKMARK [2][-]{subsection.14.1.1}{Making Extrapolations}{section.14.1}
+\BOOKMARK [2][-]{subsection.14.1.2}{Graph sampling}{section.14.1}
+\BOOKMARK [1][-]{section.14.2}{Evaluation of models}{chapter.14}
+\BOOKMARK [1][-]{section.14.3}{Achieving various properties}{chapter.14}
+\BOOKMARK [2][-]{subsection.14.3.1}{Strategies}{section.14.3}
+\BOOKMARK [2][-]{subsection.14.3.2}{Power law}{section.14.3}
+\BOOKMARK [3][-]{subsubsection.14.3.2.1}{Hypotheses}{subsection.14.3.2}
+\BOOKMARK [3][-]{subsubsection.14.3.2.2}{Other factors}{subsection.14.3.2}
+\BOOKMARK [2][-]{subsection.14.3.3}{Acheiving good community structure}{section.14.3}
+\BOOKMARK [2][-]{subsection.14.3.4}{Edge destination selection}{section.14.3}
+\BOOKMARK [1][-]{section.14.4}{Models which don't yield heavy tailed distributions}{chapter.14}
+\BOOKMARK [2][-]{subsection.14.4.1}{Random graph generators}{section.14.4}
+\BOOKMARK [2][-]{subsection.14.4.2}{Stochastic Adjascency matrix}{section.14.4}
+\BOOKMARK [1][-]{section.14.5}{Preferential attachment generators}{chapter.14}
+\BOOKMARK [1][-]{section.14.6}{Edge Copying model}{chapter.14}
+\BOOKMARK [1][-]{section.14.7}{Random walk model}{chapter.14}
+\BOOKMARK [1][-]{section.14.8}{Community guided attachment}{chapter.14}
+\BOOKMARK [2][-]{subsection.14.8.1}{Dynamic community guided attachment}{section.14.8}
+\BOOKMARK [2][-]{subsection.14.8.2}{Defects}{section.14.8}
+\BOOKMARK [1][-]{section.14.9}{Small world model}{chapter.14}
+\BOOKMARK [1][-]{section.14.10}{Forest fire model}{chapter.14}
+\BOOKMARK [2][-]{subsection.14.10.1}{Good properties}{section.14.10}
+\BOOKMARK [1][-]{section.14.11}{Modelling Microscopic network evolution}{chapter.14}
+\BOOKMARK [1][-]{section.14.12}{By evolution of affiliation network G' = \(A,C,E'\)}{chapter.14}
+\BOOKMARK [2][-]{subsection.14.12.1}{Preferential attachment + edge copying}{section.14.12}
+\BOOKMARK [3][-]{subsubsection.14.12.1.1}{Good properties}{subsection.14.12.1}
+\BOOKMARK [3][-]{subsubsection.14.12.1.2}{Algorithmic benefits}{subsection.14.12.1}
+\BOOKMARK [1][-]{section.14.13}{Kronecker power graphs}{chapter.14}
+\BOOKMARK [2][-]{subsection.14.13.1}{Kronecker-multiplied graphs}{section.14.13}
+\BOOKMARK [2][-]{subsection.14.13.2}{Properties}{section.14.13}
+\BOOKMARK [2][-]{subsection.14.13.3}{Defects}{section.14.13}
+\BOOKMARK [1][-]{section.14.14}{Other generators}{chapter.14}
+\BOOKMARK [2][-]{subsection.14.14.1}{Variations}{section.14.14}
+\BOOKMARK [1][-]{section.14.15}{Evolution of affiliation nw in social nw websites}{chapter.14}
+\BOOKMARK [0][-]{chapter.15}{Link prediction problem}{part.5}
+\BOOKMARK [1][-]{section.15.1}{Motivation}{chapter.15}
+\BOOKMARK [1][-]{section.15.2}{Observations about link prediction}{chapter.15}
+\BOOKMARK [1][-]{section.15.3}{Using similarity measures between nodes}{chapter.15}
+\BOOKMARK [1][-]{section.15.4}{Reducing noise}{chapter.15}
+\BOOKMARK [1][-]{section.15.5}{Enhance similarity measure for nodes with similar neighbors}{chapter.15}
+\BOOKMARK [1][-]{section.15.6}{Model evolution of E}{chapter.15}
+\BOOKMARK [2][-]{subsection.15.6.1}{Using a linear model}{section.15.6}
+\BOOKMARK [1][-]{section.15.7}{The experimental setup}{chapter.15}
+\BOOKMARK [2][-]{subsection.15.7.1}{The problem}{section.15.7}
+\BOOKMARK [3][-]{subsubsection.15.7.1.1}{The sparse case}{subsection.15.7.1}
+\BOOKMARK [1][-]{section.15.8}{Open problems}{chapter.15}
+\BOOKMARK [0][-]{chapter.16}{Network cascades}{part.5}
+\BOOKMARK [1][-]{section.16.1}{Applications}{chapter.16}
+\BOOKMARK [-1][-]{part.6}{Analysis of real world networks}{}
+\BOOKMARK [0][-]{chapter.17}{Partitioning nodes}{part.6}
+\BOOKMARK [1][-]{section.17.1}{Number of partitions, k}{chapter.17}
+\BOOKMARK [1][-]{section.17.2}{Minimum cut objectives}{chapter.17}
+\BOOKMARK [2][-]{subsection.17.2.1}{Ratio, normalized cuts}{section.17.2}
+\BOOKMARK [1][-]{section.17.3}{Modularity of partition C}{chapter.17}
+\BOOKMARK [1][-]{section.17.4}{Spectral clustering}{chapter.17}
+\BOOKMARK [2][-]{subsection.17.4.1}{The objective}{section.17.4}
+\BOOKMARK [2][-]{subsection.17.4.2}{Coclustering nodes in bipartite graph G=\(A, B, E\)}{section.17.4}
+\BOOKMARK [1][-]{section.17.5}{Graclus}{chapter.17}
+\BOOKMARK [0][-]{chapter.18}{Identifying dense subgraphs : relevant clusters}{part.6}
+\BOOKMARK [1][-]{section.18.1}{\(a, b\) cluster C}{chapter.18}
+\BOOKMARK [2][-]{subsection.18.1.1}{Finding \(a, b\) clusters}{section.18.1}
+\BOOKMARK [0][-]{chapter.19}{Network of computers}{part.6}
+\BOOKMARK [1][-]{section.19.1}{Important matrices}{chapter.19}
+\BOOKMARK [2][-]{subsection.19.1.1}{Matrix completion problems}{section.19.1}
+\BOOKMARK [3][-]{subsubsection.19.1.1.1}{Peculiarities}{subsection.19.1.1}
+\BOOKMARK [-1][-]{part.7}{Mapping Graphs and pts in D dim Euclidean space}{}
+\BOOKMARK [0][-]{chapter.20}{Graphs from pts in Euclidean space}{part.7}
+\BOOKMARK [0][-]{chapter.21}{Embedding complete graph with distance weights}{part.7}
+\BOOKMARK [1][-]{section.21.1}{Formulation as matrix factorization}{chapter.21}
+\BOOKMARK [1][-]{section.21.2}{Energy minimization techniques}{chapter.21}
+\BOOKMARK [2][-]{subsection.21.2.1}{Clustering postulate and constraint}{section.21.2}
+\BOOKMARK [2][-]{subsection.21.2.2}{Box Cox family of energy fn}{section.21.2}
+\BOOKMARK [1][-]{section.21.3}{Applications}{chapter.21}
+\BOOKMARK [0][-]{chapter.22}{Embedding Incomplete Graph G}{part.7}
+\BOOKMARK [1][-]{section.22.1}{Energy minimization techniques for G with similarity wts}{chapter.22}
+\BOOKMARK [2][-]{subsection.22.1.1}{Clustering postulate and constraint}{section.22.1}
+\BOOKMARK [2][-]{subsection.22.1.2}{Box Cox family of energy functions}{section.22.1}
+\BOOKMARK [1][-]{section.22.2}{Eigenmap}{chapter.22}
+\BOOKMARK [1][-]{section.22.3}{G with distance wts D}{chapter.22}
+\BOOKMARK [0][-]{section*.12}{Bibliography}{part.7}

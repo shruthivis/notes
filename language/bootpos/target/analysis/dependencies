@@ -1,0 +1,17 @@
+#Source Dependencies
+#Mon Sep 05 22:52:40 CDT 2011
+src/main/scala/opennlp/bootpos/util/io/Iterator2Stream.scala=src/main/scala/opennlp/bootpos/tag/OpenNlpMemm.scala
+src/main/scala/opennlp/bootpos/tag/Tagger.scala=src/main/scala/opennlp/bootpos/app/CorpusProcessor.scala\:src/main/scala/opennlp/bootpos/tag/hmm/WordTagStats.scala\:src/main/scala/opennlp/bootpos/tag/LabelPropagationTagger.scala\:src/main/scala/opennlp/bootpos/tag/hmm/HMM.scala\:src/main/scala/opennlp/bootpos/tag/hmm/EMHMM.scala\:src/main/scala/opennlp/bootpos/tag/OpenNlpMemm.scala
+src/main/scala/opennlp/bootpos/tag/LabelPropagationTagger.scala=src/main/scala/opennlp/bootpos/app/CorpusProcessor.scala
+src/main/scala/opennlp/bootpos/util/ReflectionUtil.scala=src/main/scala/opennlp/bootpos/tag/hmm/EMHMM.scala\:src/main/scala/opennlp/bootpos/util/collection/MatrixBuffer.scala
+src/main/scala/opennlp/bootpos/util/collection/Dictionary.scala=src/main/scala/opennlp/bootpos/app/CorpusProcessor.scala\:src/main/scala/opennlp/bootpos/tag/hmm/WordTagStats.scala\:src/main/scala/opennlp/bootpos/tag/Tagger.scala\:src/main/scala/opennlp/bootpos/tag/hmm/HMM.scala
+src/main/scala/opennlp/bootpos/util/io/TextTableParser.scala=src/main/scala/opennlp/bootpos/app/CorpusProcessor.scala
+src/main/scala/opennlp/bootpos/app/BootPos.scala=src/main/scala/opennlp/bootpos/app/CorpusProcessor.scala\:src/main/scala/opennlp/bootpos/tag/hmm/EMHMM.scala
+src/main/scala/opennlp/bootpos/tag/OpenNlpMemm.scala=src/main/scala/opennlp/bootpos/app/CorpusProcessor.scala
+src/main/scala/opennlp/bootpos/tag/hmm/HMM.scala=src/main/scala/opennlp/bootpos/app/CorpusProcessor.scala\:src/main/scala/opennlp/bootpos/tag/hmm/WordTagStats.scala\:src/main/scala/opennlp/bootpos/tag/hmm/EMHMM.scala
+src/main/scala/opennlp/bootpos/tag/hmm/WordTagStats.scala=src/main/scala/opennlp/bootpos/tag/hmm/HMM.scala\:src/main/scala/opennlp/bootpos/tag/hmm/EMHMM.scala
+src/main/scala/opennlp/bootpos/app/CorpusProcessor.scala=src/main/scala/opennlp/bootpos/app/BootPos.scala
+src/main/scala/opennlp/bootpos/tag/hmm/EMHMM.scala=src/main/scala/opennlp/bootpos/app/CorpusProcessor.scala\:src/main/scala/opennlp/bootpos/tag/hmm/WordTagStats.scala
+src/main/scala/opennlp/bootpos/util/MathUtil.scala=src/main/scala/opennlp/bootpos/tag/hmm/HMM.scala\:src/main/scala/opennlp/bootpos/tag/hmm/EMHMM.scala
+src/main/scala/opennlp/bootpos/util/collection/BijectiveMap.scala=src/main/scala/opennlp/bootpos/tag/Tagger.scala\:src/main/scala/opennlp/bootpos/tag/LabelPropagationTagger.scala
+src/main/scala/opennlp/bootpos/util/collection/MatrixBuffer.scala=src/main/scala/opennlp/bootpos/tag/hmm/WordTagStats.scala\:src/main/scala/opennlp/bootpos/tag/Tagger.scala\:src/main/scala/opennlp/bootpos/tag/LabelPropagationTagger.scala\:src/main/scala/opennlp/bootpos/app/BootPos.scala\:src/main/scala/opennlp/bootpos/tag/hmm/HMM.scala\:src/main/scala/opennlp/bootpos/tag/hmm/EMHMM.scala

@@ -1,0 +1,113 @@
+\documentclass[oneside, article]{memoir}
+\input{../packages}
+\input{../packagesMemoir}
+\input{../macros}
+
+
+%opening
+\title{Machine intelligence: Quick reference}
+\author{vishvAs vAsuki}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+Based on \cite{russellNorvig}, and a course by Shlomo Zilberstein.
+
+\chapter{Themes}
+Dealing with NP hard problems and uncertainty.
+
+\section{Tasks which may befall the intelligent agent}
+
+Framing goals. Planning actions to achieve goals; searching. Storing knowledge. Inference. Learning.
+
+Building mechanical robots. Making actuators. Manipulation. Vision and sensing; feature extraction.
+
+Interacting with humans. Safety.
+
+\section{Characterization of research effort}
+Experiment on real data: observe flaws of algorithms; improve performance by tweaking them.
+
+\chapter{The intelligent agent}
+Percepts, actions. Actuators, sensors. Characterization of environments: observability, stochasticity, episodes, static/ dynamic, discrete / continuous, adverseries.
+
+\section{Rationality}
+Rationality, bounded rationality, satisficing. Performance measure.
+
+\subsection{Attitude towards risk}
+See decision theory in statstics ref, game theory ref to observe risk evaluation. But, an agent may not always go for the option with the least expected risk, but for the option which yields some low risk whp. This is risk averseness, observed in humans.
+
+\section{Models of rational agents}
+Simple reflex agents with condition/ action rules. Model based agents; internal state. Performance measure: goals, utility function. Learning agents.
+
+Exploration vs exploitation tradeoff.
+
+\chapter{Search graph for goal node}
+See graph theory ref.
+
+\chapter{Constraint satisfaction problems}
+Discrete vs continuous valued variables. Number of variables involved in constraints; preferences. Problem structure: the constraint graph.
+
+\section{As an uninformed search problem}
+The naive backtracking search. Variable ordering: Most constrained var / minimum remaining values.
+
+Value ordering: least constraining value. Solve independent subproblems separately; collapse nodes in constraint graph. Propogating information through constraints: forward checking: delete unsuitable values in current node; constraint propogation: delete unsuitable values in lower nodes: arc consistency.  Intelligent backtracking.
+
+\section{Local search for CSPs}
+Eg: n-queens. Effective for overconstrained problems?.
+
+\chapter{Adverserial search / games}
+The game tree: max and min levels. Utility functions and evaluation functions to approximate utility. Labelling the nodes with utilities.
+
+\section{Minmax algorithm}
+$\alpha \beta$ pruning : visit nodes only to decide the best move. Games against nature: Expectiminimax algorithm.
+
+The horizon effect: exploring some branches more deeply.
+
+\chapter{Inference}
+See Inference ref.
+
+\chapter{Machine learning}
+See statistics ref.
+
+\section{Reinforcement learning}
+Agent in an environment, belief states Q: Probability distributions over real states S, can take actions A. Policy $\pi:Q \to A$. Environment gives rewards $R: Q \to R$ sometimes: not always. Some randomized transition function $T_{\pi}:(Q \times A) \to Q$, can be writ as probability distribution $P_{\pi}:Q \times A \times Q \to [0, 1]$.
+
+\subsection{Objective}
+Agent wants to find the optimum policy $\pi'$ by trial and error. Define utility fn: $U:Q \times A \to R$. Want to find the true U which matches reality; thence easily get $\pi'$.
+
+Define value of state: $V_{\pi}(q) = E_{q_{t}}[\sum_{t=0}^{\infty} g^{t}R(q_{t})]$. Must obey Bellman eqn: $V_{\pi}(q) = R(q) + gE_{q'}[V_{\pi}(q')|q, \pi(q)]$; g: discount factor to reduce value of neighboring states: else agent would just stay in current state. Can be writ as vector eqn: $V_{\pi} = R + gP_{\pi}V_{\pi}$. If R and P are known, can use: $V^{\pi} = (I-gP_{\pi})^{-1}$.
+
+Looking at occasional reward, agent must assign credit to past actions: credit assignment problem. Exploration vs exploitation trade-off: can't find high reward states if you try to greedily known best state.
+
+\subsection{Implementation}
+Off policy vs on policy learning.
+
+\section{Reinforcement learning in Animals}
+Stimulus $\equiv$ belief state; response $\equiv$ action. An inspiration for devoloping reinforcement learning algs.
+
+\subsection{Conditioning}
+Eg: Pavlov's dog; behaviorist Skinner training dog to jump against wall in 20 minutes. 1st order vs higher order conditioning. Cats escaping a box to get to fish.
+
+Acquisition due to reinforcement during various trials; Extinction due to removal/ change in R(q): Visualize with a salivation level vs number of trials graph. Spaced trials better for acquisition than massed trials: more time for animal to make correlations.
+
+Habituation: Plateau in response level.
+
+Extinction burst: When you stop reward, animal temporarily tries much harder.
+
+Avoidance: Animal avoids certain states/ stimuli after -ve reward, thereby looses chance to sample/ explore the state further.
+
+Reinforcement schedules: Fixed reward: performance ratio, fixed interval (not good: animal learns interval) etc..
+
+Conditioning due to different reinforcers (food, water etc..).
+
+\chapter{Planning}
+Observability: Actual states; Belief states: probability distr over states.
+
+Markov Decision Processes. Decision diagrams. Partially observable MDP's.
+
+
+\bibliographystyle{plain}
+\bibliography{ai}
+
+\end{document}

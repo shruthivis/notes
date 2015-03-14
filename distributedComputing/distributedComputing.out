@@ -1,0 +1,94 @@
+\BOOKMARK [0][-]{section*.1}{Contents}{}
+\BOOKMARK [0][-]{chapter.1}{Themes}{}
+\BOOKMARK [1][-]{section.1.1}{Characterization of research effort}{chapter.1}
+\BOOKMARK [2][-]{subsection.1.1.1}{Safety and correctness: Use of formal methods}{section.1.1}
+\BOOKMARK [2][-]{subsection.1.1.2}{Efficiency: Implementation, Engineering}{section.1.1}
+\BOOKMARK [0][-]{chapter.2}{Reasoning about distributed computation}{}
+\BOOKMARK [1][-]{section.2.1}{Common assumptions}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.1.1}{Synchronized communication}{section.2.1}
+\BOOKMARK [1][-]{section.2.2}{Proving algorithm efficacy}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.2.1}{Importance and need}{section.2.2}
+\BOOKMARK [2][-]{subsection.2.2.2}{Common tricks}{section.2.2}
+\BOOKMARK [1][-]{section.2.3}{Properties of programs}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.3.1}{Safety of the computation: problems}{section.2.3}
+\BOOKMARK [3][-]{subsubsection.2.3.1.1}{Race conditions: Readers/ writers problem}{subsection.2.3.1}
+\BOOKMARK [2][-]{subsection.2.3.2}{Progress of the computation: Problems}{section.2.3}
+\BOOKMARK [3][-]{subsubsection.2.3.2.1}{Deadlock}{subsection.2.3.2}
+\BOOKMARK [3][-]{subsubsection.2.3.2.2}{Livelock}{subsection.2.3.2}
+\BOOKMARK [2][-]{subsection.2.3.3}{Maximality}{section.2.3}
+\BOOKMARK [1][-]{section.2.4}{Action systems}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.4.1}{Motivation}{section.2.4}
+\BOOKMARK [2][-]{subsection.2.4.2}{Definition}{section.2.4}
+\BOOKMARK [3][-]{subsubsection.2.4.2.1}{Objects}{subsection.2.4.2}
+\BOOKMARK [3][-]{subsubsection.2.4.2.2}{States}{subsection.2.4.2}
+\BOOKMARK [3][-]{subsubsection.2.4.2.3}{Transitions or Actions}{subsection.2.4.2}
+\BOOKMARK [3][-]{subsubsection.2.4.2.4}{Execution rule}{subsection.2.4.2}
+\BOOKMARK [2][-]{subsection.2.4.3}{Reasoning about properties}{section.2.4}
+\BOOKMARK [3][-]{subsubsection.2.4.3.1}{Properties vs predicates, connectives}{subsection.2.4.3}
+\BOOKMARK [3][-]{subsubsection.2.4.3.2}{Auxiliary vs program variables}{subsection.2.4.3}
+\BOOKMARK [1][-]{section.2.5}{Safety properties of Action systems}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.5.1}{The constrains/ co operator}{section.2.5}
+\BOOKMARK [3][-]{subsubsection.2.5.1.1}{Properties of co}{subsection.2.5.1}
+\BOOKMARK [3][-]{subsubsection.2.5.1.2}{Formalizing safety properties}{subsection.2.5.1}
+\BOOKMARK [3][-]{subsubsection.2.5.1.3}{Elimination theorem}{subsection.2.5.1}
+\BOOKMARK [2][-]{subsection.2.5.2}{Stable predicates}{section.2.5}
+\BOOKMARK [2][-]{subsection.2.5.3}{Fixed point x}{section.2.5}
+\BOOKMARK [2][-]{subsection.2.5.4}{Invariant p}{section.2.5}
+\BOOKMARK [3][-]{subsubsection.2.5.4.1}{Substitution axiom}{subsection.2.5.4}
+\BOOKMARK [1][-]{section.2.6}{Progress properties of action systems}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.6.1}{transient p}{section.2.6}
+\BOOKMARK [3][-]{subsubsection.2.6.1.1}{Defn Under weak fairness exec rule}{subsection.2.6.1}
+\BOOKMARK [3][-]{subsubsection.2.6.1.2}{Defn Under minimal progress exec rule}{subsection.2.6.1}
+\BOOKMARK [2][-]{subsection.2.6.2}{p ensures q}{section.2.6}
+\BOOKMARK [2][-]{subsection.2.6.3}{Temporal logic}{section.2.6}
+\BOOKMARK [1][-]{section.2.7}{Ordering events in distributed computation}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.7.1}{An irreflexive partial ordering}{section.2.7}
+\BOOKMARK [3][-]{subsubsection.2.7.1.1}{Impossible orderings}{subsection.2.7.1}
+\BOOKMARK [2][-]{subsection.2.7.2}{Time-line graphs}{section.2.7}
+\BOOKMARK [2][-]{subsection.2.7.3}{Assign numbers to events: Logical clocks}{section.2.7}
+\BOOKMARK [3][-]{subsubsection.2.7.3.1}{Clock condition}{subsection.2.7.3}
+\BOOKMARK [3][-]{subsubsection.2.7.3.2}{Implementation rule}{subsection.2.7.3}
+\BOOKMARK [3][-]{subsubsection.2.7.3.3}{Imposing total order}{subsection.2.7.3}
+\BOOKMARK [1][-]{section.2.8}{Common knowledge}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.8.1}{Coordinating attack problem}{section.2.8}
+\BOOKMARK [0][-]{chapter.3}{Designing distributed computation}{}
+\BOOKMARK [1][-]{section.3.1}{By designing action systems}{chapter.3}
+\BOOKMARK [1][-]{section.3.2}{Coordinating processes}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.2.1}{General signalling constructs}{section.3.2}
+\BOOKMARK [2][-]{subsection.3.2.2}{Synchronization}{section.3.2}
+\BOOKMARK [3][-]{subsubsection.3.2.2.1}{Blocking}{subsection.3.2.2}
+\BOOKMARK [2][-]{subsection.3.2.3}{Resource allocation}{section.3.2}
+\BOOKMARK [3][-]{subsubsection.3.2.3.1}{Resource starvation}{subsection.3.2.3}
+\BOOKMARK [3][-]{subsubsection.3.2.3.2}{The dining philosophers problem}{subsection.3.2.3}
+\BOOKMARK [3][-]{subsubsection.3.2.3.3}{Semaphores for mutual exclusion}{subsection.3.2.3}
+\BOOKMARK [2][-]{subsection.3.2.4}{Call-back}{section.3.2}
+\BOOKMARK [2][-]{subsection.3.2.5}{Randezvous}{section.3.2}
+\BOOKMARK [1][-]{section.3.3}{Distributed program paradigms}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.3.1}{Central coordination}{section.3.3}
+\BOOKMARK [3][-]{subsubsection.3.3.1.1}{Master slave architecture}{subsection.3.3.1}
+\BOOKMARK [3][-]{subsubsection.3.3.1.2}{Using coordinator}{subsection.3.3.1}
+\BOOKMARK [2][-]{subsection.3.3.2}{Layered computation}{section.3.3}
+\BOOKMARK [2][-]{subsection.3.3.3}{Recursive process networks}{section.3.3}
+\BOOKMARK [3][-]{subsubsection.3.3.3.1}{Factorial finding}{subsection.3.3.3}
+\BOOKMARK [2][-]{subsection.3.3.4}{Discovering a spanning tree for process network.}{section.3.3}
+\BOOKMARK [1][-]{section.3.4}{Diffusing computation}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.4.1}{'Underlying' computation}{section.3.4}
+\BOOKMARK [2][-]{subsection.3.4.2}{Termination detection}{section.3.4}
+\BOOKMARK [3][-]{subsubsection.3.4.2.1}{Solution with acknowledgements}{subsection.3.4.2}
+\BOOKMARK [3][-]{subsubsection.3.4.2.2}{Polling for state}{subsection.3.4.2}
+\BOOKMARK [3][-]{subsubsection.3.4.2.3}{The uni-directional ring: without acks}{subsection.3.4.2}
+\BOOKMARK [1][-]{section.3.5}{Global snapshot}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.5.1}{Application}{section.3.5}
+\BOOKMARK [3][-]{subsubsection.3.5.1.1}{Checkpointing}{subsection.3.5.1}
+\BOOKMARK [3][-]{subsubsection.3.5.1.2}{Census}{subsection.3.5.1}
+\BOOKMARK [3][-]{subsubsection.3.5.1.3}{Consistant state}{subsection.3.5.1}
+\BOOKMARK [2][-]{subsection.3.5.2}{Algorithm}{section.3.5}
+\BOOKMARK [3][-]{subsubsection.3.5.2.1}{Proof of correctness}{subsection.3.5.2}
+\BOOKMARK [1][-]{section.3.6}{Fault tolerance}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.6.1}{Motivation}{section.3.6}
+\BOOKMARK [2][-]{subsection.3.6.2}{Taking majority}{section.3.6}
+\BOOKMARK [2][-]{subsection.3.6.3}{Consensus}{section.3.6}
+\BOOKMARK [3][-]{subsubsection.3.6.3.1}{Byzantine generals problem}{subsection.3.6.3}
+\BOOKMARK [3][-]{subsubsection.3.6.3.2}{Consensus problem}{subsection.3.6.3}
+\BOOKMARK [0][-]{chapter.4}{Problems}{}
+\BOOKMARK [1][-]{section.4.1}{Agreement on public randomness}{chapter.4}

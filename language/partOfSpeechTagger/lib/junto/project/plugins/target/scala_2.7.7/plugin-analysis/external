@@ -1,0 +1,5 @@
+#External Dependencies
+#Tue Jul 05 21:36:35 CDT 2011
+/usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar=src_managed/assembly-sbt-0.1.1/assembly/AssemblyBuilder.scala
+/home/vvasuki/posTagging/lib/junto/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.7/sbt_2.7.7-0.7.7.jar=src_managed/assembly-sbt-0.1.1/assembly/AssemblyBuilder.scala
+/home/vvasuki/posTagging/lib/junto/project/boot/scala-2.7.7/lib/scala-library.jar=src_managed/assembly-sbt-0.1.1/assembly/AssemblyBuilder.scala

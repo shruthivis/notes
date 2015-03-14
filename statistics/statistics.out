@@ -1,0 +1,516 @@
+\BOOKMARK [0][-]{section*.1}{Contents}{}
+\BOOKMARK [-1][-]{part.1}{Introduction}{}
+\BOOKMARK [0][-]{chapter.1}{Themes}{part.1}
+\BOOKMARK [1][-]{section.1.1}{Statistical inference}{chapter.1}
+\BOOKMARK [2][-]{subsection.1.1.1}{Inference from data subject to randomness}{section.1.1}
+\BOOKMARK [2][-]{subsection.1.1.2}{Modeling problems}{section.1.1}
+\BOOKMARK [2][-]{subsection.1.1.3}{Solving Modeled problems}{section.1.1}
+\BOOKMARK [3][-]{subsubsection.1.1.3.1}{Degrees of abstractness}{subsection.1.1.3}
+\BOOKMARK [1][-]{section.1.2}{Research effort}{chapter.1}
+\BOOKMARK [2][-]{subsection.1.2.1}{Analysis of efficiency and complexity}{section.1.2}
+\BOOKMARK [2][-]{subsection.1.2.2}{Modeling and Experimentation}{section.1.2}
+\BOOKMARK [3][-]{subsubsection.1.2.2.1}{Purpose}{subsection.1.2.2}
+\BOOKMARK [3][-]{subsubsection.1.2.2.2}{Avoiding unnecessary work}{subsection.1.2.2}
+\BOOKMARK [3][-]{subsubsection.1.2.2.3}{Degree of experimentation}{subsection.1.2.2}
+\BOOKMARK [3][-]{subsubsection.1.2.2.4}{Data preparation}{subsection.1.2.2}
+\BOOKMARK [2][-]{subsection.1.2.3}{Following research}{section.1.2}
+\BOOKMARK [1][-]{section.1.3}{Software}{chapter.1}
+\BOOKMARK [0][-]{chapter.2}{Decision theory}{part.1}
+\BOOKMARK [1][-]{section.2.1}{Agents: Actions, policies}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.1.1}{State and parameters}{section.2.1}
+\BOOKMARK [3][-]{subsubsection.2.1.1.1}{State space}{subsection.2.1.1}
+\BOOKMARK [3][-]{subsubsection.2.1.1.2}{Parameter space T}{subsection.2.1.1}
+\BOOKMARK [3][-]{subsubsection.2.1.1.3}{State transitions}{subsection.2.1.1}
+\BOOKMARK [2][-]{subsection.2.1.2}{Action space A}{section.2.1}
+\BOOKMARK [3][-]{subsubsection.2.1.2.1}{Common examples}{subsection.2.1.2}
+\BOOKMARK [2][-]{subsection.2.1.3}{Goodness of actions}{section.2.1}
+\BOOKMARK [3][-]{subsubsection.2.1.3.1}{Loss function L}{subsection.2.1.3}
+\BOOKMARK [3][-]{subsubsection.2.1.3.2}{Examples}{subsection.2.1.3}
+\BOOKMARK [2][-]{subsection.2.1.4}{Decision procedure d}{section.2.1}
+\BOOKMARK [3][-]{subsubsection.2.1.4.1}{Mapping observation D to actions}{subsection.2.1.4}
+\BOOKMARK [3][-]{subsubsection.2.1.4.2}{Deterministic procedures}{subsection.2.1.4}
+\BOOKMARK [3][-]{subsubsection.2.1.4.3}{Randomized procedures}{subsection.2.1.4}
+\BOOKMARK [3][-]{subsubsection.2.1.4.4}{Examples}{subsection.2.1.4}
+\BOOKMARK [1][-]{section.2.2}{Risk R of decision procedure d}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.2.1}{Motivation and setting}{section.2.2}
+\BOOKMARK [2][-]{subsection.2.2.2}{Risk}{section.2.2}
+\BOOKMARK [2][-]{subsection.2.2.3}{Uncertain ground truth case}{section.2.2}
+\BOOKMARK [3][-]{subsubsection.2.2.3.1}{The need}{subsection.2.2.3}
+\BOOKMARK [3][-]{subsubsection.2.2.3.2}{Frequentist and epistemological approaches}{subsection.2.2.3}
+\BOOKMARK [3][-]{subsubsection.2.2.3.3}{Prior beliefs about ground truth}{subsection.2.2.3}
+\BOOKMARK [3][-]{subsubsection.2.2.3.4}{Prior beliefs about best d}{subsection.2.2.3}
+\BOOKMARK [3][-]{subsubsection.2.2.3.5}{Additive form}{subsection.2.2.3}
+\BOOKMARK [2][-]{subsection.2.2.4}{Geometry of R}{section.2.2}
+\BOOKMARK [2][-]{subsection.2.2.5}{Empirical risk}{section.2.2}
+\BOOKMARK [2][-]{subsection.2.2.6}{Minimal risk}{section.2.2}
+\BOOKMARK [3][-]{subsubsection.2.2.6.1}{Definition}{subsection.2.2.6}
+\BOOKMARK [3][-]{subsubsection.2.2.6.2}{Risk Consistency of d}{subsection.2.2.6}
+\BOOKMARK [3][-]{subsubsection.2.2.6.3}{Risk persistence}{subsection.2.2.6}
+\BOOKMARK [3][-]{subsubsection.2.2.6.4}{In High dimensional setting}{subsection.2.2.6}
+\BOOKMARK [1][-]{section.2.3}{As a POMDP}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.3.1}{State and observation}{section.2.3}
+\BOOKMARK [2][-]{subsection.2.3.2}{Transitions}{section.2.3}
+\BOOKMARK [2][-]{subsection.2.3.3}{Action and Loss}{section.2.3}
+\BOOKMARK [2][-]{subsection.2.3.4}{Policy}{section.2.3}
+\BOOKMARK [2][-]{subsection.2.3.5}{Risk vs value}{section.2.3}
+\BOOKMARK [0][-]{chapter.3}{Procedure for choosing decision procedure d}{part.1}
+\BOOKMARK [1][-]{section.3.1}{Overview, motivation}{chapter.3}
+\BOOKMARK [1][-]{section.3.2}{Picking the right hypothesis space H}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.2.1}{Hypothesis space H}{section.3.2}
+\BOOKMARK [2][-]{subsection.3.2.2}{Motivation, Factors to consider}{section.3.2}
+\BOOKMARK [3][-]{subsubsection.3.2.2.1}{Approximation vs estimation error tradeoff}{subsection.3.2.2}
+\BOOKMARK [2][-]{subsection.3.2.3}{Parameters}{section.3.2}
+\BOOKMARK [3][-]{subsubsection.3.2.3.1}{Common structural assumptions}{subsection.3.2.3}
+\BOOKMARK [1][-]{section.3.3}{Loss function choice}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.3.1}{Evaluation}{section.3.3}
+\BOOKMARK [1][-]{section.3.4}{Theoretically find the best d}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.4.1}{Best d for fixed ground truth}{section.3.4}
+\BOOKMARK [2][-]{subsection.3.4.2}{Minimum expected \(Bayesian\) risk}{section.3.4}
+\BOOKMARK [3][-]{subsubsection.3.4.2.1}{Geometry}{subsection.3.4.2}
+\BOOKMARK [2][-]{subsection.3.4.3}{Choose an admissible procedure}{section.3.4}
+\BOOKMARK [3][-]{subsubsection.3.4.3.1}{Geometry}{subsection.3.4.3}
+\BOOKMARK [2][-]{subsection.3.4.4}{The adversarial setting: minimax procedure}{section.3.4}
+\BOOKMARK [3][-]{subsubsection.3.4.4.1}{Geometry}{subsection.3.4.4}
+\BOOKMARK [2][-]{subsection.3.4.5}{Compare risk profiles of d over range of ground truth}{section.3.4}
+\BOOKMARK [1][-]{section.3.5}{Empirical risk minimization}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.5.1}{Fit to D vs generalization ability}{section.3.5}
+\BOOKMARK [3][-]{subsubsection.3.5.1.1}{Training error}{subsection.3.5.1}
+\BOOKMARK [3][-]{subsubsection.3.5.1.2}{Overfitting}{subsection.3.5.1}
+\BOOKMARK [3][-]{subsubsection.3.5.1.3}{Underfitting}{subsection.3.5.1}
+\BOOKMARK [2][-]{subsection.3.5.2}{Overfitting and model complexity}{section.3.5}
+\BOOKMARK [3][-]{subsubsection.3.5.2.1}{Model complexity}{subsection.3.5.2}
+\BOOKMARK [3][-]{subsubsection.3.5.2.2}{Limiting number of parameters}{subsection.3.5.2}
+\BOOKMARK [3][-]{subsubsection.3.5.2.3}{Polynomial regression example}{subsection.3.5.2}
+\BOOKMARK [2][-]{subsection.3.5.3}{Avoiding overfitting}{section.3.5}
+\BOOKMARK [3][-]{subsubsection.3.5.3.1}{Altered risk function}{subsection.3.5.3}
+\BOOKMARK [3][-]{subsubsection.3.5.3.2}{Altered loss function}{subsection.3.5.3}
+\BOOKMARK [3][-]{subsubsection.3.5.3.3}{Other derivations}{subsection.3.5.3}
+\BOOKMARK [3][-]{subsubsection.3.5.3.4}{Hyper-parameters}{subsection.3.5.3}
+\BOOKMARK [2][-]{subsection.3.5.4}{Statistical efficiency analysis}{section.3.5}
+\BOOKMARK [3][-]{subsubsection.3.5.4.1}{Accuracy of empirical risk estimate}{subsection.3.5.4}
+\BOOKMARK [3][-]{subsubsection.3.5.4.2}{Bound deviation from optimum h: bound empirical risk error}{subsection.3.5.4}
+\BOOKMARK [2][-]{subsection.3.5.5}{Check generalization ability}{section.3.5}
+\BOOKMARK [3][-]{subsubsection.3.5.5.1}{Motivation}{subsection.3.5.5}
+\BOOKMARK [3][-]{subsubsection.3.5.5.2}{General procedure}{subsection.3.5.5}
+\BOOKMARK [3][-]{subsubsection.3.5.5.3}{Multiple rounds for robustness}{subsection.3.5.5}
+\BOOKMARK [3][-]{subsubsection.3.5.5.4}{Cross validation}{subsection.3.5.5}
+\BOOKMARK [2][-]{subsection.3.5.6}{Tuning risk minimization}{section.3.5}
+\BOOKMARK [3][-]{subsubsection.3.5.6.1}{Diagnosis}{subsection.3.5.6}
+\BOOKMARK [3][-]{subsubsection.3.5.6.2}{Picking hyperparameters}{subsection.3.5.6}
+\BOOKMARK [1][-]{section.3.6}{Combining Decision procedures}{chapter.3}
+\BOOKMARK [1][-]{section.3.7}{Offline vs online learning}{chapter.3}
+\BOOKMARK [1][-]{section.3.8}{Interpreting the decision procedure selected}{chapter.3}
+\BOOKMARK [0][-]{chapter.4}{Sample}{part.1}
+\BOOKMARK [1][-]{section.4.1}{Properties}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.1.1}{Sample bias}{section.4.1}
+\BOOKMARK [2][-]{subsection.4.1.2}{Completeness, accuracy of examples}{section.4.1}
+\BOOKMARK [2][-]{subsection.4.1.3}{Independence of data points}{section.4.1}
+\BOOKMARK [3][-]{subsubsection.4.1.3.1}{Sequential}{subsection.4.1.3}
+\BOOKMARK [3][-]{subsubsection.4.1.3.2}{Adversarial}{subsection.4.1.3}
+\BOOKMARK [3][-]{subsubsection.4.1.3.3}{Active choice}{subsection.4.1.3}
+\BOOKMARK [2][-]{subsection.4.1.4}{Labeling of the data.}{section.4.1}
+\BOOKMARK [2][-]{subsection.4.1.5}{In case of small sample}{section.4.1}
+\BOOKMARK [3][-]{subsubsection.4.1.5.1}{Few high dimensional data-points}{subsection.4.1.5}
+\BOOKMARK [3][-]{subsubsection.4.1.5.2}{Examples}{subsection.4.1.5}
+\BOOKMARK [-1][-]{part.2}{Simplification, exploratory analysis}{}
+\BOOKMARK [0][-]{chapter.5}{Data exploration}{part.2}
+\BOOKMARK [0][-]{chapter.6}{Data preparation}{part.2}
+\BOOKMARK [1][-]{section.6.1}{Motivation}{chapter.6}
+\BOOKMARK [1][-]{section.6.2}{Changing the range}{chapter.6}
+\BOOKMARK [1][-]{section.6.3}{Dealing with missing values}{chapter.6}
+\BOOKMARK [1][-]{section.6.4}{Saling, centering, allowing bias}{chapter.6}
+\BOOKMARK [2][-]{subsection.6.4.1}{Motivation}{section.6.4}
+\BOOKMARK [2][-]{subsection.6.4.2}{Centering to 0}{section.6.4}
+\BOOKMARK [2][-]{subsection.6.4.3}{Scaling}{section.6.4}
+\BOOKMARK [2][-]{subsection.6.4.4}{Constant variable}{section.6.4}
+\BOOKMARK [0][-]{chapter.7}{Finding a simpler, more useful representation of the data}{part.2}
+\BOOKMARK [1][-]{section.7.1}{Feature extraction}{chapter.7}
+\BOOKMARK [2][-]{subsection.7.1.1}{Dimensionality reduction}{section.7.1}
+\BOOKMARK [3][-]{subsubsection.7.1.1.1}{Importance}{subsection.7.1.1}
+\BOOKMARK [3][-]{subsubsection.7.1.1.2}{Extant of dimensionality reduction}{subsection.7.1.1}
+\BOOKMARK [1][-]{section.7.2}{Using Kernel function to implicitly map data to a feature space}{chapter.7}
+\BOOKMARK [2][-]{subsection.7.2.1}{The Kernel trick}{section.7.2}
+\BOOKMARK [2][-]{subsection.7.2.2}{Use}{section.7.2}
+\BOOKMARK [1][-]{section.7.3}{Casting data into a graph}{chapter.7}
+\BOOKMARK [2][-]{subsection.7.3.1}{eps neighborhood graph}{section.7.3}
+\BOOKMARK [2][-]{subsection.7.3.2}{k nearest neighbor directed graph}{section.7.3}
+\BOOKMARK [2][-]{subsection.7.3.3}{Fully connected graph}{section.7.3}
+\BOOKMARK [1][-]{section.7.4}{Find similar features}{chapter.7}
+\BOOKMARK [2][-]{subsection.7.4.1}{With Clustering}{section.7.4}
+\BOOKMARK [2][-]{subsection.7.4.2}{Find covariance of various features}{section.7.4}
+\BOOKMARK [3][-]{subsubsection.7.4.2.1}{Sample points and their mean}{subsection.7.4.2}
+\BOOKMARK [3][-]{subsubsection.7.4.2.2}{Sample Covariance matrix C}{subsection.7.4.2}
+\BOOKMARK [1][-]{section.7.5}{Identify a good metric}{chapter.7}
+\BOOKMARK [2][-]{subsection.7.5.1}{Generalized interpoint distance}{section.7.5}
+\BOOKMARK [0][-]{chapter.8}{Dimensionality reduction}{part.2}
+\BOOKMARK [1][-]{section.8.1}{General motivations}{chapter.8}
+\BOOKMARK [1][-]{section.8.2}{Latent factor modeling}{chapter.8}
+\BOOKMARK [2][-]{subsection.8.2.1}{Problem}{section.8.2}
+\BOOKMARK [3][-]{subsubsection.8.2.1.1}{Matrix view}{subsection.8.2.1}
+\BOOKMARK [3][-]{subsubsection.8.2.1.2}{Linear model}{subsection.8.2.1}
+\BOOKMARK [3][-]{subsubsection.8.2.1.3}{Motivation}{subsection.8.2.1}
+\BOOKMARK [2][-]{subsection.8.2.2}{Matrix factorization by SVD}{section.8.2}
+\BOOKMARK [2][-]{subsection.8.2.3}{Non-negative matrix factorization}{section.8.2}
+\BOOKMARK [2][-]{subsection.8.2.4}{Probabilistic modeling}{section.8.2}
+\BOOKMARK [1][-]{section.8.3}{Linear dimensionality reduction}{chapter.8}
+\BOOKMARK [2][-]{subsection.8.3.1}{Most variable subspace identification}{section.8.3}
+\BOOKMARK [3][-]{subsubsection.8.3.1.1}{Problem}{subsection.8.3.1}
+\BOOKMARK [3][-]{subsubsection.8.3.1.2}{Motivation}{subsection.8.3.1}
+\BOOKMARK [3][-]{subsubsection.8.3.1.3}{Preprocessing, problem statement}{subsection.8.3.1}
+\BOOKMARK [3][-]{subsubsection.8.3.1.4}{Solution}{subsection.8.3.1}
+\BOOKMARK [3][-]{subsubsection.8.3.1.5}{Best target dimension k}{subsection.8.3.1}
+\BOOKMARK [3][-]{subsubsection.8.3.1.6}{Comments}{subsection.8.3.1}
+\BOOKMARK [2][-]{subsection.8.3.2}{Factor analysis}{section.8.3}
+\BOOKMARK [1][-]{section.8.4}{Supervised linear dimensionality reduction}{chapter.8}
+\BOOKMARK [2][-]{subsection.8.4.1}{Linear discriminant analysis}{section.8.4}
+\BOOKMARK [3][-]{subsubsection.8.4.1.1}{The problem}{subsection.8.4.1}
+\BOOKMARK [3][-]{subsubsection.8.4.1.2}{The solution}{subsection.8.4.1}
+\BOOKMARK [1][-]{section.8.5}{Non-linear dimensionality reduction}{chapter.8}
+\BOOKMARK [2][-]{subsection.8.5.1}{Kernel PCA}{section.8.5}
+\BOOKMARK [2][-]{subsection.8.5.2}{Manifold learning}{section.8.5}
+\BOOKMARK [2][-]{subsection.8.5.3}{Measuring goodness}{section.8.5}
+\BOOKMARK [0][-]{chapter.9}{Cluster data points}{part.2}
+\BOOKMARK [1][-]{section.9.1}{The clustering problem}{chapter.9}
+\BOOKMARK [2][-]{subsection.9.1.1}{Use}{section.9.1}
+\BOOKMARK [2][-]{subsection.9.1.2}{Criteria: Continuity vs compactness}{section.9.1}
+\BOOKMARK [2][-]{subsection.9.1.3}{Extensions}{section.9.1}
+\BOOKMARK [3][-]{subsubsection.9.1.3.1}{Find Non-redundant clusterings}{subsection.9.1.3}
+\BOOKMARK [3][-]{subsubsection.9.1.3.2}{With background clutter}{subsection.9.1.3}
+\BOOKMARK [2][-]{subsection.9.1.4}{Evaluation of clustering}{section.9.1}
+\BOOKMARK [2][-]{subsection.9.1.5}{Challenges}{section.9.1}
+\BOOKMARK [3][-]{subsubsection.9.1.5.1}{Curse of dimensionality}{subsection.9.1.5}
+\BOOKMARK [3][-]{subsubsection.9.1.5.2}{Number of clusters k}{subsection.9.1.5}
+\BOOKMARK [3][-]{subsubsection.9.1.5.3}{Identify important clusters}{subsection.9.1.5}
+\BOOKMARK [2][-]{subsection.9.1.6}{Approaches}{section.9.1}
+\BOOKMARK [3][-]{subsubsection.9.1.6.1}{Views of the data}{subsection.9.1.6}
+\BOOKMARK [3][-]{subsubsection.9.1.6.2}{Density estimation}{subsection.9.1.6}
+\BOOKMARK [3][-]{subsubsection.9.1.6.3}{Centroid based vs agglomerative clustering}{subsection.9.1.6}
+\BOOKMARK [1][-]{section.9.2}{Agglomerative clustering}{chapter.9}
+\BOOKMARK [2][-]{subsection.9.2.1}{Intercluster metrics}{section.9.2}
+\BOOKMARK [1][-]{section.9.3}{Centroid based clustering}{chapter.9}
+\BOOKMARK [2][-]{subsection.9.3.1}{Mean: Best cluster representative wrt Bregman div}{section.9.3}
+\BOOKMARK [2][-]{subsection.9.3.2}{k means clustering}{section.9.3}
+\BOOKMARK [3][-]{subsubsection.9.3.2.1}{Objective}{subsection.9.3.2}
+\BOOKMARK [3][-]{subsubsection.9.3.2.2}{Algorithm}{subsection.9.3.2}
+\BOOKMARK [3][-]{subsubsection.9.3.2.3}{As low rank factorization with alternating minimization}{subsection.9.3.2}
+\BOOKMARK [3][-]{subsubsection.9.3.2.4}{Drawbacks and extensions}{subsection.9.3.2}
+\BOOKMARK [2][-]{subsection.9.3.3}{With GMM}{section.9.3}
+\BOOKMARK [3][-]{subsubsection.9.3.3.1}{Generalizing k-means}{subsection.9.3.3}
+\BOOKMARK [2][-]{subsection.9.3.4}{With non-negative matrix factorization}{section.9.3}
+\BOOKMARK [2][-]{subsection.9.3.5}{Finding the initialization points}{section.9.3}
+\BOOKMARK [1][-]{section.9.4}{Co-clustering}{chapter.9}
+\BOOKMARK [2][-]{subsection.9.4.1}{Objective: Information loss minimizing}{section.9.4}
+\BOOKMARK [3][-]{subsubsection.9.4.1.1}{The monotonic optimizer}{subsection.9.4.1}
+\BOOKMARK [1][-]{section.9.5}{Using Graph clustering}{chapter.9}
+\BOOKMARK [-1][-]{part.3}{Distribution structure learning}{}
+\BOOKMARK [0][-]{chapter.10}{Problems}{part.3}
+\BOOKMARK [1][-]{section.10.1}{Conditional distributions and notation}{chapter.10}
+\BOOKMARK [1][-]{section.10.2}{Connection to modeling marginal density}{chapter.10}
+\BOOKMARK [2][-]{subsection.10.2.1}{Problem structure}{section.10.2}
+\BOOKMARK [0][-]{chapter.11}{Estimating parameters}{part.3}
+\BOOKMARK [1][-]{section.11.1}{Estimate parameters using statistics}{chapter.11}
+\BOOKMARK [2][-]{subsection.11.1.1}{Statistic, estimator}{section.11.1}
+\BOOKMARK [3][-]{subsubsection.11.1.1.1}{Point estimation of the parameter}{subsection.11.1.1}
+\BOOKMARK [2][-]{subsection.11.1.2}{Distribution of a statistic}{section.11.1}
+\BOOKMARK [2][-]{subsection.11.1.3}{Summarize Central tendency}{section.11.1}
+\BOOKMARK [3][-]{subsubsection.11.1.3.1}{AM, GM, HM}{subsection.11.1.3}
+\BOOKMARK [3][-]{subsubsection.11.1.3.2}{Modeling accuracy}{subsection.11.1.3}
+\BOOKMARK [3][-]{subsubsection.11.1.3.3}{Combining arithmetic means of subpopulations}{subsection.11.1.3}
+\BOOKMARK [2][-]{subsection.11.1.4}{Other statistics and parameters}{section.11.1}
+\BOOKMARK [3][-]{subsubsection.11.1.4.1}{Summarize variability or dispersion}{subsection.11.1.4}
+\BOOKMARK [3][-]{subsubsection.11.1.4.2}{Order statistics}{subsection.11.1.4}
+\BOOKMARK [3][-]{subsubsection.11.1.4.3}{Other statistics}{subsection.11.1.4}
+\BOOKMARK [1][-]{section.11.2}{Estimator properties}{chapter.11}
+\BOOKMARK [2][-]{subsection.11.2.1}{Bias}{section.11.2}
+\BOOKMARK [2][-]{subsection.11.2.2}{Mean square error: Bias variance decomposition}{section.11.2}
+\BOOKMARK [2][-]{subsection.11.2.3}{Relative efficiency of unbiased estimators}{section.11.2}
+\BOOKMARK [2][-]{subsection.11.2.4}{Consistency of unbiased estimators}{section.11.2}
+\BOOKMARK [2][-]{subsection.11.2.5}{Sufficiency of unbiased estimator}{section.11.2}
+\BOOKMARK [3][-]{subsubsection.11.2.5.1}{Motivation from MLE}{subsection.11.2.5}
+\BOOKMARK [3][-]{subsubsection.11.2.5.2}{To show sufficiency if distribution family known}{subsection.11.2.5}
+\BOOKMARK [3][-]{subsubsection.11.2.5.3}{To find sufficient statistic}{subsection.11.2.5}
+\BOOKMARK [2][-]{subsection.11.2.6}{Statistical efficiency}{section.11.2}
+\BOOKMARK [1][-]{section.11.3}{Find estimator for some parameter}{chapter.11}
+\BOOKMARK [2][-]{subsection.11.3.1}{From sufficient statistic}{section.11.3}
+\BOOKMARK [2][-]{subsection.11.3.2}{Minimum variance unbiased estimator \(MVUE\)}{section.11.3}
+\BOOKMARK [2][-]{subsection.11.3.3}{Method of moments}{section.11.3}
+\BOOKMARK [1][-]{section.11.4}{Confidence Interval}{chapter.11}
+\BOOKMARK [2][-]{subsection.11.4.1}{Definition}{section.11.4}
+\BOOKMARK [2][-]{subsection.11.4.2}{General procedure}{section.11.4}
+\BOOKMARK [3][-]{subsubsection.11.4.2.1}{Pivotal quantity for estimate}{subsection.11.4.2}
+\BOOKMARK [3][-]{subsubsection.11.4.2.2}{Procedure}{subsection.11.4.2}
+\BOOKMARK [2][-]{subsection.11.4.3}{Pivotal quantity deviation bounds}{section.11.4}
+\BOOKMARK [3][-]{subsubsection.11.4.3.1}{By repeated sampling}{subsection.11.4.3}
+\BOOKMARK [3][-]{subsubsection.11.4.3.2}{By Bootstrap sampling}{subsection.11.4.3}
+\BOOKMARK [2][-]{subsection.11.4.4}{Pivotal quantity for ratio of variances}{section.11.4}
+\BOOKMARK [0][-]{chapter.12}{Mean, variance of real valued RV}{part.3}
+\BOOKMARK [1][-]{section.12.1}{Mean: estimation}{chapter.12}
+\BOOKMARK [2][-]{subsection.12.1.1}{Consistency}{section.12.1}
+\BOOKMARK [2][-]{subsection.12.1.2}{Normalness of estimator distribution}{section.12.1}
+\BOOKMARK [3][-]{subsubsection.12.1.2.1}{Proof showing MGF .. MGF of N\(0, 1\)}{subsection.12.1.2}
+\BOOKMARK [2][-]{subsection.12.1.3}{Normal distr: Pivotal quantity to estimate mean}{section.12.1}
+\BOOKMARK [2][-]{subsection.12.1.4}{Goodness of empirical estimate}{section.12.1}
+\BOOKMARK [1][-]{section.12.2}{Variance estimation}{chapter.12}
+\BOOKMARK [2][-]{subsection.12.2.1}{The biased and unbiased estimators}{section.12.2}
+\BOOKMARK [2][-]{subsection.12.2.2}{Normal distr: Pivotal quantity to estimate variance}{section.12.2}
+\BOOKMARK [1][-]{section.12.3}{Sequential data Sample statistics}{chapter.12}
+\BOOKMARK [2][-]{subsection.12.3.1}{k-step Moving averages}{section.12.3}
+\BOOKMARK [3][-]{subsubsection.12.3.1.1}{Simple moving average}{subsection.12.3.1}
+\BOOKMARK [3][-]{subsubsection.12.3.1.2}{Exponential Weighed}{subsection.12.3.1}
+\BOOKMARK [3][-]{subsubsection.12.3.1.3}{Applications}{subsection.12.3.1}
+\BOOKMARK [0][-]{chapter.13}{Density estimation}{part.3}
+\BOOKMARK [1][-]{section.13.1}{Importance}{chapter.13}
+\BOOKMARK [1][-]{section.13.2}{Choosing the distribution family}{chapter.13}
+\BOOKMARK [2][-]{subsection.13.2.1}{Observe empirical distribution}{section.13.2}
+\BOOKMARK [2][-]{subsection.13.2.2}{Given expected values of fns .. and a base measure h}{section.13.2}
+\BOOKMARK [2][-]{subsection.13.2.3}{Given dependence among features}{section.13.2}
+\BOOKMARK [1][-]{section.13.3}{Parametric density estimation}{chapter.13}
+\BOOKMARK [1][-]{section.13.4}{Non parametric Probability Density estimation}{chapter.13}
+\BOOKMARK [2][-]{subsection.13.4.1}{Histogram and the Kernel histogram}{section.13.4}
+\BOOKMARK [2][-]{subsection.13.4.2}{Kernel density estimation}{section.13.4}
+\BOOKMARK [3][-]{subsubsection.13.4.2.1}{Kernel function for density estimation}{subsection.13.4.2}
+\BOOKMARK [3][-]{subsubsection.13.4.2.2}{Using Gaussian radial basis functions}{subsection.13.4.2}
+\BOOKMARK [1][-]{section.13.5}{Estimate probability measures}{chapter.13}
+\BOOKMARK [2][-]{subsection.13.5.1}{Use empirical measures}{section.13.5}
+\BOOKMARK [3][-]{subsubsection.13.5.1.1}{Empirical measure}{subsection.13.5.1}
+\BOOKMARK [3][-]{subsubsection.13.5.1.2}{Goodness of estimate: single event}{subsection.13.5.1}
+\BOOKMARK [3][-]{subsubsection.13.5.1.3}{Goodness of estimate for a class of events}{subsection.13.5.1}
+\BOOKMARK [2][-]{subsection.13.5.2}{Estimate CDF using empirical CDF}{section.13.5}
+\BOOKMARK [0][-]{chapter.14}{Parametric density estimation}{part.3}
+\BOOKMARK [1][-]{section.14.1}{Problem and solution ideals}{chapter.14}
+\BOOKMARK [2][-]{subsection.14.1.1}{Density estimation using a distribution class}{section.14.1}
+\BOOKMARK [3][-]{subsubsection.14.1.1.1}{Related problems}{subsection.14.1.1}
+\BOOKMARK [2][-]{subsection.14.1.2}{Solution ideas}{section.14.1}
+\BOOKMARK [1][-]{section.14.2}{Approximation with Normal distribution}{chapter.14}
+\BOOKMARK [2][-]{subsection.14.2.1}{Algorithm}{section.14.2}
+\BOOKMARK [3][-]{subsubsection.14.2.1.1}{2nd order approximation of log f}{subsection.14.2.1}
+\BOOKMARK [2][-]{subsection.14.2.2}{Properties}{section.14.2}
+\BOOKMARK [3][-]{subsubsection.14.2.2.1}{Estimating Z}{subsection.14.2.2}
+\BOOKMARK [3][-]{subsubsection.14.2.2.2}{Non-uniqueness}{subsection.14.2.2}
+\BOOKMARK [1][-]{section.14.3}{Log loss minimization}{chapter.14}
+\BOOKMARK [2][-]{subsection.14.3.1}{Optimization problem, estimate}{section.14.3}
+\BOOKMARK [3][-]{subsubsection.14.3.1.1}{Functional Invariance property}{subsection.14.3.1}
+\BOOKMARK [3][-]{subsubsection.14.3.1.2}{Avg Log likelihood function}{subsection.14.3.1}
+\BOOKMARK [2][-]{subsection.14.3.2}{Other perspectives}{section.14.3}
+\BOOKMARK [3][-]{subsubsection.14.3.2.1}{As log loss risk minimization}{subsection.14.3.2}
+\BOOKMARK [3][-]{subsubsection.14.3.2.2}{Priors as regularizers}{subsection.14.3.2}
+\BOOKMARK [3][-]{subsubsection.14.3.2.3}{As empirical code-length divergence minimization}{subsection.14.3.2}
+\BOOKMARK [2][-]{subsection.14.3.3}{Derivatives of log likelihood}{section.14.3}
+\BOOKMARK [3][-]{subsubsection.14.3.3.1}{Score function : Sensitivity of log Likelihood}{subsection.14.3.3}
+\BOOKMARK [3][-]{subsubsection.14.3.3.2}{Variance wrt X of sensitivity score of likelihood}{subsection.14.3.3}
+\BOOKMARK [2][-]{subsection.14.3.4}{Computational cost}{section.14.3}
+\BOOKMARK [3][-]{subsubsection.14.3.4.1}{Computing partition function}{subsection.14.3.4}
+\BOOKMARK [3][-]{subsubsection.14.3.4.2}{Pseudolikelihood maximization}{subsection.14.3.4}
+\BOOKMARK [1][-]{section.14.4}{Non uniform model for P\(t\)}{chapter.14}
+\BOOKMARK [2][-]{subsection.14.4.1}{Objective, estimate}{section.14.4}
+\BOOKMARK [2][-]{subsection.14.4.2}{Relation to MLE}{section.14.4}
+\BOOKMARK [2][-]{subsection.14.4.3}{Defining prior distributions}{section.14.4}
+\BOOKMARK [3][-]{subsubsection.14.4.3.1}{Hyperparameters for prior distribution of parameters}{subsection.14.4.3}
+\BOOKMARK [3][-]{subsubsection.14.4.3.2}{Conjugate prior for a likelihood}{subsection.14.4.3}
+\BOOKMARK [1][-]{section.14.5}{Model combination}{chapter.14}
+\BOOKMARK [1][-]{section.14.6}{Information criteria}{chapter.14}
+\BOOKMARK [2][-]{subsection.14.6.1}{Use}{section.14.6}
+\BOOKMARK [0][-]{chapter.15}{Support estimation}{part.3}
+\BOOKMARK [1][-]{section.15.1}{Estimate support of a distribution D}{chapter.15}
+\BOOKMARK [2][-]{subsection.15.1.1}{With soft margin kernel hyperplane}{section.15.1}
+\BOOKMARK [3][-]{subsubsection.15.1.1.1}{Choosing kernel, tuning parameters}{subsection.15.1.1}
+\BOOKMARK [3][-]{subsubsection.15.1.1.2}{Comparison with thresholded Kernel Density estimator}{subsection.15.1.1}
+\BOOKMARK [3][-]{subsubsection.15.1.1.3}{Comparison with using soft margin hyperspheres}{subsection.15.1.1}
+\BOOKMARK [3][-]{subsubsection.15.1.1.4}{Connection to binary classification}{subsection.15.1.1}
+\BOOKMARK [2][-]{subsection.15.1.2}{Using soft margin hyperspheres}{section.15.1}
+\BOOKMARK [2][-]{subsection.15.1.3}{Using Clustering}{section.15.1}
+\BOOKMARK [1][-]{section.15.2}{Novelty detection}{chapter.15}
+\BOOKMARK [2][-]{subsection.15.2.1}{Problem}{section.15.2}
+\BOOKMARK [3][-]{subsubsection.15.2.1.1}{As One class classification}{subsection.15.2.1}
+\BOOKMARK [3][-]{subsubsection.15.2.1.2}{Motivation}{subsection.15.2.1}
+\BOOKMARK [2][-]{subsection.15.2.2}{Using density estimation}{section.15.2}
+\BOOKMARK [2][-]{subsection.15.2.3}{Using support of the distribution}{section.15.2}
+\BOOKMARK [3][-]{subsubsection.15.2.3.1}{Ransack}{subsection.15.2.3}
+\BOOKMARK [2][-]{subsection.15.2.4}{Boundary methods}{section.15.2}
+\BOOKMARK [3][-]{subsubsection.15.2.4.1}{K nearest neighbors}{subsection.15.2.4}
+\BOOKMARK [3][-]{subsubsection.15.2.4.2}{Support vector data description}{subsection.15.2.4}
+\BOOKMARK [3][-]{subsubsection.15.2.4.3}{PCA}{subsection.15.2.4}
+\BOOKMARK [0][-]{chapter.16}{Conditional independence structure: discrete case}{part.3}
+\BOOKMARK [1][-]{section.16.1}{Problems}{chapter.16}
+\BOOKMARK [2][-]{subsection.16.1.1}{Model Estimation}{section.16.1}
+\BOOKMARK [2][-]{subsection.16.1.2}{Edge recovery}{section.16.1}
+\BOOKMARK [3][-]{subsubsection.16.1.2.1}{Ising models: Signed edge recovery}{subsection.16.1.2}
+\BOOKMARK [2][-]{subsection.16.1.3}{High dimensional case}{section.16.1}
+\BOOKMARK [3][-]{subsubsection.16.1.3.1}{Measuring performance}{subsection.16.1.3}
+\BOOKMARK [1][-]{section.16.2}{Approaches}{chapter.16}
+\BOOKMARK [2][-]{subsection.16.2.1}{Learn closest tree}{section.16.2}
+\BOOKMARK [3][-]{subsubsection.16.2.1.1}{Aim}{subsection.16.2.1}
+\BOOKMARK [3][-]{subsubsection.16.2.1.2}{Algorithm}{subsection.16.2.1}
+\BOOKMARK [1][-]{section.16.3}{Learn neighborhoods}{chapter.16}
+\BOOKMARK [2][-]{subsection.16.3.1}{For ising models}{section.16.3}
+\BOOKMARK [3][-]{subsubsection.16.3.1.1}{Results}{subsection.16.3.1}
+\BOOKMARK [3][-]{subsubsection.16.3.1.2}{Caveats}{subsection.16.3.1}
+\BOOKMARK [3][-]{subsubsection.16.3.1.3}{Analysis technique}{subsection.16.3.1}
+\BOOKMARK [2][-]{subsection.16.3.2}{For discrete graphical models}{section.16.3}
+\BOOKMARK [0][-]{chapter.17}{Hypothesis testing}{part.3}
+\BOOKMARK [1][-]{section.17.1}{Model selection given 2 models}{chapter.17}
+\BOOKMARK [1][-]{section.17.2}{Hypotheses}{chapter.17}
+\BOOKMARK [2][-]{subsection.17.2.1}{Null hypothesis}{section.17.2}
+\BOOKMARK [2][-]{subsection.17.2.2}{Alternate hypothesis}{section.17.2}
+\BOOKMARK [2][-]{subsection.17.2.3}{The decision}{section.17.2}
+\BOOKMARK [1][-]{section.17.3}{Experiment/ Test}{chapter.17}
+\BOOKMARK [2][-]{subsection.17.3.1}{Errors}{section.17.3}
+\BOOKMARK [3][-]{subsubsection.17.3.1.1}{Type 1}{subsection.17.3.1}
+\BOOKMARK [3][-]{subsubsection.17.3.1.2}{Type 2}{subsection.17.3.1}
+\BOOKMARK [2][-]{subsection.17.3.2}{Tradeoff}{section.17.3}
+\BOOKMARK [2][-]{subsection.17.3.3}{p-value of the statistic}{section.17.3}
+\BOOKMARK [2][-]{subsection.17.3.4}{Power of a test}{section.17.3}
+\BOOKMARK [1][-]{section.17.4}{Test design}{chapter.17}
+\BOOKMARK [2][-]{subsection.17.4.1}{Best test for given alpha}{section.17.4}
+\BOOKMARK [2][-]{subsection.17.4.2}{Difference in differences}{section.17.4}
+\BOOKMARK [-1][-]{part.4}{Label prediction/ identification}{}
+\BOOKMARK [0][-]{chapter.18}{Problems}{part.4}
+\BOOKMARK [1][-]{section.18.1}{Core problem}{chapter.18}
+\BOOKMARK [2][-]{subsection.18.1.1}{Input and response variables}{section.18.1}
+\BOOKMARK [2][-]{subsection.18.1.2}{Range of X and L}{section.18.1}
+\BOOKMARK [2][-]{subsection.18.1.3}{Labeling rule sought}{section.18.1}
+\BOOKMARK [1][-]{section.18.2}{Action space}{chapter.18}
+\BOOKMARK [1][-]{section.18.3}{Actual phenomenon}{chapter.18}
+\BOOKMARK [2][-]{subsection.18.3.1}{Randomized function}{section.18.3}
+\BOOKMARK [2][-]{subsection.18.3.2}{Volatility in form}{section.18.3}
+\BOOKMARK [2][-]{subsection.18.3.3}{Deterministic Labeling function}{section.18.3}
+\BOOKMARK [3][-]{subsubsection.18.3.3.1}{Features}{subsection.18.3.3}
+\BOOKMARK [2][-]{subsection.18.3.4}{General noise model}{section.18.3}
+\BOOKMARK [3][-]{subsubsection.18.3.4.1}{Using a randomized noise function}{subsection.18.3.4}
+\BOOKMARK [3][-]{subsubsection.18.3.4.2}{Using a Noise variable}{subsection.18.3.4}
+\BOOKMARK [2][-]{subsection.18.3.5}{Noise in case of vector labels}{section.18.3}
+\BOOKMARK [3][-]{subsubsection.18.3.5.1}{Additive noise}{subsection.18.3.5}
+\BOOKMARK [3][-]{subsubsection.18.3.5.2}{Multiplicative noise}{subsection.18.3.5}
+\BOOKMARK [1][-]{section.18.4}{Example/ training points}{chapter.18}
+\BOOKMARK [2][-]{subsection.18.4.1}{Labeled}{section.18.4}
+\BOOKMARK [2][-]{subsection.18.4.2}{Unlabeled}{section.18.4}
+\BOOKMARK [2][-]{subsection.18.4.3}{Alternative labels}{section.18.4}
+\BOOKMARK [1][-]{section.18.5}{Distribution on test points}{chapter.18}
+\BOOKMARK [2][-]{subsection.18.5.1}{Transduction vs induction}{section.18.5}
+\BOOKMARK [0][-]{chapter.19}{Risk and evaluation}{part.4}
+\BOOKMARK [1][-]{section.19.1}{Loss functions: labeling single data points}{chapter.19}
+\BOOKMARK [2][-]{subsection.19.1.1}{Loss functions: vector labels}{section.19.1}
+\BOOKMARK [2][-]{subsection.19.1.2}{Loss functions for classification}{section.19.1}
+\BOOKMARK [2][-]{subsection.19.1.3}{0/1 loss}{section.19.1}
+\BOOKMARK [3][-]{subsubsection.19.1.3.1}{Minimal risk: Binary classification}{subsection.19.1.3}
+\BOOKMARK [3][-]{subsubsection.19.1.3.2}{Connection to log loss risk: binary classification}{subsection.19.1.3}
+\BOOKMARK [2][-]{subsection.19.1.4}{Log loss}{section.19.1}
+\BOOKMARK [1][-]{section.19.2}{Loss functions: labeling multiple data points}{chapter.19}
+\BOOKMARK [2][-]{subsection.19.2.1}{Confusion matrix}{section.19.2}
+\BOOKMARK [2][-]{subsection.19.2.2}{True and false positives}{section.19.2}
+\BOOKMARK [2][-]{subsection.19.2.3}{Precision, recall, specificity}{section.19.2}
+\BOOKMARK [3][-]{subsubsection.19.2.3.1}{Emphasis on one '+ve' class}{subsection.19.2.3}
+\BOOKMARK [3][-]{subsubsection.19.2.3.2}{Sensitivity - specificity tradeoff}{subsection.19.2.3}
+\BOOKMARK [3][-]{subsubsection.19.2.3.3}{Sensitivity vs 1-specificity curve}{subsection.19.2.3}
+\BOOKMARK [3][-]{subsubsection.19.2.3.4}{Precision/ recall tradeoff}{subsection.19.2.3}
+\BOOKMARK [0][-]{chapter.20}{General Solution properties}{part.4}
+\BOOKMARK [1][-]{section.20.1}{Empirical risk minimization vs expert systems}{chapter.20}
+\BOOKMARK [1][-]{section.20.2}{Hypothesis classes}{chapter.20}
+\BOOKMARK [2][-]{subsection.20.2.1}{Probabilistic models}{section.20.2}
+\BOOKMARK [2][-]{subsection.20.2.2}{Mean or Mode models}{section.20.2}
+\BOOKMARK [3][-]{subsubsection.20.2.2.1}{Comparison to probabilistic models}{subsection.20.2.2}
+\BOOKMARK [2][-]{subsection.20.2.3}{Probabilistic models: comparison}{section.20.2}
+\BOOKMARK [3][-]{subsubsection.20.2.3.1}{Discriminative model corresponding to generative model}{subsection.20.2.3}
+\BOOKMARK [3][-]{subsubsection.20.2.3.2}{Ease in using unlabeled points}{subsection.20.2.3}
+\BOOKMARK [1][-]{section.20.3}{Discrete deterministic labeling rules}{chapter.20}
+\BOOKMARK [2][-]{subsection.20.3.1}{Decision surfaces}{section.20.3}
+\BOOKMARK [2][-]{subsection.20.3.2}{k-ary classifier from binary classifier}{section.20.3}
+\BOOKMARK [2][-]{subsection.20.3.3}{Curse of dimensionality}{section.20.3}
+\BOOKMARK [0][-]{chapter.21}{With additional unlabeled data-points}{part.4}
+\BOOKMARK [1][-]{section.21.1}{Generative approaches}{chapter.21}
+\BOOKMARK [1][-]{section.21.2}{Label propagation on graphs}{chapter.21}
+\BOOKMARK [2][-]{subsection.21.2.1}{Quadratic criterion}{section.21.2}
+\BOOKMARK [3][-]{subsubsection.21.2.1.1}{Binary labels}{subsection.21.2.1}
+\BOOKMARK [3][-]{subsubsection.21.2.1.2}{Discrete labels}{subsection.21.2.1}
+\BOOKMARK [2][-]{subsection.21.2.2}{Rewriting using Graph Laplacians}{section.21.2}
+\BOOKMARK [2][-]{subsection.21.2.3}{Real relaxation: solve linear system of eqns}{section.21.2}
+\BOOKMARK [2][-]{subsection.21.2.4}{Low rank approximation for fast solution}{section.21.2}
+\BOOKMARK [0][-]{chapter.22}{Using labels from other viewpoints}{part.4}
+\BOOKMARK [1][-]{section.22.1}{Data point Neighborhood approach}{chapter.22}
+\BOOKMARK [1][-]{section.22.2}{Collaborative filtering}{chapter.22}
+\BOOKMARK [2][-]{subsection.22.2.1}{Latent factor approach}{section.22.2}
+\BOOKMARK [3][-]{subsubsection.22.2.1.1}{Low rank factorization}{subsection.22.2.1}
+\BOOKMARK [2][-]{subsection.22.2.2}{Association rule mining}{section.22.2}
+\BOOKMARK [0][-]{chapter.23}{Vector labels prediction: Regression}{part.4}
+\BOOKMARK [1][-]{section.23.1}{General problem}{chapter.23}
+\BOOKMARK [1][-]{section.23.2}{Linear regression}{chapter.23}
+\BOOKMARK [2][-]{subsection.23.2.1}{The problem}{section.23.2}
+\BOOKMARK [2][-]{subsection.23.2.2}{The solution}{section.23.2}
+\BOOKMARK [3][-]{subsubsection.23.2.2.1}{Quadratic loss function}{subsection.23.2.2}
+\BOOKMARK [2][-]{subsection.23.2.3}{Maximum likelihood estimate with Gaussian noise}{section.23.2}
+\BOOKMARK [2][-]{subsection.23.2.4}{Imposing prior distributions on w}{section.23.2}
+\BOOKMARK [3][-]{subsubsection.23.2.4.1}{Quadratic regularizer}{subsection.23.2.4}
+\BOOKMARK [3][-]{subsubsection.23.2.4.2}{Priors which prefer sparse w}{subsection.23.2.4}
+\BOOKMARK [2][-]{subsection.23.2.5}{Solution}{section.23.2}
+\BOOKMARK [0][-]{chapter.24}{Prediction with fully labeled data}{part.4}
+\BOOKMARK [1][-]{section.24.1}{Binary classification}{chapter.24}
+\BOOKMARK [1][-]{section.24.2}{Non parametric methods}{chapter.24}
+\BOOKMARK [2][-]{subsection.24.2.1}{k nearest neighbors}{section.24.2}
+\BOOKMARK [1][-]{section.24.3}{Linear models for discrete classification}{chapter.24}
+\BOOKMARK [2][-]{subsection.24.3.1}{Arbitrary separator from fully separable training set}{section.24.3}
+\BOOKMARK [2][-]{subsection.24.3.2}{Winnow: multiplicative update}{section.24.3}
+\BOOKMARK [2][-]{subsection.24.3.3}{Perceptron learning alg for halfspaces}{section.24.3}
+\BOOKMARK [3][-]{subsubsection.24.3.3.1}{The problem}{subsection.24.3.3}
+\BOOKMARK [3][-]{subsubsection.24.3.3.2}{The algorithm}{subsection.24.3.3}
+\BOOKMARK [3][-]{subsubsection.24.3.3.3}{Convergence to u}{subsection.24.3.3}
+\BOOKMARK [3][-]{subsubsection.24.3.3.4}{Comparison}{subsection.24.3.3}
+\BOOKMARK [1][-]{section.24.4}{Maximum margin classifier}{chapter.24}
+\BOOKMARK [2][-]{subsection.24.4.1}{The problem}{section.24.4}
+\BOOKMARK [2][-]{subsection.24.4.2}{Hard margin}{section.24.4}
+\BOOKMARK [3][-]{subsubsection.24.4.2.1}{Primal}{subsection.24.4.2}
+\BOOKMARK [3][-]{subsubsection.24.4.2.2}{Dual}{subsection.24.4.2}
+\BOOKMARK [2][-]{subsection.24.4.3}{Soft margins}{section.24.4}
+\BOOKMARK [3][-]{subsubsection.24.4.3.1}{Primal}{subsection.24.4.3}
+\BOOKMARK [3][-]{subsubsection.24.4.3.2}{Dual}{subsection.24.4.3}
+\BOOKMARK [0][-]{chapter.25}{Sparse signal detection}{part.4}
+\BOOKMARK [1][-]{section.25.1}{Problem}{chapter.25}
+\BOOKMARK [2][-]{subsection.25.1.1}{Generating process}{section.25.1}
+\BOOKMARK [2][-]{subsection.25.1.2}{Decision rule sought}{section.25.1}
+\BOOKMARK [2][-]{subsection.25.1.3}{As a classification problem}{section.25.1}
+\BOOKMARK [2][-]{subsection.25.1.4}{Peculiarities}{section.25.1}
+\BOOKMARK [1][-]{section.25.2}{Risk}{chapter.25}
+\BOOKMARK [1][-]{section.25.3}{Hypothesis classes}{chapter.25}
+\BOOKMARK [2][-]{subsection.25.3.1}{Desired qualities}{section.25.3}
+\BOOKMARK [3][-]{subsubsection.25.3.1.1}{Sparsity}{subsection.25.3.1}
+\BOOKMARK [3][-]{subsubsection.25.3.1.2}{Adaptability to different sparsity levels}{subsection.25.3.1}
+\BOOKMARK [3][-]{subsubsection.25.3.1.3}{Robustness to large signals}{subsection.25.3.1}
+\BOOKMARK [2][-]{subsection.25.3.2}{Probabilistic models}{section.25.3}
+\BOOKMARK [3][-]{subsubsection.25.3.2.1}{Scale mixture models}{subsection.25.3.2}
+\BOOKMARK [0][-]{chapter.26}{Sequential data points}{part.4}
+\BOOKMARK [1][-]{section.26.1}{Trajectory prediction}{chapter.26}
+\BOOKMARK [2][-]{subsection.26.1.1}{Problem}{section.26.1}
+\BOOKMARK [2][-]{subsection.26.1.2}{Simplifications}{section.26.1}
+\BOOKMARK [2][-]{subsection.26.1.3}{Applications}{section.26.1}
+\BOOKMARK [-1][-]{part.5}{Applications}{}
+\BOOKMARK [0][-]{chapter.27}{Search results}{part.5}
+\BOOKMARK [1][-]{section.27.1}{Ranking search query results}{chapter.27}
+\BOOKMARK [2][-]{subsection.27.1.1}{Feature extraction}{section.27.1}
+\BOOKMARK [2][-]{subsection.27.1.2}{Objectives to optimize}{section.27.1}
+\BOOKMARK [2][-]{subsection.27.1.3}{Various Loss functions L}{section.27.1}
+\BOOKMARK [3][-]{subsubsection.27.1.3.1}{Pointwise}{subsection.27.1.3}
+\BOOKMARK [3][-]{subsubsection.27.1.3.2}{Pairwise}{subsection.27.1.3}
+\BOOKMARK [3][-]{subsubsection.27.1.3.3}{Listwise}{subsection.27.1.3}
+\BOOKMARK [0][-]{chapter.28}{Document clustering}{part.5}
+\BOOKMARK [1][-]{section.28.1}{Document classification and clustering}{chapter.28}
+\BOOKMARK [2][-]{subsection.28.1.1}{Feature extraction}{section.28.1}
+\BOOKMARK [3][-]{subsubsection.28.1.1.1}{Bag of words assumption}{subsection.28.1.1}
+\BOOKMARK [2][-]{subsection.28.1.2}{Dimensionality reduction}{section.28.1}
+\BOOKMARK [3][-]{subsubsection.28.1.2.1}{Approaches}{subsection.28.1.2}
+\BOOKMARK [2][-]{subsection.28.1.3}{Model class distribution using word counts}{section.28.1}
+\BOOKMARK [2][-]{subsection.28.1.4}{Classification}{section.28.1}
+\BOOKMARK [2][-]{subsection.28.1.5}{Clustering}{section.28.1}
+\BOOKMARK [0][-]{chapter.29}{Web portal related}{part.5}
+\BOOKMARK [1][-]{section.29.1}{Pick content}{chapter.29}
+\BOOKMARK [1][-]{section.29.2}{Pick content-layout}{chapter.29}
+\BOOKMARK [1][-]{section.29.3}{Maximize ad revenue}{chapter.29}
+\BOOKMARK [2][-]{subsection.29.3.1}{Match advertisements with content}{section.29.3}
+\BOOKMARK [1][-]{section.29.4}{Data}{chapter.29}
+\BOOKMARK [2][-]{subsection.29.4.1}{User responses}{section.29.4}
+\BOOKMARK [1][-]{section.29.5}{Online experimentation}{chapter.29}
+\BOOKMARK [0][-]{chapter.30}{Spoken dialog system \(domain-specific\)}{part.5}
+\BOOKMARK [1][-]{section.30.1}{Problem}{chapter.30}
+\BOOKMARK [2][-]{subsection.30.1.1}{Examples}{section.30.1}
+\BOOKMARK [2][-]{subsection.30.1.2}{Domain ontology}{section.30.1}
+\BOOKMARK [1][-]{section.30.2}{Interaction graph}{chapter.30}
+\BOOKMARK [0][-]{chapter.31}{Others}{part.5}
+\BOOKMARK [1][-]{section.31.1}{Predicting movie ratings}{chapter.31}

@@ -1,0 +1,3 @@
+JUNTO_DIR =/home/vvasuki/posTagging/lib/junto
+export JUNTO_DIR
+$JUNTO_DIR/bin/junto build update compile

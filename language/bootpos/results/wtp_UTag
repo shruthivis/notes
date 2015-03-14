@@ -1,0 +1,109 @@
+/home/vvasuki/vishvas/work/language/bootpos/lib/Junto-assembly-1.1.jar:/home/vvasuki/vishvas/work/language/bootpos/target/*.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/compile/jwnl-1.3.3.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/compile/opennlp-maxent-3.0.1-incubating.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/compile/opennlp-tools-1.5.1-incubating.jar
+Properties file: /home/vvasuki/Dropbox/Public/vishvas/work/language/bootpos/src/main/resources/default/runtimeSettings.properties
+taggerType: WordTagProbabilities
+Using universal tags? true
+Using wiktionary? false
+Using training data? true
+Using training data as dictionary ? false
+ic hmm
+Encoding: UTF-8
+Alert: no tag map found!java.io.FileNotFoundException: /home/vvasuki/posTagging/data/universal_pos_tags.1.02/ic-hmm.map (No such file or directory)
+dir: /home/vvasuki/posTagging/data/ic/hmm/train/
+List(ictrain, icraw, ictrain~)
+unknown tag C :word 1
+unknown tag H :word 3
+ic hmm
+dir: /home/vvasuki/posTagging/data/ic/hmm/test/
+List(ictest)
+test tokens: 35
+Accuracy: 1.000, (Known: 1.000, Novel: NaN)
+Non training tokens: 0.000
+2 unmapped tags.
+en ptb
+Encoding: UTF-8
+dir: /home/vvasuki/posTagging/data/en/ptb/train/
+List(raw.pos, train.pos)
+en ptb
+dir: /home/vvasuki/posTagging/data/en/ptb/test/
+List(test.pos)
+test tokens: 135116
+Accuracy: 0.944, (Known: 0.953, Novel: 0.584)
+Non training tokens: 0.025
+0 unmapped tags.
+pt bosque
+Encoding: UTF-8
+dir: /home/vvasuki/posTagging/data/pt/bosque/train/
+List(portuguese_bosque_train.conll.ref, portuguese_bosque_train.conll)
+pt bosque
+dir: /home/vvasuki/posTagging/data/pt/bosque/test/
+List(portuguese_bosque_test.conll.ref, portuguese_bosque_test.conll)
+test tokens: 6155
+Accuracy: 0.920, (Known: 0.951, Novel: 0.609)
+Non training tokens: 0.091
+0 unmapped tags.
+da ddt
+Encoding: UTF-8
+dir: /home/vvasuki/posTagging/data/da/ddt/train/
+List(danish_ddt_train.conll)
+unknown tag A :word SAMME
+unknown tag N :word CIFRE
+unknown tag P :word DE
+unknown tag V :word TABTE
+unknown tag C :word OG
+da ddt
+dir: /home/vvasuki/posTagging/data/da/ddt/test/
+List(danish_ddt_test.conll)
+test tokens: 6174
+Accuracy: 0.987, (Known: 0.987, Novel: 0.989)
+Non training tokens: 0.143
+5 unmapped tags.
+nl alpino
+Encoding: UTF-8
+dir: /home/vvasuki/posTagging/data/nl/alpino/train/
+List(dutch_alpino_train.conll)
+nl alpino
+dir: /home/vvasuki/posTagging/data/nl/alpino/test/
+List(dutch_alpino_test.conll)
+test tokens: 5971
+Accuracy: 0.928, (Known: 0.969, Novel: 0.717)
+Non training tokens: 0.163
+0 unmapped tags.
+sv talbanken05
+Encoding: UTF-8
+dir: /home/vvasuki/posTagging/data/sv/talbanken05/train/
+List(swedish_talbanken05_train.conll)
+sv talbanken05
+dir: /home/vvasuki/posTagging/data/sv/talbanken05/test/
+List(swedish_talbanken05_test.conll)
+test tokens: 6045
+Accuracy: 0.912, (Known: 0.933, Novel: 0.794)
+Non training tokens: 0.147
+0 unmapped tags.
+ic-hmm	1.0	1.0	NaN	0.0
+en-ptb	0.9435806068459129	0.9527979495941905	0.5839506172839506	0.024989587671803416
+pt-bosque	0.919890915288904	0.9510594412150759	0.6086142322097379	0.091017555820692
+da-ddt	0.9871838687628162	0.9868342309994016	0.9892729439809297	0.1433697881066302
+nl-alpino	0.9278424350940018	0.9687767322497861	0.7172717271727173	0.16275738585496866
+sv-talbanken05	0.9121287128712872	0.9326005806719203	0.7937649880095923	0.14745403111739747
+/home/vvasuki/vishvas/work/language/bootpos/lib/junto-assembly.jar:/home/vvasuki/vishvas/work/language/bootpos/lib/logback-classic-0.9.29.jar:/home/vvasuki/vishvas/work/language/bootpos/lib/logback-core-0.9.29.jar:/home/vvasuki/vishvas/work/language/bootpos/lib/slf4j-api-1.6.2.jar:/home/vvasuki/vishvas/work/language/bootpos/target/*.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/compile/jwnl-1.3.3.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/compile/opennlp-maxent-3.0.1-incubating.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/compile/opennlp-tools-1.5.1-incubating.jar
+Properties file: /home/vvasuki/Dropbox/Public/vishvas/work/language/bootpos/src/main/resources/default/runtimeSettings.properties
+taggerType: WordTagProbabilities
+Using universal tags? true
+Using wiktionary? false
+Using training data? true
+Training tokens limit 0
+Raw tokens limit 137295
+Using training data as dictionary ? false
+da ddt
+Encoding: UTF-8
+Training with mode train
+mode train
+file: /home/vvasuki/posTagging/data/da/ddt/train/danish_ddt_train.conll
+Testing da ddt
+mode test
+file: /home/vvasuki/posTagging/data/da/ddt/test/danish_ddt_test.conll
+test tokens: 6174
+Accuracy: 0.925, (Known: 0.965, Novel: 0.685)
+Non training tokens: 0.143
+0 unmapped tags.
+da-ddt	0.924812030075188	0.9648912826650708	0.6853396901072706	0.1433697881066302

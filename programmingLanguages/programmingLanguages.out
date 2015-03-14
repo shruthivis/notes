@@ -1,0 +1,880 @@
+\BOOKMARK [0][-]{section*.1}{Contents}{}
+\BOOKMARK [-1][-]{part.1}{Introduction}{}
+\BOOKMARK [0][-]{chapter.1}{Research themes}{part.1}
+\BOOKMARK [1][-]{section.1.1}{Programming language design}{chapter.1}
+\BOOKMARK [0][-]{chapter.2}{Language Design concepts}{part.1}
+\BOOKMARK [1][-]{section.2.1}{Chapter Scope}{chapter.2}
+\BOOKMARK [1][-]{section.2.2}{Syntax}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.2.1}{Literals}{section.2.2}
+\BOOKMARK [2][-]{subsection.2.2.2}{Identifiers}{section.2.2}
+\BOOKMARK [3][-]{subsubsection.2.2.2.1}{Overloading}{subsection.2.2.2}
+\BOOKMARK [3][-]{subsubsection.2.2.2.2}{Scope}{subsection.2.2.2}
+\BOOKMARK [3][-]{subsubsection.2.2.2.3}{Implicit scope}{subsection.2.2.2}
+\BOOKMARK [2][-]{subsection.2.2.3}{Expression evaluation}{section.2.2}
+\BOOKMARK [3][-]{subsubsection.2.2.3.1}{Lazy vs eager evaluation}{subsection.2.2.3}
+\BOOKMARK [2][-]{subsection.2.2.4}{Syntactic sugar}{section.2.2}
+\BOOKMARK [3][-]{subsubsection.2.2.4.1}{Macros}{subsection.2.2.4}
+\BOOKMARK [1][-]{section.2.3}{Abstraction from hardware}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.3.1}{View of memory}{section.2.3}
+\BOOKMARK [2][-]{subsection.2.3.2}{Portability}{section.2.3}
+\BOOKMARK [2][-]{subsection.2.3.3}{Programming discipline}{section.2.3}
+\BOOKMARK [2][-]{subsection.2.3.4}{Type system}{section.2.3}
+\BOOKMARK [3][-]{subsubsection.2.3.4.1}{Implementing abstract data-types}{subsection.2.3.4}
+\BOOKMARK [3][-]{subsubsection.2.3.4.2}{Compile time vs run-time}{subsection.2.3.4}
+\BOOKMARK [3][-]{subsubsection.2.3.4.3}{Strong vs weak}{subsection.2.3.4}
+\BOOKMARK [1][-]{section.2.4}{Procedures}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.4.1}{Mathematical functions}{section.2.4}
+\BOOKMARK [2][-]{subsection.2.4.2}{Passing arguments to procedures}{section.2.4}
+\BOOKMARK [2][-]{subsection.2.4.3}{Operators}{section.2.4}
+\BOOKMARK [1][-]{section.2.5}{Object creation and manipulation}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.5.1}{Object manipulation}{section.2.5}
+\BOOKMARK [2][-]{subsection.2.5.2}{Encapsulation and locality}{section.2.5}
+\BOOKMARK [3][-]{subsubsection.2.5.2.1}{Methods}{subsection.2.5.2}
+\BOOKMARK [2][-]{subsection.2.5.3}{Object construction and destruction}{section.2.5}
+\BOOKMARK [3][-]{subsubsection.2.5.3.1}{Classes}{subsection.2.5.3}
+\BOOKMARK [3][-]{subsubsection.2.5.3.2}{Cloning prototypes}{subsection.2.5.3}
+\BOOKMARK [3][-]{subsubsection.2.5.3.3}{Deep copy}{subsection.2.5.3}
+\BOOKMARK [3][-]{subsubsection.2.5.3.4}{Factory methods}{subsection.2.5.3}
+\BOOKMARK [2][-]{subsection.2.5.4}{Inheritance}{section.2.5}
+\BOOKMARK [3][-]{subsubsection.2.5.4.1}{Benefits}{subsection.2.5.4}
+\BOOKMARK [3][-]{subsubsection.2.5.4.2}{Abstract class/ interface}{subsection.2.5.4}
+\BOOKMARK [3][-]{subsubsection.2.5.4.3}{Dynamic dispatch}{subsection.2.5.4}
+\BOOKMARK [3][-]{subsubsection.2.5.4.4}{Multiple inheritance}{subsection.2.5.4}
+\BOOKMARK [2][-]{subsection.2.5.5}{Prototyping-based languages}{section.2.5}
+\BOOKMARK [2][-]{subsection.2.5.6}{Mutability}{section.2.5}
+\BOOKMARK [2][-]{subsection.2.5.7}{Class with optional members}{section.2.5}
+\BOOKMARK [3][-]{subsubsection.2.5.7.1}{As inheritance tree}{subsection.2.5.7}
+\BOOKMARK [3][-]{subsubsection.2.5.7.2}{Use with pattern matching}{subsection.2.5.7}
+\BOOKMARK [1][-]{section.2.6}{Functions as objects}{chapter.2}
+\BOOKMARK [2][-]{subsubsection.2.6.0.3}{Functions acting on functions}{section.2.6}
+\BOOKMARK [3][-]{subsubsection.2.6.0.4}{Event driven programming}{subsubsection.2.6.0.3}
+\BOOKMARK [2][-]{subsection.2.6.1}{Functions with non-local references}{section.2.6}
+\BOOKMARK [3][-]{subsubsection.2.6.1.1}{Extended function definition using decorator}{subsection.2.6.1}
+\BOOKMARK [2][-]{subsection.2.6.2}{Partial application}{section.2.6}
+\BOOKMARK [2][-]{subsection.2.6.3}{Currying}{section.2.6}
+\BOOKMARK [3][-]{subsubsection.2.6.3.1}{Lambda calculus}{subsection.2.6.3}
+\BOOKMARK [2][-]{subsection.2.6.4}{Iteration aids}{section.2.6}
+\BOOKMARK [3][-]{subsubsection.2.6.4.1}{Tail recursion}{subsection.2.6.4}
+\BOOKMARK [1][-]{section.2.7}{Functions without side effects}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.7.1}{Dependence on non-input values}{section.2.7}
+\BOOKMARK [3][-]{subsubsection.2.7.1.1}{Closure restrictions}{subsection.2.7.1}
+\BOOKMARK [2][-]{subsection.2.7.2}{Immutability of input}{section.2.7}
+\BOOKMARK [1][-]{section.2.8}{Decision structures}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.8.1}{Branching}{section.2.8}
+\BOOKMARK [3][-]{subsubsection.2.8.1.1}{Matching a value}{subsection.2.8.1}
+\BOOKMARK [2][-]{subsection.2.8.2}{Iterative operations}{section.2.8}
+\BOOKMARK [3][-]{subsubsection.2.8.2.1}{Imperative loops}{subsection.2.8.2}
+\BOOKMARK [3][-]{subsubsection.2.8.2.2}{Recursion}{subsection.2.8.2}
+\BOOKMARK [3][-]{subsubsection.2.8.2.3}{Declarative operations on lists}{subsection.2.8.2}
+\BOOKMARK [1][-]{section.2.9}{Type-generic definitions}{chapter.2}
+\BOOKMARK [1][-]{section.2.10}{Specifying generators}{chapter.2}
+\BOOKMARK [2][-]{subsubsection.2.10.0.4}{Set-builder syntax}{section.2.10}
+\BOOKMARK [1][-]{section.2.11}{Application programming interface \(API\)}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.11.1}{Higher order functions for lists}{section.2.11}
+\BOOKMARK [3][-]{subsubsection.2.11.1.1}{Map}{subsection.2.11.1}
+\BOOKMARK [3][-]{subsubsection.2.11.1.2}{Filter}{subsection.2.11.1}
+\BOOKMARK [3][-]{subsubsection.2.11.1.3}{Transformation-types}{subsection.2.11.1}
+\BOOKMARK [3][-]{subsubsection.2.11.1.4}{Fold}{subsection.2.11.1}
+\BOOKMARK [1][-]{section.2.12}{Remote procedure call \(RPC\)}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.12.1}{Pipeline}{section.2.12}
+\BOOKMARK [1][-]{section.2.13}{Exception handling}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.13.1}{try catch blocks}{section.2.13}
+\BOOKMARK [3][-]{subsubsection.2.13.1.1}{Context handler classes}{subsection.2.13.1}
+\BOOKMARK [1][-]{section.2.14}{Test framework}{chapter.2}
+\BOOKMARK [0][-]{chapter.3}{Parallel programming programming models}{part.1}
+\BOOKMARK [1][-]{section.3.1}{Thread abstraction}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.1.1}{Fork and join}{section.3.1}
+\BOOKMARK [1][-]{section.3.2}{Mapreduce}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.2.1}{Computation flow}{section.3.2}
+\BOOKMARK [3][-]{subsubsection.3.2.1.1}{Input preparation}{subsection.3.2.1}
+\BOOKMARK [3][-]{subsubsection.3.2.1.2}{General flow per mapper}{subsection.3.2.1}
+\BOOKMARK [3][-]{subsubsection.3.2.1.3}{Flow per reducer}{subsection.3.2.1}
+\BOOKMARK [3][-]{subsubsection.3.2.1.4}{Output storage}{subsection.3.2.1}
+\BOOKMARK [3][-]{subsubsection.3.2.1.5}{Thread safety}{subsection.3.2.1}
+\BOOKMARK [0][-]{chapter.4}{Translation to machine code}{part.1}
+\BOOKMARK [1][-]{section.4.1}{Machine instructions and their files}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.1.1}{Executable files}{section.4.1}
+\BOOKMARK [2][-]{subsection.4.1.2}{Object files}{section.4.1}
+\BOOKMARK [1][-]{section.4.2}{Translation from High level programming language}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.2.1}{Compiled vs interpreted languages}{section.4.2}
+\BOOKMARK [3][-]{subsubsection.4.2.1.1}{Freedom from error}{subsection.4.2.1}
+\BOOKMARK [2][-]{subsection.4.2.2}{Steps in translation}{section.4.2}
+\BOOKMARK [1][-]{section.4.3}{Memory allocation}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.3.1}{Compile-time memory allocation}{section.4.3}
+\BOOKMARK [2][-]{subsection.4.3.2}{Run-time memory allocation}{section.4.3}
+\BOOKMARK [0][-]{chapter.5}{Character encoding}{part.1}
+\BOOKMARK [1][-]{section.5.1}{ASCII}{chapter.5}
+\BOOKMARK [2][-]{subsection.5.1.1}{Control characters}{section.5.1}
+\BOOKMARK [1][-]{section.5.2}{Unicode}{chapter.5}
+\BOOKMARK [-1][-]{part.2}{Development tools}{}
+\BOOKMARK [0][-]{chapter.6}{Build tool design}{part.2}
+\BOOKMARK [1][-]{section.6.1}{Build Targets}{chapter.6}
+\BOOKMARK [2][-]{subsection.6.1.1}{Continuous mode}{section.6.1}
+\BOOKMARK [2][-]{subsection.6.1.2}{Target Dependencies}{section.6.1}
+\BOOKMARK [2][-]{subsection.6.1.3}{Library dependencies}{section.6.1}
+\BOOKMARK [1][-]{section.6.2}{Quality metrics}{chapter.6}
+\BOOKMARK [0][-]{chapter.7}{Unit test tools}{part.2}
+\BOOKMARK [1][-]{section.7.1}{Mox for Python}{chapter.7}
+\BOOKMARK [0][-]{chapter.8}{Build tools}{part.2}
+\BOOKMARK [1][-]{section.8.1}{Cross-platform makefile generator}{chapter.8}
+\BOOKMARK [1][-]{section.8.2}{sbt}{chapter.8}
+\BOOKMARK [2][-]{subsection.8.2.1}{Dependencies - automation}{section.8.2}
+\BOOKMARK [3][-]{subsubsection.8.2.1.1}{Repository specification}{subsection.8.2.1}
+\BOOKMARK [3][-]{subsubsection.8.2.1.2}{Library specification}{subsection.8.2.1}
+\BOOKMARK [2][-]{subsection.8.2.2}{Tasks: definition}{section.8.2}
+\BOOKMARK [3][-]{subsubsection.8.2.2.1}{File IO tasks}{subsection.8.2.2}
+\BOOKMARK [3][-]{subsubsection.8.2.2.2}{Documentation}{subsection.8.2.2}
+\BOOKMARK [1][-]{section.8.3}{maven}{chapter.8}
+\BOOKMARK [0][-]{chapter.9}{Task management}{part.2}
+\BOOKMARK [0][-]{chapter.10}{Version control software}{part.2}
+\BOOKMARK [1][-]{section.10.1}{svn}{chapter.10}
+\BOOKMARK [1][-]{section.10.2}{git}{chapter.10}
+\BOOKMARK [2][-]{subsection.10.2.1}{Architecture}{section.10.2}
+\BOOKMARK [3][-]{subsubsection.10.2.1.1}{\(Un\)Ignoring changes}{subsection.10.2.1}
+\BOOKMARK [3][-]{subsubsection.10.2.1.2}{Repository commits and logs}{subsection.10.2.1}
+\BOOKMARK [2][-]{subsection.10.2.2}{Update Commands}{section.10.2}
+\BOOKMARK [3][-]{subsubsection.10.2.2.1}{Merges and stashes}{subsection.10.2.2}
+\BOOKMARK [3][-]{subsubsection.10.2.2.2}{Checking differences, tool configuration}{subsection.10.2.2}
+\BOOKMARK [2][-]{subsection.10.2.3}{UI}{section.10.2}
+\BOOKMARK [1][-]{section.10.3}{hg / mercurial}{chapter.10}
+\BOOKMARK [1][-]{section.10.4}{Version control websites}{chapter.10}
+\BOOKMARK [0][-]{chapter.11}{Visualization toools}{part.2}
+\BOOKMARK [1][-]{section.11.1}{Graph}{chapter.11}
+\BOOKMARK [0][-]{chapter.12}{Integrated Development Environment \(IDE\)}{part.2}
+\BOOKMARK [1][-]{section.12.1}{Eclipse}{chapter.12}
+\BOOKMARK [2][-]{subsection.12.1.1}{Startup configuration}{section.12.1}
+\BOOKMARK [2][-]{subsection.12.1.2}{Installing and updating components}{section.12.1}
+\BOOKMARK [2][-]{subsection.12.1.3}{Views and perspectives}{section.12.1}
+\BOOKMARK [2][-]{subsection.12.1.4}{Common operations and shortcuts}{section.12.1}
+\BOOKMARK [2][-]{subsection.12.1.5}{Functionalities}{section.12.1}
+\BOOKMARK [3][-]{subsubsection.12.1.5.1}{Java}{subsection.12.1.5}
+\BOOKMARK [-1][-]{part.3}{General purpose programming}{}
+\BOOKMARK [0][-]{chapter.13}{C}{part.3}
+\BOOKMARK [1][-]{subsection.13.0.6}{Debugging with gdb}{chapter.13}
+\BOOKMARK [2][-]{subsubsection.13.0.6.1}{Setting breakpoints}{subsection.13.0.6}
+\BOOKMARK [3][-]{subsubsection.13.0.6.2}{Debugging after stopping}{subsubsection.13.0.6.1}
+\BOOKMARK [3][-]{subsubsection.13.0.6.3}{Memory allocation}{subsubsection.13.0.6.1}
+\BOOKMARK [3][-]{subsubsection.13.0.6.4}{Segmentation faults}{subsubsection.13.0.6.1}
+\BOOKMARK [0][-]{chapter.14}{Simplified wrapper, interface generator \(SWIG\)}{part.3}
+\BOOKMARK [1][-]{section.14.1}{Purpose and mechanism}{chapter.14}
+\BOOKMARK [2][-]{subsection.14.1.1}{Persistence and memory}{section.14.1}
+\BOOKMARK [0][-]{chapter.15}{Python}{part.3}
+\BOOKMARK [1][-]{section.15.1}{Distinctive features of the language}{chapter.15}
+\BOOKMARK [2][-]{subsubsection.15.1.0.1}{Syntax conciseness}{section.15.1}
+\BOOKMARK [2][-]{subsection.15.1.1}{Speed}{section.15.1}
+\BOOKMARK [2][-]{subsection.15.1.2}{Linting}{section.15.1}
+\BOOKMARK [3][-]{subsubsection.15.1.2.1}{Pylint commands}{subsection.15.1.2}
+\BOOKMARK [1][-]{section.15.2}{Writing, Building and executing code}{chapter.15}
+\BOOKMARK [2][-]{subsection.15.2.1}{Important env variables}{section.15.2}
+\BOOKMARK [2][-]{subsection.15.2.2}{Good IDE's}{section.15.2}
+\BOOKMARK [2][-]{subsection.15.2.3}{Point of entry}{section.15.2}
+\BOOKMARK [3][-]{subsubsection.15.2.3.1}{Arguments}{subsection.15.2.3}
+\BOOKMARK [2][-]{subsection.15.2.4}{Installing External libraries}{section.15.2}
+\BOOKMARK [1][-]{section.15.3}{Help}{chapter.15}
+\BOOKMARK [1][-]{section.15.4}{Variables and data types}{chapter.15}
+\BOOKMARK [2][-]{subsubsection.15.4.0.1}{Matlab format}{section.15.4}
+\BOOKMARK [1][-]{section.15.5}{Interfacing with other languages, the OS}{chapter.15}
+\BOOKMARK [2][-]{subsection.15.5.1}{Numeric programming}{section.15.5}
+\BOOKMARK [2][-]{subsection.15.5.2}{RPy or RPy2 for R}{section.15.5}
+\BOOKMARK [2][-]{subsection.15.5.3}{With Matlab}{section.15.5}
+\BOOKMARK [1][-]{section.15.6}{Other libraries}{chapter.15}
+\BOOKMARK [0][-]{chapter.16}{Java}{part.3}
+\BOOKMARK [1][-]{section.16.1}{Distinctive features of the language}{chapter.16}
+\BOOKMARK [2][-]{subsection.16.1.1}{Purpose of design}{section.16.1}
+\BOOKMARK [2][-]{subsection.16.1.2}{Speed}{section.16.1}
+\BOOKMARK [1][-]{section.16.2}{Writing, Building and executing code}{chapter.16}
+\BOOKMARK [2][-]{subsection.16.2.1}{Good IDE's}{section.16.2}
+\BOOKMARK [2][-]{subsection.16.2.2}{Point of entry}{section.16.2}
+\BOOKMARK [2][-]{subsection.16.2.3}{Environment variables}{section.16.2}
+\BOOKMARK [2][-]{subsection.16.2.4}{Building}{section.16.2}
+\BOOKMARK [3][-]{subsubsection.16.2.4.1}{Decompiling}{subsection.16.2.4}
+\BOOKMARK [3][-]{subsubsection.16.2.4.2}{Java Native Interface}{subsection.16.2.4}
+\BOOKMARK [2][-]{subsection.16.2.5}{Help}{section.16.2}
+\BOOKMARK [1][-]{section.16.3}{Data types, operators}{chapter.16}
+\BOOKMARK [2][-]{subsection.16.3.1}{Primitive data types}{section.16.3}
+\BOOKMARK [2][-]{subsection.16.3.2}{Objects}{section.16.3}
+\BOOKMARK [3][-]{subsubsection.16.3.2.1}{Object creation}{subsection.16.3.2}
+\BOOKMARK [2][-]{subsection.16.3.3}{Operators}{section.16.3}
+\BOOKMARK [1][-]{section.16.4}{Low level code structure}{chapter.16}
+\BOOKMARK [2][-]{subsection.16.4.1}{Sentence syntax}{section.16.4}
+\BOOKMARK [3][-]{subsubsection.16.4.1.1}{Commenting}{subsection.16.4.1}
+\BOOKMARK [2][-]{subsection.16.4.2}{Decision structures}{section.16.4}
+\BOOKMARK [1][-]{section.16.5}{Classes}{chapter.16}
+\BOOKMARK [2][-]{subsubsection.16.5.0.1}{Referring to classes}{section.16.5}
+\BOOKMARK [2][-]{subsection.16.5.1}{Class members}{section.16.5}
+\BOOKMARK [3][-]{subsubsection.16.5.1.1}{Access modifiers}{subsection.16.5.1}
+\BOOKMARK [3][-]{subsubsection.16.5.1.2}{Properties}{subsection.16.5.1}
+\BOOKMARK [3][-]{subsubsection.16.5.1.3}{Methods}{subsection.16.5.1}
+\BOOKMARK [2][-]{subsection.16.5.2}{Special methods}{section.16.5}
+\BOOKMARK [3][-]{subsubsection.16.5.2.1}{Constructor}{subsection.16.5.2}
+\BOOKMARK [3][-]{subsubsection.16.5.2.2}{Destructor}{subsection.16.5.2}
+\BOOKMARK [3][-]{subsubsection.16.5.2.3}{main function}{subsection.16.5.2}
+\BOOKMARK [2][-]{subsection.16.5.3}{Important classes}{section.16.5}
+\BOOKMARK [3][-]{subsubsection.16.5.3.1}{Arrays}{subsection.16.5.3}
+\BOOKMARK [3][-]{subsubsection.16.5.3.2}{String}{subsection.16.5.3}
+\BOOKMARK [3][-]{subsubsection.16.5.3.3}{Enumeration}{subsection.16.5.3}
+\BOOKMARK [2][-]{subsection.16.5.4}{Important Superclasses, interfaces}{section.16.5}
+\BOOKMARK [3][-]{subsubsection.16.5.4.1}{Serializable}{subsection.16.5.4}
+\BOOKMARK [3][-]{subsubsection.16.5.4.2}{Clonable}{subsection.16.5.4}
+\BOOKMARK [1][-]{section.16.6}{Collection}{chapter.16}
+\BOOKMARK [2][-]{subsection.16.6.1}{Java Collections}{section.16.6}
+\BOOKMARK [3][-]{subsubsection.16.6.1.1}{Construction}{subsection.16.6.1}
+\BOOKMARK [3][-]{subsubsection.16.6.1.2}{Easy iteration}{subsection.16.6.1}
+\BOOKMARK [2][-]{subsection.16.6.2}{High performance}{section.16.6}
+\BOOKMARK [2][-]{subsection.16.6.3}{Important funcitons}{section.16.6}
+\BOOKMARK [1][-]{section.16.7}{Guava collections}{chapter.16}
+\BOOKMARK [2][-]{subsection.16.7.1}{Mapping}{section.16.7}
+\BOOKMARK [2][-]{subsection.16.7.2}{Filtering}{section.16.7}
+\BOOKMARK [2][-]{subsection.16.7.3}{List-checking}{section.16.7}
+\BOOKMARK [2][-]{subsection.16.7.4}{Predicate building}{section.16.7}
+\BOOKMARK [3][-]{subsubsection.16.7.4.1}{Basic predicates}{subsection.16.7.4}
+\BOOKMARK [3][-]{subsubsection.16.7.4.2}{Predicate combination}{subsection.16.7.4}
+\BOOKMARK [2][-]{subsection.16.7.5}{Function building}{section.16.7}
+\BOOKMARK [2][-]{subsection.16.7.6}{Other collections}{section.16.7}
+\BOOKMARK [1][-]{section.16.8}{Exception handling}{chapter.16}
+\BOOKMARK [1][-]{section.16.9}{Multi-Threaded programming}{chapter.16}
+\BOOKMARK [1][-]{section.16.10}{Library functions}{chapter.16}
+\BOOKMARK [2][-]{subsection.16.10.1}{Mathematics}{section.16.10}
+\BOOKMARK [2][-]{subsection.16.10.2}{Data structures}{section.16.10}
+\BOOKMARK [1][-]{section.16.11}{IO}{chapter.16}
+\BOOKMARK [2][-]{subsection.16.11.1}{Stream}{section.16.11}
+\BOOKMARK [3][-]{subsubsection.16.11.1.1}{OutputStream}{subsection.16.11.1}
+\BOOKMARK [3][-]{subsubsection.16.11.1.2}{InputStream}{subsection.16.11.1}
+\BOOKMARK [3][-]{subsubsection.16.11.1.3}{Output to files}{subsection.16.11.1}
+\BOOKMARK [3][-]{subsubsection.16.11.1.4}{Standard output}{subsection.16.11.1}
+\BOOKMARK [2][-]{subsection.16.11.2}{File listing}{section.16.11}
+\BOOKMARK [2][-]{subsection.16.11.3}{Read configuration files}{section.16.11}
+\BOOKMARK [2][-]{subsection.16.11.4}{Unit testing}{section.16.11}
+\BOOKMARK [1][-]{section.16.12}{Logging}{chapter.16}
+\BOOKMARK [2][-]{subsection.16.12.1}{Creating logger}{section.16.12}
+\BOOKMARK [2][-]{subsection.16.12.2}{Configuration}{section.16.12}
+\BOOKMARK [1][-]{section.16.13}{CGI programming}{chapter.16}
+\BOOKMARK [2][-]{subsection.16.13.1}{Writing servlets}{section.16.13}
+\BOOKMARK [3][-]{subsubsection.16.13.1.1}{Reading input}{subsection.16.13.1}
+\BOOKMARK [3][-]{subsubsection.16.13.1.2}{Output}{subsection.16.13.1}
+\BOOKMARK [2][-]{subsection.16.13.2}{Mapping to URL}{section.16.13}
+\BOOKMARK [0][-]{chapter.17}{Scala}{part.3}
+\BOOKMARK [1][-]{section.17.1}{Distinctive features of the language}{chapter.17}
+\BOOKMARK [2][-]{subsection.17.1.1}{Java compatibility, similar properties}{section.17.1}
+\BOOKMARK [2][-]{subsection.17.1.2}{Purpose of design}{section.17.1}
+\BOOKMARK [2][-]{subsection.17.1.3}{Conciseness}{section.17.1}
+\BOOKMARK [1][-]{section.17.2}{Writing, Building and executing code}{chapter.17}
+\BOOKMARK [2][-]{subsection.17.2.1}{Good IDE's}{section.17.2}
+\BOOKMARK [2][-]{subsection.17.2.2}{Environment variables}{section.17.2}
+\BOOKMARK [2][-]{subsection.17.2.3}{Building}{section.17.2}
+\BOOKMARK [3][-]{subsubsection.17.2.3.1}{Point of entry}{subsection.17.2.3}
+\BOOKMARK [3][-]{subsubsection.17.2.3.2}{Interpreter}{subsection.17.2.3}
+\BOOKMARK [2][-]{subsection.17.2.4}{Packaging}{section.17.2}
+\BOOKMARK [2][-]{subsection.17.2.5}{Help}{section.17.2}
+\BOOKMARK [1][-]{section.17.3}{Data types}{chapter.17}
+\BOOKMARK [2][-]{subsection.17.3.1}{Pure object-ness}{section.17.3}
+\BOOKMARK [2][-]{subsection.17.3.2}{Variables, constants}{section.17.3}
+\BOOKMARK [3][-]{subsubsection.17.3.2.1}{Multiple assignment}{subsection.17.3.2}
+\BOOKMARK [3][-]{subsubsection.17.3.2.2}{Object instantiation}{subsection.17.3.2}
+\BOOKMARK [3][-]{subsubsection.17.3.2.3}{Basic literals}{subsection.17.3.2}
+\BOOKMARK [3][-]{subsubsection.17.3.2.4}{Function objects}{subsection.17.3.2}
+\BOOKMARK [3][-]{subsubsection.17.3.2.5}{Implicit scope}{subsection.17.3.2}
+\BOOKMARK [2][-]{subsection.17.3.3}{Type variables}{section.17.3}
+\BOOKMARK [3][-]{subsubsection.17.3.3.1}{Type objects}{subsection.17.3.3}
+\BOOKMARK [3][-]{subsubsection.17.3.3.2}{Classes}{subsection.17.3.3}
+\BOOKMARK [2][-]{subsection.17.3.4}{Type conversions}{section.17.3}
+\BOOKMARK [3][-]{subsubsection.17.3.4.1}{Explicit}{subsection.17.3.4}
+\BOOKMARK [3][-]{subsubsection.17.3.4.2}{Implict}{subsection.17.3.4}
+\BOOKMARK [3][-]{subsubsection.17.3.4.3}{To Anonymous types}{subsection.17.3.4}
+\BOOKMARK [2][-]{subsection.17.3.5}{Important types}{section.17.3}
+\BOOKMARK [3][-]{subsubsection.17.3.5.1}{String}{subsection.17.3.5}
+\BOOKMARK [3][-]{subsubsection.17.3.5.2}{Regular expression}{subsection.17.3.5}
+\BOOKMARK [1][-]{section.17.4}{Functions}{chapter.17}
+\BOOKMARK [2][-]{subsection.17.4.1}{Anonymous functions}{section.17.4}
+\BOOKMARK [3][-]{subsubsection.17.4.1.1}{Contextual conciseness}{subsection.17.4.1}
+\BOOKMARK [3][-]{subsubsection.17.4.1.2}{Partial functions}{subsection.17.4.1}
+\BOOKMARK [2][-]{subsection.17.4.2}{Named functions}{section.17.4}
+\BOOKMARK [2][-]{subsection.17.4.3}{Type List}{section.17.4}
+\BOOKMARK [2][-]{subsection.17.4.4}{Argument list}{section.17.4}
+\BOOKMARK [3][-]{subsubsection.17.4.4.1}{Implicit arguments}{subsection.17.4.4}
+\BOOKMARK [3][-]{subsubsection.17.4.4.2}{Variable number of arguments}{subsection.17.4.4}
+\BOOKMARK [2][-]{subsection.17.4.5}{Return value}{section.17.4}
+\BOOKMARK [3][-]{subsubsection.17.4.5.1}{Returning functions: shorthand}{subsection.17.4.5}
+\BOOKMARK [2][-]{subsection.17.4.6}{Function type}{section.17.4}
+\BOOKMARK [3][-]{subsubsection.17.4.6.1}{Partial function}{subsection.17.4.6}
+\BOOKMARK [2][-]{subsection.17.4.7}{Partial application}{section.17.4}
+\BOOKMARK [2][-]{subsection.17.4.8}{Currying}{section.17.4}
+\BOOKMARK [2][-]{subsection.17.4.9}{Composition}{section.17.4}
+\BOOKMARK [1][-]{section.17.5}{Class}{chapter.17}
+\BOOKMARK [2][-]{subsection.17.5.1}{Definition}{section.17.5}
+\BOOKMARK [3][-]{subsubsection.17.5.1.1}{Constructor access}{subsection.17.5.1}
+\BOOKMARK [3][-]{subsubsection.17.5.1.2}{Declare member variables with constructor}{subsection.17.5.1}
+\BOOKMARK [3][-]{subsubsection.17.5.1.3}{Nesting classes}{subsection.17.5.1}
+\BOOKMARK [2][-]{subsection.17.5.2}{Constructors and destructors}{section.17.5}
+\BOOKMARK [3][-]{subsubsection.17.5.2.1}{Main constructor}{subsection.17.5.2}
+\BOOKMARK [3][-]{subsubsection.17.5.2.2}{Auxiliary constructors}{subsection.17.5.2}
+\BOOKMARK [3][-]{subsubsection.17.5.2.3}{Destructor}{subsection.17.5.2}
+\BOOKMARK [2][-]{subsection.17.5.3}{Methods}{section.17.5}
+\BOOKMARK [3][-]{subsubsection.17.5.3.1}{Define method}{subsection.17.5.3}
+\BOOKMARK [3][-]{subsubsection.17.5.3.2}{Without extra arguments}{subsection.17.5.3}
+\BOOKMARK [3][-]{subsubsection.17.5.3.3}{Dynamic method names}{subsection.17.5.3}
+\BOOKMARK [3][-]{subsubsection.17.5.3.4}{Special methods}{subsection.17.5.3}
+\BOOKMARK [2][-]{subsection.17.5.4}{Attributes}{section.17.5}
+\BOOKMARK [2][-]{subsection.17.5.5}{Access modifiers}{section.17.5}
+\BOOKMARK [2][-]{subsection.17.5.6}{Hierarchy and inheritance}{section.17.5}
+\BOOKMARK [3][-]{subsubsection.17.5.6.1}{Inheritance}{subsection.17.5.6}
+\BOOKMARK [3][-]{subsubsection.17.5.6.2}{Traits}{subsection.17.5.6}
+\BOOKMARK [3][-]{subsubsection.17.5.6.3}{Syntax}{subsection.17.5.6}
+\BOOKMARK [3][-]{subsubsection.17.5.6.4}{Mixins at runtime}{subsection.17.5.6}
+\BOOKMARK [3][-]{subsubsection.17.5.6.5}{Call superclass methods}{subsection.17.5.6}
+\BOOKMARK [3][-]{subsubsection.17.5.6.6}{Type hierarchy}{subsection.17.5.6}
+\BOOKMARK [2][-]{subsection.17.5.7}{Special classes}{section.17.5}
+\BOOKMARK [3][-]{subsubsection.17.5.7.1}{Singleton object}{subsection.17.5.7}
+\BOOKMARK [3][-]{subsubsection.17.5.7.2}{Case class}{subsection.17.5.7}
+\BOOKMARK [3][-]{subsubsection.17.5.7.3}{Sealed class}{subsection.17.5.7}
+\BOOKMARK [3][-]{subsubsection.17.5.7.4}{Abstract}{subsection.17.5.7}
+\BOOKMARK [3][-]{subsubsection.17.5.7.5}{Symbol}{subsection.17.5.7}
+\BOOKMARK [1][-]{section.17.6}{Collections}{chapter.17}
+\BOOKMARK [2][-]{subsection.17.6.1}{Creation}{section.17.6}
+\BOOKMARK [3][-]{subsubsection.17.6.1.1}{Numeric types}{subsection.17.6.1}
+\BOOKMARK [3][-]{subsubsection.17.6.1.2}{Conversion from java}{subsection.17.6.1}
+\BOOKMARK [3][-]{subsubsection.17.6.1.3}{For expression}{subsection.17.6.1}
+\BOOKMARK [2][-]{subsection.17.6.2}{Array}{section.17.6}
+\BOOKMARK [3][-]{subsubsection.17.6.2.1}{Data creation}{subsection.17.6.2}
+\BOOKMARK [2][-]{subsection.17.6.3}{TraversableOnce}{section.17.6}
+\BOOKMARK [3][-]{subsubsection.17.6.3.1}{foreach}{subsection.17.6.3}
+\BOOKMARK [3][-]{subsubsection.17.6.3.2}{Element indexing}{subsection.17.6.3}
+\BOOKMARK [2][-]{subsection.17.6.4}{Iterator}{section.17.6}
+\BOOKMARK [3][-]{subsubsection.17.6.4.1}{Subiterators}{subsection.17.6.4}
+\BOOKMARK [3][-]{subsubsection.17.6.4.2}{Growing}{subsection.17.6.4}
+\BOOKMARK [2][-]{subsection.17.6.5}{Traversable.iterable}{section.17.6}
+\BOOKMARK [3][-]{subsubsection.17.6.5.1}{Conversions}{subsection.17.6.5}
+\BOOKMARK [3][-]{subsubsection.17.6.5.2}{Filtering}{subsection.17.6.5}
+\BOOKMARK [3][-]{subsubsection.17.6.5.3}{Partitioning}{subsection.17.6.5}
+\BOOKMARK [3][-]{subsubsection.17.6.5.4}{Element retrieval}{subsection.17.6.5}
+\BOOKMARK [3][-]{subsubsection.17.6.5.5}{Sublist retrieval, growing}{subsection.17.6.5}
+\BOOKMARK [2][-]{subsection.17.6.6}{Seq}{section.17.6}
+\BOOKMARK [3][-]{subsubsection.17.6.6.1}{Add elements}{subsection.17.6.6}
+\BOOKMARK [3][-]{subsubsection.17.6.6.2}{Indexing, element access}{subsection.17.6.6}
+\BOOKMARK [3][-]{subsubsection.17.6.6.3}{Sorting, reversal}{subsection.17.6.6}
+\BOOKMARK [3][-]{subsubsection.17.6.6.4}{Comparisons}{subsection.17.6.6}
+\BOOKMARK [3][-]{subsubsection.17.6.6.5}{Multiset operations}{subsection.17.6.6}
+\BOOKMARK [3][-]{subsubsection.17.6.6.6}{Conversion}{subsection.17.6.6}
+\BOOKMARK [3][-]{subsubsection.17.6.6.7}{Iterative check}{subsection.17.6.6}
+\BOOKMARK [2][-]{subsection.17.6.7}{SeqView}{section.17.6}
+\BOOKMARK [2][-]{subsection.17.6.8}{ArrayBuffer}{section.17.6}
+\BOOKMARK [3][-]{subsubsection.17.6.8.1}{Data creation}{subsection.17.6.8}
+\BOOKMARK [2][-]{subsection.17.6.9}{List}{section.17.6}
+\BOOKMARK [3][-]{subsubsection.17.6.9.1}{List creation}{subsection.17.6.9}
+\BOOKMARK [3][-]{subsubsection.17.6.9.2}{Add elements}{subsection.17.6.9}
+\BOOKMARK [3][-]{subsubsection.17.6.9.3}{Drop elements}{subsection.17.6.9}
+\BOOKMARK [3][-]{subsubsection.17.6.9.4}{Get sublists}{subsection.17.6.9}
+\BOOKMARK [3][-]{subsubsection.17.6.9.5}{Iterative alteration}{subsection.17.6.9}
+\BOOKMARK [3][-]{subsubsection.17.6.9.6}{Removal}{subsection.17.6.9}
+\BOOKMARK [3][-]{subsubsection.17.6.9.7}{Sorting}{subsection.17.6.9}
+\BOOKMARK [3][-]{subsubsection.17.6.9.8}{String representation}{subsection.17.6.9}
+\BOOKMARK [3][-]{subsubsection.17.6.9.9}{Option}{subsection.17.6.9}
+\BOOKMARK [2][-]{subsection.17.6.10}{Set}{section.17.6}
+\BOOKMARK [3][-]{subsubsection.17.6.10.1}{Adding elements}{subsection.17.6.10}
+\BOOKMARK [3][-]{subsubsection.17.6.10.2}{Membership check}{subsection.17.6.10}
+\BOOKMARK [2][-]{subsection.17.6.11}{Map}{section.17.6}
+\BOOKMARK [3][-]{subsubsection.17.6.11.1}{Creation}{subsection.17.6.11}
+\BOOKMARK [3][-]{subsubsection.17.6.11.2}{Adding elements}{subsection.17.6.11}
+\BOOKMARK [3][-]{subsubsection.17.6.11.3}{Accessing elements}{subsection.17.6.11}
+\BOOKMARK [2][-]{subsection.17.6.12}{Tuples}{section.17.6}
+\BOOKMARK [3][-]{subsubsection.17.6.12.1}{Creation}{subsection.17.6.12}
+\BOOKMARK [3][-]{subsubsection.17.6.12.2}{Accessing members}{subsection.17.6.12}
+\BOOKMARK [1][-]{section.17.7}{Code structure}{chapter.17}
+\BOOKMARK [2][-]{subsection.17.7.1}{Sentence syntax}{section.17.7}
+\BOOKMARK [2][-]{subsection.17.7.2}{Documentation}{section.17.7}
+\BOOKMARK [2][-]{subsection.17.7.3}{Mutliple assignment}{section.17.7}
+\BOOKMARK [2][-]{subsection.17.7.4}{Function invocation}{section.17.7}
+\BOOKMARK [3][-]{subsubsection.17.7.4.1}{Methods taking one arguments}{subsection.17.7.4}
+\BOOKMARK [2][-]{subsection.17.7.5}{Decision structures}{section.17.7}
+\BOOKMARK [3][-]{subsubsection.17.7.5.1}{Replacing break and continue}{subsection.17.7.5}
+\BOOKMARK [3][-]{subsubsection.17.7.5.2}{Switch case statements}{subsection.17.7.5}
+\BOOKMARK [1][-]{section.17.8}{Exception handling}{chapter.17}
+\BOOKMARK [0][-]{chapter.18}{Lua}{part.3}
+\BOOKMARK [1][-]{section.18.1}{Paradigms and extensibility}{chapter.18}
+\BOOKMARK [2][-]{subsection.18.1.1}{Building}{section.18.1}
+\BOOKMARK [2][-]{subsection.18.1.2}{Metatable}{section.18.1}
+\BOOKMARK [0][-]{chapter.19}{Perl}{part.3}
+\BOOKMARK [1][-]{section.19.1}{Distinctive features}{chapter.19}
+\BOOKMARK [2][-]{subsection.19.1.1}{Richness of syntax}{section.19.1}
+\BOOKMARK [1][-]{section.19.2}{Running, building}{chapter.19}
+\BOOKMARK [2][-]{subsection.19.2.1}{Running}{section.19.2}
+\BOOKMARK [2][-]{subsection.19.2.2}{Getting help}{section.19.2}
+\BOOKMARK [-1][-]{part.4}{Mathematical programming}{}
+\BOOKMARK [0][-]{chapter.20}{Fundamental concerns}{part.4}
+\BOOKMARK [0][-]{chapter.21}{Special libraries}{part.4}
+\BOOKMARK [1][-]{section.21.1}{Linear algebra libraries}{chapter.21}
+\BOOKMARK [2][-]{subsection.21.1.1}{Tuning to fit memory, processor}{section.21.1}
+\BOOKMARK [2][-]{subsection.21.1.2}{Dense linear algebra}{section.21.1}
+\BOOKMARK [2][-]{subsection.21.1.3}{Sparse linear algebra}{section.21.1}
+\BOOKMARK [0][-]{chapter.22}{Matlab/ Octave}{part.4}
+\BOOKMARK [1][-]{section.22.1}{Introduction}{chapter.22}
+\BOOKMARK [2][-]{subsection.22.1.1}{Distinctive features of the language}{section.22.1}
+\BOOKMARK [3][-]{subsubsection.22.1.1.1}{Purpose of design}{subsection.22.1.1}
+\BOOKMARK [3][-]{subsubsection.22.1.1.2}{Versions}{subsection.22.1.1}
+\BOOKMARK [2][-]{subsection.22.1.2}{Speed}{section.22.1}
+\BOOKMARK [3][-]{subsubsection.22.1.2.1}{Speeding up loops}{subsection.22.1.2}
+\BOOKMARK [2][-]{subsection.22.1.3}{Using External libraries}{section.22.1}
+\BOOKMARK [3][-]{subsubsection.22.1.3.1}{Locating libraries}{subsection.22.1.3}
+\BOOKMARK [3][-]{subsubsection.22.1.3.2}{Installing and using}{subsection.22.1.3}
+\BOOKMARK [2][-]{subsection.22.1.4}{Building and executing code}{section.22.1}
+\BOOKMARK [3][-]{subsubsection.22.1.4.1}{Useful options}{subsection.22.1.4}
+\BOOKMARK [3][-]{subsubsection.22.1.4.2}{Good IDE's}{subsection.22.1.4}
+\BOOKMARK [2][-]{subsection.22.1.5}{Debugging}{section.22.1}
+\BOOKMARK [3][-]{subsubsection.22.1.5.1}{Profiling code for bottlenecks}{subsection.22.1.5}
+\BOOKMARK [2][-]{subsection.22.1.6}{Help}{section.22.1}
+\BOOKMARK [1][-]{section.22.2}{Constants and data types}{chapter.22}
+\BOOKMARK [2][-]{subsection.22.2.1}{Data types of constants}{section.22.2}
+\BOOKMARK [2][-]{subsection.22.2.2}{Important constants}{section.22.2}
+\BOOKMARK [2][-]{subsection.22.2.3}{Arrays}{section.22.2}
+\BOOKMARK [3][-]{subsubsection.22.2.3.1}{Matrix}{subsection.22.2.3}
+\BOOKMARK [3][-]{subsubsection.22.2.3.2}{Data generation functions}{subsection.22.2.3}
+\BOOKMARK [3][-]{subsubsection.22.2.3.3}{Array indexing}{subsection.22.2.3}
+\BOOKMARK [2][-]{subsection.22.2.4}{Cell array}{section.22.2}
+\BOOKMARK [3][-]{subsubsection.22.2.4.1}{Cell elements: indexing, altering}{subsection.22.2.4}
+\BOOKMARK [3][-]{subsubsection.22.2.4.2}{Cell values}{subsection.22.2.4}
+\BOOKMARK [2][-]{subsection.22.2.5}{Data-type conversion}{section.22.2}
+\BOOKMARK [2][-]{subsection.22.2.6}{Structures}{section.22.2}
+\BOOKMARK [3][-]{subsubsection.22.2.6.1}{struct}{subsection.22.2.6}
+\BOOKMARK [3][-]{subsubsection.22.2.6.2}{Use Java objects}{subsection.22.2.6}
+\BOOKMARK [2][-]{subsection.22.2.7}{Function handles}{section.22.2}
+\BOOKMARK [3][-]{subsubsection.22.2.7.1}{Reparametrization}{subsection.22.2.7}
+\BOOKMARK [3][-]{subsubsection.22.2.7.2}{Anonymous functions}{subsection.22.2.7}
+\BOOKMARK [3][-]{subsubsection.22.2.7.3}{Clearing memory}{subsection.22.2.7}
+\BOOKMARK [2][-]{subsection.22.2.8}{Objects}{section.22.2}
+\BOOKMARK [3][-]{subsubsection.22.2.8.1}{Object creation}{subsection.22.2.8}
+\BOOKMARK [3][-]{subsubsection.22.2.8.2}{Access/ manipulate objects}{subsection.22.2.8}
+\BOOKMARK [1][-]{section.22.3}{Memory, variable management}{chapter.22}
+\BOOKMARK [2][-]{subsection.22.3.1}{Clearing, recompiling}{section.22.3}
+\BOOKMARK [1][-]{section.22.4}{Data manipulation}{chapter.22}
+\BOOKMARK [2][-]{subsection.22.4.1}{Operators}{section.22.4}
+\BOOKMARK [3][-]{subsubsection.22.4.1.1}{Unary}{subsection.22.4.1}
+\BOOKMARK [3][-]{subsubsection.22.4.1.2}{Boolean valued operators}{subsection.22.4.1}
+\BOOKMARK [3][-]{subsubsection.22.4.1.3}{Boolean operations on matrices}{subsection.22.4.1}
+\BOOKMARK [3][-]{subsubsection.22.4.1.4}{Arithmatic operators}{subsection.22.4.1}
+\BOOKMARK [3][-]{subsubsection.22.4.1.5}{Multi-ary}{subsection.22.4.1}
+\BOOKMARK [3][-]{subsubsection.22.4.1.6}{Component-wise operations}{subsection.22.4.1}
+\BOOKMARK [3][-]{subsubsection.22.4.1.7}{Matrix operators}{subsection.22.4.1}
+\BOOKMARK [2][-]{subsection.22.4.2}{Operation with constant arrays: shortcuts}{section.22.4}
+\BOOKMARK [2][-]{subsection.22.4.3}{Array processing functions}{section.22.4}
+\BOOKMARK [3][-]{subsubsection.22.4.3.1}{Array statistics}{subsection.22.4.3}
+\BOOKMARK [3][-]{subsubsection.22.4.3.2}{Reshape array}{subsection.22.4.3}
+\BOOKMARK [3][-]{subsubsection.22.4.3.3}{Alter matrix}{subsection.22.4.3}
+\BOOKMARK [2][-]{subsection.22.4.4}{Vector processing functions}{section.22.4}
+\BOOKMARK [3][-]{subsubsection.22.4.4.1}{String manipulation}{subsection.22.4.4}
+\BOOKMARK [2][-]{subsection.22.4.5}{Matrix functionals}{section.22.4}
+\BOOKMARK [3][-]{subsubsection.22.4.5.1}{svd and eig}{subsection.22.4.5}
+\BOOKMARK [1][-]{section.22.5}{Code structure}{chapter.22}
+\BOOKMARK [2][-]{subsection.22.5.1}{Sentence syntax}{section.22.5}
+\BOOKMARK [3][-]{subsubsection.22.5.1.1}{Commenting}{subsection.22.5.1}
+\BOOKMARK [2][-]{subsection.22.5.2}{Functions and commands}{section.22.5}
+\BOOKMARK [3][-]{subsubsection.22.5.2.1}{Commands}{subsection.22.5.2}
+\BOOKMARK [3][-]{subsubsection.22.5.2.2}{Functions without side-effects}{subsection.22.5.2}
+\BOOKMARK [3][-]{subsubsection.22.5.2.3}{Syntax of function defn}{subsection.22.5.2}
+\BOOKMARK [3][-]{subsubsection.22.5.2.4}{Anonymous / temporary functions}{subsection.22.5.2}
+\BOOKMARK [3][-]{subsubsection.22.5.2.5}{Nested functions}{subsection.22.5.2}
+\BOOKMARK [3][-]{subsubsection.22.5.2.6}{Checking input and output structure}{subsection.22.5.2}
+\BOOKMARK [3][-]{subsubsection.22.5.2.7}{Invocation}{subsection.22.5.2}
+\BOOKMARK [2][-]{subsection.22.5.3}{Define classes, packages}{section.22.5}
+\BOOKMARK [3][-]{subsubsection.22.5.3.1}{Modifiers}{subsection.22.5.3}
+\BOOKMARK [3][-]{subsubsection.22.5.3.2}{Directory structure}{subsection.22.5.3}
+\BOOKMARK [3][-]{subsubsection.22.5.3.3}{Ceveat about 2007 version}{subsection.22.5.3}
+\BOOKMARK [3][-]{subsubsection.22.5.3.4}{Check errors in definition}{subsection.22.5.3}
+\BOOKMARK [3][-]{subsubsection.22.5.3.5}{Specifying events}{subsection.22.5.3}
+\BOOKMARK [2][-]{subsection.22.5.4}{Branching structures}{section.22.5}
+\BOOKMARK [2][-]{subsection.22.5.5}{Loop structures}{section.22.5}
+\BOOKMARK [3][-]{subsubsection.22.5.5.1}{break and continue}{subsection.22.5.5}
+\BOOKMARK [3][-]{subsubsection.22.5.5.2}{Avoiding loops in place of matrix ops}{subsection.22.5.5}
+\BOOKMARK [2][-]{subsection.22.5.6}{Error handling}{section.22.5}
+\BOOKMARK [3][-]{subsubsection.22.5.6.1}{Throwing errors}{subsection.22.5.6}
+\BOOKMARK [3][-]{subsubsection.22.5.6.2}{Throwing warnings}{subsection.22.5.6}
+\BOOKMARK [3][-]{subsubsection.22.5.6.3}{Assertions about input}{subsection.22.5.6}
+\BOOKMARK [1][-]{section.22.6}{Visualization}{chapter.22}
+\BOOKMARK [2][-]{subsection.22.6.1}{Creating a figure}{section.22.6}
+\BOOKMARK [2][-]{subsection.22.6.2}{Plotting data}{section.22.6}
+\BOOKMARK [3][-]{subsubsection.22.6.2.1}{Line specifications}{subsection.22.6.2}
+\BOOKMARK [2][-]{subsection.22.6.3}{Plot properties}{section.22.6}
+\BOOKMARK [2][-]{subsection.22.6.4}{Visualize matrix}{section.22.6}
+\BOOKMARK [2][-]{subsection.22.6.5}{Visualize matrices}{section.22.6}
+\BOOKMARK [1][-]{section.22.7}{Prallel programming}{chapter.22}
+\BOOKMARK [2][-]{subsection.22.7.1}{Multi-threaded programming}{section.22.7}
+\BOOKMARK [2][-]{subsection.22.7.2}{With matlab toolbox}{section.22.7}
+\BOOKMARK [3][-]{subsubsection.22.7.2.1}{Processor pool}{subsection.22.7.2}
+\BOOKMARK [3][-]{subsubsection.22.7.2.2}{parfor loop}{subsection.22.7.2}
+\BOOKMARK [3][-]{subsubsection.22.7.2.3}{Other tools}{subsection.22.7.2}
+\BOOKMARK [1][-]{section.22.8}{System IO}{chapter.22}
+\BOOKMARK [1][-]{section.22.9}{Other library functions}{chapter.22}
+\BOOKMARK [2][-]{subsection.22.9.1}{Useful external toolboxes/ packages}{section.22.9}
+\BOOKMARK [2][-]{subsection.22.9.2}{Solving Matrix problems}{section.22.9}
+\BOOKMARK [2][-]{subsection.22.9.3}{File I/O}{section.22.9}
+\BOOKMARK [3][-]{subsubsection.22.9.3.1}{Log files}{subsection.22.9.3}
+\BOOKMARK [3][-]{subsubsection.22.9.3.2}{Loading formatted data}{subsection.22.9.3}
+\BOOKMARK [3][-]{subsubsection.22.9.3.3}{C like functions}{subsection.22.9.3}
+\BOOKMARK [2][-]{subsection.22.9.4}{User interaction I/O}{section.22.9}
+\BOOKMARK [2][-]{subsection.22.9.5}{Solve general optimization problem}{section.22.9}
+\BOOKMARK [2][-]{subsection.22.9.6}{Algebra}{section.22.9}
+\BOOKMARK [2][-]{subsection.22.9.7}{Measure time}{section.22.9}
+\BOOKMARK [1][-]{section.22.10}{mex: Using C functions}{chapter.22}
+\BOOKMARK [2][-]{subsection.22.10.1}{Interface}{section.22.10}
+\BOOKMARK [3][-]{subsubsection.22.10.1.1}{Debugging}{subsection.22.10.1}
+\BOOKMARK [2][-]{subsection.22.10.2}{mxarray datatype}{section.22.10}
+\BOOKMARK [3][-]{subsubsection.22.10.2.1}{Creation}{subsection.22.10.2}
+\BOOKMARK [3][-]{subsubsection.22.10.2.2}{Array access}{subsection.22.10.2}
+\BOOKMARK [3][-]{subsubsection.22.10.2.3}{Array modification}{subsection.22.10.2}
+\BOOKMARK [3][-]{subsubsection.22.10.2.4}{Memory management}{subsection.22.10.2}
+\BOOKMARK [2][-]{subsection.22.10.3}{Executing matlab commands}{section.22.10}
+\BOOKMARK [2][-]{subsection.22.10.4}{User IO}{section.22.10}
+\BOOKMARK [2][-]{subsection.22.10.5}{Input validation}{section.22.10}
+\BOOKMARK [1][-]{section.22.11}{Java}{chapter.22}
+\BOOKMARK [2][-]{subsection.22.11.1}{Advantages}{section.22.11}
+\BOOKMARK [2][-]{subsection.22.11.2}{Classpath}{section.22.11}
+\BOOKMARK [0][-]{chapter.23}{Optimization software}{part.4}
+\BOOKMARK [1][-]{section.23.1}{cvx}{chapter.23}
+\BOOKMARK [2][-]{subsection.23.1.1}{Distinctive features}{section.23.1}
+\BOOKMARK [3][-]{subsubsection.23.1.1.1}{Disciplined convex programming framework}{subsection.23.1.1}
+\BOOKMARK [3][-]{subsubsection.23.1.1.2}{Defects}{subsection.23.1.1}
+\BOOKMARK [3][-]{subsubsection.23.1.1.3}{Other features}{subsection.23.1.1}
+\BOOKMARK [2][-]{subsection.23.1.2}{Help}{section.23.1}
+\BOOKMARK [2][-]{subsection.23.1.3}{Specification structure}{section.23.1}
+\BOOKMARK [3][-]{subsubsection.23.1.3.1}{Matrix variables and constraints}{subsection.23.1.3}
+\BOOKMARK [2][-]{subsection.23.1.4}{Error reporting and dimensions}{section.23.1}
+\BOOKMARK [3][-]{subsubsection.23.1.4.1}{Scalars and 1*1 matrix}{subsection.23.1.4}
+\BOOKMARK [2][-]{subsection.23.1.5}{Solution, program variable}{section.23.1}
+\BOOKMARK [3][-]{subsubsection.23.1.5.1}{Datatype of the program variable}{subsection.23.1.5}
+\BOOKMARK [3][-]{subsubsection.23.1.5.2}{Solution variables}{subsection.23.1.5}
+\BOOKMARK [1][-]{section.23.2}{Matlab optimization toolbox}{chapter.23}
+\BOOKMARK [2][-]{subsection.23.2.1}{Unconstrained minimization}{section.23.2}
+\BOOKMARK [3][-]{subsubsection.23.2.1.1}{fminsearch}{subsection.23.2.1}
+\BOOKMARK [3][-]{subsubsection.23.2.1.2}{fminunc}{subsection.23.2.1}
+\BOOKMARK [2][-]{subsection.23.2.2}{fmincon}{section.23.2}
+\BOOKMARK [2][-]{subsection.23.2.3}{Other functions}{section.23.2}
+\BOOKMARK [2][-]{subsection.23.2.4}{Options}{section.23.2}
+\BOOKMARK [0][-]{chapter.24}{R}{part.4}
+\BOOKMARK [1][-]{section.24.1}{Introduction and use}{chapter.24}
+\BOOKMARK [2][-]{subsection.24.1.1}{When to use}{section.24.1}
+\BOOKMARK [2][-]{subsection.24.1.2}{When not to use}{section.24.1}
+\BOOKMARK [2][-]{subsection.24.1.3}{Writing, Building and executing code}{section.24.1}
+\BOOKMARK [3][-]{subsubsection.24.1.3.1}{Script execution}{subsection.24.1.3}
+\BOOKMARK [3][-]{subsubsection.24.1.3.2}{Reloading changed code}{subsection.24.1.3}
+\BOOKMARK [3][-]{subsubsection.24.1.3.3}{Important environment variables}{subsection.24.1.3}
+\BOOKMARK [3][-]{subsubsection.24.1.3.4}{Working environment}{subsection.24.1.3}
+\BOOKMARK [3][-]{subsubsection.24.1.3.5}{Command history}{subsection.24.1.3}
+\BOOKMARK [3][-]{subsubsection.24.1.3.6}{Good IDE's}{subsection.24.1.3}
+\BOOKMARK [2][-]{subsection.24.1.4}{Listing and memory}{section.24.1}
+\BOOKMARK [2][-]{subsection.24.1.5}{Development environment}{section.24.1}
+\BOOKMARK [2][-]{subsection.24.1.6}{Debugging}{section.24.1}
+\BOOKMARK [2][-]{subsection.24.1.7}{Help}{section.24.1}
+\BOOKMARK [2][-]{subsection.24.1.8}{libraries}{section.24.1}
+\BOOKMARK [3][-]{subsubsection.24.1.8.1}{Seeking}{subsection.24.1.8}
+\BOOKMARK [3][-]{subsubsection.24.1.8.2}{Using}{subsection.24.1.8}
+\BOOKMARK [3][-]{subsubsection.24.1.8.3}{Installing}{subsection.24.1.8}
+\BOOKMARK [1][-]{section.24.2}{Data: types, values, variables}{chapter.24}
+\BOOKMARK [2][-]{subsection.24.2.1}{Names and namespace}{section.24.2}
+\BOOKMARK [3][-]{subsubsection.24.2.1.1}{Valid names}{subsection.24.2.1}
+\BOOKMARK [3][-]{subsubsection.24.2.1.2}{Namespace}{subsection.24.2.1}
+\BOOKMARK [3][-]{subsubsection.24.2.1.3}{Accessing list members directly}{subsection.24.2.1}
+\BOOKMARK [2][-]{subsection.24.2.2}{Object}{section.24.2}
+\BOOKMARK [3][-]{subsubsection.24.2.2.1}{Accessing attributes}{subsection.24.2.2}
+\BOOKMARK [3][-]{subsubsection.24.2.2.2}{Setting attributes}{subsection.24.2.2}
+\BOOKMARK [3][-]{subsubsection.24.2.2.3}{Important attributes}{subsection.24.2.2}
+\BOOKMARK [2][-]{subsection.24.2.3}{Modes and type}{section.24.2}
+\BOOKMARK [3][-]{subsubsection.24.2.3.1}{Basic modes}{subsection.24.2.3}
+\BOOKMARK [2][-]{subsection.24.2.4}{Scalar values and operations}{section.24.2}
+\BOOKMARK [3][-]{subsubsection.24.2.4.1}{Special values}{subsection.24.2.4}
+\BOOKMARK [2][-]{subsection.24.2.5}{Data conversion}{section.24.2}
+\BOOKMARK [2][-]{subsection.24.2.6}{Vectors}{section.24.2}
+\BOOKMARK [3][-]{subsubsection.24.2.6.1}{The basic math object}{subsection.24.2.6}
+\BOOKMARK [3][-]{subsubsection.24.2.6.2}{Homegeneity}{subsection.24.2.6}
+\BOOKMARK [3][-]{subsubsection.24.2.6.3}{Named entries}{subsection.24.2.6}
+\BOOKMARK [3][-]{subsubsection.24.2.6.4}{Indexing}{subsection.24.2.6}
+\BOOKMARK [3][-]{subsubsection.24.2.6.5}{Creating vectors}{subsection.24.2.6}
+\BOOKMARK [3][-]{subsubsection.24.2.6.6}{Vector statistics functions}{subsection.24.2.6}
+\BOOKMARK [3][-]{subsubsection.24.2.6.7}{Apply scalar functions}{subsection.24.2.6}
+\BOOKMARK [2][-]{subsection.24.2.7}{Factor}{section.24.2}
+\BOOKMARK [2][-]{subsection.24.2.8}{Strings}{section.24.2}
+\BOOKMARK [3][-]{subsubsection.24.2.8.1}{String manipulation}{subsection.24.2.8}
+\BOOKMARK [2][-]{subsection.24.2.9}{Dates}{section.24.2}
+\BOOKMARK [3][-]{subsubsection.24.2.9.1}{String connection}{subsection.24.2.9}
+\BOOKMARK [3][-]{subsubsection.24.2.9.2}{Arithmetic operations}{subsection.24.2.9}
+\BOOKMARK [2][-]{subsection.24.2.10}{Arrays/ matrices}{section.24.2}
+\BOOKMARK [3][-]{subsubsection.24.2.10.1}{As special vectors}{subsection.24.2.10}
+\BOOKMARK [3][-]{subsubsection.24.2.10.2}{Indexing}{subsection.24.2.10}
+\BOOKMARK [3][-]{subsubsection.24.2.10.3}{Data creation}{subsection.24.2.10}
+\BOOKMARK [3][-]{subsubsection.24.2.10.4}{Dimension-wise oeprations}{subsection.24.2.10}
+\BOOKMARK [3][-]{subsubsection.24.2.10.5}{Matrix functions}{subsection.24.2.10}
+\BOOKMARK [2][-]{subsection.24.2.11}{Lists}{section.24.2}
+\BOOKMARK [3][-]{subsubsection.24.2.11.1}{List creation}{subsection.24.2.11}
+\BOOKMARK [3][-]{subsubsection.24.2.11.2}{Accessing list items}{subsection.24.2.11}
+\BOOKMARK [3][-]{subsubsection.24.2.11.3}{Concatenation}{subsection.24.2.11}
+\BOOKMARK [2][-]{subsection.24.2.12}{Data frame}{section.24.2}
+\BOOKMARK [3][-]{subsubsection.24.2.12.1}{Creation}{subsection.24.2.12}
+\BOOKMARK [3][-]{subsubsection.24.2.12.2}{Conversion}{subsection.24.2.12}
+\BOOKMARK [3][-]{subsubsection.24.2.12.3}{Indexing}{subsection.24.2.12}
+\BOOKMARK [3][-]{subsubsection.24.2.12.4}{Searching}{subsection.24.2.12}
+\BOOKMARK [3][-]{subsubsection.24.2.12.5}{Concatenation}{subsection.24.2.12}
+\BOOKMARK [2][-]{subsection.24.2.13}{Model Formulae}{section.24.2}
+\BOOKMARK [2][-]{subsection.24.2.14}{Functions}{section.24.2}
+\BOOKMARK [3][-]{subsubsection.24.2.14.1}{Definition}{subsection.24.2.14}
+\BOOKMARK [3][-]{subsubsection.24.2.14.2}{Variables used}{subsection.24.2.14}
+\BOOKMARK [3][-]{subsubsection.24.2.14.3}{Operator defintions}{subsection.24.2.14}
+\BOOKMARK [3][-]{subsubsection.24.2.14.4}{Invocation}{subsection.24.2.14}
+\BOOKMARK [1][-]{section.24.3}{Operator}{chapter.24}
+\BOOKMARK [2][-]{subsection.24.3.1}{Assignment}{section.24.3}
+\BOOKMARK [2][-]{subsection.24.3.2}{Scalar operators}{section.24.3}
+\BOOKMARK [3][-]{subsubsection.24.3.2.1}{Arithmetic operators}{subsection.24.3.2}
+\BOOKMARK [3][-]{subsubsection.24.3.2.2}{Operators on booleans}{subsection.24.3.2}
+\BOOKMARK [3][-]{subsubsection.24.3.2.3}{Operators which produce booleans}{subsection.24.3.2}
+\BOOKMARK [2][-]{subsection.24.3.3}{General Vector operators}{section.24.3}
+\BOOKMARK [3][-]{subsubsection.24.3.3.1}{Mapping over elements}{subsection.24.3.3}
+\BOOKMARK [3][-]{subsubsection.24.3.3.2}{Arithmetic and boolean ops}{subsection.24.3.3}
+\BOOKMARK [3][-]{subsubsection.24.3.3.3}{Lengthening of arguments}{subsection.24.3.3}
+\BOOKMARK [3][-]{subsubsection.24.3.3.4}{ifelse op}{subsection.24.3.3}
+\BOOKMARK [3][-]{subsubsection.24.3.3.5}{Set membership}{subsection.24.3.3}
+\BOOKMARK [3][-]{subsubsection.24.3.3.6}{Missing value identification}{subsection.24.3.3}
+\BOOKMARK [1][-]{section.24.4}{Code structure}{chapter.24}
+\BOOKMARK [2][-]{subsection.24.4.1}{Code blocks}{section.24.4}
+\BOOKMARK [2][-]{subsection.24.4.2}{Sentence syntax}{section.24.4}
+\BOOKMARK [2][-]{subsection.24.4.3}{Decision structures}{section.24.4}
+\BOOKMARK [2][-]{subsection.24.4.4}{Packages}{section.24.4}
+\BOOKMARK [2][-]{subsection.24.4.5}{Organization with lists}{section.24.4}
+\BOOKMARK [1][-]{section.24.5}{IO}{chapter.24}
+\BOOKMARK [2][-]{subsection.24.5.1}{File I/O}{section.24.5}
+\BOOKMARK [2][-]{subsection.24.5.2}{User interaction I/O}{section.24.5}
+\BOOKMARK [3][-]{subsubsection.24.5.2.1}{output}{subsection.24.5.2}
+\BOOKMARK [3][-]{subsubsection.24.5.2.2}{Input}{subsection.24.5.2}
+\BOOKMARK [2][-]{subsection.24.5.3}{Plotting and tables}{section.24.5}
+\BOOKMARK [1][-]{section.24.6}{Data preparation and exploration}{chapter.24}
+\BOOKMARK [1][-]{section.24.7}{Modeling}{chapter.24}
+\BOOKMARK [2][-]{subsection.24.7.1}{Classification}{section.24.7}
+\BOOKMARK [3][-]{subsubsection.24.7.1.1}{Logistic regression}{subsection.24.7.1}
+\BOOKMARK [3][-]{subsubsection.24.7.1.2}{Logistic regression with l1/l2 regularization}{subsection.24.7.1}
+\BOOKMARK [3][-]{subsubsection.24.7.1.3}{Decision tree: rpart and tree}{subsection.24.7.1}
+\BOOKMARK [1][-]{section.24.8}{Other library functions}{chapter.24}
+\BOOKMARK [2][-]{subsection.24.8.1}{Random sampling}{section.24.8}
+\BOOKMARK [1][-]{section.24.9}{Write C extensions}{chapter.24}
+\BOOKMARK [2][-]{subsection.24.9.1}{Write C code}{section.24.9}
+\BOOKMARK [2][-]{subsection.24.9.2}{Calling C code}{section.24.9}
+\BOOKMARK [0][-]{chapter.25}{Rapidminer}{part.4}
+\BOOKMARK [1][-]{section.25.1}{Introduction}{chapter.25}
+\BOOKMARK [2][-]{subsection.25.1.1}{Purpose}{section.25.1}
+\BOOKMARK [2][-]{subsection.25.1.2}{UI and API}{section.25.1}
+\BOOKMARK [2][-]{subsection.25.1.3}{Data types}{section.25.1}
+\BOOKMARK [1][-]{section.25.2}{Processes}{chapter.25}
+\BOOKMARK [2][-]{subsection.25.2.1}{Operators}{section.25.2}
+\BOOKMARK [1][-]{section.25.3}{Data view}{chapter.25}
+\BOOKMARK [0][-]{chapter.26}{Spreadsheet programs}{part.4}
+\BOOKMARK [1][-]{section.26.1}{Google docs}{chapter.26}
+\BOOKMARK [2][-]{subsection.26.1.1}{Cell referencing}{section.26.1}
+\BOOKMARK [2][-]{subsection.26.1.2}{Range specification}{section.26.1}
+\BOOKMARK [2][-]{subsection.26.1.3}{Filtering}{section.26.1}
+\BOOKMARK [3][-]{subsubsection.26.1.3.1}{Condition specification}{subsection.26.1.3}
+\BOOKMARK [2][-]{subsection.26.1.4}{Counting}{section.26.1}
+\BOOKMARK [2][-]{subsection.26.1.5}{Summation}{section.26.1}
+\BOOKMARK [2][-]{subsection.26.1.6}{Averaging}{section.26.1}
+\BOOKMARK [2][-]{subsection.26.1.7}{Looking up values}{section.26.1}
+\BOOKMARK [-1][-]{part.5}{Shell Scripting and OS work}{}
+\BOOKMARK [0][-]{chapter.27}{General tasks}{part.5}
+\BOOKMARK [1][-]{section.27.1}{Scanning documents with camera}{chapter.27}
+\BOOKMARK [2][-]{subsection.27.1.1}{Cropping}{section.27.1}
+\BOOKMARK [2][-]{subsection.27.1.2}{Enhancement}{section.27.1}
+\BOOKMARK [2][-]{subsection.27.1.3}{Compression}{section.27.1}
+\BOOKMARK [1][-]{section.27.2}{File synchronization}{chapter.27}
+\BOOKMARK [1][-]{section.27.3}{VOIP}{chapter.27}
+\BOOKMARK [1][-]{section.27.4}{Booting to special modes}{chapter.27}
+\BOOKMARK [2][-]{subsection.27.4.1}{Atrix boot modes}{section.27.4}
+\BOOKMARK [3][-]{subsubsection.27.4.1.1}{Fastboot}{subsection.27.4.1}
+\BOOKMARK [3][-]{subsubsection.27.4.1.2}{Recovery}{subsection.27.4.1}
+\BOOKMARK [1][-]{section.27.5}{Virtual machines, emulators}{chapter.27}
+\BOOKMARK [2][-]{subsection.27.5.1}{Emulators on linux}{section.27.5}
+\BOOKMARK [3][-]{subsubsection.27.5.1.1}{Java virtual machines}{subsection.27.5.1}
+\BOOKMARK [0][-]{chapter.28}{Pocket computer OS usage}{part.5}
+\BOOKMARK [1][-]{section.28.1}{Special tasks}{chapter.28}
+\BOOKMARK [2][-]{subsection.28.1.1}{Syncing media}{section.28.1}
+\BOOKMARK [2][-]{subsection.28.1.2}{Podcasts}{section.28.1}
+\BOOKMARK [2][-]{subsection.28.1.3}{Scanning}{section.28.1}
+\BOOKMARK [2][-]{subsection.28.1.4}{Offline navigation}{section.28.1}
+\BOOKMARK [2][-]{subsection.28.1.5}{Ebook conversion}{section.28.1}
+\BOOKMARK [3][-]{subsubsection.28.1.5.1}{Calibre}{subsection.28.1.5}
+\BOOKMARK [2][-]{subsection.28.1.6}{Keypad commands}{section.28.1}
+\BOOKMARK [3][-]{subsubsection.28.1.6.1}{Android}{subsection.28.1.6}
+\BOOKMARK [2][-]{subsection.28.1.7}{Unlock bootloader}{section.28.1}
+\BOOKMARK [3][-]{subsubsection.28.1.7.1}{Atrix running Gingerbread}{subsection.28.1.7}
+\BOOKMARK [2][-]{subsection.28.1.8}{Exploring files from a computer}{section.28.1}
+\BOOKMARK [3][-]{subsubsection.28.1.8.1}{Android}{subsection.28.1.8}
+\BOOKMARK [2][-]{subsection.28.1.9}{Enable and use root access}{section.28.1}
+\BOOKMARK [3][-]{subsubsection.28.1.9.1}{Atrix running gingerbread}{subsection.28.1.9}
+\BOOKMARK [2][-]{subsection.28.1.10}{File transfer: Android}{section.28.1}
+\BOOKMARK [3][-]{subsubsection.28.1.10.1}{Enable Writeability}{subsection.28.1.10}
+\BOOKMARK [1][-]{section.28.2}{Kindle keyboard}{chapter.28}
+\BOOKMARK [2][-]{subsection.28.2.1}{Diagnostic pages}{section.28.2}
+\BOOKMARK [2][-]{subsection.28.2.2}{Shortcuts}{section.28.2}
+\BOOKMARK [0][-]{chapter.29}{Linux OS}{part.5}
+\BOOKMARK [1][-]{subsubsection.29.0.2.1}{perl}{chapter.29}
+\BOOKMARK [1][-]{section.29.1}{Graphical user interface}{chapter.29}
+\BOOKMARK [2][-]{subsection.29.1.1}{Common settings}{section.29.1}
+\BOOKMARK [2][-]{subsection.29.1.2}{Gnome}{section.29.1}
+\BOOKMARK [3][-]{subsubsection.29.1.2.1}{Editing configuration}{subsection.29.1.2}
+\BOOKMARK [2][-]{subsection.29.1.3}{KDE}{section.29.1}
+\BOOKMARK [1][-]{section.29.2}{Others}{chapter.29}
+\BOOKMARK [1][-]{section.29.3}{Editing}{chapter.29}
+\BOOKMARK [2][-]{subsection.29.3.1}{Editors}{section.29.3}
+\BOOKMARK [2][-]{subsection.29.3.2}{Programmatic editing}{section.29.3}
+\BOOKMARK [2][-]{subsection.29.3.3}{vi}{section.29.3}
+\BOOKMARK [3][-]{subsubsection.29.3.3.1}{Modes}{subsection.29.3.3}
+\BOOKMARK [3][-]{subsubsection.29.3.3.2}{Commands and pattern matching}{subsection.29.3.3}
+\BOOKMARK [1][-]{section.29.4}{Resource check}{chapter.29}
+\BOOKMARK [1][-]{section.29.5}{Image processing}{chapter.29}
+\BOOKMARK [1][-]{section.29.6}{Installation}{chapter.29}
+\BOOKMARK [0][-]{chapter.30}{BASH scripting}{part.5}
+\BOOKMARK [1][-]{section.30.1}{Characteristic features}{chapter.30}
+\BOOKMARK [2][-]{subsection.30.1.1}{Command construction, execution}{section.30.1}
+\BOOKMARK [2][-]{subsection.30.1.2}{Logic limitations}{section.30.1}
+\BOOKMARK [1][-]{section.30.2}{Writing and executing code}{chapter.30}
+\BOOKMARK [2][-]{subsection.30.2.1}{Context}{section.30.2}
+\BOOKMARK [3][-]{subsubsection.30.2.1.1}{Current context}{subsection.30.2.1}
+\BOOKMARK [3][-]{subsubsection.30.2.1.2}{New context}{subsection.30.2.1}
+\BOOKMARK [2][-]{subsection.30.2.2}{Environment variables}{section.30.2}
+\BOOKMARK [3][-]{subsubsection.30.2.2.1}{Setting}{subsection.30.2.2}
+\BOOKMARK [1][-]{section.30.3}{Variables and data}{chapter.30}
+\BOOKMARK [2][-]{subsection.30.3.1}{Assignment}{section.30.3}
+\BOOKMARK [2][-]{subsection.30.3.2}{Reference}{section.30.3}
+\BOOKMARK [0][-]{chapter.31}{Android development}{part.5}
+\BOOKMARK [1][-]{section.31.1}{Java SDK}{chapter.31}
+\BOOKMARK [2][-]{subsection.31.1.1}{C++ compiler}{section.31.1}
+\BOOKMARK [2][-]{subsection.31.1.2}{Logging}{section.31.1}
+\BOOKMARK [2][-]{subsection.31.1.3}{Command line access to device}{section.31.1}
+\BOOKMARK [1][-]{section.31.2}{Eclipse-plugin}{chapter.31}
+\BOOKMARK [2][-]{subsection.31.2.1}{Debugging}{section.31.2}
+\BOOKMARK [1][-]{section.31.3}{Application architecture}{chapter.31}
+\BOOKMARK [2][-]{subsection.31.3.1}{Components}{section.31.3}
+\BOOKMARK [3][-]{subsubsection.31.3.1.1}{Communication with components}{subsection.31.3.1}
+\BOOKMARK [2][-]{subsection.31.3.2}{Security and isolation}{section.31.3}
+\BOOKMARK [2][-]{subsection.31.3.3}{Threading}{section.31.3}
+\BOOKMARK [2][-]{subsection.31.3.4}{Resources}{section.31.3}
+\BOOKMARK [3][-]{subsubsection.31.3.4.1}{UI design}{subsection.31.3.4}
+\BOOKMARK [-1][-]{part.6}{Distributed computing}{}
+\BOOKMARK [0][-]{chapter.32}{Parallel computing paradigms}{part.6}
+\BOOKMARK [0][-]{chapter.33}{Condor}{part.6}
+\BOOKMARK [1][-]{section.33.1}{Priority and restarts}{chapter.33}
+\BOOKMARK [0][-]{chapter.34}{ORC}{part.6}
+\BOOKMARK [1][-]{section.34.1}{Distinctive features of the language}{chapter.34}
+\BOOKMARK [2][-]{subsection.34.1.1}{Purpose of design}{section.34.1}
+\BOOKMARK [2][-]{subsection.34.1.2}{Sites}{section.34.1}
+\BOOKMARK [2][-]{subsection.34.1.3}{Functions}{section.34.1}
+\BOOKMARK [2][-]{subsection.34.1.4}{Parallelism}{section.34.1}
+\BOOKMARK [2][-]{subsection.34.1.5}{Speed}{section.34.1}
+\BOOKMARK [1][-]{section.34.2}{Writing, Building and executing code}{chapter.34}
+\BOOKMARK [2][-]{subsection.34.2.1}{Debugging}{section.34.2}
+\BOOKMARK [1][-]{section.34.3}{Help}{chapter.34}
+\BOOKMARK [1][-]{section.34.4}{Pre-compilation processing}{chapter.34}
+\BOOKMARK [1][-]{section.34.5}{Variable and data types}{chapter.34}
+\BOOKMARK [2][-]{subsection.34.5.1}{Data types}{section.34.5}
+\BOOKMARK [2][-]{subsection.34.5.2}{Declaration syntax}{section.34.5}
+\BOOKMARK [1][-]{section.34.6}{Data manipulation}{chapter.34}
+\BOOKMARK [2][-]{subsection.34.6.1}{Operators}{section.34.6}
+\BOOKMARK [2][-]{subsection.34.6.2}{Accessing object methods}{section.34.6}
+\BOOKMARK [1][-]{section.34.7}{Code structure}{chapter.34}
+\BOOKMARK [2][-]{subsection.34.7.1}{Sentence syntax}{section.34.7}
+\BOOKMARK [3][-]{subsubsection.34.7.1.1}{Commenting}{subsection.34.7.1}
+\BOOKMARK [2][-]{subsection.34.7.2}{Combinators}{section.34.7}
+\BOOKMARK [2][-]{subsection.34.7.3}{Syntax of functions}{section.34.7}
+\BOOKMARK [2][-]{subsection.34.7.4}{Decision, timing sites}{section.34.7}
+\BOOKMARK [2][-]{subsection.34.7.5}{Function invocation}{section.34.7}
+\BOOKMARK [1][-]{section.34.8}{Error handling}{chapter.34}
+\BOOKMARK [1][-]{section.34.9}{Other library functions}{chapter.34}
+\BOOKMARK [2][-]{subsection.34.9.1}{User interaction I/O sites}{section.34.9}
+\BOOKMARK [-1][-]{part.7}{Serving web-pages}{}
+\BOOKMARK [0][-]{chapter.35}{Common Gateway Interface \(CGI\)}{part.7}
+\BOOKMARK [1][-]{section.35.1}{HTTP server and dynamic content}{chapter.35}
+\BOOKMARK [1][-]{section.35.2}{Scripting mixed with html}{chapter.35}
+\BOOKMARK [0][-]{chapter.36}{Client side scripting}{part.7}
+\BOOKMARK [0][-]{chapter.37}{Yahoo pipes}{part.7}
+\BOOKMARK [1][-]{section.37.1}{Interface}{chapter.37}
+\BOOKMARK [1][-]{section.37.2}{Looping}{chapter.37}
+\BOOKMARK [0][-]{chapter.38}{Web API}{part.7}
+\BOOKMARK [1][-]{section.38.1}{Request/ response format}{chapter.38}
+\BOOKMARK [1][-]{section.38.2}{Underlying Protocol}{chapter.38}
+\BOOKMARK [1][-]{section.38.3}{Web interface Protocols}{chapter.38}
+\BOOKMARK [2][-]{subsection.38.3.1}{Simple Object access protocol \(SOAP\)}{section.38.3}
+\BOOKMARK [0][-]{chapter.39}{Particular Web Api's}{part.7}
+\BOOKMARK [1][-]{section.39.1}{Wikimedia}{chapter.39}
+\BOOKMARK [2][-]{subsection.39.1.1}{Java wrappers}{section.39.1}
+\BOOKMARK [0][-]{chapter.40}{Flash}{part.7}
+\BOOKMARK [-1][-]{part.8}{Programming within browsers}{}
+\BOOKMARK [0][-]{chapter.41}{Web Browsers}{part.8}
+\BOOKMARK [1][-]{section.41.1}{Extensions/ plugins}{chapter.41}
+\BOOKMARK [1][-]{section.41.2}{User scripting}{chapter.41}
+\BOOKMARK [2][-]{subsection.41.2.1}{Interoperability}{section.41.2}
+\BOOKMARK [1][-]{section.41.3}{Enhancements by websites}{chapter.41}
+\BOOKMARK [1][-]{section.41.4}{Observe browser activity}{chapter.41}
+\BOOKMARK [0][-]{chapter.42}{ECMA script/ javascript}{part.8}
+\BOOKMARK [1][-]{section.42.1}{Distinctive features}{chapter.42}
+\BOOKMARK [2][-]{subsection.42.1.1}{Design flaws}{section.42.1}
+\BOOKMARK [2][-]{subsection.42.1.2}{Programming discipline}{section.42.1}
+\BOOKMARK [3][-]{subsubsection.42.1.2.1}{Development tools}{subsection.42.1.2}
+\BOOKMARK [2][-]{subsection.42.1.3}{Implementation variations}{section.42.1}
+\BOOKMARK [2][-]{subsection.42.1.4}{Acknowledgement}{section.42.1}
+\BOOKMARK [2][-]{subsection.42.1.5}{Security}{section.42.1}
+\BOOKMARK [2][-]{subsection.42.1.6}{Document object model \(DOM\)}{section.42.1}
+\BOOKMARK [3][-]{subsubsection.42.1.6.1}{Structure}{subsection.42.1.6}
+\BOOKMARK [3][-]{subsubsection.42.1.6.2}{Document object}{subsection.42.1.6}
+\BOOKMARK [3][-]{subsubsection.42.1.6.3}{Element object}{subsection.42.1.6}
+\BOOKMARK [1][-]{section.42.2}{UI}{chapter.42}
+\BOOKMARK [2][-]{subsection.42.2.1}{Events}{section.42.2}
+\BOOKMARK [2][-]{subsection.42.2.2}{Event listeners}{section.42.2}
+\BOOKMARK [2][-]{subsection.42.2.3}{Getting selected text}{section.42.2}
+\BOOKMARK [1][-]{section.42.3}{Threads, timing}{chapter.42}
+\BOOKMARK [2][-]{subsection.42.3.1}{Executing code after some time}{section.42.3}
+\BOOKMARK [2][-]{subsection.42.3.2}{Periodic execution of code}{section.42.3}
+\BOOKMARK [0][-]{chapter.43}{User scripts}{part.8}
+\BOOKMARK [1][-]{section.43.1}{Motivation}{chapter.43}
+\BOOKMARK [1][-]{section.43.2}{Header format}{chapter.43}
+\BOOKMARK [-1][-]{part.9}{Databases}{}
+\BOOKMARK [0][-]{chapter.44}{Database management systems}{part.9}
+\BOOKMARK [1][-]{section.44.1}{Relational Database management system \(RDBMS\)}{chapter.44}
+\BOOKMARK [2][-]{subsection.44.1.1}{Relational algebra}{section.44.1}
+\BOOKMARK [2][-]{subsection.44.1.2}{Database normalization}{section.44.1}
+\BOOKMARK [1][-]{section.44.2}{Sharding}{chapter.44}
+\BOOKMARK [1][-]{section.44.3}{Pooling writes}{chapter.44}
+\BOOKMARK [0][-]{chapter.45}{Structured query language \(SQL\)}{part.9}
+\BOOKMARK [1][-]{section.45.1}{Help and tutorials}{chapter.45}
+\BOOKMARK [1][-]{section.45.2}{Values}{chapter.45}
+\BOOKMARK [1][-]{section.45.3}{Query language}{chapter.45}
+\BOOKMARK [2][-]{subsection.45.3.1}{Query table}{section.45.3}
+\BOOKMARK [2][-]{subsection.45.3.2}{Post selection processing}{section.45.3}
+\BOOKMARK [2][-]{subsection.45.3.3}{Temporary tables}{section.45.3}
+\BOOKMARK [3][-]{subsubsection.45.3.3.1}{Storage}{subsection.45.3.3}
+\BOOKMARK [1][-]{section.45.4}{Stored procedures}{chapter.45}
+\BOOKMARK [0][-]{chapter.46}{Flat file DB}{part.9}
+\BOOKMARK [1][-]{section.46.1}{sqlite}{chapter.46}
+\BOOKMARK [2][-]{subsection.46.1.1}{GUI}{section.46.1}
+\BOOKMARK [2][-]{subsection.46.1.2}{Shell}{section.46.1}
+\BOOKMARK [3][-]{subsubsection.46.1.2.1}{Importing}{subsection.46.1.2}
+\BOOKMARK [0][-]{chapter.47}{MySql}{part.9}
+\BOOKMARK [1][-]{section.47.1}{Server}{chapter.47}
+\BOOKMARK [1][-]{section.47.2}{Clients}{chapter.47}
+\BOOKMARK [2][-]{subsection.47.2.1}{mysql shell}{section.47.2}
+\BOOKMARK [3][-]{subsubsection.47.2.1.1}{Invocation}{subsection.47.2.1}
+\BOOKMARK [3][-]{subsubsection.47.2.1.2}{General commands}{subsection.47.2.1}
+\BOOKMARK [3][-]{subsubsection.47.2.1.3}{Meta-commands}{subsection.47.2.1}
+\BOOKMARK [3][-]{subsubsection.47.2.1.4}{Administration}{subsection.47.2.1}
+\BOOKMARK [2][-]{subsection.47.2.2}{Ancilliary commandline tools}{section.47.2}
+\BOOKMARK [2][-]{subsection.47.2.3}{GUI}{section.47.2}
+\BOOKMARK [1][-]{section.47.3}{Past experience}{chapter.47}
+\BOOKMARK [-1][-]{part.10}{Remote procedure call and serialization}{}
+\BOOKMARK [-1][-]{part.11}{Document typesetting}{}
+\BOOKMARK [0][-]{chapter.48}{Declarative vs imperative features}{part.11}
+\BOOKMARK [0][-]{chapter.49}{latex}{part.11}
+\BOOKMARK [1][-]{section.49.1}{Common commands, environments}{chapter.49}
+\BOOKMARK [2][-]{subsection.49.1.1}{Templates}{section.49.1}
+\BOOKMARK [2][-]{subsection.49.1.2}{Packages}{section.49.1}
+\BOOKMARK [3][-]{subsubsection.49.1.2.1}{Page setup}{subsection.49.1.2}
+\BOOKMARK [3][-]{subsubsection.49.1.2.2}{List compaction}{subsection.49.1.2}
+\BOOKMARK [1][-]{section.49.2}{Bibliography}{chapter.49}
+\BOOKMARK [2][-]{subsection.49.2.1}{Packages}{section.49.2}
+\BOOKMARK [1][-]{section.49.3}{\(Re\)definition}{chapter.49}
+\BOOKMARK [1][-]{section.49.4}{Imperative display commands}{chapter.49}
+\BOOKMARK [2][-]{subsection.49.4.1}{Font size}{section.49.4}
+\BOOKMARK [2][-]{subsection.49.4.2}{Display parameters}{section.49.4}
+\BOOKMARK [2][-]{subsection.49.4.3}{Space management}{section.49.4}
+\BOOKMARK [1][-]{section.49.5}{Drawing figures}{chapter.49}
+\BOOKMARK [0][-]{chapter.50}{html}{part.11}

@@ -1,0 +1,64 @@
+\subsection{Link prediction}
+Use microscopic evolution model here; or observe link formation statistics (degree distribution of new linkers etc..) and try to replicate these statistics while making predictions.
+
+credits: \verb jhe~Ngdo~Ng .
+
+\subsubsection{Using affiliation networks}
+See if affiliation nw can be used to predict links. Maybe bias assigned to affiliation nw observations can be learned from using the corresponding social-nw evolution data.
+
+credits: \verb jhe~Ngdo~Ng , pratIka.
+
+\subsubsection{Experiments}
+Acquire data for evolving social networks, with corresponding affiliation networks. Perhaps Yin Zhang's students are trawling various social networking websites.
+
+
+\subsection{Partitioning/ clustering bi-partite graphs}
+Extend current graph partitioning algorithms to have soft clusters.
+
+Try extending clustering algorithms by Brian and Trajan to co-cluster bi-partitite graphs.
+
+credits: pratIka.
+
+\subsection{Co-Clustering affiliation networks}
+credits: pratIka.
+
+\subsubsection{Ideas}
+\begin{itemize}
+ \item Use special properties of these networks to improve clustering.
+ \item Try to use information from corresponding social network to better cocluster the affiliation nw.
+\end{itemize}
+
+\subsubsection{Actions}
+\begin{itemize}
+ \item Acquire affilation network data to experiment with: ones with community names.
+ \item Consider previous work on co-clustering bipartite graphs.
+ \item Consider previous work on clustering social networks in general. May give you ideas.
+\end{itemize}
+
+\subsubsection{Experiments}
+\begin{itemize}
+ \item Try implementing the simple dhillon alg.
+ \item Try applying the Trajan algorithm.
+ \item Try the algorithm where ye cluster users and clusters by iteratively folding the affiliation nw to get user nw/ community nw and then using clusters in one nw to cluster the other nw.
+\end{itemize}
+
+\subsection{Clustering nodes in social networks}
+Cluster nodes in social networks. Use special properties of these networks to improve clustering. Try to use affiliation nw here.
+
+credits: pratIka.
+
+\section{Deferred research projects}
+Construct a graph generative model which, besides having good static and temporal properties displayed by graphs evolved using other models, also shows hierarchical community structure.
+
+\begin{itemize}
+\item Can you extend the affiliation networks model to do this?
+\item This can be done if the idea to use affiliation networks algorithm to generate clusters and then interconnect them works.
+\end{itemize}
+
+Given the k*k q(xhat, yhat) matrix, which specifies the edge densities between various node clusters, make a generative model which produces graphs with that clustering structure, such that it possesses various static and temporal properties of real world graphs.
+
+\begin{itemize}
+\item A trivial solution exists if the diagonal entries heavily dominate others. Is this well motivated?
+\end{itemize}
+
+Consider the problem of learning a decision tree with a 1/n correlated parity, given a noisy parity learner which only works with constant noise.
