@@ -1,905 +1,678 @@
 \contentsline {chapter}{Contents}{1}{section*.1}
-\contentsline {part}{\partnumberline {I}Introduction}{22}{part.1}
-\contentsline {chapter}{\chapternumberline {1}Research themes}{22}{chapter.1}
-\contentsline {section}{\numberline {1.1}Programming language design}{22}{section.1.1}
-\contentsline {chapter}{\chapternumberline {2}Language Design concepts}{22}{chapter.2}
-\contentsline {section}{\numberline {2.1}Chapter Scope}{22}{section.2.1}
-\contentsline {section}{\numberline {2.2}Syntax}{22}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Literals}{22}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Identifiers}{22}{subsection.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.2.1}Overloading}{22}{subsubsection.2.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2.2}Scope}{23}{subsubsection.2.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.2.3}Implicit scope}{23}{subsubsection.2.2.2.3}
-\contentsline {subsection}{\numberline {2.2.3}Expression evaluation}{23}{subsection.2.2.3}
-\contentsline {subsubsection}{\numberline {2.2.3.1}Lazy vs eager evaluation}{23}{subsubsection.2.2.3.1}
-\contentsline {subsection}{\numberline {2.2.4}Syntactic sugar}{23}{subsection.2.2.4}
-\contentsline {subsubsection}{\numberline {2.2.4.1}Macros}{23}{subsubsection.2.2.4.1}
-\contentsline {section}{\numberline {2.3}Abstraction from hardware}{23}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}View of memory}{23}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Portability}{23}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Programming discipline}{24}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Type system}{24}{subsection.2.3.4}
-\contentsline {subsubsection}{\numberline {2.3.4.1}Implementing abstract data-types}{24}{subsubsection.2.3.4.1}
-\contentsline {subsubsection}{\numberline {2.3.4.2}Compile time vs run-time}{24}{subsubsection.2.3.4.2}
-\contentsline {subsubsection}{\numberline {2.3.4.3}Strong vs weak}{24}{subsubsection.2.3.4.3}
-\contentsline {section}{\numberline {2.4}Procedures}{24}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Mathematical functions}{25}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Passing arguments to procedures}{25}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Operators}{25}{subsection.2.4.3}
-\contentsline {section}{\numberline {2.5}Object creation and manipulation}{25}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Object manipulation}{25}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Encapsulation and locality}{25}{subsection.2.5.2}
-\contentsline {subsubsection}{\numberline {2.5.2.1}Methods}{25}{subsubsection.2.5.2.1}
-\contentsline {subsection}{\numberline {2.5.3}Object construction and destruction}{26}{subsection.2.5.3}
-\contentsline {subsubsection}{\numberline {2.5.3.1}Classes}{26}{subsubsection.2.5.3.1}
-\contentsline {subsubsection}{\numberline {2.5.3.2}Cloning prototypes}{26}{subsubsection.2.5.3.2}
-\contentsline {subsubsection}{\numberline {2.5.3.3}Deep copy}{26}{subsubsection.2.5.3.3}
-\contentsline {subsubsection}{\numberline {2.5.3.4}Factory methods}{26}{subsubsection.2.5.3.4}
-\contentsline {subsection}{\numberline {2.5.4}Inheritance}{26}{subsection.2.5.4}
-\contentsline {subsubsection}{\numberline {2.5.4.1}Benefits}{26}{subsubsection.2.5.4.1}
-\contentsline {subsubsection}{\numberline {2.5.4.2}Abstract class/ interface}{27}{subsubsection.2.5.4.2}
-\contentsline {subsubsection}{\numberline {2.5.4.3}Dynamic dispatch}{27}{subsubsection.2.5.4.3}
-\contentsline {subsubsection}{\numberline {2.5.4.4}Multiple inheritance}{27}{subsubsection.2.5.4.4}
-\contentsline {subsection}{\numberline {2.5.5}Prototyping-based languages}{27}{subsection.2.5.5}
-\contentsline {subsection}{\numberline {2.5.6}Mutability}{27}{subsection.2.5.6}
-\contentsline {subsection}{\numberline {2.5.7}Class with optional members}{28}{subsection.2.5.7}
-\contentsline {subsubsection}{\numberline {2.5.7.1}As inheritance tree}{28}{subsubsection.2.5.7.1}
-\contentsline {subsubsection}{\numberline {2.5.7.2}Use with pattern matching}{28}{subsubsection.2.5.7.2}
-\contentsline {section}{\numberline {2.6}Functions as objects}{28}{section.2.6}
-\contentsline {subsubsection}{\numberline {2.6.0.3}Functions acting on functions}{28}{subsubsection.2.6.0.3}
-\contentsline {subsubsection}{\numberline {2.6.0.4}Event driven programming}{28}{subsubsection.2.6.0.4}
-\contentsline {subsection}{\numberline {2.6.1}Functions with non-local references}{28}{subsection.2.6.1}
-\contentsline {subsubsection}{\numberline {2.6.1.1}Extended function definition using decorator}{29}{subsubsection.2.6.1.1}
-\contentsline {subsection}{\numberline {2.6.2}Partial application}{29}{subsection.2.6.2}
-\contentsline {subsection}{\numberline {2.6.3}Currying}{29}{subsection.2.6.3}
-\contentsline {subsubsection}{\numberline {2.6.3.1}Lambda calculus}{29}{subsubsection.2.6.3.1}
-\contentsline {subsection}{\numberline {2.6.4}Iteration aids}{29}{subsection.2.6.4}
-\contentsline {subsubsection}{\numberline {2.6.4.1}Tail recursion}{29}{subsubsection.2.6.4.1}
-\contentsline {subparagraph}{Reuse of stack space}{30}{section*.3}
-\contentsline {subparagraph}{Advantage}{30}{section*.4}
-\contentsline {section}{\numberline {2.7}Functions without side effects}{30}{section.2.7}
-\contentsline {subsection}{\numberline {2.7.1}Dependence on non-input values}{30}{subsection.2.7.1}
-\contentsline {subsubsection}{\numberline {2.7.1.1}Closure restrictions}{30}{subsubsection.2.7.1.1}
-\contentsline {subsection}{\numberline {2.7.2}Immutability of input}{30}{subsection.2.7.2}
-\contentsline {section}{\numberline {2.8}Decision structures}{30}{section.2.8}
-\contentsline {subsection}{\numberline {2.8.1}Branching}{31}{subsection.2.8.1}
-\contentsline {subsubsection}{\numberline {2.8.1.1}Matching a value}{31}{subsubsection.2.8.1.1}
-\contentsline {subsection}{\numberline {2.8.2}Iterative operations}{31}{subsection.2.8.2}
-\contentsline {subsubsection}{\numberline {2.8.2.1}Imperative loops}{31}{subsubsection.2.8.2.1}
-\contentsline {subsubsection}{\numberline {2.8.2.2}Recursion}{31}{subsubsection.2.8.2.2}
-\contentsline {subsubsection}{\numberline {2.8.2.3}Declarative operations on lists}{31}{subsubsection.2.8.2.3}
-\contentsline {section}{\numberline {2.9}Type-generic definitions}{31}{section.2.9}
-\contentsline {section}{\numberline {2.10}Specifying generators}{31}{section.2.10}
-\contentsline {subsubsection}{\numberline {2.10.0.4}Set-builder syntax}{32}{subsubsection.2.10.0.4}
-\contentsline {section}{\numberline {2.11}Application programming interface (API)}{32}{section.2.11}
-\contentsline {subsection}{\numberline {2.11.1}Higher order functions for lists}{32}{subsection.2.11.1}
-\contentsline {subsubsection}{\numberline {2.11.1.1}Map}{32}{subsubsection.2.11.1.1}
-\contentsline {subsubsection}{\numberline {2.11.1.2}Filter}{32}{subsubsection.2.11.1.2}
-\contentsline {subsubsection}{\numberline {2.11.1.3}Transformation-types}{32}{subsubsection.2.11.1.3}
-\contentsline {subsubsection}{\numberline {2.11.1.4}Fold}{32}{subsubsection.2.11.1.4}
-\contentsline {section}{\numberline {2.12}Remote procedure call (RPC)}{33}{section.2.12}
-\contentsline {subsection}{\numberline {2.12.1}Pipeline}{33}{subsection.2.12.1}
-\contentsline {section}{\numberline {2.13}Exception handling}{33}{section.2.13}
-\contentsline {subsection}{\numberline {2.13.1}try catch blocks}{33}{subsection.2.13.1}
-\contentsline {subsubsection}{\numberline {2.13.1.1}Context handler classes}{33}{subsubsection.2.13.1.1}
-\contentsline {section}{\numberline {2.14}Test framework}{33}{section.2.14}
-\contentsline {chapter}{\chapternumberline {3}Parallel programming programming models}{33}{chapter.3}
-\contentsline {section}{\numberline {3.1}Thread abstraction}{34}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Fork and join}{34}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}Mapreduce}{34}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Computation flow}{34}{subsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.1.1}Input preparation}{34}{subsubsection.3.2.1.1}
-\contentsline {subsubsection}{\numberline {3.2.1.2}General flow per mapper}{34}{subsubsection.3.2.1.2}
-\contentsline {subsubsection}{\numberline {3.2.1.3}Flow per reducer}{34}{subsubsection.3.2.1.3}
-\contentsline {subsubsection}{\numberline {3.2.1.4}Output storage}{34}{subsubsection.3.2.1.4}
-\contentsline {subsubsection}{\numberline {3.2.1.5}Thread safety}{34}{subsubsection.3.2.1.5}
-\contentsline {chapter}{\chapternumberline {4}Translation to machine code}{35}{chapter.4}
-\contentsline {section}{\numberline {4.1}Machine instructions and their files}{35}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Executable files}{35}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Object files}{35}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Translation from High level programming language}{35}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Compiled vs interpreted languages}{35}{subsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.1.1}Freedom from error}{35}{subsubsection.4.2.1.1}
-\contentsline {subsection}{\numberline {4.2.2}Steps in translation}{36}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Memory allocation}{36}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Compile-time memory allocation}{36}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Run-time memory allocation}{36}{subsection.4.3.2}
-\contentsline {chapter}{\chapternumberline {5}Character encoding}{36}{chapter.5}
-\contentsline {section}{\numberline {5.1}ASCII}{36}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Control characters}{37}{subsection.5.1.1}
-\contentsline {section}{\numberline {5.2}Unicode}{37}{section.5.2}
-\contentsline {part}{\partnumberline {II}Development tools}{37}{part.2}
-\contentsline {chapter}{\chapternumberline {6}Build tool design}{37}{chapter.6}
-\contentsline {section}{\numberline {6.1}Build Targets}{37}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Continuous mode}{37}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Target Dependencies}{37}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Library dependencies}{38}{subsection.6.1.3}
-\contentsline {section}{\numberline {6.2}Quality metrics}{38}{section.6.2}
-\contentsline {chapter}{\chapternumberline {7}Unit test tools}{38}{chapter.7}
-\contentsline {section}{\numberline {7.1}Mox for Python}{38}{section.7.1}
-\contentsline {chapter}{\chapternumberline {8}Build tools}{38}{chapter.8}
-\contentsline {section}{\numberline {8.1}Cross-platform makefile generator}{38}{section.8.1}
-\contentsline {section}{\numberline {8.2}sbt}{38}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Dependencies - automation}{38}{subsection.8.2.1}
-\contentsline {subsubsection}{\numberline {8.2.1.1}Repository specification}{39}{subsubsection.8.2.1.1}
-\contentsline {subsubsection}{\numberline {8.2.1.2}Library specification}{39}{subsubsection.8.2.1.2}
-\contentsline {subsection}{\numberline {8.2.2}Tasks: definition}{39}{subsection.8.2.2}
-\contentsline {subsubsection}{\numberline {8.2.2.1}File IO tasks}{39}{subsubsection.8.2.2.1}
-\contentsline {subsubsection}{\numberline {8.2.2.2}Documentation}{39}{subsubsection.8.2.2.2}
-\contentsline {section}{\numberline {8.3}maven}{39}{section.8.3}
-\contentsline {chapter}{\chapternumberline {9}Task management}{39}{chapter.9}
-\contentsline {chapter}{\chapternumberline {10}Version control software}{40}{chapter.10}
-\contentsline {section}{\numberline {10.1}svn}{40}{section.10.1}
-\contentsline {section}{\numberline {10.2}git}{40}{section.10.2}
-\contentsline {subsection}{\numberline {10.2.1}Architecture}{40}{subsection.10.2.1}
-\contentsline {subsubsection}{\numberline {10.2.1.1}(Un)Ignoring changes}{40}{subsubsection.10.2.1.1}
-\contentsline {subsubsection}{\numberline {10.2.1.2}Repository commits and logs}{40}{subsubsection.10.2.1.2}
-\contentsline {subsection}{\numberline {10.2.2}Update Commands}{41}{subsection.10.2.2}
-\contentsline {subsubsection}{\numberline {10.2.2.1}Merges and stashes}{41}{subsubsection.10.2.2.1}
-\contentsline {subsubsection}{\numberline {10.2.2.2}Checking differences, tool configuration}{41}{subsubsection.10.2.2.2}
-\contentsline {subsection}{\numberline {10.2.3}UI}{41}{subsection.10.2.3}
-\contentsline {section}{\numberline {10.3}hg / mercurial}{42}{section.10.3}
-\contentsline {section}{\numberline {10.4}Version control websites}{42}{section.10.4}
-\contentsline {chapter}{\chapternumberline {11}Visualization toools}{42}{chapter.11}
-\contentsline {section}{\numberline {11.1}Graph}{42}{section.11.1}
-\contentsline {chapter}{\chapternumberline {12}Integrated Development Environment (IDE)}{42}{chapter.12}
-\contentsline {section}{\numberline {12.1}Eclipse}{42}{section.12.1}
-\contentsline {subsection}{\numberline {12.1.1}Startup configuration}{42}{subsection.12.1.1}
-\contentsline {subsection}{\numberline {12.1.2}Installing and updating components}{42}{subsection.12.1.2}
-\contentsline {subsection}{\numberline {12.1.3}Views and perspectives}{43}{subsection.12.1.3}
-\contentsline {subsection}{\numberline {12.1.4}Common operations and shortcuts}{43}{subsection.12.1.4}
-\contentsline {subsection}{\numberline {12.1.5}Functionalities}{43}{subsection.12.1.5}
-\contentsline {subsubsection}{\numberline {12.1.5.1}Java}{43}{subsubsection.12.1.5.1}
-\contentsline {part}{\partnumberline {III}General purpose programming}{43}{part.3}
-\contentsline {chapter}{\chapternumberline {13}C}{43}{chapter.13}
-\contentsline {subsection}{\numberline {13.0.6}Debugging with gdb}{43}{subsection.13.0.6}
-\contentsline {subsubsection}{\numberline {13.0.6.1}Setting breakpoints}{43}{subsubsection.13.0.6.1}
-\contentsline {subsubsection}{\numberline {13.0.6.2}Debugging after stopping}{43}{subsubsection.13.0.6.2}
-\contentsline {subsubsection}{\numberline {13.0.6.3}Memory allocation}{43}{subsubsection.13.0.6.3}
-\contentsline {subsubsection}{\numberline {13.0.6.4}Segmentation faults}{44}{subsubsection.13.0.6.4}
-\contentsline {chapter}{\chapternumberline {14}Simplified wrapper, interface generator (SWIG)}{44}{chapter.14}
-\contentsline {section}{\numberline {14.1}Purpose and mechanism}{44}{section.14.1}
-\contentsline {subsection}{\numberline {14.1.1}Persistence and memory}{44}{subsection.14.1.1}
-\contentsline {chapter}{\chapternumberline {15}Python}{44}{chapter.15}
-\contentsline {section}{\numberline {15.1}Distinctive features of the language}{44}{section.15.1}
-\contentsline {subsubsection}{\numberline {15.1.0.1}Syntax conciseness}{44}{subsubsection.15.1.0.1}
-\contentsline {subsection}{\numberline {15.1.1}Speed}{45}{subsection.15.1.1}
-\contentsline {subsection}{\numberline {15.1.2}Linting}{45}{subsection.15.1.2}
-\contentsline {subsubsection}{\numberline {15.1.2.1}Pylint commands}{45}{subsubsection.15.1.2.1}
-\contentsline {section}{\numberline {15.2}Writing, Building and executing code}{45}{section.15.2}
-\contentsline {subsection}{\numberline {15.2.1}Important env variables}{45}{subsection.15.2.1}
-\contentsline {subsection}{\numberline {15.2.2}Good IDE's}{45}{subsection.15.2.2}
-\contentsline {subsection}{\numberline {15.2.3}Point of entry}{45}{subsection.15.2.3}
-\contentsline {subsubsection}{\numberline {15.2.3.1}Arguments}{45}{subsubsection.15.2.3.1}
-\contentsline {subsection}{\numberline {15.2.4}Installing External libraries}{46}{subsection.15.2.4}
-\contentsline {section}{\numberline {15.3}Help}{46}{section.15.3}
-\contentsline {section}{\numberline {15.4}Variables and data types}{46}{section.15.4}
-\contentsline {subsubsection}{\numberline {15.4.0.1}Matlab format}{46}{subsubsection.15.4.0.1}
-\contentsline {section}{\numberline {15.5}Interfacing with other languages, the OS}{46}{section.15.5}
-\contentsline {subsection}{\numberline {15.5.1}Numeric programming}{46}{subsection.15.5.1}
-\contentsline {subsection}{\numberline {15.5.2}RPy or RPy2 for R}{46}{subsection.15.5.2}
-\contentsline {subsection}{\numberline {15.5.3}With Matlab}{46}{subsection.15.5.3}
-\contentsline {section}{\numberline {15.6}Other libraries}{46}{section.15.6}
-\contentsline {chapter}{\chapternumberline {16}Java}{46}{chapter.16}
-\contentsline {section}{\numberline {16.1}Distinctive features of the language}{46}{section.16.1}
-\contentsline {subsection}{\numberline {16.1.1}Purpose of design}{46}{subsection.16.1.1}
-\contentsline {subsection}{\numberline {16.1.2}Speed}{47}{subsection.16.1.2}
-\contentsline {section}{\numberline {16.2}Writing, Building and executing code}{47}{section.16.2}
-\contentsline {subsection}{\numberline {16.2.1}Good IDE's}{47}{subsection.16.2.1}
-\contentsline {subsection}{\numberline {16.2.2}Point of entry}{47}{subsection.16.2.2}
-\contentsline {subsection}{\numberline {16.2.3}Environment variables}{47}{subsection.16.2.3}
-\contentsline {subsection}{\numberline {16.2.4}Building}{47}{subsection.16.2.4}
-\contentsline {subsubsection}{\numberline {16.2.4.1}Decompiling}{47}{subsubsection.16.2.4.1}
-\contentsline {subsubsection}{\numberline {16.2.4.2}Java Native Interface}{47}{subsubsection.16.2.4.2}
-\contentsline {subsection}{\numberline {16.2.5}Help}{47}{subsection.16.2.5}
-\contentsline {section}{\numberline {16.3}Data types, operators}{47}{section.16.3}
-\contentsline {subsection}{\numberline {16.3.1}Primitive data types}{48}{subsection.16.3.1}
-\contentsline {subsection}{\numberline {16.3.2}Objects}{48}{subsection.16.3.2}
-\contentsline {subsubsection}{\numberline {16.3.2.1}Object creation}{48}{subsubsection.16.3.2.1}
-\contentsline {subsection}{\numberline {16.3.3}Operators}{48}{subsection.16.3.3}
-\contentsline {section}{\numberline {16.4}Low level code structure}{48}{section.16.4}
-\contentsline {subsection}{\numberline {16.4.1}Sentence syntax}{48}{subsection.16.4.1}
-\contentsline {subsubsection}{\numberline {16.4.1.1}Commenting}{48}{subsubsection.16.4.1.1}
-\contentsline {subsection}{\numberline {16.4.2}Decision structures}{48}{subsection.16.4.2}
-\contentsline {section}{\numberline {16.5}Classes}{48}{section.16.5}
-\contentsline {subsubsection}{\numberline {16.5.0.1}Referring to classes}{48}{subsubsection.16.5.0.1}
-\contentsline {subsection}{\numberline {16.5.1}Class members}{48}{subsection.16.5.1}
-\contentsline {subsubsection}{\numberline {16.5.1.1}Access modifiers}{49}{subsubsection.16.5.1.1}
-\contentsline {subsubsection}{\numberline {16.5.1.2}Properties}{49}{subsubsection.16.5.1.2}
-\contentsline {subsubsection}{\numberline {16.5.1.3}Methods}{49}{subsubsection.16.5.1.3}
-\contentsline {subsection}{\numberline {16.5.2}Special methods}{49}{subsection.16.5.2}
-\contentsline {subsubsection}{\numberline {16.5.2.1}Constructor}{49}{subsubsection.16.5.2.1}
-\contentsline {subsubsection}{\numberline {16.5.2.2}Destructor}{49}{subsubsection.16.5.2.2}
-\contentsline {subsubsection}{\numberline {16.5.2.3}main function}{49}{subsubsection.16.5.2.3}
-\contentsline {subsection}{\numberline {16.5.3}Important classes}{49}{subsection.16.5.3}
-\contentsline {subsubsection}{\numberline {16.5.3.1}Arrays}{49}{subsubsection.16.5.3.1}
-\contentsline {subsubsection}{\numberline {16.5.3.2}String}{50}{subsubsection.16.5.3.2}
-\contentsline {subsubsection}{\numberline {16.5.3.3}Enumeration}{50}{subsubsection.16.5.3.3}
-\contentsline {subsection}{\numberline {16.5.4}Important Superclasses, interfaces}{50}{subsection.16.5.4}
-\contentsline {subsubsection}{\numberline {16.5.4.1}Serializable}{50}{subsubsection.16.5.4.1}
-\contentsline {subsubsection}{\numberline {16.5.4.2}Clonable}{50}{subsubsection.16.5.4.2}
-\contentsline {section}{\numberline {16.6}Collection}{50}{section.16.6}
-\contentsline {subsection}{\numberline {16.6.1}Java Collections}{50}{subsection.16.6.1}
-\contentsline {subsubsection}{\numberline {16.6.1.1}Construction}{50}{subsubsection.16.6.1.1}
-\contentsline {subsubsection}{\numberline {16.6.1.2}Easy iteration}{51}{subsubsection.16.6.1.2}
-\contentsline {subsection}{\numberline {16.6.2}High performance}{51}{subsection.16.6.2}
-\contentsline {subsection}{\numberline {16.6.3}Important funcitons}{51}{subsection.16.6.3}
-\contentsline {section}{\numberline {16.7}Guava collections}{51}{section.16.7}
-\contentsline {subsection}{\numberline {16.7.1}Mapping}{51}{subsection.16.7.1}
-\contentsline {subsection}{\numberline {16.7.2}Filtering}{51}{subsection.16.7.2}
-\contentsline {subsection}{\numberline {16.7.3}List-checking}{51}{subsection.16.7.3}
-\contentsline {subsection}{\numberline {16.7.4}Predicate building}{52}{subsection.16.7.4}
-\contentsline {subsubsection}{\numberline {16.7.4.1}Basic predicates}{52}{subsubsection.16.7.4.1}
-\contentsline {subsubsection}{\numberline {16.7.4.2}Predicate combination}{52}{subsubsection.16.7.4.2}
-\contentsline {subsection}{\numberline {16.7.5}Function building}{52}{subsection.16.7.5}
-\contentsline {subsection}{\numberline {16.7.6}Other collections}{52}{subsection.16.7.6}
-\contentsline {section}{\numberline {16.8}Exception handling}{52}{section.16.8}
-\contentsline {section}{\numberline {16.9}Multi-Threaded programming}{52}{section.16.9}
-\contentsline {section}{\numberline {16.10}Library functions}{53}{section.16.10}
-\contentsline {subsection}{\numberline {16.10.1}Mathematics}{53}{subsection.16.10.1}
-\contentsline {subsection}{\numberline {16.10.2}Data structures}{53}{subsection.16.10.2}
-\contentsline {section}{\numberline {16.11}IO}{53}{section.16.11}
-\contentsline {subsection}{\numberline {16.11.1}Stream}{53}{subsection.16.11.1}
-\contentsline {subsubsection}{\numberline {16.11.1.1}OutputStream}{53}{subsubsection.16.11.1.1}
-\contentsline {subsubsection}{\numberline {16.11.1.2}InputStream}{53}{subsubsection.16.11.1.2}
-\contentsline {subsubsection}{\numberline {16.11.1.3}Output to files}{53}{subsubsection.16.11.1.3}
-\contentsline {subsubsection}{\numberline {16.11.1.4}Standard output}{53}{subsubsection.16.11.1.4}
-\contentsline {subsection}{\numberline {16.11.2}File listing}{54}{subsection.16.11.2}
-\contentsline {subsection}{\numberline {16.11.3}Read configuration files}{54}{subsection.16.11.3}
-\contentsline {subsection}{\numberline {16.11.4}Unit testing}{54}{subsection.16.11.4}
-\contentsline {section}{\numberline {16.12}Logging}{54}{section.16.12}
-\contentsline {subsection}{\numberline {16.12.1}Creating logger}{54}{subsection.16.12.1}
-\contentsline {subsection}{\numberline {16.12.2}Configuration}{54}{subsection.16.12.2}
-\contentsline {section}{\numberline {16.13}CGI programming}{54}{section.16.13}
-\contentsline {subsection}{\numberline {16.13.1}Writing servlets}{54}{subsection.16.13.1}
-\contentsline {subsubsection}{\numberline {16.13.1.1}Reading input}{54}{subsubsection.16.13.1.1}
-\contentsline {subsubsection}{\numberline {16.13.1.2}Output}{54}{subsubsection.16.13.1.2}
-\contentsline {subsection}{\numberline {16.13.2}Mapping to URL}{55}{subsection.16.13.2}
-\contentsline {chapter}{\chapternumberline {17}Scala}{55}{chapter.17}
-\contentsline {section}{\numberline {17.1}Distinctive features of the language}{55}{section.17.1}
-\contentsline {subsection}{\numberline {17.1.1}Java compatibility, similar properties}{55}{subsection.17.1.1}
-\contentsline {subsection}{\numberline {17.1.2}Purpose of design}{55}{subsection.17.1.2}
-\contentsline {subsection}{\numberline {17.1.3}Conciseness}{55}{subsection.17.1.3}
-\contentsline {section}{\numberline {17.2}Writing, Building and executing code}{55}{section.17.2}
-\contentsline {subsection}{\numberline {17.2.1}Good IDE's}{55}{subsection.17.2.1}
-\contentsline {subsection}{\numberline {17.2.2}Environment variables}{55}{subsection.17.2.2}
-\contentsline {subsection}{\numberline {17.2.3}Building}{55}{subsection.17.2.3}
-\contentsline {subsubsection}{\numberline {17.2.3.1}Point of entry}{55}{subsubsection.17.2.3.1}
-\contentsline {subsubsection}{\numberline {17.2.3.2}Interpreter}{56}{subsubsection.17.2.3.2}
-\contentsline {subsection}{\numberline {17.2.4}Packaging}{56}{subsection.17.2.4}
-\contentsline {subsection}{\numberline {17.2.5}Help}{56}{subsection.17.2.5}
-\contentsline {section}{\numberline {17.3}Data types}{56}{section.17.3}
-\contentsline {subsection}{\numberline {17.3.1}Pure object-ness}{56}{subsection.17.3.1}
-\contentsline {subsection}{\numberline {17.3.2}Variables, constants}{56}{subsection.17.3.2}
-\contentsline {subsubsection}{\numberline {17.3.2.1}Multiple assignment}{56}{subsubsection.17.3.2.1}
-\contentsline {subsubsection}{\numberline {17.3.2.2}Object instantiation}{56}{subsubsection.17.3.2.2}
-\contentsline {subsubsection}{\numberline {17.3.2.3}Basic literals}{56}{subsubsection.17.3.2.3}
-\contentsline {paragraph}{Arithmetic operations}{57}{section*.7}
-\contentsline {subsubsection}{\numberline {17.3.2.4}Function objects}{57}{subsubsection.17.3.2.4}
-\contentsline {subsubsection}{\numberline {17.3.2.5}Implicit scope}{57}{subsubsection.17.3.2.5}
-\contentsline {subsection}{\numberline {17.3.3}Type variables}{57}{subsection.17.3.3}
-\contentsline {subsubsection}{\numberline {17.3.3.1}Type objects}{57}{subsubsection.17.3.3.1}
-\contentsline {subsubsection}{\numberline {17.3.3.2}Classes}{57}{subsubsection.17.3.3.2}
-\contentsline {subsection}{\numberline {17.3.4}Type conversions}{57}{subsection.17.3.4}
-\contentsline {subsubsection}{\numberline {17.3.4.1}Explicit}{57}{subsubsection.17.3.4.1}
-\contentsline {subsubsection}{\numberline {17.3.4.2}Implict}{57}{subsubsection.17.3.4.2}
-\contentsline {paragraph}{From/ to java}{57}{section*.8}
-\contentsline {subsubsection}{\numberline {17.3.4.3}To Anonymous types}{57}{subsubsection.17.3.4.3}
-\contentsline {subsection}{\numberline {17.3.5}Important types}{58}{subsection.17.3.5}
-\contentsline {subsubsection}{\numberline {17.3.5.1}String}{58}{subsubsection.17.3.5.1}
-\contentsline {paragraph}{Implicit conversions}{58}{section*.9}
-\contentsline {paragraph}{Literals}{58}{section*.10}
-\contentsline {subsubsection}{\numberline {17.3.5.2}Regular expression}{58}{subsubsection.17.3.5.2}
-\contentsline {paragraph}{Syntax}{58}{section*.11}
-\contentsline {paragraph}{Extract all matches}{58}{section*.12}
-\contentsline {paragraph}{Replacement}{58}{section*.13}
-\contentsline {paragraph}{Multi-pattern matching}{58}{section*.14}
-\contentsline {paragraph}{Checking match}{58}{section*.15}
-\contentsline {section}{\numberline {17.4}Functions}{58}{section.17.4}
-\contentsline {subsection}{\numberline {17.4.1}Anonymous functions}{58}{subsection.17.4.1}
-\contentsline {subsubsection}{\numberline {17.4.1.1}Contextual conciseness}{59}{subsubsection.17.4.1.1}
-\contentsline {subsubsection}{\numberline {17.4.1.2}Partial functions}{59}{subsubsection.17.4.1.2}
-\contentsline {subsection}{\numberline {17.4.2}Named functions}{59}{subsection.17.4.2}
-\contentsline {subsection}{\numberline {17.4.3}Type List}{59}{subsection.17.4.3}
-\contentsline {subsection}{\numberline {17.4.4}Argument list}{59}{subsection.17.4.4}
-\contentsline {subsubsection}{\numberline {17.4.4.1}Implicit arguments}{59}{subsubsection.17.4.4.1}
-\contentsline {subsubsection}{\numberline {17.4.4.2}Variable number of arguments}{60}{subsubsection.17.4.4.2}
-\contentsline {subsection}{\numberline {17.4.5}Return value}{60}{subsection.17.4.5}
-\contentsline {subsubsection}{\numberline {17.4.5.1}Returning functions: shorthand}{60}{subsubsection.17.4.5.1}
-\contentsline {subsection}{\numberline {17.4.6}Function type}{60}{subsection.17.4.6}
-\contentsline {subsubsection}{\numberline {17.4.6.1}Partial function}{60}{subsubsection.17.4.6.1}
-\contentsline {subsection}{\numberline {17.4.7}Partial application}{60}{subsection.17.4.7}
-\contentsline {subsection}{\numberline {17.4.8}Currying}{60}{subsection.17.4.8}
-\contentsline {subsection}{\numberline {17.4.9}Composition}{61}{subsection.17.4.9}
-\contentsline {section}{\numberline {17.5}Class}{61}{section.17.5}
-\contentsline {subsection}{\numberline {17.5.1}Definition}{61}{subsection.17.5.1}
-\contentsline {subsubsection}{\numberline {17.5.1.1}Constructor access}{61}{subsubsection.17.5.1.1}
-\contentsline {subsubsection}{\numberline {17.5.1.2}Declare member variables with constructor}{61}{subsubsection.17.5.1.2}
-\contentsline {subsubsection}{\numberline {17.5.1.3}Nesting classes}{61}{subsubsection.17.5.1.3}
-\contentsline {subsection}{\numberline {17.5.2}Constructors and destructors}{61}{subsection.17.5.2}
-\contentsline {subsubsection}{\numberline {17.5.2.1}Main constructor}{61}{subsubsection.17.5.2.1}
-\contentsline {subsubsection}{\numberline {17.5.2.2}Auxiliary constructors}{61}{subsubsection.17.5.2.2}
-\contentsline {subsubsection}{\numberline {17.5.2.3}Destructor}{61}{subsubsection.17.5.2.3}
-\contentsline {subsection}{\numberline {17.5.3}Methods}{62}{subsection.17.5.3}
-\contentsline {subsubsection}{\numberline {17.5.3.1}Define method}{62}{subsubsection.17.5.3.1}
-\contentsline {subsubsection}{\numberline {17.5.3.2}Without extra arguments}{62}{subsubsection.17.5.3.2}
-\contentsline {subsubsection}{\numberline {17.5.3.3}Dynamic method names}{62}{subsubsection.17.5.3.3}
-\contentsline {subsubsection}{\numberline {17.5.3.4}Special methods}{62}{subsubsection.17.5.3.4}
-\contentsline {subsection}{\numberline {17.5.4}Attributes}{62}{subsection.17.5.4}
-\contentsline {subsection}{\numberline {17.5.5}Access modifiers}{62}{subsection.17.5.5}
-\contentsline {subsection}{\numberline {17.5.6}Hierarchy and inheritance}{62}{subsection.17.5.6}
-\contentsline {subsubsection}{\numberline {17.5.6.1}Inheritance}{62}{subsubsection.17.5.6.1}
-\contentsline {subsubsection}{\numberline {17.5.6.2}Traits}{63}{subsubsection.17.5.6.2}
-\contentsline {subsubsection}{\numberline {17.5.6.3}Syntax}{63}{subsubsection.17.5.6.3}
-\contentsline {subsubsection}{\numberline {17.5.6.4}Mixins at runtime}{63}{subsubsection.17.5.6.4}
-\contentsline {subsubsection}{\numberline {17.5.6.5}Call superclass methods}{63}{subsubsection.17.5.6.5}
-\contentsline {subsubsection}{\numberline {17.5.6.6}Type hierarchy}{63}{subsubsection.17.5.6.6}
-\contentsline {subsection}{\numberline {17.5.7}Special classes}{63}{subsection.17.5.7}
-\contentsline {subsubsection}{\numberline {17.5.7.1}Singleton object}{63}{subsubsection.17.5.7.1}
-\contentsline {subsubsection}{\numberline {17.5.7.2}Case class}{64}{subsubsection.17.5.7.2}
-\contentsline {subsubsection}{\numberline {17.5.7.3}Sealed class}{64}{subsubsection.17.5.7.3}
-\contentsline {subsubsection}{\numberline {17.5.7.4}Abstract}{64}{subsubsection.17.5.7.4}
-\contentsline {subsubsection}{\numberline {17.5.7.5}Symbol}{64}{subsubsection.17.5.7.5}
-\contentsline {section}{\numberline {17.6}Collections}{64}{section.17.6}
-\contentsline {subsection}{\numberline {17.6.1}Creation}{64}{subsection.17.6.1}
-\contentsline {subsubsection}{\numberline {17.6.1.1}Numeric types}{64}{subsubsection.17.6.1.1}
-\contentsline {subsubsection}{\numberline {17.6.1.2}Conversion from java}{65}{subsubsection.17.6.1.2}
-\contentsline {subsubsection}{\numberline {17.6.1.3}For expression}{65}{subsubsection.17.6.1.3}
-\contentsline {subsection}{\numberline {17.6.2}Array}{65}{subsection.17.6.2}
-\contentsline {subsubsection}{\numberline {17.6.2.1}Data creation}{65}{subsubsection.17.6.2.1}
-\contentsline {subsection}{\numberline {17.6.3}TraversableOnce}{65}{subsection.17.6.3}
-\contentsline {subsubsection}{\numberline {17.6.3.1}foreach}{65}{subsubsection.17.6.3.1}
-\contentsline {paragraph}{Yield an iterator}{65}{section*.16}
-\contentsline {subsubsection}{\numberline {17.6.3.2}Element indexing}{66}{subsubsection.17.6.3.2}
-\contentsline {subsection}{\numberline {17.6.4}Iterator}{66}{subsection.17.6.4}
-\contentsline {subsubsection}{\numberline {17.6.4.1}Subiterators}{66}{subsubsection.17.6.4.1}
-\contentsline {subsubsection}{\numberline {17.6.4.2}Growing}{66}{subsubsection.17.6.4.2}
-\contentsline {subsection}{\numberline {17.6.5}Traversable.iterable}{66}{subsection.17.6.5}
-\contentsline {subsubsection}{\numberline {17.6.5.1}Conversions}{66}{subsubsection.17.6.5.1}
-\contentsline {subsubsection}{\numberline {17.6.5.2}Filtering}{66}{subsubsection.17.6.5.2}
-\contentsline {subsubsection}{\numberline {17.6.5.3}Partitioning}{66}{subsubsection.17.6.5.3}
-\contentsline {subsubsection}{\numberline {17.6.5.4}Element retrieval}{66}{subsubsection.17.6.5.4}
-\contentsline {subsubsection}{\numberline {17.6.5.5}Sublist retrieval, growing}{66}{subsubsection.17.6.5.5}
-\contentsline {subsection}{\numberline {17.6.6}Seq}{67}{subsection.17.6.6}
-\contentsline {subsubsection}{\numberline {17.6.6.1}Add elements}{67}{subsubsection.17.6.6.1}
-\contentsline {subsubsection}{\numberline {17.6.6.2}Indexing, element access}{67}{subsubsection.17.6.6.2}
-\contentsline {subsubsection}{\numberline {17.6.6.3}Sorting, reversal}{67}{subsubsection.17.6.6.3}
-\contentsline {subsubsection}{\numberline {17.6.6.4}Comparisons}{67}{subsubsection.17.6.6.4}
-\contentsline {subsubsection}{\numberline {17.6.6.5}Multiset operations}{67}{subsubsection.17.6.6.5}
-\contentsline {subsubsection}{\numberline {17.6.6.6}Conversion}{67}{subsubsection.17.6.6.6}
-\contentsline {subsubsection}{\numberline {17.6.6.7}Iterative check}{67}{subsubsection.17.6.6.7}
-\contentsline {subsection}{\numberline {17.6.7}SeqView}{67}{subsection.17.6.7}
-\contentsline {subsection}{\numberline {17.6.8}ArrayBuffer}{67}{subsection.17.6.8}
-\contentsline {subsubsection}{\numberline {17.6.8.1}Data creation}{68}{subsubsection.17.6.8.1}
-\contentsline {subsection}{\numberline {17.6.9}List}{68}{subsection.17.6.9}
-\contentsline {subsubsection}{\numberline {17.6.9.1}List creation}{68}{subsubsection.17.6.9.1}
-\contentsline {subsubsection}{\numberline {17.6.9.2}Add elements}{68}{subsubsection.17.6.9.2}
-\contentsline {subsubsection}{\numberline {17.6.9.3}Drop elements}{68}{subsubsection.17.6.9.3}
-\contentsline {subsubsection}{\numberline {17.6.9.4}Get sublists}{68}{subsubsection.17.6.9.4}
-\contentsline {subsubsection}{\numberline {17.6.9.5}Iterative alteration}{68}{subsubsection.17.6.9.5}
-\contentsline {subsubsection}{\numberline {17.6.9.6}Removal}{68}{subsubsection.17.6.9.6}
-\contentsline {subsubsection}{\numberline {17.6.9.7}Sorting}{68}{subsubsection.17.6.9.7}
-\contentsline {subsubsection}{\numberline {17.6.9.8}String representation}{68}{subsubsection.17.6.9.8}
-\contentsline {subsubsection}{\numberline {17.6.9.9}Option}{68}{subsubsection.17.6.9.9}
-\contentsline {paragraph}{flatten}{69}{section*.17}
-\contentsline {subsection}{\numberline {17.6.10}Set}{69}{subsection.17.6.10}
-\contentsline {subsubsection}{\numberline {17.6.10.1}Adding elements}{69}{subsubsection.17.6.10.1}
-\contentsline {subsubsection}{\numberline {17.6.10.2}Membership check}{69}{subsubsection.17.6.10.2}
-\contentsline {subsection}{\numberline {17.6.11}Map}{69}{subsection.17.6.11}
-\contentsline {subsubsection}{\numberline {17.6.11.1}Creation}{69}{subsubsection.17.6.11.1}
-\contentsline {paragraph}{Traversable[Traversable]}{69}{section*.18}
-\contentsline {subsubsection}{\numberline {17.6.11.2}Adding elements}{69}{subsubsection.17.6.11.2}
-\contentsline {subsubsection}{\numberline {17.6.11.3}Accessing elements}{70}{subsubsection.17.6.11.3}
-\contentsline {subsection}{\numberline {17.6.12}Tuples}{70}{subsection.17.6.12}
-\contentsline {subsubsection}{\numberline {17.6.12.1}Creation}{70}{subsubsection.17.6.12.1}
-\contentsline {subsubsection}{\numberline {17.6.12.2}Accessing members}{70}{subsubsection.17.6.12.2}
-\contentsline {section}{\numberline {17.7}Code structure}{70}{section.17.7}
-\contentsline {subsection}{\numberline {17.7.1}Sentence syntax}{70}{subsection.17.7.1}
-\contentsline {subsection}{\numberline {17.7.2}Documentation}{70}{subsection.17.7.2}
-\contentsline {subsection}{\numberline {17.7.3}Mutliple assignment}{70}{subsection.17.7.3}
-\contentsline {subsection}{\numberline {17.7.4}Function invocation}{70}{subsection.17.7.4}
-\contentsline {subsubsection}{\numberline {17.7.4.1}Methods taking one arguments}{70}{subsubsection.17.7.4.1}
-\contentsline {subsection}{\numberline {17.7.5}Decision structures}{71}{subsection.17.7.5}
-\contentsline {subsubsection}{\numberline {17.7.5.1}Replacing break and continue}{71}{subsubsection.17.7.5.1}
-\contentsline {subsubsection}{\numberline {17.7.5.2}Switch case statements}{71}{subsubsection.17.7.5.2}
-\contentsline {paragraph}{Match value patterns}{71}{section*.19}
-\contentsline {section}{\numberline {17.8}Exception handling}{71}{section.17.8}
-\contentsline {chapter}{\chapternumberline {18}Lua}{71}{chapter.18}
-\contentsline {section}{\numberline {18.1}Paradigms and extensibility}{71}{section.18.1}
-\contentsline {subsection}{\numberline {18.1.1}Building}{71}{subsection.18.1.1}
-\contentsline {subsection}{\numberline {18.1.2}Metatable}{72}{subsection.18.1.2}
-\contentsline {chapter}{\chapternumberline {19}Perl}{72}{chapter.19}
-\contentsline {section}{\numberline {19.1}Distinctive features}{72}{section.19.1}
-\contentsline {subsection}{\numberline {19.1.1}Richness of syntax}{72}{subsection.19.1.1}
-\contentsline {section}{\numberline {19.2}Running, building}{72}{section.19.2}
-\contentsline {subsection}{\numberline {19.2.1}Running}{72}{subsection.19.2.1}
-\contentsline {subsection}{\numberline {19.2.2}Getting help}{72}{subsection.19.2.2}
-\contentsline {part}{\partnumberline {IV}Mathematical programming}{72}{part.4}
-\contentsline {chapter}{\chapternumberline {20}Fundamental concerns}{73}{chapter.20}
-\contentsline {chapter}{\chapternumberline {21}Special libraries}{73}{chapter.21}
-\contentsline {section}{\numberline {21.1}Linear algebra libraries}{73}{section.21.1}
-\contentsline {subsection}{\numberline {21.1.1}Tuning to fit memory, processor}{73}{subsection.21.1.1}
-\contentsline {subsection}{\numberline {21.1.2}Dense linear algebra}{73}{subsection.21.1.2}
-\contentsline {subsection}{\numberline {21.1.3}Sparse linear algebra}{73}{subsection.21.1.3}
-\contentsline {chapter}{\chapternumberline {22}Matlab/ Octave}{73}{chapter.22}
-\contentsline {section}{\numberline {22.1}Introduction}{73}{section.22.1}
-\contentsline {subsection}{\numberline {22.1.1}Distinctive features of the language}{73}{subsection.22.1.1}
-\contentsline {subsubsection}{\numberline {22.1.1.1}Purpose of design}{73}{subsubsection.22.1.1.1}
-\contentsline {subsubsection}{\numberline {22.1.1.2}Versions}{74}{subsubsection.22.1.1.2}
-\contentsline {subsection}{\numberline {22.1.2}Speed}{74}{subsection.22.1.2}
-\contentsline {subsubsection}{\numberline {22.1.2.1}Speeding up loops}{74}{subsubsection.22.1.2.1}
-\contentsline {paragraph}{Preallocate memory}{74}{section*.21}
-\contentsline {paragraph}{Use C}{74}{section*.22}
-\contentsline {paragraph}{Make function logic inline}{74}{section*.23}
-\contentsline {subsection}{\numberline {22.1.3}Using External libraries}{74}{subsection.22.1.3}
-\contentsline {subsubsection}{\numberline {22.1.3.1}Locating libraries}{74}{subsubsection.22.1.3.1}
-\contentsline {subsubsection}{\numberline {22.1.3.2}Installing and using}{74}{subsubsection.22.1.3.2}
-\contentsline {subsection}{\numberline {22.1.4}Building and executing code}{75}{subsection.22.1.4}
-\contentsline {subsubsection}{\numberline {22.1.4.1}Useful options}{75}{subsubsection.22.1.4.1}
-\contentsline {subsubsection}{\numberline {22.1.4.2}Good IDE's}{75}{subsubsection.22.1.4.2}
-\contentsline {subsection}{\numberline {22.1.5}Debugging}{75}{subsection.22.1.5}
-\contentsline {subsubsection}{\numberline {22.1.5.1}Profiling code for bottlenecks}{75}{subsubsection.22.1.5.1}
-\contentsline {subsection}{\numberline {22.1.6}Help}{75}{subsection.22.1.6}
-\contentsline {section}{\numberline {22.2}Constants and data types}{75}{section.22.2}
-\contentsline {subsection}{\numberline {22.2.1}Data types of constants}{75}{subsection.22.2.1}
-\contentsline {subsection}{\numberline {22.2.2}Important constants}{75}{subsection.22.2.2}
-\contentsline {subsection}{\numberline {22.2.3}Arrays}{75}{subsection.22.2.3}
-\contentsline {subsubsection}{\numberline {22.2.3.1}Matrix}{76}{subsubsection.22.2.3.1}
-\contentsline {subsubsection}{\numberline {22.2.3.2}Data generation functions}{76}{subsubsection.22.2.3.2}
-\contentsline {subsubsection}{\numberline {22.2.3.3}Array indexing}{76}{subsubsection.22.2.3.3}
-\contentsline {subsection}{\numberline {22.2.4}Cell array}{76}{subsection.22.2.4}
-\contentsline {subsubsection}{\numberline {22.2.4.1}Cell elements: indexing, altering}{77}{subsubsection.22.2.4.1}
-\contentsline {subsubsection}{\numberline {22.2.4.2}Cell values}{77}{subsubsection.22.2.4.2}
-\contentsline {subsection}{\numberline {22.2.5}Data-type conversion}{77}{subsection.22.2.5}
-\contentsline {subsection}{\numberline {22.2.6}Structures}{77}{subsection.22.2.6}
-\contentsline {subsubsection}{\numberline {22.2.6.1}struct}{77}{subsubsection.22.2.6.1}
-\contentsline {subsubsection}{\numberline {22.2.6.2}Use Java objects}{77}{subsubsection.22.2.6.2}
-\contentsline {subsection}{\numberline {22.2.7}Function handles}{77}{subsection.22.2.7}
-\contentsline {subsubsection}{\numberline {22.2.7.1}Reparametrization}{77}{subsubsection.22.2.7.1}
-\contentsline {subsubsection}{\numberline {22.2.7.2}Anonymous functions}{77}{subsubsection.22.2.7.2}
-\contentsline {subsubsection}{\numberline {22.2.7.3}Clearing memory}{78}{subsubsection.22.2.7.3}
-\contentsline {subsection}{\numberline {22.2.8}Objects}{78}{subsection.22.2.8}
-\contentsline {subsubsection}{\numberline {22.2.8.1}Object creation}{78}{subsubsection.22.2.8.1}
-\contentsline {subsubsection}{\numberline {22.2.8.2}Access/ manipulate objects}{78}{subsubsection.22.2.8.2}
-\contentsline {section}{\numberline {22.3}Memory, variable management}{78}{section.22.3}
-\contentsline {subsection}{\numberline {22.3.1}Clearing, recompiling}{78}{subsection.22.3.1}
-\contentsline {section}{\numberline {22.4}Data manipulation}{78}{section.22.4}
-\contentsline {subsection}{\numberline {22.4.1}Operators}{78}{subsection.22.4.1}
-\contentsline {subsubsection}{\numberline {22.4.1.1}Unary}{78}{subsubsection.22.4.1.1}
-\contentsline {subsubsection}{\numberline {22.4.1.2}Boolean valued operators}{78}{subsubsection.22.4.1.2}
-\contentsline {subsubsection}{\numberline {22.4.1.3}Boolean operations on matrices}{78}{subsubsection.22.4.1.3}
-\contentsline {subsubsection}{\numberline {22.4.1.4}Arithmatic operators}{78}{subsubsection.22.4.1.4}
-\contentsline {subsubsection}{\numberline {22.4.1.5}Multi-ary}{78}{subsubsection.22.4.1.5}
-\contentsline {subsubsection}{\numberline {22.4.1.6}Component-wise operations}{79}{subsubsection.22.4.1.6}
-\contentsline {subsubsection}{\numberline {22.4.1.7}Matrix operators}{79}{subsubsection.22.4.1.7}
-\contentsline {subsection}{\numberline {22.4.2}Operation with constant arrays: shortcuts}{79}{subsection.22.4.2}
-\contentsline {subsection}{\numberline {22.4.3}Array processing functions}{79}{subsection.22.4.3}
-\contentsline {subsubsection}{\numberline {22.4.3.1}Array statistics}{79}{subsubsection.22.4.3.1}
-\contentsline {subsubsection}{\numberline {22.4.3.2}Reshape array}{79}{subsubsection.22.4.3.2}
-\contentsline {subsubsection}{\numberline {22.4.3.3}Alter matrix}{79}{subsubsection.22.4.3.3}
-\contentsline {subsection}{\numberline {22.4.4}Vector processing functions}{79}{subsection.22.4.4}
-\contentsline {subsubsection}{\numberline {22.4.4.1}String manipulation}{79}{subsubsection.22.4.4.1}
-\contentsline {subsection}{\numberline {22.4.5}Matrix functionals}{80}{subsection.22.4.5}
-\contentsline {subsubsection}{\numberline {22.4.5.1}svd and eig}{80}{subsubsection.22.4.5.1}
-\contentsline {section}{\numberline {22.5}Code structure}{80}{section.22.5}
-\contentsline {subsection}{\numberline {22.5.1}Sentence syntax}{80}{subsection.22.5.1}
-\contentsline {subsubsection}{\numberline {22.5.1.1}Commenting}{80}{subsubsection.22.5.1.1}
-\contentsline {subsection}{\numberline {22.5.2}Functions and commands}{80}{subsection.22.5.2}
-\contentsline {subsubsection}{\numberline {22.5.2.1}Commands}{80}{subsubsection.22.5.2.1}
-\contentsline {subsubsection}{\numberline {22.5.2.2}Functions without side-effects}{80}{subsubsection.22.5.2.2}
-\contentsline {subsubsection}{\numberline {22.5.2.3}Syntax of function defn}{80}{subsubsection.22.5.2.3}
-\contentsline {subsubsection}{\numberline {22.5.2.4}Anonymous / temporary functions}{81}{subsubsection.22.5.2.4}
-\contentsline {subsubsection}{\numberline {22.5.2.5}Nested functions}{81}{subsubsection.22.5.2.5}
-\contentsline {paragraph}{Definition}{81}{section*.38}
-\contentsline {paragraph}{Variable scope}{81}{section*.39}
-\contentsline {paragraph}{Restrictions on modifying runtime workspace}{81}{section*.40}
-\contentsline {subsubsection}{\numberline {22.5.2.6}Checking input and output structure}{81}{subsubsection.22.5.2.6}
-\contentsline {subsubsection}{\numberline {22.5.2.7}Invocation}{81}{subsubsection.22.5.2.7}
-\contentsline {subsection}{\numberline {22.5.3}Define classes, packages}{82}{subsection.22.5.3}
-\contentsline {subsubsection}{\numberline {22.5.3.1}Modifiers}{83}{subsubsection.22.5.3.1}
-\contentsline {subsubsection}{\numberline {22.5.3.2}Directory structure}{83}{subsubsection.22.5.3.2}
-\contentsline {subsubsection}{\numberline {22.5.3.3}Ceveat about 2007 version}{83}{subsubsection.22.5.3.3}
-\contentsline {subsubsection}{\numberline {22.5.3.4}Check errors in definition}{83}{subsubsection.22.5.3.4}
-\contentsline {subsubsection}{\numberline {22.5.3.5}Specifying events}{83}{subsubsection.22.5.3.5}
-\contentsline {subsection}{\numberline {22.5.4}Branching structures}{83}{subsection.22.5.4}
-\contentsline {subsection}{\numberline {22.5.5}Loop structures}{84}{subsection.22.5.5}
-\contentsline {subsubsection}{\numberline {22.5.5.1}break and continue}{84}{subsubsection.22.5.5.1}
-\contentsline {subsubsection}{\numberline {22.5.5.2}Avoiding loops in place of matrix ops}{84}{subsubsection.22.5.5.2}
-\contentsline {subsection}{\numberline {22.5.6}Error handling}{84}{subsection.22.5.6}
-\contentsline {subsubsection}{\numberline {22.5.6.1}Throwing errors}{84}{subsubsection.22.5.6.1}
-\contentsline {subsubsection}{\numberline {22.5.6.2}Throwing warnings}{84}{subsubsection.22.5.6.2}
-\contentsline {subsubsection}{\numberline {22.5.6.3}Assertions about input}{84}{subsubsection.22.5.6.3}
-\contentsline {section}{\numberline {22.6}Visualization}{85}{section.22.6}
-\contentsline {subsection}{\numberline {22.6.1}Creating a figure}{85}{subsection.22.6.1}
-\contentsline {subsection}{\numberline {22.6.2}Plotting data}{85}{subsection.22.6.2}
-\contentsline {subsubsection}{\numberline {22.6.2.1}Line specifications}{85}{subsubsection.22.6.2.1}
-\contentsline {subsection}{\numberline {22.6.3}Plot properties}{85}{subsection.22.6.3}
-\contentsline {subsection}{\numberline {22.6.4}Visualize matrix}{85}{subsection.22.6.4}
-\contentsline {subsection}{\numberline {22.6.5}Visualize matrices}{85}{subsection.22.6.5}
-\contentsline {section}{\numberline {22.7}Prallel programming}{85}{section.22.7}
-\contentsline {subsection}{\numberline {22.7.1}Multi-threaded programming}{85}{subsection.22.7.1}
-\contentsline {subsection}{\numberline {22.7.2}With matlab toolbox}{86}{subsection.22.7.2}
-\contentsline {subsubsection}{\numberline {22.7.2.1}Processor pool}{86}{subsubsection.22.7.2.1}
-\contentsline {subsubsection}{\numberline {22.7.2.2}parfor loop}{86}{subsubsection.22.7.2.2}
-\contentsline {subsubsection}{\numberline {22.7.2.3}Other tools}{86}{subsubsection.22.7.2.3}
-\contentsline {section}{\numberline {22.8}System IO}{86}{section.22.8}
-\contentsline {section}{\numberline {22.9}Other library functions}{86}{section.22.9}
-\contentsline {subsection}{\numberline {22.9.1}Useful external toolboxes/ packages}{86}{subsection.22.9.1}
-\contentsline {subsection}{\numberline {22.9.2}Solving Matrix problems}{86}{subsection.22.9.2}
-\contentsline {subsection}{\numberline {22.9.3}File I/O}{86}{subsection.22.9.3}
-\contentsline {subsubsection}{\numberline {22.9.3.1}Log files}{86}{subsubsection.22.9.3.1}
-\contentsline {subsubsection}{\numberline {22.9.3.2}Loading formatted data}{87}{subsubsection.22.9.3.2}
-\contentsline {subsubsection}{\numberline {22.9.3.3}C like functions}{87}{subsubsection.22.9.3.3}
-\contentsline {subsection}{\numberline {22.9.4}User interaction I/O}{87}{subsection.22.9.4}
-\contentsline {subsection}{\numberline {22.9.5}Solve general optimization problem}{87}{subsection.22.9.5}
-\contentsline {subsection}{\numberline {22.9.6}Algebra}{87}{subsection.22.9.6}
-\contentsline {subsection}{\numberline {22.9.7}Measure time}{87}{subsection.22.9.7}
-\contentsline {section}{\numberline {22.10}mex: Using C functions}{87}{section.22.10}
-\contentsline {subsection}{\numberline {22.10.1}Interface}{87}{subsection.22.10.1}
-\contentsline {subsubsection}{\numberline {22.10.1.1}Debugging}{87}{subsubsection.22.10.1.1}
-\contentsline {subsection}{\numberline {22.10.2}mxarray datatype}{88}{subsection.22.10.2}
-\contentsline {subsubsection}{\numberline {22.10.2.1}Creation}{88}{subsubsection.22.10.2.1}
-\contentsline {subsubsection}{\numberline {22.10.2.2}Array access}{88}{subsubsection.22.10.2.2}
-\contentsline {subsubsection}{\numberline {22.10.2.3}Array modification}{88}{subsubsection.22.10.2.3}
-\contentsline {subsubsection}{\numberline {22.10.2.4}Memory management}{88}{subsubsection.22.10.2.4}
-\contentsline {subsection}{\numberline {22.10.3}Executing matlab commands}{88}{subsection.22.10.3}
-\contentsline {subsection}{\numberline {22.10.4}User IO}{88}{subsection.22.10.4}
-\contentsline {subsection}{\numberline {22.10.5}Input validation}{88}{subsection.22.10.5}
-\contentsline {section}{\numberline {22.11}Java}{89}{section.22.11}
-\contentsline {subsection}{\numberline {22.11.1}Advantages}{89}{subsection.22.11.1}
-\contentsline {subsection}{\numberline {22.11.2}Classpath}{89}{subsection.22.11.2}
-\contentsline {chapter}{\chapternumberline {23}Optimization software}{89}{chapter.23}
-\contentsline {section}{\numberline {23.1}cvx}{89}{section.23.1}
-\contentsline {subsection}{\numberline {23.1.1}Distinctive features}{89}{subsection.23.1.1}
-\contentsline {subsubsection}{\numberline {23.1.1.1}Disciplined convex programming framework}{89}{subsubsection.23.1.1.1}
-\contentsline {subsubsection}{\numberline {23.1.1.2}Defects}{89}{subsubsection.23.1.1.2}
-\contentsline {subsubsection}{\numberline {23.1.1.3}Other features}{89}{subsubsection.23.1.1.3}
-\contentsline {subsection}{\numberline {23.1.2}Help}{89}{subsection.23.1.2}
-\contentsline {subsection}{\numberline {23.1.3}Specification structure}{90}{subsection.23.1.3}
-\contentsline {subsubsection}{\numberline {23.1.3.1}Matrix variables and constraints}{90}{subsubsection.23.1.3.1}
-\contentsline {subsection}{\numberline {23.1.4}Error reporting and dimensions}{90}{subsection.23.1.4}
-\contentsline {subsubsection}{\numberline {23.1.4.1}Scalars and 1*1 matrix}{90}{subsubsection.23.1.4.1}
-\contentsline {subsection}{\numberline {23.1.5}Solution, program variable}{90}{subsection.23.1.5}
-\contentsline {subsubsection}{\numberline {23.1.5.1}Datatype of the program variable}{90}{subsubsection.23.1.5.1}
-\contentsline {subsubsection}{\numberline {23.1.5.2}Solution variables}{91}{subsubsection.23.1.5.2}
-\contentsline {section}{\numberline {23.2}Matlab optimization toolbox}{91}{section.23.2}
-\contentsline {subsection}{\numberline {23.2.1}Unconstrained minimization}{91}{subsection.23.2.1}
-\contentsline {subsubsection}{\numberline {23.2.1.1}fminsearch}{91}{subsubsection.23.2.1.1}
-\contentsline {subsubsection}{\numberline {23.2.1.2}fminunc}{91}{subsubsection.23.2.1.2}
-\contentsline {subsection}{\numberline {23.2.2}fmincon}{91}{subsection.23.2.2}
-\contentsline {subsection}{\numberline {23.2.3}Other functions}{91}{subsection.23.2.3}
-\contentsline {subsection}{\numberline {23.2.4}Options}{91}{subsection.23.2.4}
-\contentsline {chapter}{\chapternumberline {24}R}{92}{chapter.24}
-\contentsline {section}{\numberline {24.1}Introduction and use}{92}{section.24.1}
-\contentsline {subsection}{\numberline {24.1.1}When to use}{92}{subsection.24.1.1}
-\contentsline {subsection}{\numberline {24.1.2}When not to use}{92}{subsection.24.1.2}
-\contentsline {subsection}{\numberline {24.1.3}Writing, Building and executing code}{92}{subsection.24.1.3}
-\contentsline {subsubsection}{\numberline {24.1.3.1}Script execution}{92}{subsubsection.24.1.3.1}
-\contentsline {subsubsection}{\numberline {24.1.3.2}Reloading changed code}{92}{subsubsection.24.1.3.2}
-\contentsline {subsubsection}{\numberline {24.1.3.3}Important environment variables}{92}{subsubsection.24.1.3.3}
-\contentsline {subsubsection}{\numberline {24.1.3.4}Working environment}{92}{subsubsection.24.1.3.4}
-\contentsline {subsubsection}{\numberline {24.1.3.5}Command history}{92}{subsubsection.24.1.3.5}
-\contentsline {subsubsection}{\numberline {24.1.3.6}Good IDE's}{92}{subsubsection.24.1.3.6}
-\contentsline {subsection}{\numberline {24.1.4}Listing and memory}{92}{subsection.24.1.4}
-\contentsline {subsection}{\numberline {24.1.5}Development environment}{93}{subsection.24.1.5}
-\contentsline {subsection}{\numberline {24.1.6}Debugging}{93}{subsection.24.1.6}
-\contentsline {subsection}{\numberline {24.1.7}Help}{93}{subsection.24.1.7}
-\contentsline {subsection}{\numberline {24.1.8}libraries}{93}{subsection.24.1.8}
-\contentsline {subsubsection}{\numberline {24.1.8.1}Seeking}{93}{subsubsection.24.1.8.1}
-\contentsline {subsubsection}{\numberline {24.1.8.2}Using}{93}{subsubsection.24.1.8.2}
-\contentsline {subsubsection}{\numberline {24.1.8.3}Installing}{93}{subsubsection.24.1.8.3}
-\contentsline {section}{\numberline {24.2}Data: types, values, variables}{93}{section.24.2}
-\contentsline {subsection}{\numberline {24.2.1}Names and namespace}{93}{subsection.24.2.1}
-\contentsline {subsubsection}{\numberline {24.2.1.1}Valid names}{93}{subsubsection.24.2.1.1}
-\contentsline {subsubsection}{\numberline {24.2.1.2}Namespace}{93}{subsubsection.24.2.1.2}
-\contentsline {subsubsection}{\numberline {24.2.1.3}Accessing list members directly}{94}{subsubsection.24.2.1.3}
-\contentsline {subsection}{\numberline {24.2.2}Object}{94}{subsection.24.2.2}
-\contentsline {subsubsection}{\numberline {24.2.2.1}Accessing attributes}{94}{subsubsection.24.2.2.1}
-\contentsline {subsubsection}{\numberline {24.2.2.2}Setting attributes}{94}{subsubsection.24.2.2.2}
-\contentsline {subsubsection}{\numberline {24.2.2.3}Important attributes}{94}{subsubsection.24.2.2.3}
-\contentsline {subsection}{\numberline {24.2.3}Modes and type}{94}{subsection.24.2.3}
-\contentsline {subsubsection}{\numberline {24.2.3.1}Basic modes}{94}{subsubsection.24.2.3.1}
-\contentsline {subsection}{\numberline {24.2.4}Scalar values and operations}{94}{subsection.24.2.4}
-\contentsline {subsubsection}{\numberline {24.2.4.1}Special values}{94}{subsubsection.24.2.4.1}
-\contentsline {subsection}{\numberline {24.2.5}Data conversion}{94}{subsection.24.2.5}
-\contentsline {subsection}{\numberline {24.2.6}Vectors}{95}{subsection.24.2.6}
-\contentsline {subsubsection}{\numberline {24.2.6.1}The basic math object}{95}{subsubsection.24.2.6.1}
-\contentsline {subsubsection}{\numberline {24.2.6.2}Homegeneity}{95}{subsubsection.24.2.6.2}
-\contentsline {subsubsection}{\numberline {24.2.6.3}Named entries}{95}{subsubsection.24.2.6.3}
-\contentsline {subsubsection}{\numberline {24.2.6.4}Indexing}{95}{subsubsection.24.2.6.4}
-\contentsline {subsubsection}{\numberline {24.2.6.5}Creating vectors}{95}{subsubsection.24.2.6.5}
-\contentsline {subsubsection}{\numberline {24.2.6.6}Vector statistics functions}{95}{subsubsection.24.2.6.6}
-\contentsline {subsubsection}{\numberline {24.2.6.7}Apply scalar functions}{95}{subsubsection.24.2.6.7}
-\contentsline {subsection}{\numberline {24.2.7}Factor}{95}{subsection.24.2.7}
-\contentsline {subsection}{\numberline {24.2.8}Strings}{96}{subsection.24.2.8}
-\contentsline {subsubsection}{\numberline {24.2.8.1}String manipulation}{96}{subsubsection.24.2.8.1}
-\contentsline {subsection}{\numberline {24.2.9}Dates}{96}{subsection.24.2.9}
-\contentsline {subsubsection}{\numberline {24.2.9.1}String connection}{96}{subsubsection.24.2.9.1}
-\contentsline {subsubsection}{\numberline {24.2.9.2}Arithmetic operations}{96}{subsubsection.24.2.9.2}
-\contentsline {subsection}{\numberline {24.2.10}Arrays/ matrices}{96}{subsection.24.2.10}
-\contentsline {subsubsection}{\numberline {24.2.10.1}As special vectors}{96}{subsubsection.24.2.10.1}
-\contentsline {subsubsection}{\numberline {24.2.10.2}Indexing}{96}{subsubsection.24.2.10.2}
-\contentsline {subsubsection}{\numberline {24.2.10.3}Data creation}{96}{subsubsection.24.2.10.3}
-\contentsline {paragraph}{Matrices}{96}{section*.53}
-\contentsline {subsubsection}{\numberline {24.2.10.4}Dimension-wise oeprations}{96}{subsubsection.24.2.10.4}
-\contentsline {subsubsection}{\numberline {24.2.10.5}Matrix functions}{97}{subsubsection.24.2.10.5}
-\contentsline {paragraph}{Linear algebra}{97}{section*.54}
-\contentsline {subsection}{\numberline {24.2.11}Lists}{97}{subsection.24.2.11}
-\contentsline {subsubsection}{\numberline {24.2.11.1}List creation}{97}{subsubsection.24.2.11.1}
-\contentsline {subsubsection}{\numberline {24.2.11.2}Accessing list items}{97}{subsubsection.24.2.11.2}
-\contentsline {subsubsection}{\numberline {24.2.11.3}Concatenation}{97}{subsubsection.24.2.11.3}
-\contentsline {subsection}{\numberline {24.2.12}Data frame}{97}{subsection.24.2.12}
-\contentsline {subsubsection}{\numberline {24.2.12.1}Creation}{97}{subsubsection.24.2.12.1}
-\contentsline {subsubsection}{\numberline {24.2.12.2}Conversion}{97}{subsubsection.24.2.12.2}
-\contentsline {subsubsection}{\numberline {24.2.12.3}Indexing}{98}{subsubsection.24.2.12.3}
-\contentsline {subsubsection}{\numberline {24.2.12.4}Searching}{98}{subsubsection.24.2.12.4}
-\contentsline {subsubsection}{\numberline {24.2.12.5}Concatenation}{98}{subsubsection.24.2.12.5}
-\contentsline {subsection}{\numberline {24.2.13}Model Formulae}{98}{subsection.24.2.13}
-\contentsline {subsection}{\numberline {24.2.14}Functions}{98}{subsection.24.2.14}
-\contentsline {subsubsection}{\numberline {24.2.14.1}Definition}{98}{subsubsection.24.2.14.1}
-\contentsline {subsubsection}{\numberline {24.2.14.2}Variables used}{98}{subsubsection.24.2.14.2}
-\contentsline {subsubsection}{\numberline {24.2.14.3}Operator defintions}{98}{subsubsection.24.2.14.3}
-\contentsline {subsubsection}{\numberline {24.2.14.4}Invocation}{99}{subsubsection.24.2.14.4}
-\contentsline {section}{\numberline {24.3}Operator}{99}{section.24.3}
-\contentsline {subsection}{\numberline {24.3.1}Assignment}{99}{subsection.24.3.1}
-\contentsline {subsection}{\numberline {24.3.2}Scalar operators}{99}{subsection.24.3.2}
-\contentsline {subsubsection}{\numberline {24.3.2.1}Arithmetic operators}{99}{subsubsection.24.3.2.1}
-\contentsline {subsubsection}{\numberline {24.3.2.2}Operators on booleans}{99}{subsubsection.24.3.2.2}
-\contentsline {subsubsection}{\numberline {24.3.2.3}Operators which produce booleans}{99}{subsubsection.24.3.2.3}
-\contentsline {subsection}{\numberline {24.3.3}General Vector operators}{99}{subsection.24.3.3}
-\contentsline {subsubsection}{\numberline {24.3.3.1}Mapping over elements}{99}{subsubsection.24.3.3.1}
-\contentsline {subsubsection}{\numberline {24.3.3.2}Arithmetic and boolean ops}{99}{subsubsection.24.3.3.2}
-\contentsline {subsubsection}{\numberline {24.3.3.3}Lengthening of arguments}{99}{subsubsection.24.3.3.3}
-\contentsline {paragraph}{Examples}{99}{section*.55}
-\contentsline {subsubsection}{\numberline {24.3.3.4}ifelse op}{100}{subsubsection.24.3.3.4}
-\contentsline {subsubsection}{\numberline {24.3.3.5}Set membership}{100}{subsubsection.24.3.3.5}
-\contentsline {subsubsection}{\numberline {24.3.3.6}Missing value identification}{100}{subsubsection.24.3.3.6}
-\contentsline {section}{\numberline {24.4}Code structure}{100}{section.24.4}
-\contentsline {subsection}{\numberline {24.4.1}Code blocks}{100}{subsection.24.4.1}
-\contentsline {subsection}{\numberline {24.4.2}Sentence syntax}{100}{subsection.24.4.2}
-\contentsline {subsection}{\numberline {24.4.3}Decision structures}{100}{subsection.24.4.3}
-\contentsline {subsection}{\numberline {24.4.4}Packages}{100}{subsection.24.4.4}
-\contentsline {subsection}{\numberline {24.4.5}Organization with lists}{100}{subsection.24.4.5}
-\contentsline {section}{\numberline {24.5}IO}{101}{section.24.5}
-\contentsline {subsection}{\numberline {24.5.1}File I/O}{101}{subsection.24.5.1}
-\contentsline {subsection}{\numberline {24.5.2}User interaction I/O}{101}{subsection.24.5.2}
-\contentsline {subsubsection}{\numberline {24.5.2.1}output}{101}{subsubsection.24.5.2.1}
-\contentsline {subsubsection}{\numberline {24.5.2.2}Input}{101}{subsubsection.24.5.2.2}
-\contentsline {subsection}{\numberline {24.5.3}Plotting and tables}{101}{subsection.24.5.3}
-\contentsline {section}{\numberline {24.6}Data preparation and exploration}{101}{section.24.6}
-\contentsline {section}{\numberline {24.7}Modeling}{101}{section.24.7}
-\contentsline {subsection}{\numberline {24.7.1}Classification}{101}{subsection.24.7.1}
-\contentsline {subsubsection}{\numberline {24.7.1.1}Logistic regression}{101}{subsubsection.24.7.1.1}
-\contentsline {subsubsection}{\numberline {24.7.1.2}Logistic regression with l1/l2 regularization}{102}{subsubsection.24.7.1.2}
-\contentsline {subsubsection}{\numberline {24.7.1.3}Decision tree: rpart and tree}{102}{subsubsection.24.7.1.3}
-\contentsline {section}{\numberline {24.8}Other library functions}{102}{section.24.8}
-\contentsline {subsection}{\numberline {24.8.1}Random sampling}{102}{subsection.24.8.1}
-\contentsline {section}{\numberline {24.9}Write C extensions}{102}{section.24.9}
-\contentsline {subsection}{\numberline {24.9.1}Write C code}{102}{subsection.24.9.1}
-\contentsline {subsection}{\numberline {24.9.2}Calling C code}{102}{subsection.24.9.2}
-\contentsline {chapter}{\chapternumberline {25}Rapidminer}{102}{chapter.25}
-\contentsline {section}{\numberline {25.1}Introduction}{102}{section.25.1}
-\contentsline {subsection}{\numberline {25.1.1}Purpose}{102}{subsection.25.1.1}
-\contentsline {subsection}{\numberline {25.1.2}UI and API}{102}{subsection.25.1.2}
-\contentsline {subsection}{\numberline {25.1.3}Data types}{103}{subsection.25.1.3}
-\contentsline {section}{\numberline {25.2}Processes}{103}{section.25.2}
-\contentsline {subsection}{\numberline {25.2.1}Operators}{103}{subsection.25.2.1}
-\contentsline {section}{\numberline {25.3}Data view}{103}{section.25.3}
-\contentsline {chapter}{\chapternumberline {26}Spreadsheet programs}{103}{chapter.26}
-\contentsline {section}{\numberline {26.1}Google docs}{103}{section.26.1}
-\contentsline {subsection}{\numberline {26.1.1}Cell referencing}{103}{subsection.26.1.1}
-\contentsline {subsection}{\numberline {26.1.2}Range specification}{103}{subsection.26.1.2}
-\contentsline {subsection}{\numberline {26.1.3}Filtering}{104}{subsection.26.1.3}
-\contentsline {subsubsection}{\numberline {26.1.3.1}Condition specification}{104}{subsubsection.26.1.3.1}
-\contentsline {subsection}{\numberline {26.1.4}Counting}{104}{subsection.26.1.4}
-\contentsline {subsection}{\numberline {26.1.5}Summation}{104}{subsection.26.1.5}
-\contentsline {subsection}{\numberline {26.1.6}Averaging}{104}{subsection.26.1.6}
-\contentsline {subsection}{\numberline {26.1.7}Looking up values}{104}{subsection.26.1.7}
-\contentsline {part}{\partnumberline {V}Shell Scripting and OS work}{104}{part.5}
-\contentsline {chapter}{\chapternumberline {27}General tasks}{104}{chapter.27}
-\contentsline {section}{\numberline {27.1}Scanning documents with camera}{104}{section.27.1}
-\contentsline {subsection}{\numberline {27.1.1}Cropping}{104}{subsection.27.1.1}
-\contentsline {subsection}{\numberline {27.1.2}Enhancement}{105}{subsection.27.1.2}
-\contentsline {subsection}{\numberline {27.1.3}Compression}{105}{subsection.27.1.3}
-\contentsline {section}{\numberline {27.2}File synchronization}{105}{section.27.2}
-\contentsline {section}{\numberline {27.3}VOIP}{105}{section.27.3}
-\contentsline {section}{\numberline {27.4}Booting to special modes}{105}{section.27.4}
-\contentsline {subsection}{\numberline {27.4.1}Atrix boot modes}{105}{subsection.27.4.1}
-\contentsline {subsubsection}{\numberline {27.4.1.1}Fastboot}{105}{subsubsection.27.4.1.1}
-\contentsline {subsubsection}{\numberline {27.4.1.2}Recovery}{105}{subsubsection.27.4.1.2}
-\contentsline {section}{\numberline {27.5}Virtual machines, emulators}{106}{section.27.5}
-\contentsline {subsection}{\numberline {27.5.1}Emulators on linux}{106}{subsection.27.5.1}
-\contentsline {subsubsection}{\numberline {27.5.1.1}Java virtual machines}{106}{subsubsection.27.5.1.1}
-\contentsline {chapter}{\chapternumberline {28}Pocket computer OS usage}{106}{chapter.28}
-\contentsline {section}{\numberline {28.1}Special tasks}{106}{section.28.1}
-\contentsline {subsection}{\numberline {28.1.1}Syncing media}{106}{subsection.28.1.1}
-\contentsline {subsection}{\numberline {28.1.2}Podcasts}{106}{subsection.28.1.2}
-\contentsline {subsection}{\numberline {28.1.3}Scanning}{106}{subsection.28.1.3}
-\contentsline {subsection}{\numberline {28.1.4}Offline navigation}{106}{subsection.28.1.4}
-\contentsline {subsection}{\numberline {28.1.5}Ebook conversion}{106}{subsection.28.1.5}
-\contentsline {subsubsection}{\numberline {28.1.5.1}Calibre}{106}{subsubsection.28.1.5.1}
-\contentsline {subsection}{\numberline {28.1.6}Keypad commands}{107}{subsection.28.1.6}
-\contentsline {subsubsection}{\numberline {28.1.6.1}Android}{107}{subsubsection.28.1.6.1}
-\contentsline {subsection}{\numberline {28.1.7}Unlock bootloader}{107}{subsection.28.1.7}
-\contentsline {subsubsection}{\numberline {28.1.7.1}Atrix running Gingerbread}{107}{subsubsection.28.1.7.1}
-\contentsline {subsection}{\numberline {28.1.8}Exploring files from a computer}{107}{subsection.28.1.8}
-\contentsline {subsubsection}{\numberline {28.1.8.1}Android}{107}{subsubsection.28.1.8.1}
-\contentsline {subsection}{\numberline {28.1.9}Enable and use root access}{107}{subsection.28.1.9}
-\contentsline {subsubsection}{\numberline {28.1.9.1}Atrix running gingerbread}{108}{subsubsection.28.1.9.1}
-\contentsline {subsection}{\numberline {28.1.10}File transfer: Android}{108}{subsection.28.1.10}
-\contentsline {subsubsection}{\numberline {28.1.10.1}Enable Writeability}{108}{subsubsection.28.1.10.1}
-\contentsline {section}{\numberline {28.2}Kindle keyboard}{108}{section.28.2}
-\contentsline {subsection}{\numberline {28.2.1}Diagnostic pages}{108}{subsection.28.2.1}
-\contentsline {subsection}{\numberline {28.2.2}Shortcuts}{108}{subsection.28.2.2}
-\contentsline {chapter}{\chapternumberline {29}Linux OS}{108}{chapter.29}
-\contentsline {subsubsection}{\numberline {29.0.2.1}perl}{108}{subsubsection.29.0.2.1}
-\contentsline {section}{\numberline {29.1}Graphical user interface}{108}{section.29.1}
-\contentsline {subsection}{\numberline {29.1.1}Common settings}{109}{subsection.29.1.1}
-\contentsline {subsection}{\numberline {29.1.2}Gnome}{109}{subsection.29.1.2}
-\contentsline {subsubsection}{\numberline {29.1.2.1}Editing configuration}{109}{subsubsection.29.1.2.1}
-\contentsline {subsection}{\numberline {29.1.3}KDE}{109}{subsection.29.1.3}
-\contentsline {section}{\numberline {29.2}Others}{109}{section.29.2}
-\contentsline {section}{\numberline {29.3}Editing}{109}{section.29.3}
-\contentsline {subsection}{\numberline {29.3.1}Editors}{109}{subsection.29.3.1}
-\contentsline {subsection}{\numberline {29.3.2}Programmatic editing}{109}{subsection.29.3.2}
-\contentsline {subsection}{\numberline {29.3.3}vi}{110}{subsection.29.3.3}
-\contentsline {subsubsection}{\numberline {29.3.3.1}Modes}{110}{subsubsection.29.3.3.1}
-\contentsline {subsubsection}{\numberline {29.3.3.2}Commands and pattern matching}{110}{subsubsection.29.3.3.2}
-\contentsline {section}{\numberline {29.4}Resource check}{110}{section.29.4}
-\contentsline {section}{\numberline {29.5}Image processing}{110}{section.29.5}
-\contentsline {section}{\numberline {29.6}Installation}{110}{section.29.6}
-\contentsline {chapter}{\chapternumberline {30}BASH scripting}{110}{chapter.30}
-\contentsline {section}{\numberline {30.1}Characteristic features}{110}{section.30.1}
-\contentsline {subsection}{\numberline {30.1.1}Command construction, execution}{110}{subsection.30.1.1}
-\contentsline {subsection}{\numberline {30.1.2}Logic limitations}{110}{subsection.30.1.2}
-\contentsline {section}{\numberline {30.2}Writing and executing code}{111}{section.30.2}
-\contentsline {subsection}{\numberline {30.2.1}Context}{111}{subsection.30.2.1}
-\contentsline {subsubsection}{\numberline {30.2.1.1}Current context}{111}{subsubsection.30.2.1.1}
-\contentsline {subsubsection}{\numberline {30.2.1.2}New context}{111}{subsubsection.30.2.1.2}
-\contentsline {paragraph}{Invocation as a command}{111}{section*.57}
-\contentsline {subsection}{\numberline {30.2.2}Environment variables}{111}{subsection.30.2.2}
-\contentsline {subsubsection}{\numberline {30.2.2.1}Setting}{111}{subsubsection.30.2.2.1}
-\contentsline {section}{\numberline {30.3}Variables and data}{111}{section.30.3}
-\contentsline {subsection}{\numberline {30.3.1}Assignment}{112}{subsection.30.3.1}
-\contentsline {subsection}{\numberline {30.3.2}Reference}{112}{subsection.30.3.2}
-\contentsline {chapter}{\chapternumberline {31}Android development}{112}{chapter.31}
-\contentsline {section}{\numberline {31.1}Java SDK}{112}{section.31.1}
-\contentsline {subsection}{\numberline {31.1.1}C++ compiler}{112}{subsection.31.1.1}
-\contentsline {subsection}{\numberline {31.1.2}Logging}{112}{subsection.31.1.2}
-\contentsline {subsection}{\numberline {31.1.3}Command line access to device}{112}{subsection.31.1.3}
-\contentsline {section}{\numberline {31.2}Eclipse-plugin}{113}{section.31.2}
-\contentsline {subsection}{\numberline {31.2.1}Debugging}{113}{subsection.31.2.1}
-\contentsline {section}{\numberline {31.3}Application architecture}{113}{section.31.3}
-\contentsline {subsection}{\numberline {31.3.1}Components}{113}{subsection.31.3.1}
-\contentsline {subsubsection}{\numberline {31.3.1.1}Communication with components}{113}{subsubsection.31.3.1.1}
-\contentsline {subsection}{\numberline {31.3.2}Security and isolation}{113}{subsection.31.3.2}
-\contentsline {subsection}{\numberline {31.3.3}Threading}{113}{subsection.31.3.3}
-\contentsline {subsection}{\numberline {31.3.4}Resources}{114}{subsection.31.3.4}
-\contentsline {subsubsection}{\numberline {31.3.4.1}UI design}{114}{subsubsection.31.3.4.1}
-\contentsline {part}{\partnumberline {VI}Distributed computing}{114}{part.6}
-\contentsline {chapter}{\chapternumberline {32}Parallel computing paradigms}{114}{chapter.32}
-\contentsline {chapter}{\chapternumberline {33}Condor}{114}{chapter.33}
-\contentsline {section}{\numberline {33.1}Priority and restarts}{115}{section.33.1}
-\contentsline {chapter}{\chapternumberline {34}ORC}{115}{chapter.34}
-\contentsline {section}{\numberline {34.1}Distinctive features of the language}{115}{section.34.1}
-\contentsline {subsection}{\numberline {34.1.1}Purpose of design}{115}{subsection.34.1.1}
-\contentsline {subsection}{\numberline {34.1.2}Sites}{115}{subsection.34.1.2}
-\contentsline {subsection}{\numberline {34.1.3}Functions}{115}{subsection.34.1.3}
-\contentsline {subsection}{\numberline {34.1.4}Parallelism}{115}{subsection.34.1.4}
-\contentsline {subsection}{\numberline {34.1.5}Speed}{115}{subsection.34.1.5}
-\contentsline {section}{\numberline {34.2}Writing, Building and executing code}{115}{section.34.2}
-\contentsline {subsection}{\numberline {34.2.1}Debugging}{115}{subsection.34.2.1}
-\contentsline {section}{\numberline {34.3}Help}{115}{section.34.3}
-\contentsline {section}{\numberline {34.4}Pre-compilation processing}{116}{section.34.4}
-\contentsline {section}{\numberline {34.5}Variable and data types}{116}{section.34.5}
-\contentsline {subsection}{\numberline {34.5.1}Data types}{116}{subsection.34.5.1}
-\contentsline {subsection}{\numberline {34.5.2}Declaration syntax}{116}{subsection.34.5.2}
-\contentsline {section}{\numberline {34.6}Data manipulation}{116}{section.34.6}
-\contentsline {subsection}{\numberline {34.6.1}Operators}{116}{subsection.34.6.1}
-\contentsline {subsection}{\numberline {34.6.2}Accessing object methods}{116}{subsection.34.6.2}
-\contentsline {section}{\numberline {34.7}Code structure}{116}{section.34.7}
-\contentsline {subsection}{\numberline {34.7.1}Sentence syntax}{116}{subsection.34.7.1}
-\contentsline {subsubsection}{\numberline {34.7.1.1}Commenting}{116}{subsubsection.34.7.1.1}
-\contentsline {subsection}{\numberline {34.7.2}Combinators}{116}{subsection.34.7.2}
-\contentsline {subsection}{\numberline {34.7.3}Syntax of functions}{117}{subsection.34.7.3}
-\contentsline {subsection}{\numberline {34.7.4}Decision, timing sites}{117}{subsection.34.7.4}
-\contentsline {subsection}{\numberline {34.7.5}Function invocation}{117}{subsection.34.7.5}
-\contentsline {section}{\numberline {34.8}Error handling}{117}{section.34.8}
-\contentsline {section}{\numberline {34.9}Other library functions}{117}{section.34.9}
-\contentsline {subsection}{\numberline {34.9.1}User interaction I/O sites}{117}{subsection.34.9.1}
-\contentsline {part}{\partnumberline {VII}Serving web-pages}{117}{part.7}
-\contentsline {chapter}{\chapternumberline {35}Common Gateway Interface (CGI)}{117}{chapter.35}
-\contentsline {section}{\numberline {35.1}HTTP server and dynamic content}{117}{section.35.1}
-\contentsline {section}{\numberline {35.2}Scripting mixed with html}{118}{section.35.2}
-\contentsline {chapter}{\chapternumberline {36}Client side scripting}{118}{chapter.36}
-\contentsline {chapter}{\chapternumberline {37}Yahoo pipes}{118}{chapter.37}
-\contentsline {section}{\numberline {37.1}Interface}{118}{section.37.1}
-\contentsline {section}{\numberline {37.2}Looping}{118}{section.37.2}
-\contentsline {chapter}{\chapternumberline {38}Web API}{118}{chapter.38}
-\contentsline {section}{\numberline {38.1}Request/ response format}{119}{section.38.1}
-\contentsline {section}{\numberline {38.2}Underlying Protocol}{119}{section.38.2}
-\contentsline {section}{\numberline {38.3}Web interface Protocols}{119}{section.38.3}
-\contentsline {subsection}{\numberline {38.3.1}Simple Object access protocol (SOAP)}{119}{subsection.38.3.1}
-\contentsline {chapter}{\chapternumberline {39}Particular Web Api's}{119}{chapter.39}
-\contentsline {section}{\numberline {39.1}Wikimedia}{119}{section.39.1}
-\contentsline {subsection}{\numberline {39.1.1}Java wrappers}{119}{subsection.39.1.1}
-\contentsline {chapter}{\chapternumberline {40}Flash}{119}{chapter.40}
-\contentsline {part}{\partnumberline {VIII}Programming within browsers}{119}{part.8}
-\contentsline {chapter}{\chapternumberline {41}Web Browsers}{120}{chapter.41}
-\contentsline {section}{\numberline {41.1}Extensions/ plugins}{120}{section.41.1}
-\contentsline {section}{\numberline {41.2}User scripting}{120}{section.41.2}
-\contentsline {subsection}{\numberline {41.2.1}Interoperability}{120}{subsection.41.2.1}
-\contentsline {section}{\numberline {41.3}Enhancements by websites}{120}{section.41.3}
-\contentsline {section}{\numberline {41.4}Observe browser activity}{120}{section.41.4}
-\contentsline {chapter}{\chapternumberline {42}ECMA script/ javascript}{121}{chapter.42}
-\contentsline {section}{\numberline {42.1}Distinctive features}{121}{section.42.1}
-\contentsline {subsection}{\numberline {42.1.1}Design flaws}{121}{subsection.42.1.1}
-\contentsline {subsection}{\numberline {42.1.2}Programming discipline}{121}{subsection.42.1.2}
-\contentsline {subsubsection}{\numberline {42.1.2.1}Development tools}{121}{subsubsection.42.1.2.1}
-\contentsline {subsection}{\numberline {42.1.3}Implementation variations}{121}{subsection.42.1.3}
-\contentsline {subsection}{\numberline {42.1.4}Acknowledgement}{121}{subsection.42.1.4}
-\contentsline {subsection}{\numberline {42.1.5}Security}{122}{subsection.42.1.5}
-\contentsline {subsection}{\numberline {42.1.6}Document object model (DOM)}{122}{subsection.42.1.6}
-\contentsline {subsubsection}{\numberline {42.1.6.1}Structure}{122}{subsubsection.42.1.6.1}
-\contentsline {subsubsection}{\numberline {42.1.6.2}Document object}{122}{subsubsection.42.1.6.2}
-\contentsline {subsubsection}{\numberline {42.1.6.3}Element object}{122}{subsubsection.42.1.6.3}
-\contentsline {section}{\numberline {42.2}UI}{122}{section.42.2}
-\contentsline {subsection}{\numberline {42.2.1}Events}{122}{subsection.42.2.1}
-\contentsline {subsection}{\numberline {42.2.2}Event listeners}{122}{subsection.42.2.2}
-\contentsline {subsection}{\numberline {42.2.3}Getting selected text}{123}{subsection.42.2.3}
-\contentsline {section}{\numberline {42.3}Threads, timing}{123}{section.42.3}
-\contentsline {subsection}{\numberline {42.3.1}Executing code after some time}{123}{subsection.42.3.1}
-\contentsline {subsection}{\numberline {42.3.2}Periodic execution of code}{123}{subsection.42.3.2}
-\contentsline {chapter}{\chapternumberline {43}User scripts}{123}{chapter.43}
-\contentsline {section}{\numberline {43.1}Motivation}{123}{section.43.1}
-\contentsline {section}{\numberline {43.2}Header format}{123}{section.43.2}
-\contentsline {part}{\partnumberline {IX}Databases}{123}{part.9}
-\contentsline {chapter}{\chapternumberline {44}Database management systems}{124}{chapter.44}
-\contentsline {section}{\numberline {44.1}Relational Database management system (RDBMS)}{124}{section.44.1}
-\contentsline {subsection}{\numberline {44.1.1}Relational algebra}{124}{subsection.44.1.1}
-\contentsline {subsection}{\numberline {44.1.2}Database normalization}{124}{subsection.44.1.2}
-\contentsline {section}{\numberline {44.2}Sharding}{124}{section.44.2}
-\contentsline {section}{\numberline {44.3}Pooling writes}{124}{section.44.3}
-\contentsline {chapter}{\chapternumberline {45}Structured query language (SQL)}{124}{chapter.45}
-\contentsline {section}{\numberline {45.1}Help and tutorials}{125}{section.45.1}
-\contentsline {section}{\numberline {45.2}Values}{125}{section.45.2}
-\contentsline {section}{\numberline {45.3}Query language}{125}{section.45.3}
-\contentsline {subsection}{\numberline {45.3.1}Query table}{125}{subsection.45.3.1}
-\contentsline {subsection}{\numberline {45.3.2}Post selection processing}{125}{subsection.45.3.2}
-\contentsline {subsection}{\numberline {45.3.3}Temporary tables}{125}{subsection.45.3.3}
-\contentsline {subsubsection}{\numberline {45.3.3.1}Storage}{125}{subsubsection.45.3.3.1}
-\contentsline {section}{\numberline {45.4}Stored procedures}{126}{section.45.4}
-\contentsline {chapter}{\chapternumberline {46}Flat file DB}{126}{chapter.46}
-\contentsline {section}{\numberline {46.1}sqlite}{126}{section.46.1}
-\contentsline {subsection}{\numberline {46.1.1}GUI}{126}{subsection.46.1.1}
-\contentsline {subsection}{\numberline {46.1.2}Shell}{126}{subsection.46.1.2}
-\contentsline {subsubsection}{\numberline {46.1.2.1}Importing}{126}{subsubsection.46.1.2.1}
-\contentsline {chapter}{\chapternumberline {47}MySql}{126}{chapter.47}
-\contentsline {section}{\numberline {47.1}Server}{126}{section.47.1}
-\contentsline {section}{\numberline {47.2}Clients}{126}{section.47.2}
-\contentsline {subsection}{\numberline {47.2.1}mysql shell}{126}{subsection.47.2.1}
-\contentsline {subsubsection}{\numberline {47.2.1.1}Invocation}{127}{subsubsection.47.2.1.1}
-\contentsline {subsubsection}{\numberline {47.2.1.2}General commands}{127}{subsubsection.47.2.1.2}
-\contentsline {subsubsection}{\numberline {47.2.1.3}Meta-commands}{127}{subsubsection.47.2.1.3}
-\contentsline {subsubsection}{\numberline {47.2.1.4}Administration}{127}{subsubsection.47.2.1.4}
-\contentsline {subsection}{\numberline {47.2.2}Ancilliary commandline tools}{127}{subsection.47.2.2}
-\contentsline {subsection}{\numberline {47.2.3}GUI}{127}{subsection.47.2.3}
-\contentsline {section}{\numberline {47.3}Past experience}{127}{section.47.3}
-\contentsline {part}{\partnumberline {X}Remote procedure call and serialization}{127}{part.10}
-\contentsline {part}{\partnumberline {XI}Document typesetting}{128}{part.11}
-\contentsline {chapter}{\chapternumberline {48}Declarative vs imperative features}{128}{chapter.48}
-\contentsline {chapter}{\chapternumberline {49}latex}{128}{chapter.49}
-\contentsline {section}{\numberline {49.1}Common commands, environments}{128}{section.49.1}
-\contentsline {subsection}{\numberline {49.1.1}Templates}{128}{subsection.49.1.1}
-\contentsline {subsection}{\numberline {49.1.2}Packages}{129}{subsection.49.1.2}
-\contentsline {subsubsection}{\numberline {49.1.2.1}Page setup}{129}{subsubsection.49.1.2.1}
-\contentsline {subsubsection}{\numberline {49.1.2.2}List compaction}{129}{subsubsection.49.1.2.2}
-\contentsline {section}{\numberline {49.2}Bibliography}{129}{section.49.2}
-\contentsline {subsection}{\numberline {49.2.1}Packages}{129}{subsection.49.2.1}
-\contentsline {section}{\numberline {49.3}(Re)definition}{129}{section.49.3}
-\contentsline {section}{\numberline {49.4}Imperative display commands}{129}{section.49.4}
-\contentsline {subsection}{\numberline {49.4.1}Font size}{129}{subsection.49.4.1}
-\contentsline {subsection}{\numberline {49.4.2}Display parameters}{130}{subsection.49.4.2}
-\contentsline {subsection}{\numberline {49.4.3}Space management}{130}{subsection.49.4.3}
-\contentsline {section}{\numberline {49.5}Drawing figures}{130}{section.49.5}
-\contentsline {chapter}{\chapternumberline {50}html}{130}{chapter.50}
+\contentsline {part}{\partnumberline {I}Introduction}{17}{part.1}
+\contentsline {chapter}{\chapternumberline {1}Research themes}{17}{chapter.1}
+\contentsline {section}{\numberline {1.1}Programming language design}{17}{section.1.1}
+\contentsline {chapter}{\chapternumberline {2}Language Design concepts}{17}{chapter.2}
+\contentsline {section}{\numberline {2.1}Chapter Scope}{17}{section.2.1}
+\contentsline {section}{\numberline {2.2}Syntax}{18}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Literals}{18}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Identifiers}{18}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Overloading}{18}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.2}Scope}{18}{subsubsection.2.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.3}Implicit scope}{18}{subsubsection.2.2.2.3}
+\contentsline {subsection}{\numberline {2.2.3}Expression evaluation}{18}{subsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.3.1}Lazy vs eager evaluation}{18}{subsubsection.2.2.3.1}
+\contentsline {subsection}{\numberline {2.2.4}Syntactic sugar}{18}{subsection.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.4.1}Macros}{18}{subsubsection.2.2.4.1}
+\contentsline {section}{\numberline {2.3}Abstraction from hardware}{19}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}View of memory}{19}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Portability}{19}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Programming discipline}{19}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Type system}{19}{subsection.2.3.4}
+\contentsline {subsubsection}{\numberline {2.3.4.1}Implementing abstract data-types}{19}{subsubsection.2.3.4.1}
+\contentsline {subsubsection}{\numberline {2.3.4.2}Compile time vs run-time}{19}{subsubsection.2.3.4.2}
+\contentsline {subsubsection}{\numberline {2.3.4.3}Strong vs weak}{20}{subsubsection.2.3.4.3}
+\contentsline {section}{\numberline {2.4}Procedures}{20}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Mathematical functions}{20}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Passing arguments to procedures}{20}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Operators}{20}{subsection.2.4.3}
+\contentsline {section}{\numberline {2.5}Object creation and manipulation}{20}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Object manipulation}{20}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Encapsulation and locality}{21}{subsection.2.5.2}
+\contentsline {subsubsection}{\numberline {2.5.2.1}Methods}{21}{subsubsection.2.5.2.1}
+\contentsline {subsection}{\numberline {2.5.3}Object construction and destruction}{21}{subsection.2.5.3}
+\contentsline {subsubsection}{\numberline {2.5.3.1}Classes}{21}{subsubsection.2.5.3.1}
+\contentsline {subsubsection}{\numberline {2.5.3.2}Cloning prototypes}{21}{subsubsection.2.5.3.2}
+\contentsline {subsubsection}{\numberline {2.5.3.3}Deep copy}{21}{subsubsection.2.5.3.3}
+\contentsline {subsubsection}{\numberline {2.5.3.4}Factory methods}{22}{subsubsection.2.5.3.4}
+\contentsline {subsection}{\numberline {2.5.4}Inheritance}{22}{subsection.2.5.4}
+\contentsline {subsubsection}{\numberline {2.5.4.1}Benefits}{22}{subsubsection.2.5.4.1}
+\contentsline {subsubsection}{\numberline {2.5.4.2}Abstract class/ interface}{22}{subsubsection.2.5.4.2}
+\contentsline {subsubsection}{\numberline {2.5.4.3}Dynamic dispatch}{22}{subsubsection.2.5.4.3}
+\contentsline {subsubsection}{\numberline {2.5.4.4}Multiple inheritance}{22}{subsubsection.2.5.4.4}
+\contentsline {subsection}{\numberline {2.5.5}Prototyping-based languages}{23}{subsection.2.5.5}
+\contentsline {subsection}{\numberline {2.5.6}Mutability}{23}{subsection.2.5.6}
+\contentsline {subsection}{\numberline {2.5.7}Class with optional members}{23}{subsection.2.5.7}
+\contentsline {subsubsection}{\numberline {2.5.7.1}As inheritance tree}{23}{subsubsection.2.5.7.1}
+\contentsline {subsubsection}{\numberline {2.5.7.2}Use with pattern matching}{23}{subsubsection.2.5.7.2}
+\contentsline {section}{\numberline {2.6}Functions as objects}{23}{section.2.6}
+\contentsline {subsubsection}{\numberline {2.6.0.3}Functions acting on functions}{24}{subsubsection.2.6.0.3}
+\contentsline {subsubsection}{\numberline {2.6.0.4}Event driven programming}{24}{subsubsection.2.6.0.4}
+\contentsline {subsection}{\numberline {2.6.1}Functions with non-local references}{24}{subsection.2.6.1}
+\contentsline {subsubsection}{\numberline {2.6.1.1}Extended function definition using decorator}{24}{subsubsection.2.6.1.1}
+\contentsline {subsection}{\numberline {2.6.2}Partial application}{24}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}Currying}{24}{subsection.2.6.3}
+\contentsline {subsubsection}{\numberline {2.6.3.1}Lambda calculus}{25}{subsubsection.2.6.3.1}
+\contentsline {subsection}{\numberline {2.6.4}Iteration aids}{25}{subsection.2.6.4}
+\contentsline {subsubsection}{\numberline {2.6.4.1}Tail recursion}{25}{subsubsection.2.6.4.1}
+\contentsline {subparagraph}{Reuse of stack space}{25}{section*.3}
+\contentsline {subparagraph}{Advantage}{25}{section*.4}
+\contentsline {section}{\numberline {2.7}Functions without side effects}{25}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Dependence on non-input values}{25}{subsection.2.7.1}
+\contentsline {subsubsection}{\numberline {2.7.1.1}Closure restrictions}{25}{subsubsection.2.7.1.1}
+\contentsline {subsection}{\numberline {2.7.2}Immutability of input}{26}{subsection.2.7.2}
+\contentsline {section}{\numberline {2.8}Decision structures}{26}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}Branching}{26}{subsection.2.8.1}
+\contentsline {subsubsection}{\numberline {2.8.1.1}Matching a value}{26}{subsubsection.2.8.1.1}
+\contentsline {subsection}{\numberline {2.8.2}Iterative operations}{26}{subsection.2.8.2}
+\contentsline {subsubsection}{\numberline {2.8.2.1}Imperative loops}{26}{subsubsection.2.8.2.1}
+\contentsline {subsubsection}{\numberline {2.8.2.2}Recursion}{26}{subsubsection.2.8.2.2}
+\contentsline {subsubsection}{\numberline {2.8.2.3}Declarative operations on lists}{27}{subsubsection.2.8.2.3}
+\contentsline {section}{\numberline {2.9}Type-generic definitions}{27}{section.2.9}
+\contentsline {section}{\numberline {2.10}Specifying generators}{27}{section.2.10}
+\contentsline {subsubsection}{\numberline {2.10.0.4}Set-builder syntax}{27}{subsubsection.2.10.0.4}
+\contentsline {section}{\numberline {2.11}Application programming interface (API)}{27}{section.2.11}
+\contentsline {subsection}{\numberline {2.11.1}Higher order functions for lists}{27}{subsection.2.11.1}
+\contentsline {subsubsection}{\numberline {2.11.1.1}Map}{27}{subsubsection.2.11.1.1}
+\contentsline {subsubsection}{\numberline {2.11.1.2}Filter}{27}{subsubsection.2.11.1.2}
+\contentsline {subsubsection}{\numberline {2.11.1.3}Transformation-types}{28}{subsubsection.2.11.1.3}
+\contentsline {subsubsection}{\numberline {2.11.1.4}Fold}{28}{subsubsection.2.11.1.4}
+\contentsline {section}{\numberline {2.12}Remote procedure call (RPC)}{28}{section.2.12}
+\contentsline {subsection}{\numberline {2.12.1}Pipeline}{28}{subsection.2.12.1}
+\contentsline {section}{\numberline {2.13}Exception handling}{28}{section.2.13}
+\contentsline {subsection}{\numberline {2.13.1}try catch blocks}{29}{subsection.2.13.1}
+\contentsline {subsubsection}{\numberline {2.13.1.1}Context handler classes}{29}{subsubsection.2.13.1.1}
+\contentsline {section}{\numberline {2.14}Test framework}{29}{section.2.14}
+\contentsline {chapter}{\chapternumberline {3}Parallel programming programming models}{29}{chapter.3}
+\contentsline {section}{\numberline {3.1}Thread abstraction}{29}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Fork and join}{29}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Mapreduce}{29}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Computation flow}{29}{subsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.1.1}Input preparation}{29}{subsubsection.3.2.1.1}
+\contentsline {subsubsection}{\numberline {3.2.1.2}General flow per mapper}{30}{subsubsection.3.2.1.2}
+\contentsline {subsubsection}{\numberline {3.2.1.3}Flow per reducer}{30}{subsubsection.3.2.1.3}
+\contentsline {subsubsection}{\numberline {3.2.1.4}Output storage}{30}{subsubsection.3.2.1.4}
+\contentsline {subsubsection}{\numberline {3.2.1.5}Thread safety}{30}{subsubsection.3.2.1.5}
+\contentsline {chapter}{\chapternumberline {4}Translation to machine code}{30}{chapter.4}
+\contentsline {section}{\numberline {4.1}Machine instructions and their files}{30}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Executable files}{30}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Object files}{30}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Translation from High level programming language}{31}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Compiled vs interpreted languages}{31}{subsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.1.1}Freedom from error}{31}{subsubsection.4.2.1.1}
+\contentsline {subsection}{\numberline {4.2.2}Steps in translation}{31}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Memory allocation}{31}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Compile-time memory allocation}{31}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Run-time memory allocation}{32}{subsection.4.3.2}
+\contentsline {chapter}{\chapternumberline {5}Character encoding}{32}{chapter.5}
+\contentsline {section}{\numberline {5.1}ASCII}{32}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Control characters}{32}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}Unicode}{32}{section.5.2}
+\contentsline {part}{\partnumberline {II}Development tools}{32}{part.2}
+\contentsline {chapter}{\chapternumberline {6}Build tool design}{33}{chapter.6}
+\contentsline {section}{\numberline {6.1}Build Targets}{33}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Continuous mode}{33}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Target Dependencies}{33}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Library dependencies}{33}{subsection.6.1.3}
+\contentsline {section}{\numberline {6.2}Quality metrics}{33}{section.6.2}
+\contentsline {chapter}{\chapternumberline {7}Unit test tools}{33}{chapter.7}
+\contentsline {section}{\numberline {7.1}Mox for Python}{33}{section.7.1}
+\contentsline {chapter}{\chapternumberline {8}Build tools}{34}{chapter.8}
+\contentsline {section}{\numberline {8.1}Cross-platform makefile generator}{34}{section.8.1}
+\contentsline {section}{\numberline {8.2}sbt}{34}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Dependencies - automation}{34}{subsection.8.2.1}
+\contentsline {subsubsection}{\numberline {8.2.1.1}Repository specification}{34}{subsubsection.8.2.1.1}
+\contentsline {subsubsection}{\numberline {8.2.1.2}Library specification}{34}{subsubsection.8.2.1.2}
+\contentsline {subsection}{\numberline {8.2.2}Tasks: definition}{35}{subsection.8.2.2}
+\contentsline {subsubsection}{\numberline {8.2.2.1}File IO tasks}{35}{subsubsection.8.2.2.1}
+\contentsline {subsubsection}{\numberline {8.2.2.2}Documentation}{35}{subsubsection.8.2.2.2}
+\contentsline {section}{\numberline {8.3}maven}{35}{section.8.3}
+\contentsline {chapter}{\chapternumberline {9}Task management}{35}{chapter.9}
+\contentsline {chapter}{\chapternumberline {10}Version control software}{35}{chapter.10}
+\contentsline {section}{\numberline {10.1}svn}{35}{section.10.1}
+\contentsline {section}{\numberline {10.2}git}{35}{section.10.2}
+\contentsline {subsection}{\numberline {10.2.1}Architecture}{35}{subsection.10.2.1}
+\contentsline {subsubsection}{\numberline {10.2.1.1}(Un)Ignoring changes}{36}{subsubsection.10.2.1.1}
+\contentsline {subsubsection}{\numberline {10.2.1.2}Repository commits and logs}{36}{subsubsection.10.2.1.2}
+\contentsline {subsection}{\numberline {10.2.2}Update Commands}{36}{subsection.10.2.2}
+\contentsline {subsubsection}{\numberline {10.2.2.1}Merges and stashes}{36}{subsubsection.10.2.2.1}
+\contentsline {subsubsection}{\numberline {10.2.2.2}Checking differences, tool configuration}{37}{subsubsection.10.2.2.2}
+\contentsline {subsection}{\numberline {10.2.3}UI}{37}{subsection.10.2.3}
+\contentsline {section}{\numberline {10.3}hg / mercurial}{37}{section.10.3}
+\contentsline {section}{\numberline {10.4}Version control websites}{37}{section.10.4}
+\contentsline {chapter}{\chapternumberline {11}Visualization toools}{38}{chapter.11}
+\contentsline {section}{\numberline {11.1}Graph}{38}{section.11.1}
+\contentsline {chapter}{\chapternumberline {12}Integrated Development Environment (IDE)}{38}{chapter.12}
+\contentsline {section}{\numberline {12.1}Eclipse}{38}{section.12.1}
+\contentsline {subsection}{\numberline {12.1.1}Startup configuration}{38}{subsection.12.1.1}
+\contentsline {subsection}{\numberline {12.1.2}Installing and updating components}{38}{subsection.12.1.2}
+\contentsline {subsection}{\numberline {12.1.3}Views and perspectives}{38}{subsection.12.1.3}
+\contentsline {subsection}{\numberline {12.1.4}Common operations and shortcuts}{38}{subsection.12.1.4}
+\contentsline {subsection}{\numberline {12.1.5}Functionalities}{38}{subsection.12.1.5}
+\contentsline {subsubsection}{\numberline {12.1.5.1}Java}{38}{subsubsection.12.1.5.1}
+\contentsline {part}{\partnumberline {III}General purpose programming}{38}{part.3}
+\contentsline {chapter}{\chapternumberline {13}C}{39}{chapter.13}
+\contentsline {subsection}{\numberline {13.0.6}Debugging with gdb}{39}{subsection.13.0.6}
+\contentsline {subsubsection}{\numberline {13.0.6.1}Setting breakpoints}{39}{subsubsection.13.0.6.1}
+\contentsline {subsubsection}{\numberline {13.0.6.2}Debugging after stopping}{39}{subsubsection.13.0.6.2}
+\contentsline {subsubsection}{\numberline {13.0.6.3}Memory allocation}{39}{subsubsection.13.0.6.3}
+\contentsline {subsubsection}{\numberline {13.0.6.4}Segmentation faults}{39}{subsubsection.13.0.6.4}
+\contentsline {chapter}{\chapternumberline {14}Simplified wrapper, interface generator (SWIG)}{39}{chapter.14}
+\contentsline {section}{\numberline {14.1}Purpose and mechanism}{39}{section.14.1}
+\contentsline {subsection}{\numberline {14.1.1}Persistence and memory}{40}{subsection.14.1.1}
+\contentsline {chapter}{\chapternumberline {15}Python}{40}{chapter.15}
+\contentsline {subsubsection}{\numberline {15.0.1.1}Syntax conciseness}{40}{subsubsection.15.0.1.1}
+\contentsline {subsection}{\numberline {15.0.2}Speed}{40}{subsection.15.0.2}
+\contentsline {subsection}{\numberline {15.0.3}Linting}{40}{subsection.15.0.3}
+\contentsline {subsubsection}{\numberline {15.0.3.1}Pylint commands}{40}{subsubsection.15.0.3.1}
+\contentsline {section}{\numberline {15.1}Writing, Building and executing code}{40}{section.15.1}
+\contentsline {subsection}{\numberline {15.1.1}Important env variables}{40}{subsection.15.1.1}
+\contentsline {subsection}{\numberline {15.1.2}Good IDE's}{40}{subsection.15.1.2}
+\contentsline {subsection}{\numberline {15.1.3}Point of entry}{41}{subsection.15.1.3}
+\contentsline {subsubsection}{\numberline {15.1.3.1}Arguments}{41}{subsubsection.15.1.3.1}
+\contentsline {subsection}{\numberline {15.1.4}Installing External libraries}{41}{subsection.15.1.4}
+\contentsline {section}{\numberline {15.2}Help}{41}{section.15.2}
+\contentsline {section}{\numberline {15.3}Variables and data types}{41}{section.15.3}
+\contentsline {subsubsection}{\numberline {15.3.0.1}Matlab format}{41}{subsubsection.15.3.0.1}
+\contentsline {section}{\numberline {15.4}Interfacing with other languages, the OS}{41}{section.15.4}
+\contentsline {subsection}{\numberline {15.4.1}Numeric programming}{41}{subsection.15.4.1}
+\contentsline {subsection}{\numberline {15.4.2}RPy or RPy2 for R}{41}{subsection.15.4.2}
+\contentsline {subsection}{\numberline {15.4.3}With Matlab}{41}{subsection.15.4.3}
+\contentsline {section}{\numberline {15.5}Other libraries}{42}{section.15.5}
+\contentsline {chapter}{\chapternumberline {16}Java}{42}{chapter.16}
+\contentsline {section}{\numberline {16.1}Classes}{42}{section.16.1}
+\contentsline {subsection}{\numberline {16.1.1}Important Superclasses, interfaces}{42}{subsection.16.1.1}
+\contentsline {subsubsection}{\numberline {16.1.1.1}Serializable}{42}{subsubsection.16.1.1.1}
+\contentsline {subsubsection}{\numberline {16.1.1.2}Clonable}{42}{subsubsection.16.1.1.2}
+\contentsline {section}{\numberline {16.2}IO}{42}{section.16.2}
+\contentsline {subsection}{\numberline {16.2.1}Stream}{42}{subsection.16.2.1}
+\contentsline {subsubsection}{\numberline {16.2.1.1}OutputStream}{42}{subsubsection.16.2.1.1}
+\contentsline {subsubsection}{\numberline {16.2.1.2}Output to files}{42}{subsubsection.16.2.1.2}
+\contentsline {subsubsection}{\numberline {16.2.1.3}Standard output}{43}{subsubsection.16.2.1.3}
+\contentsline {subsection}{\numberline {16.2.2}File listing}{43}{subsection.16.2.2}
+\contentsline {subsection}{\numberline {16.2.3}Read configuration files}{43}{subsection.16.2.3}
+\contentsline {section}{\numberline {16.3}CGI programming}{43}{section.16.3}
+\contentsline {subsection}{\numberline {16.3.1}Writing servlets}{43}{subsection.16.3.1}
+\contentsline {subsubsection}{\numberline {16.3.1.1}Reading input}{43}{subsubsection.16.3.1.1}
+\contentsline {subsubsection}{\numberline {16.3.1.2}Output}{43}{subsubsection.16.3.1.2}
+\contentsline {subsection}{\numberline {16.3.2}Mapping to URL}{43}{subsection.16.3.2}
+\contentsline {chapter}{\chapternumberline {17}Lua}{43}{chapter.17}
+\contentsline {section}{\numberline {17.1}Paradigms and extensibility}{43}{section.17.1}
+\contentsline {subsection}{\numberline {17.1.1}Building}{44}{subsection.17.1.1}
+\contentsline {subsection}{\numberline {17.1.2}Metatable}{44}{subsection.17.1.2}
+\contentsline {chapter}{\chapternumberline {18}Perl}{44}{chapter.18}
+\contentsline {section}{\numberline {18.1}Distinctive features}{44}{section.18.1}
+\contentsline {subsection}{\numberline {18.1.1}Richness of syntax}{44}{subsection.18.1.1}
+\contentsline {section}{\numberline {18.2}Running, building}{44}{section.18.2}
+\contentsline {subsection}{\numberline {18.2.1}Running}{44}{subsection.18.2.1}
+\contentsline {subsection}{\numberline {18.2.2}Getting help}{44}{subsection.18.2.2}
+\contentsline {part}{\partnumberline {IV}Mathematical programming}{44}{part.4}
+\contentsline {chapter}{\chapternumberline {19}Fundamental concerns}{45}{chapter.19}
+\contentsline {chapter}{\chapternumberline {20}Special libraries}{45}{chapter.20}
+\contentsline {section}{\numberline {20.1}Linear algebra libraries}{45}{section.20.1}
+\contentsline {subsection}{\numberline {20.1.1}Tuning to fit memory, processor}{45}{subsection.20.1.1}
+\contentsline {subsection}{\numberline {20.1.2}Dense linear algebra}{45}{subsection.20.1.2}
+\contentsline {subsection}{\numberline {20.1.3}Sparse linear algebra}{45}{subsection.20.1.3}
+\contentsline {chapter}{\chapternumberline {21}Matlab/ Octave}{45}{chapter.21}
+\contentsline {section}{\numberline {21.1}Introduction}{45}{section.21.1}
+\contentsline {subsection}{\numberline {21.1.1}Distinctive features of the language}{45}{subsection.21.1.1}
+\contentsline {subsubsection}{\numberline {21.1.1.1}Purpose of design}{45}{subsubsection.21.1.1.1}
+\contentsline {subsubsection}{\numberline {21.1.1.2}Versions}{46}{subsubsection.21.1.1.2}
+\contentsline {subsection}{\numberline {21.1.2}Speed}{46}{subsection.21.1.2}
+\contentsline {subsubsection}{\numberline {21.1.2.1}Speeding up loops}{46}{subsubsection.21.1.2.1}
+\contentsline {paragraph}{Preallocate memory}{46}{section*.8}
+\contentsline {paragraph}{Use C}{46}{section*.9}
+\contentsline {paragraph}{Make function logic inline}{46}{section*.10}
+\contentsline {subsection}{\numberline {21.1.3}Using External libraries}{46}{subsection.21.1.3}
+\contentsline {subsubsection}{\numberline {21.1.3.1}Locating libraries}{46}{subsubsection.21.1.3.1}
+\contentsline {subsubsection}{\numberline {21.1.3.2}Installing and using}{46}{subsubsection.21.1.3.2}
+\contentsline {subsection}{\numberline {21.1.4}Building and executing code}{47}{subsection.21.1.4}
+\contentsline {subsubsection}{\numberline {21.1.4.1}Useful options}{47}{subsubsection.21.1.4.1}
+\contentsline {subsubsection}{\numberline {21.1.4.2}Good IDE's}{47}{subsubsection.21.1.4.2}
+\contentsline {subsection}{\numberline {21.1.5}Debugging}{47}{subsection.21.1.5}
+\contentsline {subsubsection}{\numberline {21.1.5.1}Profiling code for bottlenecks}{47}{subsubsection.21.1.5.1}
+\contentsline {subsection}{\numberline {21.1.6}Help}{47}{subsection.21.1.6}
+\contentsline {section}{\numberline {21.2}Constants and data types}{47}{section.21.2}
+\contentsline {subsection}{\numberline {21.2.1}Data types of constants}{47}{subsection.21.2.1}
+\contentsline {subsection}{\numberline {21.2.2}Important constants}{47}{subsection.21.2.2}
+\contentsline {subsection}{\numberline {21.2.3}Arrays}{47}{subsection.21.2.3}
+\contentsline {subsubsection}{\numberline {21.2.3.1}Matrix}{48}{subsubsection.21.2.3.1}
+\contentsline {subsubsection}{\numberline {21.2.3.2}Data generation functions}{48}{subsubsection.21.2.3.2}
+\contentsline {subsubsection}{\numberline {21.2.3.3}Array indexing}{48}{subsubsection.21.2.3.3}
+\contentsline {subsection}{\numberline {21.2.4}Cell array}{48}{subsection.21.2.4}
+\contentsline {subsubsection}{\numberline {21.2.4.1}Cell elements: indexing, altering}{49}{subsubsection.21.2.4.1}
+\contentsline {subsubsection}{\numberline {21.2.4.2}Cell values}{49}{subsubsection.21.2.4.2}
+\contentsline {subsection}{\numberline {21.2.5}Data-type conversion}{49}{subsection.21.2.5}
+\contentsline {subsection}{\numberline {21.2.6}Structures}{49}{subsection.21.2.6}
+\contentsline {subsubsection}{\numberline {21.2.6.1}struct}{49}{subsubsection.21.2.6.1}
+\contentsline {subsubsection}{\numberline {21.2.6.2}Use Java objects}{49}{subsubsection.21.2.6.2}
+\contentsline {subsection}{\numberline {21.2.7}Function handles}{49}{subsection.21.2.7}
+\contentsline {subsubsection}{\numberline {21.2.7.1}Reparametrization}{49}{subsubsection.21.2.7.1}
+\contentsline {subsubsection}{\numberline {21.2.7.2}Anonymous functions}{50}{subsubsection.21.2.7.2}
+\contentsline {subsubsection}{\numberline {21.2.7.3}Clearing memory}{50}{subsubsection.21.2.7.3}
+\contentsline {subsection}{\numberline {21.2.8}Objects}{50}{subsection.21.2.8}
+\contentsline {subsubsection}{\numberline {21.2.8.1}Object creation}{50}{subsubsection.21.2.8.1}
+\contentsline {subsubsection}{\numberline {21.2.8.2}Access/ manipulate objects}{50}{subsubsection.21.2.8.2}
+\contentsline {section}{\numberline {21.3}Memory, variable management}{50}{section.21.3}
+\contentsline {subsection}{\numberline {21.3.1}Clearing, recompiling}{50}{subsection.21.3.1}
+\contentsline {section}{\numberline {21.4}Data manipulation}{50}{section.21.4}
+\contentsline {subsection}{\numberline {21.4.1}Operators}{50}{subsection.21.4.1}
+\contentsline {subsubsection}{\numberline {21.4.1.1}Unary}{50}{subsubsection.21.4.1.1}
+\contentsline {subsubsection}{\numberline {21.4.1.2}Boolean valued operators}{50}{subsubsection.21.4.1.2}
+\contentsline {subsubsection}{\numberline {21.4.1.3}Boolean operations on matrices}{50}{subsubsection.21.4.1.3}
+\contentsline {subsubsection}{\numberline {21.4.1.4}Arithmatic operators}{50}{subsubsection.21.4.1.4}
+\contentsline {subsubsection}{\numberline {21.4.1.5}Multi-ary}{51}{subsubsection.21.4.1.5}
+\contentsline {subsubsection}{\numberline {21.4.1.6}Component-wise operations}{51}{subsubsection.21.4.1.6}
+\contentsline {subsubsection}{\numberline {21.4.1.7}Matrix operators}{51}{subsubsection.21.4.1.7}
+\contentsline {subsection}{\numberline {21.4.2}Operation with constant arrays: shortcuts}{51}{subsection.21.4.2}
+\contentsline {subsection}{\numberline {21.4.3}Array processing functions}{51}{subsection.21.4.3}
+\contentsline {subsubsection}{\numberline {21.4.3.1}Array statistics}{51}{subsubsection.21.4.3.1}
+\contentsline {subsubsection}{\numberline {21.4.3.2}Reshape array}{51}{subsubsection.21.4.3.2}
+\contentsline {subsubsection}{\numberline {21.4.3.3}Alter matrix}{51}{subsubsection.21.4.3.3}
+\contentsline {subsection}{\numberline {21.4.4}Vector processing functions}{51}{subsection.21.4.4}
+\contentsline {subsubsection}{\numberline {21.4.4.1}String manipulation}{52}{subsubsection.21.4.4.1}
+\contentsline {subsection}{\numberline {21.4.5}Matrix functionals}{52}{subsection.21.4.5}
+\contentsline {subsubsection}{\numberline {21.4.5.1}svd and eig}{52}{subsubsection.21.4.5.1}
+\contentsline {section}{\numberline {21.5}Code structure}{52}{section.21.5}
+\contentsline {subsection}{\numberline {21.5.1}Sentence syntax}{52}{subsection.21.5.1}
+\contentsline {subsubsection}{\numberline {21.5.1.1}Commenting}{52}{subsubsection.21.5.1.1}
+\contentsline {subsection}{\numberline {21.5.2}Functions and commands}{52}{subsection.21.5.2}
+\contentsline {subsubsection}{\numberline {21.5.2.1}Commands}{52}{subsubsection.21.5.2.1}
+\contentsline {subsubsection}{\numberline {21.5.2.2}Functions without side-effects}{52}{subsubsection.21.5.2.2}
+\contentsline {subsubsection}{\numberline {21.5.2.3}Syntax of function defn}{53}{subsubsection.21.5.2.3}
+\contentsline {subsubsection}{\numberline {21.5.2.4}Anonymous / temporary functions}{53}{subsubsection.21.5.2.4}
+\contentsline {subsubsection}{\numberline {21.5.2.5}Nested functions}{53}{subsubsection.21.5.2.5}
+\contentsline {paragraph}{Definition}{53}{section*.25}
+\contentsline {paragraph}{Variable scope}{53}{section*.26}
+\contentsline {paragraph}{Restrictions on modifying runtime workspace}{53}{section*.27}
+\contentsline {subsubsection}{\numberline {21.5.2.6}Checking input and output structure}{53}{subsubsection.21.5.2.6}
+\contentsline {subsubsection}{\numberline {21.5.2.7}Invocation}{54}{subsubsection.21.5.2.7}
+\contentsline {subsection}{\numberline {21.5.3}Define classes, packages}{54}{subsection.21.5.3}
+\contentsline {subsubsection}{\numberline {21.5.3.1}Modifiers}{55}{subsubsection.21.5.3.1}
+\contentsline {subsubsection}{\numberline {21.5.3.2}Directory structure}{55}{subsubsection.21.5.3.2}
+\contentsline {subsubsection}{\numberline {21.5.3.3}Ceveat about 2007 version}{55}{subsubsection.21.5.3.3}
+\contentsline {subsubsection}{\numberline {21.5.3.4}Check errors in definition}{55}{subsubsection.21.5.3.4}
+\contentsline {subsubsection}{\numberline {21.5.3.5}Specifying events}{55}{subsubsection.21.5.3.5}
+\contentsline {subsection}{\numberline {21.5.4}Branching structures}{56}{subsection.21.5.4}
+\contentsline {subsection}{\numberline {21.5.5}Loop structures}{56}{subsection.21.5.5}
+\contentsline {subsubsection}{\numberline {21.5.5.1}break and continue}{56}{subsubsection.21.5.5.1}
+\contentsline {subsubsection}{\numberline {21.5.5.2}Avoiding loops in place of matrix ops}{56}{subsubsection.21.5.5.2}
+\contentsline {subsection}{\numberline {21.5.6}Error handling}{56}{subsection.21.5.6}
+\contentsline {subsubsection}{\numberline {21.5.6.1}Throwing errors}{56}{subsubsection.21.5.6.1}
+\contentsline {subsubsection}{\numberline {21.5.6.2}Throwing warnings}{57}{subsubsection.21.5.6.2}
+\contentsline {subsubsection}{\numberline {21.5.6.3}Assertions about input}{57}{subsubsection.21.5.6.3}
+\contentsline {section}{\numberline {21.6}Visualization}{57}{section.21.6}
+\contentsline {subsection}{\numberline {21.6.1}Creating a figure}{57}{subsection.21.6.1}
+\contentsline {subsection}{\numberline {21.6.2}Plotting data}{57}{subsection.21.6.2}
+\contentsline {subsubsection}{\numberline {21.6.2.1}Line specifications}{57}{subsubsection.21.6.2.1}
+\contentsline {subsection}{\numberline {21.6.3}Plot properties}{57}{subsection.21.6.3}
+\contentsline {subsection}{\numberline {21.6.4}Visualize matrix}{58}{subsection.21.6.4}
+\contentsline {subsection}{\numberline {21.6.5}Visualize matrices}{58}{subsection.21.6.5}
+\contentsline {section}{\numberline {21.7}Prallel programming}{58}{section.21.7}
+\contentsline {subsection}{\numberline {21.7.1}Multi-threaded programming}{58}{subsection.21.7.1}
+\contentsline {subsection}{\numberline {21.7.2}With matlab toolbox}{58}{subsection.21.7.2}
+\contentsline {subsubsection}{\numberline {21.7.2.1}Processor pool}{58}{subsubsection.21.7.2.1}
+\contentsline {subsubsection}{\numberline {21.7.2.2}parfor loop}{58}{subsubsection.21.7.2.2}
+\contentsline {subsubsection}{\numberline {21.7.2.3}Other tools}{58}{subsubsection.21.7.2.3}
+\contentsline {section}{\numberline {21.8}System IO}{58}{section.21.8}
+\contentsline {section}{\numberline {21.9}Other library functions}{58}{section.21.9}
+\contentsline {subsection}{\numberline {21.9.1}Useful external toolboxes/ packages}{58}{subsection.21.9.1}
+\contentsline {subsection}{\numberline {21.9.2}Solving Matrix problems}{59}{subsection.21.9.2}
+\contentsline {subsection}{\numberline {21.9.3}File I/O}{59}{subsection.21.9.3}
+\contentsline {subsubsection}{\numberline {21.9.3.1}Log files}{59}{subsubsection.21.9.3.1}
+\contentsline {subsubsection}{\numberline {21.9.3.2}Loading formatted data}{59}{subsubsection.21.9.3.2}
+\contentsline {subsubsection}{\numberline {21.9.3.3}C like functions}{59}{subsubsection.21.9.3.3}
+\contentsline {subsection}{\numberline {21.9.4}User interaction I/O}{59}{subsection.21.9.4}
+\contentsline {subsection}{\numberline {21.9.5}Solve general optimization problem}{59}{subsection.21.9.5}
+\contentsline {subsection}{\numberline {21.9.6}Algebra}{59}{subsection.21.9.6}
+\contentsline {subsection}{\numberline {21.9.7}Measure time}{59}{subsection.21.9.7}
+\contentsline {section}{\numberline {21.10}mex: Using C functions}{59}{section.21.10}
+\contentsline {subsection}{\numberline {21.10.1}Interface}{60}{subsection.21.10.1}
+\contentsline {subsubsection}{\numberline {21.10.1.1}Debugging}{60}{subsubsection.21.10.1.1}
+\contentsline {subsection}{\numberline {21.10.2}mxarray datatype}{60}{subsection.21.10.2}
+\contentsline {subsubsection}{\numberline {21.10.2.1}Creation}{60}{subsubsection.21.10.2.1}
+\contentsline {subsubsection}{\numberline {21.10.2.2}Array access}{60}{subsubsection.21.10.2.2}
+\contentsline {subsubsection}{\numberline {21.10.2.3}Array modification}{60}{subsubsection.21.10.2.3}
+\contentsline {subsubsection}{\numberline {21.10.2.4}Memory management}{60}{subsubsection.21.10.2.4}
+\contentsline {subsection}{\numberline {21.10.3}Executing matlab commands}{60}{subsection.21.10.3}
+\contentsline {subsection}{\numberline {21.10.4}User IO}{61}{subsection.21.10.4}
+\contentsline {subsection}{\numberline {21.10.5}Input validation}{61}{subsection.21.10.5}
+\contentsline {section}{\numberline {21.11}Java}{61}{section.21.11}
+\contentsline {subsection}{\numberline {21.11.1}Advantages}{61}{subsection.21.11.1}
+\contentsline {subsection}{\numberline {21.11.2}Classpath}{61}{subsection.21.11.2}
+\contentsline {chapter}{\chapternumberline {22}Optimization software}{61}{chapter.22}
+\contentsline {section}{\numberline {22.1}cvx}{61}{section.22.1}
+\contentsline {subsection}{\numberline {22.1.1}Distinctive features}{61}{subsection.22.1.1}
+\contentsline {subsubsection}{\numberline {22.1.1.1}Disciplined convex programming framework}{61}{subsubsection.22.1.1.1}
+\contentsline {subsubsection}{\numberline {22.1.1.2}Defects}{61}{subsubsection.22.1.1.2}
+\contentsline {subsubsection}{\numberline {22.1.1.3}Other features}{62}{subsubsection.22.1.1.3}
+\contentsline {subsection}{\numberline {22.1.2}Help}{62}{subsection.22.1.2}
+\contentsline {subsection}{\numberline {22.1.3}Specification structure}{62}{subsection.22.1.3}
+\contentsline {subsubsection}{\numberline {22.1.3.1}Matrix variables and constraints}{62}{subsubsection.22.1.3.1}
+\contentsline {subsection}{\numberline {22.1.4}Error reporting and dimensions}{62}{subsection.22.1.4}
+\contentsline {subsubsection}{\numberline {22.1.4.1}Scalars and 1*1 matrix}{62}{subsubsection.22.1.4.1}
+\contentsline {subsection}{\numberline {22.1.5}Solution, program variable}{63}{subsection.22.1.5}
+\contentsline {subsubsection}{\numberline {22.1.5.1}Datatype of the program variable}{63}{subsubsection.22.1.5.1}
+\contentsline {subsubsection}{\numberline {22.1.5.2}Solution variables}{63}{subsubsection.22.1.5.2}
+\contentsline {section}{\numberline {22.2}Matlab optimization toolbox}{63}{section.22.2}
+\contentsline {subsection}{\numberline {22.2.1}Unconstrained minimization}{63}{subsection.22.2.1}
+\contentsline {subsubsection}{\numberline {22.2.1.1}fminsearch}{63}{subsubsection.22.2.1.1}
+\contentsline {subsubsection}{\numberline {22.2.1.2}fminunc}{63}{subsubsection.22.2.1.2}
+\contentsline {subsection}{\numberline {22.2.2}fmincon}{63}{subsection.22.2.2}
+\contentsline {subsection}{\numberline {22.2.3}Other functions}{63}{subsection.22.2.3}
+\contentsline {subsection}{\numberline {22.2.4}Options}{64}{subsection.22.2.4}
+\contentsline {chapter}{\chapternumberline {23}R}{64}{chapter.23}
+\contentsline {section}{\numberline {23.1}Introduction and use}{64}{section.23.1}
+\contentsline {subsection}{\numberline {23.1.1}When to use}{64}{subsection.23.1.1}
+\contentsline {subsection}{\numberline {23.1.2}When not to use}{64}{subsection.23.1.2}
+\contentsline {subsection}{\numberline {23.1.3}Writing, Building and executing code}{64}{subsection.23.1.3}
+\contentsline {subsubsection}{\numberline {23.1.3.1}Script execution}{64}{subsubsection.23.1.3.1}
+\contentsline {subsubsection}{\numberline {23.1.3.2}Reloading changed code}{64}{subsubsection.23.1.3.2}
+\contentsline {subsubsection}{\numberline {23.1.3.3}Important environment variables}{64}{subsubsection.23.1.3.3}
+\contentsline {subsubsection}{\numberline {23.1.3.4}Working environment}{64}{subsubsection.23.1.3.4}
+\contentsline {subsubsection}{\numberline {23.1.3.5}Command history}{64}{subsubsection.23.1.3.5}
+\contentsline {subsubsection}{\numberline {23.1.3.6}Good IDE's}{64}{subsubsection.23.1.3.6}
+\contentsline {subsection}{\numberline {23.1.4}Listing and memory}{65}{subsection.23.1.4}
+\contentsline {subsection}{\numberline {23.1.5}Development environment}{65}{subsection.23.1.5}
+\contentsline {subsection}{\numberline {23.1.6}Debugging}{65}{subsection.23.1.6}
+\contentsline {subsection}{\numberline {23.1.7}Help}{65}{subsection.23.1.7}
+\contentsline {subsection}{\numberline {23.1.8}libraries}{65}{subsection.23.1.8}
+\contentsline {subsubsection}{\numberline {23.1.8.1}Seeking}{65}{subsubsection.23.1.8.1}
+\contentsline {subsubsection}{\numberline {23.1.8.2}Using}{65}{subsubsection.23.1.8.2}
+\contentsline {subsubsection}{\numberline {23.1.8.3}Installing}{65}{subsubsection.23.1.8.3}
+\contentsline {section}{\numberline {23.2}Data: types, values, variables}{65}{section.23.2}
+\contentsline {subsection}{\numberline {23.2.1}Names and namespace}{65}{subsection.23.2.1}
+\contentsline {subsubsection}{\numberline {23.2.1.1}Valid names}{65}{subsubsection.23.2.1.1}
+\contentsline {subsubsection}{\numberline {23.2.1.2}Namespace}{66}{subsubsection.23.2.1.2}
+\contentsline {subsubsection}{\numberline {23.2.1.3}Accessing list members directly}{66}{subsubsection.23.2.1.3}
+\contentsline {subsection}{\numberline {23.2.2}Object}{66}{subsection.23.2.2}
+\contentsline {subsubsection}{\numberline {23.2.2.1}Accessing attributes}{66}{subsubsection.23.2.2.1}
+\contentsline {subsubsection}{\numberline {23.2.2.2}Setting attributes}{66}{subsubsection.23.2.2.2}
+\contentsline {subsubsection}{\numberline {23.2.2.3}Important attributes}{66}{subsubsection.23.2.2.3}
+\contentsline {subsection}{\numberline {23.2.3}Modes and type}{66}{subsection.23.2.3}
+\contentsline {subsubsection}{\numberline {23.2.3.1}Basic modes}{66}{subsubsection.23.2.3.1}
+\contentsline {subsection}{\numberline {23.2.4}Scalar values and operations}{66}{subsection.23.2.4}
+\contentsline {subsubsection}{\numberline {23.2.4.1}Special values}{66}{subsubsection.23.2.4.1}
+\contentsline {subsection}{\numberline {23.2.5}Data conversion}{67}{subsection.23.2.5}
+\contentsline {subsection}{\numberline {23.2.6}Vectors}{67}{subsection.23.2.6}
+\contentsline {subsubsection}{\numberline {23.2.6.1}The basic math object}{67}{subsubsection.23.2.6.1}
+\contentsline {subsubsection}{\numberline {23.2.6.2}Homegeneity}{67}{subsubsection.23.2.6.2}
+\contentsline {subsubsection}{\numberline {23.2.6.3}Named entries}{67}{subsubsection.23.2.6.3}
+\contentsline {subsubsection}{\numberline {23.2.6.4}Indexing}{67}{subsubsection.23.2.6.4}
+\contentsline {subsubsection}{\numberline {23.2.6.5}Creating vectors}{67}{subsubsection.23.2.6.5}
+\contentsline {subsubsection}{\numberline {23.2.6.6}Vector statistics functions}{67}{subsubsection.23.2.6.6}
+\contentsline {subsubsection}{\numberline {23.2.6.7}Apply scalar functions}{67}{subsubsection.23.2.6.7}
+\contentsline {subsection}{\numberline {23.2.7}Factor}{68}{subsection.23.2.7}
+\contentsline {subsection}{\numberline {23.2.8}Strings}{68}{subsection.23.2.8}
+\contentsline {subsubsection}{\numberline {23.2.8.1}String manipulation}{68}{subsubsection.23.2.8.1}
+\contentsline {subsection}{\numberline {23.2.9}Dates}{68}{subsection.23.2.9}
+\contentsline {subsubsection}{\numberline {23.2.9.1}String connection}{68}{subsubsection.23.2.9.1}
+\contentsline {subsubsection}{\numberline {23.2.9.2}Arithmetic operations}{68}{subsubsection.23.2.9.2}
+\contentsline {subsection}{\numberline {23.2.10}Arrays/ matrices}{68}{subsection.23.2.10}
+\contentsline {subsubsection}{\numberline {23.2.10.1}As special vectors}{68}{subsubsection.23.2.10.1}
+\contentsline {subsubsection}{\numberline {23.2.10.2}Indexing}{68}{subsubsection.23.2.10.2}
+\contentsline {subsubsection}{\numberline {23.2.10.3}Data creation}{68}{subsubsection.23.2.10.3}
+\contentsline {paragraph}{Matrices}{68}{section*.40}
+\contentsline {subsubsection}{\numberline {23.2.10.4}Dimension-wise oeprations}{69}{subsubsection.23.2.10.4}
+\contentsline {subsubsection}{\numberline {23.2.10.5}Matrix functions}{69}{subsubsection.23.2.10.5}
+\contentsline {paragraph}{Linear algebra}{69}{section*.41}
+\contentsline {subsection}{\numberline {23.2.11}Lists}{69}{subsection.23.2.11}
+\contentsline {subsubsection}{\numberline {23.2.11.1}List creation}{69}{subsubsection.23.2.11.1}
+\contentsline {subsubsection}{\numberline {23.2.11.2}Accessing list items}{69}{subsubsection.23.2.11.2}
+\contentsline {subsubsection}{\numberline {23.2.11.3}Concatenation}{69}{subsubsection.23.2.11.3}
+\contentsline {subsection}{\numberline {23.2.12}Data frame}{69}{subsection.23.2.12}
+\contentsline {subsubsection}{\numberline {23.2.12.1}Creation}{69}{subsubsection.23.2.12.1}
+\contentsline {subsubsection}{\numberline {23.2.12.2}Conversion}{70}{subsubsection.23.2.12.2}
+\contentsline {subsubsection}{\numberline {23.2.12.3}Indexing}{70}{subsubsection.23.2.12.3}
+\contentsline {subsubsection}{\numberline {23.2.12.4}Searching}{70}{subsubsection.23.2.12.4}
+\contentsline {subsubsection}{\numberline {23.2.12.5}Concatenation}{70}{subsubsection.23.2.12.5}
+\contentsline {subsection}{\numberline {23.2.13}Model Formulae}{70}{subsection.23.2.13}
+\contentsline {subsection}{\numberline {23.2.14}Functions}{70}{subsection.23.2.14}
+\contentsline {subsubsection}{\numberline {23.2.14.1}Definition}{70}{subsubsection.23.2.14.1}
+\contentsline {subsubsection}{\numberline {23.2.14.2}Variables used}{70}{subsubsection.23.2.14.2}
+\contentsline {subsubsection}{\numberline {23.2.14.3}Operator defintions}{71}{subsubsection.23.2.14.3}
+\contentsline {subsubsection}{\numberline {23.2.14.4}Invocation}{71}{subsubsection.23.2.14.4}
+\contentsline {section}{\numberline {23.3}Operator}{71}{section.23.3}
+\contentsline {subsection}{\numberline {23.3.1}Assignment}{71}{subsection.23.3.1}
+\contentsline {subsection}{\numberline {23.3.2}Scalar operators}{71}{subsection.23.3.2}
+\contentsline {subsubsection}{\numberline {23.3.2.1}Arithmetic operators}{71}{subsubsection.23.3.2.1}
+\contentsline {subsubsection}{\numberline {23.3.2.2}Operators on booleans}{71}{subsubsection.23.3.2.2}
+\contentsline {subsubsection}{\numberline {23.3.2.3}Operators which produce booleans}{71}{subsubsection.23.3.2.3}
+\contentsline {subsection}{\numberline {23.3.3}General Vector operators}{71}{subsection.23.3.3}
+\contentsline {subsubsection}{\numberline {23.3.3.1}Mapping over elements}{71}{subsubsection.23.3.3.1}
+\contentsline {subsubsection}{\numberline {23.3.3.2}Arithmetic and boolean ops}{71}{subsubsection.23.3.3.2}
+\contentsline {subsubsection}{\numberline {23.3.3.3}Lengthening of arguments}{71}{subsubsection.23.3.3.3}
+\contentsline {paragraph}{Examples}{72}{section*.42}
+\contentsline {subsubsection}{\numberline {23.3.3.4}ifelse op}{72}{subsubsection.23.3.3.4}
+\contentsline {subsubsection}{\numberline {23.3.3.5}Set membership}{72}{subsubsection.23.3.3.5}
+\contentsline {subsubsection}{\numberline {23.3.3.6}Missing value identification}{72}{subsubsection.23.3.3.6}
+\contentsline {section}{\numberline {23.4}Code structure}{72}{section.23.4}
+\contentsline {subsection}{\numberline {23.4.1}Code blocks}{72}{subsection.23.4.1}
+\contentsline {subsection}{\numberline {23.4.2}Sentence syntax}{72}{subsection.23.4.2}
+\contentsline {subsection}{\numberline {23.4.3}Decision structures}{72}{subsection.23.4.3}
+\contentsline {subsection}{\numberline {23.4.4}Packages}{72}{subsection.23.4.4}
+\contentsline {subsection}{\numberline {23.4.5}Organization with lists}{72}{subsection.23.4.5}
+\contentsline {section}{\numberline {23.5}IO}{73}{section.23.5}
+\contentsline {subsection}{\numberline {23.5.1}File I/O}{73}{subsection.23.5.1}
+\contentsline {subsection}{\numberline {23.5.2}User interaction I/O}{73}{subsection.23.5.2}
+\contentsline {subsubsection}{\numberline {23.5.2.1}output}{73}{subsubsection.23.5.2.1}
+\contentsline {subsubsection}{\numberline {23.5.2.2}Input}{73}{subsubsection.23.5.2.2}
+\contentsline {subsection}{\numberline {23.5.3}Plotting and tables}{73}{subsection.23.5.3}
+\contentsline {section}{\numberline {23.6}Data preparation and exploration}{73}{section.23.6}
+\contentsline {section}{\numberline {23.7}Modeling}{73}{section.23.7}
+\contentsline {subsection}{\numberline {23.7.1}Classification}{73}{subsection.23.7.1}
+\contentsline {subsubsection}{\numberline {23.7.1.1}Logistic regression}{73}{subsubsection.23.7.1.1}
+\contentsline {subsubsection}{\numberline {23.7.1.2}Logistic regression with l1/l2 regularization}{74}{subsubsection.23.7.1.2}
+\contentsline {subsubsection}{\numberline {23.7.1.3}Decision tree: rpart and tree}{74}{subsubsection.23.7.1.3}
+\contentsline {section}{\numberline {23.8}Other library functions}{74}{section.23.8}
+\contentsline {subsection}{\numberline {23.8.1}Random sampling}{74}{subsection.23.8.1}
+\contentsline {section}{\numberline {23.9}Write C extensions}{74}{section.23.9}
+\contentsline {subsection}{\numberline {23.9.1}Write C code}{74}{subsection.23.9.1}
+\contentsline {subsection}{\numberline {23.9.2}Calling C code}{74}{subsection.23.9.2}
+\contentsline {chapter}{\chapternumberline {24}Rapidminer}{74}{chapter.24}
+\contentsline {section}{\numberline {24.1}Introduction}{74}{section.24.1}
+\contentsline {subsection}{\numberline {24.1.1}Purpose}{74}{subsection.24.1.1}
+\contentsline {subsection}{\numberline {24.1.2}UI and API}{74}{subsection.24.1.2}
+\contentsline {subsection}{\numberline {24.1.3}Data types}{75}{subsection.24.1.3}
+\contentsline {section}{\numberline {24.2}Processes}{75}{section.24.2}
+\contentsline {subsection}{\numberline {24.2.1}Operators}{75}{subsection.24.2.1}
+\contentsline {section}{\numberline {24.3}Data view}{75}{section.24.3}
+\contentsline {chapter}{\chapternumberline {25}Spreadsheet programs}{75}{chapter.25}
+\contentsline {section}{\numberline {25.1}Google docs}{75}{section.25.1}
+\contentsline {subsection}{\numberline {25.1.1}Cell referencing}{75}{subsection.25.1.1}
+\contentsline {subsection}{\numberline {25.1.2}Range specification}{75}{subsection.25.1.2}
+\contentsline {subsection}{\numberline {25.1.3}Filtering}{76}{subsection.25.1.3}
+\contentsline {subsubsection}{\numberline {25.1.3.1}Condition specification}{76}{subsubsection.25.1.3.1}
+\contentsline {subsection}{\numberline {25.1.4}Counting}{76}{subsection.25.1.4}
+\contentsline {subsection}{\numberline {25.1.5}Summation}{76}{subsection.25.1.5}
+\contentsline {subsection}{\numberline {25.1.6}Averaging}{76}{subsection.25.1.6}
+\contentsline {subsection}{\numberline {25.1.7}Looking up values}{76}{subsection.25.1.7}
+\contentsline {part}{\partnumberline {V}Shell Scripting and OS work}{76}{part.5}
+\contentsline {chapter}{\chapternumberline {26}General tasks}{76}{chapter.26}
+\contentsline {section}{\numberline {26.1}Scanning documents with camera}{76}{section.26.1}
+\contentsline {subsection}{\numberline {26.1.1}Cropping}{76}{subsection.26.1.1}
+\contentsline {subsection}{\numberline {26.1.2}Enhancement}{77}{subsection.26.1.2}
+\contentsline {subsection}{\numberline {26.1.3}Compression}{77}{subsection.26.1.3}
+\contentsline {section}{\numberline {26.2}File synchronization}{77}{section.26.2}
+\contentsline {section}{\numberline {26.3}VOIP}{77}{section.26.3}
+\contentsline {section}{\numberline {26.4}Booting to special modes}{77}{section.26.4}
+\contentsline {subsection}{\numberline {26.4.1}Atrix boot modes}{77}{subsection.26.4.1}
+\contentsline {subsubsection}{\numberline {26.4.1.1}Fastboot}{77}{subsubsection.26.4.1.1}
+\contentsline {subsubsection}{\numberline {26.4.1.2}Recovery}{77}{subsubsection.26.4.1.2}
+\contentsline {section}{\numberline {26.5}Virtual machines, emulators}{78}{section.26.5}
+\contentsline {subsection}{\numberline {26.5.1}Emulators on linux}{78}{subsection.26.5.1}
+\contentsline {subsubsection}{\numberline {26.5.1.1}Java virtual machines}{78}{subsubsection.26.5.1.1}
+\contentsline {chapter}{\chapternumberline {27}Pocket computer OS usage}{78}{chapter.27}
+\contentsline {section}{\numberline {27.1}Special tasks}{78}{section.27.1}
+\contentsline {subsection}{\numberline {27.1.1}Syncing media}{78}{subsection.27.1.1}
+\contentsline {subsection}{\numberline {27.1.2}Podcasts}{78}{subsection.27.1.2}
+\contentsline {subsection}{\numberline {27.1.3}Scanning}{78}{subsection.27.1.3}
+\contentsline {subsection}{\numberline {27.1.4}Offline navigation}{78}{subsection.27.1.4}
+\contentsline {subsection}{\numberline {27.1.5}Ebook conversion}{78}{subsection.27.1.5}
+\contentsline {subsubsection}{\numberline {27.1.5.1}Calibre}{78}{subsubsection.27.1.5.1}
+\contentsline {subsection}{\numberline {27.1.6}Keypad commands}{79}{subsection.27.1.6}
+\contentsline {subsubsection}{\numberline {27.1.6.1}Android}{79}{subsubsection.27.1.6.1}
+\contentsline {subsection}{\numberline {27.1.7}Unlock bootloader}{79}{subsection.27.1.7}
+\contentsline {subsubsection}{\numberline {27.1.7.1}Atrix running Gingerbread}{79}{subsubsection.27.1.7.1}
+\contentsline {subsection}{\numberline {27.1.8}Exploring files from a computer}{79}{subsection.27.1.8}
+\contentsline {subsubsection}{\numberline {27.1.8.1}Android}{79}{subsubsection.27.1.8.1}
+\contentsline {subsection}{\numberline {27.1.9}Enable and use root access}{79}{subsection.27.1.9}
+\contentsline {subsubsection}{\numberline {27.1.9.1}Atrix running gingerbread}{80}{subsubsection.27.1.9.1}
+\contentsline {subsection}{\numberline {27.1.10}File transfer: Android}{80}{subsection.27.1.10}
+\contentsline {subsubsection}{\numberline {27.1.10.1}Enable Writeability}{80}{subsubsection.27.1.10.1}
+\contentsline {section}{\numberline {27.2}Kindle keyboard}{80}{section.27.2}
+\contentsline {subsection}{\numberline {27.2.1}Diagnostic pages}{80}{subsection.27.2.1}
+\contentsline {subsection}{\numberline {27.2.2}Shortcuts}{80}{subsection.27.2.2}
+\contentsline {chapter}{\chapternumberline {28}Linux OS}{80}{chapter.28}
+\contentsline {subsubsection}{\numberline {28.0.2.1}perl}{80}{subsubsection.28.0.2.1}
+\contentsline {section}{\numberline {28.1}Graphical user interface}{80}{section.28.1}
+\contentsline {subsection}{\numberline {28.1.1}Common settings}{81}{subsection.28.1.1}
+\contentsline {subsection}{\numberline {28.1.2}Gnome}{81}{subsection.28.1.2}
+\contentsline {subsubsection}{\numberline {28.1.2.1}Editing configuration}{81}{subsubsection.28.1.2.1}
+\contentsline {subsection}{\numberline {28.1.3}KDE}{81}{subsection.28.1.3}
+\contentsline {section}{\numberline {28.2}Others}{81}{section.28.2}
+\contentsline {section}{\numberline {28.3}Editing}{81}{section.28.3}
+\contentsline {subsection}{\numberline {28.3.1}Editors}{81}{subsection.28.3.1}
+\contentsline {subsection}{\numberline {28.3.2}Programmatic editing}{81}{subsection.28.3.2}
+\contentsline {subsection}{\numberline {28.3.3}vi}{82}{subsection.28.3.3}
+\contentsline {subsubsection}{\numberline {28.3.3.1}Modes}{82}{subsubsection.28.3.3.1}
+\contentsline {subsubsection}{\numberline {28.3.3.2}Commands and pattern matching}{82}{subsubsection.28.3.3.2}
+\contentsline {section}{\numberline {28.4}Resource check}{82}{section.28.4}
+\contentsline {section}{\numberline {28.5}Image processing}{82}{section.28.5}
+\contentsline {section}{\numberline {28.6}Installation}{82}{section.28.6}
+\contentsline {chapter}{\chapternumberline {29}BASH scripting}{82}{chapter.29}
+\contentsline {section}{\numberline {29.1}Characteristic features}{82}{section.29.1}
+\contentsline {subsection}{\numberline {29.1.1}Command construction, execution}{82}{subsection.29.1.1}
+\contentsline {subsection}{\numberline {29.1.2}Logic limitations}{82}{subsection.29.1.2}
+\contentsline {section}{\numberline {29.2}Writing and executing code}{83}{section.29.2}
+\contentsline {subsection}{\numberline {29.2.1}Context}{83}{subsection.29.2.1}
+\contentsline {subsubsection}{\numberline {29.2.1.1}Current context}{83}{subsubsection.29.2.1.1}
+\contentsline {subsubsection}{\numberline {29.2.1.2}New context}{83}{subsubsection.29.2.1.2}
+\contentsline {paragraph}{Invocation as a command}{83}{section*.44}
+\contentsline {subsection}{\numberline {29.2.2}Environment variables}{83}{subsection.29.2.2}
+\contentsline {subsubsection}{\numberline {29.2.2.1}Setting}{83}{subsubsection.29.2.2.1}
+\contentsline {section}{\numberline {29.3}Variables and data}{83}{section.29.3}
+\contentsline {subsection}{\numberline {29.3.1}Assignment}{84}{subsection.29.3.1}
+\contentsline {subsection}{\numberline {29.3.2}Reference}{84}{subsection.29.3.2}
+\contentsline {chapter}{\chapternumberline {30}Android development}{84}{chapter.30}
+\contentsline {section}{\numberline {30.1}Java SDK}{84}{section.30.1}
+\contentsline {subsection}{\numberline {30.1.1}C++ compiler}{84}{subsection.30.1.1}
+\contentsline {subsection}{\numberline {30.1.2}Logging}{84}{subsection.30.1.2}
+\contentsline {subsection}{\numberline {30.1.3}Command line access to device}{84}{subsection.30.1.3}
+\contentsline {section}{\numberline {30.2}Eclipse-plugin}{85}{section.30.2}
+\contentsline {subsection}{\numberline {30.2.1}Debugging}{85}{subsection.30.2.1}
+\contentsline {section}{\numberline {30.3}Application architecture}{85}{section.30.3}
+\contentsline {subsection}{\numberline {30.3.1}Components}{85}{subsection.30.3.1}
+\contentsline {subsubsection}{\numberline {30.3.1.1}Communication with components}{85}{subsubsection.30.3.1.1}
+\contentsline {subsection}{\numberline {30.3.2}Security and isolation}{85}{subsection.30.3.2}
+\contentsline {subsection}{\numberline {30.3.3}Threading}{85}{subsection.30.3.3}
+\contentsline {subsection}{\numberline {30.3.4}Resources}{86}{subsection.30.3.4}
+\contentsline {subsubsection}{\numberline {30.3.4.1}UI design}{86}{subsubsection.30.3.4.1}
+\contentsline {part}{\partnumberline {VI}Distributed computing}{86}{part.6}
+\contentsline {chapter}{\chapternumberline {31}Parallel computing paradigms}{86}{chapter.31}
+\contentsline {chapter}{\chapternumberline {32}Condor}{86}{chapter.32}
+\contentsline {section}{\numberline {32.1}Priority and restarts}{87}{section.32.1}
+\contentsline {chapter}{\chapternumberline {33}ORC}{87}{chapter.33}
+\contentsline {section}{\numberline {33.1}Distinctive features of the language}{87}{section.33.1}
+\contentsline {subsection}{\numberline {33.1.1}Purpose of design}{87}{subsection.33.1.1}
+\contentsline {subsection}{\numberline {33.1.2}Sites}{87}{subsection.33.1.2}
+\contentsline {subsection}{\numberline {33.1.3}Functions}{87}{subsection.33.1.3}
+\contentsline {subsection}{\numberline {33.1.4}Parallelism}{87}{subsection.33.1.4}
+\contentsline {subsection}{\numberline {33.1.5}Speed}{87}{subsection.33.1.5}
+\contentsline {section}{\numberline {33.2}Writing, Building and executing code}{87}{section.33.2}
+\contentsline {subsection}{\numberline {33.2.1}Debugging}{87}{subsection.33.2.1}
+\contentsline {section}{\numberline {33.3}Help}{87}{section.33.3}
+\contentsline {section}{\numberline {33.4}Pre-compilation processing}{88}{section.33.4}
+\contentsline {section}{\numberline {33.5}Variable and data types}{88}{section.33.5}
+\contentsline {subsection}{\numberline {33.5.1}Data types}{88}{subsection.33.5.1}
+\contentsline {subsection}{\numberline {33.5.2}Declaration syntax}{88}{subsection.33.5.2}
+\contentsline {section}{\numberline {33.6}Data manipulation}{88}{section.33.6}
+\contentsline {subsection}{\numberline {33.6.1}Operators}{88}{subsection.33.6.1}
+\contentsline {subsection}{\numberline {33.6.2}Accessing object methods}{88}{subsection.33.6.2}
+\contentsline {section}{\numberline {33.7}Code structure}{88}{section.33.7}
+\contentsline {subsection}{\numberline {33.7.1}Sentence syntax}{88}{subsection.33.7.1}
+\contentsline {subsubsection}{\numberline {33.7.1.1}Commenting}{88}{subsubsection.33.7.1.1}
+\contentsline {subsection}{\numberline {33.7.2}Combinators}{88}{subsection.33.7.2}
+\contentsline {subsection}{\numberline {33.7.3}Syntax of functions}{89}{subsection.33.7.3}
+\contentsline {subsection}{\numberline {33.7.4}Decision, timing sites}{89}{subsection.33.7.4}
+\contentsline {subsection}{\numberline {33.7.5}Function invocation}{89}{subsection.33.7.5}
+\contentsline {section}{\numberline {33.8}Error handling}{89}{section.33.8}
+\contentsline {section}{\numberline {33.9}Other library functions}{89}{section.33.9}
+\contentsline {subsection}{\numberline {33.9.1}User interaction I/O sites}{89}{subsection.33.9.1}
+\contentsline {part}{\partnumberline {VII}Serving web-pages}{89}{part.7}
+\contentsline {chapter}{\chapternumberline {34}Common Gateway Interface (CGI)}{89}{chapter.34}
+\contentsline {section}{\numberline {34.1}HTTP server and dynamic content}{89}{section.34.1}
+\contentsline {section}{\numberline {34.2}Scripting mixed with html}{90}{section.34.2}
+\contentsline {chapter}{\chapternumberline {35}Client side scripting}{90}{chapter.35}
+\contentsline {chapter}{\chapternumberline {36}Yahoo pipes}{90}{chapter.36}
+\contentsline {section}{\numberline {36.1}Interface}{90}{section.36.1}
+\contentsline {section}{\numberline {36.2}Looping}{90}{section.36.2}
+\contentsline {chapter}{\chapternumberline {37}Web API}{90}{chapter.37}
+\contentsline {section}{\numberline {37.1}Request/ response format}{91}{section.37.1}
+\contentsline {section}{\numberline {37.2}Underlying Protocol}{91}{section.37.2}
+\contentsline {section}{\numberline {37.3}Web interface Protocols}{91}{section.37.3}
+\contentsline {subsection}{\numberline {37.3.1}Simple Object access protocol (SOAP)}{91}{subsection.37.3.1}
+\contentsline {chapter}{\chapternumberline {38}Particular Web Api's}{91}{chapter.38}
+\contentsline {section}{\numberline {38.1}Wikimedia}{91}{section.38.1}
+\contentsline {subsection}{\numberline {38.1.1}Java wrappers}{91}{subsection.38.1.1}
+\contentsline {chapter}{\chapternumberline {39}Flash}{91}{chapter.39}
+\contentsline {part}{\partnumberline {VIII}Programming within browsers}{91}{part.8}
+\contentsline {chapter}{\chapternumberline {40}Web Browsers}{92}{chapter.40}
+\contentsline {section}{\numberline {40.1}Extensions/ plugins}{92}{section.40.1}
+\contentsline {section}{\numberline {40.2}User scripting}{92}{section.40.2}
+\contentsline {subsection}{\numberline {40.2.1}Interoperability}{92}{subsection.40.2.1}
+\contentsline {section}{\numberline {40.3}Enhancements by websites}{92}{section.40.3}
+\contentsline {section}{\numberline {40.4}Observe browser activity}{92}{section.40.4}
+\contentsline {chapter}{\chapternumberline {41}User scripts}{93}{chapter.41}
+\contentsline {section}{\numberline {41.1}Motivation}{93}{section.41.1}
+\contentsline {section}{\numberline {41.2}Header format}{93}{section.41.2}
+\contentsline {part}{\partnumberline {IX}Databases}{93}{part.9}
+\contentsline {chapter}{\chapternumberline {42}Database management systems}{93}{chapter.42}
+\contentsline {section}{\numberline {42.1}Relational Database management system (RDBMS)}{93}{section.42.1}
+\contentsline {subsection}{\numberline {42.1.1}Relational algebra}{94}{subsection.42.1.1}
+\contentsline {subsection}{\numberline {42.1.2}Database normalization}{94}{subsection.42.1.2}
+\contentsline {section}{\numberline {42.2}Sharding}{94}{section.42.2}
+\contentsline {section}{\numberline {42.3}Pooling writes}{94}{section.42.3}
+\contentsline {chapter}{\chapternumberline {43}Structured query language (SQL)}{94}{chapter.43}
+\contentsline {section}{\numberline {43.1}Help and tutorials}{94}{section.43.1}
+\contentsline {section}{\numberline {43.2}Values}{94}{section.43.2}
+\contentsline {section}{\numberline {43.3}Query language}{94}{section.43.3}
+\contentsline {subsection}{\numberline {43.3.1}Query table}{94}{subsection.43.3.1}
+\contentsline {subsection}{\numberline {43.3.2}Post selection processing}{95}{subsection.43.3.2}
+\contentsline {subsection}{\numberline {43.3.3}Temporary tables}{95}{subsection.43.3.3}
+\contentsline {subsubsection}{\numberline {43.3.3.1}Storage}{95}{subsubsection.43.3.3.1}
+\contentsline {section}{\numberline {43.4}Stored procedures}{95}{section.43.4}
+\contentsline {chapter}{\chapternumberline {44}Flat file DB}{95}{chapter.44}
+\contentsline {section}{\numberline {44.1}sqlite}{95}{section.44.1}
+\contentsline {subsection}{\numberline {44.1.1}GUI}{96}{subsection.44.1.1}
+\contentsline {subsection}{\numberline {44.1.2}Shell}{96}{subsection.44.1.2}
+\contentsline {subsubsection}{\numberline {44.1.2.1}Importing}{96}{subsubsection.44.1.2.1}
+\contentsline {chapter}{\chapternumberline {45}MySql}{96}{chapter.45}
+\contentsline {section}{\numberline {45.1}Server}{96}{section.45.1}
+\contentsline {section}{\numberline {45.2}Clients}{96}{section.45.2}
+\contentsline {subsection}{\numberline {45.2.1}mysql shell}{96}{subsection.45.2.1}
+\contentsline {subsubsection}{\numberline {45.2.1.1}Invocation}{96}{subsubsection.45.2.1.1}
+\contentsline {subsubsection}{\numberline {45.2.1.2}General commands}{96}{subsubsection.45.2.1.2}
+\contentsline {subsubsection}{\numberline {45.2.1.3}Meta-commands}{96}{subsubsection.45.2.1.3}
+\contentsline {subsubsection}{\numberline {45.2.1.4}Administration}{97}{subsubsection.45.2.1.4}
+\contentsline {subsection}{\numberline {45.2.2}Ancilliary commandline tools}{97}{subsection.45.2.2}
+\contentsline {subsection}{\numberline {45.2.3}GUI}{97}{subsection.45.2.3}
+\contentsline {section}{\numberline {45.3}Past experience}{97}{section.45.3}
+\contentsline {part}{\partnumberline {X}Remote procedure call and serialization}{97}{part.10}
+\contentsline {part}{\partnumberline {XI}Document typesetting}{97}{part.11}
+\contentsline {chapter}{\chapternumberline {46}Declarative vs imperative features}{98}{chapter.46}
+\contentsline {chapter}{\chapternumberline {47}latex}{98}{chapter.47}
+\contentsline {section}{\numberline {47.1}Common commands, environments}{98}{section.47.1}
+\contentsline {subsection}{\numberline {47.1.1}Templates}{98}{subsection.47.1.1}
+\contentsline {subsection}{\numberline {47.1.2}Packages}{98}{subsection.47.1.2}
+\contentsline {subsubsection}{\numberline {47.1.2.1}Page setup}{98}{subsubsection.47.1.2.1}
+\contentsline {subsubsection}{\numberline {47.1.2.2}List compaction}{98}{subsubsection.47.1.2.2}
+\contentsline {section}{\numberline {47.2}Bibliography}{99}{section.47.2}
+\contentsline {subsection}{\numberline {47.2.1}Packages}{99}{subsection.47.2.1}
+\contentsline {section}{\numberline {47.3}(Re)definition}{99}{section.47.3}
+\contentsline {section}{\numberline {47.4}Imperative display commands}{99}{section.47.4}
+\contentsline {subsection}{\numberline {47.4.1}Font size}{99}{subsection.47.4.1}
+\contentsline {subsection}{\numberline {47.4.2}Display parameters}{99}{subsection.47.4.2}
+\contentsline {subsection}{\numberline {47.4.3}Space management}{99}{subsection.47.4.3}
+\contentsline {section}{\numberline {47.5}Drawing figures}{100}{section.47.5}
+\contentsline {chapter}{\chapternumberline {48}html}{100}{chapter.48}

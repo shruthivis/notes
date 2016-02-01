@@ -1211,7 +1211,7 @@ One should not be fooled by market jitters (or perhaps even by medium term booms
 \subsection{Betting on broad swathes of the economy}
 Abbreviations: Total Stock Market: TSM, SV: Small Value.
 
-Model: TSM core 5/8, SV tilt 3/8 (\~ Fama French three factor model of US fund returns). Repeat internationally.
+Model: TSM core 5/8, SV tilt 3/8 (\~ Fama French three factor model of US fund returns). Repeat internationally. The allocation was checked with FF factors published on Ken French's website .
 
 See kreNa-vikalpAni .
 
@@ -1404,6 +1404,8 @@ Subscribing to a dividend reinvestment plan complicates calculation of capital g
 \subsection{Retirement, medical, education funds}
 To facilitate and encourage saving for large expenses in the future, governments often provide tax breaks for special investment accounts for retirement, medical expenses and children's education (college funds). 
 
+See \url{https://docs.google.com/spreadsheets/d/1JHM7R5afB9CtE3_Vdun7kjUmbh6dQJEdDmkX9apOS4E/edit#gid=417813240} 
+
 \subsubsection{Taxation-deferred funds}
 Incomes earned using these special accounts are exempt from taxes while they stay within the fund. However, withdrawals, which are only under very restricted circumstances, are taxed. 
 
@@ -1413,29 +1415,9 @@ Eg: Individual Retirement Account [IRA] in USA, PPF in India (government managed
 Money may be taxed at the time it is deposited in the fund, while withdrawals are tax-free Eg: Roth IRA. This may be relatively advantageous because higher incomes usually attract a higher tax rate.
 
 \subsubsection{Tax-free funds}
-\paragraph{Tax-free Health Savings Account (HSA)}
-20\% penalty + tax for non-medical withdrawal before age 65; otherwise no tax or penalty. Empoloyers may contribute. Available if enrolled in a high deductible health plan.
-
-Limit: 1250.  G-match: 800 (+ 200 refund for annual checkup).
-
-\paragraph{Tax-free Flexible Spending Account}
-"Use it or loose it" at the end of the year. Allowed reasons: Dependent care, medical expense.
+See spreadsheet.
 
 \subsubsection{Account opening and management}
-\paragraph{Retirement funds}
-In case the employee manages the fund, it is called the IRA in USA. Otherwise, it is called the 401(k) - which like IRA can be tax deferred or profit-tax free. Upon termination of employment, 401(k) can be rolled to IRA or Roth IRA or to another employer's 401(k).
-
-As of 2012, There is no such thing as a joint IRA, but one can specify beneficiaries. It may be protected from being considered in bankruptcy declarations and creditors.
-
-\paragraph{Education funds}
-529 college savings plan is after tax contributions. Will grow tax free, can be withdrawn for post secondary education expenses. Anyone can contribute.
-
-Managed by states and institutions. Max contribution: 13000\$.
-
-Can change beneficiary.
-
-10\% penalty and federal income tax if funds are withdrawn for purposes other than higher education.  
-
 \subsubsection{IRA contributions}
 IRS regulations state that only cash can be contributed to retirement accounts.
 
@@ -1444,7 +1426,7 @@ Government limits the contributions one can make to these accounts.
 Some companies match employee contributions up to a certain limit in case of 401(k) accounts.
 
 \subsubsection{Withdrawing money: IRA, 401(k)}
-You may withdraw your contributions to a Roth IRA penalty-free, but you'll be penalized (usually 10\%) for withdrawing any investment earnings (ie beyond the principal) before age 59.5, unless it's for a qualifying reason - eg: home buying, education. For a tax-deferred IRA, all pre-mature earnings without a qualifying reason will be penalized.
+You may withdraw your contributions to a Roth IRA penalty-free, but you'll be penalized (usually 10\%) for withdrawing any investment earnings (ie beyond the principal) before age 59.5, unless it's for a qualifying reason - eg: first time home buying (up to 10k), education, disability/ death. For a tax-deferred IRA, all pre-mature earnings without a qualifying reason will be penalized.
 
 In case of tax deffered accounts, at age 70 1/2 you will be required to take a minimum distribution and pay tax.
 
