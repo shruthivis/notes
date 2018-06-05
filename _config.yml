@@ -19,13 +19,13 @@ github_editme_path: vvasuki/notes/blob/master/
 # gitlab_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
 # if you're using GitLab, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
-disqus_shortname: sanskrit-coders-site
+disqus_shortname: vvasuki-site
 # if you're using disqus for comments, add the shortname here. if not, leave this value blank.
 
-google_analytics: UA-43258994-2
+google_analytics: UA-43258994-1
 # if you have google-analytics ID, put it in. if not, edit this value to blank.
 
-google_webmaster_verification_tag: <meta name="google-site-verification" content="33f1oqqMeFzIsi1CqZcWDNtPLOqxkEhEg6Sitg7h6d4" />
+google_webmaster_verification_tag: ""
 # if you don't have the above, edit this value to blank.
 
 google_custom_search_code: "
