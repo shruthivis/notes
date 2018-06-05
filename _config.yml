@@ -31,7 +31,7 @@ google_webmaster_verification_tag: <meta name="google-site-verification" content
 google_custom_search_code: "
 <script>
   (function() {
-    var cx = '003441740804712584864:hj_depehpoo';
+    var cx = '003441740804712584864:v9qx6owh9ly';
     var gcse = document.createElement('script');
     gcse.type = 'text/javascript';
     gcse.async = true;
