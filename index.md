@@ -19,40 +19,6 @@ TODO: Many of the links below are broken. Will be fixed in due course.
 
 ## Latex notes
 
-- [Probabilistic analysis](math/probability/probability.pdf).
-- [Probabilistic models](probabilisticModels/probabilisticModels.pdf).
-- [Statistics and pattern recognition](statistics/statistics.pdf).
-- [Linear algebra](math/linAlg/linAlg.pdf).
-- [Randomized Algorithms](randomizedAlgorithms/randomizedAlgorithms.pdf).
-- [Algebra](math/algebra/algebra.pdf).
-- [Vector spaces](math/vectorSpaces/vectorSpaces.pdf).
-- [Boolean functions](math/booleanFunctions/booleanFunctions.pdf).
-- (Very) Immature projects:
-    - [Computational learning theory](colt/colt.pdf).
-    - [Topology](topology/topology.pdf).
-    - [Number Theory](math/numberTheory/numberTheory.pdf).
-    - [Numerical Analysis](numericalAnalysis/numericalAnalysis.pdf).
-    - [Information and coding theory](communication/informationCodingTheory/informationCodingTheory.pdf).
-    - [Computational complexity theory](computing/computationalComplexity/computationalComplexity.pdf).
-    - [Computer Architecture](computing/computerArchitecture/computerArchitecture.pdf).
-    - [Complex analysis](math/complexAnalysis/complexAnalysis.pdf).
-    - [Functional analysis](math/functionalAnalysis/functionalAnalysis.pdf).
-    - [Algorithms](computing/algorithms/algorithms.pdf).
-    - [Language](language/intro/language.pdf).  
-        
-    - [Graph theory](graphTheory/graphTheory.pdf).
-    - [Inference](math/inference/inference.pdf).
-    - [Approximation theory](math/approxTheory/approxTheory.pdf).
-    - AI. Physics. Chemistry. Biology.
-    - [Animal cognition and affect](biology/animalIntelligence/animalIntelligence.pdf).  
-        
-    - [Economics](https://sites.google.com/site/vishvasnotes/eco). Society.  
-        
-    - [Cryptography](computing/cryptography/cryptography.pdf).
-    - [Distributed computing](computing/distributedComputing/distributedComputing.pdf).
-    - [Optimization](optimization/optimization.pdf).
-    - [Computational biology](computationalBiology/computationalBiology.pdf).
-    - Algorithmic [game theory](society/gameTheory/gameTheory.pdf).
 
 - [Programming languages](programmingLanguages/programmingLanguages.pdf). [Spreadsheet](https://docs.google.com/spreadsheet/pub?key=0Al_QBT-hoqqVdFJWbmdBdG9rQkpMSVlNU3JHbnFMYnc&output=html).  
         
