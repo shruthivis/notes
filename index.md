@@ -20,8 +20,6 @@ TODO: Many of the links below are broken. Will be fixed in due course.
 ## Latex notes
 
 
-- [Programming languages](programmingLanguages/programmingLanguages.pdf). [Spreadsheet](https://docs.google.com/spreadsheet/pub?key=0Al_QBT-hoqqVdFJWbmdBdG9rQkpMSVlNU3JHbnFMYnc&output=html).  
-        
 - [Complexity Zoo](http://qwiki.stanford.edu/wiki/Complexity_Zoo). [Complexity Classes' Venn diagram](http://www.cse.buffalo.edu/~regan/ComplexityPoster.pdf), [Inclusion graph](http://www.math.ucdavis.edu/~greg/zoology/diagram.xml).
 - [Theoretical Computer Science Cheat Sheet](http://www.tug.org/texshowcase/cheat.pdf).
 

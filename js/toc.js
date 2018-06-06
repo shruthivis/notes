@@ -41,7 +41,7 @@
 
     var level = get_level(headers[0]),
       this_level,
-      html = settings.title + " <"+settings.listType+">";
+      html = settings.title + " <"+settings.listType+" id=\"toc_ul\">";
     headers.on('click', function() {
       if (!settings.noBackToTopLinks) {
         window.location.hash = this.id;

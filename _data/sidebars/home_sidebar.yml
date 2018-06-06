@@ -46,12 +46,24 @@ contents:
         url: /computing/algorithms/algorithms.pdf
       - title: Randomized Algorithms
         url: /computing/randomizedAlgorithms/randomizedAlgorithms.pdf
-      - title: Computational complexity theory
-        url: /computing/computationalComplexity/computationalComplexity.pdf
-      - title: Computational learning theory
-        url: /computing/colt/colt.pdf
+      - title: Limits
+        contents:
+          - title: Computational complexity theory
+            url: /computing/computationalComplexity/computationalComplexity.pdf
+          - title: Computational learning theory
+            url: /computing/colt/colt.pdf
       - title: Cryptography
         url: /computing/cryptography/cryptography.pdf
+      - title: Programming
+        contents:
+          - title: Overview
+            url: /computing/programming/index.html
+          - title: Paradigms
+            url: /computing/programming/paradigms.html
+          - title: Tips
+            url: /computing/programming/tips.html
+          - title: UI
+            url: /computing/programming/ui.html
       - title: Distributed computing
         url: /computing/distributedComputing/distributedComputing.pdf
       - title: Numerical Analysis

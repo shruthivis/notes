@@ -20,6 +20,21 @@
                     easing: 'swing'
                 }
             });
+            $("#toc_ul").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
 
             $("#collapseAll").click(function(e) {
                 e.preventDefault();
