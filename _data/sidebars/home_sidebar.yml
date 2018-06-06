@@ -82,9 +82,43 @@ contents:
         url: /biology/animalIntelligence/animalIntelligence.pdf
       - title: Computational biology
         url: /chemistry/computationalBiology/computationalBiology.pdf
+  - title: Economics
+    contents:
+      - title: Businesses
+        contents:
+            - title: Intro
+              url: /economics/businesses/intro.html
+            - title: Misc
+              url: /economics/businesses/misc.html
+      - title: Goods and services
+        contents:
+            - title: Intro
+              url: /economics/goods/intro.html
+            - title: Tradeables
+              url: /economics/goods/tradeables.html
+      - title: Investing
+        contents:
+            - title: Intro
+              url: /economics/investing/intro.html
+            - title: Portfolio design
+              url: /economics/investing/portfolio.html
+            - title: Funds
+              url: /economics/investing/funds.html
+      - title: State level
+        contents:
+            - title: Intro
+              url: /economics/state-level/intro.html
+            - title: Money
+              url: /economics/state-level/money.html
+      - title: Consumption + Donation
+        url: /economics/spending.html
+      - title: Geo outlook
+        url: /economics/geo-outlook.html
+      - title: Trading
+        url: /economics/trading.html
+      - title: Tax
+        url: /economics/tax.html
   - title: Society
     contents:
-      - title: Economics
-        url: https://sites.google.com/site/vishvasnotes/eco
       - title: Algorithmic game theory
         url: /society/gameTheory/gameTheory.pdf
