@@ -5,3 +5,8 @@ Gemfile.lock
 
 # Intellij files.
 *.iml
+
+# latex stuff
+*.log
+*.aux
+*.out
