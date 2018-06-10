@@ -75,7 +75,11 @@ contents:
       - title: Information and coding theory
         url: /communication/informationCodingTheory/informationCodingTheory.pdf
   - title: Language
-    url: /language/intro/language.pdf
+    contents:
+      - title: Intro
+        url: /language/intro/language.pdf
+      - title: संस्कृताभ्यासाय योगदानम्
+        url: /language/intro/sanskrit.html
   - title: Biology, Chemistry
     contents:
       - title: Animal cognition and affect
