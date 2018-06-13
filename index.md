@@ -7,15 +7,18 @@ summary: Welcome page.
 ---
 
 
-## Introduction to my mostly unoriginal terse notes
+## Introduction
 
-- The worlds of scientific ideas are distinct from the directly experienced world of sensations. They can be accessed only by the intellect (aka the questioning mind).
-- These are my personal maps to those worlds. These were written for my own edification. Many are very incomplete and incorrect.
-- They were mostly written and updated when I was trying my hand at academic research. Now, I only get to them very rarely.
-- I love comments and corrections.
-
-
-TODO: Many of the links below are broken. Will be fixed in due course. 
+- The worlds of ideas are distinct from the directly experienced world of sensations. They can be accessed only by the intellect (aka the questioning mind) and assessed by sentiment.
+- Motivation
+  - These are my personal maps to those worlds. The process of making them was quite addictive and satisfying once. I once had an obsessive (unpragmatic) need to understand everything from the very basic principles.
+  - These were written for my own edification- often as part of _thinking aloud_ or _thinking carefully_. If you find it useful - great!
+- Self criticism:
+  - Many are very unoriginal, terse, incomplete and incorrect.
+  - Sometimes the stuff is pedantic. The truly surprising things are not adequately highlighted.
+- Currency and updates
+  - They were mostly written and updated when I was trying my hand at academic research. Now, I only get to most of them very rarely.
+  - Still, I love comments and corrections (not that I've ever received any!).
 
 ## Latex notes
 

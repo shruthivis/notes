@@ -4,8 +4,66 @@ title: Parts
 contents:
   - title: Home
     url: /index.html
-  - title: Blog
-    url: /blog/index.html
+  - title: Kāvya
+    contents:
+      - title: Videos
+        url: /kaavya/videos.html
+  - title: Places
+    contents:
+      - title: USA
+        contents:
+          - title: Intro
+            url: /places/usa/intro.html
+          - title: SF Bay
+            contents:
+              - title: Intro
+                url: /places/usa/sf-bay/intro.html
+              - title: Arts
+                url: /places/usa/sf-bay/arts.html
+      - title: India
+        contents:
+          - title: Intro
+            url: /places/india/intro.html
+          - title: Beṇgaḷūru
+            contents:
+              - title: Intro
+                url: /places/india/bengaluru/intro.html
+  - title: Economics
+    contents:
+      - title: Businesses
+        contents:
+            - title: Intro
+              url: /economics/businesses/intro.html
+            - title: Misc
+              url: /economics/businesses/misc.html
+      - title: Goods and services
+        contents:
+            - title: Intro
+              url: /economics/goods/intro.html
+            - title: Tradeables
+              url: /economics/goods/tradeables.html
+      - title: Investing
+        contents:
+            - title: Intro
+              url: /economics/investing/intro.html
+            - title: Portfolio design
+              url: /economics/investing/portfolio.html
+            - title: Funds
+              url: /economics/investing/funds.html
+      - title: State level
+        contents:
+            - title: Intro
+              url: /economics/state-level/intro.html
+            - title: Money
+              url: /economics/state-level/money.html
+      - title: Consumption + Donation
+        url: /economics/spending.html
+      - title: Geo outlook
+        url: /economics/geo-outlook.html
+      - title: Trading
+        url: /economics/trading.html
+      - title: Tax
+        url: /economics/tax.html
   - title: Mathematics
     contents:
       - title: Number Theory
@@ -64,6 +122,8 @@ contents:
             url: /computing/programming/tips.html
           - title: UI
             url: /computing/programming/ui.html
+          - title: Software Engineering as an occupation
+            url: /computing/programming/profession.html
       - title: Distributed computing
         url: /computing/distributedComputing/distributedComputing.pdf
       - title: Numerical Analysis
@@ -86,43 +146,9 @@ contents:
         url: /biology/animalIntelligence/animalIntelligence.pdf
       - title: Computational biology
         url: /chemistry/computationalBiology/computationalBiology.pdf
-  - title: Economics
-    contents:
-      - title: Businesses
-        contents:
-            - title: Intro
-              url: /economics/businesses/intro.html
-            - title: Misc
-              url: /economics/businesses/misc.html
-      - title: Goods and services
-        contents:
-            - title: Intro
-              url: /economics/goods/intro.html
-            - title: Tradeables
-              url: /economics/goods/tradeables.html
-      - title: Investing
-        contents:
-            - title: Intro
-              url: /economics/investing/intro.html
-            - title: Portfolio design
-              url: /economics/investing/portfolio.html
-            - title: Funds
-              url: /economics/investing/funds.html
-      - title: State level
-        contents:
-            - title: Intro
-              url: /economics/state-level/intro.html
-            - title: Money
-              url: /economics/state-level/money.html
-      - title: Consumption + Donation
-        url: /economics/spending.html
-      - title: Geo outlook
-        url: /economics/geo-outlook.html
-      - title: Trading
-        url: /economics/trading.html
-      - title: Tax
-        url: /economics/tax.html
   - title: Society
     contents:
       - title: Algorithmic game theory
         url: /society/gameTheory/gameTheory.pdf
+  - title: Blog
+    url: /blog/index.html
