@@ -13,18 +13,13 @@ summary: Welcome page.
 - Motivation
   - These are my personal maps to those worlds. The process of making them was quite addictive and satisfying once. I once had an obsessive (unpragmatic) need to understand everything from the very basic principles.
   - These were written for my own edification- often as part of _thinking aloud_ or _thinking carefully_. If you find it useful - great!
+
 - Self criticism:
   - Many are very unoriginal, terse, incomplete and incorrect.
   - Sometimes the stuff is pedantic. The truly surprising things are not adequately highlighted.
 - Currency and updates
   - They were mostly written and updated when I was trying my hand at academic research. Now, I only get to most of them very rarely.
   - Still, I love comments and corrections (not that I've ever received any!).
-
-## Latex notes
-
-
-- [Complexity Zoo](http://qwiki.stanford.edu/wiki/Complexity_Zoo). [Complexity Classes' Venn diagram](http://www.cse.buffalo.edu/~regan/ComplexityPoster.pdf), [Inclusion graph](http://www.math.ucdavis.edu/~greg/zoology/diagram.xml).
-- [Theoretical Computer Science Cheat Sheet](http://www.tug.org/texshowcase/cheat.pdf).
 
 ## Scribe notes:
 
@@ -44,4 +39,4 @@ summary: Welcome page.
 ![Sri Yantra](http://upload.wikimedia.org/wikipedia/commons/f/f0/Meru1.jpg)
 
 ## Tech details
-- Command `pandoc --from latex --to html5 economics.tex> economics.html`
+- Command `pandoc --from latex --to gfm *.tex >intro.md`
