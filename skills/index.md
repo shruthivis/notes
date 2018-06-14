@@ -2,8 +2,13 @@
 title: Misc stuff
 ---
 
-dainikEShu kAryEShu laghu-sAdhanEShu santOShaH kathaM prApyaH ityEtat
-anyatra vivRRitaH.
+## सूत्राणि
+
+स्वीयः पुरुषार्थ-विचारो [ऽत्र](https://checkvist.com/checklists/113019)।
+
+कार्मिक-सिद्धान्तास् सूत्रिता [अत्र](https://checkvist.com/checklists/641547)।
+
+साम्प्रदायिक-संस्कारेष्व् अनुष्ठानम् सूत्रितम् [अत्र](साम्प्रदायिक-संस्कारेष्व् अनुष्ठानम्)।
 
 ## Ability and achievement
 
