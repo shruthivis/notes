@@ -17,23 +17,13 @@ Based on tip in http://hamishwillee.github.io/2014/11/13/jekyll-includes-are-fun
     </li>
     {% endif %} {% comment %}if currentLevel < 10 {% endcomment %}
 {% else %}
-    {% if include.item.url contains "http://" or include.item.url contains ".pdf"%}
-    {% assign targetAttribute = 'target="_blank"' %}
+    {% assign item_url_stripped = (include.item.url | remove: "index.html" %}
+    {% if include.item.url contains "http://" %}
+    <li><a href="{{include.item.url}}" target="_blank">{{include.item.title}}</a></li>
+    {% elsif page.url == item_url_stripped %}
+    <li class="active"><a href="{{include.item.url | prepend: site.baseurl}}">{{include.item.title}}</a></li>
     {% else %}
-    {% assign targetAttribute = '' %}
-    {% endif %}
-
-    {% if include.item.url contains "http://"%}
-    {% assign url = include.item.url %}
-    {% else %}
-    {% assign url = include.item.url | prepend: site.baseurl %}
-    {% endif %}
-
-
-    {% if page.url == include.item.url %}
-    <li class="active"><a href="{{url}}">{{include.item.title}}</a></li>
-    {% else %}
-    <li><a href="{{url}}" {{targetAttribute}}>{{include.item.title}}</a></li>
+    <li><a href="{{include.item.url | prepend: site.baseurl}}">{{include.item.title}}</a></li>
     {% endif %}
 {% endif %}
 
