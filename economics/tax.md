@@ -2,8 +2,6 @@
 title: Tax
 ---  
 
-##   
-
 ## Tax in India
 
 Advance tax schedule: [here](https://cleartax.in/s/interest-imposed-by-income-tax-department-under-section-234c).
@@ -34,8 +32,11 @@ Eg: Individual Retirement Account \[IRA\] in USA, PPF in India (government manag
 
 #### Profit-tax free funds
 
-Money may be taxed at the time it is deposited in the fund, while withdrawals are tax-free Eg: Roth IRA. This may be relatively advantageous because higher incomes usually attract a higher tax rate.
+Money may be taxed at the time it is deposited in the fund, while withdrawals are tax-free. This may be relatively advantageous because higher incomes usually attract a higher tax rate.
+
+Examples:
+- Roth IRA in USA
+- Various life insurance funds in India. (Unlike ELSS, they don't attract long term gains tax as of 2018.)
 
 #### Tax-free funds
-
 See spreadsheet.
