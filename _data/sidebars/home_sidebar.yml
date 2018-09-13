@@ -27,7 +27,7 @@ contents:
           - title: Beṇgaḷūru
             contents:
               - title: Intro
-                url: /places/india/bengaluru/intro.html
+                url: /places/india/bengaluuru/intro.html
   - title: Economics
     contents:
       - title: Businesses
@@ -176,6 +176,8 @@ contents:
             url: /society/bloodlines/aangiirasa.html
           - title: कौशिकाः
             url: /society/bloodlines/kaushika.html
+          - title: Misc info
+            url: /society/bloodlines/
   - title: Skills
     contents:
       - title: Intro
