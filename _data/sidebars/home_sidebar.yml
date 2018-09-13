@@ -134,12 +134,28 @@ contents:
     contents:
       - title: Information and coding theory
         url: /communication/informationCodingTheory/informationCodingTheory.pdf
+  - title: Astronomy
+    contents:
+        - title: ज्यौतिषम् Star Time
+          url: /physics/astronomy/jyotisha.html
   - title: Language
     contents:
       - title: Intro
         url: /language/intro/language.pdf
-      - title: संस्कृताभ्यासाय योगदानम्
-        url: /language/intro/sanskrit.html
+      - title: Language
+        contents:
+          - title: संस्कृताभ्यासाय योगदानम्
+            url: /language/sanskrit/index.html
+          - title: Why?
+            url: /language/sanskrit/why.html
+          - title: Misconceptions
+            url: /language/sanskrit/misconceptions.html
+          - title: Miscellaneous questions
+            url: /language/sanskrit/misc-faq.html
+          - title: संस्कृतशाला-प्रस्तावः
+            url: /language/sanskrit/bay-area-sanskrit-school-dream.html
+          - title: shixaa शिक्षा
+            url: /language/sanskrit/shixaa.html
   - title: Biology, Chemistry
     contents:
       - title: Animal cognition and affect
@@ -150,6 +166,16 @@ contents:
     contents:
       - title: Algorithmic game theory
         url: /society/gameTheory/gameTheory.pdf
+      - title: Bloodlines
+        contents:
+          - title: Pics
+            url: /society/bloodlines/pics.html
+          - title: भार्गवाः
+            url: /society/bloodlines/bhaargava.html
+          - title: आङ्गीरसाः
+            url: /society/bloodlines/aangiirasa.html
+          - title: कौशिकाः
+            url: /society/bloodlines/kaushika.html
   - title: Skills
     contents:
       - title: Intro
