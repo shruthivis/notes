@@ -96,6 +96,14 @@ contents:
         url: /probability/probabilisticModels/probabilisticModels.pdf
       - title: Statistics and pattern recognition
         url: /probability/statistics/statistics.pdf
+  - title: कल्पः
+    contents:
+    - title: वैश्वदेवम्, पञ्चमहायज्ञाः (देवयज्ञः, पितृयज्ञः, मनुष्ययज्ञः, भूतयज्ञः, ब्रह्मयज्ञः)
+      url: /kalpa/pancha-mahaa-yajjna.html
+    - title: अध्ययन-व्रतानि
+      url: /kalpa/adhyayana-vrataani.html
+    - title: पाकयज्ञेष्वग्निहोत्राधारितो विधिः
+      url: /kalpa/paaka-yajjna-agnihotra-riitiH.html
   - title: Computing
     contents:
       - title: Computer Architecture
