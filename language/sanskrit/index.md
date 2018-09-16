@@ -16,8 +16,8 @@ title: संस्कृताभ्यासाय योगदानम्
 - दौवम्।
 - [सङ्गीतम्](https://docs.google.com/spreadsheets/d/1VJPgfgzE6S2J18R7MO4YK4wWi-bQ4qiwP5ldJLKxuZM/edit#gid=0)।
 
-- Flashcards , dictionaries and the like: [here](https://sites.google.com/site/sanskritcode/dictionaries)।
-- Also see: [Connoiseurship](https://sites.google.com/site/vishvasvasuki/sahityakala/kavyasvadah).
+- Flashcards , dictionaries and the like: [here](https://sanskrit-coders.github.io/site/pages/dictionaries/offline.html)।
+- Also see: [Connoiseurship]().
 - अल्पोपक्रमाः
     - Audio blog/ uploads:
         - [zap-rss](https://zapier.com/engine/rss/85498/vishvas/) Older:[ipadio](https://www.ipadio.com/channels/VishvasVasuki) \[[rss](https://www.ipadio.com/channels/7ab409ca5457/rss)\].
