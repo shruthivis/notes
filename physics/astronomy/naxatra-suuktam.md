@@ -1,6 +1,6 @@
 ---
 title: नक्षत्रसूक्तम्
-script: devanagari
+unicode_script: devanagari
 ---
 
 ---
