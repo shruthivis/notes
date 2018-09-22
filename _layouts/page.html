@@ -27,8 +27,7 @@ layout: default
 {% include custom/{{page.map_name}}.html %}
 
 {% endif %}
-
-<div class="post-content">
+<div class="post-content" language="{{ page.language }}">
 
    {% if page.summary %}
     <div class="summary">{{page.summary}}</div>

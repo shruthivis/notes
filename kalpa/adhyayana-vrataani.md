@@ -1,7 +1,6 @@
 ---
-layout: prayoga
-language: sa
 title: अध्ययने -- उपाकर्म, उत्सर्गः, वेदव्रतानि
+language: sa
 ---
 
 ##‌ सुदर्शनसूरेर् मते
