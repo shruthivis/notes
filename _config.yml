@@ -121,3 +121,10 @@ description: Vishvas's notes.
 # needed for sitemap.xml file only
 url: http://vvasuki.github.io
 baseurl: "/notes" # the subpath of your site, e.g. /blog
+
+remote_theme: sanskrit-coders/sanskrit-documentation-theme
+
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-sitemap
