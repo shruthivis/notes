@@ -10,11 +10,7 @@ title: ज्यौतिषम् Star Time
     - Ecliptic 
         -  [![](https://i.imgur.com/Xd8pu1L.png)](https://i.imgur.com/Xd8pu1L.png)
 
-             
-
             [![](https://i.imgur.com/JA7Mjcv.png)](https://i.imgur.com/JA7Mjcv.png)
-
-
 
         - Sun is always at 0 deg latitude. It's longitude (determinable using background stars) is 0 deg (=0 RA) during march vernal equinox, 90 deg (= 6h RA) during summer solstice, 270 (= 18h RA) during winter solstice etc..
         - Latitudes are parallel to each other, longitudes pass through the same two poles.
@@ -105,6 +101,7 @@ title: ज्यौतिषम् Star Time
     - "प्रायेण १५०० अब्दपूर्वं मकरराशौ उत्तरायणं भवति स्मेति गतानुगतिकतया अधुना इत्थं प्रचलति। वैदिकवत्सरारम्भोऽपि वास्तविकेन उत्तरायणेनैव सह सम्बद्धः, प्रायेण तत्पूर्वस्थायां शुक्लप्रतिपदायां भवतीति मया विस्तरेणोपस्थापितमेव।" \- सम्मोदार्यः।
 - अयनचलने, ध्रुवतारापर्याये च
     - ध्रुव-शिशुमार-वन्दने [ऽत्र](https://kashcidvipashcit.wordpress.com/2018/02/04/salute-the-dolphin-ursa-minor-every-night-after-sandhyavandanam/)।
+    - विष्णु+अवतार-कथा-सम्बन्धः - {[MT04](https://manasataramgini.wordpress.com/2004/12/06/the-snake-of-vishnu/)} - "ViShNu is a predominantly precessional deity. All his five early incarnations contain the precessional motifs that were uncovered by Santillana and von Dechend in The Hamlet’s Mill."
     - तैत्तिरीय-ब्राह्मणारण्यकयोर् नक्षत्रमुखभेदेन तज्ज्ञानं व्यक्तम्। एवञ्च "प्रजापतेर् यत् सहजम् पुरस्तात्"।
         - "assertion of the American indologist Whitney maintained to this date among Abrahamistic white indologists and their imitators: “The Hindus borrowed their nakShatra system from Mesopotamia and would probably have retained it in that form \[i.e. with kR^ittikA at the vernal equinox of 2300 BCE\] until the present day but for the revolution wrought in their science by Greek teaching.” Clearly even within the vaidika period (including vedA~Nga jyotiSha) the Hindus had made multiple changes for precession not just at the time of varAhamihira after interactions with yavana-s." \[[MT](https://manasataramgini.wordpress.com/2013/11/08/anatomy-and-heavens-in-the-boomorphic-universe/)\]
     - मैत्रायणीयोपनिषदि \[[SD](https://sanskritdocuments.org/doc_upanishhat/maitri.html?lang=sa), [MT_TW](https://twitter.com/blog_supplement/status/984634039909978112),[YT](https://youtu.be/5R2lXuUMdoo?t=2254)\]
@@ -154,7 +151,6 @@ title: ज्यौतिषम् Star Time
                 - shaunaka atharvaveda 19.7 nakShatra sUktam
                     - भानुराश्लेषा अयनं मघा मे : sun \[in\] AshleSha(=sarpa), \*solistice\* \[in\] maghA for me.
                         सुहवमग्ने कृत्तिका रोहिणी चास्तु | agnI well-invoked in kR^ittikA: setting of fires in kR^ittkA; tasya rAshi-chitram \[[MT_TW](https://twitter.com/blog_supplement/status/985200041475366912), \]
-
 
             - Vernal equinox at ashvinI
 
