@@ -16,7 +16,7 @@ title: शिक्षा
         - २. अन्यस्थाने दीर्घात् स्वरात्परो विसर्जनीयो देवैरपि उच्चारयितुं न शक्यते इत्यतः। दीर्घात्स्वरात् परं पूर्वसस्थानत्वम् आचार्या आहुः।
     - तत उवटः कथयति यद्, अनयोः उभावपि पक्षौ युक्तौ। शास्त्रान्तरे विसर्जनीयस्य कण्ठस्थानं, पूर्वसस्थानत्वं च विहितम्। अत्र तु दोषसमुच्चयप्रकरणे वचनाद् अयं दोष इत्येव निर्णेयम्। शास्त्रान्तरदृशा अस्य दोषत्वं नेति। (तत्रैव उ०भा०)।
 - धनञ्जयवैद्यो ऽत्र - [विसर्गः](http://deejayvaidya.tumblr.com/post/42427555259/sanskrit-pronunciation-podcast-6-visarga) (<-रुचिकरोयम्! विसर्गस्य ऊष्माणत्वेऽङ्गीकृते प्रातिशाख्यैर् अत्र परिष्कारोऽपेक्षितः।)।
-- विश्वासाभिप्रायः - प्राक्तनवर्णस्योच्चारणे वायोर् विसर्जनम्। तथा कृते यो स्वरसहित-हकारसदृशः शुद्धहकारसदृशो वा शब्दश् श्रूयते क्वचित्, स पूर्णहकाराद् भिन्नो भवति - तस्याव्यक्ततरत्वात् निम्नध्वनित्वाच्च। नाम "हरिह्" इति वा, "हरिहि" इति वोच्चारिते यो ऽन्यवर्णसदृशं व्यक्तः हिकारो वा हकारो वा श्रूयते ऽन्ते, तदपेक्षया "हरिः" इत्युक्ते ऽव्यक्ततरो निम्नध्वनिवाञ्च भवति। यावानत्रोच्चारणे व्यक्तता ऽन्तिमवर्णस्य, तावान् ह्यत्र दोषः। किञ्चाव्यक्ततायाम् अभावे वाऽन्तिमशब्दस्य कृते प्रयत्नातिशयेऽपि दोषः। 
+- विश्वासाभिप्रायः - प्राक्तनवर्णस्योच्चारणे वायोर् विसर्जनम्। तथा कृते यो स्वरसहित-हकारसदृशः शुद्धहकारसदृशो वा शब्दश् श्रूयते क्वचित्, स पूर्णहकाराद् भिन्नो भवति - तस्याव्यक्ततरत्वात् निम्नध्वनित्वाच्च। नाम "हरिह्" इति वा, "हरिहि" इति वोच्चारिते यो ऽन्यवर्णसदृशं व्यक्तः हिकारो वा हकारो वा श्रूयते ऽन्ते, तदपेक्षया "हरिः" इत्युक्ते ऽन्तिमवर्णो ऽव्यक्ततरो निम्नध्वनिवाञ्च भवति। यावानत्रोच्चारणे व्यक्तता ऽन्तिमवर्णस्य, तावान् ह्यत्र दोषः। किञ्चाव्यक्ततायाम् अभावे वाऽन्तिमशब्दस्य कृते प्रयत्नातिशयेऽपि दोषः। 
 
 ## माध्यन्दिन-विकाराः
 - षकारस्य खकारोच्चारणं नियमानुसारं भवति
@@ -68,12 +68,11 @@ title: शिक्षा
 ### त्रैस्वर्य-रक्षणे, पदभेदरक्षणे च  
 - प्रकृतिः  
     - पद-पाठः
-    - क्रम-पाठः  
-        
+    - क्रम-पाठः          
 - विकृति-पाठः
 - मीमांसाशास्त्रे जैमिनीयो यत्नः अत्र।
     - ब्राह्मणेषु मन्त्राणां भाषिकस्वरेण निर्देशे कृते ऽपि मूलत्रैस्वर्यम् आश्रयणीयम् इति। शबरभाष्यस्य गङ्गानाथानुवादो [ऽत्र](https://archive.org/stream/ShabaraBhashya.Vol.III.AdhyayasIXXII.tr.G.JhaBaroda1936/Shabara-bhashya.%20Vol.%20III.%20Adhyayas%20IX-XII.%28tr.G.Jha%29%28Baroda%2C1936%29#page/n939/mode/2up)।  
-            
+
 ## उच्चारण-प्रदर्शनानि
 - धनञ्जयो वैद्यः \- [अकारे](http://deejayvaidya.tumblr.com/post/42275194921/sanskrit-pronunciation-podcast-1-introduction)। [स्पर्शवर्ण](http://deejayvaidya.tumblr.com/post/42275304138/sanskrit-pronunciation-podcast-2-the-stop)। [इच्](http://deejayvaidya.tumblr.com/post/42275475669/sanskrit-pronunciation-podcast-3-the-vowels)।  [य र ल व श ष स ह](http://deejayvaidya.tumblr.com/post/42427396743/sanskrit-pronunciation-podcast-4-the-semivowels)। [अनुस्वारः](http://deejayvaidya.tumblr.com/post/42427477788/sanskrit-pronunciation-podcast-5-anusvara-the)। रवर्णोच्चारणे [चर्चा](https://www.facebook.com/vishvas.vasuki/posts/10153080380537989?pnref=story)।
 - विश्वासः‌ [अत्र](https://goo.gl/htvxdN)।
@@ -98,6 +97,11 @@ title: शिक्षा
     - [अत्र](https://groups.google.com/forum/#!topic/bvparishat/HuVB9kVGJrI)
 - तालु\-मूर्धयोस् स्थाने विवादः \- दन्तमूर्धयोर् मध्ये ताल्व् इति केचित्, दन्त-ताल्वोर् मध्ये मूर्धेत्य् अपरे (श्रीरमणशर्मणः शिक्षाप्रथमक्लृप्तिः [अत्र](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxqYW1hZGFnbml8Z3g6MjQ2OTU1MTg0YTUwOTFkMg))।
     - यथा कथमपि स्यात् \- जिह्वाया अधोभागसंस्पर्शेन मूर्धन्यवर्णा जन्यन्त, ऊर्ध्वभागसंस्पर्शेन तालव्यादिवर्णा इति निश्चयेनालम् मन्ये।          
+- क्लिष्टप्रयासे दोषः
+  - प्रसन्न-वेङ्कटाचार्य-चतुर्वेदी [ह्यत्र](https://www.youtube.com/watch?v=xpxZY9XEIs4&feature=youtu.be&t=2135)।
+  - अनुभवाः 
+    - विश्वासानुभवः - "सामवेदपाठेऽपि मयैतत् overcompensation-दोषः सामवेदस्याभ्यासे ऽप्यनुभूतम् - कथञ्चिन् मम गुरुः सोढ्वा परिष्कारं क्षमया व्यदधात्।"
+    - अतिप्रयासे महाप्राणोच्चारणे - [अत्र](https://archive.org/details/mahAbhArata-mUla-paThanam-GP-drafts/001-010.mp3)। 
 - सन्ध्यक्षर+उच्चारणम् ("एओ=अइ/ अउ, ऐऔ=आइ/ आउ") इति विषये [अ](https://twitter.com/sabdavidya/status/733300680241389568?cn=bWVudGlvbg%3D%3D&refsrc=email)[त्र](https://twitter.com/sabdavidya/status/733300680241389568?cn=bWVudGlvbg%3D%3D&refsrc=email) TW, [MB](https://archive.org/stream/LecturesOnPatanjalisVyakaranaMahabhashya1/LecturesMahabhasya#page/n189/mode/2up)।
     - "By the time of patanjali (classical saMskRta) the ए ओ were monophthongs, but ऐ औ were diphthongs. We know this because patanjali describes this. I don't know about the RgvedaprAtishAkhya or the Rktantra - they would be prior to patanjali, but also when classical sanskrit had come to be spoken... patanjali (already classical) mentions that people from the राणायणीय stream pronounced a short version of ए. A short length vowel pretty much cannot be a diphthong. If this sect had been pronouncing a short version of ए since ancient times, that would argue against a diphthong ए." 
 
