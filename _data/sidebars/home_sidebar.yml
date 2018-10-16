@@ -165,7 +165,11 @@ contents:
           - title: Miscellaneous questions
             url: /language/sanskrit/misc-faq.html
           - title: shixaa शिक्षा
-            url: /language/sanskrit/shixaa.html
+            contents:
+              - title: परिचयः
+                url: /language/sanskrit/shixaa/
+              - title: Pronunciation and recording tips
+                url: /language/sanskrit/shixaa/tips.md
   - title: Biology, Chemistry
     contents:
       - title: Animal cognition and affect
