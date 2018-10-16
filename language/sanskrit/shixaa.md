@@ -42,9 +42,11 @@ title: शिक्षा
     - वाजसेनयि(?)प्रातिशाख्ये [अत्र](http://i.imgur.com/n9PJWEv.png)।
 - अजितस्याभिप्रायो [ऽत्र](https://dl.dropboxusercontent.com/u/9716392/aupasana.com/publications/VedicAccents2.pdf)। (तत्र जात्यस्वरितादेर् उत्पत्तौ व्याकरणविशेषास् सन्ति।)
 - "पाणिनीय"शिक्षायाम् - 
-    - उदात्ते निषादगान्धारावनुदात्त ऋषभधैवतौ । स्वरित्प्रभवा ह्येते षड्जमध्यमपञ्चमाः ॥ १२॥ 
-        - ष ऋ ग म प ध नि ष
-        - स् **अ उ** स् स् **अ उ **स् 
+    - उदात्ते निषादगान्धारावनुदात्त ऋषभधैवतौ । स्वरितप्रभवा ह्येते षड्जमध्यमपञ्चमाः ॥ १२॥ 
+        - ```
+        ष ऋ ग म प ध नि ष
+        स् अ उ स् स् अ उ स् 
+        ```
 - माध्यन्दिन-शाखायाम्
     - भाषिकस्वरः तेषाम् उपनिषत्सु एव वर्तते \- संहितायां नास्ति। तत्र हस्तस्वर एव प्रधानः।
 - शिष्टाचार-जन्य-भेदः
@@ -77,9 +79,9 @@ title: शिक्षा
 - मीमांसाशास्त्रे जैमिनीयो यत्नः अत्र।
     - ब्राह्मणेषु मन्त्राणां भाषिकस्वरेण निर्देशे कृते ऽपि मूलत्रैस्वर्यम् आश्रयणीयम् इति। शबरभाष्यस्य गङ्गानाथानुवादो [ऽत्र](https://archive.org/stream/ShabaraBhashya.Vol.III.AdhyayasIXXII.tr.G.JhaBaroda1936/Shabara-bhashya.%20Vol.%20III.%20Adhyayas%20IX-XII.%28tr.G.Jha%29%28Baroda%2C1936%29#page/n939/mode/2up)।  
 
-## उच्चारण-प्रदर्शनानि
+## उच्चारण-प्रदर्शनानि सूचनाश्च।
 - धनञ्जयो वैद्यः \- [अकारे](http://deejayvaidya.tumblr.com/post/42275194921/sanskrit-pronunciation-podcast-1-introduction)। [स्पर्शवर्ण](http://deejayvaidya.tumblr.com/post/42275304138/sanskrit-pronunciation-podcast-2-the-stop)। [इच्](http://deejayvaidya.tumblr.com/post/42275475669/sanskrit-pronunciation-podcast-3-the-vowels)।  [य र ल व श ष स ह](http://deejayvaidya.tumblr.com/post/42427396743/sanskrit-pronunciation-podcast-4-the-semivowels)। [अनुस्वारः](http://deejayvaidya.tumblr.com/post/42427477788/sanskrit-pronunciation-podcast-5-anusvara-the)। रवर्णोच्चारणे [चर्चा](https://www.facebook.com/vishvas.vasuki/posts/10153080380537989?pnref=story)।
-- विश्वासः‌ [अत्र](https://goo.gl/htvxdN)।
+- विश्वासः‌ [अत्र](https://goo.gl/htvxdN)। सूचनान्तराण्य् [अत्र](https://sanskrit.github.io/projects/audio/mbh-audio/how.html#expected-recording-quality)।
 - नरसिंहरायः \- [अत्र](https://www.youtube.com/watch?v=cMhe2QgDm28), मुखपुस्तकचर्चा [अत्र](https://www.facebook.com/pvr108/posts/10153038114188284?pnref=story)। 
 - श्रीरमणशर्मणः शिक्षाप्रथमक्लृप्तिः [अत्र](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxqYW1hZGFnbml8Z3g6MjQ2OTU1MTg0YTUwOTFkMg)।
 - वेदपाठे  
