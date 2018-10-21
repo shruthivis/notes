@@ -198,22 +198,26 @@ contents:
         url: /skills/index.html
       - title: Learning
         url: /skills/learning.html
-      - title: Home schooling
-        contents:
-          - title: Intro
-            url: /skills/home_school/
-          - title: FAQ
-            url: /skills/home_school/faq.html
-          - title: India
-            url: /skills/home_school/india.html
-          - title: USA
-            url: /skills/home_school/usa.html
-      - title: Lecturing
-        url: /skills/lecturing.html
       - title: Research
         url: /skills/research.html
       - title: Clothing
         url: /skills/clothing/index.html
+  - title: Education
+    contents:
+      - title: Principles
+        url: /education/principles.html
+      - title: Home schooling
+        contents:
+        - title: Intro
+          url: /education/home_school/
+        - title: FAQ
+          url: /education/home_school/faq.html
+        - title: India
+          url: /education/home_school/india.html
+        - title: USA
+          url: /education/home_school/usa.html
+      - title: Lecturing
+        url: /education/lecturing.html
   - title: Vishvas's home page
     url: /../index.html
   - title: Blog
