@@ -198,6 +198,16 @@ contents:
         url: /skills/index.html
       - title: Learning
         url: /skills/learning.html
+      - title: Home schooling
+        contents:
+          - title: Home schooling
+            url: /skills/home_chool/
+          - title: FAQ
+            url: /skills/home_chool/faq.html
+          - title: India
+            url: /skills/home_chool/india.html
+          - title: USA
+            url: /skills/home_chool/usa.html
       - title: Lecturing
         url: /skills/lecturing.html
       - title: Research
