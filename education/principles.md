@@ -4,7 +4,7 @@ title: Principles
 
 ## सुतेषु काङ्क्षाः Desiderata
 
-Checkvist-स्रोतो [ऽत्र](https://checkvist.com/checklists/575542-desiderata)।
+कस्यचित् Checkvist-स्रोतो [ऽत्र](https://checkvist.com/checklists/575542-desiderata)।
 
   
 
