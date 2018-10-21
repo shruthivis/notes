@@ -200,14 +200,14 @@ contents:
         url: /skills/learning.html
       - title: Home schooling
         contents:
-          - title: Home schooling
-            url: /skills/home_chool/
+          - title: Intro
+            url: /skills/home_school/
           - title: FAQ
-            url: /skills/home_chool/faq.html
+            url: /skills/home_school/faq.html
           - title: India
-            url: /skills/home_chool/india.html
+            url: /skills/home_school/india.html
           - title: USA
-            url: /skills/home_chool/usa.html
+            url: /skills/home_school/usa.html
       - title: Lecturing
         url: /skills/lecturing.html
       - title: Research

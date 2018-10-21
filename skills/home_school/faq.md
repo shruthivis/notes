@@ -47,7 +47,7 @@ title: Homeschooling: FAQ गृहे शिक्षणम् - आक्ष�
 
 ## Who does it? Idiots and paupers. 
 
-- **Objection: **Home-schooling is for kids with learning disabilities or poor kids.
+- **Objection**: Home-schooling is for "special" kids with learning disabilities or poor kids.
 - **Answer**:
     - Every child is a special child - with special interests and abilities, so factory model is suboptimal in the first place.
     - It is true that some kids resort to open/ home schooling out of compulsion as a second choice. On the other hand -highly gifted children, as well as normal kids, as well as those with learning disabilities **opt for** home-schooling. See examples listed below.
@@ -66,7 +66,9 @@ title: Homeschooling: FAQ गृहे शिक्षणम् - आक्ष�
         - अमृतवर्षिण्य् [अत्र](https://www.youtube.com/watch?v=3D37Oy-p-TQ&feature=youtu.be&t=1517)। Ruchir [here](http://homeschoolers.in/i-am-ruchir-and-i-never-went-to-school/). [DD](http://homeschoolers.in/interview-with-dola-dasgupta-perspective-on-living-and-growing-without-school/).
         - परिचितेषु \- हरीशो यजुरध्यायी। वेनीशिया।
     - News reports
+        - पत्त्रिका-चित्राण्य् [अत्र](https://photos.app.goo.gl/NDVdrtWCa2pZzRS79)।
         - India
+            - [TOI18](https://timesofindia.indiatimes.com/life-style/spotlight/homeschooling-as-a-way-of-life/articleshow/66265929.cms)
             - [TOI13](https://timesofindia.indiatimes.com/life-style/relationships/parenting/Is-home-schooling-good-for-your-child/articleshow/24804617.cms)
             - [DNA12](http://www.dnaindia.com/mumbai/report-homeschooling-school-s-out-learning-s-in-1753535)
             - [IE13](http://www.indianexpress.com/news/learning-to-be-free/1117569/0) ([HS](http://homeschoolers.in/learning-to-be-free/)) [PM13](http://homeschoolers.in/a-class-apart/).
