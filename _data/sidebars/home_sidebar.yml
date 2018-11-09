@@ -8,6 +8,14 @@ contents:
     contents:
       - title: Videos
         url: /kaavya/videos.html
+      - title: मन्त्राः Mantra
+        contents:
+            - title: नक्षत्रसूक्तम्
+              url: /kaavya/mantra/naxatra-suuktam.html
+            - title: अग्निः agni
+              contents:
+                - title: दिवस्परि
+                  url: /kaavya/mantra/agni/divaspari.html
   - title: Places
     contents:
       - title: USA
@@ -148,8 +156,6 @@ contents:
     contents:
         - title: ज्यौतिषम् Star Time
           url: /physics/astronomy/jyotisha.html
-        - title: नक्षत्रसूक्तम्
-          url: /physics/astronomy/naxatra-suuktam.html
   - title: Language
     contents:
       - title: Intro
