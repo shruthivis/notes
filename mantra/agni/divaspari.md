@@ -4,12 +4,14 @@ unicode_script: devanagari
 ---    
     
 ---    
-    
+
 ## त्रेधा जन्म  
-!(images/baku-fire-spring.jpg)
+<img src="images/baku-fire-spring.jpg" alt="drawing" class="thumbnail"  height="100px" width="400px"/>
+
 दि॒वस् परि॑ प्रथ॒मं ज॑ज्ञे अ॒ग्निर्  
 अ॒स्मद् द्वि॒तीय॒म् परि॑ जा॒तवे॑दाः ।  
-तृ॒तीय॑म॒प्सु (baku gas in water fire) नृ॒मणा॒ अज॑स्र॒म्इन्धा॑न एनं जरते (=स्तौति) स्वा॒धीः ।  
+तृ॒तीय॑म॒प्सु (baku gas in water fire) नृ॒मणा॒ अज॑स्र॒म्  
+इन्धा॑न एनं जरते (=स्तौति) स्वा॒धीः ।  
   
 ## त्रेधा रूपाणि  
 वि॒द्मा ते॑ अग्ने त्रे॒धा {रूपाणि अग्नि-विद्युत्-सूर्यास्} त्र॒याणि॑  

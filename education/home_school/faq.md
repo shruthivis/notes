@@ -1,5 +1,5 @@
 ---
-title: Homeschooling: FAQ गृहे शिक्षणम् - आक्षेपाः
+title: "Homeschooling: FAQ गृहे शिक्षणम् - आक्षेपाः"
 ---  
 
 ## Motivation and intro
