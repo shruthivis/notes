@@ -6,7 +6,7 @@ unicode_script: devanagari
 ---    
 
 ## त्रेधा जन्म  
-<img src="images/baku-fire-spring.jpg" alt="drawing" class="thumbnail"/>
+![](images/baku-fire-spring.jpg){:.thumbnail}
 
 दि॒वस् परि॑ प्रथ॒मं ज॑ज्ञे अ॒ग्निर्  
 अ॒स्मद् द्वि॒तीय॒म् परि॑ जा॒तवे॑दाः ।  
