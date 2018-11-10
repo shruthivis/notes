@@ -4,18 +4,18 @@ title: Parts
 contents:
   - title: Home
     url: /index.html
-  - title: Kāvya
+  - title: Kāvya काव्यम्
     contents:
       - title: Videos
         url: /kaavya/videos.html
-      - title: मन्त्राः Mantra
-        contents:
-            - title: नक्षत्रसूक्तम्
-              url: /kaavya/mantra/naxatra-suuktam.html
-            - title: अग्निः agni
-              contents:
-                - title: दिवस्परि
-                  url: /kaavya/mantra/agni/divaspari.html
+  - title: मन्त्राः Mantra
+    contents:
+        - title: नक्षत्रसूक्तम्
+          url: /mantra/naxatra-suuktam.html
+        - title: अग्निः agni
+          contents:
+            - title: दिवस्परि
+              url: /mantra/agni/divaspari.html
   - title: Places
     contents:
       - title: USA
