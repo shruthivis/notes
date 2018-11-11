@@ -1,5 +1,5 @@
 ---  
-title: नक्षत्रसूक्तम्  
+title: द्रुहो मुञ्चामि  
 unicode_script: devanagari  
 ---  
 
