@@ -10,12 +10,16 @@ contents:
         url: /kaavya/videos.html
   - title: मन्त्राः Mantra
     contents:
-        - title: नक्षत्रसूक्तम्
-          url: /mantra/naxatra-suuktam.html
         - title: अग्निः agni
           contents:
             - title: दिवस्परि
               url: /mantra/agni/divaspari.html
+        - title: परिशिष्टम्
+          contents:
+            - title: नक्षत्रसूक्तम्
+              url: /mantra/misc-devas/naxatra-suuktam.html
+            - title: द्रुहो मुञ्चामि
+              url: /mantra/misc-devas/druho-munchAmi.html
   - title: Places
     contents:
       - title: USA
