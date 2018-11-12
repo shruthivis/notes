@@ -1,6 +1,7 @@
 ---  
 title: द्रुहो मुञ्चामि  
 unicode_script: devanagari  
+emphasis_as_inline_comments: true
 ---  
 
 क्षे॒त्रि॒यै *(=अचिकित्स्यव्याधेः)* त्वा॒ निर्ऋ॑त्यै त्वा..  
