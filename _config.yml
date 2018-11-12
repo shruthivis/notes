@@ -86,8 +86,10 @@ url: http://vvasuki.github.io
 baseurl: "/notes" # the subpath of your site, e.g. /blog
 
 remote_theme: sanskrit-coders/sanskrit-documentation-theme
+#theme: sanskrit-documentation-theme
 
 plugins:
 - jekyll-feed
 - jekyll-seo-tag
 - jekyll-sitemap
+- jekyll-regex-replace
