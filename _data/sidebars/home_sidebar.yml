@@ -4,22 +4,38 @@ title: Parts
 contents:
   - title: Home
     url: /index.html
-  - title: Kāvya काव्यम्
-    contents:
-      - title: Videos
-        url: /kaavya/videos.html
   - title: मन्त्राः Mantra
     contents:
         - title: अग्निः agni
           contents:
             - title: दिवस्परि
               url: /mantra/agni/divaspari.html
+        - title: इन्द्रः indra
+          contents:
+          - title: इन्द्रः
+            url: /mantra/indra/paravastu-saama/harishrInidhanam.html
         - title: परिशिष्टम्
           contents:
             - title: नक्षत्रसूक्तम्
               url: /mantra/misc-devas/naxatra-suuktam.html
             - title: द्रुहो मुञ्चामि
               url: /mantra/misc-devas/druho-munchAmi.html
+  - title: कल्पः
+    contents:
+    - title: वैश्वदेवम्, पञ्चमहायज्ञाः (देवयज्ञः, पितृयज्ञः, मनुष्ययज्ञः, भूतयज्ञः, ब्रह्मयज्ञः)
+      url: /kalpa/pancha-mahaa-yajjna.html
+    - title: अध्ययन-व्रतानि
+      url: /kalpa/adhyayana-vrataani.html
+    - title: पाकयज्ञेष्वग्निहोत्राधारितो विधिः
+      url: /kalpa/paaka-yajjna-agnihotra-riitiH.html
+    - title: उदकशान्ति-टीकाः
+      url: /kalpa/udakashaanti.html
+    - title: जातकर्म नामकरणम् च
+      url: /kalpa/jaatakarma-naamakaraNa.html
+  - title: Kāvya काव्यम्
+    contents:
+    - title: Videos
+      url: /kaavya/videos.html
   - title: Places
     contents:
       - title: USA
@@ -108,18 +124,6 @@ contents:
         url: /probability/probabilisticModels/probabilisticModels.pdf
       - title: Statistics and pattern recognition
         url: /probability/statistics/statistics.pdf
-  - title: कल्पः
-    contents:
-    - title: वैश्वदेवम्, पञ्चमहायज्ञाः (देवयज्ञः, पितृयज्ञः, मनुष्ययज्ञः, भूतयज्ञः, ब्रह्मयज्ञः)
-      url: /kalpa/pancha-mahaa-yajjna.html
-    - title: अध्ययन-व्रतानि
-      url: /kalpa/adhyayana-vrataani.html
-    - title: पाकयज्ञेष्वग्निहोत्राधारितो विधिः
-      url: /kalpa/paaka-yajjna-agnihotra-riitiH.html
-    - title: उदकशान्ति-टीकाः
-      url: /kalpa/udakashaanti.html
-    - title: जातकर्म नामकरणम् च
-      url: /kalpa/jaatakarma-naamakaraNa.html
   - title: Computing
     contents:
       - title: Computer Architecture
