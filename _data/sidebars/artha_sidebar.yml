@@ -1,0 +1,96 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+title: Parts
+contents:
+  - title: Places
+    contents:
+      - title: USA
+        contents:
+          - title: Intro
+            url: /artha/places/usa/intro.html
+          - title: SF Bay
+            contents:
+              - title: Intro
+                url: /artha/places/usa/sf-bay/intro.html
+              - title: Arts
+                url: /artha/places/usa/sf-bay/arts.html
+      - title: India
+        contents:
+          - title: Intro
+            url: /artha/places/india/intro.html
+          - title: Beṇgaḷūru
+            contents:
+              - title: Intro
+                url: /artha/places/india/bengaluuru/intro.html
+  - title: Economics
+    contents:
+      - title: Businesses
+        contents:
+            - title: Intro
+              url: /artha/economics/businesses/intro.html
+            - title: Misc
+              url: /artha/economics/businesses/misc.html
+      - title: Goods and services
+        contents:
+            - title: Intro
+              url: /artha/economics/goods/intro.html
+            - title: Tradeables
+              url: /artha/economics/goods/tradeables.html
+      - title: Investing
+        contents:
+            - title: Intro
+              url: /artha/economics/investing/intro.html
+            - title: Portfolio design
+              url: /artha/economics/investing/portfolio.html
+            - title: Funds
+              url: /artha/economics/investing/funds.html
+      - title: State level
+        contents:
+            - title: Intro
+              url: /artha/economics/state-level/intro.html
+            - title: Money
+              url: /artha/economics/state-level/money.html
+      - title: Consumption + Donation
+        url: /artha/economics/spending.html
+      - title: Geo outlook
+        url: /artha/economics/geo-outlook.html
+      - title: Trading
+        url: /artha/economics/trading.html
+      - title: Tax
+        url: /artha/economics/tax.html
+  - title: Society
+    contents:
+      - title: Algorithmic game theory
+        url: /artha/society/gameTheory/gameTheory.pdf
+  - title: Skills
+    contents:
+      - title: Intro
+        url: /artha/skills/index.html
+      - title: Learning
+        url: /artha/skills/learning.html
+      - title: Research
+        url: /artha/skills/research.html
+      - title: Clothing
+        url: /artha/skills/clothing/index.html
+  - title: Education
+    contents:
+      - title: Principles
+        url: /artha/education/principles.html
+      - title: Home schooling
+        contents:
+        - title: Intro
+          url: /artha/education/home_school/
+        - title: FAQ
+          url: /artha/education/home_school/faq.html
+        - title: India
+          url: /artha/education/home_school/india.html
+        - title: USA
+          url: /artha/education/home_school/usa.html
+      - title: Lecturing
+        url: /artha/education/lecturing.html
+  - title: Home
+    url: /index.html
+  - title: Vishvas's home page
+    url: /../index.html
+  - title: Blog
+    url: /assets/blog/index.html

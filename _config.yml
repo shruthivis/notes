@@ -51,13 +51,53 @@ feedback_link: "https://github.com/vvasuki/notes/issues"
 defaults:
   -
     scope:
-      path: ""
+      path: "saMskAra"
       type: "pages"
     values:
       layout: "page"
       comments: true
       search: true
-      sidebar: home_sidebar
+      sidebar: saMskAra_sidebar
+      topnav: home_sidebar
+  -
+    scope:
+      path: "artha"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: true
+      search: true
+      sidebar: artha_sidebar
+      topnav: home_sidebar
+  -
+    scope:
+      path: "misc"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: true
+      search: true
+      sidebar: misc_sidebar
+      topnav: home_sidebar
+  -
+    scope:
+      path: "math"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: true
+      search: true
+      sidebar: gaNita_sidebar
+      topnav: home_sidebar
+  -
+    scope:
+      path: "computing"
+      type: "pages"
+    values:
+      layout: "page"
+      comments: true
+      search: true
+      sidebar: gaNita_sidebar
       topnav: home_sidebar
   -
     scope:
@@ -75,6 +115,10 @@ defaults:
 
 sidebars:
 - home_sidebar
+- saMskAra_sidebar
+- artha_sidebar
+- gaNita_sidebar
+- misc_sidebar
 
 description: Vishvas's notes.
 #  Write an awesome description for your new site here. You can edit this

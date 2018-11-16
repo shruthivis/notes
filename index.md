@@ -2,6 +2,7 @@
 title: "Vishvas's notes"
 tags: [getting_started]
 sidebar: home_sidebar
+topnav: home_sidebar
 permalink: index.html
 summary: Welcome page.
 ---
