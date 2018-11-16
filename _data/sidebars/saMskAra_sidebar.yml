@@ -10,8 +10,10 @@ contents:
               url: /saMskAra/mantra/agni/divaspari.html
         - title: इन्द्रः indra
           contents:
-          - title: इन्द्रः
-            url: /saMskAra/mantra/indra/paravastu-saama/harishrInidhanam.html
+            - title: सामानि
+              contents:
+                - title: हरिश्रीनिधनम्
+                  url: /saMskAra/mantra/indra/paravastu-saama/harishrInidhanam.html
         - title: परिशिष्टम्
           contents:
             - title: नक्षत्रसूक्तम्
