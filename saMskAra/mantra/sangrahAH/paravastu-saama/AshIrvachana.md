@@ -4,7 +4,7 @@ unicode_script: devanagari
 emphasis_as_inline_comments: true
 ---   
 
-##‌ पारम्परिक-मूलानि
+## पारम्परिक-मूलानि
 
 - [१९३७](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/sAmaveda-paravastu-1937#page/n115/mode/1up)
 - [१९७५](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/sAmaveda-paravastu-1975#page/n102/mode/1up)
@@ -20,7 +20,6 @@ emphasis_as_inline_comments: true
 <div class="js_include" url="../../indra/paravastu-saama/rathantaram.md"  newLevelForH1="2" includeTitle="true"> </div>  
 <div class="js_include" url="../../soma/paravastu-saama/tavAham-mahAvairAjam.md"  newLevelForH1="2" includeTitle="true"> </div>  
 <div class="js_include" url="../../agni/paravastu-saama/mahAvaishvAmitram.md"  newLevelForH1="2" includeTitle="true"> </div>  
-<div class="js_include" url="../../soma/paravastu-saama/shrAyantIyam.md"  newLevelForH1="2" includeTitle="true"> </div>  
+<div class="js_include" url="../../indra/paravastu-saama/shrAyantIyam.md"  newLevelForH1="2" includeTitle="true"> </div>  
 <div class="js_include" url="../../indra/paravastu-saama/piba-somam-mahAvairAjam.md"  newLevelForH1="2" includeTitle="true"> </div>  
 <div class="js_include" url="../../agni/paravastu-saama/mahAvaishvAnaravratam.md"  newLevelForH1="2" includeTitle="true"> </div>  
-<div class="js_include" url="../../soma/paravastu-saama/dIrgham.md"  newLevelForH1="2" includeTitle="true"> </div>  
