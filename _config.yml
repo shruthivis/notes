@@ -47,6 +47,7 @@ feedback_text: "Comment?"
 
 feedback_link: "https://github.com/vvasuki/notes/issues"
 # if you uncomment the previous line, it changes where the feedback link points to
+
 # Order matters below.
 defaults:
   -
@@ -98,6 +99,15 @@ defaults:
       comments: true
       search: true
       sidebar: gaNita_sidebar
+      topnav: home_sidebar
+  -
+    scope:
+      type: "pages"
+    values:
+      layout: "page"
+      comments: true
+      search: true
+      sidebar: home_sidebar
       topnav: home_sidebar
   -
     scope:
