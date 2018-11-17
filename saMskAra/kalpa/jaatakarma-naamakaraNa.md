@@ -13,7 +13,7 @@ emphasis_as_inline_comments: true
 
 ## जातकर्म
 ### अभिमर्शनम्
-<div class="js_include" url="../mantra/agni/divaspari.html"> </div>  
+<div class="js_include" url="../mantra/agni/divaspari.html"  newLevelForH1="4" includeTitle="true"> </div>  
 
 ### उपस्थ आधानम्
 अ॒स्मिन्न॒हँस॒हस्रं॑ पुष्या॒म्येध॑मान॒स् स्वे वशे॑ ।
@@ -34,7 +34,7 @@ emphasis_as_inline_comments: true
 
 ### स्नापनम्
 
-<div class="js_include" url="../mantra/misc-devas/druho-munchAmi.md"> </div>  
+<div class="js_include" url="../mantra/misc-devas/druho-munchAmi.md"  newLevelForH1="4" includeTitle="true"> </div>  
 
 ### दधि-घृत-प्राशनम् 
 भूस्स्वाहा॒ भुव॒स्स्वाहा॒ सुव॒स्स्वाहा। ॐ स्वाहा॑ ।।
