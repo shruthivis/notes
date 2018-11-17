@@ -1,0 +1,27 @@
+---
+title: एष स्य धारया सुतः  
+unicode_script: devanagari  
+emphasis_as_inline_comments: true
+---   
+
+## ऋक्
+
+RV.9.108.5a; SV.1.584a; JB.3.192a; PB.14.5.2.
+
+*([सायणो [ऽत्र](https://www.google.com/url?q=https://archive.org/stream/RgVedaWithSayanasCommentaryPart4/rv_sayanabhasya_part4%23page/n359/mode/2up&sa=D&ust=1542425956334000)। आङ्गीरस ऊरुः। गायत्री। सोमः।])*
+
+ ए॒ष स्य *(=स)* धार॑या *(पवते)* सु॒तो
+
+ अव्यो वारे॑भिः *(=वालैः)* पवते *(=क्षरति)* म॒दिन्त॑मः *(=मदयितृतमः)*।
+
+ क्रीळ॑न्न् *(=सङ्क्रीडमानः)* ऊ॒र्मिर् अ॒पाम् इव॥
+
+## साम
+
+*(पारम्परिक-गान-मूलम् [अत्र](https://www.google.com/url?q=https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%2520UPANAYANA%2520SAAMAANI%23page/n2/mode/1up&sa=D&ust=1542425956335000)।)*
+
+ए*([कि])*ष स्य धा*(३v--)*आरया*(३v--)*आ सुता*(“)*ह।
+
+अ*([रो])*व्या[*([44])*](#ftnt44)*([ऽ]-%-३)* +वा*(["]३)*आ*(३)*रा*(३)*इ,,भिः*([?])* पा*(["ऽ])*,वा*(३)*ता*(३)* ,अइमा*([पे])*दिन्तमा*(३")*ह।
+
+क्री*(["??])*डन्न् ऊ[*([45])*](#ftnt45)*(")*र्मिरपो*(३")* ओI वा*(३)*अओ*(३")*वा । आ*([कि])*इ,वो*(३")*म् हाइ*(")* ।।
