@@ -8,7 +8,7 @@ emphasis_as_inline_comments: true
 
 RV.9.96.5a; SV.1.527a; 2.293a; JB.3.80a; PB.12.11.6; Svidh.1.4.8; 2.8.1; N.14.12a.
 
-*(सायणो [ऽत्र](https://www.google.com/url?q=https://archive.org/stream/RgVedaWithSayanasCommentaryPart4/rv_sayanabhasya_part4%23page/n303/mode/2up&sa=D&ust=1542425956294000)। दिवोदासपुत्रः प्रतर्दनो राजर्षिः। त्रिष्टुभ्। सोमः।)*
+*(सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart4/rv_sayanabhasya_part4%23page/n303/mode/2up&sa=D&ust=1542425956294000)। दिवोदासपुत्रः प्रतर्दनो राजर्षिः। त्रिष्टुभ्। सोमः।)*
 
 सोम॑ः पवते *(=पात्रेषु क्षरति)* जनि॒ता म॑ती॒नां ज॑नि॒ता दि॒वो ज॑नि॒ता पृ॑थि॒व्याः ।
 
@@ -22,7 +22,7 @@ RV.9.96.5a; SV.1.527a; 2.293a; JB.3.80a; PB.12.11.6; Svidh.1.4.8; 2.8.1; N.14.12
 
 अ॒न्तः पश्य॑न् वृ॒जना॑*(=बलानि)*+इ॒माऽव॑रा॒ण्य् आति॑ष्ठति वृष॒भो गोषु॑ जा॒नन् ७
 
-RV.9.101.1a; SV.1.545a; 2.47a; JB.1.116,161a,163a; 2.195,425; 3.79,195; PB.8.5.7; 12.11.5; 14.5.5; 15.11.7 *(सायणो [ऽत्र](https://www.google.com/url?q=https://archive.org/stream/RgVedaWithSayanasCommentaryPart4/rv_sayanabhasya_part4%23page/n339/mode/2up&sa=D&ust=1542425956295000)।)*
+RV.9.101.1a; SV.1.545a; 2.47a; JB.1.116,161a,163a; 2.195,425; 3.79,195; PB.8.5.7; 12.11.5; 14.5.5; 15.11.7 *(सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart4/rv_sayanabhasya_part4%23page/n339/mode/2up&sa=D&ust=1542425956295000)।)*
 
 पु॒रोऽजि॑ती *(=जयस्य)* वो॒ अन्ध॑सः *(=अदनीयस्य सोमस्य)* सु॒ताय॑ मादयि॒त्नवे॑ ।
 
@@ -36,7 +36,7 @@ RV.9.101.1a; SV.1.545a; 2.47a; JB.1.116,161a,163a; 2.195,425; 3.79,195; PB.8.5.7
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://www.google.com/url?q=https://sanskritdocuments.org/sites/pssramanujaswamy/AASHEERVACHANA%2520SAAMAANI.pdf&sa=D&ust=1542425956296000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/AASHEERVACHANA%2520SAAMAANI.pdf&sa=D&ust=1542425956296000)।)*
 
 म हा वा त्स प्रम् ।
 

@@ -8,7 +8,7 @@ emphasis_as_inline_comments: true
 
 RV.1.11.1a; SV.1.343a; 2.177a; VS.12.56a; 13.58a; 14.10a,22a,31a; 15.61a; 17.61a; TS.4.6.3.4a; 5.4.6.5; MS.2.10.5a: 137.9; 3.3.8: 41.3; KS.18.3a; 36.15a; 37.9a; AB.5.7.5; JB.3.34; KB.24.8; PB.11.11.4; ;SB.8.7.3.7; 9.2.3.20; TB.2.7.15.5a; 16.3a; AA.1.5.2.10; 5.3.1.2; A;S.7.8.3; 12.15; ;S;S.18.18.3; Ap;S.16.21.12; 17.14.9. P: indraM vishvAH ;S;S.11.11.12; 12.26.1; K;S.17.1.18; 18.3.21.
 
-*([सायणो [ऽत्र](https://www.google.com/url?q=https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3%23page/n413/mode/2up&sa=D&ust=1542425956355000)। मधुच्छन्दःपुत्रो जेता। अनुष्टुभ्। इन्द्रः।])*
+*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3%23page/n413/mode/2up&sa=D&ust=1542425956355000)। मधुच्छन्दःपुत्रो जेता। अनुष्टुभ्। इन्द्रः।])*
 
 इन्द्रं॒ विश्वा॑ अवीवृधन्त् *(=अवर्धयन्)* समु॒द्रव्य॑चसं॒ *(=समुद्रवद् व्याप्तवन्तम्)* गिर॑ः ।
 
@@ -16,7 +16,7 @@ RV.1.11.1a; SV.1.343a; 2.177a; VS.12.56a; 13.58a; 14.10a,22a,31a; 15.61a; 17.61a
 
 RV.6.48.2d; SV.2.54d; VS.27.44d; MS.2.13.9d: 159.13; KS.39.12d; JB.1.177; 2.137; Ap;S.17.9.1d.
 
-*([सायणो [ऽत्र](https://www.google.com/url?q=https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3%23page/n413/mode/2up&sa=D&ust=1542425956356000)। बृहस्पतिपुत्रः शंयुः। बृहती, सतोबृहती। अग्निः।])*
+*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3%23page/n413/mode/2up&sa=D&ust=1542425956356000)। बृहस्पतिपुत्रः शंयुः। बृहती, सतोबृहती। अग्निः।])*
 
 य॒ज्ञाय॑ज्ञा वो अ॒ग्नये॑ गि॒रागि॑रा च॒ दक्ष॑से *(=प्रवृद्धाय)* ।
 
@@ -32,7 +32,7 @@ RV.6.48.2d; SV.2.54d; VS.27.44d; MS.2.13.9d: 159.13; KS.39.12d; JB.1.177; 2.137;
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://www.google.com/url?q=https://sanskritdocuments.org/sites/pssramanujaswamy/AASHEERVACHANA%2520SAAMAANI.pdf&sa=D&ust=1542425956357000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/AASHEERVACHANA%2520SAAMAANI.pdf&sa=D&ust=1542425956357000)।)*
 
 महा*("३)*वैश्वामित्रम्।
 

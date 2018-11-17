@@ -8,7 +8,7 @@ emphasis_as_inline_comments: true
 
 ३.०४०.०६
 
-*([सायणो [ऽत्र](https://www.google.com/url?q=https://archive.org/stream/RgVedaWithSayanasCommentaryPart2/rv_sayanabhasya_part2%23page/n444/mode/1up&sa=D&ust=1542406658546000)। वैश्वामित्रम्, गायत्रम्, ऐन्द्रम्।])*
+*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart2/rv_sayanabhasya_part2%23page/n444/mode/1up&sa=D&ust=1542406658546000)। वैश्वामित्रम्, गायत्रम्, ऐन्द्रम्।])*
 
 गिर्व॑णः पा॒हि *(=पिब।)* नः॑ सु॒तं मधो॒र्धारा॑भिरज्यसे ।
 
@@ -16,7 +16,7 @@ emphasis_as_inline_comments: true
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://www.google.com/url?q=https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/AASHEERVACHANA%2520SAAMAANI%23mode/1up&sa=D&ust=1542406658547000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/AASHEERVACHANA%2520SAAMAANI%23mode/1up&sa=D&ust=1542406658547000)।)*
 
 हरिश्रीनिधनम्*(३)*।
 

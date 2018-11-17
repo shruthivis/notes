@@ -8,7 +8,7 @@ emphasis_as_inline_comments: true
 
 RV.9.107.19a; SV.1.516a; 2.272a; JB.3.67a; PB.12.9.3a; Svidh.1.5.8.
 
-*([सायणो [ऽत्र।](https://www.google.com/url?q=https://archive.org/stream/b30094306_0005%23page/n417/mode/1up&sa=D&ust=1542425956316000) ७ ऋषयः। सोमः।])*
+*([सायणो [ऽत्र।](https://archive.org/stream/b30094306_0005%23page/n417/mode/1up&sa=D&ust=1542425956316000) ७ ऋषयः। सोमः।])*
 
 तवा॒हं सो॑म रारण *(=सन्तुष्टवान्)*
 
@@ -34,7 +34,7 @@ RV.9.107.19a; SV.1.516a; 2.272a; JB.3.67a; PB.12.9.3a; Svidh.1.5.8.
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://www.google.com/url?q=https://sanskritdocuments.org/sites/pssramanujaswamy/AASHEERVACHANA%2520SAAMAANI.pdf&sa=D&ust=1542425956318000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/AASHEERVACHANA%2520SAAMAANI.pdf&sa=D&ust=1542425956318000)।)*
 
 म हा वै रा जम् ।
 

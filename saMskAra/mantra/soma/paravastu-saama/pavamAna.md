@@ -8,7 +8,7 @@ emphasis_as_inline_comments: true
 
 RV.9.61.16a; SV.1.484a; 2.239a; JB.3.59; PB.12.7.5.
 
-*([सायणो [ऽत्र](https://www.google.com/url?q=https://archive.org/stream/RgVedaWithSayanasCommentaryPart4/rv_sayanabhasya_part4%23page/n185/mode/1up&sa=D&ust=1542425956327000)। सामभाष्ये [ऽत्र](https://www.google.com/url?q=https://archive.org/details/SamaVedaSanhitaWithSayanabhashyaVolume2SatyavrataSamasrami1876bis_201804/page/n55&sa=D&ust=1542425956327000)। आङ्गीरसो ऽंहीयुः। गायत्री। सोमः।])*
+*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart4/rv_sayanabhasya_part4%23page/n185/mode/1up&sa=D&ust=1542425956327000)। सामभाष्ये [ऽत्र](https://archive.org/details/SamaVedaSanhitaWithSayanabhashyaVolume2SatyavrataSamasrami1876bis_201804/page/n55&sa=D&ust=1542425956327000)। आङ्गीरसो ऽंहीयुः। गायत्री। सोमः।])*
 
 पव॑मानो अजीजनद्  
 
@@ -18,7 +18,7 @@ RV.9.61.16a; SV.1.484a; 2.239a; JB.3.59; PB.12.7.5.
 
 ## साम *(जनित्रे द्वे)*
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://www.google.com/url?q=https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%2520UPANAYANA%2520SAAMAANI%23page/n1/mode/1up&sa=D&ust=1542425956328000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%2520UPANAYANA%2520SAAMAANI%23page/n1/mode/1up&sa=D&ust=1542425956328000)।)*
 
 पा*([का]३)*वा*(३-")*अ। मा*([त]%)*नो*(३")*। अ*([ठौ])*जीजा*(%)*नात् ।
 

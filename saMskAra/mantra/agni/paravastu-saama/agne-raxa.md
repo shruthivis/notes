@@ -6,7 +6,7 @@ emphasis_as_inline_comments: true
 
 ## ऋक्
 
-१ १ १ ०३०४ *([सायणो [ऽत्र](https://www.google.com/url?q=https://archive.org/details/SamaVedaSanhitaWithSayanabhashyaVolume1SatyavrataSamasrami1874bis/page/n169&sa=D&ust=1542425956389000) कौथुमभाष्ये। वसिष्ठः।अग्निः])*
+१ १ १ ०३०४ *([सायणो [ऽत्र](https://archive.org/details/SamaVedaSanhitaWithSayanabhashyaVolume1SatyavrataSamasrami1874bis/page/n169&sa=D&ust=1542425956389000) कौथुमभाष्ये। वसिष्ठः।अग्निः])*
 
 धर्मः अधर्मः विधर्मः सत्यं गाय। ऋतं वद।
 
@@ -16,7 +16,7 @@ emphasis_as_inline_comments: true
 
 ## साम
 
-*([पारम्परिकगानमूलम् - [२०१५](https://www.google.com/url?q=https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/UDAKA%2520SAANTHI%2520SAAMAANI%23page/n2/mode/1up&sa=D&ust=1542425956390000)।])*
+*([पारम्परिकगानमूलम् - [२०१५](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/UDAKA%2520SAANTHI%2520SAAMAANI%23page/n2/mode/1up&sa=D&ust=1542425956390000)।])*
 
 {ऊ*([ता])*उर्क्। हा*([प])*उ।}*([त्रिः])* {हो*([पे])*वाक्।}*([त्रिः])*
 

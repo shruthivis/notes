@@ -8,7 +8,7 @@ emphasis_as_inline_comments: true
 
 RV.9.108.5a; SV.1.584a; JB.3.192a; PB.14.5.2.
 
-*([सायणो [ऽत्र](https://www.google.com/url?q=https://archive.org/stream/RgVedaWithSayanasCommentaryPart4/rv_sayanabhasya_part4%23page/n359/mode/2up&sa=D&ust=1542425956334000)। आङ्गीरस ऊरुः। गायत्री। सोमः।])*
+*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart4/rv_sayanabhasya_part4%23page/n359/mode/2up&sa=D&ust=1542425956334000)। आङ्गीरस ऊरुः। गायत्री। सोमः।])*
 
  ए॒ष स्य *(=स)* धार॑या *(पवते)* सु॒तो
 
@@ -18,7 +18,7 @@ RV.9.108.5a; SV.1.584a; JB.3.192a; PB.14.5.2.
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://www.google.com/url?q=https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%2520UPANAYANA%2520SAAMAANI%23page/n2/mode/1up&sa=D&ust=1542425956335000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%2520UPANAYANA%2520SAAMAANI%23page/n2/mode/1up&sa=D&ust=1542425956335000)।)*
 
 ए*([कि])*ष स्य धा*(३v--)*आरया*(३v--)*आ सुता*(“)*ह।
 

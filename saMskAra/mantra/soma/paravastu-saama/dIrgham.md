@@ -8,7 +8,7 @@ emphasis_as_inline_comments: true
 
 RV.9.108.13a; SV.1.582a; 2.446a; JB.3.161
 
-*([सायणो [ऽत्र](https://www.google.com/url?q=https://archive.org/stream/b30094306_0005%23page/n423/mode/2up&sa=D&ust=1542425956288000)। ऋणञ्चयो नाम राजऋषिः। गायत्री। सोमः।])*
+*([सायणो [ऽत्र](https://archive.org/stream/b30094306_0005%23page/n423/mode/2up&sa=D&ust=1542425956288000)। ऋणञ्चयो नाम राजऋषिः। गायत्री। सोमः।])*
 
 स सु॑न्वे॒ *(=अभिसुषुवे)* यो वसू॑नां॒ यो रा॒याम् *(=गवाम् क्षीरादिरातॄणाम्)*
 
@@ -20,7 +20,7 @@ RV.9.108.13a; SV.1.582a; 2.446a; JB.3.161
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://www.google.com/url?q=https://sanskritdocuments.org/sites/pssramanujaswamy/AASHEERVACHANA%2520SAAMAANI.pdf&sa=D&ust=1542425956289000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/AASHEERVACHANA%2520SAAMAANI.pdf&sa=D&ust=1542425956289000)।)*
 
 दीर्घम्। सा*([ता]"३)* सु। न्वे*([तः])* यो*(["]%)* वसू*("३)*ऊनाम्।
 

@@ -8,7 +8,7 @@ emphasis_as_inline_comments: true
 
 RV.9.106.10a; SV.1.572a; 2.290a; JB.3.78a;
 
-*([सायणो [ऽत्र](https://www.google.com/url?q=https://archive.org/stream/RgVedaWithSayanasCommentaryPart4/rv_sayanabhasya_part4%23page/n351/mode/2up&sa=D&ust=1542425956291000)। चक्षुराख्यपुत्रो ऽग्निर् ऋषिः। उष्णिक्। सोमः।])*
+*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart4/rv_sayanabhasya_part4%23page/n351/mode/2up&sa=D&ust=1542425956291000)। चक्षुराख्यपुत्रो ऽग्निर् ऋषिः। उष्णिक्। सोमः।])*
 
 सोम॑ः पुना॒न ऊ॒र्मिणा ऽव्यो॒ *(=मेषस्य)* वारं॒ *(=वालम्)* वि धा॑वति *(पवनार्थम्)*।
 
@@ -16,7 +16,7 @@ RV.9.106.10a; SV.1.572a; 2.290a; JB.3.78a;
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://www.google.com/url?q=https://sanskritdocuments.org/sites/pssramanujaswamy/AASHEERVACHANA%2520SAAMAANI.pdf&sa=D&ust=1542425956292000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/AASHEERVACHANA%2520SAAMAANI.pdf&sa=D&ust=1542425956292000)।)*
 
 आदीषादिय्यम्।
 

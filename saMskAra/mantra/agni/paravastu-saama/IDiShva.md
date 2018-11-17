@@ -8,7 +8,7 @@ emphasis_as_inline_comments: true
 
 RV.8.23.1b; SV.1.103b.
 
-*([सायणो [ऽत्र](https://www.google.com/url?q=https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3%23page/n755/mode/1up&sa=D&ust=1542425956349000)। व्यश्वपुत्रो विश्वमना ऋषिः। उष्णिक्। अग्निः।])*
+*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3%23page/n755/mode/1up&sa=D&ust=1542425956349000)। व्यश्वपुत्रो विश्वमना ऋषिः। उष्णिक्। अग्निः।])*
 
  ईळि॑ष्व+ हि प्र॑ती॒व्य॑म् *(=प्रतिगन्तारम्)*
 
@@ -18,7 +18,7 @@ RV.8.23.1b; SV.1.103b.
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://www.google.com/url?q=https://sanskritdocuments.org/sites/pssramanujaswamy/VIVAAHA%2520UPANAYANA%2520SAAMAANI.pdf&sa=D&ust=1542425956349000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/VIVAAHA%2520UPANAYANA%2520SAAMAANI.pdf&sa=D&ust=1542425956349000)।)*
 
 ई*(["])**([पी])*+डाइष्वा*(३)*अ +हि प्राती*(%)*व्या*(")*अम्।
 

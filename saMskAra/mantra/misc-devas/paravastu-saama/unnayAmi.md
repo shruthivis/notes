@@ -20,7 +20,7 @@ KS.11.8; K;S.4.15.6; M;S.1.6.1.26? “आदित्यस्योन्नय
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [१९३७-लेखा](https://www.google.com/url?q=https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/sAmaveda-paravastu-1937%23page/n9/mode/1up&sa=D&ust=1542425956421000)। [१९७५](https://www.google.com/url?q=https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/sAmaveda-paravastu-1975%23page/n9/mode/1up&sa=D&ust=1542425956421000)। [२०१५-लेखा](https://www.google.com/url?q=https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%2520UPANAYANA%2520SAAMAANI%23page/n4/mode/1up&sa=D&ust=1542425956422000)।)*
+*(पारम्परिक-गान-मूलम् [१९३७-लेखा](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/sAmaveda-paravastu-1937%23page/n9/mode/1up&sa=D&ust=1542425956421000)। [१९७५](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/sAmaveda-paravastu-1975%23page/n9/mode/1up&sa=D&ust=1542425956421000)। [२०१५-लेखा](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%2520UPANAYANA%2520SAAMAANI%23page/n4/mode/1up&sa=D&ust=1542425956422000)।)*
 
 {उन्*([ता]३)*नया*([“]३)*आमि[*([70])*](#ftnt70)*([ऽ])* हो*([त]३”)*इ।}*([त्रिः])*
 

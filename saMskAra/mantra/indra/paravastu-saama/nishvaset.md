@@ -8,7 +8,7 @@ emphasis_as_inline_comments: true
 
 RV.7.27.1a; SV.1.318a; TS.1.6.12.1a; MS.4.12.3a: 184.17; 4.14.5: 221.11; KB.26.15; A;S.3.7.11. P: indraM naraH TS.2.1.11.1; 3.14.1; 3.1.11.4; 4.3.13.8; TB.2.8.2.5; ;S;S.6.10.7; 10.11.5; M;S.5.1.10.49; Svidh.2.1.5.
 
-*([सायणो [ऽत्र](https://www.google.com/url?q=https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3%23page/n423/mode/1up&sa=D&ust=1542425956264000)। वसिष्ठः। त्रिष्टुभ्। इन्द्रः।])*
+*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3%23page/n423/mode/1up&sa=D&ust=1542425956264000)। वसिष्ठः। त्रिष्टुभ्। इन्द्रः।])*
 
 इन्द्रं नरो ने॒मधि॑ता *(=सङ्ग्रामे)* हवन्ते *(=ह्वयन्ति)*  
 यत् पारि॑या *(=युद्धनिमित्ताः)* यु॒नज॑ते *(=प्रयुज्यन्ते)* धिय॑स् ताः ।  
@@ -18,7 +18,7 @@ RV.7.27.1a; SV.1.318a; TS.1.6.12.1a; MS.4.12.3a: 184.17; 4.14.5: 221.11; KB.26.1
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [२०१५](https://www.google.com/url?q=https://sanskritdocuments.org/sites/pssramanujaswamy/VIVAAHA%2520UPANAYANA%2520SAAMAANI.pdf&sa=D&ust=1542425956265000)। [१९३७](https://www.google.com/url?q=https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/sAmaveda-paravastu-1937%23page/n8/mode/1up&sa=D&ust=1542425956265000)। कौथुम-गानम् [अत्र](https://www.google.com/url?q=https://archive.org/details/SamaVedaSanhitaWithSayanabhashyaVolume2SatyavrataSamasrami1876bis_201804/page/n453&sa=D&ust=1542425956265000)।)*
+*(पारम्परिक-गान-मूलम् [२०१५](https://sanskritdocuments.org/sites/pssramanujaswamy/VIVAAHA%2520UPANAYANA%2520SAAMAANI.pdf&sa=D&ust=1542425956265000)। [१९३७](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/sAmaveda-paravastu-1937%23page/n8/mode/1up&sa=D&ust=1542425956265000)। कौथुम-गानम् [अत्र](https://archive.org/details/SamaVedaSanhitaWithSayanabhashyaVolume2SatyavrataSamasrami1876bis_201804/page/n453&sa=D&ust=1542425956265000)।)*
 
 {हा*([“प]३)* उ}*([त्रिः])*I {नि*([त])*,श्वसे*(३")*त्}*([त्रिः])*I {आ*([त]%)*युहु}*([द्विः])*I आ*([त]-%३)*युहु। {सा*([त]--%३)*त्यम्}*([त्रिः])* I
 

@@ -8,7 +8,7 @@ emphasis_as_inline_comments: true
 
 RV.8.70.5b; AV;S.20.81.1b; 92.20b; SV.1.278b; 2.212b; TS.2.4.14.3b; KS.12.15b; JB.3.48b; KB.22.4; JUB.1.32.1b,2; N.13.2b.
 
-*([सायणो [ऽत्र](https://www.google.com/url?q=https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3%23page/n911/mode/2up&sa=D&ust=1542425956260000)। पुरुहन्मा। बृहती। इन्द्रः।])*
+*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3%23page/n911/mode/2up&sa=D&ust=1542425956260000)। पुरुहन्मा। बृहती। इन्द्रः।])*
 
 यद् द्याव *(=द्यौर्लोकाः)* इन्द्र ते *(प्रतिमानाय)* श॒तं श॒तम् भूमीः उ॒त स्युः ।
 
@@ -16,7 +16,7 @@ RV.8.70.5b; AV;S.20.81.1b; 92.20b; SV.1.278b; 2.212b; TS.2.4.14.3b; KS.12.15b; J
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [२०१५](https://www.google.com/url?q=https://sanskritdocuments.org/sites/pssramanujaswamy/AASHEERVACHANA%2520SAAMAANI.pdf&sa=D&ust=1542425956261000)। १९३७।)*
+*(पारम्परिक-गान-मूलम् [२०१५](https://sanskritdocuments.org/sites/pssramanujaswamy/AASHEERVACHANA%2520SAAMAANI.pdf&sa=D&ust=1542425956261000)। १९३७।)*
 
 अञ्जो*(३)* वैरूपम्*(२)*।
 

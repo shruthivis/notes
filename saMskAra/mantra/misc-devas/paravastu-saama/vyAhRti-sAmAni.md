@@ -13,7 +13,7 @@ emphasis_as_inline_comments: true
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [१९३७](https://www.google.com/url?q=https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/UDAKA%2520SAANTHI%2520SAAMAANI%23page/n1/mode/1up&sa=D&ust=1542425956425000)।)*
+*(पारम्परिक-गान-मूलम् [१९३७](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/UDAKA%2520SAANTHI%2520SAAMAANI%23page/n1/mode/1up&sa=D&ust=1542425956425000)।)*
 
 भू*([प])*हु*(v)*,  भू*([त])*हु*(v)*,  {हो*([त]“)*इ, भू*([त])*हु*(v)*,}*([द्विः])*। ह*([पौ])*आ*(३)*उवा*(-“३)*अ।
 

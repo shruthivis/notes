@@ -6,14 +6,14 @@ emphasis_as_inline_comments: true
 
 ## ऋक्
 
-*([कौथुमभाष्ये सायणो [ऽत्र](https://www.google.com/url?q=https://archive.org/details/SamaVedaSanhitaWithSayanabhashyaVolume1SatyavrataSamasrami1874bis/page/n782&sa=D&ust=1542425956285000)। भरद्वाजः। इन्द्रः।])*
+*([कौथुमभाष्ये सायणो [ऽत्र](https://archive.org/details/SamaVedaSanhitaWithSayanabhashyaVolume1SatyavrataSamasrami1874bis/page/n782&sa=D&ust=1542425956285000)। भरद्वाजः। इन्द्रः।])*
 
 *(अध्वर्यो!)* प्रत्यस्मै पिपीषते विश्वानि विदुषे भर  ।  
 अरङ् *(=अलं)* गमाय जग्मये *(=गमनशीलाय)* ऽपश्चादध्वने *(=पुरोगाय)* नरः।
 
 ## साम
 
-*([गानमूलम् - [२०१५](https://www.google.com/url?q=https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/UDAKA%2520SAANTHI%2520SAAMAANI%23mode/1up&sa=D&ust=1542425956286000)।])*
+*([गानमूलम् - [२०१५](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/UDAKA%2520SAANTHI%2520SAAMAANI%23mode/1up&sa=D&ust=1542425956286000)।])*
 
 नानदम्*(३)*॥  
 प्र*([ठू])*त्या*(३)*स्मै*([“])* पीपिइषा*([टि]--“३)*ता*(--“३)*इ।

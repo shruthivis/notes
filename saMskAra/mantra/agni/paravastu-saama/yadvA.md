@@ -8,7 +8,7 @@ emphasis_as_inline_comments: true
 
 RV.8.23.13b; SV.1.114b.
 
-*([सायणो [ऽत्र](https://www.google.com/url?q=https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3%23page/n755/mode/1up&sa=D&ust=1542425956346000)। व्यश्वपुत्रो विश्वमना ऋषिः। उष्णिक्। अग्निः।])*
+*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3%23page/n755/mode/1up&sa=D&ust=1542425956346000)। व्यश्वपुत्रो विश्वमना ऋषिः। उष्णिक्। अग्निः।])*
 
 यद् वै+उ॑ वि॒श्पति॑ः शि॒तः सुप्री॑तो॒ मनु॑षो *(=मनुष्यस्य)* वि॒शि *(=गृहे)* ।
 
@@ -16,7 +16,7 @@ RV.8.23.13b; SV.1.114b.
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://www.google.com/url?q=https://sanskritdocuments.org/sites/pssramanujaswamy/VIVAAHA%2520UPANAYANA%2520SAAMAANI.pdf&sa=D&ust=1542425956346000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/VIVAAHA%2520UPANAYANA%2520SAAMAANI.pdf&sa=D&ust=1542425956346000)।)*
 
 य*([पि])*द्वा*(["]%)* ऊउ, विश्पा, अतश् शितह[*([50])*](#ftnt50)।
 

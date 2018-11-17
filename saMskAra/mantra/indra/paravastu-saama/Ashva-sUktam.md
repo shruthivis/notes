@@ -6,13 +6,13 @@ emphasis_as_inline_comments: true
 
 ## ऋक्
 
-RV 8 14_*(634)* 1 a *([सायणो [ऽत्र।](https://www.google.com/url?q=https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3%23page/n707/mode/1up&sa=D&ust=1542425956216000) ऋषिः - आश्वसूक्तिः काण्वगोत्रः। गायत्री। इन्द्रः।])*
+RV 8 14_*(634)* 1 a *([सायणो [ऽत्र।](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3%23page/n707/mode/1up&sa=D&ust=1542425956216000) ऋषिः - आश्वसूक्तिः काण्वगोत्रः। गायत्री। इन्द्रः।])*
 
 यदि॑न्द्रा॒हं यथा॒ त्वमीशी॑य॒ वस्व॒ एक॒ इत् । स्तो॒ता मे॒ गोष॑खा स्यात् १
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://www.google.com/url?q=https://sanskritdocuments.org/sites/pssramanujaswamy/VIVAAHA%2520UPANAYANA%2520SAAMAANI.pdf&sa=D&ust=1542425956217000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/VIVAAHA%2520UPANAYANA%2520SAAMAANI.pdf&sa=D&ust=1542425956217000)।)*
 
 आश्व सूक्तम् ।
 

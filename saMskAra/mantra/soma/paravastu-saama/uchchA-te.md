@@ -8,7 +8,7 @@ emphasis_as_inline_comments: true
 
 RV.9.61.10b; SV.1.467b; 2.22b; VS.26.16b; JB.1.81,116; 3.40.
 
-*([सायणो [ऽत्र](https://www.google.com/url?q=https://archive.org/stream/RgVedaWithSayanasCommentaryPart4/rv_sayanabhasya_part4%23page/n185/mode/1up&sa=D&ust=1542425956331000)। सामभाष्ये [ऽत्र](https://www.google.com/url?q=https://archive.org/details/SamaVedaSanhitaWithSayanabhashyaVolume2SatyavrataSamasrami1876bis_201804/page/n19&sa=D&ust=1542425956331000)। आङ्गीरसो अमहीयुः। गायत्री। सोमः।])*
+*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart4/rv_sayanabhasya_part4%23page/n185/mode/1up&sa=D&ust=1542425956331000)। सामभाष्ये [ऽत्र](https://archive.org/details/SamaVedaSanhitaWithSayanabhashyaVolume2SatyavrataSamasrami1876bis_201804/page/n19&sa=D&ust=1542425956331000)। आङ्गीरसो अमहीयुः। गायत्री। सोमः।])*
 
 उ॒च्चा ते जा॒तम् *(=जन्म)* अन्ध॑सो *(=रसस्य)*
 
@@ -18,7 +18,7 @@ RV.9.61.10b; SV.1.467b; 2.22b; VS.26.16b; JB.1.81,116; 3.40.
 
 ## साम -आजिगम्
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://www.google.com/url?q=https://sanskritdocuments.org/sites/pssramanujaswamy/VIVAAHA%2520UPANAYANA%2520SAAMAANI.pdf&sa=D&ust=1542425956332000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/VIVAAHA%2520UPANAYANA%2520SAAMAANI.pdf&sa=D&ust=1542425956332000)।)*
 
 उ*([प])*च्चा*(--%)*आ। ते*(["])**([ट]-)*जा*(["]३)*आ*([रॄ?ण])*,,ता*(vv-v३)*म् आ*(vv-v३)*न्,धा*(vv-v३)*सा*([प्रे])*अह।
 

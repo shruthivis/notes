@@ -8,7 +8,7 @@ emphasis_as_inline_comments: true
 
 RV.7.32.22a; AV;S.20.121.1a; SV.1.233a; 2.30a; VS.27.35a; TS.2.4.14.2a; MS.2.13.9a: 158.14; 4.12.4: 188.14; KS.12.15a; 39.11,12a; AB.4.10.6; 29.13; 5.1.19; 7.7; 16.27; 18.21; 20.21; 8.2.3; JB.1.293a; PB.11.4.1; AA.5.2.2.2; A;S.5.15.2; 6.5.18; Vait.42.9; Ap;S.17.8.4a; 19.22.12,16a; 23.1; 21.21.18; M;S.5.2.3.8a,12a; 6.2.3.1; 7.2.6.6; ;SirasU.4a; Svidh.3.6.11. Ps: abhi tvA shUra ;S;S.7.20.3; abhi tvA Rvidh.2.25.6. Cf. abhi tvAmindra.
 
-*([सायणो [ऽत्र](https://www.google.com/url?q=https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3%23page/n438/mode/1up&sa=D&ust=1542425956195000)। वसिष्ठः। बृहती, सतोबृहती च। इन्द्रः।])*
+*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3%23page/n438/mode/1up&sa=D&ust=1542425956195000)। वसिष्ठः। बृहती, सतोबृहती च। इन्द्रः।])*
 
 *(अनेन वसिष्ठ इन्द्रस्य वृत्रहत्यापापम् अपानुदत्!)*
 
@@ -22,7 +22,7 @@ RV.7.32.22a; AV;S.20.121.1a; SV.1.233a; 2.30a; VS.27.35a; TS.2.4.14.2a; MS.2.13.
 
 ## साम - त्र्यर्चम्
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://www.google.com/url?q=https://sanskritdocuments.org/sites/pssramanujaswamy/AASHEERVACHANA%2520SAAMAANI.pdf&sa=D&ust=1542425956196000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/AASHEERVACHANA%2520SAAMAANI.pdf&sa=D&ust=1542425956196000)।)*
 
 रथन्*(२)*तरम्*(३)*।
 
