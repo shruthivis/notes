@@ -22,4 +22,4 @@ emphasis_as_inline_comments: true
 <div class="js_include" url="../../agni/paravastu-saama/mahAvaishvAmitram.md"  newLevelForH1="2" includeTitle="true"> </div>  
 <div class="js_include" url="../../indra/paravastu-saama/shrAyantIyam.md"  newLevelForH1="2" includeTitle="true"> </div>  
 <div class="js_include" url="../../indra/paravastu-saama/piba-somam-mahAvairAjam.md"  newLevelForH1="2" includeTitle="true"> </div>  
-<div class="js_include" url="../../agni/paravastu-saama/mahAvaishvAnaravratam.md"  newLevelForH1="2" includeTitle="true"> </div>  
+<div class="js_include" url="../../agni/paravastu-saama/mahAvaishvAnara-vratam.md"  newLevelForH1="2" includeTitle="true"> </div>  
