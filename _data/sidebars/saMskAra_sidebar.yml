@@ -8,14 +8,19 @@ contents:
           contents:
             - title: दिवस्परि
               url: /saMskAra/mantra/agni/divaspari.html
+            - title: सामानि
+              contents:
+              - url: dir://saMskAra/mantra/agni/paravastu-saama/
         - title: इन्द्रः indra
           contents:
             - title: सामानि
               contents:
-                - title: हरिश्रीनिधनम्
-                  url: /saMskAra/mantra/indra/paravastu-saama/harishrInidhanam.html
-                - title: archata
-                  url: /saMskAra/mantra/indra/paravastu-saama/archata-prArchata.html
+                - url: dir://saMskAra/mantra/indra/paravastu-saama/
+        - title: सोमः
+          contents:
+          - title: सामानि
+            contents:
+            - url: dir://saMskAra/mantra/soma/paravastu-saama/
         - title: परिशिष्टम्
           contents:
             - title: नक्षत्रसूक्तम्
