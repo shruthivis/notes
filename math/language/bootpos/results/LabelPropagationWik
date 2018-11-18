@@ -1,318 +1,0 @@
-/home/vvasuki/vishvas/work/language/bootpos/target/classes:/home/vvasuki/vishvas/work/language/bootpos/src/main/resources:/home/vvasuki/vishvas/work/language/bootpos/lib/junto-assembly.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/compile/opennlp-tools-1.5.1-incubating.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/compile/jwnl-1.3.3.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/compile/opennlp-maxent-3.0.1-incubating.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/jars/org.slf4j/slf4j-api/slf4j-api-1.6.2.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/jars/jwnl/jwnl/jwnl-1.3.3.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/jars/com.weiglewilczek.slf4s/slf4s_2.9.1/slf4s_2.9.1-1.0.7.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/jars/ch.qos.logback/logback-classic/logback-classic-0.9.30.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/jars/ch.qos.logback/logback-core/logback-core-0.9.30.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/jars/org.apache.opennlp/opennlp-maxent/opennlp-maxent-3.0.1-incubating.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/jars/org.apache.opennlp/opennlp-tools/opennlp-tools-1.5.1-incubating.jar:
-Properties file: /home/vvasuki/Dropbox/Public/vishvas/work/language/bootpos/src/main/resources/default/runtimeSettings.properties
-taggerType: LabelPropagation
-Using universal tags? true
-Using wiktionary? true
-bRawDataFromTrainingFile? true
-Using training data? false
-Training tokens limit 99000
-Raw tokens limit 99000
-en ptb
-Encoding: UTF-8
-18:58:23 o.b.a.CorpusProcessor 103 --- Training with mode TEMP-S20110618.tsv
-18:58:23 o.b.a.CorpusProcessor 196 --- mode TEMP-S20110618.tsv
-18:58:23 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, EX -> DET, JJS -> ADJ, : -> ., ? -> ., NN|NNS -> NOUN, RBR -> ADV, NOUN -> NOUN, WH -> X, WDT -> DET, VBD|VBN -> VERB, VB -> VERB, IN -> ADP, VP -> VERB, # -> ., ( -> ., FW -> X, CC -> CONJ, JJR -> ADJ, , -> ., NN|SYM -> NOUN, PRP$ -> PRON, RB|RP -> ADV, VBG|NN -> VERB, JJ|RB -> ADJ, X -> X, TO -> PRT, JJRJR -> ADJ, JJ|VBG -> ADJ, WP -> PRON, NP -> NOUN, VBZ -> VERB, CD|RB -> X, ! -> ., . -> ., ADV -> ADV, JJ -> ADJ, WRB -> ADV, VBN -> VERB, VBD -> VERB, RB|VBG -> ADV, VBP -> VERB, NNP -> NOUN, RN -> X, ### -> ###, RB -> ADV, NNPS -> NOUN, ADJ -> ADJ, RP -> PRT, ADP -> ADP, WP$ -> PRON, LS -> X, PRP -> PRON, PRT -> PRT, CD -> NUM, NN -> NOUN, VBG -> VERB, DT -> DET, -LRB- -> ., SYM -> X, RBS -> ADV, DET -> DET, `` -> ., $ -> ., ) -> ., POS -> PRT, PRP|VBP -> PRON, '' -> ., PDT -> DET, CONJ -> CONJ, UH -> X, NUM -> NUM, VBP|TO -> VERB, IN|RP -> ADP, MD -> VERB, VERB -> VERB, -RRB- -> ., NN|VBG -> NOUN, NNS -> NOUN)
-18:58:23 o.b.a.CorpusProcessor 83 --- Processing untagged data.
-18:58:23 o.b.a.CorpusProcessor 196 --- mode train
-18:58:23 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/en/ptb/train/train.pos
-18:58:23 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, EX -> DET, JJS -> ADJ, : -> ., ? -> ., NN|NNS -> NOUN, RBR -> ADV, NOUN -> NOUN, WH -> X, WDT -> DET, VBD|VBN -> VERB, VB -> VERB, IN -> ADP, VP -> VERB, # -> ., ( -> ., FW -> X, CC -> CONJ, JJR -> ADJ, , -> ., NN|SYM -> NOUN, PRP$ -> PRON, RB|RP -> ADV, VBG|NN -> VERB, JJ|RB -> ADJ, X -> X, TO -> PRT, JJRJR -> ADJ, JJ|VBG -> ADJ, WP -> PRON, NP -> NOUN, VBZ -> VERB, CD|RB -> X, ! -> ., . -> ., ADV -> ADV, JJ -> ADJ, WRB -> ADV, VBN -> VERB, VBD -> VERB, RB|VBG -> ADV, VBP -> VERB, NNP -> NOUN, RN -> X, ### -> ###, RB -> ADV, NNPS -> NOUN, ADJ -> ADJ, RP -> PRT, ADP -> ADP, WP$ -> PRON, LS -> X, PRP -> PRON, PRT -> PRT, CD -> NUM, NN -> NOUN, VBG -> VERB, DT -> DET, -LRB- -> ., SYM -> X, RBS -> ADV, DET -> DET, `` -> ., $ -> ., ) -> ., POS -> PRT, PRP|VBP -> PRON, '' -> ., PDT -> DET, CONJ -> CONJ, UH -> X, NUM -> NUM, VBP|TO -> VERB, IN|RP -> ADP, MD -> VERB, VERB -> VERB, -RRB- -> ., NN|VBG -> NOUN, NNS -> NOUN)
-18:58:25 o.b.a.CorpusProcessor 94 --- Got 99000
-18:58:25 o.b.a.CorpusProcessor 113 --- Loading test words too while picking dictionary entries.
-18:58:25 o.b.a.CorpusProcessor 196 --- mode test
-18:58:25 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/en/ptb/test/test0.pos
-18:58:25 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, EX -> DET, JJS -> ADJ, : -> ., ? -> ., NN|NNS -> NOUN, RBR -> ADV, NOUN -> NOUN, WH -> X, WDT -> DET, VBD|VBN -> VERB, VB -> VERB, IN -> ADP, VP -> VERB, # -> ., ( -> ., FW -> X, CC -> CONJ, JJR -> ADJ, , -> ., NN|SYM -> NOUN, PRP$ -> PRON, RB|RP -> ADV, VBG|NN -> VERB, JJ|RB -> ADJ, X -> X, TO -> PRT, JJRJR -> ADJ, JJ|VBG -> ADJ, WP -> PRON, NP -> NOUN, VBZ -> VERB, CD|RB -> X, ! -> ., . -> ., ADV -> ADV, JJ -> ADJ, WRB -> ADV, VBN -> VERB, VBD -> VERB, RB|VBG -> ADV, VBP -> VERB, NNP -> NOUN, RN -> X, ### -> ###, RB -> ADV, NNPS -> NOUN, ADJ -> ADJ, RP -> PRT, ADP -> ADP, WP$ -> PRON, LS -> X, PRP -> PRON, PRT -> PRT, CD -> NUM, NN -> NOUN, VBG -> VERB, DT -> DET, -LRB- -> ., SYM -> X, RBS -> ADV, DET -> DET, `` -> ., $ -> ., ) -> ., POS -> PRT, PRP|VBP -> PRON, '' -> ., PDT -> DET, CONJ -> CONJ, UH -> X, NUM -> NUM, VBP|TO -> VERB, IN|RP -> ADP, MD -> VERB, VERB -> VERB, -RRB- -> ., NN|VBG -> NOUN, NNS -> NOUN)
-18:58:28 o.b.a.TagMap 76 --- unknown tag PHRASE :word & cetera
-18:58:28 o.b.a.TagMap 78 --- PHRASE -> X
-18:58:28 o.b.a.TagMap 76 --- unknown tag INTERJECTION :word 'ave it
-18:58:28 o.b.a.TagMap 78 --- INTERJECTION -> X
-18:58:28 o.b.a.TagMap 76 --- unknown tag SUFFIX :word 'd
-18:58:28 o.b.a.TagMap 78 --- SUFFIX -> X
-18:58:28 o.b.a.TagMap 76 --- unknown tag CONTRACTION :word 'd better
-18:58:28 o.b.a.TagMap 78 --- CONTRACTION -> X
-18:58:28 o.b.a.TagMap 76 --- unknown tag AFFIX :word -a-
-18:58:28 o.b.a.TagMap 78 --- AFFIX -> X
-18:58:28 o.b.a.TagMap 76 --- unknown tag INFIX :word -bloody-
-18:58:28 o.b.a.TagMap 78 --- INFIX -> X
-18:58:28 o.b.a.TagMap 76 --- unknown tag INTERFIX :word -i-
-18:58:28 o.b.a.TagMap 78 --- INTERFIX -> X
-18:58:28 o.b.a.TagMap 76 --- unknown tag ETYMOLOGY :word -ory
-18:58:28 o.b.a.TagMap 78 --- ETYMOLOGY -> X
-18:58:28 o.b.a.TagMap 76 --- unknown tag LETTER :word A
-18:58:28 o.b.a.TagMap 78 --- LETTER -> X
-18:58:28 o.b.a.TagMap 76 --- unknown tag PREFIX :word Afro-
-18:58:28 o.b.a.TagMap 78 --- PREFIX -> X
-18:58:28 o.b.a.TagMap 76 --- unknown tag IDIOM :word a piece of cake
-18:58:28 o.b.a.TagMap 78 --- IDIOM -> X
-18:58:28 o.b.a.TagMap 76 --- unknown tag CIRCUMFIX :word a- -ing
-18:58:28 o.b.a.TagMap 78 --- CIRCUMFIX -> X
-18:58:30 o.b.a.TagMap 76 --- unknown tag ETYMOLOGY 2 :word plums
-18:58:30 o.b.a.TagMap 78 --- ETYMOLOGY 2 -> X
-18:58:45 o.b.u.c.Dictionary 44 --- 74902 in 99002
-18:58:45 o.b.u.c.Dictionary 46 --- Dict completeness 0.7564949172743985
-18:58:47 o.b.t.IntRepresentor 98 --- numTags 10 numWordsTraining 12896 numWordsSeen 0 numWordsTotal 12896
-18:58:48 o.b.t.l.LabelPropagationTrainer 140 --- NOUN VERB ADJ X ADP CONJ DET NUM PRT ###
-18:58:48 o.b.a.CorpusProcessor 144 --- Testing en ptb
-18:58:48 o.b.a.CorpusProcessor 196 --- mode test
-18:58:48 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/en/ptb/test/test0.pos
-18:58:48 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, EX -> DET, PRONOUN -> NOUN, INTERFIX -> X, JJS -> ADJ, PROPER NOUN -> NOUN, ? -> ., : -> ., NN|NNS -> NOUN, PREFIX -> X, RBR -> ADV, {{ACRONYM|ENGLISH}} -> X, {{ABBREVIATION|LANG=EN}} -> X, NOUN -> NOUN, INFIX -> X, VB -> VERB, VBD|VBN -> VERB, WDT -> DET, WH -> X, IN -> ADP, VP -> VERB, ETYMOLOGY 2 -> X, {{INITIALISM|EN}} -> X, # -> ., ( -> ., FW -> X, CC -> CONJ, JJR -> ADJ, PRP$ -> PRON, NN|SYM -> NOUN, , -> ., RB|RP -> ADV, PHRASE -> X, VBG|NN -> VERB, CONJUNCTION -> CONJ, ORDINAL NUMBER -> NUM, {{INITIALISM}} 1 -> X, JJ|RB -> ADJ, X -> X, TO -> PRT, JJRJR -> ADJ, JJ|VBG -> ADJ, {{ACRONYM|EN}} -> X, SUFFIX -> X, WP -> PRON, NP -> NOUN, CARDINAL NUMBER -> NUM, VBZ -> VERB, POSTPOSITION -> ADP, {{ACRONYM}} -> X, NUMERAL -> NUM, . -> ., ! -> ., CD|RB -> X, DETERMINER -> DET, INITIALISM -> X, ADV -> ADV, PREPOSITIONAL PHRASE -> ADP, SYMBOL -> NOUN, PUNCTUATION MARK -> X, JJ -> ADJ, {{INITIALISM}} 2 -> X, LETTER -> X, WRB -> ADV, VBD -> VERB, VBN -> VERB, ARTICLE -> DET, ACRONYM -> X, RB|VBG -> ADV, VBP -> VERB, NNP -> NOUN, ABBREVIATION -> X, RN -> X, RB -> ADV, ### -> ###, ADJECTIVE -> ADJ, NNPS -> NOUN, ADJ -> ADJ, RP -> PRT, WP$ -> PRON, ADP -> ADP, IDIOM -> X, INTERJECTION -> X, {{INITIALISM|ENGLISH}} -> X, PRP -> PRON, LS -> X, NUMBER -> NUM, PRT -> PRT, {{INITIALISM}} -> X, NN -> NOUN, CD -> NUM, ADVERB -> VERB, -LRB- -> ., DT -> DET, VBG -> VERB, SYM -> X, AFFIX -> X, {{ABBREVIATION|ENGLISH}} -> X, RBS -> ADV, DET -> DET, POS -> PRT, ) -> ., $ -> ., `` -> ., ETYMOLOGY -> X, CIRCUMFIX -> X, PRP|VBP -> PRON, PDT -> DET, '' -> ., {{ACRONYM|LANG=EN}} -> X, UH -> X, CONJ -> CONJ, PREPOSITION -> ADP, CONTRACTION -> X, VBP|TO -> VERB, NUM -> NUM, IN|RP -> ADP, PROVERB -> VERB, VERB FORM -> VERB, {{ABBREVIATION}} -> X, PARTICLE -> PRT, {{INITIALISM|LANG=EN}} -> X, {{ABBREVIATION|EN}} -> X, MD -> VERB, VERB -> VERB, -RRB- -> ., NN|VBG -> NOUN, NNS -> NOUN)
-18:58:48 o.b.a.CorpusProcessor 150 --- test tokens: 137295
-18:58:49 o.b.t.l.LabelPropagationTagger 199 --- numTags 10 numWordsTraining 12896 numWordsSeen 0 numWordsTotal 16506
-18:58:49 o.b.t.l.LabelPropagationTagger 200 --- num tokens 137295
-18:58:49 o.b.t.l.LabelPropagationTagger 111 --- adding token edges: 
-0.000.000.000.000.000.000.000.010.010.010.010.010.010.010.010.010.010.010.010.010.010.020.020.020.020.020.020.020.020.020.020.020.020.020.020.030.030.030.030.030.030.030.030.030.030.030.030.030.030.040.040.040.040.040.040.040.040.040.040.040.040.040.050.050.050.050.050.050.050.050.050.050.050.050.050.050.060.060.060.060.060.060.060.060.060.060.060.060.060.060.070.070.070.070.070.070.070.070.070.070.070.070.070.080.080.080.080.080.080.080.080.080.080.080.080.080.080.090.090.090.090.090.090.090.090.090.090.090.090.090.090.100.100.100.100.100.100.100.100.100.100.100.100.100.100.110.110.110.110.110.110.110.110.110.110.110.110.110.120.120.120.120.120.120.120.120.120.120.120.120.120.120.130.130.130.130.130.130.130.130.130.130.130.130.130.130.140.140.140.140.140.140.140.140.140.140.140.140.140.140.150.150.150.150.150.150.150.150.150.150.150.150.150.160.160.160.160.160.160.160.160.160.160.160.160.160.160.170.170.170.170.170.170.170.170.170.170.170.170.170.170.180.180.180.180.180.180.180.180.180.180.180.180.180.190.190.190.190.190.190.190.190.190.190.190.190.190.190.200.200.200.200.200.200.200.200.200.200.200.200.200.200.210.210.210.210.210.210.210.210.210.210.210.210.210.210.220.220.220.220.220.220.220.220.220.220.220.220.220.230.230.230.230.230.230.230.230.230.230.230.230.230.230.240.240.240.240.240.240.240.240.240.240.240.240.240.240.250.250.250.250.250.250.250.250.250.250.250.250.250.250.260.260.260.260.260.260.260.260.260.260.260.260.260.270.270.270.270.270.270.270.270.270.270.270.270.270.270.280.280.280.280.280.280.280.280.280.280.280.280.280.280.290.290.290.290.290.290.290.290.290.290.290.290.290.290.300.300.300.300.300.300.300.300.300.300.300.300.300.310.310.310.310.310.310.310.310.310.310.310.310.310.310.320.320.320.320.320.320.320.320.320.320.320.320.320.320.330.330.330.330.330.330.330.330.330.330.330.330.330.340.340.340.340.340.340.340.340.340.340.340.340.340.340.350.350.350.350.350.350.350.350.350.350.350.350.350.350.360.360.360.360.360.360.360.360.360.360.360.360.360.360.370.370.370.370.370.370.370.370.370.370.370.370.370.380.380.380.380.380.380.380.380.380.380.380.380.380.380.390.390.390.390.390.390.390.390.390.390.390.390.390.390.400.400.400.400.400.400.400.400.400.400.400.400.400.400.410.410.410.410.410.410.410.410.410.410.410.410.410.420.420.420.420.420.420.420.420.420.420.420.420.420.420.430.430.430.430.430.430.430.430.430.430.430.430.430.430.440.440.440.440.440.440.440.440.440.440.440.440.440.450.450.450.450.450.450.450.450.450.450.450.450.450.450.460.460.460.460.460.460.460.460.460.460.460.460.460.460.470.470.470.470.470.470.470.470.470.470.470.470.470.470.480.480.480.480.480.480.480.480.480.480.480.480.480.490.490.490.490.490.490.490.490.490.490.490.490.490.490.500.500.500.500.500.500.500.500.500.500.500.500.500.500.510.510.510.510.510.510.510.510.510.510.510.510.510.510.520.520.520.520.520.520.520.520.520.520.520.520.520.530.530.530.530.530.530.530.530.530.530.530.530.530.530.540.540.540.540.540.540.540.540.540.540.540.540.540.540.550.550.550.550.550.550.550.550.550.550.550.550.550.560.560.560.560.560.560.560.560.560.560.560.560.560.560.570.570.570.570.570.570.570.570.570.570.570.570.570.570.580.580.580.580.580.580.580.580.580.580.580.580.580.580.590.590.590.590.590.590.590.590.590.590.590.590.590.600.600.600.600.600.600.600.600.600.600.600.600.600.600.610.610.610.610.610.610.610.610.610.610.610.610.610.610.620.620.620.620.620.620.620.620.620.620.620.620.620.620.630.630.630.630.630.630.630.630.630.630.630.630.630.640.640.640.640.640.640.640.640.640.640.640.640.640.640.650.650.650.650.650.650.650.650.650.650.650.650.650.650.660.660.660.660.660.660.660.660.660.660.660.660.660.660.670.670.670.670.670.670.670.670.670.670.670.670.670.680.680.680.680.680.680.680.680.680.680.680.680.680.680.690.690.690.690.690.690.690.690.690.690.690.690.690.690.700.700.700.700.700.700.700.700.700.700.700.700.700.710.710.710.710.710.710.710.710.710.710.710.710.710.710.720.720.720.720.720.720.720.720.720.720.720.720.720.720.730.730.730.730.730.730.730.730.730.730.730.730.730.730.740.740.740.740.740.740.740.740.740.740.740.740.740.750.750.750.750.750.750.750.750.750.750.750.750.750.750.760.760.760.760.760.760.760.760.760.760.760.760.760.760.770.770.770.770.770.770.770.770.770.770.770.770.770.770.780.780.780.780.780.780.780.780.780.780.780.780.780.790.790.790.790.790.790.790.790.790.790.790.790.790.790.800.800.800.800.800.800.800.800.800.800.800.800.800.800.810.810.810.810.810.810.810.810.810.810.810.810.810.820.820.820.820.820.820.820.820.820.820.820.820.820.820.830.830.830.830.830.830.830.830.830.830.830.830.830.830.840.840.840.840.840.840.840.840.840.840.840.840.840.840.850.850.850.850.850.850.850.850.850.850.850.850.850.860.860.860.860.860.860.860.860.860.860.860.860.860.860.870.870.870.870.870.870.870.870.870.870.870.870.870.870.880.880.880.880.880.880.880.880.880.880.880.880.880.880.890.890.890.890.890.890.890.890.890.890.890.890.890.900.900.900.900.900.900.900.900.900.900.900.900.900.900.910.910.910.910.910.910.910.910.910.910.910.910.910.910.920.920.920.920.920.920.920.920.920.920.920.920.920.930.930.930.930.930.930.930.930.930.930.930.930.930.930.940.940.940.940.940.940.940.940.940.940.940.940.940.940.950.950.950.950.950.950.950.950.950.950.950.950.950.950.960.960.960.960.960.960.960.960.960.960.960.960.960.970.970.970.970.970.970.970.970.970.970.970.970.970.970.980.980.980.980.980.980.980.980.980.980.980.980.980.980.990.990.990.990.990.990.990.990.990.990.990.990.990.991.001.001.001.001.001.0018:58:51 o.b.t.l.LabelPropagationTagger 137 --- Done adding token edges.
-ZERO ENTROPY NEIGHBORHOOD Heuristic adjustment used for 0 nodes!
-Total edges: 650660
-Using mad ...
-
-Iteration: 1 2 3 4 5 6 7 8 9 10
-precision NaN
-mrr NaN
-18:59:57 o.b.a.TaggerTester 90 --- ((The,DET),NOUN) ((Arizona,NOUN),NOUN) ((Corporations,NOUN),NOUN) ((Commission,NOUN),NOUN) ((authorized,VERB),VERB) ((an,DET),NOUN) ((11.5,NUM),PRT) ((%,NOUN),NOUN) ((rate,NOUN),NOUN) ((increase,NOUN),VERB) ((at,ADP),ADP) ((Tucson,NOUN),NOUN) ((Electric,NOUN),NOUN) ((Power,NOUN),NOUN) ((Co.,NOUN),VERB) ((,,.),NOUN) ((substantially,ADV),VERB) ((lower,ADJ),ADJ) ((than,ADP),CONJ) ((recommended,VERB),VERB) ((last,ADJ),NOUN) ((month,NOUN),NOUN) ((by,ADP),ADP) ((a,DET),NOUN) ((commission,NOUN),NOUN) ((hearing,NOUN),NOUN) ((officer,NOUN),NOUN) ((and,CONJ),NOUN) ((barely,ADV),VERB) ((half,DET),NOUN) ((the,DET),NOUN) ((rise,NOUN),NOUN) ((sought,VERB),VERB) ((by,ADP),ADP) ((the,DET),NOUN) ((utility,NOUN),NOUN) ((.,.),VERB) ((###,###),###) ((The,DET),NOUN) ((ruling,NOUN),NOUN) ((follows,VERB),VERB) ((a,DET),NOUN) ((host,NOUN),NOUN) ((of,ADP),NOUN) ((problems,NOUN),NOUN) ((at,ADP),ADP) ((Tucson,NOUN),NOUN) ((Electric,NOUN),NOUN) ((,,.),NOUN) ((including,VERB),ADP)
-18:59:58 o.b.a.TaggerTester 95 --- numTags 10 numWordsTraining 12896 numWordsSeen 0 numWordsTotal 16506
-18:59:58 o.b.a.TaggingResult 55 --- Accuracy: 0.440, (Training: 0.531, Seen: NaN, Novel: 0.087)
-
-18:59:58 o.b.a.TaggingResult 56 --- Non training tokens: 0.206
-
-18:59:58 o.b.a.CorpusProcessor 153 --- 13 unmapped tags.
-pt bosque
-Encoding: UTF-8
-18:59:58 o.b.a.CorpusProcessor 103 --- Training with mode TEMP-S20110618.tsv
-18:59:58 o.b.a.CorpusProcessor 196 --- mode TEMP-S20110618.tsv
-18:59:58 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, ? -> ., NOUN -> NOUN, IN -> X, ART -> DET, CONJ-S -> CONJ, VP -> VERB, V-PCP -> VERB, X -> X, PRON-DET -> PRON, V-GER -> VERB, CONJ-C -> CONJ, EC -> X, . -> ., ADV -> ADV, PRON-INDP -> PRON, PROP -> NOUN, ### -> ###, ADJ -> ADJ, ADP -> ADP, PRON-PERS -> PRON, V -> VERB, PRP -> ADP, PRT -> PRT, PP -> NOUN, PUNC -> ., DET -> DET, N -> NOUN, V-FIN -> VERB, CONJ -> CONJ, V-INF -> VERB, NUM -> NUM, VERB -> VERB)
-18:59:58 o.b.a.CorpusProcessor 83 --- Processing untagged data.
-18:59:58 o.b.a.CorpusProcessor 196 --- mode train
-18:59:58 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/pt/bosque/train/portuguese_bosque_train.conll
-18:59:58 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, ? -> ., NOUN -> NOUN, IN -> X, ART -> DET, CONJ-S -> CONJ, VP -> VERB, V-PCP -> VERB, X -> X, PRON-DET -> PRON, V-GER -> VERB, CONJ-C -> CONJ, EC -> X, . -> ., ADV -> ADV, PRON-INDP -> PRON, PROP -> NOUN, ### -> ###, ADJ -> ADJ, ADP -> ADP, PRON-PERS -> PRON, V -> VERB, PRP -> ADP, PRT -> PRT, PP -> NOUN, PUNC -> ., DET -> DET, N -> NOUN, V-FIN -> VERB, CONJ -> CONJ, V-INF -> VERB, NUM -> NUM, VERB -> VERB)
-18:59:59 o.b.a.CorpusProcessor 94 --- Got 99000
-18:59:59 o.b.a.CorpusProcessor 113 --- Loading test words too while picking dictionary entries.
-18:59:59 o.b.a.CorpusProcessor 196 --- mode test
-18:59:59 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/pt/bosque/test/portuguese_bosque_test.conll
-18:59:59 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, ? -> ., NOUN -> NOUN, IN -> X, ART -> DET, CONJ-S -> CONJ, VP -> VERB, V-PCP -> VERB, X -> X, PRON-DET -> PRON, V-GER -> VERB, CONJ-C -> CONJ, EC -> X, . -> ., ADV -> ADV, PRON-INDP -> PRON, PROP -> NOUN, ### -> ###, ADJ -> ADJ, ADP -> ADP, PRON-PERS -> PRON, V -> VERB, PRP -> ADP, PRT -> PRT, PP -> NOUN, PUNC -> ., DET -> DET, N -> NOUN, V-FIN -> VERB, CONJ -> CONJ, V-INF -> VERB, NUM -> NUM, VERB -> VERB)
-19:00:16 o.b.a.TagMap 76 --- unknown tag SUFFIX :word -agem
-19:00:16 o.b.a.TagMap 78 --- SUFFIX -> X
-19:00:16 o.b.a.TagMap 76 --- unknown tag AFFIX :word -un-
-19:00:16 o.b.a.TagMap 78 --- AFFIX -> X
-19:00:16 o.b.a.TagMap 76 --- unknown tag PHRASE :word Bicho Ignorante Operando o Sistema
-19:00:16 o.b.a.TagMap 78 --- PHRASE -> X
-19:00:16 o.b.a.TagMap 76 --- unknown tag DIACRITICAL MARK :word ^
-19:00:16 o.b.a.TagMap 78 --- DIACRITICAL MARK -> X
-19:00:16 o.b.a.TagMap 76 --- unknown tag CONTRACTION :word a
-19:00:16 o.b.a.TagMap 78 --- CONTRACTION -> X
-19:00:16 o.b.a.TagMap 76 --- unknown tag LETTER :word a
-19:00:16 o.b.a.TagMap 78 --- LETTER -> X
-19:00:16 o.b.a.TagMap 76 --- unknown tag IDIOM :word a curiosidade matou o gato
-19:00:16 o.b.a.TagMap 78 --- IDIOM -> X
-19:00:16 o.b.a.TagMap 76 --- unknown tag INTERJECTION :word adeus
-19:00:16 o.b.a.TagMap 78 --- INTERJECTION -> X
-19:00:16 o.b.a.TagMap 76 --- unknown tag PREFIX :word ambi-
-19:00:16 o.b.a.TagMap 78 --- PREFIX -> X
-19:00:21 o.b.u.c.Dictionary 44 --- 56081 in 99002
-19:00:21 o.b.u.c.Dictionary 46 --- Dict completeness 0.5664066574412638
-19:00:21 o.b.t.IntRepresentor 98 --- numTags 9 numWordsTraining 3586 numWordsSeen 0 numWordsTotal 3586
-19:00:21 o.b.t.l.LabelPropagationTrainer 140 --- VERB NOUN ADJ NUM X ADP CONJ DET ###
-19:00:21 o.b.a.CorpusProcessor 144 --- Testing pt bosque
-19:00:21 o.b.a.CorpusProcessor 196 --- mode test
-19:00:21 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/pt/bosque/test/portuguese_bosque_test.conll
-19:00:21 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, PRONOUN -> NOUN, PROPER NOUN -> NOUN, ? -> ., PREFIX -> X, NOUN -> NOUN, IN -> X, ART -> DET, ORDINAL NUMERAL -> NUM, VP -> VERB, CONJ-S -> CONJ, V-PCP -> VERB, {{ABBREVIATION|LANG=PT}} -> X, {{ACRONYM|PT}} -> X, PHRASE -> X, CONJUNCTION -> CONJ, X -> X, PRON-DET -> PRON, DIACRITICAL MARK -> X, V-GER -> VERB, SUFFIX -> X, {{ACRONYM|PORTUGUESE}} -> X, CONJ-C -> CONJ, CARDINAL NUMBER -> NUM, EC -> X, . -> ., {{INITIALISM|LANG=PT}} -> X, CARDINAL NUMERAL -> NUM, ADV -> ADV, INITIALISM -> X, SYMBOL -> NOUN, LETTER -> X, PRON-INDP -> PRON, ARTICLE -> DET, ACRONYM -> X, ABBREVIATION -> X, PROP -> NOUN, ### -> ###, ADJECTIVE -> ADJ, {{ABBREVIATION|PORTUGUESE}} -> X, ADJ -> ADJ, V -> VERB, PRON-PERS -> PRON, ADP -> ADP, INTERJECTION -> X, IDIOM -> X, PRP -> ADP, PRT -> PRT, PUNC -> ., PP -> NOUN, ADVERB -> VERB, AFFIX -> X, V-FIN -> VERB, DET -> DET, N -> NOUN, {{ABBREVIATION|PT}} -> X, V-INF -> VERB, PREPOSITION -> ADP, CONTRACTION -> X, CONJ -> CONJ, NUM -> NUM, PROVERB -> VERB, PRONOMINAL ADVERB -> VERB, VERB FORM -> VERB, VERB -> VERB)
-19:00:21 o.b.a.CorpusProcessor 150 --- test tokens: 6155
-19:00:21 o.b.t.l.LabelPropagationTagger 199 --- numTags 9 numWordsTraining 3586 numWordsSeen 0 numWordsTotal 4924
-19:00:21 o.b.t.l.LabelPropagationTagger 200 --- num tokens 6155
-19:00:21 o.b.t.l.LabelPropagationTagger 111 --- adding token edges: 
-0.000.020.030.050.060.080.100.110.130.150.160.180.190.210.230.240.260.280.290.310.320.340.360.370.390.410.420.440.450.470.490.500.520.540.550.570.580.600.620.630.650.670.680.700.710.730.750.760.780.800.810.830.840.860.880.890.910.930.940.960.970.9919:00:21 o.b.t.l.LabelPropagationTagger 137 --- Done adding token edges.
-ZERO ENTROPY NEIGHBORHOOD Heuristic adjustment used for 0 nodes!
-Total edges: 53704
-Using mad ...
-
-Iteration: 1 2 3 4 5 6 7 8 9 10
-precision NaN
-mrr NaN
-19:00:25 o.b.a.TaggerTester 90 --- ((É,ADV),VERB) ((por,ADP),ADP) ((isso,PRON),NOUN) ((que,ADV),CONJ) ((,,.),VERB) ((explica,VERB),VERB) ((,,.),VERB) ((não,ADV),VERB) ((tem,VERB),VERB) ((pena,NOUN),DET) ((de,ADP),ADP) ((Hillary_Clinton,NOUN),DET) ((.,.),ADP) ((###,###),###) ((«,.),NOUN) ((Eles,PRON),NOUN) (([,.),DET) ((Hillary,NOUN),DET) ((e,CONJ),CONJ) ((Bill_Clinton,NOUN),DET) ((],.),DET) ((podem,VERB),VERB) ((ter,VERB),VERB) ((alguma,PRON),ADJ) ((espécie,NOUN),DET) ((de,ADP),ADP) ((acordo,NOUN),VERB) ((e,CONJ),CONJ) ((quem,PRON),NOUN) ((somos,VERB),VERB) ((nós,PRON),NOUN) ((para,ADP),ADP) ((dizer,VERB),VERB) ((se,CONJ),NOUN) ((é,VERB),VERB) ((bom,ADJ),X) ((ou,CONJ),CONJ) ((mau,ADJ),ADJ) ((?,.),DET) ((###,###),###) ((Acho,VERB),VERB) ((que,CONJ),CONJ) ((eles,PRON),NOUN) ((têm,VERB),DET) ((mais,PRON),CONJ) ((maturidade,NOUN),NOUN) ((em_relação_a,ADP),DET) ((o,DET),NOUN) ((sexo,NOUN),NOUN) ((,,.),VERB)
-19:00:25 o.b.a.TaggerTester 95 --- numTags 9 numWordsTraining 3586 numWordsSeen 0 numWordsTotal 4924
-19:00:25 o.b.a.TaggingResult 55 --- Accuracy: 0.375, (Training: 0.601, Seen: NaN, Novel: 0.071)
-
-19:00:25 o.b.a.TaggingResult 56 --- Non training tokens: 0.427
-
-19:00:25 o.b.a.CorpusProcessor 153 --- 9 unmapped tags.
-da ddt
-Encoding: UTF-8
-19:00:25 o.b.a.CorpusProcessor 103 --- Training with mode TEMP-S20110618.tsv
-19:00:25 o.b.a.CorpusProcessor 196 --- mode TEMP-S20110618.tsv
-19:00:25 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, U -> X, SP -> ADP, NOUN -> NOUN, XP -> X, PI -> PRON, PD -> PRON, CC -> CONJ, X -> X, VA -> VERB, NP -> NOUN, AO -> ADJ, PC -> PRON, . -> ., ADV -> ADV, XA -> X, XS -> X, XF -> X, ### -> ###, RG -> ADV, ADJ -> ADJ, ADP -> ADP, AN -> ADJ, PRT -> PRT, PP -> PRON, CS -> CONJ, DET -> DET, I -> X, VE -> VERB, CONJ -> CONJ, XR -> X, NUM -> NUM, XX -> X, AC -> ADJ, VERB -> VERB, PO -> PRON, NC -> NOUN, PT -> PRON)
-19:00:25 o.b.a.CorpusProcessor 83 --- Processing untagged data.
-19:00:25 o.b.a.CorpusProcessor 196 --- mode train
-19:00:25 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/da/ddt/train/danish_ddt_train.conll
-19:00:25 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, U -> X, SP -> ADP, NOUN -> NOUN, XP -> X, PI -> PRON, PD -> PRON, CC -> CONJ, X -> X, VA -> VERB, NP -> NOUN, AO -> ADJ, PC -> PRON, . -> ., ADV -> ADV, XA -> X, XS -> X, XF -> X, ### -> ###, RG -> ADV, ADJ -> ADJ, ADP -> ADP, AN -> ADJ, PRT -> PRT, PP -> PRON, CS -> CONJ, DET -> DET, I -> X, VE -> VERB, CONJ -> CONJ, XR -> X, NUM -> NUM, XX -> X, AC -> ADJ, VERB -> VERB, PO -> PRON, NC -> NOUN, PT -> PRON)
-19:00:25 o.b.a.CorpusProcessor 94 --- Got 99000
-19:00:25 o.b.a.CorpusProcessor 113 --- Loading test words too while picking dictionary entries.
-19:00:25 o.b.a.CorpusProcessor 196 --- mode test
-19:00:25 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/da/ddt/test/danish_ddt_test.conll
-19:00:25 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, U -> X, SP -> ADP, NOUN -> NOUN, XP -> X, PI -> PRON, PD -> PRON, CC -> CONJ, X -> X, VA -> VERB, NP -> NOUN, AO -> ADJ, PC -> PRON, . -> ., ADV -> ADV, XA -> X, XS -> X, XF -> X, ### -> ###, RG -> ADV, ADJ -> ADJ, ADP -> ADP, AN -> ADJ, PRT -> PRT, PP -> PRON, CS -> CONJ, DET -> DET, I -> X, VE -> VERB, CONJ -> CONJ, XR -> X, NUM -> NUM, XX -> X, AC -> ADJ, VERB -> VERB, PO -> PRON, NC -> NOUN, PT -> PRON)
-19:00:27 o.b.a.TagMap 76 --- unknown tag SUFFIX :word -else
-19:00:27 o.b.a.TagMap 78 --- SUFFIX -> X
-19:00:27 o.b.a.TagMap 76 --- unknown tag LETTER :word W
-19:00:27 o.b.a.TagMap 78 --- LETTER -> X
-19:00:27 o.b.a.TagMap 76 --- unknown tag INTERJECTION :word adjø
-19:00:27 o.b.a.TagMap 78 --- INTERJECTION -> X
-19:00:27 o.b.a.TagMap 76 --- unknown tag PHRASE :word alle gode gange tre
-19:00:27 o.b.a.TagMap 78 --- PHRASE -> X
-19:00:27 o.b.a.TagMap 76 --- unknown tag PREFIX :word bi-
-19:00:27 o.b.a.TagMap 78 --- PREFIX -> X
-19:00:27 o.b.a.TagMap 76 --- unknown tag IDIOM :word dyden i midten
-19:00:27 o.b.a.TagMap 78 --- IDIOM -> X
-19:00:27 o.b.a.TagMap 76 --- unknown tag NUN :word insekts
-19:00:27 o.b.a.TagMap 78 --- NUN -> X
-19:00:49 o.b.u.c.Dictionary 44 --- 54282 in 99002
-19:00:49 o.b.u.c.Dictionary 46 --- Dict completeness 0.5482371245025353
-19:00:49 o.b.t.IntRepresentor 98 --- numTags 10 numWordsTraining 3484 numWordsSeen 0 numWordsTotal 3484
-19:00:49 o.b.t.l.LabelPropagationTrainer 140 --- NOUN VERB ADJ ADP CONJ NUM X DET ### PRT
-19:00:49 o.b.a.CorpusProcessor 144 --- Testing da ddt
-19:00:49 o.b.a.CorpusProcessor 196 --- mode test
-19:00:49 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/da/ddt/test/danish_ddt_test.conll
-19:00:49 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, U -> X, PROPER NOUN -> NOUN, PRONOUN -> NOUN, SP -> ADP, PREFIX -> X, NOUN -> NOUN, XP -> X, CC -> CONJ, PD -> PRON, PI -> PRON, PHRASE -> X, CONJUNCTION -> CONJ, X -> X, NOUN 1 -> NOUN, VA -> VERB, SUFFIX -> X, CARDINAL NUMBER -> NUM, AO -> ADJ, NP -> NOUN, PC -> PRON, NUMERAL -> NUM, . -> ., INITIALISM -> X, ADV -> ADV, NOUN 2 -> NOUN, LETTER -> X, ARTICLE -> DET, XS -> X, XA -> X, XF -> X, ABBREVIATION -> X, {{ACRONYM|DA}} -> X, RG -> ADV, ### -> ###, ADJECTIVE -> ADJ, ADJ -> ADJ, ADP -> ADP, IDIOM -> X, INTERJECTION -> X, NUN -> X, AN -> ADJ, PRT -> PRT, ADVERB -> VERB, PP -> PRON, CS -> CONJ, {{INITIALISM|LANG=DA}} -> X, DET -> DET, I -> X, VE -> VERB, {{ABBREVIATION|DANISH}} -> X, XR -> X, CONJ -> CONJ, {{ABBREVIATION|LANG=DA}} -> X, PREPOSITION -> ADP, NUM -> NUM, PROVERB -> VERB, AC -> ADJ, VERB FORM -> VERB, XX -> X, PARTICLE -> PRT, VERB -> VERB, NC -> NOUN, PO -> PRON, PT -> PRON)
-19:00:49 o.b.a.CorpusProcessor 150 --- test tokens: 6174
-19:00:49 o.b.t.l.LabelPropagationTagger 199 --- numTags 10 numWordsTraining 3484 numWordsSeen 0 numWordsTotal 4814
-19:00:49 o.b.t.l.LabelPropagationTagger 200 --- num tokens 6174
-19:00:49 o.b.t.l.LabelPropagationTagger 111 --- adding token edges: 
-0.000.020.030.050.060.080.100.110.130.150.160.180.190.210.230.240.260.280.290.310.320.340.360.370.390.400.420.440.450.470.490.500.520.530.550.570.580.600.620.630.650.660.680.700.710.730.750.760.780.790.810.830.840.860.870.890.910.920.940.960.970.9919:00:49 o.b.t.l.LabelPropagationTagger 137 --- Done adding token edges.
-ZERO ENTROPY NEIGHBORHOOD Heuristic adjustment used for 0 nodes!
-Total edges: 57010
-Using mad ...
-
-Iteration: 1 2 3 4 5 6 7 8 9 10
-precision NaN
-mrr NaN
-19:00:52 o.b.a.TaggerTester 90 --- ((To,ADJ),NUM) ((kendte,ADJ),ADJ) ((russiske,ADJ),PRT) ((historikere,NOUN),PRT) ((Andronik,NOUN),PRT) ((Mirganjan,NOUN),PRT) ((og,CONJ),CONJ) ((Igor,NOUN),PRT) ((Klamkin,NOUN),PRT) ((tror,VERB),VERB) ((ikke,ADV),VERB) ((,,X),PRT) ((at,CONJ),CONJ) ((Rusland,NOUN),NOUN) ((kan,VERB),PRT) ((udvikles,VERB),PRT) ((uden,ADP),ADP) ((en,PRON),DET) ((",X),NOUN) ((jernnæve,NOUN),PRT) ((",X),NOUN) ((.,X),NOUN) ((###,###),###) ((De,PRON),NOUN) ((hævder,VERB),PRT) ((,,X),NOUN) ((at,CONJ),PRT) ((Ruslands,NOUN),DET) ((vej,NOUN),NOUN) ((til,ADP),ADP) ((demokrati,NOUN),PRT) ((går,VERB),NOUN) ((gennem,ADP),ADP) ((diktatur,NOUN),PRT) ((.,X),DET) ((###,###),###) ((I,ADP),NOUN) ((en,PRON),ADJ) ((af,ADP),ADP) ((deres,PRON),NOUN) ((artikler,NOUN),NOUN) ((hedder,VERB),VERB) ((det,PRON),NOUN) ((:,X),PRT) ((",X),NOUN) ((I,ADP),VERB) ((et,PRON),DET) ((autoritært,ADJ),PRT) ((regime,NOUN),PRT) ((lagdel,X),PRT)
-19:00:52 o.b.a.TaggerTester 95 --- numTags 10 numWordsTraining 3484 numWordsSeen 0 numWordsTotal 4814
-19:00:52 o.b.a.TaggingResult 55 --- Accuracy: 0.350, (Training: 0.612, Seen: NaN, Novel: 0.022)
-
-19:00:52 o.b.a.TaggingResult 56 --- Non training tokens: 0.444
-
-19:00:52 o.b.a.CorpusProcessor 153 --- 7 unmapped tags.
-nl alpino
-Encoding: UTF-8
-19:00:52 o.b.a.CorpusProcessor 103 --- Training with mode TEMP-S20110618.tsv
-19:00:52 o.b.a.CorpusProcessor 196 --- mode TEMP-S20110618.tsv
-19:00:52 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, NOUN -> NOUN, ART -> DET, MISC -> X, INT -> X, X -> X, . -> ., ADV -> ADV, PREP -> ADP, ### -> ###, ADJ -> ADJ, ADP -> ADP, V -> VERB, PRT -> PRT, PUNC -> ., MWU -> NOUN, DET -> DET, N -> NOUN, CONJ -> CONJ, NUM -> NUM, VERB -> VERB)
-19:00:52 o.b.a.CorpusProcessor 83 --- Processing untagged data.
-19:00:52 o.b.a.CorpusProcessor 196 --- mode train
-19:00:52 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/nl/alpino/train/dutch_alpino_train.conll
-19:00:52 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, NOUN -> NOUN, ART -> DET, MISC -> X, INT -> X, X -> X, . -> ., ADV -> ADV, PREP -> ADP, ### -> ###, ADJ -> ADJ, ADP -> ADP, V -> VERB, PRT -> PRT, PUNC -> ., MWU -> NOUN, DET -> DET, N -> NOUN, CONJ -> CONJ, NUM -> NUM, VERB -> VERB)
-19:00:53 o.b.a.CorpusProcessor 94 --- Got 99000
-19:00:53 o.b.a.CorpusProcessor 113 --- Loading test words too while picking dictionary entries.
-19:00:53 o.b.a.CorpusProcessor 196 --- mode test
-19:00:53 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/nl/alpino/test/dutch_alpino_test.conll
-19:00:53 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, NOUN -> NOUN, ART -> DET, MISC -> X, INT -> X, X -> X, . -> ., ADV -> ADV, PREP -> ADP, ### -> ###, ADJ -> ADJ, ADP -> ADP, V -> VERB, PRT -> PRT, PUNC -> ., MWU -> NOUN, DET -> DET, N -> NOUN, CONJ -> CONJ, NUM -> NUM, VERB -> VERB)
-19:00:55 o.b.a.TagMap 76 --- unknown tag PREFIX :word 's
-19:00:55 o.b.a.TagMap 78 --- PREFIX -> X
-19:00:55 o.b.a.TagMap 76 --- unknown tag SUFFIX :word 's
-19:00:55 o.b.a.TagMap 78 --- SUFFIX -> X
-19:00:55 o.b.a.TagMap 76 --- unknown tag IDIOM :word 't kofschip
-19:00:55 o.b.a.TagMap 78 --- IDIOM -> X
-19:00:55 o.b.a.TagMap 76 --- unknown tag PHRASE :word 40 fikt
-19:00:55 o.b.a.TagMap 78 --- PHRASE -> X
-19:00:55 o.b.a.TagMap 76 --- unknown tag LETTER :word A
-19:00:55 o.b.a.TagMap 78 --- LETTER -> X
-19:00:55 o.b.a.TagMap 76 --- unknown tag EXPRESSION :word aan de hand van
-19:00:55 o.b.a.TagMap 78 --- EXPRESSION -> X
-19:00:55 o.b.a.TagMap 76 --- unknown tag INTERJECTION :word ach
-19:00:55 o.b.a.TagMap 78 --- INTERJECTION -> X
-19:00:55 o.b.a.TagMap 76 --- unknown tag CONTRACTION :word da's
-19:00:55 o.b.a.TagMap 78 --- CONTRACTION -> X
-19:01:15 o.b.u.c.Dictionary 44 --- 71325 in 99002
-19:01:15 o.b.u.c.Dictionary 46 --- Dict completeness 0.7203679471121796
-19:01:15 o.b.t.IntRepresentor 98 --- numTags 9 numWordsTraining 7340 numWordsSeen 0 numWordsTotal 7340
-19:01:15 o.b.t.l.LabelPropagationTrainer 140 --- VERB NOUN ADJ ADP X NUM DET CONJ ###
-19:01:15 o.b.a.CorpusProcessor 144 --- Testing nl alpino
-19:01:15 o.b.a.CorpusProcessor 196 --- mode test
-19:01:15 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/nl/alpino/test/dutch_alpino_test.conll
-19:01:15 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, PRONOUN -> NOUN, PROPER NOUN -> NOUN, PREFIX -> X, NOUN -> NOUN, ART -> DET, MISC -> X, {{ABBREVIATION|DUTCH}} -> X, {{INITIALISM|DUTCH}} -> X, INT -> X, PHRASE -> X, CONJUNCTION -> CONJ, ORDINAL NUMBER -> NUM, X -> X, NOUN 1 -> NOUN, EXPRESSION -> X, SUFFIX -> X, CARDINAL NUMBER -> NUM, POSTPOSITION -> ADP, {{ABBREVIATION|NL}} -> X, {{INITIALISM|LANG=NL}} -> X, NUMERAL -> NUM, CIRCUMPOSITION -> ADP, . -> ., DETERMINER -> DET, ADV -> ADV, INITIALISM -> X, {{INITIALISM|NL}} -> X, NOUN 2 -> NOUN, LETTER -> X, {{ABBREVIATION|LANG=NL}} -> X, ACRONYM -> X, ARTICLE -> DET, ABBREVIATION -> X, PREP -> ADP, ### -> ###, ADJECTIVE -> ADJ, ADJ -> ADJ, ADP -> ADP, V -> VERB, IDIOM -> X, INTERJECTION -> X, PRT -> PRT, PUNC -> ., ADVERB -> VERB, MWU -> NOUN, DET -> DET, N -> NOUN, CONTRACTION -> X, CONJ -> CONJ, PREPOSITION -> ADP, NUM -> NUM, PROVERB -> VERB, PRONOMINAL ADVERB -> VERB, {{ABBREVIATION}} -> X, VERB FORM -> VERB, PARTICLE -> PRT, VERB -> VERB, {{ACRONYM|NL}} -> X)
-19:01:15 o.b.a.CorpusProcessor 150 --- test tokens: 5971
-19:01:15 o.b.t.l.LabelPropagationTagger 199 --- numTags 9 numWordsTraining 7340 numWordsSeen 0 numWordsTotal 7892
-19:01:15 o.b.t.l.LabelPropagationTagger 200 --- num tokens 5971
-19:01:15 o.b.t.l.LabelPropagationTagger 111 --- adding token edges: 
-0.000.020.030.050.070.080.100.120.130.150.170.180.200.220.230.250.270.280.300.320.330.350.370.390.400.420.440.450.470.490.500.520.540.550.570.590.600.620.640.650.670.690.700.720.740.750.770.790.800.820.840.850.870.890.900.920.940.950.970.9919:01:15 o.b.t.l.LabelPropagationTagger 137 --- Done adding token edges.
-ZERO ENTROPY NEIGHBORHOOD Heuristic adjustment used for 0 nodes!
-Total edges: 49850
-Using mad ...
-
-Iteration: 1 2 3 4 5 6 7 8 9 10
-precision NaN
-mrr NaN
-19:01:18 o.b.a.TaggerTester 90 --- ((BASISTAKENPAKKET,ADP),CONJ) ((JEUGDGEZONDHEIDSZORG,NOUN),NOUN) ((0-19,NUM),CONJ) ((JAAR,NOUN),NOUN) ((###,###),###) ((Daarvoor,ADV),VERB) ((is,VERB),VERB) ((gekozen,VERB),VERB) ((omdat,CONJ),CONJ) ((gemeenten,NOUN),CONJ) ((bij,ADP),ADP) ((uitstek,NOUN),CONJ) ((het,DET),NOUN) ((lokale,ADJ),ADJ) ((gezondheidsbeleid,NOUN),CONJ) ((kunnen,VERB),VERB) ((toespitsen,VERB),CONJ) ((op,ADP),ADP) ((de,DET),DET) ((specifieke,ADJ),ADJ) ((gezondheidssituatie,NOUN),NOUN) ((en,CONJ),CONJ) ((zorgbehoeften,NOUN),CONJ) ((van,ADP),ADP) ((kinderen,NOUN),NOUN) ((en,CONJ),VERB) ((jongeren,ADJ),NOUN) ((in,ADP),ADP) ((de,DET),DET) ((eigen,PRON),ADJ) ((gemeente,NOUN),NOUN) ((.,.),VERB) ((###,###),###) ((Ook,ADV),VERB) ((kunnen,VERB),VERB) ((gemeenten,NOUN),CONJ) ((rekening,NOUN),NOUN) ((houden,VERB),VERB) ((met,ADP),ADP) ((het,DET),NOUN) ((aanbod,NOUN),NOUN) ((dat,CONJ),DET) ((er,ADV),VERB) ((op,ADP),ADP) ((lokaal,NOUN),ADJ) ((of,CONJ),CONJ) ((regionaal,ADJ),ADJ) ((niveau,NOUN),NOUN) ((al,ADV),CONJ) ((is,VERB),VERB)
-19:01:18 o.b.a.TaggerTester 95 --- numTags 9 numWordsTraining 7340 numWordsSeen 0 numWordsTotal 7892
-19:01:18 o.b.a.TaggingResult 55 --- Accuracy: 0.531, (Training: 0.723, Seen: NaN, Novel: 0.050)
-
-19:01:18 o.b.a.TaggingResult 56 --- Non training tokens: 0.286
-
-19:01:18 o.b.a.CorpusProcessor 153 --- 8 unmapped tags.
-sv talbanken05
-Encoding: UTF-8
-19:01:18 o.b.a.CorpusProcessor 103 --- Training with mode TEMP-S20110618.tsv
-19:01:18 o.b.a.CorpusProcessor 196 --- mode TEMP-S20110618.tsv
-19:01:18 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, EN -> NUM, IQ -> ., IG -> ., SP -> VERB, IP -> ., UK -> CONJ, IU -> ., NOUN -> NOUN, IS -> ., IR -> ., FV -> VERB, QV -> VERB, PR -> ADP, IK -> ., X -> X, IT -> ., MV -> VERB, AJ -> ADJ, MN -> NOUN, . -> ., GV -> VERB, ADV -> ADV, VV -> VERB, AB -> ADV, YY -> X, RO -> NUM, ### -> ###, I? -> ., ADJ -> ADJ, ID -> X, HV -> VERB, SV -> VERB, ADP -> ADP, IM -> PRT, IC -> ., VN -> NOUN, AN -> NOUN, PRT -> PRT, KV -> VERB, NN -> NOUN, PU -> ., PN -> NOUN, DET -> DET, TP -> VERB, WV -> VERB, CONJ -> CONJ, NUM -> NUM, BV -> VERB, XX -> X, AV -> VERB, VERB -> VERB, PO -> PRON, ++ -> CONJ)
-19:01:18 o.b.a.CorpusProcessor 83 --- Processing untagged data.
-19:01:18 o.b.a.CorpusProcessor 196 --- mode train
-19:01:18 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/sv/talbanken05/train/swedish_talbanken05_train.conll
-19:01:18 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, EN -> NUM, IQ -> ., IG -> ., SP -> VERB, IP -> ., UK -> CONJ, IU -> ., NOUN -> NOUN, IS -> ., IR -> ., FV -> VERB, QV -> VERB, PR -> ADP, IK -> ., X -> X, IT -> ., MV -> VERB, AJ -> ADJ, MN -> NOUN, . -> ., GV -> VERB, ADV -> ADV, VV -> VERB, AB -> ADV, YY -> X, RO -> NUM, ### -> ###, I? -> ., ADJ -> ADJ, ID -> X, HV -> VERB, SV -> VERB, ADP -> ADP, IM -> PRT, IC -> ., VN -> NOUN, AN -> NOUN, PRT -> PRT, KV -> VERB, NN -> NOUN, PU -> ., PN -> NOUN, DET -> DET, TP -> VERB, WV -> VERB, CONJ -> CONJ, NUM -> NUM, BV -> VERB, XX -> X, AV -> VERB, VERB -> VERB, PO -> PRON, ++ -> CONJ)
-19:01:19 o.b.a.CorpusProcessor 94 --- Got 99000
-19:01:19 o.b.a.CorpusProcessor 113 --- Loading test words too while picking dictionary entries.
-19:01:19 o.b.a.CorpusProcessor 196 --- mode test
-19:01:19 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/sv/talbanken05/test/swedish_talbanken05_test.conll
-19:01:19 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, EN -> NUM, IQ -> ., IG -> ., SP -> VERB, IP -> ., UK -> CONJ, IU -> ., NOUN -> NOUN, IS -> ., IR -> ., FV -> VERB, QV -> VERB, PR -> ADP, IK -> ., X -> X, IT -> ., MV -> VERB, AJ -> ADJ, MN -> NOUN, . -> ., GV -> VERB, ADV -> ADV, VV -> VERB, AB -> ADV, YY -> X, RO -> NUM, ### -> ###, I? -> ., ADJ -> ADJ, ID -> X, HV -> VERB, SV -> VERB, ADP -> ADP, IM -> PRT, IC -> ., VN -> NOUN, AN -> NOUN, PRT -> PRT, KV -> VERB, NN -> NOUN, PU -> ., PN -> NOUN, DET -> DET, TP -> VERB, WV -> VERB, CONJ -> CONJ, NUM -> NUM, BV -> VERB, XX -> X, AV -> VERB, VERB -> VERB, PO -> PRON, ++ -> CONJ)
-19:01:39 o.b.a.TagMap 76 --- unknown tag SUFFIX :word -a
-19:01:39 o.b.a.TagMap 78 --- SUFFIX -> X
-19:01:39 o.b.a.TagMap 76 --- unknown tag INTERFIX :word -s-
-19:01:39 o.b.a.TagMap 78 --- INTERFIX -> X
-19:01:39 o.b.a.TagMap 76 --- unknown tag INTERJECTION :word OK
-19:01:39 o.b.a.TagMap 78 --- INTERJECTION -> X
-19:01:39 o.b.a.TagMap 76 --- unknown tag PREFIX :word af-
-19:01:39 o.b.a.TagMap 78 --- PREFIX -> X
-19:01:40 o.b.a.TagMap 76 --- unknown tag IDIOM :word bakom flötet
-19:01:40 o.b.a.TagMap 78 --- IDIOM -> X
-19:01:40 o.b.a.TagMap 76 --- unknown tag LETTER :word delta
-19:01:40 o.b.a.TagMap 78 --- LETTER -> X
-19:01:40 o.b.a.TagMap 76 --- unknown tag PHRASE :word den som sa det kan va det
-19:01:40 o.b.a.TagMap 78 --- PHRASE -> X
-19:01:40 o.b.a.TagMap 76 --- unknown tag PARTICIPLE :word hålande
-19:01:40 o.b.a.TagMap 78 --- PARTICIPLE -> X
-19:01:40 o.b.a.TagMap 76 --- unknown tag CONTRACTION :word venne
-19:01:40 o.b.a.TagMap 78 --- CONTRACTION -> X
-19:01:41 o.b.u.c.Dictionary 44 --- 76817 in 99002
-19:01:41 o.b.u.c.Dictionary 46 --- Dict completeness 0.7758360265449183
-19:01:41 o.b.t.IntRepresentor 98 --- numTags 10 numWordsTraining 5216 numWordsSeen 0 numWordsTotal 5216
-19:01:41 o.b.t.l.LabelPropagationTrainer 140 --- NOUN VERB ADJ ADP X CONJ NUM DET PRT ###
-19:01:41 o.b.a.CorpusProcessor 144 --- Testing sv talbanken05
-19:01:41 o.b.a.CorpusProcessor 196 --- mode test
-19:01:41 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/sv/talbanken05/test/swedish_talbanken05_test.conll
-19:01:41 o.b.a.CorpusProcessor 228 --- Map(PRON -> PRON, EN -> NUM, PRONOUN -> NOUN, PROPER NOUN -> NOUN, INTERFIX -> X, IQ -> ., IG -> ., SP -> VERB, PREFIX -> X, IP -> ., UK -> CONJ, IU -> ., NOUN -> NOUN, IS -> ., IR -> ., FV -> VERB, QV -> VERB, PHRASE -> X, PR -> ADP, CONJUNCTION -> CONJ, {{ABBREVIATION|LANG=SV}} -> X, IK -> ., ORDINAL NUMBER -> NUM, X -> X, NOUN 1 -> NOUN, IT -> ., SUFFIX -> X, {{ABBREVIATION|SWEDISH}} -> X, MV -> VERB, {{ABBREVIATION|SV}} -> X, CARDINAL NUMBER -> NUM, AJ -> ADJ, MN -> NOUN, POSTPOSITION -> ADP, NUMERAL -> NUM, . -> ., GV -> VERB, DETERMINER -> DET, INITIALISM -> X, ADV -> ADV, NOUN 2 -> NOUN, PUNCTUATION MARK -> X, LETTER -> X, VV -> VERB, AB -> ADV, ARTICLE -> DET, ACRONYM -> X, YY -> X, {{INITIALISM|SV}} -> X, ABBREVIATION -> X, RO -> NUM, ### -> ###, ADJECTIVE -> ADJ, PARTICIPLE -> X, I? -> ., ADJ -> ADJ, ID -> X, HV -> VERB, SV -> VERB, ADP -> ADP, IDIOM -> X, INTERJECTION -> X, IM -> PRT, IC -> ., VN -> NOUN, {{INITIALISM|LANG=SV}} -> X, AN -> NOUN, PRT -> PRT, KV -> VERB, ADVERB -> VERB, NN -> NOUN, PU -> ., PN -> NOUN, DET -> DET, TP -> VERB, WV -> VERB, CONTRACTION -> X, PREPOSITION -> ADP, CONJ -> CONJ, NUM -> NUM, PROVERB -> VERB, BV -> VERB, XX -> X, PARTICLE -> PRT, AV -> VERB, VERB -> VERB, PO -> PRON, ++ -> CONJ)
-19:01:41 o.b.a.CorpusProcessor 150 --- test tokens: 6045
-19:01:41 o.b.t.l.LabelPropagationTagger 199 --- numTags 10 numWordsTraining 5216 numWordsSeen 0 numWordsTotal 5795
-19:01:41 o.b.t.l.LabelPropagationTagger 200 --- num tokens 6045
-19:01:41 o.b.t.l.LabelPropagationTagger 111 --- adding token edges: 
-0.000.020.030.050.070.080.100.120.130.150.170.180.200.220.230.250.260.280.300.310.330.350.360.380.400.410.430.450.460.480.500.510.530.550.560.580.600.610.630.650.660.680.690.710.730.740.760.780.790.810.830.840.860.880.890.910.930.940.960.980.9919:01:41 o.b.t.l.LabelPropagationTagger 137 --- Done adding token edges.
-ZERO ENTROPY NEIGHBORHOOD Heuristic adjustment used for 0 nodes!
-Total edges: 46568
-Using mad ...
-
-Iteration: 1 2 3 4 5 6 7 8 9 10
-precision NaN
-mrr NaN
-19:01:44 o.b.a.TaggerTester 90 --- ((Individuell,ADJ),PRT) ((beskattning,NOUN),PRT) ((av,ADP),ADP) ((arbetsinkomster,NOUN),PRT) ((###,###),###) ((Genom,ADP),ADP) ((skattereformen,NOUN),DET) ((införs,VERB),VERB) ((individuell,ADJ),PRT) ((beskattning,NOUN),PRT) (((,.),ADP) ((särbeskattning,NOUN),PRT) ((),.),PRT) ((av,ADP),ADP) ((arbetsinkomster,NOUN),PRT) ((.,.),VERB) ((###,###),###) ((Det,PRON),NOUN) ((innebär,VERB),VERB) ((bl.,ADV),PRT) ((a.,X),PRT) ((att,CONJ),PRT) ((endast,ADV),VERB) ((en,NUM),NOUN) ((skatteskala,NOUN),PRT) ((kommer,VERB),VERB) ((att,PRT),PRT) ((finnas,VERB),VERB) ((för,ADP),ADP) ((beräkning,NOUN),NOUN) ((av,ADP),ADP) ((statlig,ADJ),ADJ) ((inkomstskatt,NOUN),PRT) ((.,.),PRT) ((###,###),###) ((Den,PRON),NOUN) ((blir,VERB),VERB) ((gemensam,ADJ),ADJ) ((för,ADP),ADP) ((alla,PRON),NOUN) ((inkomsttagare,NOUN),ADP) ((oavsett,ADP),ADP) ((civilstånd,NOUN),PRT) ((.,.),VERB) ((###,###),###) ((Den,PRON),NOUN) ((gäller,VERB),VERB) ((även,ADV),VERB) ((för,ADP),ADP) ((oskifta,ADJ),PRT)
-19:01:44 o.b.a.TaggerTester 95 --- numTags 10 numWordsTraining 5216 numWordsSeen 0 numWordsTotal 5795
-19:01:44 o.b.a.TaggingResult 55 --- Accuracy: 0.483, (Training: 0.659, Seen: NaN, Novel: 0.012)
-
-19:01:44 o.b.a.TaggingResult 56 --- Non training tokens: 0.272
-
-19:01:44 o.b.a.CorpusProcessor 153 --- 9 unmapped tags.
-en-ptb	0.4397046323841904	0.5310216363375841	NaN	0.08673337518000221	0.2055354866128347	(VERB,.)
-pt-bosque	0.3751491392534515	0.6013674197384067	NaN	0.07111466240511387	0.42662348730185784	(DET,NOUN)
-da-ddt	0.3499658236500342	0.6115550092194223	NaN	0.022324865280985373	0.4439507860560492	(PRT,NOUN)
-nl-alpino	0.5308863025962399	0.7230576441102757	NaN	0.050156739811912224	0.2855863921217547	(CONJ,NOUN)
-sv-talbanken05	0.4828500707213578	0.6588149587178241	NaN	0.011703511053315995	0.2719236209335219	(PRT,NOUN)
-en-ptb	pt-bosque	da-ddt	nl-alpino	sv-talbanken05
-0.4397046323841904	0.3751491392534515	0.3499658236500342	0.5308863025962399	0.4828500707213578
-0.5310216363375841	0.6013674197384067	0.6115550092194223	0.7230576441102757	0.6588149587178241
-NaN	NaN	NaN	NaN	NaN
-0.08673337518000221	0.07111466240511387	0.022324865280985373	0.050156739811912224	0.011703511053315995
-0.2055354866128347	0.42662348730185784	0.4439507860560492	0.2855863921217547	0.2719236209335219
-(VERB,.)	(DET,NOUN)	(PRT,NOUN)	(CONJ,NOUN)	(PRT,NOUN)

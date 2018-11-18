@@ -1,9 +1,6 @@
 Read me for the data mining course project by Nagarajan Natarajan and vishvAs vAsuki.
 
-1. Folders packaged.
-experiments : root folder for all experiment script files. The immediate folder contains social network link prediciton experiments.
-libraries : root folder for all library files.
-experiments/affNet : affiliation network link prediciton experiments.
+1. Matlab code is available in a separate repository.
 
 2. Data location on any lhug machine.
 /scratch/cluster/vvasuki/socialNW/

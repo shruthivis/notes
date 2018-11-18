@@ -1,217 +1,0 @@
-/home/vvasuki/vishvas/work/language/bootpos/target/classes:/home/vvasuki/vishvas/work/language/bootpos/src/main/resources:/home/vvasuki/vishvas/work/language/bootpos/lib/junto-assembly.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/compile/opennlp-tools-1.5.1-incubating.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/compile/jwnl-1.3.3.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/compile/opennlp-maxent-3.0.1-incubating.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/jars/org.slf4j/slf4j-api/slf4j-api-1.6.2.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/jars/jwnl/jwnl/jwnl-1.3.3.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/jars/com.weiglewilczek.slf4s/slf4s_2.9.1/slf4s_2.9.1-1.0.7.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/jars/ch.qos.logback/logback-classic/logback-classic-0.9.30.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/jars/ch.qos.logback/logback-core/logback-core-0.9.30.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/jars/org.apache.opennlp/opennlp-maxent/opennlp-maxent-3.0.1-incubating.jar:/home/vvasuki/vishvas/work/language/bootpos/lib_managed/jars/org.apache.opennlp/opennlp-tools/opennlp-tools-1.5.1-incubating.jar:
-Properties file: /home/vvasuki/Dropbox/Public/vishvas/work/language/bootpos/src/main/resources/default/runtimeSettings.properties
-taggerType: LabelPropagation
-Using universal tags? false
-Using wiktionary? false
-bRawDataFromTrainingFile? true
-Using training data? true
-Training tokens limit 99000
-Raw tokens limit 99000
-Using training data as dictionary ? true
-en ptb
-19:08:06 o.b.a.CorpusProcessor 103 --- Training with mode train
-19:08:06 o.b.a.CorpusProcessor 196 --- mode train
-19:08:06 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/en/ptb/train/train.pos
-19:08:06 o.b.a.CorpusProcessor 228 --- Map(### -> ###)
-19:08:06 o.b.a.CorpusProcessor 83 --- Processing untagged data.
-19:08:06 o.b.a.CorpusProcessor 196 --- mode train
-19:08:06 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/en/ptb/train/train.pos
-19:08:06 o.b.a.CorpusProcessor 228 --- Map(### -> ###)
-19:08:08 o.b.a.CorpusProcessor 94 --- Got 99000
-19:08:10 o.b.u.c.Dictionary 24 --- Num entries (prior): 99000
-19:08:10 o.b.u.c.Dictionary 28 --- Num entries (after): 13422
-19:08:10 o.b.u.c.Dictionary 44 --- 99002 in 99002
-19:08:10 o.b.u.c.Dictionary 46 --- Dict completeness 0.9999
-19:08:10 o.b.a.CorpusProcessor 130 --- training with dictionary
-19:08:11 o.b.t.IntRepresentor 98 --- numTags 46 numWordsTraining 10998 numWordsSeen 0 numWordsTotal 10998
-19:08:12 o.b.t.l.LabelPropagationTrainer 140 --- NN NNP JJ NNS CD VB VBN VBG VBD RB VBZ VBP IN NNPS JJR DT JJS PRP CC MD RP RBR PRP$ WRB LS PDT WDT : WP FW $ . TO UH RBS ) POS ( '' , `` EX ### SYM WP$ #
-19:08:12 o.b.a.CorpusProcessor 144 --- Testing en ptb
-19:08:12 o.b.a.CorpusProcessor 196 --- mode test
-19:08:12 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/en/ptb/test/test0.pos
-19:08:12 o.b.a.CorpusProcessor 228 --- Map(### -> ###)
-19:08:13 o.b.a.CorpusProcessor 150 --- test tokens: 137295
-19:08:14 o.b.t.l.LabelPropagationTagger 199 --- numTags 46 numWordsTraining 10998 numWordsSeen 0 numWordsTotal 18456
-19:08:14 o.b.t.l.LabelPropagationTagger 200 --- num tokens 137295
-19:08:14 o.b.t.l.LabelPropagationTagger 111 --- adding token edges: 
-0.000.000.000.000.000.000.000.010.010.010.010.010.010.010.010.010.010.010.010.010.010.020.020.020.020.020.020.020.020.020.020.020.020.020.020.030.030.030.030.030.030.030.030.030.030.030.030.030.030.040.040.040.040.040.040.040.040.040.040.040.040.040.050.050.050.050.050.050.050.050.050.050.050.050.050.050.060.060.060.060.060.060.060.060.060.060.060.060.060.060.070.070.070.070.070.070.070.070.070.070.070.070.070.080.080.080.080.080.080.080.080.080.080.080.080.080.080.090.090.090.090.090.090.090.090.090.090.090.090.090.090.100.100.100.100.100.100.100.100.100.100.100.100.100.100.110.110.110.110.110.110.110.110.110.110.110.110.110.120.120.120.120.120.120.120.120.120.120.120.120.120.120.130.130.130.130.130.130.130.130.130.130.130.130.130.130.140.140.140.140.140.140.140.140.140.140.140.140.140.140.150.150.150.150.150.150.150.150.150.150.150.150.150.160.160.160.160.160.160.160.160.160.160.160.160.160.160.170.170.170.170.170.170.170.170.170.170.170.170.170.170.180.180.180.180.180.180.180.180.180.180.180.180.180.190.190.190.190.190.190.190.190.190.190.190.190.190.190.200.200.200.200.200.200.200.200.200.200.200.200.200.200.210.210.210.210.210.210.210.210.210.210.210.210.210.210.220.220.220.220.220.220.220.220.220.220.220.220.220.230.230.230.230.230.230.230.230.230.230.230.230.230.230.240.240.240.240.240.240.240.240.240.240.240.240.240.240.250.250.250.250.250.250.250.250.250.250.250.250.250.250.260.260.260.260.260.260.260.260.260.260.260.260.260.270.270.270.270.270.270.270.270.270.270.270.270.270.270.280.280.280.280.280.280.280.280.280.280.280.280.280.280.290.290.290.290.290.290.290.290.290.290.290.290.290.290.300.300.300.300.300.300.300.300.300.300.300.300.300.310.310.310.310.310.310.310.310.310.310.310.310.310.310.320.320.320.320.320.320.320.320.320.320.320.320.320.320.330.330.330.330.330.330.330.330.330.330.330.330.330.340.340.340.340.340.340.340.340.340.340.340.340.340.340.350.350.350.350.350.350.350.350.350.350.350.350.350.350.360.360.360.360.360.360.360.360.360.360.360.360.360.360.370.370.370.370.370.370.370.370.370.370.370.370.370.380.380.380.380.380.380.380.380.380.380.380.380.380.380.390.390.390.390.390.390.390.390.390.390.390.390.390.390.400.400.400.400.400.400.400.400.400.400.400.400.400.400.410.410.410.410.410.410.410.410.410.410.410.410.410.420.420.420.420.420.420.420.420.420.420.420.420.420.420.430.430.430.430.430.430.430.430.430.430.430.430.430.430.440.440.440.440.440.440.440.440.440.440.440.440.440.450.450.450.450.450.450.450.450.450.450.450.450.450.450.460.460.460.460.460.460.460.460.460.460.460.460.460.460.470.470.470.470.470.470.470.470.470.470.470.470.470.470.480.480.480.480.480.480.480.480.480.480.480.480.480.490.490.490.490.490.490.490.490.490.490.490.490.490.490.500.500.500.500.500.500.500.500.500.500.500.500.500.500.510.510.510.510.510.510.510.510.510.510.510.510.510.510.520.520.520.520.520.520.520.520.520.520.520.520.520.530.530.530.530.530.530.530.530.530.530.530.530.530.530.540.540.540.540.540.540.540.540.540.540.540.540.540.540.550.550.550.550.550.550.550.550.550.550.550.550.550.560.560.560.560.560.560.560.560.560.560.560.560.560.560.570.570.570.570.570.570.570.570.570.570.570.570.570.570.580.580.580.580.580.580.580.580.580.580.580.580.580.580.590.590.590.590.590.590.590.590.590.590.590.590.590.600.600.600.600.600.600.600.600.600.600.600.600.600.600.610.610.610.610.610.610.610.610.610.610.610.610.610.610.620.620.620.620.620.620.620.620.620.620.620.620.620.620.630.630.630.630.630.630.630.630.630.630.630.630.630.640.640.640.640.640.640.640.640.640.640.640.640.640.640.650.650.650.650.650.650.650.650.650.650.650.650.650.650.660.660.660.660.660.660.660.660.660.660.660.660.660.660.670.670.670.670.670.670.670.670.670.670.670.670.670.680.680.680.680.680.680.680.680.680.680.680.680.680.680.690.690.690.690.690.690.690.690.690.690.690.690.690.690.700.700.700.700.700.700.700.700.700.700.700.700.700.710.710.710.710.710.710.710.710.710.710.710.710.710.710.720.720.720.720.720.720.720.720.720.720.720.720.720.720.730.730.730.730.730.730.730.730.730.730.730.730.730.730.740.740.740.740.740.740.740.740.740.740.740.740.740.750.750.750.750.750.750.750.750.750.750.750.750.750.750.760.760.760.760.760.760.760.760.760.760.760.760.760.760.770.770.770.770.770.770.770.770.770.770.770.770.770.770.780.780.780.780.780.780.780.780.780.780.780.780.780.790.790.790.790.790.790.790.790.790.790.790.790.790.790.800.800.800.800.800.800.800.800.800.800.800.800.800.800.810.810.810.810.810.810.810.810.810.810.810.810.810.820.820.820.820.820.820.820.820.820.820.820.820.820.820.830.830.830.830.830.830.830.830.830.830.830.830.830.830.840.840.840.840.840.840.840.840.840.840.840.840.840.840.850.850.850.850.850.850.850.850.850.850.850.850.850.860.860.860.860.860.860.860.860.860.860.860.860.860.860.870.870.870.870.870.870.870.870.870.870.870.870.870.870.880.880.880.880.880.880.880.880.880.880.880.880.880.880.890.890.890.890.890.890.890.890.890.890.890.890.890.900.900.900.900.900.900.900.900.900.900.900.900.900.900.910.910.910.910.910.910.910.910.910.910.910.910.910.910.920.920.920.920.920.920.920.920.920.920.920.920.920.930.930.930.930.930.930.930.930.930.930.930.930.930.930.940.940.940.940.940.940.940.940.940.940.940.940.940.940.950.950.950.950.950.950.950.950.950.950.950.950.950.950.960.960.960.960.960.960.960.960.960.960.960.960.960.970.970.970.970.970.970.970.970.970.970.970.970.970.970.980.980.980.980.980.980.980.980.980.980.980.980.980.980.990.990.990.990.990.990.990.990.990.990.990.990.990.991.001.001.001.001.001.0019:08:17 o.b.t.l.LabelPropagationTagger 137 --- Done adding token edges.
-ZERO ENTROPY NEIGHBORHOOD Heuristic adjustment used for 0 nodes!
-Total edges: 1245970
-Using mad ...
-
-Iteration: 1 2 3 4 5 6 7 8 9 10
-precision NaN
-mrr NaN
-19:11:47 o.b.a.TaggerTester 90 --- ((The,DT),NNP) ((Arizona,NNP),NNP) ((Corporations,NNP),NNS) ((Commission,NNP),NNP) ((authorized,VBD),VBD) ((an,DT),DT) ((11.5,CD),CD) ((%,NN),JJ) ((rate,NN),NNP) ((increase,NN),VBN) ((at,IN),IN) ((Tucson,NNP),SYM) ((Electric,NNP),NNP) ((Power,NNP),NN) ((Co.,NNP),NNP) ((,,,),PRP) ((substantially,RB),RB) ((lower,JJR),JJR) ((than,IN),IN) ((recommended,VBN),VBD) ((last,JJ),JJ) ((month,NN),NN) ((by,IN),IN) ((a,DT),NNP) ((commission,NN),NN) ((hearing,NN),NN) ((officer,NN),NN) ((and,CC),NNP) ((barely,RB),RB) ((half,PDT),PDT) ((the,DT),NNP) ((rise,NN),VBP) ((sought,VBN),VBD) ((by,IN),IN) ((the,DT),NNP) ((utility,NN),NN) ((.,.),VBD) ((###,###),###) ((The,DT),NNP) ((ruling,NN),NN) ((follows,VBZ),VBZ) ((a,DT),NNP) ((host,NN),NN) ((of,IN),IN) ((problems,NNS),NNS) ((at,IN),IN) ((Tucson,NNP),SYM) ((Electric,NNP),NNP) ((,,,),NN) ((including,VBG),IN)
-19:11:48 o.b.a.TaggerTester 95 --- numTags 46 numWordsTraining 10998 numWordsSeen 0 numWordsTotal 18456
-19:11:48 o.b.a.TaggingResult 55 --- Accuracy: 0.554, (Training: 0.587, Seen: NaN, Novel: 0.227)
-
-19:11:48 o.b.a.TaggingResult 56 --- Non training tokens: 0.093
-
-pt bosque
-19:11:48 o.b.a.CorpusProcessor 103 --- Training with mode train
-19:11:48 o.b.a.CorpusProcessor 196 --- mode train
-19:11:48 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/pt/bosque/train/portuguese_bosque_train.conll
-19:11:48 o.b.a.CorpusProcessor 228 --- Map(### -> ###)
-19:11:48 o.b.a.CorpusProcessor 83 --- Processing untagged data.
-19:11:48 o.b.a.CorpusProcessor 196 --- mode train
-19:11:48 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/pt/bosque/train/portuguese_bosque_train.conll
-19:11:48 o.b.a.CorpusProcessor 228 --- Map(### -> ###)
-19:11:49 o.b.a.CorpusProcessor 94 --- Got 99000
-19:11:50 o.b.u.c.Dictionary 24 --- Num entries (prior): 99000
-19:11:50 o.b.u.c.Dictionary 28 --- Num entries (after): 17214
-19:11:50 o.b.u.c.Dictionary 44 --- 99002 in 99002
-19:11:50 o.b.u.c.Dictionary 46 --- Dict completeness 0.9999
-19:11:50 o.b.a.CorpusProcessor 130 --- training with dictionary
-19:11:50 o.b.t.IntRepresentor 98 --- numTags 16 numWordsTraining 15959 numWordsSeen 0 numWordsTotal 15959
-19:11:50 o.b.t.l.LabelPropagationTrainer 140 --- N V PROP ADJ ADV NUM PRON PRP PP CONJ PUNC ART IN EC ### ?
-19:11:50 o.b.a.CorpusProcessor 144 --- Testing pt bosque
-19:11:50 o.b.a.CorpusProcessor 196 --- mode test
-19:11:50 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/pt/bosque/test/portuguese_bosque_test.conll
-19:11:50 o.b.a.CorpusProcessor 228 --- Map(### -> ###)
-19:11:50 o.b.a.CorpusProcessor 150 --- test tokens: 6155
-19:11:50 o.b.t.l.LabelPropagationTagger 199 --- numTags 16 numWordsTraining 15959 numWordsSeen 0 numWordsTotal 16721
-19:11:50 o.b.t.l.LabelPropagationTagger 200 --- num tokens 6155
-19:11:50 o.b.t.l.LabelPropagationTagger 111 --- adding token edges: 
-0.000.020.030.050.060.080.100.110.130.150.160.180.190.210.230.240.260.280.290.310.320.340.360.370.390.410.420.440.450.470.490.500.520.540.550.570.580.600.620.630.650.670.680.700.710.730.750.760.780.800.810.830.840.860.880.890.910.930.940.960.970.9919:11:51 o.b.t.l.LabelPropagationTagger 137 --- Done adding token edges.
-ZERO ENTROPY NEIGHBORHOOD Heuristic adjustment used for 0 nodes!
-Total edges: 80530
-Using mad ...
-
-Iteration: 1 2 3 4 5 6 7 8 9 10
-precision NaN
-mrr NaN
-19:11:59 o.b.a.TaggerTester 90 --- ((É,ADV),ADV) ((por,PRP),N) ((isso,PRON),PRON) ((que,ADV),CONJ) ((,,PUNC),PUNC) ((explica,V),V) ((,,PUNC),PUNC) ((não,ADV),IN) ((tem,V),V) ((pena,N),N) ((de,PRP),PRP) ((Hillary_Clinton,PROP),?) ((.,PUNC),PUNC) ((###,###),###) ((«,PUNC),PUNC) ((Eles,PRON),PRON) (([,PUNC),PUNC) ((Hillary,PROP),?) ((e,CONJ),CONJ) ((Bill_Clinton,PROP),PROP) ((],PUNC),PUNC) ((podem,V),V) ((ter,V),V) ((alguma,PRON),PRON) ((espécie,N),N) ((de,PRP),PRP) ((acordo,N),N) ((e,CONJ),CONJ) ((quem,PRON),PRON) ((somos,V),V) ((nós,PRON),PRON) ((para,PRP),PRP) ((dizer,V),V) ((se,CONJ),CONJ) ((é,V),ADV) ((bom,ADJ),ADJ) ((ou,CONJ),CONJ) ((mau,ADJ),ADJ) ((?,PUNC),PUNC) ((###,###),###) ((Acho,V),V) ((que,CONJ),CONJ) ((eles,PRON),PRON) ((têm,V),V) ((mais,PRON),PRON) ((maturidade,N),N) ((em_relação_a,PRP),PRP) ((o,ART),PRON) ((sexo,N),?) ((,,PUNC),PUNC)
-19:11:59 o.b.a.TaggerTester 95 --- numTags 16 numWordsTraining 15959 numWordsSeen 0 numWordsTotal 16721
-19:11:59 o.b.a.TaggingResult 55 --- Accuracy: 0.693, (Training: 0.786, Seen: NaN, Novel: 0.132)
-
-19:11:59 o.b.a.TaggingResult 56 --- Non training tokens: 0.143
-
-da ddt
-19:11:59 o.b.a.CorpusProcessor 103 --- Training with mode train
-19:11:59 o.b.a.CorpusProcessor 196 --- mode train
-19:11:59 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/da/ddt/train/danish_ddt_train.conll
-19:11:59 o.b.a.CorpusProcessor 228 --- Map(### -> ###)
-19:11:59 o.b.a.CorpusProcessor 83 --- Processing untagged data.
-19:11:59 o.b.a.CorpusProcessor 196 --- mode train
-19:11:59 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/da/ddt/train/danish_ddt_train.conll
-19:11:59 o.b.a.CorpusProcessor 228 --- Map(### -> ###)
-19:12:00 o.b.a.CorpusProcessor 94 --- Got 99000
-19:12:01 o.b.u.c.Dictionary 24 --- Num entries (prior): 99000
-19:12:01 o.b.u.c.Dictionary 28 --- Num entries (after): 18734
-19:12:01 o.b.u.c.Dictionary 44 --- 99002 in 99002
-19:12:01 o.b.u.c.Dictionary 46 --- Dict completeness 0.9999
-19:12:01 o.b.a.CorpusProcessor 130 --- training with dictionary
-19:12:02 o.b.t.IntRepresentor 98 --- numTags 26 numWordsTraining 17102 numWordsSeen 0 numWordsTotal 17102
-19:12:02 o.b.t.l.LabelPropagationTrainer 140 --- NC VA AN NP RG AC XX SP XF CS PI AO PP I PO PD XA VE CC XP PT XR U XS PC ###
-19:12:02 o.b.a.CorpusProcessor 144 --- Testing da ddt
-19:12:02 o.b.a.CorpusProcessor 196 --- mode test
-19:12:02 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/da/ddt/test/danish_ddt_test.conll
-19:12:02 o.b.a.CorpusProcessor 228 --- Map(### -> ###)
-19:12:02 o.b.a.CorpusProcessor 150 --- test tokens: 6174
-19:12:02 o.b.t.l.LabelPropagationTagger 199 --- numTags 26 numWordsTraining 17102 numWordsSeen 0 numWordsTotal 17826
-19:12:02 o.b.t.l.LabelPropagationTagger 200 --- num tokens 6174
-19:12:02 o.b.t.l.LabelPropagationTagger 111 --- adding token edges: 
-0.000.020.030.050.060.080.100.110.130.150.160.180.190.210.230.240.260.280.290.310.320.340.360.370.390.400.420.440.450.470.490.500.520.530.550.570.580.600.620.630.650.660.680.700.710.730.750.760.780.790.810.830.840.860.870.890.910.920.940.960.970.9919:12:02 o.b.t.l.LabelPropagationTagger 137 --- Done adding token edges.
-ZERO ENTROPY NEIGHBORHOOD Heuristic adjustment used for 0 nodes!
-Total edges: 96102
-Using mad ...
-
-Iteration: 1 2 3 4 5 6 7 8 9 10
-precision NaN
-mrr NaN
-19:12:15 o.b.a.TaggerTester 90 --- ((To,AC),AC) ((kendte,AN),AN) ((russiske,AN),AN) ((historikere,NC),U) ((Andronik,NP),U) ((Mirganjan,NP),U) ((og,CC),CC) ((Igor,NP),U) ((Klamkin,NP),U) ((tror,VA),VA) ((ikke,RG),RG) ((,,XP),RG) ((at,CS),U) ((Rusland,NP),NP) ((kan,VA),VA) ((udvikles,VA),VA) ((uden,SP),SP) ((en,PI),PI) ((",XP),XP) ((jernnæve,NC),U) ((",XP),XP) ((.,XP),XP) ((###,###),###) ((De,PP),PP) ((hævder,VA),VA) ((,,XP),XP) ((at,CS),CS) ((Ruslands,NP),NC) ((vej,NC),NC) ((til,SP),SP) ((demokrati,NC),NC) ((går,VA),VA) ((gennem,SP),SP) ((diktatur,NC),U) ((.,XP),XP) ((###,###),###) ((I,SP),RG) ((en,PI),AC) ((af,SP),SP) ((deres,PO),PO) ((artikler,NC),NC) ((hedder,VA),VA) ((det,PP),PP) ((:,XP),XP) ((",XP),XP) ((I,SP),RG) ((et,PI),PI) ((autoritært,AN),U) ((regime,NC),NC) ((lagdel,XX),U)
-19:12:15 o.b.a.TaggerTester 95 --- numTags 26 numWordsTraining 17102 numWordsSeen 0 numWordsTotal 17826
-19:12:15 o.b.a.TaggingResult 55 --- Accuracy: 0.775, (Training: 0.894, Seen: NaN, Novel: 0.063)
-
-19:12:15 o.b.a.TaggingResult 56 --- Non training tokens: 0.143
-
-nl alpino
-19:12:15 o.b.a.CorpusProcessor 103 --- Training with mode train
-19:12:15 o.b.a.CorpusProcessor 196 --- mode train
-19:12:15 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/nl/alpino/train/dutch_alpino_train.conll
-19:12:15 o.b.a.CorpusProcessor 228 --- Map(### -> ###)
-19:12:15 o.b.a.CorpusProcessor 83 --- Processing untagged data.
-19:12:15 o.b.a.CorpusProcessor 196 --- mode train
-19:12:15 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/nl/alpino/train/dutch_alpino_train.conll
-19:12:15 o.b.a.CorpusProcessor 228 --- Map(### -> ###)
-19:12:16 o.b.a.CorpusProcessor 94 --- Got 99000
-19:12:17 o.b.u.c.Dictionary 24 --- Num entries (prior): 99000
-19:12:17 o.b.u.c.Dictionary 28 --- Num entries (after): 16884
-19:12:17 o.b.u.c.Dictionary 44 --- 99002 in 99002
-19:12:17 o.b.u.c.Dictionary 46 --- Dict completeness 0.9999
-19:12:17 o.b.a.CorpusProcessor 130 --- training with dictionary
-19:12:17 o.b.t.IntRepresentor 98 --- numTags 14 numWordsTraining 16046 numWordsSeen 0 numWordsTotal 16046
-19:12:17 o.b.t.l.LabelPropagationTrainer 140 --- N V MWU ADJ NUM ADV PRON PREP CONJ INT PUNC ART MISC ###
-19:12:17 o.b.a.CorpusProcessor 144 --- Testing nl alpino
-19:12:17 o.b.a.CorpusProcessor 196 --- mode test
-19:12:17 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/nl/alpino/test/dutch_alpino_test.conll
-19:12:17 o.b.a.CorpusProcessor 228 --- Map(### -> ###)
-19:12:18 o.b.a.CorpusProcessor 150 --- test tokens: 5971
-19:12:18 o.b.t.l.LabelPropagationTagger 199 --- numTags 14 numWordsTraining 16046 numWordsSeen 0 numWordsTotal 16670
-19:12:18 o.b.t.l.LabelPropagationTagger 200 --- num tokens 5971
-19:12:18 o.b.t.l.LabelPropagationTagger 111 --- adding token edges: 
-0.000.020.030.050.070.080.100.120.130.150.170.180.200.220.230.250.270.280.300.320.330.350.370.390.400.420.440.450.470.490.500.520.540.550.570.590.600.620.640.650.670.690.700.720.740.750.770.790.800.820.840.850.870.890.900.920.940.950.970.9919:12:18 o.b.t.l.LabelPropagationTagger 137 --- Done adding token edges.
-ZERO ENTROPY NEIGHBORHOOD Heuristic adjustment used for 0 nodes!
-Total edges: 72780
-Using mad ...
-
-Iteration: 1 2 3 4 5 6 7 8 9 10
-precision NaN
-mrr NaN
-19:12:25 o.b.a.TaggerTester 90 --- ((BASISTAKENPAKKET,PREP),ART) ((JEUGDGEZONDHEIDSZORG,N),N) ((0-19,NUM),ART) ((JAAR,N),N) ((###,###),###) ((Daarvoor,ADV),ADV) ((is,V),V) ((gekozen,V),V) ((omdat,CONJ),CONJ) ((gemeenten,N),N) ((bij,PREP),PREP) ((uitstek,N),ART) ((het,ART),ART) ((lokale,ADJ),ADJ) ((gezondheidsbeleid,N),ART) ((kunnen,V),V) ((toespitsen,V),ART) ((op,PREP),PREP) ((de,ART),ART) ((specifieke,ADJ),ADJ) ((gezondheidssituatie,N),N) ((en,CONJ),CONJ) ((zorgbehoeften,N),ART) ((van,PREP),PREP) ((kinderen,N),N) ((en,CONJ),V) ((jongeren,ADJ),ADJ) ((in,PREP),ADV) ((de,ART),ART) ((eigen,PRON),PRON) ((gemeente,N),N) ((.,PUNC),PUNC) ((###,###),###) ((Ook,ADV),ADV) ((kunnen,V),V) ((gemeenten,N),N) ((rekening,N),N) ((houden,V),V) ((met,PREP),PREP) ((het,ART),ART) ((aanbod,N),N) ((dat,CONJ),CONJ) ((er,ADV),ADV) ((op,PREP),PREP) ((lokaal,N),N) ((of,CONJ),CONJ) ((regionaal,ADJ),ART) ((niveau,N),N) ((al,ADV),PRON) ((is,V),V)
-19:12:25 o.b.a.TaggerTester 95 --- numTags 14 numWordsTraining 16046 numWordsSeen 0 numWordsTotal 16670
-19:12:25 o.b.a.TaggingResult 55 --- Accuracy: 0.729, (Training: 0.895, Seen: NaN, Novel: 0.090)
-
-19:12:25 o.b.a.TaggingResult 56 --- Non training tokens: 0.206
-
-sv talbanken05
-19:12:25 o.b.a.CorpusProcessor 103 --- Training with mode train
-19:12:25 o.b.a.CorpusProcessor 196 --- mode train
-19:12:25 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/sv/talbanken05/train/swedish_talbanken05_train.conll
-19:12:25 o.b.a.CorpusProcessor 228 --- Map(### -> ###)
-19:12:25 o.b.a.CorpusProcessor 83 --- Processing untagged data.
-19:12:25 o.b.a.CorpusProcessor 196 --- mode train
-19:12:25 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/sv/talbanken05/train/swedish_talbanken05_train.conll
-19:12:25 o.b.a.CorpusProcessor 228 --- Map(### -> ###)
-19:12:25 o.b.a.CorpusProcessor 94 --- Got 99000
-19:12:26 o.b.u.c.Dictionary 24 --- Num entries (prior): 99000
-19:12:26 o.b.u.c.Dictionary 28 --- Num entries (after): 9125
-19:12:26 o.b.u.c.Dictionary 44 --- 99002 in 99002
-19:12:26 o.b.u.c.Dictionary 46 --- Dict completeness 0.9999
-19:12:26 o.b.a.CorpusProcessor 130 --- training with dictionary
-19:12:27 o.b.t.IntRepresentor 98 --- numTags 42 numWordsTraining 7722 numWordsSeen 0 numWordsTotal 7722
-19:12:27 o.b.t.l.LabelPropagationTrainer 140 --- NN VV AJ VN AB TP ID PO AN PR RO PN MN UK ++ PU SP YY AV GV IG IP XX HV IC FV SV QV EN KV BV WV IM IK MV IT IS IQ IR ### I? IU
-19:12:27 o.b.a.CorpusProcessor 144 --- Testing sv talbanken05
-19:12:27 o.b.a.CorpusProcessor 196 --- mode test
-19:12:27 o.b.a.CorpusProcessor 177 --- file: /home/vvasuki/posTagging/data/sv/talbanken05/test/swedish_talbanken05_test.conll
-19:12:27 o.b.a.CorpusProcessor 228 --- Map(### -> ###)
-19:12:27 o.b.a.CorpusProcessor 150 --- test tokens: 6045
-19:12:27 o.b.t.l.LabelPropagationTagger 199 --- numTags 42 numWordsTraining 7722 numWordsSeen 0 numWordsTotal 8621
-19:12:27 o.b.t.l.LabelPropagationTagger 200 --- num tokens 6045
-19:12:27 o.b.t.l.LabelPropagationTagger 111 --- adding token edges: 
-0.000.020.030.050.070.080.100.120.130.150.170.180.200.220.230.250.260.280.300.310.330.350.360.380.400.410.430.450.460.480.500.510.530.550.560.580.600.610.630.650.660.680.690.710.730.740.760.780.790.810.830.840.860.880.890.910.930.940.960.980.9919:12:27 o.b.t.l.LabelPropagationTagger 137 --- Done adding token edges.
-ZERO ENTROPY NEIGHBORHOOD Heuristic adjustment used for 0 nodes!
-Total edges: 114820
-Using mad ...
-
-Iteration: 1 2 3 4 5 6 7 8 9 10
-precision NaN
-mrr NaN
-19:12:40 o.b.a.TaggerTester 90 --- ((Individuell,AJ),AJ) ((beskattning,VN),VN) ((av,PR),PR) ((arbetsinkomster,NN),I?) ((###,###),###) ((Genom,PR),PR) ((skattereformen,NN),NN) ((införs,VV),I?) ((individuell,AJ),AJ) ((beskattning,VN),VN) (((,IR),IR) ((särbeskattning,VN),I?) ((),IR),IR) ((av,PR),PR) ((arbetsinkomster,NN),I?) ((.,IP),IP) ((###,###),###) ((Det,PO),PO) ((innebär,VV),VV) ((bl.,AB),AB) ((a.,ID),ID) ((att,UK),IM) ((endast,AB),AB) ((en,EN),EN) ((skatteskala,NN),I?) ((kommer,KV),KV) ((att,IM),IM) ((finnas,VV),VV) ((för,PR),++) ((beräkning,VN),I?) ((av,PR),PR) ((statlig,AJ),AJ) ((inkomstskatt,NN),I?) ((.,IP),IK) ((###,###),###) ((Den,PO),PO) ((blir,BV),BV) ((gemensam,AJ),AJ) ((för,PR),++) ((alla,PO),PO) ((inkomsttagare,NN),NN) ((oavsett,PR),PR) ((civilstånd,NN),NN) ((.,IP),IP) ((###,###),###) ((Den,PO),PO) ((gäller,VV),VV) ((även,AB),UK) ((för,PR),++) ((oskifta,AJ),I?)
-19:12:40 o.b.a.TaggerTester 95 --- numTags 42 numWordsTraining 7722 numWordsSeen 0 numWordsTotal 8621
-19:12:40 o.b.a.TaggingResult 55 --- Accuracy: 0.582, (Training: 0.768, Seen: NaN, Novel: 0.041)
-
-19:12:40 o.b.a.TaggingResult 56 --- Non training tokens: 0.256
-
-en-ptb	0.5537763341630745	0.5874076120165064	NaN	0.22709163346613545	0.09333829154271144	(NNP,DT)
-pt-bosque	0.6926879154593489	0.7860409624179757	NaN	0.1324582338902148	0.1428327935912732	(PRON,ART)
-da-ddt	0.7752904989747095	0.8944743666467185	NaN	0.0631704410011919	0.1433697881066302	(U,NC)
-nl-alpino	0.7294538943598926	0.8953540820929183	NaN	0.09035621198957429	0.20608773500447627	(ART,N)
-sv-talbanken05	0.5818599717114569	0.7680057047777513	NaN	0.041407867494824016	0.2561881188118812	(I?,NN)
-en-ptb	pt-bosque	da-ddt	nl-alpino	sv-talbanken05
-0.5537763341630745	0.6926879154593489	0.7752904989747095	0.7294538943598926	0.5818599717114569
-0.5874076120165064	0.7860409624179757	0.8944743666467185	0.8953540820929183	0.7680057047777513
-NaN	NaN	NaN	NaN	NaN
-0.22709163346613545	0.1324582338902148	0.0631704410011919	0.09035621198957429	0.041407867494824016
-0.09333829154271144	0.1428327935912732	0.1433697881066302	0.20608773500447627	0.2561881188118812
-(NNP,DT)	(PRON,ART)	(U,NC)	(ART,N)	(I?,NN)

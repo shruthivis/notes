@@ -32,12 +32,12 @@ summary: Welcome page.
 
 ## Exposition:
 
-- Calculating [Area under the ROC curve from a score vector](statistics/AUCFromScores/AUCFromScores.pdf), while resolving ties correctly. [Software](statistics/+statistics.zip).  
-    
+- Calculating [Area under the ROC curve from a score vector](math/probability/statistics/AUCFromScores/AUCFromScores.pdf), while resolving ties correctly.     
 - A [talk](math/linAlg/exposition/kyFanNorms/kyFanNorms.pdf) on Ky Fan (p, k) norms, April 2009, UT Data Mining Laboratory.
 - And [other talks](http://vishvas-vasuki.appspot.com/resumeLand/resume.html#x1-70000).
 
 ![Sri Yantra](http://upload.wikimedia.org/wikipedia/commons/f/f0/Meru1.jpg)
 
 ## Tech details
+- My code is found elsewhere - check [github](https://github.com/vvasuki).
 - Command `pandoc --from latex --to gfm *.tex >intro.md`
