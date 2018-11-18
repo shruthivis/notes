@@ -22,7 +22,7 @@ KS.11.8; K;S.4.15.6; M;S.1.6.1.26? “आदित्यस्योन्नय
 
 *(पारम्परिक-गान-मूलम् [१९३७-लेखा](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/sAmaveda-paravastu-1937%23page/n9/mode/1up&sa=D&ust=1542425956421000)। [१९७५](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/sAmaveda-paravastu-1975%23page/n9/mode/1up&sa=D&ust=1542425956421000)। [२०१५-लेखा](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%2520UPANAYANA%2520SAAMAANI%23page/n4/mode/1up&sa=D&ust=1542425956422000)।)*
 
-{उन्*([ता]३)*नया*([“]३)*आमि*(~~#ftnt70~~)**([ऽ])* हो*([त]३”)*इ।}*([त्रिः])*
+{उन्*([ता]३)*नया*([“]३)*आमि*([ऽ]~~मी~~)* हो*([त]३”)*इ।}*([त्रिः])*
 
 {आ*([“टौ]३)*दित्यम्*(२%)* प्रा*(३”)*म्, च्चय्ँ यन्ता, उन्*([ता])*नया*([“]३)*आमि*([ऽ])* हो*([त]३”)*इ।}*([त्रिः])*  
 {अ*([पो])*हो*([ऽ]३)*रा*([“])*त्रा*([“])*ण्यत्रा*(३”)*आणि हो*([त]३”)*इ।}*([त्रिः])*
