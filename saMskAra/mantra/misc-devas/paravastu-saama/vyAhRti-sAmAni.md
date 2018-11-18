@@ -1,5 +1,5 @@
 ---
-title: याहृतिसामानि  
+title: व्याहृतिसामानि  
 unicode_script: devanagari  
 emphasis_as_inline_comments: true
 ---   
