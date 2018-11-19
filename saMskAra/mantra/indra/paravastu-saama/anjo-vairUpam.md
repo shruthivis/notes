@@ -16,12 +16,12 @@ RV.8.70.5b; AV;S.20.81.1b; 92.20b; SV.1.278b; 2.212b; TS.2.4.14.3b; KS.12.15b; J
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [२०१५](https://sanskritdocuments.org/sites/pssramanujaswamy/AASHEERVACHANA%2520SAAMAANI.pdf&sa=D&ust=1542425956261000)। १९३७।)*
+*(पारम्परिक-गान-मूलम् [२०१५](https://sanskritdocuments.org/sites/pssramanujaswamy/AASHEERVACHANA%2520SAAMAANI.pdf&sa=D&ust=1542425956261000)। १९३७। कौथुमगानम् [अत्र](https://archive.org/details/SamaVedaSanhitaWithSayanabhashyaVolume2SatyavrataSamasrami1876bis_201804/page/n403)।)*
 
 अञ्जो*(३)* वैरूपम्*(२)*।
 
-य*([प])*द्द्या*([“]%३)* अवै*(३)*  
-न्द्र*([पौ])* ता*(३)* आउवा*(-“"३)*अ, शा*([टृ]%)*ता*(“)*अम्।  
+य*([प])*द्द्या*([“]%३)* अवै*(३)*,,  
++न्द्र*([पौ]~~द्र~~)* ता*(३)* आउवा*(-“"३)*अ, शा*([टृ]%)*ता*(“)*अम्।  
 हा*([पौ]३”)*अहाअउ वा*(-“”३)*अ, ई*([टृ]%)*डा*(“)*अ।  
 शा*([र])*तम् भू*([“]%)*मी*(%)*हि*(v)*।  
 उ*([पौ])*ता*(३)* आउवा*(-“”३)*अ,  सी*([टृ]%)*यू*(“)*हु ।  
