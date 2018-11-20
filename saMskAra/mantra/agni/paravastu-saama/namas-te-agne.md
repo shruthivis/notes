@@ -18,10 +18,10 @@ emphasis_as_inline_comments: true
 
 *(पारम्परिक-गान-मूलम् [१९३७-लेखा](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/sAmaveda-paravastu-1937%23page/n9/mode/1up&sa=D&ust=1542425956385000)। [१९७५](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/sAmaveda-paravastu-1975%23page/n9/mode/1up&sa=D&ust=1542425956386000)। [२०१५-लेखा](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%2520UPANAYANA%2520SAAMAANI%23page/n4/mode/1up&sa=D&ust=1542425956386000)।)*
 
-ना*([क])*मस्तौ हो*([का]%"%)*ग्नाइ। ओ*([तः]“)*ओजसा*(३)*अइ।
+ना*([क])*मस्तौ हो*([का]%"%)*ग्नाइ। ओ*([तः]")*ओजसा*(३)*अइ।
 
-गृ*([पॄ])*णा*(“३)*अन्ता*(%)*इ दे*(“)*एवा*([घि]%)* कृ*(%)*ष्टया*([प्रे])*अ*([ति])*ह*(v)*।
+गृ*([पॄ])*णा*("३)*अन्ता*(%)*इ दे*(")*एवा*([घि]%)* कृ*(%)*ष्टया*([प्रे])*अ*([ति])*ह*(v)*।
 
-अमा*(“”३)*यॆ*(“)*ऎहे*(v)*।
+अमा*("”३)*यॆ*(")*ऎहे*(v)*।
 
-आ*([पे]“३)*अमाआआ, औ*(["प])*हो*(["]%३)*वा*(३-”)*आ, त्र*([ले])*मर्दे*(“३)*या*(३)*अ*(३v)*॥
+आ*([पे]"३)*अमाआआ, औ*(["प])*हो*(["]%३)*वा*(३-”)*आ, त्र*([ले])*मर्दे*("३)*या*(३)*अ*(३v)*॥
