@@ -8,7 +8,7 @@ emphasis_as_inline_comments: true
 
 RV.2.22.4b; SV.1.466b.
 
-*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart2/rv_sayanabhasya_part2%23page/n142/mode/1up&sa=D&ust=1542425956188000)। गृत्स्नमदः। अतिशक्वरी। इन्द्रः।])*
+*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart2/rv_sayanabhasya_part2#page/n142/mode/1up&sa=D&ust=1542425956188000)। गृत्स्नमदः। अतिशक्वरी। इन्द्रः।])*
 
 तव त्यन् *(=तत्)* नर्यं॑ *(= नराणाम्)* नृतो *(=नर्तयितः)*
 
@@ -22,7 +22,7 @@ RV.2.22.4b; SV.1.466b.
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%2520UPANAYANA%2520SAAMAANI%23page/n2/mode/1up&sa=D&ust=1542425956189000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%2520UPANAYANA%2520SAAMAANI#page/n2/mode/1up&sa=D&ust=1542425956189000)।)*
 
 ता*([फा]"३)*आव त्यन् ना*(%%३)*अर्यन् नृता*(")*उ।
 

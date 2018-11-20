@@ -8,7 +8,7 @@ emphasis_as_inline_comments: true
 
 RV.9.90.2a; SV.1.528a; 2.758a. P: abhi tripRTEMPiShTham Svidh.1.4.20; 5.16.
 
-*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3%23page/n911/mode/2up&sa=D&ust=1542425956338000)। मैत्रावारुणिर् वसिष्ठः। अनुष्टुभ्। सोमः])*
+*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3#page/n911/mode/2up&sa=D&ust=1542425956338000)। मैत्रावारुणिर् वसिष्ठः। अनुष्टुभ्। सोमः])*
 
 अ॒भि त्रि॑पृ॒ष्ठं *(=त्रिस्तोत्रम् त्रिसवनं वा)* वृष॑णं *(=वर्षकम्)* वयो॒धाम् *(=अन्नदम्)*  
 आ॑ङ्गू॒षाणा॑म् *(= आघोषवतां ([स्तोतॄणाम्])*) अवावशन्त *(=शब्दायन्ते)* वाणीः ।
@@ -18,7 +18,7 @@ RV.9.90.2a; SV.1.528a; 2.758a. P: abhi tripRTEMPiShTham Svidh.1.4.20; 5.16.
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%2520UPANAYANA%2520SAAMAANI%23page/n3/mode/1up&sa=D&ust=1542425956339000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%2520UPANAYANA%2520SAAMAANI#page/n3/mode/1up&sa=D&ust=1542425956339000)।)*
 
 सम्पा*(३)*।
 

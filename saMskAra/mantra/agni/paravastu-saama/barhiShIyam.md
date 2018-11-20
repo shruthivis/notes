@@ -8,7 +8,7 @@ emphasis_as_inline_comments: true
 
 RV.6.16.10
 
-*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3%23page/n145/mode/2up&sa=D&ust=1542425956351000)। भरद्वाजः। गायत्री। अग्निः।])*
+*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3#page/n145/mode/2up&sa=D&ust=1542425956351000)। भरद्वाजः। गायत्री। अग्निः।])*
 
 अग्न आ या॑हि वी॒तये *(=हविर्भक्षणाय)*
 

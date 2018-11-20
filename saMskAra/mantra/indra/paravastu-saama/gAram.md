@@ -8,7 +8,7 @@ emphasis_as_inline_comments: true
 
 RV.8.2.1a
 
-*(सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3%23page/n619/mode/2up&sa=D&ust=1542425956247000)। काण्वः, मेधातिथिः, आङ्गीरसः प्रियमेधः। गायत्री। इन्द्रो देवः।)*
+*(सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3#page/n619/mode/2up&sa=D&ust=1542425956247000)। काण्वः, मेधातिथिः, आङ्गीरसः प्रियमेधः। गायत्री। इन्द्रो देवः।)*
 
 इ॒दं व॑सो सु॒तमन्धः॒ *(=अशनीयम्)* पिबा॒ सुपू॑र्णमु॒दर॑म् । .अना॑भयिन्ररि॒मा *(=दद्मः)* ते॑ ।।  
 नृभि॑र्धू॒तः सु॒तो अश्नै॒र् *(=अश्मभिः)* अव्यो॒ *(=मेषस्य)* वारै॒ः *(=वालैः)* परि॑पूतः ।
@@ -20,7 +20,7 @@ RV.8.2.1a
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/AASHEERVACHANA%2520SAAMAANI%23page/n1/mode/1up&sa=D&ust=1542425956247000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/AASHEERVACHANA%2520SAAMAANI#page/n1/mode/1up&sa=D&ust=1542425956247000)।)*
 
 गारम् ।।    
 इदम्म्*([पे])* वसो*("३)*ओ, सुतमन्धा*(३)* आअए ।  

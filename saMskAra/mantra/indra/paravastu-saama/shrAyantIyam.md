@@ -8,7 +8,7 @@ emphasis_as_inline_comments: true
 
 RV.8.99.3a; AV;S.20.58.1a; SV.1.267a; 2.669a; VS.33.41a; JB.3.261a; KB.25.6; A;S.7.4.3; ;S;S.11.13.21; 12.4.19; 16.21.19; Vait.33.6; 40.5; 41.9,10,19; 42.5; L;S.4.6.23; N.6.8a. Cf. Svidh.3.1.12.
 
-*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3%23page/n1039/mode/1up&sa=D&ust=1542425956252000)। नृमेधः। इन्द्रः।])*
+*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3#page/n1039/mode/1up&sa=D&ust=1542425956252000)। नृमेधः। इन्द्रः।])*
 
 श्राय॑न्त *(=श्रयन्तः)* *(रश्मयः)* इव सूर्य॑म् विश्वा इत् इन्द्र॑स्य भक्षत।
 

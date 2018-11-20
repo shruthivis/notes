@@ -8,7 +8,7 @@ emphasis_as_inline_comments: true
 
 RV.8.69.8a; AV;S.20.92.5a; SV.1.362a; AB.4.4.4; A;S.6.2.9.
 
-*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3%23page/n935/mode/1up&sa=D&ust=1542425956179000)। आङ्गीरसः प्रियमेधस्य। अनुष्टुभ्। इन्द्रः।])*
+*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3#page/n935/mode/1up&sa=D&ust=1542425956179000)। आङ्गीरसः प्रियमेधस्य। अनुष्टुभ्। इन्द्रः।])*
 
 अर्च॑त॒ प्रार्च॑त *(नराः)*
 
@@ -20,7 +20,7 @@ RV.8.69.8a; AV;S.20.92.5a; SV.1.362a; AB.4.4.4; A;S.6.2.9.
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%2520UPANAYANA%2520SAAMAANI%23page/n1/mode/1up&sa=D&ust=1542425956180000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%2520UPANAYANA%2520SAAMAANI#page/n1/mode/1up&sa=D&ust=1542425956180000)।)*
 
 अ*([ले])*र्चत, प्रा*(३%)*र्चता, ना*(%)*रह।
 

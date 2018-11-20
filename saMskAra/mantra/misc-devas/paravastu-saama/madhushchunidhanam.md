@@ -8,7 +8,7 @@ emphasis_as_inline_comments: true
 
 RV.8.63.1a; SV.1.355a; AB.5.12.6; KB.23.6; A;S.8.1.14; Svidh.1.4.14; 3.1.10. P: sa pUrvyaH ;S;S.10.8.5.
 
-*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3%23page/n911/mode/2up&sa=D&ust=1542425956405000)। आङ्गीरस ऊरुः। अनुष्टुभ्। इन्द्र इति सायणः, शुक्रग्रह इत्यन्ये [केचित्](https://twitter.com/kashcit/status/1014886758918512640&sa=D&ust=1542425956405000)।])*
+*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3#page/n911/mode/2up&sa=D&ust=1542425956405000)। आङ्गीरस ऊरुः। अनुष्टुभ्। इन्द्र इति सायणः, शुक्रग्रह इत्यन्ये [केचित्](https://twitter.com/kashcit/status/1014886758918512640&sa=D&ust=1542425956405000)।])*
 
 स पू॒र्व्यो म॒हानां॑
 
@@ -20,7 +20,7 @@ RV.8.63.1a; SV.1.355a; AB.5.12.6; KB.23.6; A;S.8.1.14; Svidh.1.4.14; 3.1.10. P: 
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%2520UPANAYANA%2520SAAMAANI%23page/n2/mode/1up&sa=D&ust=1542425956407000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%20UPANAYANA%20SAAMAANI#page/n2/mode/1up)।)*
 
 मधुश्चुनिधनम्*(३)*॥
 

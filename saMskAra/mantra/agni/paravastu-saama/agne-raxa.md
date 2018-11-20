@@ -16,7 +16,7 @@ emphasis_as_inline_comments: true
 
 ## साम
 
-*([पारम्परिकगानमूलम् - [२०१५](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/UDAKA%2520SAANTHI%2520SAAMAANI%23page/n2/mode/1up&sa=D&ust=1542425956390000)।])*
+*([पारम्परिकगानमूलम् - [२०१५](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/UDAKA%2520SAANTHI%2520SAAMAANI#page/n2/mode/1up&sa=D&ust=1542425956390000)।])*
 
 {ऊ*([ता])*उर्क्। हा*([प])*उ।}*([त्रिः])* {हो*([पे])*वाक्।}*([त्रिः])*
 

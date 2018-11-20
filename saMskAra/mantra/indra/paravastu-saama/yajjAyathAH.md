@@ -8,7 +8,7 @@ emphasis_as_inline_comments: true
 
 RV.8.89.5a; SV.2.779a; ArS.2.7a; KB.24.5; A;S.8.5.12; 10.2.22; ;S;S.11.11.14; 18.18.12.
 
-*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3%23page/n991/mode/2up&sa=D&ust=1542425956269000)। आङ्गीरसौ नृमेधपुरमेधौ। अनुष्टुप्। इन्द्रः।])*
+*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3#page/n991/mode/2up&sa=D&ust=1542425956269000)। आङ्गीरसौ नृमेधपुरमेधौ। अनुष्टुप्। इन्द्रः।])*
 
 यज्जाय॑था *(=अजायथाः)* अपूर्व्य॒  
 मघ॑वन्वृत्र॒हत्या॑य ।
@@ -21,7 +21,7 @@ RV.8.89.5a; SV.2.779a; ArS.2.7a; KB.24.5; A;S.8.5.12; 10.2.22; ;S;S.11.11.14; 18
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [२०१५](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%2520UPANAYANA%2520SAAMAANI%23page/n3/mode/1up&sa=D&ust=1542425956271000)। [१९३७](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/sAmaveda-paravastu-1937%23page/n8/mode/1up&sa=D&ust=1542425956271000)। कौथुमगाना[न्यत्र](https://archive.org/details/SamaVedaSanhitaWithSayanabhashyaVolume2SatyavrataSamasrami1876bis_201804/page/n291&sa=D&ust=1542425956272000)।)*
+*(पारम्परिक-गान-मूलम् [२०१५](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%2520UPANAYANA%2520SAAMAANI#page/n3/mode/1up&sa=D&ust=1542425956271000)। [१९३७](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/sAmaveda-paravastu-1937#page/n8/mode/1up&sa=D&ust=1542425956271000)। कौथुमगाना[न्यत्र](https://archive.org/details/SamaVedaSanhitaWithSayanabhashyaVolume2SatyavrataSamasrami1876bis_201804/page/n291&sa=D&ust=1542425956272000)।)*
 
 {हा*([तैप्रे])*,अहू*(%३)*वा*(--"३)*अक्}*([त्रिः])*।
 
@@ -39,4 +39,4 @@ RV.8.89.5a; SV.2.779a; ArS.2.7a; KB.24.5; A;S.8.5.12; 10.2.22; ;S;S.11.11.14; 18
 {हो*([ऽता]"%३)*, वा*(३)*}*([द्विः])*, हो*([ऽति]%३)*,ओ*(३)*वा*(३)*, अह*([प])*उ*(v)*वा*(३)*।
 
 ए*(")*ऎ ते*([ठौ]%)*जो*(["]३)* घर्मस् सङ्क्री*(%)*डन्ते*(["]%३)*ए*(v)*।  
-शिशुमती*(["]३)*इर्, वायुगो*(["]%)*पा*(["]३)*अस्, तेजस्वती*(["]३)*इर् मारूद्भिर्, भुवना*(["]३)*आनि, चक्रतू*(३%%)*हु।
+शिशुमती*(["]३)*इर्, वायुगो*(["]%)*पा*(["]३)*अस्, तेजस्वती*(["]३)*इर् मारूद्भिर्*(~~0~~)*, भुवना*(["]३)*आनि, चक्रतू*(३%%)*हु।

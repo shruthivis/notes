@@ -8,7 +8,7 @@ emphasis_as_inline_comments: true
 
 RV.6.45.22a; SV.1.115a; 2.1016a; AV;S.20.78.1a; A;S.9.11.21; Vait.39.3,18. Ps: tad vo gAya ;S;S.15.8.10; Vait.27.10; tad vaH Svidh.1.4.16.
 
-*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3%23page/n242/mode/1up&sa=D&ust=1542425956182000)। बृहस्पतिपुत्रः शंयुः। गायत्री। इन्द्रः।])*
+*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3#page/n242/mode/1up&sa=D&ust=1542425956182000)। बृहस्पतिपुत्रः शंयुः। गायत्री। इन्द्रः।])*
 
 तद् वो *(स्तोतारः)* गाय सु॒ते सचा *(=सह)*,
 
@@ -18,7 +18,7 @@ RV.6.45.22a; SV.1.115a; 2.1016a; AV;S.20.78.1a; A;S.9.11.21; Vait.39.3,18. Ps: t
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%2520UPANAYANA%2520SAAMAANI%23page/n1/mode/1up&sa=D&ust=1542425956183000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%2520UPANAYANA%2520SAAMAANI#page/n1/mode/1up&sa=D&ust=1542425956183000)।)*
 
 मार्गीयवम्॥
 

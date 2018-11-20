@@ -8,7 +8,7 @@ emphasis_as_inline_comments: true
 
 RV.8.23.1b; SV.1.103b.
 
-*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3%23page/n755/mode/1up&sa=D&ust=1542425956349000)। व्यश्वपुत्रो विश्वमना ऋषिः। उष्णिक्। अग्निः।])*
+*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3#page/n755/mode/1up&sa=D&ust=1542425956349000)। व्यश्वपुत्रो विश्वमना ऋषिः। उष्णिक्। अग्निः।])*
 
  ईळि॑ष्व+ हि प्र॑ती॒व्य॑म् *(=प्रतिगन्तारम्)*
 

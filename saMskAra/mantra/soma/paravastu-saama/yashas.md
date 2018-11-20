@@ -8,7 +8,7 @@ emphasis_as_inline_comments: true
 
 RV.7.32.16
 
-*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3%23page/n437/mode/1up&sa=D&ust=1542425956203000)। वसिष्ठ ऋषिः। इन्द्रो देवता। गायत्री?])*
+*([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3#page/n437/mode/1up&sa=D&ust=1542425956203000)। वसिष्ठ ऋषिः। इन्द्रो देवता। गायत्री?])*
 
 तवेदि॑न्द्राव॒मं वसु॒ त्वं पु॑ष्यसि मध्य॒मम् ।
 
@@ -16,7 +16,7 @@ RV.7.32.16
 
 9 107
 
-(सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart4/rv_sayanabhasya_part4%23page/n353/mode/2up&sa=D&ust=1542425956203000)। भरद्वाजकाश्यपादयस् सप्तऋषयः। प्रगाथौ। सोमो देवता। कौथुमगानम् [अत्र](https://archive.org/details/SamaVedaSanhitaWithSayanabhashyaVolume2SatyavrataSamasrami1876bis_201804/page/n459)।)
+(सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart4/rv_sayanabhasya_part4#page/n353/mode/2up&sa=D&ust=1542425956203000)। भरद्वाजकाश्यपादयस् सप्तऋषयः। प्रगाथौ। सोमो देवता। कौथुमगानम् [अत्र](https://archive.org/details/SamaVedaSanhitaWithSayanabhashyaVolume2SatyavrataSamasrami1876bis_201804/page/n459)।)
 
 *(यशो वर्चो अस्मिन्!)*
 

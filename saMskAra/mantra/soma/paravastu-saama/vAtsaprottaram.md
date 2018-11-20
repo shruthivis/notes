@@ -8,7 +8,7 @@ emphasis_as_inline_comments: true
 
 RV 9 97_*(809)* 40 a
 
-*(सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart4/rv_sayanabhasya_part4%23page/n323/mode/2up&sa=D&ust=1542425956308000)। वासिष्ठ-शक्तिपुत्रः पराशर ऋषिः। त्रिष्टुभ्। सोमः।)*
+*(सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart4/rv_sayanabhasya_part4#page/n323/mode/2up&sa=D&ust=1542425956308000)। वासिष्ठ-शक्तिपुत्रः पराशर ऋषिः। त्रिष्टुभ्। सोमः।)*
 
 अक्रा॑न्*(=अतिक्रामति)* त्समु॒द्रः प्र॑थ॒मे विध॑र्मञ् *(=विधाराः)* ज॒नय॑न् प्र॒जा भुव॑नस्य॒ राजा॑ *(गोपाः इति साम्नि)* ।
 
