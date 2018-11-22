@@ -20,7 +20,7 @@ RV.9.108.13a; SV.1.582a; 2.446a; JB.3.161
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/AASHEERVACHANA%2520SAAMAANI.pdf&sa=D&ust=1542425956289000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/AASHEERVACHANA%20SAAMAANI.pdf&sa=D&ust=1542425956289000)।)*
 
 दीर्घम्। सा*([ता]"३)* सु। न्वे*([तः])* यो*(["]%)* वसू*("३)*ऊनाम्।
 

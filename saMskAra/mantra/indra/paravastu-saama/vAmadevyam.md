@@ -24,7 +24,7 @@ RV.4.31.1a; AV;S.20.124.1a; SV.1.169a; 2.32a; VS.27.39a; 36.4a; TS.4.2.11.2a; 4.
 
 ## साम - वामदेव्यम्।
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/VIVAAHA%2520UPANAYANA%2520SAAMAANI.pdf&sa=D&ust=1542425956221000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/VIVAAHA%20UPANAYANA%20SAAMAANI.pdf&sa=D&ust=1542425956221000)।)*
 
 वामदेव्यम् ।
 

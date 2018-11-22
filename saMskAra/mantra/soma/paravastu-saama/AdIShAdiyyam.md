@@ -16,7 +16,7 @@ RV.9.106.10a; SV.1.572a; 2.290a; JB.3.78a;
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/AASHEERVACHANA%2520SAAMAANI.pdf&sa=D&ust=1542425956292000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/AASHEERVACHANA%20SAAMAANI.pdf&sa=D&ust=1542425956292000)।)*
 
 आदीषादिय्यम्।
 

@@ -18,7 +18,7 @@ RV.6.45.22a; SV.1.115a; 2.1016a; AV;S.20.78.1a; A;S.9.11.21; Vait.39.3,18. Ps: t
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%2520UPANAYANA%2520SAAMAANI#page/n1/mode/1up&sa=D&ust=1542425956183000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%20UPANAYANA%20SAAMAANI#page/n1/mode/1up&sa=D&ust=1542425956183000)।)*
 
 मार्गीयवम्॥
 

@@ -18,7 +18,7 @@ RV.8.23.1b; SV.1.103b.
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/VIVAAHA%2520UPANAYANA%2520SAAMAANI.pdf&sa=D&ust=1542425956349000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/VIVAAHA%20UPANAYANA%20SAAMAANI.pdf&sa=D&ust=1542425956349000)।)*
 
 ई*(["पी])*+डाइष्वा*(३)*अ +हि प्राती*(%)*व्या*(")*अम्।
 

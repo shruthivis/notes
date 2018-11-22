@@ -16,7 +16,7 @@ RV 8 14_*(634)* 1 a
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%2520UPANAYANA%2520SAAMAANI%23mode/1up&sa=D&ust=1542425956213000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%20UPANAYANA%20SAAMAANI%23mode/1up&sa=D&ust=1542425956213000)।)*
 
 गौषू*(३)*क्तम् ।
 

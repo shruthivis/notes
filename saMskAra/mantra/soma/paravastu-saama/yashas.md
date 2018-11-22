@@ -31,7 +31,7 @@ RV.7.32.16
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/AASHEERVACHANA%2520SAAMAANI%23mode/1up&sa=D&ust=1542425956204000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/AASHEERVACHANA%20SAAMAANI%23mode/1up&sa=D&ust=1542425956204000)।)*
 
 यशस्अ*(३)*।
 

@@ -15,7 +15,7 @@ emphasis_as_inline_comments: true
 
 ## साम १
 
-*(पारम्परिक-गान-मूलम् [१९३७](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/UDAKA%2520SAANTHI%2520SAAMAANI#page/n1/mode/1up&sa=D&ust=1542425956431000)। कौथुमगानम् [अत्र](https://archive.org/details/SamaVedaSanhitaWithSayanabhashyaVolume1SatyavrataSamasrami1874bis/page/n581&sa=D&ust=1542425956432000)।)*
+*(पारम्परिक-गान-मूलम् [१९३७](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/UDAKA%20SAANTHI%20SAAMAANI#page/n1/mode/1up&sa=D&ust=1542425956431000)। कौथुमगानम् [अत्र](https://archive.org/details/SamaVedaSanhitaWithSayanabhashyaVolume1SatyavrataSamasrami1874bis/page/n581&sa=D&ust=1542425956432000)।)*
 
 वरुण सूक्तम्*(३)*।
 
@@ -58,4 +58,4 @@ emphasis_as_inline_comments: true
 वा*([फृ]%)*चो*([रॄ]३)*ओअ। स्तो*([पो]o३)*त्रम्*(२)*, रा*(["])*ज सुगा*(["]३)*,आयत।
 
 स्तो*([तः]”३)*ओत्राम्।  
-रा*([पो]-%३)*जा,सूगौ*([रॄ])*उ। हो*([फः])*,ऒओ*("%३)*वा*([प]३)*,यातो*(")*म्*(२)*हाइ*(")*॥
+रा*([पो]-%३)*जासू*(v)* गौ*([रॄ])*उ। हो*([फः])*,ऒओ*("%३)*वा*([प]३)*,यातो*(")*म्*(२)*हाइ*(")*॥

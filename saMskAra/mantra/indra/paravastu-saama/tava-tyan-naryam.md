@@ -22,7 +22,7 @@ RV.2.22.4b; SV.1.466b.
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%2520UPANAYANA%2520SAAMAANI#page/n2/mode/1up&sa=D&ust=1542425956189000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%20UPANAYANA%20SAAMAANI#page/n2/mode/1up&sa=D&ust=1542425956189000)।)*
 
 ता*([फा]"३)*आव त्यन् ना*(%%३)*अर्यन् नृता*(")*उ।
 

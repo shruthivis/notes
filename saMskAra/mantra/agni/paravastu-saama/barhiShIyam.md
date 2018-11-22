@@ -18,7 +18,7 @@ RV.6.16.10
 
 ## साम *(गौतमस्य पर्कः)*
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/VIVAAHA%2520UPANAYANA%2520SAAMAANI.pdf&sa=D&ust=1542425956352000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/VIVAAHA%20UPANAYANA%20SAAMAANI.pdf&sa=D&ust=1542425956352000)।)*
 
 ओ*([का]३--%)*ग्ना*(३)*इ। आ*(["पो])*या*(["]--%३)*ही*(३)*इ ।
 

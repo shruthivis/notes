@@ -16,7 +16,7 @@ emphasis_as_inline_comments: true
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/AASHEERVACHANA%2520SAAMAANI%23mode/1up&sa=D&ust=1542406658547000)।)*
+*(पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/AASHEERVACHANA%20SAAMAANI%23mode/1up&sa=D&ust=1542406658547000)।)*
 
 हरिश्रीनिधनम्*(३)*।
 

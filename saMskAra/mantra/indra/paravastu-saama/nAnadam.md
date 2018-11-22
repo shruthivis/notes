@@ -13,7 +13,7 @@ emphasis_as_inline_comments: true
 
 ## साम
 
-*([गानमूलम् - [२०१५](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/UDAKA%2520SAANTHI%2520SAAMAANI%23mode/1up&sa=D&ust=1542425956286000)।])*
+*([गानमूलम् - [२०१५](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/UDAKA%20SAANTHI%20SAAMAANI%23mode/1up&sa=D&ust=1542425956286000)।])*
 
 नानदम्*(३)*॥  
 प्र*([ठू])*त्या*(३)*स्मै*(["])* पीपिइषा*([टि]--"३)*ता*(--"३)*इ।
