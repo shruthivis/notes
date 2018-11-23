@@ -14,6 +14,8 @@ emphasis_as_inline_comments: true
 
 ## साम १
 
+https://archive.org/download/jaiminIya-sAma-gAna-paravastu-tradition-gopAla-2015/mUrdhAnam-divaH.mp3
+
 मू*(["पो])*र्धो*("%३)*,हाइ,,नन्*([गे])*दा*(%)*इवाह*(v)*।  
 अ*([त])*रताइम्, पॄ*([तः]"२)*थीव्याह*(")* ।  
 वैश्*(["र])*,वा*(["])*नरा*(३)*म्। ऋ*([र])*ता*(%)* आ*(["]--"३)*।  
@@ -24,6 +26,7 @@ emphasis_as_inline_comments: true
 अञ् जना,,या*([पै]-%-%-४)*,,न्ता*([पॄ]")*अ दा*(")*इ,वाङ*(")*,ङाहा*(v)* ॥
 
 ## साम २
+https://archive.org/download/jaiminIya-sAma-gAna-paravastu-tradition-gopAla-2015/mUrdhAnam-divaH-2.mp3
 
 हो*(["को]%%३)*,ऒवा*(-"३)*,[अ]इ, मू*(["पै])*र्धो*(")*,हाइ,,  
 नन्*([र])*दा*(%३)*इवा*([रा])*+[अ]आरा,,तिम्*([पि]२)*पॄथिव्याह*(v)* ।  
