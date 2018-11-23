@@ -17,7 +17,7 @@ SV.1.92b; AV;S.12.2.12b; 18.1.61b.
 - पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%20UPANAYANA%20SAAMAANI#page/n2/mode/1up&sa=D&ust=1542425956402000)।
 - गोपालार्यः 2015  
 <div class="audioEmbed" src="https://archive
-.org/download/jaiminIya-sAma-gAna-paravastu-tradition-gopAla-2015/Aruhan.mp3"></div>
+.org/download/jaiminIya-sAma-gAna-paravastu-tradition-gopAla-2015/Aruhan-divaH.mp3"></div>
 
 {आ*([फृ]%)*रो*("३)*,ऒ*([?])*हन्।}*([त्रिः])*
 
