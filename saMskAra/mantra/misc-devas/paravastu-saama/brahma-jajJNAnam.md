@@ -19,7 +19,10 @@ AV;S.4.1.1a; 5.6.1a; AVP.5.2.2a; 6.11.1a; SV.1.321a; VS.13.3a; TS.4.2.8.2a; MS.2
 
 ## साम १
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/UDAKA%20SAANTHI%20SAAMAANI%23mode/1up&sa=D&ust=1542425956412000)।)*
+- पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/UDAKA%20SAANTHI%20SAAMAANI%23mode/1up&sa=D&ust=1542425956412000)।
+- गोपालार्यः 2015  
+<div class="audioEmbed" src="https://archive
+.org/download/jaiminIya-sAma-gAna-paravastu-tradition-gopAla-2015/brahma-jajJNAnam.mp3"></div>
 
 ब्र*([त])*ह्मा*(%)* ब्रा*([तः]"३)*अह्मा, ज*([पो])*ज्ञा*(")*आनम्।
 

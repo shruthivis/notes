@@ -20,7 +20,10 @@ RV.8.69.8a; AV;S.20.92.5a; SV.1.362a; AB.4.4.4; A;S.6.2.9.
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%20UPANAYANA%20SAAMAANI#page/n1/mode/1up&sa=D&ust=1542425956180000)।)*
+- पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%20UPANAYANA%20SAAMAANI#page/n1/mode/1up&sa=D&ust=1542425956180000)।
+- गोपालार्यः 2015  
+<div class="audioEmbed" src="https://archive
+.org/download/jaiminIya-sAma-gAna-paravastu-tradition-gopAla-2015/archata-prArchata.mp3"></div>
 
 अ*([ले])*र्चत, प्रा*(३%)*र्चता, ना*(%)*रह।
 

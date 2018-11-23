@@ -20,7 +20,10 @@ RV.8.2.1a
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/AASHEERVACHANA%20SAAMAANI#page/n1/mode/1up&sa=D&ust=1542425956247000)।)*
+- पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/AASHEERVACHANA%20SAAMAANI#page/n1/mode/1up&sa=D&ust=1542425956247000)।
+- गोपालार्यः 2015  
+<div class="audioEmbed" src="https://archive
+.org/download/jaiminIya-sAma-gAna-paravastu-tradition-gopAla-2015/gAram.mp3"></div>
 
 गारम् ।।    
 इदम्म्*([पे])* वसो*("३)*ओ, सुतमन्धा*(३)* आअए ।  

@@ -14,6 +14,9 @@ emphasis_as_inline_comments: true
 ## साम
 
 *([गानमूलम् - [२०१५](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/UDAKA%20SAANTHI%20SAAMAANI%23mode/1up&sa=D&ust=1542425956286000)।])*
+- गोपालार्यः 2015  
+<div class="audioEmbed" src="https://archive
+.org/download/jaiminIya-sAma-gAna-paravastu-tradition-gopAla-2015/nAnadam.mp3"></div>
 
 नानदम्*(३)*॥  
 प्र*([ठू])*त्या*(३)*स्मै*(["])* पीपिइषा*([टि]--"३)*ता*(--"३)*इ।

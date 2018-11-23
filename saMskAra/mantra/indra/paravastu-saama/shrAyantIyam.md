@@ -20,7 +20,10 @@ RV.8.99.3a; AV;S.20.58.1a; SV.1.267a; 2.669a; VS.33.41a; JB.3.261a; KB.25.6; A;S
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/AASHEERVACHANA%20SAAMAANI.pdf&sa=D&ust=1542425956253000)।)*
+- पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/AASHEERVACHANA%20SAAMAANI.pdf&sa=D&ust=1542425956253000)।
+- गोपालार्यः 2015  
+<div class="audioEmbed" src="https://archive
+.org/download/jaiminIya-sAma-gAna-paravastu-tradition-gopAla-2015/shrAyantIyam.mp3"></div>
 
 श्रा*(३)*यन्ती*(३)*यम्।  
 
