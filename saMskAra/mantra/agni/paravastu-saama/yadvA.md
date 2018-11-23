@@ -16,7 +16,10 @@ RV.8.23.13b; SV.1.114b.
 
 ## साम
 
-*(पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/VIVAAHA%20UPANAYANA%20SAAMAANI.pdf&sa=D&ust=1542425956346000)।)*
+- पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/VIVAAHA%20UPANAYANA%20SAAMAANI.pdf&sa=D&ust=1542425956346000)।
+- गोपालार्यः 2015  
+<div class="audioEmbed" src="https://archive
+.org/download/jaiminIya-sAma-gAna-paravastu-tradition-gopAla-2015/yadvA.mp3"></div>
 
 य*([पि])*द्वा*(["]%)* ऊउ, विश्पा, अतश् शि*(~~चि~~)*तह*(v)*।
 

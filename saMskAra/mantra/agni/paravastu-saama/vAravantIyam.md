@@ -13,6 +13,9 @@ emphasis_as_inline_comments: true
 
 
 ## साम १
+- गोपालार्यः 2015  
+<div class="audioEmbed" src="https://archive
+.org/download/jaiminIya-sAma-gAna-paravastu-tradition-gopAla-2015/vAravantIyam.mp3"></div>
 
 वारवन्ती*(३ ~~न्ति~~)*यम् ।  
 अ*([पै])*श्वन् न त्वा*(["]३)*, औ*(["])*हॊहो*(%)*हाइ ।  
