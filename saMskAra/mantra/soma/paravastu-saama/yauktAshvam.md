@@ -11,6 +11,9 @@ emphasis_as_inline_comments: true
 विश्वा दधान ओजसा  ।
 
 ## साम - यौक्ताश्वाद्यम्
+- गोपालार्यः 2015  
+<div class="audioEmbed" src="https://archive
+.org/download/jaiminIya-sAma-gAna-paravastu-tradition-gopAla-2015/yauktAshvAdyam.mp3"></div>
 
 यौक्ताश्वाद्यम्।  
 औ*([])*हॊ, हो, हाइ । वॄ,*([])*षाअ ।  
@@ -24,6 +27,9 @@ emphasis_as_inline_comments: true
 ओ*([])*इ । ज्वा,*([])*रा, आ ॥
 
 ## साम - यौक्ताश्वोत्तरम्
+- गोपालार्यः 2015  
+<div class="audioEmbed" src="https://archive
+.org/download/jaiminIya-sAma-gAna-paravastu-tradition-gopAla-2015/yauktAshvottaram.mp3"></div>
 
 यौक्ताश्वोत्तरम् ।  
 वृ*([])*षा, औहॊ, हो, हाइ ।  

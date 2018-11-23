@@ -19,6 +19,9 @@ RV.9.61.10b; SV.1.467b; 2.22b; VS.26.16b; JB.1.81,116; 3.40.
 ## साम -आजिगम्
 
 - पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/VIVAAHA%20UPANAYANA%20SAAMAANI.pdf&sa=D&ust=1542425956332000)।
+- गोपालार्यः 2015  
+<div class="audioEmbed" src="https://archive
+.org/download/jaiminIya-sAma-gAna-paravastu-tradition-gopAla-2015/uchchA-te.mp3"></div>
 
 उ*([प])*च्चा*(--%)*आ। ते*(["ट]-)*जा*(["]३)*आ*([रॄ?ण])*,,ता*(vv-v३)*म् आ*(vv-v३)*न्,धा*(vv-v३)*सा*([प्रे])*अह।
 

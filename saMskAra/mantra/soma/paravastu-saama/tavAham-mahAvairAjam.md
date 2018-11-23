@@ -36,8 +36,11 @@ RV.9.107.19a; SV.1.516a; 2.272a; JB.3.67a; PB.12.9.3a; Svidh.1.5.8.
 ## साम
 
 - पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/AASHEERVACHANA%20SAAMAANI.pdf&sa=D&ust=1542425956318000)।
+- गोपालार्यः 2015  
+<div class="audioEmbed" src="https://archive
+.org/download/jaiminIya-sAma-gAna-paravastu-tradition-gopAla-2015/mahAvairAjam.mp3"></div>
 
-म हा वै रा जम् ।
+महावैराजम् ।
 
 हो*([दा]")*इया*(["]३)*, हो*(")* इया*(["]३)*, हो*("३)*, ओइया*(--"३)*आ*(--"३)*,आ*(--"३)* ।
 

@@ -32,6 +32,9 @@ RV.7.32.16
 ## साम
 
 - पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/AASHEERVACHANA%20SAAMAANI%23mode/1up&sa=D&ust=1542425956204000)।
+- गोपालार्यः 2015  
+<div class="audioEmbed" src="https://archive
+.org/download/jaiminIya-sAma-gAna-paravastu-tradition-gopAla-2015/yashas.mp3"></div>
 
 यशस्अ*(३)*।
 
