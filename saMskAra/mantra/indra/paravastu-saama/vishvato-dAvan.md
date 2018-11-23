@@ -18,7 +18,7 @@ emphasis_as_inline_comments: true
 - [पारम्परिकगानमूलम् - [२०१५](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/UDAKA%20SAANTHI%20SAAMAANI#page/n2/mode/1up&sa=D&ust=1542425956390000)।]
 - गोपालार्यः 2015  
 <div class="audioEmbed" src="https://archive
-.org/download/jaiminIya-sAma-gAna-paravastu-tradition-gopAla-2015/vishvato-dAvan.mp3"></div>
+.org/download/jaiminIya-sAma-gAna-paravastu-tradition-gopAla-2015/vishvato-dAvan-1.mp3"></div>
 
 हा*([प]३)*उ, हा*([प]३)*उ, ह*([प])*उवा ।  
 वी*([ल२]")*श्व, तोदा*(")* अवन्, वि*(")*श्वातो*("%३)* नाआ*("३)*भरा ।
@@ -32,6 +32,9 @@ emphasis_as_inline_comments: true
 ज्यो*(["त]%)*ति: । हा*([प]३)*उ, हा*([प]३)*उ, ह*([पा])*उवा*(")*अ ।  ई*([टू])*इ ॥
 
 ## साम २
+- गोपालार्यः 2015  
+<div class="audioEmbed" src="https://archive
+.org/download/jaiminIya-sAma-gAna-paravastu-tradition-gopAla-2015/vishvato-dAvan-2.mp3"></div>
 
 वी*([गो])*श्व, तो*(["])*दा*(["])* अवन्, विश्वातो*(["]%३)* नाआ*(["]३)*।  
 भा*([टि])*रा*(["])*, ओ*(["])*वा*(["]३)*। भा*([टि])*रा*(["])*, ओ*(["])*वा*(["]३)*। भा*([टि])*रा*(["])*, ओ*(["])*वा*(["]३)*अ ।  

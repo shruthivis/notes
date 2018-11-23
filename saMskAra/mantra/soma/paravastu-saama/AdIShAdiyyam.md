@@ -19,7 +19,7 @@ RV.9.106.10a; SV.1.572a; 2.290a; JB.3.78a;
 - पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/AASHEERVACHANA%20SAAMAANI.pdf&sa=D&ust=1542425956292000)।
 - गोपालार्यः 2015  
 <div class="audioEmbed" src="https://archive
-.org/download/jaiminIya-sAma-gAna-paravastu-tradition-gopAla-2015/AdIShAdiyyam.mp3"></div>
+.org/download/jaiminIya-sAma-gAna-paravastu-tradition-gopAla-2015/AdiShAdiyyam.mp3"></div>
 
 आदीषादिय्यम्।
 
