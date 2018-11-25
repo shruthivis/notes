@@ -30,6 +30,7 @@ In the three-lettered abode!
 ## साम
 
 - पारम्परिक-गान-मूलम् [१९३७-लेखा](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/sAmaveda-paravastu-1937#page/n9/mode/1up&sa=D&ust=1542425956421000)। [१९७५](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/sAmaveda-paravastu-1975#page/n9/mode/1up&sa=D&ust=1542425956421000)। [२०१५-लेखा](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%20UPANAYANA%20SAAMAANI#page/n4/mode/1up&sa=D&ust=1542425956422000)। कौथुमगानम् [अत्र](https://archive.org/details/SamaVedaSanhitaWithSayanabhashyaVolume2SatyavrataSamasrami1876bis_201804/page/n535)।
+- कौथुमगानचित्रम् [अत्र](https://twitter.com/vaidikabharata/status/1066558555648593921?s=21)।
 - गोपालार्यः 2015  
 <div class="audioEmbed" src="https://archive
 .org/download/jaiminIya-sAma-gAna-paravastu-tradition-gopAla-2015/unnayAmi.mp3"></div>
