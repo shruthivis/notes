@@ -14,6 +14,9 @@ emphasis_as_inline_comments: true
 
 तपिष्ठैर् अजरो दह  ।
 
+![](../images/agni-giving-abhaya-to-Rtvik-or-yajamAna.png)
+
+
 ## साम
 
 - पारम्परिकगानमूलम् - [१९३७](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/sAmaveda-paravastu-1937#page/n15/mode/1up), [२०१५](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/UDAKA%20SAANTHI%20SAAMAANI#page/n2/mode/1up&sa=D&ust=1542425956390000)।

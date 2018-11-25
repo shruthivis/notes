@@ -12,6 +12,8 @@ emphasis_as_inline_comments: true
 जरा*(=स्तुति)*बोध तद् विविड्ढि*(=प्रविश)* विशेविशे यज्ञियाय।  
 स्तोमं*(=स्तोत्रं)* रुद्राय *(ते)* दृशीकम्*(=दर्शनीयम्)*॥
 
+![](../images/agni-giving-abhaya-to-Rtvik-or-yajamAna.png)
+
 
 ## साम
 - पारम्परिकगानमूलम् - [२०१५](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/UDAKA%20SAANTHI%20SAAMAANI#page/n2/mode/1up&sa=D&ust=1542425956390000)।]

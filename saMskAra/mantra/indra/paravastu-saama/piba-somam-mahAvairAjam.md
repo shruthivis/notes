@@ -21,6 +21,9 @@ RV.7.22.1a; AV;S.20.117.1a; SV.1.398a; 2.277a; TS.2.4.14.3a; AB.3.22.11; 5.4.19;
 मत्स्व! ओजो सहो बलम् इन्द्रो बृहद् ऋतं स्वर् दधे।  
 सधं मे। ऋतं मे। पिब मत्स्व!
 
+![](../images/indra-squeezing-soma-into-mouth.jpg)
+
+
 ## साम
 
 - पारम्परिक-लेखाः - [१९३७-लेखा](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/AASHEERVACHANA%20SAAMAANI#page/n6/mode/1up&sa=D&ust=1542425956233000)। [२०१५-लेखा](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/AASHEERVACHANA%20SAAMAANI#page/n6/mode/1up&sa=D&ust=1542425956233000)। कौथुमगानम् [अत्र](https://archive.org/details/SamaVedaSanhitaWithSayanabhashyaVolume2SatyavrataSamasrami1876bis_201804/page/n449)।

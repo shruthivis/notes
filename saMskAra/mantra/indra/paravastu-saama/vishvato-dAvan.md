@@ -12,6 +12,8 @@ emphasis_as_inline_comments: true
 
 विश्वतो दावन् *(=दानवान् छेदनवान् वा)* विश्वतो न आ भर यं त्वा शविष्ठमीमहे।
 
+![](../images/indra-or-someone-on-an-arial-charriot-attacking-an-army-with-arrows.jpg)
+
 
 ## साम १
 

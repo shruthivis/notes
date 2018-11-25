@@ -8,6 +8,8 @@ emphasis_as_inline_comments: true
 
 स्वयम् अस्कुन्वे *(=अकूर्दम्)*॥
 
+![](../../images/mood/skipping-happy.jpg)
+
 ## साम
 
 - पारम्परिक-गान-मूलम् [१९३७-लेखा](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/sAmaveda-paravastu-1937#page/n9/mode/1up&sa=D&ust=1542425956418000)। [२०१५-लेखा](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%20UPANAYANA%20SAAMAANI#page/n3/mode/1up&sa=D&ust=1542425956418000)। कौथुम-गानम् [अत्र](https://archive.org/details/SamaVedaSanhitaWithSayanabhashyaVolume2SatyavrataSamasrami1876bis_201804/page/n519&sa=D&ust=1542425956419000)।

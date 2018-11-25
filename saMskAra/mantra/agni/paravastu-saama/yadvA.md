@@ -14,6 +14,9 @@ RV.8.23.13b; SV.1.114b.
 
 विश्वेद॒ग्निः प्रति॒ रक्षां॑सि सेधति *(=हिनस्ति)*॥
 
+![](../images/enemies-dead-in-soot-agni-giving-wealth-to-yajamAna.jpg)
+
+
 ## साम
 
 - पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/VIVAAHA%20UPANAYANA%20SAAMAANI.pdf&sa=D&ust=1542425956346000)।

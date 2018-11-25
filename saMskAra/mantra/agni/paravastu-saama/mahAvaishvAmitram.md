@@ -14,6 +14,9 @@ RV.1.11.1a; SV.1.343a; 2.177a; VS.12.56a; 13.58a; 14.10a,22a,31a; 15.61a; 17.61a
 
 र॒थीत॑मं र॒थीनां॒ वाजा॑नां॒ *(=अन्नानाम्)* सत्प॑तिं॒ पति॑म् १
 
+![](../../indra/images/indra-rising-to-protect-charriots-of-army.jpg)
+
+
 RV.6.48.2d; SV.2.54d; VS.27.44d; MS.2.13.9d: 159.13; KS.39.12d; JB.1.177; 2.137; Ap;S.17.9.1d.
 
 *([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart3/rv_sayanabhasya_part3#page/n413/mode/2up&sa=D&ust=1542425956356000)। बृहस्पतिपुत्रः शंयुः। बृहती, सतोबृहती। अग्निः।])*
@@ -29,6 +32,8 @@ RV.6.48.2d; SV.2.54d; VS.27.44d; MS.2.13.9d: 159.13; KS.39.12d; JB.1.177; 2.137;
 अ॑स्म॒युर् *(=अस्मान् कामयमानः)* दाशे॑म ह॒व्यदा॑तये *(=हव्यदात्रे)* ।
 
 भुव॒द् वाजे॑ष्व् *(=युद्धेषु)* अवि॒ता भुव॑द् वृ॒ध *(=वर्धकः)* उ॒त त्रा॒ता त॒नूना॑म् *(=तनयानाम्)*२
+
+![](../images/agni-headed-man-on-elephant-rushing-behind-his-army-column-.jpg)
 
 ## साम
 

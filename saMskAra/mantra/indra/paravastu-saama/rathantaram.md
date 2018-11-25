@@ -20,6 +20,9 @@ RV.7.32.22a; AV;S.20.121.1a; SV.1.233a; 2.30a; VS.27.35a; TS.2.4.14.2a; MS.2.13.
 
 अ॒श्वा॒यन्तो॑ *(=अश्वकामाः)* मघवन्निन्द्र वा॒जिनो॑ *(=वाजकामाः)* ग॒व्यन्त॑स् *(=गोकामाः)* त्वा हवामहे २३
 
+![](../images/Indra-kills-vRtra-snake-with-vajra.jpg)
+
+
 ## साम - त्र्यर्चम्
 
 - पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/AASHEERVACHANA%20SAAMAANI#page/n3/mode/1up)। 

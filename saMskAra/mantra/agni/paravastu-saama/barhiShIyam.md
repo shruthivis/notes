@@ -16,6 +16,9 @@ RV.6.16.10
 
 नि होता॑ सत्सि ब॒र्हिषि॑ ।।
 
+![](../images/agni-giving-abhaya-to-Rtvik-or-yajamAna.png)
+
+
 ## साम *(गौतमस्य पर्कः)*
 
 - पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/VIVAAHA%20UPANAYANA%20SAAMAANI.pdf&sa=D&ust=1542425956352000)।

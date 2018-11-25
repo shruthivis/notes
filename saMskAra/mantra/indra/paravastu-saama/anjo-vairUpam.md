@@ -14,6 +14,9 @@ RV.8.70.5b; AV;S.20.81.1b; 92.20b; SV.1.278b; 2.212b; TS.2.4.14.3b; KS.12.15b; J
 
 न त्वा वज्रिन् स॒हस्र॑म् सूर्याः अनु न जा॒तम् अ॑ष्ट॒*(=अश्नुते)* रोद॑सी ।।
 
+![](../images/Great-indra-on-airAvata-with-vajra-surrounded-by-other-smaller-deva-s-agni-on-ram-yama-on-buffalo-brahma-on-swan-sUrya-and-chandra.jpg)
+
+
 ## साम
 
 - पारम्परिक-गान-मूलम् [२०१५](https://sanskritdocuments.org/sites/pssramanujaswamy/AASHEERVACHANA%20SAAMAANI.pdf&sa=D&ust=1542425956261000)। १९३७। कौथुमगानम् [अत्र](https://archive.org/details/SamaVedaSanhitaWithSayanabhashyaVolume2SatyavrataSamasrami1876bis_201804/page/n403)।

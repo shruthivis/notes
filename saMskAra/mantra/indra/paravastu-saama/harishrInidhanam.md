@@ -14,6 +14,8 @@ emphasis_as_inline_comments: true
 
 इन्द्र॒ त्वादा॑त॒मिद्यशः॑ ॥
 
+![](../images/indra-squeezing-soma-into-mouth.jpg)
+
 ## साम
 
 - पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/AASHEERVACHANA%20SAAMAANI%23mode/1up&sa=D&ust=1542406658547000)।

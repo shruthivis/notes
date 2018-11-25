@@ -10,6 +10,9 @@ RV 8 14_*(634)* 1 a *([सायणो [ऽत्र।](https://archive.org/str
 
 यदि॑न्द्रा॒हं यथा॒ त्वमीशी॑य॒ वस्व॒ एक॒ इत् । स्तो॒ता मे॒ गोष॑खा स्यात् १
 
+![](../images/indra-as-maghavAn-followed-by-people-bearing-wealth-moving-towards-a-yajamAna.png)
+
+
 ## साम
 
 - पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/VIVAAHA%20UPANAYANA%20SAAMAANI.pdf&sa=D&ust=1542425956217000)। कौथुमगानम् [अत्र](https://archive.org/details/SamaVedaSanhitaWithSayanabhashyaVolume1SatyavrataSamasrami1874bis/page/n353)।

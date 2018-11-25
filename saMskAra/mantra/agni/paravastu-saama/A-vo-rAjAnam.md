@@ -13,6 +13,8 @@ emphasis_as_inline_comments: true
 आ वो राजानमध्वरस्य रुद्रं होतारं सत्ययजं रोदस्योः  ।  
 अग्निं पुरा *(आकस्मिकात्)* तनयित्नोर् *(=विद्युतः)* अचित्ताद् *(मरणात्)* +हिरण्यरूपम् अवसे कृणुध्वम्  ।
 
+![](../images/agni-giving-abhaya-to-Rtvik-or-yajamAna.png)
+
 ## साम
 
 - [पारम्परिकगानमूलम् - [१९३७](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/sAmaveda-paravastu-1937#page/n15/mode/1up), [२०१५](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/UDAKA%20SAANTHI%20SAAMAANI#page/n2/mode/1up&sa=D&ust=1542425956390000)।]

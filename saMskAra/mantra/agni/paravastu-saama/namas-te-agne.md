@@ -14,6 +14,9 @@ emphasis_as_inline_comments: true
 
 अमै॑र् *(=बलैर्)* अ॒मित्र॑म् अर्दय *(=नाशय)* ।
 
+![](../images/tall-agni-in-vedI-surrounded-by-lots-of-Rtvik-s-with-folded-hands-in-many-many-yAga-s-namaskAra-.png)
+
+
 ## साम
 
 - पारम्परिक-गान-मूलम् [१९३७-लेखा](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/sAmaveda-paravastu-1937#page/n9/mode/1up&sa=D&ust=1542425956385000)। [१९७५](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/sAmaveda-paravastu-1975#page/n9/mode/1up&sa=D&ust=1542425956386000)। [२०१५-लेखा](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%20UPANAYANA%20SAAMAANI#page/n4/mode/1up&sa=D&ust=1542425956386000)।

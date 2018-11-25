@@ -33,6 +33,10 @@ RV.3.9.2a; SV.1.53a; N.4.14a; M;S.3.8.1a.
 
 *(घर्मो मरुद्भिर्भुवनेषु चक्रदात्।)*
 
+![](../images/forest-fire.jpg)
+![](../images/lightning.jpg)
+
+
 ## साम
 
 - पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/AASHEERVACHANA%20SAAMAANI#page/n7/mode/1up&sa=D&ust=1542425956368000)। कौथुमगानम् [अत्र](https://archive.org/details/SamaVedaSanhitaWithSayanabhashyaVolume2SatyavrataSamasrami1876bis_201804/page/n521&sa=D&ust=1542425956368000)।

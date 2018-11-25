@@ -11,6 +11,8 @@ emphasis_as_inline_comments: true
 
 धियो॒ यो नः॑ प्रचो॒दया॑त् ।।
 
+![](../images/worlds/surya.png)
+
 ## साम
 
 - पारम्परिक-गान-मूलम् [१९३७](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/UDAKA%20SAANTHI%20SAAMAANI#page/n1/mode/1up&sa=D&ust=1542425956425000)।

@@ -11,6 +11,9 @@ emphasis_as_inline_comments: true
 *(अध्वर्यो!)* प्रत्यस्मै पिपीषते विश्वानि विदुषे भर  ।  
 अरङ् *(=अलं)* गमाय जग्मये *(=गमनशीलाय)* ऽपश्चादध्वने *(=पुरोगाय)* नरः।
 
+![](../images/indra-squeezing-soma-into-mouth.jpg)
+
+
 ## साम
 
 *([गानमूलम् - [२०१५](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/UDAKA%20SAANTHI%20SAAMAANI%23mode/1up&sa=D&ust=1542425956286000)।])*
