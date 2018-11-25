@@ -27,8 +27,9 @@ emphasis_as_inline_comments: true
 <div class="js_include" url="../../indra/paravastu-saama/gauShUktam.md"  newLevelForH1="2" includeTitle="true"> </div>  
 <div class="js_include" url="../../indra/paravastu-saama/Ashva-sUktam.md"  newLevelForH1="2" includeTitle="true"> </div>  
 
-# शिष्टम्
+<div class="js_include" url="../../misc-devas/paravastu-saama/ka-IM-vyaktAH.md"  newLevelForH1="2" includeTitle="true"> </div> 
 
+# शिष्टम्
 
 जराबोधिय्यं । ज*([])*रा, बोऒ, धोवाअ । ता*([])*द्वि, विड्ढाइ । वी*([])*शाइवा, इशॆ ।  
 य*([])*ज्ञी , याया । स्तो*([])*मां, ०रुऊद्रा, याआ, द्री*([])*इ ।  शि*([])*इ,को,इ । 
