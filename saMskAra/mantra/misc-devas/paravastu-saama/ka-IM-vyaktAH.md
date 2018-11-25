@@ -1,16 +1,15 @@
 ---
-title: अपि प्रियाणि पवते 
+title: क ईं व्यक्ताः
 unicode_script: devanagari  
 emphasis_as_inline_comments: true
 ---   
 
 ## ऋक्
 
-*([सायणो [ऽत्र](https://archive.org/details/SamaVedaSanhitaWithSayanabhashyaVolume2SatyavrataSamasrami1876bis_201803/page/n191) कौथुमभाष्ये। कविः। जगती। सोमः।])*
+*([सायणो [ऽत्र](https://archive.org/details/SamaVedaSanhitaWithSayanabhashyaVolume1SatyavrataSamasrami1874bis/page/n941) कौथुमभाष्ये। वसिष्ठः। द्विपदा। मरुतः।])*
 
-१ ६ २ ०७०१   
-अभि प्रियाणि *(उदकानि)* पवते चनो*(=अन्न)*हितो नामानि*(=नमनशीलानि)* यह्वो*(=महान्)* अधि येषु वर्धते *(अन्तरिक्षस्थः)* ।  
-आ सूर्यस्य बृहतो बृहन्नधि रथं विष्वञ्चम्*(=विष्वग्गमनं)* अरुहद् विचक्षणः॥
+१ ५ १ ०५०७  
+क*(य्)* ईं व्यक्ता नरः*(=नेतारः)* सनीडा रुद्रस्य मर्या*(=मर्त्येभ्यो [हिताः])* अथ स्वश्वाः॥
 
 
 ## साम
