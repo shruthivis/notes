@@ -14,6 +14,9 @@ RV.9.108.5a; SV.1.584a; JB.3.192a; PB.14.5.2.
  अव्यो वारे॑भिः *(=वालैः)* पवते *(=क्षरति)* म॒दिन्त॑मः *(=मदयितृतमः)*।  
  क्रीळ॑न्न् *(=सङ्क्रीडमानः)* ऊ॒र्मिर् अ॒पाम् इव॥
 
+![](../images/soma-purification.png)
+
+
 ## साम
 
 - पारम्परिक-गान-मूलम् [अत्र](https://archive.org/stream/sAmaveda-jaiminIya-paravastu-paramparA-docs/VIVAAHA%20UPANAYANA%20SAAMAANI#page/n2/mode/1up&sa=D&ust=1542425956335000)।

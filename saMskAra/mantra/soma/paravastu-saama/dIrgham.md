@@ -15,6 +15,8 @@ RV.9.108.13a; SV.1.582a; 2.446a; JB.3.161
 सोमो॒ यः सु॑क्षिती॒नाम् *(=सुनिवासानम्)* १३  
 *(ससुदीर्घम् इत्याहुर् आयुर् वै! दीर्घम् आयुषो वृद्ध्यै।)*
 
+![](../images/soma-extraction-on-a-grAvA.png)
+
 ## साम
 
 - पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/AASHEERVACHANA%20SAAMAANI.pdf&sa=D&ust=1542425956289000)।

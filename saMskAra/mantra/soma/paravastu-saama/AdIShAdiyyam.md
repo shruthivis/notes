@@ -13,6 +13,9 @@ RV.9.106.10a; SV.1.572a; 2.290a; JB.3.78a;
 सोम॑ः पुना॒न ऊ॒र्मिणा ऽव्यो॒ *(=मेषस्य)* वारं॒ *(=वालम्)* वि धा॑वति *(पवनार्थम्)*।  
 अग्रे॑ वा॒चः पव॑मान॒ः *(=पूतः)* कनि॑क्रदत् *(=शब्दयन्)* १०
 
+![](../images/soma-purification.png)
+
+
 ## साम
 
 - पारम्परिक-गान-मूलम् [अत्र](https://sanskritdocuments.org/sites/pssramanujaswamy/AASHEERVACHANA%20SAAMAANI.pdf&sa=D&ust=1542425956292000)।

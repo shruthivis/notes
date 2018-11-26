@@ -11,10 +11,10 @@ RV.9.61.16a; SV.1.484a; 2.239a; JB.3.59; PB.12.7.5.
 *([सायणो [ऽत्र](https://archive.org/stream/RgVedaWithSayanasCommentaryPart4/rv_sayanabhasya_part4#page/n185/mode/1up&sa=D&ust=1542425956327000)। सामभाष्ये [ऽत्र](https://archive.org/details/SamaVedaSanhitaWithSayanabhashyaVolume2SatyavrataSamasrami1876bis_201804/page/n55&sa=D&ust=1542425956327000)। आङ्गीरसो ऽंहीयुः। गायत्री। सोमः।])*
 
 पव॑मानो अजीजनद्  
-
-दि॒वश् चि॒त्रं न त॑न्य॒तुम् *(=अशनिम्)* ।
-
+दि॒वश् चि॒त्रं न त॑न्य॒तुम् *(=अशनिम्)* ।  
 ज्योति॑र् वैश्वान॒रम् बृ॒हत् ।।
+
+![](../images/soma-for-agni.png)
 
 ## साम *(जनित्रे द्वे)*
 

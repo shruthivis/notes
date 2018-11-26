@@ -26,6 +26,9 @@ emphasis_as_inline_comments: true
 औहो, वाअ ।  
 ओ*([])*इ । ज्वा,*([])*रा, आ ॥
 
+![](../images/soma-purification.png)
+
+
 ## साम - यौक्ताश्वोत्तरम्
 - गोपालार्यः 2015  
 <div class="audioEmbed" src="https://archive
