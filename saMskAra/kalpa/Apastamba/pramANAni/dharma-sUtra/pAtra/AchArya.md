@@ -1,5 +1,5 @@
 ---
-title: उपनेता
+title: आचार्यः
 tags: उपनेता, आचार्यः, अध्यापकः
 unicode_script: devanagari
 emphasis_as_inline_comments: true
