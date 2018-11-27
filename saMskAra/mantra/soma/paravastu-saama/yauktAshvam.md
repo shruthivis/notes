@@ -6,8 +6,11 @@ emphasis_as_inline_comments: true
 
 ## ऋक्
 
+कौथुमभाष्ये सायणो [ऽत्र](https://archive.org/details/SamaVedaSanhitaWithSayanabhashyaVolume2SatyavrataSamasrami1876bis_201803/page/n27)।  
+वारुणिः भृगुः। सोमः।
+
 १ ५ २ ०९०३   
-वृषा पवस्व धारया मरुत्वते च मत्सरः।  
+वृषा *(=वर्षकः)* पवस्व धारया मरुत्वते *(इन्द्रा)* च मत्सरः *(=मदकरः)*।  
 विश्वा दधान ओजसा  ।
 
 ![](../images/soma-purification.png)
