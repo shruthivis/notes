@@ -6,16 +6,16 @@ emphasis_as_inline_comments: true
 
 ## त्रेधा जन्म  
 
-![](images/agni-at-dawn.jpg){:.thumbnail}
+![](../images/agni-at-dawn.jpg){:.thumbnail}
 दि॒वस् परि॑ प्रथ॒मं ज॑ज्ञे अ॒ग्निर्  
 अ॒स्मद् द्वि॒तीय॒म् परि॑ जा॒तवे॑दाः ।  
-![](images/baku-fire-spring.jpg){:.thumbnail}
+![](../images/baku-fire-spring.jpg){:.thumbnail}
 तृ॒तीय॑म॒प्सु नृ॒मणा॒ अज॑स्र॒म्  
 इन्धा॑न एनं जरते *(=स्तौति)* स्वा॒धीः ।  
   
 ## त्रेधा रूपाणि  
-![](images/agni-at-dawn.jpg){:.thumbnail}
-![](images/lightning.jpg){:.thumbnail}  
+![](../images/agni-at-dawn.jpg){:.thumbnail}
+![](../images/lightning.jpg){:.thumbnail}  
 वि॒द्मा ते॑ अग्ने त्रे॒धा *{रूपाणि अग्नि-विद्युत्-सूर्यास्}* त्र॒याणि॑  
 वि॒द्मा ते॒ सद्म॒ *{नानाकुण्डेषु}* विभृ॑तम् पुरु॒त्रा *(=बहुधा)*।  
 वि॒द्मा ते॒ नाम॑ पर॒मं गुहा॒ यद्  
@@ -27,7 +27,7 @@ emphasis_as_inline_comments: true
 ऋ॒तस्य॒ योनौ॑ महि॒षा अ॑हिन्वन्न् *(=बुद्धवन्तः)* ।  
   
 ## दवानलः  
-![](images/forest-fire.jpg){:.thumbnail}  
+![](../images/forest-fire.jpg){:.thumbnail}  
 अक्र॑न्दद् अ॒ग्निः स्त॒नय॑न्निव॒ द्यौः  
 क्षामा॒ *(=पृथिवीं)* रेरि॑हद् *(=आस्वादयन्)* वी॒रुधः॑ *(={वृक्ष}गुल्मान्)* सम॒ञ्जन्न् ।  
 स॒द्यो ज॑ज्ञा॒नो *{दावानलः}* वि हीम् इ॒द्धो  
@@ -39,7 +39,7 @@ emphasis_as_inline_comments: true
 उच्छु॒क्रेण॑ शो॒चिषा॒ द्यामिन॑क्षत् *(=दीपयत्)*।  
   
 ## ज्वालामुखी  
-![Mud volcanoes](images/mud-volcano.jpg){:.thumbnail}[!](https://en.wikipedia.org/wiki/Mud_volcanoes_in_Azerbaijan)
+![Mud volcanoes](../images/mud-volcano.jpg){:.thumbnail}[!](https://en.wikipedia.org/wiki/Mud_volcanoes_in_Azerbaijan)
 विश्व॑स्य के॒तुर् भुव॑नस्य॒ गर्भ॒  
 आ रोद॑सी अपृणा॒ज् *(=अपूरयत्)* जाय॑मानः ।  
 वी॒डुं *(=दृढं)* चि॒दद्रि॑मभिनत् परा॒यञ् *(=परागच्छन्)*  

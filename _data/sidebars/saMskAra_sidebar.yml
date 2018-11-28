@@ -8,7 +8,7 @@ contents:
           contents:
             - title: ऋचः
               contents:
-                - url: dir://saMskAra/mantra/agni/
+                - url: dir://saMskAra/mantra/agni/Rk/
             - title: सामानि
               contents:
                 - url: dir://saMskAra/mantra/agni/paravastu-saama/
@@ -17,6 +17,12 @@ contents:
             - title: सामानि
               contents:
                 - url: dir://saMskAra/mantra/indra/paravastu-saama/
+            - title: ऋचः
+              contents:
+                - url: dir://saMskAra/mantra/indra/Rk
+            - title: यजूंषि
+              contents:
+                - url: dir://saMskAra/mantra/indra/yajus
         - title: सोमः
           contents:
             - title: सामानि
@@ -27,7 +33,12 @@ contents:
             - title: सामानि
               contents:
                 - url: dir://saMskAra/mantra/misc-devas/paravastu-saama/
-            - url: dir://saMskAra/mantra/misc-devas/
+            - title: ऋचः
+              contents:
+                - url: dir://saMskAra/mantra/misc-devas/Rk
+            - title: यजूंषि
+              contents:
+                - url: dir://saMskAra/mantra/misc-devas/yajus
         - title: सङ्ग्रहाः
           contents:
             - title: सामानि
