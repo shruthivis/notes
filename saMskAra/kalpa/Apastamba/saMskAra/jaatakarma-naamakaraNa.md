@@ -1,5 +1,5 @@
 ---
-title: जातकर्म, नामकरणञ्च।
+title: जातकर्म, नामकरणञ्च
 unicode_script: devanagari
 emphasis_as_inline_comments: true
 ---

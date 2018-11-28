@@ -1,6 +1,8 @@
 ---
-title: अध्ययने -- उपाकर्म, उत्सर्गः, वेदव्रतानि
+title: अध्ययने
 unicode_script: devanagari
+emphasis_as_inline_comments: true
+tags: उपाकर्म, उत्सर्गः, वेदव्रतानि
 ---
 
 ##‌ सुदर्शनसूरेर् मते
