@@ -3,8 +3,6 @@ title: दिवस्परि
 unicode_script: devanagari  
 emphasis_as_inline_comments: true
 ---    
-    
----    
 
 ## त्रेधा जन्म  
 
