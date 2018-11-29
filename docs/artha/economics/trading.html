@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content=" ">
+<title>Trading | Vishvas's notes</title>
+
+<!--bootstrap is used to set auto-adjusting (sidebar+content) grid column widths.-->
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/notes/assets/css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="/notes/assets/css/fonts.css">
+<link rel="stylesheet" href="/notes/assets/css/element-styles-general.css">
+<link rel="stylesheet" href="/notes/assets/css/class-styles-general.css">
+<link rel="stylesheet" href="/notes/assets/css/device-specific.css">
+<link rel="stylesheet" href="/notes/assets/css/topnav.css">
+<link rel="stylesheet" href="/notes/assets/css/navbar-toc.css">
+<link rel="stylesheet" href="/notes/assets/css/embeds.css">
+<link rel="stylesheet" href="/notes/assets/css/boxshadowproperties.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript. Note that this requires jquery. -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="/notes/assets/js/navgoco.js"></script>
+<script src="/notes/assets/js/on_doc_ready/sidebar.js"></script>
+<script src="/notes/assets/js/on_doc_ready/toc.js"></script>
+<script src="/notes/assets/js/on_doc_ready/handle_includes.js"></script>
+<script src="/notes/assets/js/on_doc_ready/main.js"></script>
+<script src="/notes/assets/js/on_doc_ready/video_embed.js"></script>
+<script src="/notes/assets/js/on_doc_ready/audio_embed.js"></script>
+
+<link rel="shortcut icon" href="/notes/assets/images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript"
+        src="https://cdn.rawgit.com/mathjax/MathJax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar">
+    <div class="container topnavlinks">
+        <!--Heavily based on http://yago.io/Bootsketch/styleguide/components_-_navbar.html# .-->
+        <div class="navbar-header">
+            <!--fa is font-awesome.-->
+            <a class="fa fa-home fa-lg projectTitle" href="/notes/index.html">&nbsp;Vishvas's notes</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="navbar-nav navbar-right">
+                
+                <!-- {"title"=>"Parts", "contents"=>[{"title"=>"संस्काराः", "url"=>"/saMskAra/"}, {"title"=>"अर्थः", "url"=>"/artha/economics/businesses/intro.html"}, {"title"=>"Mathematics", "url"=>"/computing/programming/index.html"}, {"title"=>"Misc परिशिष्टम्", "url"=>"/misc/index.html"}, {"title"=>"Vishvas's home page", "url"=>"/../index.html"}, {"title"=>"Blog", "url"=>"/assets/blog/index.html"}]} -->
+                <li class="dropdown">
+                    <a href="#" class="btn btn-default"  data-toggle="dropdown">
+                        Parts
+                        <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/saMskAra/">संस्काराः</a></li>
+    
+
+
+
+                        
+                        
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/businesses/intro.html">अर्थः</a></li>
+    
+
+
+
+                        
+                        
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/computing/programming/index.html">Mathematics</a></li>
+    
+
+
+
+                        
+                        
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/misc/index.html">Misc परिशिष्टम्</a></li>
+    
+
+
+
+                        
+                        
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/../index.html">Vishvas's home page</a></li>
+    
+
+
+
+                        
+                        
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/assets/blog/index.html">Blog</a></li>
+    
+
+
+
+                        
+                    </ul>
+                </li>
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="Non-google title search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="/notes/assets/js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                        SimpleJekyllSearch.init({
+                            searchInput: document.getElementById('search-input'),
+                            resultsContainer: document.getElementById('results-container'),
+                            dataSource: '/notes/assets/search.json',
+                            searchResultTemplate: '<li><a href="{url}" title="Trading">{title}</a></li>',
+                            noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                        })
+                    </script>
+                    <!--end search-->
+                </li>
+                <li>
+                    <a class="btn btn-default" href="/notes/assets/google-us.html">Google us!</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- /.container -->
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+            <!-- Sidebar Column.
+             See https://getbootstrap.com/docs/3.3/css/ for exmplanation of values such as col-md-3.
+             -->
+            <div class="col-md-3" id="tg-sb-sidebar">
+                
+
+
+<!-- toggle sidebar button -->
+<ul id="displayed_sidebar" class="nav">
+    <li class="sidebarTitle">Parts</li>
+    <!--fa below stands for a font awesome icon.-->
+    <li><a id="hide-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i>Hide?</a></li>
+    
+    
+
+    <li>
+        <a href="#">Places</a>
+        <ul>
+            
+            
+            
+
+    <li>
+        <a href="#">USA</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/places/usa/intro.html">Intro</a></li>
+    
+
+
+
+            
+            
+
+    <li>
+        <a href="#">SF Bay</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/places/usa/sf-bay/intro.html">Intro</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/places/usa/sf-bay/arts.html">Arts</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+            
+            
+
+    <li>
+        <a href="#">India</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/places/india/intro.html">Intro</a></li>
+    
+
+
+
+            
+            
+
+    <li>
+        <a href="#">Beṇgaḷūru</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/places/india/bengaluuru/intro.html">Intro</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+    
+    
+
+    <li>
+        <a href="#">Economics</a>
+        <ul>
+            
+            
+            
+
+    <li>
+        <a href="#">Businesses</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/businesses/intro.html">Intro</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/businesses/misc.html">Misc</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+            
+            
+
+    <li>
+        <a href="#">Goods and services</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/goods/intro.html">Intro</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/goods/tradeables.html">Tradeables</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+            
+            
+
+    <li>
+        <a href="#">Investing</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/investing/intro.html">Intro</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/investing/portfolio.html">Portfolio design</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/investing/funds.html">Funds</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+            
+            
+
+    <li>
+        <a href="#">State level</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/state-level/intro.html">Intro</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/state-level/money.html">Money</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/spending.html">Consumption + Donation</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/geo-outlook.html">Geo outlook</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="active"><a href="/notes/artha/economics/trading.html">Trading</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/tax.html">Tax</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+    
+    
+
+    <li>
+        <a href="#">Society</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/society/gameTheory/gameTheory.pdf">Algorithmic game theory</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+    
+    
+
+    <li>
+        <a href="#">Skills</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/skills/index.html">Intro</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/skills/learning.html">Learning</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/skills/research.html">Research</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/skills/clothing/index.html">Clothing</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+    
+    
+
+    <li>
+        <a href="#">Education</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/education/principles.html">Principles</a></li>
+    
+
+
+
+            
+            
+
+    <li>
+        <a href="#">Home schooling</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/education/home_school/">Intro</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/education/home_school/faq.html">FAQ</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/education/home_school/india.html">India</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/education/home_school/usa.html">USA</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/education/lecturing.html">Lecturing</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+    
+    
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/index.html">Notes Home</a></li>
+    
+
+
+
+    
+    
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/../index.html">Vishvas's home page</a></li>
+    
+
+
+
+    
+    
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/assets/blog/index.html">Blog</a></li>
+    
+
+
+
+    
+</ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+            </div>
+            <!--3 columns out of 12 are taken by the sidebar on large devices. Hence using 9.
+            Don't want minimum size so to get flowing text small screens, hence using xs.
+            -->
+            
+        
+
+        <!-- Content Column -->
+        <div class="col-xs-9" id="tg-sb-content">
+            <!-- toggle sidebar button -->
+<a id="tg-sb-link" href="#"><i id="tg-sb-icon-content-pane" class="fa fa-toggle-on"></i>Sidebar</a>
+
+<div class="post-header">
+   <h1 class="post-title-main">Trading</h1>
+</div>
+
+
+<div class="post-content" unicode_script=""
+     
+>
+
+   
+
+    
+    <div id="toc_header">
+        <i id="toggle-toc-icon" class="fa fa-toggle-on"></i> What's in this page? <i class="fa fa-space-shuttle"></i>
+        <span style="font-size: smaller">Expand? <i id="toggle-toc-expansion-icon" class="fa fa-toggle-off"></i></a></span>
+    </div>
+    <div id="toc"></div>
+    
+
+
+    
+
+    
+    <a target="_blank" href="https://github.com/vvasuki/notes/blob/master/artha/economics/trading.md" class="btn btn-default" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+
+    
+
+    
+    <p>Here we consider basic (possibly multi-step) actions involving various negotiable instruments in the market.</p>
+
+<h2 id="value-valuers">Value, valuers</h2>
+
+<h3 id="beliefs-and-market-positions">Beliefs and market positions</h3>
+
+<p>Agents, in trading securities, bet on change in market’s evaluation of securities. Thus, the market price of securities is adjusted continually.</p>
+
+<p>If agents believe that a security will increase in value, they are said to act from a bullish/ long position. If the reverse is true, they are said to act from a bearish/ short position.</p>
+
+<p>Agents may also believe a certain company will outperform or underperform other companies in the sector.</p>
+
+<h3 id="jitters">Jitters</h3>
+
+<p>It is natural that the market tries to converge on the value of a security only gradually, as they process information about it through trades and bets. Thus, there are short term jitters in the stock price curve, which are different from the long-term booms and busts. Jitters result either from temporary change in sentiment of the traders while assimilating new information, or it can be the result of a large trade increasing the supply of certain securities relative to the demand.</p>
+
+<p>Long-term booms and busts also a natural consequence of the heuristic nature of matching demand and supply.</p>
+
+<h4 id="human-instincts-and-biases">Human instincts and biases</h4>
+
+<p>The market, being composed of humans, benefits and suffers from strengths and weaknesses of human instincts. Behavioral economics models can be used to explain the quirks of market evaluation.</p>
+
+<h5 id="risk-aversion">Risk aversion</h5>
+
+<p>Humans are subject to risk aversion: they are more averse to loosing than they yearn for profits. This explains why security prices are fast to drop, but slow to rise: investors, eager to stop loss are more eager to sell, and they are more cautious in buying in the future.</p>
+
+<h5 id="recency-bias">Recency bias</h5>
+
+<p>Recent news about a security tends to affect evaluation more severely than it perhaps should. Ideally, long-term information about the asset should be a very important part of the evaluation.</p>
+
+<h3 id="comparative-measures">Comparative measures</h3>
+
+<h4 id="pe-ratio">P/E ratio</h4>
+
+<p>P/E or price/ earning ratio measures the size of a security’s price relative to the associated dividend. This is often used to identify high dividend yield stocks, which constitute attractive investments. One can think of the units as being years it takes to earn enough dividend to equal the price.</p>
+
+<p>Comparison can even be between the states of a derivative at different points in time: Considering the P/E curve and the stock price together can be useful.</p>
+
+<h4 id="price--book-value-pb-ratio">Price / book value (P/B) ratio</h4>
+
+<p>Here one considers the total asset value (aka book value) of a company and sees if the price is reasonable compared to it.</p>
+
+<h4 id="risks">Risks</h4>
+
+<p>Securities which constitute riskier investments have lower value compared to less risky securities yielding similar returns. Judging investment risks is described elsewhere.</p>
+
+<h2 id="trading-infrastructure">Trading infrastructure</h2>
+
+<h3 id="securities-exchanges">Securities Exchanges</h3>
+
+<p>Stock markets provide a regulated/ facilitated environment for carrying out securities transactions/ trades. It operates in fixed trading hours - beyond those hours, brokers may trade on their amongst themselves in extended trading hours.</p>
+
+<h3 id="brokerages">Brokerages</h3>
+
+<p>Every trade is accomplished by agents/ brokers authorized to trade in the stock market - usually on behalf of their customers. A fraction of each trade is usually collected by the stock exchange as fees. A fraction is also collected from the buyers by the brokerage agency.</p>
+
+<h4 id="regulation">Regulation</h4>
+
+<p>They are regulated by rules framed by the Securities and Exchanges Commission (SEC) in USA.</p>
+
+<p>Front-running of clients by their brokers is illegal. Also, while assigning option exercises sent to them by the exchange, they should use some equitable mechanism.</p>
+
+<h4 id="quality">Quality</h4>
+
+<p>Brokerages vary in the fees they charge for trades, inactivity, money transfers.</p>
+
+<p>They vary in the account opening process: minimum money required, ease, acceptance of international/ foreign traders.</p>
+
+<p>They also vary in their ability to reinvest dividend without extra fees, interest paid for funds in ’sweep accounts’ holding uninvested cash.</p>
+
+<p>They vary in the types of orders one can place, their quality of execution, the UI, speed of money transfers, whether investments are insured by a government agency (SPIC in USA).</p>
+
+<p>zecco seems to have issues in order execution, severe ACH transfer delays, horrendous customer service. just2trade seems cheap and reliable, but it has very restrictive policies on options trading: eg: it would not allow selling cash covered puts. OptionsHouse seemed more flexible, with a good customer service, if slightly costlier.</p>
+
+<h3 id="fees">Fees</h3>
+
+<p>####</p>
+
+<ul>
+  <li>Exchange fees
+    <ul>
+      <li>When a market charges taker and maker fees, they differentiate whether you’re increasing the size of the order book or decreasing the size of the order book. When you create an order that is immediately matched with already existing orders, you’re a taker because you take liquidity from the market.</li>
+    </ul>
+  </li>
+  <li>Brokerage fees</li>
+  <li>Taxes
+    <ul>
+      <li>On transaction</li>
+      <li>On profits</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="using-leverage">Using leverage</h4>
+
+<p>Aka Margin trading. One can act on one’s belief about a security using money borrowed from an agent - in the hopes that one can sell it, repay the loan and make a profit on top of it.</p>
+
+<h3 id="insider-trading">Insider trading</h3>
+
+<p>Trading based on non-public information - like board meetings - which can especially profit some people more than others, is discouraged and made illegal, mainly based on disguised jealousy.</p>
+
+<h2 id="buying-and-selling">Buying and selling</h2>
+
+<p>Basic actions in a stock market are to buy or sell a security. The securities exchange has programs/ machines which effectively communicate the price of various stocks based on what prices people are asking/ willing to pay for them - by recording these bids.</p>
+
+<h3 id="market-price-order">Market price order</h3>
+
+<p>A market order is an order to buy or sell a stock at the current market price.</p>
+
+<h4 id="market-price-trigger">Market price trigger</h4>
+
+<p>Aka Stop order. A stop order is an order to buy or sell a stock once the price of the stock reaches a specified price (the stop price). When the specified price is reached, your order becomes a market order.</p>
+
+<p>With such orders, one can trigger buying or selling; this is a common technique used by agents for preventing excessive loss.</p>
+
+<p>The disadvantage is that prices could fall rapidly between the trigger and the trade, so that securities are sold at very low prices - this happened in the 2010 Flash crash.</p>
+
+<h4 id="market-opening-closing-trigger">Market opening/ closing trigger</h4>
+
+<p>These orders become a market order at the opening/ closing time of the market.</p>
+
+<h3 id="price-limit-order">Price Limit order</h3>
+
+<p>One may want to buy or sell at or beyond a preset price - but this is only possible when there exist sellers or buyers willing to transact at that price. So, these actions are conducted at an appropriate time by computer programs acting on behalf of the investors.</p>
+
+<p>Price limit order by an agent ensures that the transaction occurs only if it is not too unfavorable to the agent.</p>
+
+<h4 id="market-price-trigger-1">Market price trigger</h4>
+
+<p>Aka Stop-limit order. Once the stop price is reached, the stop-limit order becomes a limit order.</p>
+
+<p>Stop-limit orders improve on stop orders in that: not only do they act on a similar trigger, but they are processed only if the price limit is met for the transaction.</p>
+
+<h3 id="order-size-and-price">Order size and price</h3>
+
+<p>Small ’sell’ orders trade for the highest available bid in the market, whereas large ’sell’ orders may exhaust high-price bids and may actually sell at a lower average price.</p>
+
+<h2 id="multi-step-trading-strategies">Multi-step Trading strategies</h2>
+
+<h3 id="duration">Duration</h3>
+
+<p>The duration required for the entire trade varies. For example, while holding a long position, one can hold on to a stock for a short time - as in day-trading; or one can turn it into a long term investment.</p>
+
+<h3 id="buy-sell">Buy, sell</h3>
+
+<p>One can buy a security at a certain time, in the hopes that it will increase significantly in monetary value - at which point one can sell the security to make a profit.</p>
+
+<h3 id="borrow-sell-buy-return">Borrow, sell, buy, return</h3>
+
+<p>Aka Shorting.</p>
+
+<p>Or one can borrow a security at a certain time, sell it immediately, and buy it in the future at a hopefully lower price to return the borrowed security, - aka shorting. So, one is betting that a certain security will loose value. Or, one can do this by buying credit-default swaps.</p>
+
+<h3 id="sector-etf--company-trading">Sector ETF + company trading.</h3>
+
+<p>Aka Pairs trading. Here agents act on the belief that a certain company will outperform or underperform relative to other companies in the sector.</p>
+
+<p>They take advantage of the outperformance belief by holding a short position of a certain amount on the sector ETF and holding a long position of the same amount in the company in question. Similarly, they take advantage of belief in underperformance by holding a short position on the company and a long position on the sector ETF.</p>
+
+<h2 id="future-trading-contract">Future trading contract</h2>
+
+<h3 id="anticipated-trade">Anticipated trade</h3>
+
+<p>One agent makes a deal with another to buy a certain amount of an ’underlying’ security on a specified future date at a certain ’strike’ price. To satisfy this deal, the seller is obliged to buy the security - if he does not already hold it - on or before the due-date.</p>
+
+<h4 id="motivation">Motivation</h4>
+
+<p>The seller is betting that the market price of the security on or before the due-date will be lower than the set price; and the buyer is betting that the market price will exceed the set-price on or after the due-date. So, both stand to make a profit according to their beliefs.</p>
+
+<h4 id="effect-on-evaluation">Effect on evaluation</h4>
+
+<p>If one ignores market jitters, the beliefs of the buyer and seller are mildly contradictory, in that believes that there will be a fall in the price of the security, whereas they buyer believes that there will be a rise in the price of the security.</p>
+
+<p>These publicly stated beliefs have an effect on the evaluation of securities - speculation about the future can cause currency or commodity prices to rise even during the present time.</p>
+
+<h2 id="buysell-options">Buy/sell options</h2>
+
+<h3 id="definition">Definition</h3>
+
+<p>The buyer of an option gains the right (not obligation) to buy or sell (depending on the option type) an underlying security (100 shares in case of a standard option) at a specified strike price per share by a certain expiration day in case of American-style options (which we consider here), or exactly on a certain day in case of European-style options.</p>
+
+<p>The seller of such an option is called a writer.</p>
+
+<h4 id="premium">Premium</h4>
+
+<p>The price paid for buying an option is called a premium: this insurance term being used because one is essentially guaranteeing purchase or sale at a certain price despite risk of loss.</p>
+
+<p>Its size depends on the terms of the contract (due date, underlying security, strike price). An option is worth nothing if it has expired.</p>
+
+<p>The expected market price of the underlying security remaining the same, premium decreases with time as uncertainty decreases with time.</p>
+
+<h4 id="expiration-day">Expiration day</h4>
+
+<p>Option chains expire weekly, monthly or quarterly. Most commonly, in USA, they expire monthly on the third Friday/ Thursday of every month.</p>
+
+<p>A limited number of weekly options are being tried out.</p>
+
+<h3 id="notation">Notation</h3>
+
+<p>The running example below is XOP call option expiring on 20 Aug 2011, with strike price 48.</p>
+
+<p>Most common notation: 48 Aug call (symbol XOP is mentioned elsewhere).</p>
+
+<p>Sometimes a 5 letter alphabetical symbol is used, with letters indicating the stock, the expiry month, the strike price.</p>
+
+<p>Another notation is XOP 110820C00048000.</p>
+
+<h3 id="options-exchange">Options exchange</h3>
+
+<p>All options purchases, sales and exercises are done through the centralized options exchange: Options clearing corporation (OCC) in USA.</p>
+
+<h3 id="exercising-options">Exercising options</h3>
+
+<p>The holder of an option can exercise his right to buy/ sell the underlying security by informing his broker of this intent before a certain deadline agreed between them.</p>
+
+<p>When exercising an option, one usually needs to pay a brokerage for selling/ buying stock.</p>
+
+<h4 id="effective-time">Effective time</h4>
+
+<p>The option-holder, upon exercising the option, is deemed to have purchased or sold the underlying security at the end of the same trading day: so theoretically he has the right to use the money/ security he gets immediately, and he has the right to any dividend which may be given the next day onwards.</p>
+
+<h4 id="settlement-type">Settlement type</h4>
+
+<p>At exercise, the option contract specifies the manner in which the contract is to be settled: physical (Eg: many equity options) or cash to buy (Eg: index tracking security options).</p>
+
+<h4 id="clearing-assignment">Clearing, assignment</h4>
+
+<p>This intent is communicated to the exchange by the broker/ clearing agent, which then randomly picks a broker who has sold such an option and decides that this entity must fulfill the obligation. The obligated broker will be informed by next day and the securities/ money is deducted from his account.</p>
+
+<p>The broker in turn internally passes the obligation on an equitably chosen client on whose behalf the option contract was written. This process is called assignment.</p>
+
+<h4 id="frequency">Frequency</h4>
+
+<p>Around 12% of all option contracts are exercised: people often prefer to avoid the hassle of exercising options by selling away their options near the expiry date.</p>
+
+<p>People are also motivated to exercise options just before dividend is expected to be distributed.</p>
+
+<h3 id="motivation-1">Motivation</h3>
+
+<p>The motivation for either party to enter the contract is their differing opinions about the price of the underlying security in the stretch of time upto the expiration time.</p>
+
+<p>The seller of a call option believes that with significant probability, the market price during this time will not exceed the (strike-price - premium).</p>
+
+<p>The seller of a put option believes that the price during this time is unlikely to fall below the strike-price - premium.</p>
+
+<h3 id="basic-trades">Basic trades</h3>
+
+<p>Options which grant the right to buy are called call options; those that grant the right to sell are called put options. Selling or buying an option is, as usual, denotes taking a short or long position on the option.</p>
+
+<h4 id="risk-and-return">Risk and return</h4>
+<p>On any given day, the market value (<script type="math/tex">m</script>) of the underlying security at the end of trading on that day, an option (bought with premium <script type="math/tex">p</script>) is said to be ’in the money’ or ’out of the money’ depending on whether exercising it at strike price s leads to a profit or a loss for the holder of the option <script type="math/tex">( \vert s − m \vert −p)</script>. Correspondingly, the option writer looses or gains the same amount.</p>
+
+<p>Since the option holder may choose not to exercise the option in case doing so would lead to a loss, the maximum loss he undergoes is p, while the returns can potentially be ∞ in case of call options or  <script type="math/tex">\vert s \vert</script>  in case of put options. The option writer, correspondingly has limited opportunity for profit <script type="math/tex">\vert p \vert</script> (which happens when the option is not exercised), and a correspondingly big potential loss.</p>
+
+<h4 id="covered-options">Covered options</h4>
+
+<p>Since the put option writer only stands to loose (is obliged to pay) at most  <script type="math/tex">\vert s \vert</script>, even risk averse brokerages usually allow cash covered puts. This is usually a good option in case one intends to invest a certain security at a low enough price.</p>
+
+<p>Similarly, brokerages easily allow folks to write call options when they already own the underlying security in sufficient quantities.</p>
+
+<h3 id="vertical-spreads">Vertical Spreads</h3>
+
+<h4 id="definition-1">Definition</h4>
+
+<p>Here one buys and sells a put or call option over the underlying security, and at the same expiration date at different strike prices (<script type="math/tex">s_b</script> and <script type="math/tex">s_s</script>), with premiums <script type="math/tex">p_b</script>, <script type="math/tex">p_s</script>.</p>
+
+<h4 id="exercising-strategy">Exercising strategy</h4>
+
+<p>Since an option is both bought and sold, the person holding the spread is obligated in case the sold option is exercised. The idea is to be able to meet this obligation whenever necessary by exercising the bought option, hopefully while making a profit.</p>
+
+<p>This being the case, good triggers for exercising the bought option would be a] the expiration day, when the bought option is ’in the money’, and/ or b] the sold option has been exercised.</p>
+
+<h4 id="plots-inference">Plots: inference</h4>
+
+<p>Consider a coordinate system with horizontal axis being time, and vertical axis being price, with 3 curves: two horizontal lines corresponding to <script type="math/tex">y = s_b</script> and <script type="math/tex">y = s_s</script>, and the market value <script type="math/tex">m + p_s − p_b</script>. From this, one can reason quickly and correctly about a] the value of benefiting from the option on a certain expiration day (a vertical line in the plot, leading to the name ’vertical’ spreads).</p>
+
+<p>It is also easy to visualize risk and return with a plot of profit against market price.</p>
+
+<h4 id="risk-and-return-1">Risk and return</h4>
+
+<p>One is reducing the investment (and the risked loss) while limiting potential returns.</p>
+
+<p>If both options are in the money, returns are <script type="math/tex">\vert s_s − s_b \vert −(p_b − p_s)</script>. If just the purchased option is in the money, returns are <script type="math/tex">\vert m − s_b \vert −(p_b − p_s)</script>. If both the options are out of money, loss is <script type="math/tex">(p_b − p_s)</script>. When only the sold option is in the money, loss is <script type="math/tex">\vert m − s_s \vert −(p_b − p_s)≤ \vert s_b − s_s \vert −(p_b − p_s)</script>.</p>
+
+<p>Thus, in all cases, profit and loss are limited. Potential loss is significant only when it happens that only the sold option is in the money: in other cases, loss is merely <script type="math/tex">(p_b − p_s)</script>. This significant loss eventuality is non existent in case of bullish call spreads and bearish put spreads.</p>
+
+<h4 id="types">Types</h4>
+
+<p>In case of a call spread, one buys and sells call options; put spreads are similarly defined. Depending on whether <script type="math/tex">s_s ≥ s_b</script>, call spreads are called bullish or bearish (the reason for which is clear upon considering potential profit and loss). Put spreads are bearish or bullish depending on whether <script type="math/tex">% <![CDATA[
+s_b < s_s %]]></script>.</p>
+
+<h3 id="straddles">Straddles</h3>
+
+<p>In a straddle, one buys/ sells put and call options (at a combined premium p) for the same security at the same strike price s, with the same expiry date.</p>
+
+<p>If the options are bought, we have a long straddle. If the options are sold, we have a short straddle. In case of a long straddle, one is essentially betting that the market price will move outside the interval <script type="math/tex">[s − p, s + p]</script>. In the case of a short straddle, one is betting that the reverse will happen.</p>
+
+<h4 id="risk-and-returns">Risk and returns</h4>
+
+<p>WIth a long straddle, potential loss is atmost p, while potential returns are ∞. In case of a short straddle, the potential returns are atmost p, while potential loss is unlimited.</p>
+
+
+    <div class="tags">
+        
+    </div>
+
+
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'vvasuki-site'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+</div>
+
+
+
+<footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+               &copy;2018 Vishvas Vasuki and friends. <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />
+                    <!--TODO: Figure out how to show localized time below.-->
+ Site last generated: 2018-11-29 10:27:14 -0800 <br />
+<p><img src="/notes/assets/images/company_logo_big.png" alt="Logo"/  height="42" width="42"></p>
+                </div>
+            </div>
+</footer>
+
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+</div>
+
+</body>
+
+<!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-43258994-1','auto');ga('require','displayfeatures');ga('send','pageview');</script>
+
+
+</html>

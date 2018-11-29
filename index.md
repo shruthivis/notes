@@ -41,3 +41,10 @@ summary: Welcome page.
 ## Tech details
 - My code is found elsewhere - check [github](https://github.com/vvasuki).
 - Command `pandoc --from latex --to gfm *.tex >intro.md`
+
+### Building this site
+- This site is built using the jekyll static website generator, with the sanskrit-documentation theme; and hosted on github.
+- To avoid page build time-out errors, I am doing the following: 
+  - build the website locally into the docs folder, including a .nojekyll file.
+  - push the docs folder
+  - ask github to serve the docs folder.

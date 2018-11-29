@@ -1,0 +1,26 @@
+.projectTitle { font-weight: bold; color: #ffffff; padding-top: 15px; padding-bottom: 15px; vertical-align: center; }
+.projectTitle:hover { color: #f0f0f0; }
+
+.githubEditButton { margin-bottom: 7px; }
+
+.navbar { background-color: #be8100; border-color: #015CAE; }
+.navbar ul, .navbar li { list-style: none; }
+.navbar .navbar-nav > li > a, .navbar .navbar-brand { color: white; }
+.navbar .navbar-nav > li > a:hover { color: #f0f0f0; }
+.navbar .navbar-nav > .open > a { color: #015CAE; background-color: #015CAE; color: #ffffff; }
+.navbar .navbar-nav > .open > a:hover, .navbar .navbar-nav > .open > a:focus { color: #015CAE; }
+.navbar .navbar-nav > .open > a:hover, .navbar .navbar-nav > .open > a:focus { background-color: #015CAE; color: #ffffff; }
+.navbar .navbar-collapse, .navbar .navbar-form { border-color: #248ec2 !important; }
+.navbar .navbar-nav > li > a { background-color: transparent; margin-top: 10px; }
+.navbar .navbar-nav > .active > a { border-radius: 5px; }
+.navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus { border-radius: 5px; }
+.navbar .navbar-nav > .open > a { border-radius: 5px; }
+.navbar .navbar-nav > .open > a:focus, .navbar .navbar-nav > .open > a:hover { border-radius: 5px; }
+.navbar .navbar-collapse, .navbar .navbar-form { border-color: #248ec2 !important; }
+
+.navbar .navbar-nav > .active > a { background-color: #be8100; }
+.navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus { background-color: #be8100; }
+
+div.navbar-collapse .dropdown-menu > li > a:hover { background-color: #be8100; }
+
+li.dropdownActive a { font-weight: bold; }

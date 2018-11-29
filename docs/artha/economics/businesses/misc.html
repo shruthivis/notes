@@ -1,0 +1,1741 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content=" ">
+<title>Misc | Vishvas's notes</title>
+
+<!--bootstrap is used to set auto-adjusting (sidebar+content) grid column widths.-->
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/notes/assets/css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="/notes/assets/css/fonts.css">
+<link rel="stylesheet" href="/notes/assets/css/element-styles-general.css">
+<link rel="stylesheet" href="/notes/assets/css/class-styles-general.css">
+<link rel="stylesheet" href="/notes/assets/css/device-specific.css">
+<link rel="stylesheet" href="/notes/assets/css/topnav.css">
+<link rel="stylesheet" href="/notes/assets/css/navbar-toc.css">
+<link rel="stylesheet" href="/notes/assets/css/embeds.css">
+<link rel="stylesheet" href="/notes/assets/css/boxshadowproperties.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript. Note that this requires jquery. -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="/notes/assets/js/navgoco.js"></script>
+<script src="/notes/assets/js/on_doc_ready/sidebar.js"></script>
+<script src="/notes/assets/js/on_doc_ready/toc.js"></script>
+<script src="/notes/assets/js/on_doc_ready/handle_includes.js"></script>
+<script src="/notes/assets/js/on_doc_ready/main.js"></script>
+<script src="/notes/assets/js/on_doc_ready/video_embed.js"></script>
+<script src="/notes/assets/js/on_doc_ready/audio_embed.js"></script>
+
+<link rel="shortcut icon" href="/notes/assets/images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript"
+        src="https://cdn.rawgit.com/mathjax/MathJax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar">
+    <div class="container topnavlinks">
+        <!--Heavily based on http://yago.io/Bootsketch/styleguide/components_-_navbar.html# .-->
+        <div class="navbar-header">
+            <!--fa is font-awesome.-->
+            <a class="fa fa-home fa-lg projectTitle" href="/notes/index.html">&nbsp;Vishvas's notes</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="navbar-nav navbar-right">
+                
+                <!-- {"title"=>"Parts", "contents"=>[{"title"=>"संस्काराः", "url"=>"/saMskAra/"}, {"title"=>"अर्थः", "url"=>"/artha/economics/businesses/intro.html"}, {"title"=>"Mathematics", "url"=>"/computing/programming/index.html"}, {"title"=>"Misc परिशिष्टम्", "url"=>"/misc/index.html"}, {"title"=>"Vishvas's home page", "url"=>"/../index.html"}, {"title"=>"Blog", "url"=>"/assets/blog/index.html"}]} -->
+                <li class="dropdown">
+                    <a href="#" class="btn btn-default"  data-toggle="dropdown">
+                        Parts
+                        <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/saMskAra/">संस्काराः</a></li>
+    
+
+
+
+                        
+                        
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/businesses/intro.html">अर्थः</a></li>
+    
+
+
+
+                        
+                        
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/computing/programming/index.html">Mathematics</a></li>
+    
+
+
+
+                        
+                        
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/misc/index.html">Misc परिशिष्टम्</a></li>
+    
+
+
+
+                        
+                        
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/../index.html">Vishvas's home page</a></li>
+    
+
+
+
+                        
+                        
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/assets/blog/index.html">Blog</a></li>
+    
+
+
+
+                        
+                    </ul>
+                </li>
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="Non-google title search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="/notes/assets/js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                        SimpleJekyllSearch.init({
+                            searchInput: document.getElementById('search-input'),
+                            resultsContainer: document.getElementById('results-container'),
+                            dataSource: '/notes/assets/search.json',
+                            searchResultTemplate: '<li><a href="{url}" title="Misc">{title}</a></li>',
+                            noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                        })
+                    </script>
+                    <!--end search-->
+                </li>
+                <li>
+                    <a class="btn btn-default" href="/notes/assets/google-us.html">Google us!</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- /.container -->
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+            <!-- Sidebar Column.
+             See https://getbootstrap.com/docs/3.3/css/ for exmplanation of values such as col-md-3.
+             -->
+            <div class="col-md-3" id="tg-sb-sidebar">
+                
+
+
+<!-- toggle sidebar button -->
+<ul id="displayed_sidebar" class="nav">
+    <li class="sidebarTitle">Parts</li>
+    <!--fa below stands for a font awesome icon.-->
+    <li><a id="hide-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i>Hide?</a></li>
+    
+    
+
+    <li>
+        <a href="#">Places</a>
+        <ul>
+            
+            
+            
+
+    <li>
+        <a href="#">USA</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/places/usa/intro.html">Intro</a></li>
+    
+
+
+
+            
+            
+
+    <li>
+        <a href="#">SF Bay</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/places/usa/sf-bay/intro.html">Intro</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/places/usa/sf-bay/arts.html">Arts</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+            
+            
+
+    <li>
+        <a href="#">India</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/places/india/intro.html">Intro</a></li>
+    
+
+
+
+            
+            
+
+    <li>
+        <a href="#">Beṇgaḷūru</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/places/india/bengaluuru/intro.html">Intro</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+    
+    
+
+    <li>
+        <a href="#">Economics</a>
+        <ul>
+            
+            
+            
+
+    <li>
+        <a href="#">Businesses</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/businesses/intro.html">Intro</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="active"><a href="/notes/artha/economics/businesses/misc.html">Misc</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+            
+            
+
+    <li>
+        <a href="#">Goods and services</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/goods/intro.html">Intro</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/goods/tradeables.html">Tradeables</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+            
+            
+
+    <li>
+        <a href="#">Investing</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/investing/intro.html">Intro</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/investing/portfolio.html">Portfolio design</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/investing/funds.html">Funds</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+            
+            
+
+    <li>
+        <a href="#">State level</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/state-level/intro.html">Intro</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/state-level/money.html">Money</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/spending.html">Consumption + Donation</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/geo-outlook.html">Geo outlook</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/trading.html">Trading</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/tax.html">Tax</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+    
+    
+
+    <li>
+        <a href="#">Society</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/society/gameTheory/gameTheory.pdf">Algorithmic game theory</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+    
+    
+
+    <li>
+        <a href="#">Skills</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/skills/index.html">Intro</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/skills/learning.html">Learning</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/skills/research.html">Research</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/skills/clothing/index.html">Clothing</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+    
+    
+
+    <li>
+        <a href="#">Education</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/education/principles.html">Principles</a></li>
+    
+
+
+
+            
+            
+
+    <li>
+        <a href="#">Home schooling</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/education/home_school/">Intro</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/education/home_school/faq.html">FAQ</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/education/home_school/india.html">India</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/education/home_school/usa.html">USA</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/education/lecturing.html">Lecturing</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+    
+    
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/index.html">Notes Home</a></li>
+    
+
+
+
+    
+    
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/../index.html">Vishvas's home page</a></li>
+    
+
+
+
+    
+    
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/assets/blog/index.html">Blog</a></li>
+    
+
+
+
+    
+</ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+            </div>
+            <!--3 columns out of 12 are taken by the sidebar on large devices. Hence using 9.
+            Don't want minimum size so to get flowing text small screens, hence using xs.
+            -->
+            
+        
+
+        <!-- Content Column -->
+        <div class="col-xs-9" id="tg-sb-content">
+            <!-- toggle sidebar button -->
+<a id="tg-sb-link" href="#"><i id="tg-sb-icon-content-pane" class="fa fa-toggle-on"></i>Sidebar</a>
+
+<div class="post-header">
+   <h1 class="post-title-main">Misc</h1>
+</div>
+
+
+<div class="post-content" unicode_script=""
+     
+>
+
+   
+
+    
+    <div id="toc_header">
+        <i id="toggle-toc-icon" class="fa fa-toggle-on"></i> What's in this page? <i class="fa fa-space-shuttle"></i>
+        <span style="font-size: smaller">Expand? <i id="toggle-toc-expansion-icon" class="fa fa-toggle-off"></i></a></span>
+    </div>
+    <div id="toc"></div>
+    
+
+
+    
+
+    
+    <a target="_blank" href="https://github.com/vvasuki/notes/blob/master/artha/economics/businesses/misc.md" class="btn btn-default" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+
+    
+
+    
+    <h2 id="money-lending">Money lending</h2>
+
+<h3 id="operation">Operation</h3>
+
+<h4 id="capital">Capital</h4>
+
+<p>Bank owners make an investment - this is called the capital. A part of the bank’s capital goes towards increasing the size of the capital.</p>
+
+<h4 id="liabilities-borrowed-money">Liabilities/ Borrowed money</h4>
+
+<p>They also borrow money from investors - in other words, investors deposit money in a bank. The bank promises a return on investment to the depositor, but this return on investment is but a part of the profit the bank makes using that money.</p>
+
+<p>The amount of money added to the deposit (principal) is called the interest. The amount of interest accrued per dollar per year may be specified using an interest rate/ fraction.</p>
+
+<h5 id="compounding">Compounding</h5>
+
+<p>Interest is often compounded ie added to the principal with a certain frequency- daily or monthly or quarterly or annually. For fluid accounts - where the deposited money varies daily, interest is calculated on the money available in the deposit account for each day and is added to the principal/ compounded usually at a lower frequency - eg: quarterly.</p>
+
+<p>When interest is compounded, a number called ’annual percentage yield’ (APY) may be used to specify compound interest accrued per dollar per year. Or, one may simply specify the simple interest which, together with the compounding frequency, determines the compound interest: In case it varies (and is applied) daily, this simple interest is often stated as 7-day yield.</p>
+
+<h4 id="assets-lent-money">Assets/ Lent money</h4>
+
+<p>Banks lend money and get a greater amount of money, determined by a rate of interest, by some time - usually in installments. They sometimes tend to make other investments too.</p>
+
+<p>The bank’s assets may be liquid or illiquid (eg: mortgages for houses when the real estate prices are falling).</p>
+
+<p>The assets may be good or toxic, depending on their risk/ projected/ current return on investment.</p>
+
+<p>With risky lending (ie: where the probability of default is higher than usual), the bank charges a higher rate of interest in order to mitigate the risk by purchasing or acting as insurance against default.</p>
+
+<h4 id="balance-sheet">Balance sheet</h4>
+
+<p>The bank should be capable of returning the money to the depositors whenever they demand it - as long as they do not do it all at once (a ’run on the bank’). So, always lent money &lt;= borrowed money + capital. In order for the bank to be making the maximum possible safe profit, this should hold: lent money/ investments = borrowed money + capital. Banks for which this holds are said to be solvent.</p>
+
+<h3 id="defaulters">Defaulters</h3>
+
+<p>Banks initially often may try to restructure the debt - allow later payment, increase installments, reduce interest etc..</p>
+
+<h4 id="recovery-attempts">Recovery attempts</h4>
+
+<p>Defaulters borrow money from banks but fail to pay back. THen, the bank employs various means - seizing assets of defaulters or better yet those who guaranteed payment, shaming and illegal coercion in some cases to recover the money. Defaulters with political power often get their debts written off.</p>
+
+<h5 id="collateral">Collateral</h5>
+
+<p>[<strong>Incomplete</strong>]</p>
+
+<h5 id="insurance">Insurance</h5>
+
+<p>See section on credit default swaps.</p>
+
+<h4 id="reduced-capital">Reduced capital</h4>
+
+<p>Bad loans usually reduce a bank’s capital. But, sometimes, the amount of bad loans exceeds the bank’s capital, and the bank becomes insolvent. The bank then is incapable of repaying the depositors.</p>
+
+<h3 id="insolvency-consequences">Insolvency consequences</h3>
+
+<p>An insolvent bank, having made bad investments, is incapable of repaying depositors.</p>
+
+<h4 id="guarantees">Guarantees</h4>
+
+<p>Small depositors are guaranteed to get their money back, up to a certain limit- usually by government agencies. But, such guarantees do not protect big investors.</p>
+
+<h4 id="economic-consequences">Economic consequences</h4>
+
+<p>Bad money lending leads to ruin of the lender; sometimes selling ownership of these loans on the stock market, they bring ruin to others: 2008 financial crisis resulted from bad housing loans in USA, for example.</p>
+
+<p>Failure of banks also leads to a credit-crisis.</p>
+
+<h4 id="government-rescue">Government rescue</h4>
+
+<p>The government, is motivated to rescue banks - to maintain GDP growth. This has been true since Roman times. Means of rescue are described for businesses in general elsewhere.</p>
+
+<h6 id="nationalization">Nationalization</h6>
+
+<p>This involves stock injection by the government. When many banks are insolvent, the timing becomes important - all banks should be nationalized at the same time, in order to prevent panicked withdrawal of deposits from banks which are yet to be nationalized because nationalization indicates that the bank is insolvent, and depositors may suspect that the government may be incapable of rescuing it.</p>
+
+<p>This nationalization is usually meant to be temporary - governments ideally find new buyers as soon as possible. But this is difficult when many banks are insolvent.</p>
+
+<h3 id="deposit-account-services">Deposit account services</h3>
+
+<h4 id="fees">Fees</h4>
+
+<p>Some banks may charge fees for their services, which are often waived if the customer has certain minimum deposits. Others may provide these services for free in order to beat competition, and to reduce workload of having to provide manual service at branches.</p>
+
+<h5 id="service-quality-trade-off">Service quality trade-off</h5>
+
+<p>Compared with Small/ local/ cooperative/ internet only banks/ credit unions, Large banks usually have the advantage of having a large ATM network and slicker online banking/ remote deposit systems.</p>
+
+<p>But, large banks have the disadvantage of levying heavier fees, lower deposit interest rates, higher loan interest rates, worse customer service.</p>
+
+<h6 id="advantageous-combination">Advantageous combination</h6>
+
+<p>An high yield savings or money market account (perhaps in a credit union) with a checking account in a large bank; and ACH transfers set up between them.</p>
+
+<h4 id="limited-withdrawal-accounts">Limited withdrawal accounts</h4>
+
+<p>These include savings accounts and money market accounts - the latter, investing in bonds (the money market) usually yields a higher rate of interest. The number of withdrawals is limited to increase the probability of deposited funds being available to banks: It is 6 in USA. A certain minimum balance is usually required.</p>
+
+<h4 id="term-deposits">Term deposits</h4>
+
+<p>Funds from these accounts cannot be withdrawn for a certain period of time. Banks may allow withdrawal under certain penalties. In return for this guaranteed deposit, these yield a relatively high rate of interest.</p>
+
+<h5 id="recurring-periodic-deposit">Recurring/ periodic deposit</h5>
+
+<p>These deposit accounts require small periodic deposits. This is often done at banks and even at the post office in India.</p>
+
+<h4 id="checking-account">Checking account</h4>
+
+<p>Aka transactional/ current account. A checking account allows bank customers to write checks - so it can be used as money. It does yields much less interest than savings account - often nothing.</p>
+
+<h5 id="check-redemption">Check redemption</h5>
+
+<p>The person to whom the check is presented can redeem it for cash at his bank, which communicates with the issuers bank to get money from the issuer’s account. If the issuer’s account lacks sufficient funds, a penalty is imposed to discourage such irresponsibility.</p>
+
+<h6 id="reversal-availability">Reversal/ availability</h6>
+
+<p>The payer’s bank also has the right to reverse the transfer within a few days (5 in USA) - so funds may not be immediately available for withdrawal.</p>
+
+<p>Also, one can refuse/ stop payment in case of a dispute between the payee and the payer.</p>
+
+<h5 id="fee-avoidance-conditions">Fee avoidance conditions</h5>
+
+<p>Chase: avg daily balance of 1500, no interest. BoA campusEdge: free, no interest. BoA MyAccess: avg daily balance of 1500, no interest. UFCU: Free, no interest.</p>
+
+<p>Ally checking: free checks, .5% interest, no min balance, refunds ATM charges; bill pay reportedly unreliable. Morril Janes: 1.5%, min 1500.</p>
+
+<h4 id="automatic-remote-tellers">Automatic/ remote tellers</h4>
+
+<h5 id="atms">ATM’s</h5>
+
+<p>Banks usually have a network of ATM machines whence cash may be drawn and deposits made. A debit card is issued for their use. They may be associated with an incentive to encourage its use: why?</p>
+
+<p>Use of ATMs maintained by other banks results in fees, eg: 2$ for BoA; which may be refunded by the bank with the account.</p>
+
+<h5 id="remote-deposits">Remote deposits</h5>
+
+<p>Banks often offer smart-phone applications or websites from which deposits can be made. For example, deposits can be made by using the phone’s camera on a check.</p>
+
+<h4 id="bill-payment">Bill payment</h4>
+
+<p>Banks offering this service send cashier’s checks or electronic transfers on behalf of the customer.</p>
+
+<h4 id="electronic-fund-transfer-eft">Electronic Fund transfer (EFT)</h4>
+
+<h5 id="ach">ACH</h5>
+
+<p>With ACH (Automatic clearing house), money transfer between banks is done electronically within a given country. They are commonly used to process direct deposits etc.. To use ACH, one needs to know the routing numbers/ ABA codes and the account numbers for the source and destination accounts.</p>
+
+<h6 id="reversal-availability-1">Reversal/ availability</h6>
+
+<p>The payer’s bank also has the right to reverse the transfer within a few days (5 in USA) - so funds may not be immediately available for withdrawal.</p>
+
+<h6 id="us-charges">US charges</h6>
+
+<p>Chase, BoA: Free pull, $3 for a push (not for chase?). PayPal, ufcu: Free push/pull.</p>
+
+<h6 id="between-usa-and-india">Between USA and India</h6>
+
+<p>ACH to Indian bank branches and VISA cards is free if done through ICICI bank : they make money by using a favorable exchange rate.</p>
+
+<p>With ICICI, “Outward remittances” used to transfer money from India to USA: While it is free for NRI’s, for residents, ICICI charges the higher of 0.25% and Rs 1200 for such transfers. They can be done online.</p>
+
+<h5 id="wiring-money">Wiring money</h5>
+
+<p>Suppose two banks have reciprocal accounts with each other: then, by sending a message with account and settlement information, they send money. Even if the banks do not hold reciprocal information, they act through ’corresponding’/ intermediate banks.</p>
+
+<p>This is commonly used for international money transfers.</p>
+
+<h3 id="foreign-deposit-accounts-in-india">Foreign deposit accounts in India</h3>
+
+<p>Higher interest rates make opening savings account in foreign banks attractive. Repatriability and taxation should be considered.</p>
+
+<h4 id="fcnr-deposits">FCNR Deposits</h4>
+
+<p>These accounts are held in foreign currency - usually $. They yield a lower interest rate.</p>
+
+<h4 id="nre-rupee-accounts">NRE rupee Accounts</h4>
+
+<p>Funds held in the account, interest earned on them and returns from investments using them are fully repatriable. NRE accounts are not taxable in India.</p>
+
+<p>These may be term deposits or savings accounts (yielded 3.5% in 2011).</p>
+
+<h4 id="nro-rupee-accounts">NRO rupee Accounts</h4>
+
+<p>The principal amount is not repatriable and can be used only for local payments. However, the interest earned is fully repatriable. Income earned on investments done on non-repatriable basis is to be credited to NRO account.</p>
+
+<p>Other current incomes such as pensions, dividends, rent, etc are also repatriable, subject to producing the appropriate certificate from a chartered accountant. Funds up to USD 1 million (or equivalent) per financial year can be repatriated out of the balance held in NRO accounts for the education of your children, for medical expenses for your family and you, etc.</p>
+
+<h4 id="investment-routing">Investment routing</h4>
+
+<p>Portfolio Investment Scheme (PINS) is a scheme of Reserve Bank of India defined in Schedule 3 of Foreign Exchange Management Act 2000. Investments made from foreign accounts is repatriable only if it was made from a designated ’repatriable’ account.</p>
+
+<p>As per recent RBI guidelines, NRI/OCB should have a separate bank account exclusively for PINS purposes. Transactions relating to their personal banking as well as on account of transactions relating to shares acquired other then under PINS including IPOs should be routed in a separate bank account not linked to PINS. Account/s can be joint.</p>
+
+<p>The sales proceeds are subject to Capital Gains tax. The rate of tax depends upon the period of holding. Currently the rate for short-term capital gains tax is 30.6% and for long-term capital gains is 10.2% inclusive of surcharge in both the cases. Such tax will be deducted at source by the Designated Bank.</p>
+
+<h2 id="manufacturing">Manufacturing</h2>
+
+<h3 id="process-design-productivity-and-quality">Process design: Productivity and quality</h3>
+
+<p>How to transform the shop-floor/ assembly process and the procurement/ design process to increase quantity and quality?</p>
+
+<h4 id="quality-quantity-trade-off">Quality/ quantity trade-off</h4>
+
+<p>When the focus is on quantity, quality often suffers, as workers are provided incentives and punishments which, focusing on quantity, largely ignore quality. Quality control is often postponed to a later stage.</p>
+
+<p>The Toyota process, observing that correcting/ tolerating mistakes can be costly, tries to ensure that they get it right the first time - workers have the ability to stop the assembly-line in order to fix a mistake when they make/ detect it.</p>
+
+<h4 id="supplier-coordination">Supplier coordination</h4>
+
+<p>Workers on the shop floor, besides designers, often make valuable suggestions and observations about how the parts they assemble could be improved for their purposes. To implement these improvements, it is important to work closely with the suppliers.</p>
+
+<h4 id="teamwork">Teamwork</h4>
+
+<p>Workers working in small teams, with minimal hierarchy; rotating and exchanging jobs often to resolve monotony; encouraging and helping each other to finish the job and to improve the process show excellent productivity.</p>
+
+<p>But, workers stuck to individual jobs, antagonistic to management due to a lack of mutual trust and with a hierarchy, tend to have very low productivity. Eg: GM in the 70’s.</p>
+
+<h4 id="continuous-improvement">Continuous improvement</h4>
+
+<p>Aka kaizen in japanese. Every movement/ procedure can be timed and measured, and skills can be improved. The processes (including worker comfort) and parts can be continually improved based on worker suggestions.</p>
+
+<h3 id="quality-check">Quality check</h3>
+
+<p>Before the goods are deployed to the market-place, faulty goods must be detected.</p>
+
+<h2 id="food-production">Food production</h2>
+
+<h3 id="agriculture">Agriculture</h3>
+
+<h4 id="resources">Resources</h4>
+
+<p>Agriculture requires non-saline water, fertile land, seeds, labor. Of these, overall, water is often most scarce.</p>
+
+<h3 id="artificial-production">Artificial production</h3>
+
+<p>Research is on to produce meat in-vitro.</p>
+
+<h3 id="demand-and-supply">Demand and supply</h3>
+
+<h4 id="past">Past</h4>
+
+<p>The discovery of agriculture enabled mass, reliable food production. For most of history, we have had a food surplus. When there was a famine in one country, one could rely on imports from another.</p>
+
+<h4 id="forecast">Forecast</h4>
+
+<p>Human population is growing.</p>
+
+<p>Non vegetarian diet requires production of more grain, consumption of water, use of land. As people grow affluent in developing countries, the demand for meat grows higher. Eg: In 2010, India roughly consumed 400 units of grain per capita, while America consumed 1600 units of grain per capita.</p>
+
+<h5 id="water-scarcity">Water scarcity</h5>
+
+<p>In many countries, people are pumping out water faster than nature can replenish the aquifers by precipitation. Also, people in many places have been inefficient in storing precipitated water - especially in modern times (unlike ancient rAjasthAna and kOlAra folk).</p>
+
+<h5 id="land-scarcity">Land scarcity</h5>
+
+<p>Arable land is scarce. Some land is part of important nature reserves. Plus, there is competition from using it for growing ethanol producing crops.</p>
+
+<h5 id="climate-change">Climate change</h5>
+
+<p>Because agricultural crops were domesticated when the climate was cooler, hotter climate leads to less yields. It is estimated that for wheat, every 1 degree increase corresponds to 10% reduction in yield. Besides, climate change produces more extremes.</p>
+
+<h3 id="role-of-nations">Role of nations</h3>
+
+<p>Food supply affects social stability. Eg: food riots in 18th century France, 2011 Tunisia etc.. So, governments are very concerned with preserving adequate food supply.</p>
+
+<p>Food exporters, in times of inflation, ban exports. Considering the fact that the food market is a seller’s market, they refuse to enter into long term agreements.</p>
+
+<p>So, food importers have begun to purchase land and water supply abroad - especially Africa - to grow their own food. They have also begun to make deals directly with farmers.</p>
+
+<h2 id="insurance-1">Insurance</h2>
+
+<p>Insurance products, besides serving the main purpose of hedging to counter financial risk, often also function as investment in mutual funds.</p>
+
+<h3 id="functioning">Functioning</h3>
+
+<h4 id="as-security">As security</h4>
+
+<p>This business takes advantage of the fact that risk of a particular kind (house burning down, theft, death), affects a small fraction of a population at any given time, with very high probability. So, it collects fees/ premiums from a large number of insured people, and compensates those on whom a bad event befalls.</p>
+
+<p>When the total fees collected exceeds the money usually lost in providing compensation, there is profit.</p>
+
+<h4 id="risks-to-unowned-entities">Risks to unowned entities</h4>
+
+<p>Suppose that you wanted insurance to compensate you for a bad-event befalling someone else: like getting insurance to compensate you if some other company, with whom you have no direct dealing goes bankrupt! Such an interest would make sense if either a] you are making a bet, hoping to make a large profit, or b] the bad event befalling someone else would affect you, because it affects others you deal with.</p>
+
+<p>This happened in the ’credit default swap’ industry, for example in the first decade after 2000; and caused companies (eg: AIG insurance) unconnected (directly) with sub-prime mortgages to collapse.</p>
+
+<h3 id="health-insurance">Health insurance</h3>
+
+<p>Negative problems associated with using health insurance as a way of providing an essential public service are described elsewhere.</p>
+
+<h4 id="negotiation-with-care-providers">Negotiation with care providers</h4>
+
+<p>Hospitals often form regional or national conglomerates, so that they can negotiate with insurance providers from a stronger position. Insurance providers tend to be fragmented, and patients often side with care-providers, so they often are at a weaker position to reduce costs.</p>
+
+<p>Also, care providers often give discounts to big insurers, by shifting costs to smaller insurers; leading to greater local monopoly.</p>
+
+<h4 id="unscrupulous-practices">Unscrupulous practices</h4>
+
+<h5 id="refusal-of-insurance">Refusal of insurance</h5>
+
+<p>People showing any risk factor - being too thin</p>
+
+<h5 id="denial-of-treatment">Denial of treatment</h5>
+
+<p>Often insurance companies deny (responsibility to pay for) essential care, claiming that the treatment is unnecessary, or that it is experimental, or claiming that the individual had a preexisting condition which was either not revealed, or was not properly reported or treated before insurance; often with death being a consequence.</p>
+
+<p>Medical directors have the incentive to save money by denying care.</p>
+
+<h5 id="regulation">Regulation</h5>
+
+<p>If within USA, the state Insurance commissioner can look into complaints of wrongdoing on the part of the insurance companies.</p>
+
+<h4 id="generic-vs-branded-medicine">Generic vs branded medicine</h4>
+
+<p>Insurance companies may demand that the patient bear a fraction of the cost (copayment), which often turns out to be significant. This is a way the insurer encourages patients to opt for generic medicine rather than much costlier branded medicine. Drug companies retaliate by paying the copayment themselves (through coupons) while getting the insurance company to bear most of the cost.</p>
+
+<h4 id="policy-types">Policy-types</h4>
+
+<h5 id="benefits-fixed-vs-comprehensive">Benefits: fixed vs comprehensive</h5>
+
+<p>Fixed-benefit policies have sub-limits on how much they will pay for various events like hospitalization: it seems that this can be very inadequate - covering less than 1/3 of the cost according to some online accounts. Comprehensive benefit policies don’t have such sub-limits.</p>
+
+<h5 id="deductibles-and-premiums">Deductibles and premiums</h5>
+
+<p>Policies with high deductibles, often carry lower premium - as the insurance now only has to cover the cost of major health problems cropping up. They are often associated with a health-savings account where the employer and emplyoee contribute money. Such funds are described separately in the section on retirement/ health savings funds.</p>
+
+<p>By forcing providers and patients to deal with each other for common problems, competition to benefit the patients is said to thrive.</p>
+
+<h5 id="claims-processing">Claims processing</h5>
+
+<p>Some policies make sure that the hospital takes care of insurance claims, while others expect the patient to pay and then get reimbursed.</p>
+
+<h5 id="multiple-policies">Multiple policies</h5>
+
+<p>In some cases where a person holds multiple policies, one of them acts as the primary policy while another acts as the secondary. In other cases, where there is ambuguity, there is some hassle with insurance companies trying to get each other to pay.</p>
+
+<h5 id="renewal-restrictions">Renewal restrictions</h5>
+
+<p>Some policies require a minimum period of enrollment in order to be renewable. Ability to renew is important in order for being able to afford ongoing treatment when the policy expires, and in order to avoid having to tackle the problem of having a preexisting condition when buying a new policy.</p>
+
+<h4 id="for-visitors-travellers">For visitors/ travellers</h4>
+
+<p>These policies have no incentive to cover preventative care.</p>
+
+<p>Also, even if the hospital charges the insurance company directly, the policy-holder still needs to file a claim in order to establish the authenticity of the claim : something which would not be required for local people.</p>
+
+<h5 id="buying-choices">Buying choices</h5>
+
+<p>Decent policies costing less than 50$ a month are available at many places on the internet, including<br />
+.<br />
+Some costlier policies have limited coverage for acute onset of pre-existing conditions - kvrao.org (India foundation).</p>
+
+<p>Travel insurance bought in the country of travel implies simpler service (due to an established network), and it is likely to be regulated by the government (so that complaints are possible).</p>
+
+<h2 id="arbitrage">Arbitrage</h2>
+
+<p>Goods/ services often have different values in different markets. So, often people can fulfill demand in the market where an item is costlier by buying it from a market where it is cheaper and getting it to the costlier market.</p>
+
+<p>For securities traded in different stock exchanges, automatons do this effectively.</p>
+
+<p>## <br />
+Intermediary trading</p>
+
+<p>Basic negotiable securities tradings actions are considered elsewhere.</p>
+
+<h3 id="role-in-markets">Role in markets</h3>
+
+<p>Intermediary traders buy and sell items, holding them for a short time while it changes hands between long-term investors. In doing so, they make a profit.</p>
+
+<p>So, they focus strongly on the guessing and taking advantage of the motives of investors - aka front-running investors.</p>
+
+<h4 id="liquidity-cost">Liquidity, cost</h4>
+
+<p>The benefit they provide is in bringing greater liquidity to assets, buy supplying a sea of ready purchasing and selling power. So, an investor wanting to find a seller or a buyer has a easier time.</p>
+
+<p>The disadvantage is that they increase the costs to investors: sellers receive less while buyers would pay more than if they were dealing directly with each other.</p>
+
+<h3 id="quote">Quote</h3>
+
+<p>This includes the current asking and bidding price, bid size etc..</p>
+
+<h3 id="charts">Charts</h3>
+
+<p>These are especially useful for highly liquid items Eg: negotiable securities. Portfolio decisions can be based on looking at the chart for the appropriate time period. With a chart, one can observe features like support and resistence levels. Thence, one can decide whether it is a good time to buy or sell an equity.</p>
+
+<p>This is because charts contain in them the evaluations of large fund managers etc.. But that can be misleading in case of bubbles.</p>
+
+<h4 id="price-vs-time">Price vs time</h4>
+
+<h5 id="stock-price-piecewise-line">Stock price: piecewise line</h5>
+
+<p>On this chart, the main plot would be the stock price as a function of time. When the time axis is finely grained, one uses a piecewise linear function to show price movements.</p>
+
+<h5 id="stock-price-candlesticks">Stock price: candlesticks</h5>
+
+<p>For some analysis it is more convenient to consider grosser discretizations of time: eg: daily. Since the stock price will have shown variations during this time period, one may represent many important features, like starting price, closing price, price range within a standard deviation: eg: using candlestick like shapes instead of points. Depending on whether price rose or fell during a time period, these candlesticks may be shaded differently.</p>
+
+<h5 id="trend-lines">Trend lines</h5>
+
+<p>On the same chart, it is useful to show a pair of trend lines/ Bulliger bands which connect highs and lows at grosser time periods. This helps understand how the resistance to price increases and support in the face of price decreases have varied over time, while ignoring short-term variations.</p>
+
+<h6 id="support-resistence-levels">Support/ resistence levels</h6>
+
+<p>Support and resistance levels in a stock’s price chart correspond to price-ranges at which a twice or more times a low or high was observed. These include within them information about the fundamental value of a stock, as determined by fund managers.</p>
+
+<h5 id="moving-averages">Moving averages</h5>
+
+<p>Plots of k-day moving averages, for k = 15 to 200, brings out a smoother curve ignoring local jitters. This is helpful for long/ intermediate term investors.</p>
+
+<h5 id="futures-price">Futures price</h5>
+
+<p>Here, one plots the average strike price against time together with the actual security price. If future pricing were perfect, these lines would coincide; but this is not the case. The current price is affected by its speculated price, while the speculated price is affected by the current price. So, these curves tend to converge.</p>
+
+<p>If the speculated price converges from above, it is called contango. If the speculated price converges from below [<strong>Incomplete</strong>].</p>
+
+<h4 id="running-strength-index-rsi">Running strength index (RSI)</h4>
+
+<p>This plots a ratio which measures bullishness (0 to 1) against time. Anything above .5 is considered strongly bullish. Extereme RSI’s outside say [.3, .7] indicates oversoldness: ie the market is probably overreacting, one-sided, in a herd mentality. This is used as a signal by some traders to bet against the trend.</p>
+
+<h5 id="moving-average-convergance-divergencemacd">Moving average convergance/ divergence(MACD)</h5>
+
+<p>This plots two exponential weighted k-day moving averages for, say, k = 12 and 26 against time.</p>
+
+<p>These together indicate the momentum of price, and can also indicate bullishness and bearishness levels. This is mainly of interest to traders rather than long term investors.</p>
+
+<h4 id="volume-histogram">Volume histogram</h4>
+
+<p>[<strong>Incomplete</strong>]</p>
+
+<h3 id="patterns">Patterns</h3>
+
+<p>Traders have come to assign names to various patterns in the movement of prices. The idea is to use patterns in predicting future price movements: ie, determine the trend.</p>
+
+<h4 id="reliability">Reliability</h4>
+
+<p>Reliability of patterns can be judge using the duration of the developing pattern. However, such reliance is dangerous in case of a bubble.</p>
+
+<h4 id="types">Types</h4>
+
+<p>Patterns may be short term or long term. They may be continuation patterns or reversals depending on the overall price movement (taking away the jitters).</p>
+
+<h4 id="ticks">Ticks</h4>
+
+<p>These are very short term patterns - where just the last two distinctly priced trades (possibly at the end of small time-periods) are considered. A security price which is observed to be increasing is said to be uptick. The reverse is called a down-tick.</p>
+
+<h4 id="triangle">Triangle</h4>
+
+<p>The trendlines connecting highs and lows converge to form a triangle. So, there is a contraction in the price range. This is usually a continuation trend.</p>
+
+<h5 id="ascending">Ascending</h5>
+
+<p>Here, the highs are roughly the same level, while the lows keep getting higher. This is a sign of increasing demand sufficient to overcome existing skepticism about it. This usually indicates rising price.</p>
+
+<h5 id="descending">Descending</h5>
+
+<p>Here, the lows are roughly the same level, while the highs keep decreasing. This usually indicates falling price.</p>
+
+<h5 id="symmetric">Symmetric</h5>
+
+<p>Here, highs keep decreasing while lows keep increasing to converge at an intermediate price.</p>
+
+<h5 id="wedge">Wedge</h5>
+
+<p>In this pattern, trend-lines connecting highs and lows respectively seem to converge, but they move in the same direction. This is a continuation pattern - indicating acceleration or deceleration.</p>
+
+<h4 id="head-and-shoulders">Head and shoulders</h4>
+
+<p>The price vs time graph shows price going towards (either increasing or decreasing) a certain level (the neck-line), and then 3 spikes beyond this level, the second of which (the head) is taller than the others.</p>
+
+<p>This is a reversal pattern.</p>
+
+<h3 id="equity-trading">Equity trading</h3>
+
+<h4 id="insurance-against-loss">Insurance against loss</h4>
+
+<p>Traders are especially sensitive to short term price variations; eg: they would not like to leave their money tied up in securities for a long time, unlike investors. So, they often buy and sell options to guard against adverse price movements.</p>
+
+<h3 id="options-trading">Options trading</h3>
+
+<p>Basic options trading actions are considered elsewhere.</p>
+
+<h4 id="strike-price-from-chart">Strike price from chart</h4>
+
+<p>For highly volatile stocks, a good way to set the strike price might be to look at the support or resistence level.</p>
+
+<p>[<strong>Incomplete</strong>]</p>
+
+<h2 id="payment-services">Payment services</h2>
+
+<h3 id="credit-cards">Credit cards</h3>
+
+<p>Credit cards are a relatively safe way for lenders to encourage public borrowing while making purchases - that way, they can make a profit.</p>
+
+<p>Stores - possibly getting a commission - often offer credit cards (with attractive terms) under their brand-name to their customers; but they are actually managed by banks.</p>
+
+<p>The necessary infrastructure is managed by one of a handful of companies - like Visa, MasterCard, AmericanExpress etc..</p>
+
+<h4 id="advantages-to-customer">Advantages to customer</h4>
+
+<p>You earn reward points, which often correspond to 1 cent per dollar spent; with spendings in certain categories earning greater reward points. Reward programs have minor differences: rewards could be up to 5 cents per dollar spent in certain (often rotating) categories.</p>
+
+<p>You have some protection in case of dispute with merchant.</p>
+
+<p>You get some travel/ vehicle rental/ purchase related insurance benefits.</p>
+
+<h5 id="official-expenses">Official expenses</h5>
+
+<p>Consider getting a Diner’s club or an american express card, which usually allow more delay in credit repayment so as to accommodate dealys in reimbursement.</p>
+
+<h3 id="debit-cards">Debit cards</h3>
+
+<p>It is best to avoid using a debit card online - in case of fraud/ misuse due to details being leaked by a merchant, you can loose money in the bank account - if only temporarily.</p>
+
+<h3 id="intermediate-services">Intermediate services</h3>
+
+<p>Services like Paypal ensure that credit card/ bank account information, which can potentially be misused, does not reach the merchant - instead, for a fee from the merchant, these services collect money from the customer and pass it over to the seller.</p>
+
+<h2 id="goods-distribution">Goods distribution</h2>
+
+<h3 id="retail-vs-wholesale">Retail vs wholesale</h3>
+
+<p>Retail business focuses on distributing goods to consumers, while making a profit. Wholesalers focus on selling goods in bulk at a lower price to other businesses and distributors. Eg in USA: Sam’s club, costco. In India: Metro.</p>
+
+<h3 id="price-discrimination">Price discrimination</h3>
+
+<p>Different people are willing to pay different prices for the same product, and retailers try to exploit this.</p>
+
+<p>In general, retailers try to distinguish the two types of customers by offering lower prices only to those who participate in some undesirable process which costs extra time and attention- eg: waiting for a certain day to make a purchase, committing to purchase in advance, gathering coupons.</p>
+
+<h4 id="haggling">Haggling</h4>
+
+<p>In markets where there is a slower pace of life, prices were negotiated with each customer. But, this costs time and attention on both sides. Hence, in places with a fast pace of life, a base-price is fixed, and other techniques are used for price discrimination.</p>
+
+<h4 id="special-discounts">Special discounts</h4>
+
+<p>Discounts are offered to special categories of people known to be price sensitive - old people, students, people who shop in the same store repeatedly, members of clubs.</p>
+
+<h4 id="store-sale">Store sale</h4>
+
+<p>To spur more purchases by price-sensitive customers- especially of items obsoleted by competition - retailers sometimes offer incentives/ price reductions. This often happens in special occasions Eg: Black Friday, Christmas in USA.</p>
+
+<h5 id="illusory-discounts">Illusory discounts</h5>
+
+<p>Often, there is only the appearance of price decrease: The label price is actually increased prior to offering a discount.</p>
+
+<h4 id="coupons">Coupons</h4>
+
+<p>Customers willing to find coupons in certain locations (including deal websites) are offered a lower price.</p>
+
+<h3 id="sales-techniques">Sales techniques</h3>
+
+<h4 id="salesmen">Salesmen</h4>
+
+<p>Salesmen are employed to answer questions, pitch various products, perhaps even bargain with potential customers. Traveling salespeople visit homes and try to sell products. Telemarketers call/ email to sell products.</p>
+
+<p>They are provided incentives to do a good job - eg: commissions which increase with the number of items sold.</p>
+
+<h5 id="pitching">Pitching</h5>
+
+<p>Demonstrations are often used, with the customer being allowed to handle the product.</p>
+
+<h5 id="sales-tricks">Sales-tricks</h5>
+
+<p>Once the customer agrees that the product is desirable, salesfolk can use psychological tricks to encourage purchase at a good price. For example, they may appeal to the vanity of the customer by saying that ownership of the product leads to greater social/ moral status.</p>
+
+<h4 id="other-incentives">Other incentives</h4>
+
+<p>Music to encourage impulsive behavior/ spending is often used.</p>
+
+<p>Physical interaction with products - touching, holding - increases probability of purchase.</p>
+
+<p>Shopping experience/ comfort is elevated by clustering shops at an attractive location (malls), offering food, rest-rooms, day-care etc..</p>
+
+<h3 id="internet-retailers">Internet retailers</h3>
+
+<p>These have the advantage of incurring lower building/ sales labor costs because of not having to operate physical stores. Without space constraints, they are capable of maintaining a large inventory, which caters to quirky tastes of consumers, which constitutes a large fraction of consumer needs - aka the long tail of consumer needs distribution.</p>
+
+<h3 id="returns-policy">Returns policy</h3>
+
+<p>When returns are accepted, often a restocking fee is charged for electronic items in USA.</p>
+
+<h3 id="electronics-retail">Electronics retail</h3>
+
+<p>Some stores, like Fry’s guarantee meeting competitor’s price within a few days of purchase.</p>
+
+<h4 id="pressure-for-low-prices">Pressure for low prices</h4>
+
+<h5 id="short-life-span">Short life-span</h5>
+
+<p>Due to technological progress, devices become obsolete fast; so there is a thriving secondary market. So, devices with newer technologies must compete with lower priced older devices.</p>
+
+<h5 id="competition">Competition</h5>
+
+<p>Electronics industry is highly competitive; and deal-sharing websites ensure that customers are able to find the best deals/ prices online.</p>
+
+<h2 id="online-reselling-infrastructure">Online reselling infrastructure</h2>
+
+<p>Web-services like Ebay, Amazon etc.. try to ensure that there to be mutually satisfactory transactions between sellers and buyers.</p>
+
+<p>For the sellers, they make it very convenient for to list their products on a popular platform on the internet, perform much of the order-information processing for the seller. For the buyers, they ensure that they have access to the seller’s rating/ reputation, have some guarantees about the quality of service.</p>
+
+<h3 id="fraud">Fraud</h3>
+
+<p>Buyers/ sellers sometimes try to avoid paying commission on items sold by finalizing the transaction outside the reselling website.</p>
+
+<h3 id="revenue-sources">Revenue sources</h3>
+
+<p>Advertisements, commission from sellers.</p>
+
+<h3 id="set-time-auctions">Set-time auctions</h3>
+
+<p>Eg: EBay. In these transactions, the item is sold to the highest bidder at a certain point in time.</p>
+
+<h4 id="pricing-assistance">Pricing assistance</h4>
+
+<p>Auction websites may offer statistics about the price paid for an item of a certain type.</p>
+
+<h4 id="underselling-avoidance">Underselling avoidance</h4>
+
+<p>Sellers have various ways to ensure that they don’t sell cheaply: Auctioned items may have a starting bid revealed to bidders or reserve price not revealed to bidders - the latter option being used to not turn away bidders. Even for items without a reserve price (to attract bidders), sellers can ensure that they only loose the commission by using automatic bidding services acting on their behalf.</p>
+
+<h4 id="bidding-services">Bidding services</h4>
+
+<p>One can use services like esnipe to bid using a program in the last few moments of the auction. They charge commission for auctions won.</p>
+
+<h3 id="bid-price-auction">Bid-price auction</h3>
+
+<p>Aka penny, all-pay auctions.</p>
+
+<p>Bids rise in small increments, and fees are charged for every bid.</p>
+
+<p>The winner of such auctions often gets items at much lower prices: eg: 1/3 or 1/2. But, the auctioneer still recovers the cost of the item from the bid-fees.</p>
+
+<p>They often start out as set-time auctions, but auctioneers often extend the time by small increments (eg: 20 sec) to take advantage of peoples’ bidding.</p>
+
+<h2 id="advertising">Advertising</h2>
+
+<h3 id="fundamentals">Fundamentals</h3>
+
+<p>The basic problem in advertising is finding the audience who is likely to buy the product/ service (target audience).</p>
+
+<h4 id="placement-and-position">Placement and position</h4>
+
+<p>There may be place for a limited number of advertisements to be displayed in a certain venue. Yet, there may be several advertisers competing for those places. Further they may be interested in gaining favorable placement in the ad-list.</p>
+
+<h3 id="coupon-distribution">Coupon distribution</h3>
+
+<p>Consider a seller wanting to advertise inventory to target customers, or wanting to spur business. In exchange for a share in the resulting sales revenue, Internet coupon distribution companies like groupon make a seller’s discount-coupons available to customers. Customers are attracted by the prospect of getting goods/ services at a cheaper rate. The sellers are attracted by the prospect of undiscounted business the customer’s visit may generate.</p>
+
+<h3 id="web-content-driven-advertising">Web content-driven advertising</h3>
+
+<p>Many companies offer sellers the opportunity to advertise their products on webpages with related content. The problem then is to identify web-pages with visitors likely to buy the product.</p>
+
+<h4 id="advertisement-types">Advertisement types</h4>
+
+<p>These are either text based ads, which invite an immediate click or display ads, which result in a delayed action by the customer. Customer behavior is tracked and this is measurable.</p>
+
+<p>Advertisers either pay per click (PPC) or pay per impression (based on the number of times the ad is viewed).</p>
+
+<p>In case the advertiser pays per click, he can potentially fall victim to fraudulent clicks: clicks by competitors or bots employed by the displayer.</p>
+
+<h4 id="ad-placement-services">Ad-Placement services</h4>
+
+<p>Ad-placement services often facilitate placement of advertisements on content-pages meeting the criteria useful to the user. They may, as in the case of search engines or web portals, themselves have content-pages; or they may team up with other website owners to display advertisements on their pages in exchange for given them a cut in the advertising revenue earned by the advertising service. Eg: Google AdWords.</p>
+
+<h5 id="display-auctions">Display auctions</h5>
+
+<p>For every candidate content-page located by the ad-placement service, the service picks ads to display using a] an auction using bids preset by advertisers, b] the likelihood of the ad being clicked (thereby generating revenue for the placement service) - aka ad-quality, which can be measured using statistical experiments.</p>
+
+<p>The ad-placement service may also consider the limited budget allotted by the advertiser in picking the auctions into which he is entered - for example to space advertisements in various parts of the day; and they may allow advertisers to set different bids at different times of the day etc..</p>
+
+<h4 id="search-engine-results">Search engine results</h4>
+
+<p>In case of search engines, the visitor’s intention is judged using the search phrase, the location of the device whence search is done, time of the day etc.. Advertisers are able to specify relevant result pages (on which they can advertise) using these parameters.</p>
+
+<h5 id="search-phrase-targeting">Search phrase targeting</h5>
+
+<p>Advertisers can specify positive and negative keywords. [<strong>Incomplete</strong>]</p>
+
+<h5 id="case-study">Case study</h5>
+
+<p>Amrit’s taxi service heavily depended on this advertising strategy. He made the transition from advertising in printed directories in 2008 when he observed that strategy failing.</p>
+
+<p>[<strong>Incomplete</strong>]</p>
+
+<h2 id="gambling">Gambling</h2>
+
+<h3 id="bet-contract">Bet contract</h3>
+
+<h4 id="2-outcomes">2 outcomes</h4>
+
+<p>Consider an event E. A bet between two people (A and B) is a contract which says that if E comes to pass (usually by a specified time), person A will pay an amount x to B; otherwise if E doesn’t happen, B will pay y to A.</p>
+
+<p>y is called the bet liability.</p>
+
+<h5 id="viability-of-the-bet">Viability of the bet</h5>
+
+<p>Rational B (who is not risk-averse) will enter the contract if according to his evaluation of <em>a</em>, <em>a__x</em> − (1 − <em>a</em>)<em>y</em> ≥ 0 or $a \geq \frac{y}{x+y}$. Rational A will similarly enter the contract only if $a \leq \frac{y}{x+y}$.</p>
+
+<h5 id="odds">Odds</h5>
+
+<p>The probabilistic odds is $\frac{Pr(E)}{Pr(\lnot E)}$. But Pr(E) is not known beforehand and is only estimated by a certain party to be <em>a</em>. So, betting odds is $k = \frac{a}{1-a} = \frac{y}{x}$. It is often expressed as <em>y</em> : <em>x</em> = <em>k</em> : 1 against. It can also be denoted by <em>k</em> + 1, the decimal odds.</p>
+
+<h4 id="multiple-outcomes">Multiple outcomes</h4>
+
+<p>Suppose that there is a universal set of <em>k</em> mutually exclusive outcomes:<br />
+{<em>E_1.._E__k</em>}. Then, <em>k</em> entities can enter into a betting contract, according to which side <em>i</em> gets <em>x__i</em> if <em>E__i</em> happens and looses <em>y__i</em> if it does not. So, from side <em>i</em>’s perspective, it is a binary bet on event <em>E__i</em>; for which calculations of viability and odds are explained elsewhere.</p>
+
+<h4 id="betting-pool-contracts">Betting pool contracts</h4>
+
+<p>Betting pools involve groups of people entering a bet contract, with every person specifying his share in the earnings/ liability. Winnings are distributed according to the shares specified while entering the contract.</p>
+
+<p>Fixed odds contract has already been explained earlier.</p>
+
+<h5 id="unfixed-odds-contract">Unfixed odds contract</h5>
+
+<p>Aka parimutuel betting. This contract does not specify the betting odds in advance, allowing people to enter or leave the betting pool independently at different points in time. Money from the loosing side is distributed to the winning side. Thus, the betting odds depends on the individual bets from groups of people on each side.</p>
+
+<h4 id="accounting-infrastructure">Accounting Infrastructure</h4>
+
+<p>Aka Book-keeping. In betting pools, people may enter or leave, and proper accounting is necessary. The book-keeper has to ensure that the people involved honor the bet contract and pay when they loose - so he often collects money owed in case of loss in advance.</p>
+
+<h5 id="fixed-odds-contract">Fixed odds contract</h5>
+
+<p>Quoting fixed betting odds for each outcome, the book-keeper admits peoples’ bets for a certain outcome.</p>
+
+<h6 id="anticipation-of-bet-placements">Anticipation of bet-placements</h6>
+
+<p>∀<em>i</em> the fraction of<br />
+bet-liabilities <em>b__i</em> promised for a given outcome <em>E__i</em> is such that <em>b__i</em> = 1 − ∑<em>j</em> ≠ <em>i__b__j</em> holds. If while deciding on the fixed odds, the book-keeper has perfectly anticipated {<em>b__i</em>} and quoted odds correspondingly, the book-keeper does not loose any money irrespective of the outcome. In other words, the winning parties’ earnings at settlement time are matched exactly by others’ losses. The book-keeper does not stand to loose money: infact, promising slightly lower earnings than 1 − ∑<em>j</em> ≠ <em>i__b__j</em>, the book-keeper can extract a fee irrespective of the outcome.</p>
+
+<p>But, if the odds quoted by the book-keeper do not match the eventual bet-liability allocations, it is possible in case of certain outcomes that, to honor the contract, the book-maker will loose money. Hence, he may need to maintain reserve capital.</p>
+
+<h3 id="binary-bet-exchange">Binary bet exchange</h3>
+
+<p>Such an exchange facilitates bets over an event <em>E</em> happening by time <em>T</em>. Eg: Intrade.</p>
+
+<h4 id="contracts-final-settlement">Contracts, final settlement</h4>
+
+<p>Pairs of people enter into bet contracts at odds of the form 1 − <em>x</em> : <em>x</em> against <em>E</em>. A betting exchange, modeled after the stock market, facilitates such contracts by displaying/ matching offers for entering into bets for and against <em>E</em> at certain odds.</p>
+
+<h5 id="share-trade-representation">Share trade representation</h5>
+
+<p>In the betting exchange, these odds are specified in the form of ’share prices’ of event <em>E</em> which lie between [0, 1]. Consider a betting contract proposal with odds 1 − <em>x</em> : <em>x</em> against <em>E</em>. An offer to enter such a contract on the side of <em>E</em> is denoted by an offer to buy a share of <em>E</em> at price <em>x</em>. An offer to enter such a contract against <em>E</em> is denoted by an offer to sell a share of <em>E</em> (which one need not possess at the time of selling) at price <em>x</em>. Thus, entering into a betting contract is denoted by a share trade.</p>
+
+<p>At settlement time, of course, the odds of all logical agents are 0 : 1 against <em>E</em> if <em>E</em> has occurred; and 1 : 0 otherwise. These correspond to share price reaching 1 or 0 respectively.</p>
+
+<p>The obligation of the loosing party to pay money to the winning party at settlement time is then represented by a] the obligation of the seller of the share to buy it at settlement time, and b] the rise or fall of the share price to 1 or 0.</p>
+
+<p>Offers to enter a contract and the act of entering a contract corresponds to placing limit orders and market orders in the betting exchange.</p>
+
+<h4 id="probability-evaluation">Probability evaluation</h4>
+
+<h5 id="the-problem">The problem</h5>
+
+<p>One can use betting exchanges to answer the question: ’What is the probability that a certain event <em>E</em> occurs by a certain ’settlement’ time <em>T</em>?’ The market tries to answer it using bets individuals place on that event.</p>
+
+<h5 id="diversity-benefits">Diversity benefits</h5>
+
+<p>The idea is that a large and diverse set of people sometimes evaluate the situation better than a panel of experts.</p>
+
+<h5 id="unfulfilled-orders">Unfulfilled orders</h5>
+
+<p>At any given point in time, and given the conditions of logical agents entering a bet examined elsewhere, <em>P__r</em>(<em>E</em>) can be judged using the unmatched buy or sell offers on the betting exchange.</p>
+
+<p>An unfulfilled offer to buy at price <em>x</em> says that the market agrees that <em>P__r</em>(<em>E</em>)≥<em>x</em>. An unfulfilled offer to sell at price <em>x</em> says that the market agrees that <em>P__r</em>(<em>E</em>)≤<em>x</em>. So, <em>P__r</em>(<em>E</em>), according to the market, lies between the lowest unfulfilled sell order and the highest unfulfilled buy order.</p>
+
+<h2 id="air-carriers">Air carriers</h2>
+
+<h3 id="factors-affecting-price">Factors affecting price</h3>
+
+<h4 id="travel-date-day">Travel date/ day</h4>
+
+<p>Tickets cost more in certain months.</p>
+
+<p>Tickets tend to cost more on Fridays, saturday, sunday, than on weekdays (especially monday).</p>
+
+<h4 id="airport-demand-competition">Airport demand/ competition</h4>
+
+<p>Flights from Dallas or houston probably cost less than flights from austin.</p>
+
+<h4 id="operation-costs">Operation costs</h4>
+
+<p>Some airlines are cheaper than others.</p>
+
+<h5 id="fuel-costs">Fuel costs</h5>
+
+<p>This constitutes a major part of the operating costs.</p>
+
+<p>Airlines which have access to cheaper fuel - either due to a stockpile (Southwest Airlines in 2000-2009), or geographic location (Emirates airlines) can offer lower prices.</p>
+
+<h5 id="cheap-international-airlines">Cheap international airlines</h5>
+
+<p>Try Sri Lankan or Korean airlines.</p>
+
+<h3 id="alliances">Alliances</h3>
+
+<p>The operating areas of any airline is limited. People often end up using multiple airlines to complete their journey. Alliances of airlines can offer tickets for such journeys - thus geographically diverse alliances are advantageous to the business of individual airlines.</p>
+
+<h3 id="customer-retention-programs">Customer retention programs</h3>
+
+<h4 id="rewards">Rewards</h4>
+
+<p>They offer incentives for customer loyalty with rewards which correspond to the number of miles traveled.</p>
+
+<h3 id="related-businesses">Related businesses</h3>
+
+<p>To make extra money, they sell products on flights, and offer lounges at various airports.</p>
+
+<h2 id="travel-agencies">Travel agencies</h2>
+
+<p>Online and offline agencies sell tickets/ reservations on behalf of airlines, car rental agencies and hotels.</p>
+
+<p>Clubbing these reservations together may result in lower costs for the consumer.</p>
+
+<h3 id="hotel-reservations">Hotel reservations</h3>
+
+<p>Expedia seemed to keep a 70$ margin on reservations (which was discounted for its employes).</p>
+
+<h3 id="air-ticket-sales">Air-Ticket sales</h3>
+
+<p>It is often advantageous to call an agent - especially for international travel - to look for the best deal: some airlines are not listed on travel search websites.</p>
+
+<h4 id="for-travel-inside-usa">For travel inside USA</h4>
+
+<p>Look at Orbitz and expedia. Check Southwest website, as it is not listed in these.</p>
+
+<h4 id="agents">Agents</h4>
+
+<p>EDESTINATIONS INC 1-800-949-FARE (rAjIv: works 7 days a week)</p>
+
+<h3 id="car-rentals">Car rentals</h3>
+
+<p>Car rentals seem to be cheaper on the internet - due to greater competition and clarity for the customer.</p>
+
+<h2 id="communication-networks">Communication networks</h2>
+
+<p>These networks provide infrastructure and services like internet access, (mobile) telephony, cable television etc..</p>
+
+<h3 id="mobile-connections">Mobile connections</h3>
+
+<p>Mobile connection services are either prepaid or postpaid.</p>
+
+<h4 id="prepaid-services">Prepaid services</h4>
+
+<p>With these services, customers buy a certain quanta of incoming and outgoing connections of various types.</p>
+
+<h4 id="postpaid-services">Postpaid services</h4>
+
+<p>This is offered to credit-worthy customers.</p>
+
+<h5 id="contracts">Contracts</h5>
+
+<p>People are attracted to enter into a contract in which they agree to use a company’s mobile connection services for a certain period of time, in exchange for incentives such as discounts on attractive mobile devices.</p>
+
+<p>The cost of these devices and incentives provided to sales agents is, of course, recovered from the profits earned using the customer’s business.</p>
+
+<h6 id="group-contracts">Group contracts</h6>
+
+<p>Aka family plans. Companies try to attract the close contacts of a customer to use the same network by offering reduced prices for groups of people.</p>
+
+<h6 id="early-termination">Early termination</h6>
+
+<p>Early termination involves payment of certain fees. If a person is terminating the contract early because he is abroad, this fee may often be waived in USA.</p>
+
+<h6 id="renewal">Renewal</h6>
+
+<p>Companies offer to renew the contract before the termination [<strong>Incomplete</strong>]</p>
+
+<h2 id="crime">Crime</h2>
+
+<p>This is considered in the ’society’ survey.</p>
+
+
+    <div class="tags">
+        
+    </div>
+
+
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'vvasuki-site'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+</div>
+
+
+
+<footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+               &copy;2018 Vishvas Vasuki and friends. <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />
+                    <!--TODO: Figure out how to show localized time below.-->
+ Site last generated: 2018-11-29 10:27:14 -0800 <br />
+<p><img src="/notes/assets/images/company_logo_big.png" alt="Logo"/  height="42" width="42"></p>
+                </div>
+            </div>
+</footer>
+
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+</div>
+
+</body>
+
+<!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-43258994-1','auto');ga('require','displayfeatures');ga('send','pageview');</script>
+
+
+</html>

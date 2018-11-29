@@ -139,6 +139,7 @@ description: Vishvas's notes.
 url: http://vvasuki.github.io
 baseurl: "/notes" # the subpath of your site, e.g. /blog
 
+destination: docs/
 remote_theme: sanskrit-coders/sanskrit-documentation-theme
 #theme: sanskrit-documentation-theme
 

@@ -1,0 +1,122 @@
+/************************************************************/
+/* Handle inline comments*/
+.inline_comment { font-size: 70%; color: firebrick; display: inline; vertical-align: sub; }
+
+*[emphasis_as_inline_comments] em { font-size: 80%; color: firebrick; display: inline; vertical-align: sub; }
+
+/************************************************************/
+.summary { color: #808080; border-left: 5px solid #ED1951; font-size: 100%; }
+
+.btn-primary { color: #ffffff; background-color: #be8100; border-color: #be8100; }
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active { background-color: #248ec2; border-color: #be8100; }
+
+.printTitle { color: #015CAE !important; }
+
+.anchorjs-link:hover { color: #216f9b; }
+
+/************************************************************/
+/* Some boxes*/
+.bs-callout, .bs-callout-default, .bs-callout-success, .bs-callout-danger, .bs-callout-warning, .bs-callout-info, .bs-example { padding: 20px; margin: 20px 0; border: 1px solid #eee; border-left-width: 5px; border-radius: 3px; }
+.bs-callout h4, .bs-callout-default h4, .bs-callout-success h4, .bs-callout-danger h4, .bs-callout-warning h4, .bs-callout-info h4, .bs-example h4 { margin-top: 0; margin-bottom: 5px; }
+.bs-callout p:last-child, .bs-callout-default p:last-child, .bs-callout-success p:last-child, .bs-callout-danger p:last-child, .bs-callout-warning p:last-child, .bs-callout-info p:last-child, .bs-example p:last-child { margin-bottom: 0; }
+.bs-callout code, .bs-callout-default code, .bs-callout-success code, .bs-callout-danger code, .bs-callout-warning code, .bs-callout-info code, .bs-example code { border-radius: 3px; }
+.bs-callout + .bs-callout, .bs-callout-default + .bs-callout, .bs-callout-success + .bs-callout, .bs-callout-danger + .bs-callout, .bs-callout-warning + .bs-callout, .bs-callout-info + .bs-callout, .bs-example + .bs-callout, .bs-callout + .bs-callout-default, .bs-callout-default + .bs-callout-default, .bs-callout-success + .bs-callout-default, .bs-callout-danger + .bs-callout-default, .bs-callout-warning + .bs-callout-default, .bs-callout-info + .bs-callout-default, .bs-example + .bs-callout-default, .bs-callout + .bs-callout-success, .bs-callout-default + .bs-callout-success, .bs-callout-success + .bs-callout-success, .bs-callout-danger + .bs-callout-success, .bs-callout-warning + .bs-callout-success, .bs-callout-info + .bs-callout-success, .bs-example + .bs-callout-success, .bs-callout + .bs-callout-danger, .bs-callout-default + .bs-callout-danger, .bs-callout-success + .bs-callout-danger, .bs-callout-danger + .bs-callout-danger, .bs-callout-warning + .bs-callout-danger, .bs-callout-info + .bs-callout-danger, .bs-example + .bs-callout-danger, .bs-callout + .bs-callout-warning, .bs-callout-default + .bs-callout-warning, .bs-callout-success + .bs-callout-warning, .bs-callout-danger + .bs-callout-warning, .bs-callout-warning + .bs-callout-warning, .bs-callout-info + .bs-callout-warning, .bs-example + .bs-callout-warning, .bs-callout + .bs-callout-info, .bs-callout-default + .bs-callout-info, .bs-callout-success + .bs-callout-info, .bs-callout-danger + .bs-callout-info, .bs-callout-warning + .bs-callout-info, .bs-callout-info + .bs-callout-info, .bs-example + .bs-callout-info, .bs-callout + .bs-example, .bs-callout-default + .bs-example, .bs-callout-success + .bs-example, .bs-callout-danger + .bs-example, .bs-callout-warning + .bs-example, .bs-callout-info + .bs-example, .bs-example + .bs-example { margin-top: -5px; }
+
+.bs-callout-default { border-left-color: #777; }
+.bs-callout-default h4 { color: #777; }
+
+.bs-callout-success { border-left-color: #5cb85c; }
+.bs-callout-success h4 { color: #5cb85c; }
+
+.bs-callout-danger { border-left-color: #d9534f; }
+.bs-callout-danger h4 { color: #d9534f; }
+
+.bs-callout-warning { border-left-color: #f0ad4e; }
+.bs-callout-warning h4 { color: #f0ad4e; }
+
+.bs-callout-info { border-left-color: #5bc0de; }
+.bs-callout-info h4 { color: #5bc0de; }
+
+.bs-example { margin: 20px; }
+
+.breadcrumb li { color: gray; }
+
+/*For use with https://getbootstrap.com/docs/3.3/components/ */
+.glyphicons-2x { font-size: 2em; }
+
+.glyphicons-3x { font-size: 3em; }
+
+.glyphicons-4x { font-size: 4em; }
+
+.glyphicons-5x { font-size: 5em; }
+
+.breadcrumb > .active { color: #777 !important; }
+
+/************************************************************/
+p.external a { text-align: right; font-size: 80%; color: #0088cc; display: inline; }
+
+*[unicode_script="devanagari"] { font-family: 'siddhanta-cakravat1', 'Noto Sans Devanagari From Github Hinted', serif; font-size: 130%; }
+
+/************************************************************/
+p.post-meta { font-size: 80%; color: #777; }
+
+.post-content a.fa-rss { color: orange; }
+.post-content .rssfeedLink { color: #248EC2; }
+.post-content img { margin: 12px 0px 3px 0px; max-width: 100%; max-height: 100%; }
+.post-content img.inline { margin: 0px; margin-bottom: 6px; }
+.post-content img.thumbnail { margin: 0px 0px 0px 0px; width: 100px; height: 100px; }
+
+.post-meta { font-size: 90%; color: #828282; }
+
+.post-link { font-size: 150%; }
+
+.post-list p { margin: 10px 0px; }
+
+.post-content table th { vertical-align: top; }
+.post-content img { margin: 12px 0px 3px 0px; width: auto; height: auto; max-width: 100%; max-height: 100%; }
+
+/************************************************************/
+.filter-options { margin-bottom: 20px; }
+.filter-options button { margin: 3px; }
+
+/************************************************************/
+.footer { text-align: right; }
+
+.footerMeta { background-color: whitesmoke; padding: 10px; max-width: 250px; border-radius: 5px; margin-top: 50px; font-style: italic; font-size: 80%; }
+
+/************************************************************/
+.summary { font-size: 120%; color: #808080; margin: 20px 0px 20px 0px; border-left: 5px solid #ED1951; padding-left: 10px; }
+.summary:before { content: "Summary: "; font-weight: bold; }
+
+/************************************************************/
+.alert, .callout { overflow: hidden; }
+
+.alert { margin-bottom: 10px; margin-top: 10px; }
+.alert a { text-decoration: underline; }
+
+/* without this, the links in these notes aren't visible.*/
+/************************************************************/
+*:hover > .anchorjs-link { transition: color .25s linear; text-decoration: none; }
+
+.col-lg-12 .nav li a { background-color: white; }
+
+.col-md-9 img { max-width: 100%; max-height: 100%; max-width: 100%; max-height: 100%; }
+
+/************************************************************/
+.box { padding: 10px; border: 1px solid #888; width: 100px; height: 80px; background-color: #f5f5f5; font-family: Arial; font-size: 80%; hyphens: auto; float: left; font-size: 80%; }
+.box:hover { background-color: #f0f0f0; }
+
+/******************************************/
+/* search area */
+#search-demo-container ul#results-container { list-style: none; font-size: 80%; background-color: white; position: absolute; top: 40px; /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/ left: 20px; z-index: -1; width: 223px; border-left: 1px solid #dedede; }
+
+ul#results-container a { background-color: transparent; }
+ul#results-container a:hover { color: black; }
+
+#search-demo-container a:hover { color: black; }
+
+#search-input { padding: .5em; margin-left: 20px; width: 20em; font-size: 80%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin-top: 10px; }
+
+/* end search */
+/******************************************/

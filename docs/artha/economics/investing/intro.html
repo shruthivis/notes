@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content=" ">
+<title>Intro | Vishvas's notes</title>
+
+<!--bootstrap is used to set auto-adjusting (sidebar+content) grid column widths.-->
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/notes/assets/css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="/notes/assets/css/fonts.css">
+<link rel="stylesheet" href="/notes/assets/css/element-styles-general.css">
+<link rel="stylesheet" href="/notes/assets/css/class-styles-general.css">
+<link rel="stylesheet" href="/notes/assets/css/device-specific.css">
+<link rel="stylesheet" href="/notes/assets/css/topnav.css">
+<link rel="stylesheet" href="/notes/assets/css/navbar-toc.css">
+<link rel="stylesheet" href="/notes/assets/css/embeds.css">
+<link rel="stylesheet" href="/notes/assets/css/boxshadowproperties.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript. Note that this requires jquery. -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="/notes/assets/js/navgoco.js"></script>
+<script src="/notes/assets/js/on_doc_ready/sidebar.js"></script>
+<script src="/notes/assets/js/on_doc_ready/toc.js"></script>
+<script src="/notes/assets/js/on_doc_ready/handle_includes.js"></script>
+<script src="/notes/assets/js/on_doc_ready/main.js"></script>
+<script src="/notes/assets/js/on_doc_ready/video_embed.js"></script>
+<script src="/notes/assets/js/on_doc_ready/audio_embed.js"></script>
+
+<link rel="shortcut icon" href="/notes/assets/images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript"
+        src="https://cdn.rawgit.com/mathjax/MathJax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar">
+    <div class="container topnavlinks">
+        <!--Heavily based on http://yago.io/Bootsketch/styleguide/components_-_navbar.html# .-->
+        <div class="navbar-header">
+            <!--fa is font-awesome.-->
+            <a class="fa fa-home fa-lg projectTitle" href="/notes/index.html">&nbsp;Vishvas's notes</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="navbar-nav navbar-right">
+                
+                <!-- {"title"=>"Parts", "contents"=>[{"title"=>"संस्काराः", "url"=>"/saMskAra/"}, {"title"=>"अर्थः", "url"=>"/artha/economics/businesses/intro.html"}, {"title"=>"Mathematics", "url"=>"/computing/programming/index.html"}, {"title"=>"Misc परिशिष्टम्", "url"=>"/misc/index.html"}, {"title"=>"Vishvas's home page", "url"=>"/../index.html"}, {"title"=>"Blog", "url"=>"/assets/blog/index.html"}]} -->
+                <li class="dropdown">
+                    <a href="#" class="btn btn-default"  data-toggle="dropdown">
+                        Parts
+                        <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/saMskAra/">संस्काराः</a></li>
+    
+
+
+
+                        
+                        
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/businesses/intro.html">अर्थः</a></li>
+    
+
+
+
+                        
+                        
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/computing/programming/index.html">Mathematics</a></li>
+    
+
+
+
+                        
+                        
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/misc/index.html">Misc परिशिष्टम्</a></li>
+    
+
+
+
+                        
+                        
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/../index.html">Vishvas's home page</a></li>
+    
+
+
+
+                        
+                        
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/assets/blog/index.html">Blog</a></li>
+    
+
+
+
+                        
+                    </ul>
+                </li>
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="Non-google title search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="/notes/assets/js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                        SimpleJekyllSearch.init({
+                            searchInput: document.getElementById('search-input'),
+                            resultsContainer: document.getElementById('results-container'),
+                            dataSource: '/notes/assets/search.json',
+                            searchResultTemplate: '<li><a href="{url}" title="Intro">{title}</a></li>',
+                            noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                        })
+                    </script>
+                    <!--end search-->
+                </li>
+                <li>
+                    <a class="btn btn-default" href="/notes/assets/google-us.html">Google us!</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- /.container -->
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+            <!-- Sidebar Column.
+             See https://getbootstrap.com/docs/3.3/css/ for exmplanation of values such as col-md-3.
+             -->
+            <div class="col-md-3" id="tg-sb-sidebar">
+                
+
+
+<!-- toggle sidebar button -->
+<ul id="displayed_sidebar" class="nav">
+    <li class="sidebarTitle">Parts</li>
+    <!--fa below stands for a font awesome icon.-->
+    <li><a id="hide-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i>Hide?</a></li>
+    
+    
+
+    <li>
+        <a href="#">Places</a>
+        <ul>
+            
+            
+            
+
+    <li>
+        <a href="#">USA</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/places/usa/intro.html">Intro</a></li>
+    
+
+
+
+            
+            
+
+    <li>
+        <a href="#">SF Bay</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/places/usa/sf-bay/intro.html">Intro</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/places/usa/sf-bay/arts.html">Arts</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+            
+            
+
+    <li>
+        <a href="#">India</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/places/india/intro.html">Intro</a></li>
+    
+
+
+
+            
+            
+
+    <li>
+        <a href="#">Beṇgaḷūru</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/places/india/bengaluuru/intro.html">Intro</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+    
+    
+
+    <li>
+        <a href="#">Economics</a>
+        <ul>
+            
+            
+            
+
+    <li>
+        <a href="#">Businesses</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/businesses/intro.html">Intro</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/businesses/misc.html">Misc</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+            
+            
+
+    <li>
+        <a href="#">Goods and services</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/goods/intro.html">Intro</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/goods/tradeables.html">Tradeables</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+            
+            
+
+    <li>
+        <a href="#">Investing</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="active"><a href="/notes/artha/economics/investing/intro.html">Intro</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/investing/portfolio.html">Portfolio design</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/investing/funds.html">Funds</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+            
+            
+
+    <li>
+        <a href="#">State level</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/state-level/intro.html">Intro</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/state-level/money.html">Money</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/spending.html">Consumption + Donation</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/geo-outlook.html">Geo outlook</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/trading.html">Trading</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/economics/tax.html">Tax</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+    
+    
+
+    <li>
+        <a href="#">Society</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/society/gameTheory/gameTheory.pdf">Algorithmic game theory</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+    
+    
+
+    <li>
+        <a href="#">Skills</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/skills/index.html">Intro</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/skills/learning.html">Learning</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/skills/research.html">Research</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/skills/clothing/index.html">Clothing</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+    
+    
+
+    <li>
+        <a href="#">Education</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/education/principles.html">Principles</a></li>
+    
+
+
+
+            
+            
+
+    <li>
+        <a href="#">Home schooling</a>
+        <ul>
+            
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/education/home_school/">Intro</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/education/home_school/faq.html">FAQ</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/education/home_school/india.html">India</a></li>
+    
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/education/home_school/usa.html">USA</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+            
+            
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/artha/education/lecturing.html">Lecturing</a></li>
+    
+
+
+
+            
+        </ul>
+    </li>
+
+
+
+    
+    
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/index.html">Notes Home</a></li>
+    
+
+
+
+    
+    
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/../index.html">Vishvas's home page</a></li>
+    
+
+
+
+    
+    
+
+    
+    
+    
+    
+        <li class="inactive"><a href="/notes/assets/blog/index.html">Blog</a></li>
+    
+
+
+
+    
+</ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+            </div>
+            <!--3 columns out of 12 are taken by the sidebar on large devices. Hence using 9.
+            Don't want minimum size so to get flowing text small screens, hence using xs.
+            -->
+            
+        
+
+        <!-- Content Column -->
+        <div class="col-xs-9" id="tg-sb-content">
+            <!-- toggle sidebar button -->
+<a id="tg-sb-link" href="#"><i id="tg-sb-icon-content-pane" class="fa fa-toggle-on"></i>Sidebar</a>
+
+<div class="post-header">
+   <h1 class="post-title-main">Intro</h1>
+</div>
+
+
+<div class="post-content" unicode_script=""
+     
+>
+
+   
+
+    
+    <div id="toc_header">
+        <i id="toggle-toc-icon" class="fa fa-toggle-on"></i> What's in this page? <i class="fa fa-space-shuttle"></i>
+        <span style="font-size: smaller">Expand? <i id="toggle-toc-expansion-icon" class="fa fa-toggle-off"></i></a></span>
+    </div>
+    <div id="toc"></div>
+    
+
+
+    
+
+    
+    <a target="_blank" href="https://github.com/vvasuki/notes/blob/master/artha/economics/investing/intro.md" class="btn btn-default" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+
+    
+
+    
+    <h2 id="core-idea">Core idea</h2>
+
+<p>Investment involves financing/ owning businesses - perhaps by buying stocks or bonds, with the aim of getting a good return on investment and with little risk of loss.</p>
+
+<h2 id="future-discount-factor">Future Discount factor</h2>
+
+<p>For most people and organizations, <em>x</em> amount of money today is better than <em>k__x</em> amount of money one year from now, where <em>k</em> &gt; 1. One reason for this is inflation.</p>
+
+<h3 id="among-individuals">Among individuals</h3>
+
+<p>Discount factor is much steeper in the short-term than in the long term. Many people will say I prefer x now rather than 1.25 x one month from now. But they will say I would rather get 1.25x 13 months from now rather than x 12 months form now.</p>
+
+<h3 id="organizations">Organizations</h3>
+
+<p>In calculating the tradeoff in investing towards avoiding an anticipated disaster vs fixing damages once a disaster happens, the discount factor is often used.</p>
+
+<p>The discount factor that is to be used is controvertial. Some argue that it must be tied to the inflation rate or the government borrowing rate. But, USA keeps it at an unrealistic level of 1.07 as of 2012. This causes them not to invest as much in disaster prevention, fighting global climate change etc..</p>
+
+<h2 id="profit-risk-potential">Profit/ risk potential</h2>
+
+<p>Information is fundamental in judging the quality of an investment. At the very least, one should clearly know the bounds on potential profit and loss.</p>
+
+<h3 id="dividend-yield-vs-growth">Dividend yield vs growth</h3>
+
+<p>There are two avenues for profiting from an investment: a share in profits earned, increase in value of the share in the business - which may be turned into a profit by selling it to someone else.</p>
+
+<p>Value stocks which have shown high dividend (distributed profit) yield relative to capitalization are attractive. Growth stocks, even if they have low dividend yield, have a potential to grow in value in the future - it is possible that undistributed profits have been invested to such fuel growth. ’Balanced businesses’ lie between these two extremes.</p>
+
+<h4 id="total-returns">Total returns</h4>
+
+<p>Total returns adds (dividend/ interest) income and capital/ value appreciation.</p>
+
+<p>One can judge the potential for returns by observing the total returns over a period of time trailing from the current date (week/ trimester/ year).</p>
+
+<h3 id="risk-and-return-advantage-types">Risk and return-advantage types</h3>
+
+<p>Risk in the investment is the potential to loose money. Risk is paired with advantage: investors promised a bigger return will tolerate some risk.</p>
+
+<h4 id="credit-default-risk">Credit default risk</h4>
+
+<p>This risk is particularly relevant for bonds. This is the risk of businesses not repaying their loans.</p>
+
+<p>The advantage is that riskier bonds yield bigger returns.</p>
+
+<h5 id="credit-rating-agencies">Credit rating agencies</h5>
+
+<p>Sometimes, the ultimate owners of bonds sometimes do not have a clear idea about the risk involved.</p>
+
+<p>Agencies such as Moody’s evaluate various investment options (including government bonds) and assign a letter grade indicating the risk involved; AAA being the best. Credit rating assigned to Japan actually means Japanese government bonds.</p>
+
+<h6 id="trustworthiness">Trustworthiness</h6>
+
+<p>These ratings are highly trusted by investors who manage global savings. They are also trusted by governments, which require firms which hold possibly big liabilities (insurance firms, banks) to invest a certain fraction of their capital in highly rated bonds/ loans.</p>
+
+<p>But, their evaluation methodology is not flawless. For example, before the 2008 sub-prime mortgage crisis, they wrongly rated US mortgage-backed securities as being a safe investment- because they used the wrong historical data pertaining to mortgages with better guarantees, and because they assumed that real estate prices will continue to increase.</p>
+
+<h4 id="interest-rate-increase-risk">Interest rate increase risk</h4>
+
+<p>Suppose that the interest rate on government bonds increases (perhaps due to investor concerns about budget deficits or due to the action of the federal bank to combat inflation). Then, bond prices, especially of long term bonds, fall in response to the decreased demand. People can simply invest capital in the newly high-yielding government bonds or banks: so that for existing bonds to compete with them in yield, they have to fall in value.</p>
+
+<h4 id="concentration-risk">Concentration risk</h4>
+
+<p>Investing in a small number of businesses is considerably riskier than investing in a diverse variety of businesses. But, focusing on a particular fast growing business segment promises higher returns.</p>
+
+<p>’Exposure’ to a variety of businesses (diversity in investment) reduces risk.</p>
+
+<h5 id="underlying-security-capitalization">Underlying security capitalization</h5>
+
+<p>In case of investment funds, this can be measured in terms of the capitalization of the underlying securities.</p>
+
+<p>The safety of a fund is proportional to the market capitalization of the component stocks (i.e: what portion of the economy it represents.)</p>
+
+<p>For example, S&amp;P 100 tracks 100 important companies in various sectors, S&amp;P 500 tracks 500 companies. The prices of these index funds form a way of tracking the health of the economy - Eg NSE, BSE in India, Dow Jones etc..</p>
+
+<h4 id="small-business-risk">Small business risk</h4>
+
+<p>Aka small capitalization/ size risk. Small businesses constitute riskier investments - they are not as entrenched as bigger businesses which may out-compete them; and they may fail due to short-term reasons which would not affect larger companies with their greater access to resources.</p>
+
+<p>Larger businesses are better able to benefit from faster growth in emerging markets.</p>
+
+<h4 id="foreign-currency-risk">Foreign currency risk</h4>
+
+<p>If the returns from a business/ security is in a foreign currency, that currency may appreciate in value relative to the investor’s currency, leading to lower value reaching the investor than initially expected.</p>
+
+<h4 id="emerging-markets-risk">Emerging markets risk</h4>
+
+<p>There is a cost of lower skilled work-force, corruption, worse regulation and bad infrastructure.</p>
+
+<p>Emerging markets often have the advantage of higher growth.</p>
+
+<h4 id="geographical-risk">Geographical risk</h4>
+
+<p>Certain geographical regions have more socio-political instability than others - causing businesses in those regions to be more susceptible to disruptions.</p>
+
+<h4 id="leverage-risk">Leverage risk</h4>
+
+<p>Businesses which use leverage to conduct transactions are especially vulnerable to short term losses.</p>
+
+<h3 id="risk-measures">Risk measures</h3>
+
+<p>One component of this is to observe past performance: though it is not a guarantee of future returns.</p>
+
+<h4 id="correlation">Correlation</h4>
+
+<p>The correlation of the value of the security with the relevant economy / sector - perhaps measured using the value of the corresponding index - is informative. An investment whose return is not highly correlated with the relevant economy / sector brings diversity to the portfolio, and helps reduce risk.</p>
+
+<p>_R_2 is a common correlation measure - with values ranging [0, 1].</p>
+
+<h4 id="curve-based">Curve based</h4>
+
+<p>The ratio of past upticks to downticks, yield in past years (especially bad years) help compare risk.</p>
+
+<h4 id="volatility">Volatility</h4>
+
+<p>Also, the standard deviation in stock-prices (together with highs and lows) in a certain time period describes volatility. Volatility, if it does not co-occur with monotonic increase, indicates risk in short term trading.</p>
+
+<h3 id="security-analysis">Security analysis</h3>
+
+<p>Security analysts gather information, including non-public information, to advice people on trading strategies to maximize their profit. They run a special risk of being charged with insider trading.</p>
+
+<p>Analyst reports and news articles are sometimes available for free on the internet.</p>
+
+<h4 id="mutual-fund-ratings">Mutual fund Ratings</h4>
+
+<p>Mutual funds are rated by agencies which examine their past performance and holdings: Eg Morningstar.</p>
+
+<h1>#</h1>
+
+
+    <div class="tags">
+        
+    </div>
+
+
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'vvasuki-site'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+</div>
+
+
+
+<footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+               &copy;2018 Vishvas Vasuki and friends. <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />
+                    <!--TODO: Figure out how to show localized time below.-->
+ Site last generated: 2018-11-29 10:27:14 -0800 <br />
+<p><img src="/notes/assets/images/company_logo_big.png" alt="Logo"/  height="42" width="42"></p>
+                </div>
+            </div>
+</footer>
+
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+</div>
+
+</body>
+
+<!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-43258994-1','auto');ga('require','displayfeatures');ga('send','pageview');</script>
+
+
+</html>
