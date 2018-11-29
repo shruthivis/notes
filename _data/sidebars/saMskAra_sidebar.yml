@@ -12,6 +12,9 @@ contents:
             - title: सामानि
               contents:
                 - url: dir://saMskAra/mantra/agni/paravastu-saama/
+            - title: यजूंषि
+              contents:
+                - url: dir://saMskAra/mantra/agni/Rk/
         - title: इन्द्रः
           contents:
             - title: सामानि
@@ -39,11 +42,17 @@ contents:
             - title: यजूंषि
               contents:
                 - url: dir://saMskAra/mantra/misc-devas/yajus
+            - title: ब्राह्मणानि
+              contents:
+                - url: dir://saMskAra/mantra/misc-devas/brAhmaNa
         - title: सङ्ग्रहाः
           contents:
             - title: सामानि
               contents:
                 - url: dir://saMskAra/mantra/sangrahAH/paravastu-saama/
+            - title: शिष्टम्
+              contents:
+                - url: dir://saMskAra/mantra/sangrahAH/
   - title: कल्पः आपस्तम्बोक्तः
     contents:
       - title: संस्काराः
