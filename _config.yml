@@ -52,16 +52,6 @@ feedback_link: "https://github.com/vvasuki/notes/issues"
 defaults:
   -
     scope:
-      path: "saMskAra"
-      type: "pages"
-    values:
-      layout: "page"
-      comments: true
-      search: true
-      sidebar: saMskAra_sidebar
-      topnav: home_sidebar
-  -
-    scope:
       path: "artha"
       type: "pages"
     values:
