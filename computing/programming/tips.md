@@ -5,9 +5,9 @@ title: Tips
 ## Goals
 In roughly descending order of importance:
 
-- Few errors.
 - Easy to understand.
 - Easy to modify.
+- Few errors.
 - High coding speed.
 - High computational efficiency.
 
@@ -89,12 +89,8 @@ Corresponding to each experiment, create a log file with a time stamp automatica
 ### Code reuse
 Don’t rewrite the same logic multiple times: put it away in functions.
 
-## For research
-### Experiment functions
+## Experiment functions
 
 Make a function out of each experiment.
 
 Clearly make program variables for all parameters involved in the experiment. You should not have to comment or uncomment code to run different variations of the experiment; you should just set the experiment parameters as necessary.
-
-
-

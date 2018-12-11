@@ -2,6 +2,27 @@
 title: User interface
 ---
 
+## UI Design sUtra-s
+
+### Right mental model
+Let users get the right mental model to operate the machine as easily as possible.
+
+Mental model factors
+
+- Affordances
+- Restrictions
+- Causalities
+- Mapping
+- Transfer effects
+- Stereotypes, cultural standards and habits
+- Instructions
+
+#### Target user
+
+Design to cover > 0.95 of users.
+
+Design for extremes - designing for 'average user' is wrong.
+
 ## GUI Metaphors
 
 The most common graphical user interfaces use the desktop/ workspace and the windows metaphor.
@@ -43,13 +64,13 @@ A widget is a window which is always on the layer immediately above the desktop.
 Graphical user interfaces are implemented using a stack of software. The software stack, with examples is as follows:
 
 - Windowing system: provides abstraction from hardware, provides graphics primitives, basic window drawing abilities. Eg: xorg server.
-    
+
 - Login session manager. Enables selection of desktop environment. Eg: gdm, kdm, lxdm, simpledm.
-    
+
 - Desktop environment. Eg: gnome, kde (programmed with widgeting toolkits gtk+ and qt respectively). application ivocation: mouse driven or keyboard driven (possibly with autocompletion). transferring copied content, drag/ drop. Status panel showing useful updates like time, weather, input language.
-    
+
 - Window managers. Eg: gnome-shell, compiz. Responsible for: Working with multiple windows, switching between them, positioning them (possibly in different workspaces).
-    
+
 
 ### Comparison
 
@@ -77,11 +98,11 @@ Dials - simulated or otherwise - are very useful for accepting numeric input; an
 
 Sometimes lighted icons are provided to provided binary information about something. Eg: is the caps-lock on, is there a waiting notification.
 
-# Logging systems
+## Logging systems
 
 Examples include various java logging frameworks including log4j.
 
-## Requirements
+### Requirements
 
 One is to be able to log at various levels, usually named debug, info, error etc..
 
@@ -92,4 +113,3 @@ Logging is to have a simple, yet expressive syntax for constructing messages.
 One is to be able to set logging levels for various modules at various levels, so as to filter out relatively unimportant messages out of the log.
 
 One is to be able to direct the log messages of various modules to arbitrary files, web-services or consoles.
-

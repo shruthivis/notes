@@ -62,6 +62,8 @@ contents:
             url: /computing/programming/ui.html
           - title: Software Engineering as an occupation
             url: /computing/programming/profession.html
+          - title: Language design
+            url: /computing/programming/programmingLanguages/language_design.md
       - title: Distributed computing
         url: /computing/distributedComputing/distributedComputing.pdf
       - title: Numerical Analysis
