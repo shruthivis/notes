@@ -58,11 +58,11 @@ contents:
           - title: Overview
             url: /computing/programming/index.html
           - title: Tips
-            url: /computing/programming/tips.html
+            contents:
+              - url: dir://computing/programming/tips/
           - title: UI
             url: /computing/programming/ui.html
-          - title: Software Engineering as an occupation
-            url: /computing/programming/profession.html
+          - url: /computing/programming/profession.html
       - title: Distributed computing
         url: /computing/distributedComputing/distributedComputing.pdf
       - title: Numerical Analysis
