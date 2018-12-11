@@ -2,27 +2,6 @@
 title: User interface
 ---
 
-## UI Design sUtra-s
-
-### Right mental model
-Let users get the right mental model to operate the machine as easily as possible.
-
-Mental model factors
-
-- Affordances
-- Restrictions
-- Causalities
-- Mapping
-- Transfer effects
-- Stereotypes, cultural standards and habits
-- Instructions
-
-#### Target user
-
-Design to cover > 0.95 of users.
-
-Design for extremes - designing for 'average user' is wrong.
-
 ## GUI Metaphors
 
 The most common graphical user interfaces use the desktop/ workspace and the windows metaphor.

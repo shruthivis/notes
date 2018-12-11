@@ -50,20 +50,19 @@ contents:
             url: /computing/colt/colt.pdf
       - title: Cryptography
         url: /computing/cryptography/cryptography.pdf
+      - title: Language design
+        contents:
+          - url: dir://computing/programming/languageDesign/
       - title: Programming
         contents:
           - title: Overview
             url: /computing/programming/index.html
-          - title: Paradigms
-            url: /computing/programming/paradigms.html
           - title: Tips
             url: /computing/programming/tips.html
           - title: UI
             url: /computing/programming/ui.html
           - title: Software Engineering as an occupation
             url: /computing/programming/profession.html
-          - title: Language design
-            url: /computing/programming/programmingLanguages/language_design.md
       - title: Distributed computing
         url: /computing/distributedComputing/distributedComputing.pdf
       - title: Numerical Analysis

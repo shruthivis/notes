@@ -4,7 +4,7 @@ title: Paradigms
 
 ## Chapter Scope
 
-Programming language features enabling different programming paradigms and architectures are considered elsewhere. Eg: Higher order functions underlies functional programming paradigm.
+A signle programming language can support multiple paradigms. Programming language features enabling different programming paradigms and architectures are considered elsewhere. Eg: Higher order functions underlies functional programming paradigm.
 
 ## Imperative vs declarative programming
 
@@ -112,18 +112,6 @@ map(f), which applies _f_ on _v_ and returns the resulting monad.
 
 This construct is very useful in error handling: in case of an exception one can return a ’None’ monad, for which map(f) has no effect.
 
-## Exception handling
-
-Exception handling features which require special language features are explained in the programming languages survey.
-
-### Error codes
-
-As in case of C, one may cause a function to exit abnormally in case of an exception, notifying the caller of the case by returning a special value, and setting a particular flag/ message in a memory location.
-
-### Monads vs exception throwing
-
-Using monads is cleaner conceptually in its ability to write the program as a series of function operations. The resultant code is also more concise compared to the exception throwing paradigm.
-
 ### Advantages
 
 #### Conciseness
@@ -137,4 +125,3 @@ Fewer bugs.
 For functions without dependencies, order can be reversed, plus there are no side-effects: Thread-safe.
 
 So likely to become popular.
-
