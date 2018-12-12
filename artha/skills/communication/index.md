@@ -13,13 +13,6 @@ So, in designing the delivery mechanism, one should not only consider
 the message to be delivered, but also the other person’s ability to
 receive that message.
 
-### dharmAya saMvAdaH
-
-dharme viniyogAya cha anyeShAM sahayogAya cha saMvAdaH AvashyakaH. eShaH
-dheyaH samyak dharitavyaH.
-
-dharme samyak kArya-karaNAya eva sAmAjikAH AchArAH.
-
 Even by silently observing or by being absent, you are participating.
 
 ## Branding: enabling precise appraisal
@@ -220,12 +213,7 @@ do it right.
 
 ### bhAvanA-niyantraNaM
 
-tarkaH bAlEShu krIDA iva bhUyAt.
-
-tarka-parAjaya-AtaÑkaH bhavati. Etat-bhayaH niVarayEt tat-bhayasya
-vachanaiH vadanAt cha svIkArAt. antE “satyaM Eva jayatE, nAnRRitaM” iti
-vishvAsaH bhUyAt.
-
+tarkaH bAlEShu krIDA iva bhUyAt. tarka-parAjaya-AtaÑkaH bhavati. तन् मा भूत्।
 The truth will win in the end, and it should ideally be clear to all
 participants at the end of the debate.
 
@@ -341,4 +329,3 @@ the reciprocation mechanism. Eg: Pegion drop con.
 
 Even simple lying exploits to a certain extant the willingness of the
 victim to be lied to, his eagerness to believe in something false.
-
