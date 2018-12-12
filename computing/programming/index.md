@@ -13,10 +13,10 @@ Architecture considers how code may be organized.
 
 
 ## The overall picture
-### Analogies
 
 Programming is a matter of unambiguously telling the computer what to do, in a language it understands.
 
+### Analogies
 Programming is analogous to wiring a complicated electronic circuit: Joining wires of various modules is the right way.
 
 Programming is analogous to designing a pipeline or circuit on the computer (as in chip design or in designers like rational rose, or in rapidminer or in lego robotics).
