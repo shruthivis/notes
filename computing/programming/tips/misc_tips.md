@@ -2,29 +2,6 @@
 title: Misc Tips
 ---
 
-### Comments for enabling understandability
-So make comments and documentation copious. In the best case, use "literate programming", where the aim is for a code file to read like a clear book chapter.
-
-When declaring (class) variables, write comments indicating purpose, desired properties.
-
-When a particular design choice is implemented, comments may be included to justify the choice.
-
-### Naming conventions
-
-Use good naming conventions for all identifiers. Use meaningful names; make it easy to read with capital letters at word beginnings: listIterator.
-
-Macros and constants in CAPS.
-
-Classes starting with capital letter. methods, objects, packagesMemoir start with small case. Maybe variable names prefixed to indicate data type.
-
-In case of collections/ namespaces of multiple objects of type Str, the Java convention is to use the name str, rather than strs.
-
-### Coding conventions
-
-Include sequence: Be alphabetical. In case of C++: mainHeader.h, c system, c++ system, other.
-
-Terminate namespaces with // namespace video
-
 ### Separate data from code
 #### Externalizing messages
 
