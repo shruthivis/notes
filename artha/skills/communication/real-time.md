@@ -29,17 +29,6 @@ nervousness.
 
 Use breath control. (PraaNaayaama)
 
-### Atma-parichayaH
-
-pAshchAtyasha vA bhAratIyasya vA itarANAM saMskRRItInAM suguNAnAM cha
-durguNAnAM brAhmaNa-dharma-bhakytAH cha parichayaH bhavet vyavasthitaH,
-tat adhaH likhitaH.
-
-saMskRRite cha susaMskRRityAM mayi abhimAnaH vartate. vedeSu udAttAH
-vichArAH dRRishyante. vaidikaH saMpradAyaH me sArthakaH, tat mama asti
-iti mama saubhAgyaH. tIkShNabuddhiH, Atma-niyantraNaM, dharmaH etat
-sarvaM tat-pAlana-phalAH. mama prajAyAH api eShaH saubhAgyaH bhavatu iti
-AShA.
 
 ### Dress strategy
 
@@ -140,7 +129,7 @@ right to be obeyed.
 
 ## Body language
 
-### parichayaM
+### Intro
 
 The body language is indeed a language with words and phrases. The body
 can communicate even when there are no spoken words. The primary
@@ -246,5 +235,5 @@ Could even be used as a permanent mask in the Orient (and Iran, I hear).
 
 #### Erratic signaling
 
-Deliberately misleading signalling. Very tough to execute correctly, but
+Deliberately misleading signaling. Very tough to execute correctly, but
 very effective.
