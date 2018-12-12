@@ -64,8 +64,13 @@ contents:
         url: /artha/society/gameTheory/gameTheory.pdf
   - title: Skills
     contents:
+      - title: Clothing
+        contents:
+          - url: dir://artha/skills/clothing/
+      - title: Communication
+        contents:
+          - url: dir://artha/skills/communication/
       - url: dir://artha/skills/
-      - url: /artha/skills/clothing/index.html
   - title: Education
     contents:
       - title: Principles
