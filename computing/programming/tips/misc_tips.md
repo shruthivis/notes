@@ -43,10 +43,6 @@ Avoid repeated memory allocation.
 
 Avoid writing loops in interpreted languages without ’just in time compiling’ facilities - like Matlab: use a compiled language like C instead: otherwise interpretation costs for executing the code piles up.
 
-## Automatic logging
-
-Corresponding to each experiment, create a log file with a time stamp automatically, perhaps of the same name.
-
 ## Code reuse
 Don’t rewrite the same logic multiple times: put it away in functions.
 
