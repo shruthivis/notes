@@ -5,7 +5,7 @@ title: Writing papers
 
 ## Objectives
 
-To publicise an important discovery, and submit it for criticism and
+To publicize an important discovery, and submit it for criticism and
 improvement.
 
 ### Let it be Explanatory
