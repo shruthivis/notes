@@ -76,6 +76,9 @@ contents:
             contents:
               - url: dir://artha/skills/communication/real-time/
           - url: dir://artha/skills/communication/
+      - title: Research
+        contents:
+          - url: dir://artha/skills/research/
       - url: dir://artha/skills/
   - title: Education
     contents:
