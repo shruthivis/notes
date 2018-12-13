@@ -69,6 +69,9 @@ contents:
           - url: dir://artha/skills/clothing/
       - title: Communication
         contents:
+          - title: Real Time
+            contents:
+              - url: dir://artha/skills/communication/real-time/
           - url: dir://artha/skills/communication/
       - url: dir://artha/skills/
   - title: Education
