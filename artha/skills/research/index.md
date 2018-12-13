@@ -42,9 +42,7 @@ one must take pleasure in these surrounding activities; as the
 anticipation of the pleasure of solving problems may not provide
 sufficient enthusiasm.
 
-### The process
-
-#### High level process for each problem
+### High level process for each problem
 
 General loop: Find area. Find problem in a given area. Find solution
 strategy for a given problem. Implement solution, evaluate, communicate.
@@ -55,9 +53,15 @@ Popular research mode: Knowing and heavily using old techniques: take a
 few hammers, hit everything with it. Finding new techniques is rare and
 hard.
 
-#### jJNAna-prApti: Learning an area
 
-jJNAna-prApti-sUtraM pashyatu.
+### Mining for fresh problems
+
+It is very important to critique a paper or a talk, understand its
+shortcomings, suggest future improvements. Thence, incremental research
+occurs.
+
+OFTEN, perturb the problem and extrapolate a solution. This is a very
+important skill.
 
 #### Problems: Finding candidates
 
