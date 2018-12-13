@@ -1,9 +1,7 @@
 ---
 title: "Vishvas's notes"
-tags: [getting_started]
 sidebar: home_sidebar
 topnav: home_sidebar
-permalink: index.html
 summary: Welcome page.
 ---
 
@@ -28,17 +26,16 @@ summary: Welcome page.
 - Computational Learning Theory: [Introduction to hardness of learning results](colt/scribeNotes/scribeNotes.pdf).
 - Graphical Models (Spring 2010): [The junction tree algorithm](probabilisticModels/graphicalModels/scribeNotes/junctionTrees.pdf).
 - Graphical Models (Spring 2010): [Sparse representations in an overcomplete basis](numericalAnalysis/exposition/sparseRepresentations/scribedNotes.pdf).  
-    
+
 
 ## Exposition:
 
 - Calculating [Area under the ROC curve from a score vector](math/probability/statistics/AUCFromScores/AUCFromScores.pdf), while resolving ties correctly.     
 - A [talk](math/linAlg/exposition/kyFanNorms/kyFanNorms.pdf) on Ky Fan (p, k) norms, April 2009, UT Data Mining Laboratory.
-- And [other talks](http://vishvas-vasuki.appspot.com/resumeLand/resume.html#x1-70000).
+- And [other talks](https://vvasuki.github.io/resumeLand/vishvasVasukiCV.pdf).
 
 ![Sri Yantra](http://upload.wikimedia.org/wikipedia/commons/f/f0/Meru1.jpg)
 
 ## Tech details
 - My code is found elsewhere - check [github](https://github.com/vvasuki).
 - Command `pandoc --from latex --to gfm *.tex >intro.md`
-
