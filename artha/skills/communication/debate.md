@@ -77,3 +77,8 @@ relatively inoffensive impersonal mechanical process.
 
 Even when you win a debate clearly, allow for face saving by conceding
 that the argument was good and that it is natural to be misled.
+
+### A note on irreverence to over-extended authority
+My own experience of causing erudite scholars (RG, NiMi, ViSu, StTi, JaSc... ) to steam through the ears tells me its simply not worth it to give a damn (beyond issuing some basic clarification/ opening for friendship). Usually the steam dissipates after some time.
+
+Ultimately you take what ever you find valuable from them without unnecessary ego issues on your side, and let those afflicted by vidyA-mada etc.. roil in the murk of their own follys. Somehow the first word that jumps to my mind for such curmudgeons is "स्थविर" ( = thera in sihalese, I believe).
