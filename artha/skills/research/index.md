@@ -133,27 +133,8 @@ on theoretical thought and knowledge acquisition. After that, until
 2000, I did experiments and focused on a single research problem. This
 split worked very well.
 
-## About marketing yourself
-
-Note that selling your qualities is very different from selling your
-work.
-
-Let your work do nearly all the talking.
-
-Discuss ideas and papers enthusiastically with others. Like prateeka,
-lexing etc..
-
-Do not hanker after credit, but rely on others’ honest to credit you for
-your ideas. The most important thing is to find answers, not gain
-credit.
-
-## Academic visits
-
-During academic visits, read their papers, and ask questions about it.
 
 ## Communicating research
-
-## Importance
 
 ### Sell work for timely impact
 
@@ -161,7 +142,7 @@ For your work to have a timely impact, others who might use your
 research should know about it. It is absurd to expect others to do it
 for you.
 
-## Publishing venues
+### Publishing venues
 
 Workshops: Some explicitly deny that a presentation in a workshop does
 not count as a publication. So such stuff is publishable elsewhere.
@@ -180,9 +161,3 @@ If you discover a new exciting result in a hot area, it is a good idea
 to inform others who have tackled similar problems about your result.
 Eg: PratIk, raghu, inderjit did this with their compressed sensing/
 matrix completion paper. Thence increase impact, get new suggestions.
-
-## Writing
-
-## Oral presentation
-
-Described in a separate chapter.
