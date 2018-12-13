@@ -10,8 +10,18 @@ true understanding.
 
 Ability to solve textbook problems is another important sign.
 
-Ability to reproduce complex proofs without notes, thinking and
-remembering on the spot.
+### Reconstruction ability
+
+One must be able to reconstruct important knowledge acquired so far,
+relevant to the subject being studied, from scratch. This must be done
+with minimal external reference, and with the power of one’s memory and
+abilities. This is helpful in preparing the mind for studies and in
+solidifying knowledge. For thoroughness of topics covered, a reference
+sheet may be used.
+
+Being able to reproduce complex proofs without notes is an important
+skill. Eg: Pradeep presenting many proofs of statistical learning
+theory, VCD, packing number etc.. PratIka presenting ICML papers.
 
 ## Checking understanding
 
