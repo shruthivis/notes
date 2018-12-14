@@ -38,6 +38,8 @@ By itself, this form of addressing should not be assumed to be a sign of
 excessive rudeness, but as a sign of deliberate distance, used to make
 reasonable demands.
 
+In any case, follow your own culture and begin with "namaste" for example.
+
 ## Awaiting Response
 
 If someone does not respond to an email in 48 hours, bug them.
