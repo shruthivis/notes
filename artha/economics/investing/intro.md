@@ -1,7 +1,7 @@
 ---
 title: Intro
 ---  
-  
+
 
 ## Core idea
 
@@ -128,5 +128,3 @@ Analyst reports and news articles are sometimes available for free on the intern
 #### Mutual fund Ratings
 
 Mutual funds are rated by agencies which examine their past performance and holdings: Eg Morningstar.
-
-##

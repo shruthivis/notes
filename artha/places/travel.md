@@ -6,8 +6,7 @@ I keep an incomplete list of places visited and hiked. Maybe I'll publish it som
 
 ## Activities I like.
 ### Pictures?
-
-Links to pictures are few. The reason is that one can find good photographs of these places on the internet; and I don't see a significant benefit in documenting my presence there with photographs. I do try to capture unusual or unexpected sights [online](https://plus.google.com/109000762913288837175/posts). I will try to write about any special experiences I may have had.
+I liked taking pictures of extraordinary sights - for memory's sake - though the times when I look back at them are very very rare. I may capture fellow-travellers, though I see no point in taking my own picture.
 
 ### Playing with nature.  
 

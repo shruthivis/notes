@@ -1,12 +1,14 @@
 ---
 title: Portfolio design
 ---  
-  
 
-How to pick good investments?
+
+## Summary
 
 - Pick a simple asset allocation model, stick to it, rebalance occasionally.
-- Initially, be equity heavy.
+  - Possibly put a small portion of "extra" money in high-risk high-reward places. (NN Taleb's barbell strategy.)
+- Initially, be equity heavy. But put some money in bonds (negatively correlated with equity).
+  - USA - TSM core 5/8, SV tilt 3/8.
 - Switch to fixed income heavy portfolio when retiring.
     - "Let us call the first set ensemble probability (concerned with a collection of people) and the second one time probability or ergodicity (concerned with one person through time). When you read investment recommendations based on long term returns of market - beware... they're conflating the two. If the investor has to reduce exposure to the market due to big expenses, his returns will be divorced from the market, period." - NN Taleb paraphrased.
 
@@ -62,18 +64,18 @@ In addition, one may focus on well-differentiated, rather than generic, companie
 
 ## Broad investment in chosen sectors
 
-#### Picking a sector
+### Picking a sector
 
 Different sectors show different patterns of growth over a long period of time.
 
 - Cyclical: Real estate, basic materials, consumer items like cars, financial services.
-    
-- Sensitive: Energy (including petroleum), technology, communication services, industrials. These show greater variation depending on current macroeconomic circumstances.
-    
-- Defensive (Monotonically small growth): Healthcare, essential consumer items (like food), utilities (electricity, water).
-    
 
-#### ETF investing
+- Sensitive: Energy (including petroleum), technology, communication services, industrials. These show greater variation depending on current macroeconomic circumstances.
+
+- Defensive (Monotonically small growth): Healthcare, essential consumer items (like food), utilities (electricity, water).
+
+
+### ETF investing
 
 One can invest in ETF’s tracking index funds. Similarly, one can invest in ETF’s tracking the bond and real-estate markets. To pick an ETF, consider its portfolio and deduce its potential profit/ risk.
 
@@ -118,7 +120,7 @@ In a large study in 1991-1996, active traders (avg portfolio turnover was 75%) p
 
 ### Purchase and selling
 
-### Using options
+#### Using options
 
 Selling put options is a profitable way of investing in a certain security at a low enough price. Thus, one can try to buy the equity at the desired price, while simultaneously collecting the premium for selling the option.
 
