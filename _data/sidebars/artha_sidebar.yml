@@ -26,16 +26,13 @@ contents:
     contents:
       - title: Businesses
         contents:
-            - title: Intro
-              url: /artha/economics/businesses/intro.html
-            - title: Misc
-              url: /artha/economics/businesses/misc.html
+          - title: Intro
+            contents:
+              - url: dir://artha/economics/businesses/fundamentals
+          - url: dir://artha/economics/businesses/
       - title: Goods and services
         contents:
-            - title: Intro
-              url: /artha/economics/goods/intro.html
-            - title: Tradeables
-              url: /artha/economics/goods/tradeables.html
+            - url: dir://artha/economics/goods/
       - title: Investing
         contents:
             - title: Intro
@@ -55,7 +52,8 @@ contents:
       - title: Geo outlook
         url: /artha/economics/geo-outlook.html
       - title: Trading
-        url: /artha/economics/trading.html
+        contents:
+            - url: dir://artha/economics/trading/
       - title: Tax
         url: /artha/economics/tax.html
   - title: Society
