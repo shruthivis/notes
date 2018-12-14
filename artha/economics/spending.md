@@ -2,10 +2,6 @@
 title: Individual spending
 ---   
 
-# Consumption
-
-Effects of macro-economic circumstance on consumption levels is described elsewhere.
-
 ## Conspicuous consumption
 
 This is done mainly for the purpose of increasing one’s status in society (aka ’status signaling’). This is aka ’keeping up with the joneses’.
@@ -14,11 +10,8 @@ This is done mainly for the purpose of increasing one’s status in society (aka
 
 People might want to similarly enhance status among environmentally conscious people by making conspicuous green choices - even though a less conspicuous investment may have benefited the ecosystem more. Eg: Installing solar panels on street side of the house, Buying the distinctive Toyota Prius rather than other inconspicuous hybrid vehicles around 2010’s.
 
-# Donation
-
-This involves donating money for public welfare, without expectation of profit. Effective philanthropy is tightly focused on the outcome; though it often starts out as ’feel-good’ philanthropy where one does not consciously try to maximize the good outcome.
-
 ## Donation
+This involves donating money for public welfare, without expectation of profit. Effective philanthropy is tightly focused on the outcome; though it often starts out as ’feel-good’ philanthropy where one does not consciously try to maximize the good outcome.
 
 Donations to charitable organizations are often tax exempt.
 
