@@ -24,3 +24,8 @@ around 10000 hours of focused practice.
 Canadian national hockey players were overwhelmingly likely to be born
 earlier in the year - being slightly bigger/ mature, they recieved
 greater opportunities.
+
+## Situation analysis
+### Models
+- प्राप्यः, प्राप्ता, उपायः, फलम् प्राप्तेः, प्राप्तिविरोधी
+- SWOT - Internal: (Strengths, weaknesses) External (Opportunities, Threats)
