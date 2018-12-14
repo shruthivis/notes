@@ -2,32 +2,20 @@
 title: Notes
 ---
 
-## Identify core ideas
+## Desiderata
+- Easy to navigate to topic of interests (on a variety of devices)
+- Highlights a summary (सूत्रमन्त्रादिरूपेण) decision for execution, separate from exploratory notes.
+- Highlights evocatively core ideas and wonders. Tight focus on essence - Learning involves repeated summarization.
+  - In math - Record important patterns of ideas and solution strategies, with
+  examples/ counter-examples and important results.
+- Builds complex ideas based on clear simple ideas.
+- Easy to update, refactor.
 
-A complex concept is just an arrangement of a few simple ideas. This is
-important while making notes.
-
-Learning involves repeated summarization.
-
-## Succinct summarization
-
-Record important patterns of ideas and solution strategies, with
-examples/ counter-examples and important results. View surveys as
-embedding the graph of ideas in two dimensions. The idea is to embed a
-network of ideas on a sheet.
-
-Capture the most central ideas; ideas which evoke the strongest and the
-most unusual reactions. Ignore the rest. Be able to summarize the
-essentials of a paper in a few paragraphs/ sentences. This is useful as
-a mnemonic, as a useful device while re-reading the details, and as a
-block to be used in reasoning.
-
-## Vividness
-
-In the surveys, note important and surpising things, which evoke a
-reaction other than the usual; make things vivid. Consider making them
-colorful.
-
-Ignore and skip unimportant information.
-
-For closeness to the subject, it is important to have favorite examples.
+## Forms
+- सम्बन्ध-जालम् - Mind-map
+- सूत्र-वृक्षः - Outliner outlines
+- दीर्घलेखाः - Essays
+  - "Graph embedded in 2d as linked text" इव
+- विस्तार-पत्राणि - Spreadsheet tables
+  - उदाहरणम्
+    - व्याकरण-पत्त्राणि    
