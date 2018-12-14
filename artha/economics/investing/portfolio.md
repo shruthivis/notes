@@ -1,7 +1,6 @@
 ---
-title: Portfolio design
+title: Portfolio
 ---  
-
 
 ## Summary
 
