@@ -2,6 +2,23 @@
 title: Implementation
 ---
 
+## Execution Summary
+
+### समीकरणम् (rebalancing)
+- करवृद्धिरहित-लेखासु यथेष्टम् काले काले
+- करव्याप्तौ स्थितासु लेखासु वर्षे वर्षे। कराधिक्यम् वारयितुम्।
+
+### अमेरिकेषु
+- TD Ameritrade इत्यत्र my account -> portfolio planner प्रयोगः पूर्वतटव्यवहारसमये। Use total money to be invested.
+
+### भारतेषु
+#### Post tax
+- Look up symbols in BSE and NSE websites. Sometimes equity is listed in both - only "EQ" is added in symbols to differentiate.
+- upstox order tips: https://www.evernote.com/notelink/Login.action?targetUrl=%2Fshard%2Fs440%2Fnl%2F75394722%2Ff9a8ba31-ac3a-4c70-a836-4ead7b16439b%2F
+
+#### Tax saving
+- Explore funds on morning-star : see 5 yr returns, expense ratio
+- https://upstox.com -> mutual-funds login
 
 ## Discipline
 

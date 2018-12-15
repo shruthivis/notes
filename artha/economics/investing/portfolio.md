@@ -4,6 +4,8 @@ title: Portfolio
 
 ## Summary
 
+Also see [implementation summary](implementation.md).
+
 - Pick a simple asset allocation model, stick to it, rebalance occasionally.
   - Possibly put a small portion of money in high-risk high-reward places. (NN Taleb's barbell strategy.)
 - Initially, be equity heavy. But put some money in bonds (negatively correlated with equity).
@@ -12,6 +14,23 @@ title: Portfolio
     - "Let us call the first set ensemble probability (concerned with a collection of people) and the second one time probability or ergodicity (concerned with one person through time). When you read investment recommendations based on long term returns of market - beware... they're conflating the two. If the investor has to reduce exposure to the market due to big expenses, his returns will be divorced from the market, period." - NN Taleb paraphrased.
 
 More in [CV](https://checkvist.com/checklists/113019/tasks/7086822).
+
+### स्थानानि
+- USA
+  - स्वेतिहासात् सौकर्यम्
+- India
+  - मुम्बायि-नाशाद् निवेशनाशस्यापायः
+
+## Measurement
+### USA
+Performance
+- [portfoliovisualizer.com](https://www.portfoliovisualizer.com/backtest-portfolio?s=y&timePeriod=4&startYear=1985&firstMonth=1&endYear=2019&lastMonth=12&endDate=08%2F25%2F2016&initialAmount=10000&annualOperation=0&annualAdjustment=0&inflationAdjusted=true&annualPercentage=0.0&frequency=4&rebalanceType=1&showYield=false&reinvestDividends=true&symbol1=VTI&allocation1_1=50&allocation1_2=68&allocation1_3=50&symbol2=VEU&allocation2_3=20&symbol3=VBR&allocation3_1=30&allocation3_2=32&allocation3_3=30&symbol4=BLV&allocation4_1=20)
+  - compounded annual growth rate - 8.5%, inflation adjusted - 6.8%
+- [Mint](https://mint.intuit.com/investment.event)
+- [morningstar](https://www.morningstar.com/portfolio.html?requestUrl=/RtPort/Reg/AllView.aspx?viewpage=1&dt=45#468-hidenews)
+
+Asset correlations
+- [portfoliovisualizer.com](https://www.portfoliovisualizer.com/asset-correlations?s=y&symbols=VTI+BLV+VBR&endDate=12%2F14%2F2018&timePeriod=4&numTradingDays=120)
 
 ## Equity: Everything + small value approach
 
