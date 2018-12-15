@@ -38,10 +38,7 @@ contents:
             - url: dir://artha/economics/investing/
       - title: State level
         contents:
-            - title: Intro
-              url: /artha/economics/state-level/intro.html
-            - title: Money
-              url: /artha/economics/state-level/money.html
+            - url: dir://artha/economics/state-level/
       - title: Consumption + Donation
         url: /artha/economics/spending.html
       - title: Trading
