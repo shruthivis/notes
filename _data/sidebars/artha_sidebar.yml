@@ -44,13 +44,14 @@ contents:
               url: /artha/economics/state-level/money.html
       - title: Consumption + Donation
         url: /artha/economics/spending.html
-      - title: Geo outlook
-        url: /artha/economics/geo-outlook.html
       - title: Trading
         contents:
             - url: dir://artha/economics/trading/
       - title: Tax
         url: /artha/economics/tax.html
+      - title: Geo outlook
+        contents:
+            - url: dir://artha/economics/geo/
   - title: Society
     contents:
       - title: Algorithmic game theory
