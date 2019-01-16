@@ -67,6 +67,9 @@ contents:
             contents:
               - url: dir://artha/skills/communication/real-time/
           - url: dir://artha/skills/communication/
+      - title: Moving
+        contents:
+          - url: dir://artha/skills/moving/
       - title: Research
         contents:
           - url: dir://artha/skills/research/
