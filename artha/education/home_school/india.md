@@ -6,39 +6,35 @@ title: भारतेषु गृहे शिक्षणम्
 
 ## Certifications
 
-- BEd summary - [YT](https://www.youtube.com/watch?v=j6wj8jKArvU)
-- Homeschoolers in India can take some of these board exams as 'private candidates registered with a school' or through 'the British Council' in some big cities/metros/states.
-- National Institute of Open Schooling is an Autonomous Institution under Ministry of HRD, Govt. of India. It is the largest open schooling System in the world. 
-    - nios.ac.in
-    - [@niostwit](https://twitter.com/niostwit)
-    - [Open Basic Education (OBE)](http://www.nios.ac.in/departmentsunits/academic/open-basic-education-(obe).aspx)
-        - For obtaining a pass certificate, you are required to pass in a minimum of five subjects including one or maximum of two languages from Group 'A' and other three or four subjects from other Group. However, you are free to take upto two additional subjects. Thus, in all you can choose a maximum of seven subjects. The Learners are however advised to select the subjects as per their future plan of study and work. Subjects with * have theory as well as practical works.
-        - [Secondary Course equivalent to Class X](http://www.nios.ac.in/departmentsunits/academic/secondary-course-equivalent-to-class-x.aspx)
-            - **  
-                Group-A**  
-                Hindi(201), English(202), Bengali(203), Marathi(204), Telugu(205), Urdu(206), Gujarati(207), Kannada(208), Sanskrit(209), Punjabi(210), Assamese (228),Nepali(231), Malayalam(232), Oriya(233), Arabic (235),Persian (236), Tamil (237)  
-                **Group-B**  
-                [*](http://www.nios.ac.in/departmentsunits/academic/secondary-course-equivalent-to-class-x.aspx#*)Mathematics(211),[*](http://www.nios.ac.in/departmentsunits/academic/secondary-course-equivalent-to-class-x.aspx#*)Science and Technology(212), Social Science(213), Economics(214), Business Studies(215), [*](http://www.nios.ac.in/departmentsunits/academic/secondary-course-equivalent-to-class-x.aspx#*)Home Science(216), [*](http://www.nios.ac.in/departmentsunits/academic/secondary-course-equivalent-to-class-x.aspx#*)Data Entry Operation(E)(229), Psychology (222), Indian Culture & Heritage (223), [*](http://www.nios.ac.in/departmentsunits/academic/secondary-course-equivalent-to-class-x.aspx#*)Painting (225),[*](http://www.nios.ac.in/departmentsunits/academic/secondary-course-equivalent-to-class-x.aspx#*)Data Entry Operations (229)
-                
-        - [Senior Secondary Course equivalent to class XII](http://www.nios.ac.in/departmentsunits/academic/senior-secondary-course-equivalent-to-class-xii.aspx)
-            - **Group-A**  
-                Hindi(301), English(302), Bangla (303), Tamil (304), Odia (305), Urdu(306), Gujarati (307), Sanskrit (309), Punjabi (310)  
-                **Group-B**  
-                Mathematics(311), [*](http://www.nios.ac.in/departmentsunits/academic/senior-secondary-course-equivalent-to-class-xii.aspx#*)Home Science(321), Psychology(328), [*](http://www.nios.ac.in/departmentsunits/academic/senior-secondary-course-equivalent-to-class-xii.aspx#*)Geography(316), Economics(318), Business Studies(319), [*](http://www.nios.ac.in/departmentsunits/academic/senior-secondary-course-equivalent-to-class-xii.aspx#*)Painting (332), [*](http://www.nios.ac.in/departmentsunits/academic/senior-secondary-course-equivalent-to-class-xii.aspx#*)Data entry Operation(336)  
-                **Group-C**  
-                [*](http://www.nios.ac.in/departmentsunits/academic/senior-secondary-course-equivalent-to-class-xii.aspx#*)Physics(312), History(315), [*](http://www.nios.ac.in/departmentsunits/academic/senior-secondary-course-equivalent-to-class-xii.aspx#*)Library and Information Sc.(339),  
-                **Group-D**  
-                [*](http://www.nios.ac.in/departmentsunits/academic/senior-secondary-course-equivalent-to-class-xii.aspx#*) Chemistry(313), Political Science(317),[*](http://www.nios.ac.in/departmentsunits/academic/senior-secondary-course-equivalent-to-class-xii.aspx#*)Mass Communication (335)  
-                **Group-E**  
-                [*](http://www.nios.ac.in/departmentsunits/academic/senior-secondary-course-equivalent-to-class-xii.aspx#*)Biology(314), Accountancy(320),[*](http://www.nios.ac.in/departmentsunits/academic/senior-secondary-course-equivalent-to-class-xii.aspx#*)Introduction to Law (338),  
-                **Group-F**  
-                [*](http://www.nios.ac.in/departmentsunits/academic/senior-secondary-course-equivalent-to-class-xii.aspx#*)Computer Science(330), Sociology(331),  [*](http://www.nios.ac.in/departmentsunits/academic/senior-secondary-course-equivalent-to-class-xii.aspx#*)Environmental Science (333)  
-                **Learner can opt only one subject from each of Group C,D,E and F  
-                **
-                
-                  
-                
-        - [Vocational Education](http://www.nios.ac.in/departmentsunits/vocational-education.aspx)
+### Summaries
+- homeschoolers.in [summary](http://homeschoolers.in/boards-and-homeschoolers/)
+- Summary by some BEd person - [YT](https://www.youtube.com/watch?v=j6wj8jKArvU)
+
+### Alternate routes
+- board exams as 'private candidates registered with a school'
+  - Karnataka SSLC eligibility criteria - age 18 [OB](http://www.onlinebangalore.com/educ/sslc/freq1.html)!
+
+### IGCSE, IGCE AS Level
+- The International General Certificate of Secondary Education (IGCSE = class X) and the International General Certificate of Education (IGCE) examinations are the world’s most popular international qualifications for 14  to 16 year-olds. From Cambridge Assessment International Education. 
+- Exams can be taken at the British Council
+- To take the O Level exams as a private candidate, the child must be registered as a private candidate in a local school affiliated to the Cambridge board. Schools with the IGCSE syllabus also allow external students who need not attend regular classes but can sit for tests or use laboratory facilities.
+  - Alternative: Homeschooling via Wolsey Hall Oxford.
+
+### NIOS
+National Institute of Open Schooling is an Autonomous Institution under Ministry of HRD, Govt. of India. It is the largest open schooling System in the world. 
+- nios.ac.in
+- [@niostwit](https://twitter.com/niostwit)
+- Info resources
+  - More reliable prospectuses - [2018](https://nios.ac.in/media/documents/prospectus/ACADEMIC_PROSPECTUS_2018_19_FINAL.pdf)
+  - [Open Basic Education (OBE)](http://www.nios.ac.in/departmentsunits/academic/open-basic-education-(obe).aspx)
+- [Vocational Education](http://www.nios.ac.in/departmentsunits/vocational-education.aspx)
+- Eligibility
+  - Age 14 for class X
+  - Age 15 for class XII
+  - Eligibility criteria seems tailored for Indian citizens. Not sure if foreign citizens can apply.
+- Subjects
+  - See prospectus
+  - At both class X and XII Four subjects namely, Veda Adhyan, Sanskrit Vyakaran, Bharatiya Darshan and Sanskrit Sahitya are clubbed as Indian Knowledge Tradition along with Sanskrit Language are available only in Sanskrit medium.                
 
 ## Groups
 
