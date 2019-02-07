@@ -36,6 +36,9 @@ National Institute of Open Schooling is an Autonomous Institution under Ministry
   - See prospectus
   - At both class X and XII Four subjects namely, Veda Adhyan, Sanskrit Vyakaran, Bharatiya Darshan and Sanskrit Sahitya are clubbed as Indian Knowledge Tradition along with Sanskrit Language are available only in Sanskrit medium.                
 
+### State level open school boards
+- KA [web](http://www.kolskarnataka.com/About_us.aspx)
+
 ## Groups
 
 - मेलनानि \- २०१६ [अत्र](https://svargaonearth.wordpress.com/2016/03/04/bye-bye-to-bras/comment-page-1/#comment-62)।
