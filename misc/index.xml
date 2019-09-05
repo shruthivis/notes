@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#43;Misc परिशिष्टम् on Vishvas&#39;s notes</title>
+    <link>file:///storage/emulated/0/notesData/notes/misc/</link>
+    <description>Recent content in &#43;Misc परिशिष्टम् on Vishvas&#39;s notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="file:///storage/emulated/0/notesData/notes/misc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>file:///storage/emulated/0/notesData/notes/misc/chemistry/proteinStructurePrediction/proteinStructure/literatureReview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///storage/emulated/0/notesData/notes/misc/chemistry/proteinStructurePrediction/proteinStructure/literatureReview/</guid>
+      <description>Protein Structure prediction literature review   Protein structure prediction: Literature review Disclaimer: In the reviews below, portions of the original articles are presented verbatim - The authors have worked hard on it, after all.
+Sections: Protein Structure prediction:  Brunette, TJ and Oliver Brock. Improving Protein Structure Prediction with Model-Based Search. Bioinformatics 21(Suppl. 1):66-74, June 2005.
+Special Issue for the International Conference on Intelligent Systems for Molecular Biology (ISMB), Detroit, USA URL</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>file:///storage/emulated/0/notesData/notes/misc/chemistry/proteinStructurePrediction/proteinStructure/researchers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///storage/emulated/0/notesData/notes/misc/chemistry/proteinStructurePrediction/proteinStructure/researchers/</guid>
+      <description>Protein Structure prediction researchers   Protein structure predictors Protein Structure Prediction Center is the organizer of CASP (Critical Assessment of Techniques for Protein Structure Prediction) events.
+Here is an incomplete and unordered list of professors who work on protein structure prediction:
+ David Baker, University of Washington John Moult, University of Maryland Biotechnology Institute Andrej Sali, University of California, San Francisco Oliver Brock, University of Massachusetts Michael James, University of Alberta Shoshana Wodak, Free University of Brussels Fred Cohen, University of California at San Francisco Jan Pedersen, UMBI Richard Judson, Sandia National Laboratories Krzysztof Fidelis, Lawrence Livermore National Laboratory Michael Levitt, Stanford University Ram Samudrala, University of Washington, Seattle Ron Unger, BIU, Israel Roberto Sanchez, Mount Sinai School of Medicine  -- Compiled by vishvAs vAsuki</description>
+    </item>
+    
+  </channel>
+</rss>

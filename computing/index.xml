@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computings on Vishvas&#39;s notes</title>
+    <link>file:///storage/emulated/0/notesData/notes/computing/</link>
+    <description>Recent content in Computings on Vishvas&#39;s notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="file:///storage/emulated/0/notesData/notes/computing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>file:///storage/emulated/0/notesData/notes/computing/ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///storage/emulated/0/notesData/notes/computing/ai/</guid>
+      <description>this.location=&#34;../../vishvas.htm&#34;;  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>file:///storage/emulated/0/notesData/notes/computing/colt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///storage/emulated/0/notesData/notes/computing/colt/</guid>
+      <description>this.location=&#34;../../vishvas.htm&#34;;  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>file:///storage/emulated/0/notesData/notes/computing/cryptography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///storage/emulated/0/notesData/notes/computing/cryptography/</guid>
+      <description>this.location=&#34;../../vishvas.htm&#34;;  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>file:///storage/emulated/0/notesData/notes/computing/optimization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///storage/emulated/0/notesData/notes/computing/optimization/</guid>
+      <description>this.location=&#34;../../vishvas.htm&#34;;  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>file:///storage/emulated/0/notesData/notes/computing/randomizedAlgorithms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///storage/emulated/0/notesData/notes/computing/randomizedAlgorithms/</guid>
+      <description>this.location=&#34;../../vishvas.htm&#34;;  </description>
+    </item>
+    
+    <item>
+      <title>Intro</title>
+      <link>file:///storage/emulated/0/notesData/notes/computing/computationalComplexity/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///storage/emulated/0/notesData/notes/computing/computationalComplexity/intro/</guid>
+      <description> Useful resources elsewhere  Complexity Classes&amp;rsquo; Venn diagram, Inclusion graph. Theoretical Computer Science Cheat Sheet.  </description>
+    </item>
+    
+  </channel>
+</rss>

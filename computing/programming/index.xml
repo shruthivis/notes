@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intro on Vishvas&#39;s notes</title>
+    <link>file:///storage/emulated/0/notesData/notes/computing/programming/</link>
+    <description>Recent content in Intro on Vishvas&#39;s notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="file:///storage/emulated/0/notesData/notes/computing/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Abstraction from Hardware</title>
+      <link>file:///storage/emulated/0/notesData/notes/computing/programming/languageDesign/hw_abstraction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///storage/emulated/0/notesData/notes/computing/programming/languageDesign/hw_abstraction/</guid>
+      <description>View of memory If in writing code, one thinks in terms of instructions and data which can be understood by a processor (eg: bytes in the main memory, registers, hardware IO signals), one is working with a low level language.
+High level languages allow the programmer to think of memory locations and data more abstractly/ declaratively by starting with assumptions that there exist memory locations with certain properties which will be bound to variables used by the programmer by the compiler with the OS’s help.</description>
+    </item>
+    
+    <item>
+      <title>Coder profession</title>
+      <link>file:///storage/emulated/0/notesData/notes/computing/programming/profession/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///storage/emulated/0/notesData/notes/computing/programming/profession/</guid>
+      <description>General advice Ergonomics - FB thread.
+On the software engineering profession. From an OLD (early 2010-s) email thread:
+ What are the 3 most important things such as experience you&amp;rsquo;ve had that helped you succeed as a software engineer?
+ The programming class I took as an undergraduate. My first job as a software engineer. Appreciation of theoretical aspects involved in programming from my theory classes and research.   Is the profession of software engineer overcrowded?</description>
+    </item>
+    
+    <item>
+      <title>Comments, names, size</title>
+      <link>file:///storage/emulated/0/notesData/notes/computing/programming/tips/comments_names_size/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///storage/emulated/0/notesData/notes/computing/programming/tips/comments_names_size/</guid>
+      <description>Readability techniques: Overview To borrow from, but not fully copy, &amp;ldquo;literate programming&amp;rdquo; - a code segment (say a file) should read like a clear book chapter or short wiki article. Readability (ease of understanding) can be accomplished by a combination of good variable naming, function and file size and comments - in that order of preference.
+Comments are the last resort (as they get out of sync), but should be quite copious when necessary (to communicate design choices, problems, describing obscure language features etc.</description>
+    </item>
+    
+    <item>
+      <title>Debug</title>
+      <link>file:///storage/emulated/0/notesData/notes/computing/programming/tips/debug/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///storage/emulated/0/notesData/notes/computing/programming/tips/debug/</guid>
+      <description> Method  Detective Analogy Isolate the bug.  Extract information from error report. Understand cryptic error codes. Unit testing. Leaks Profiling  Fix it.  Logging  Log important events Use good Logging framework  Prints source (line number etc..)  Destinations: Corresponding to each experiment, create a log file with a time stamp automatically, perhaps of the same name.  </description>
+    </item>
+    
+    <item>
+      <title>Decision structures</title>
+      <link>file:///storage/emulated/0/notesData/notes/computing/programming/languageDesign/decision_structures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///storage/emulated/0/notesData/notes/computing/programming/languageDesign/decision_structures/</guid>
+      <description>The conciseness and clarity of expression of branching and iterative operation in different languages is different.
+Branching The if-else structure is the most basic decision structure, using which more convenient decision structures like the if-elseif.. structure is defined.
+Matching a value Different branches of execution often depend on different tests performed over the value of an expression. This is provided in terms of the ’match with various cases’ construct.</description>
+    </item>
+    
+    <item>
+      <title>Functions</title>
+      <link>file:///storage/emulated/0/notesData/notes/computing/programming/languageDesign/procedures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///storage/emulated/0/notesData/notes/computing/programming/languageDesign/procedures/</guid>
+      <description>Procedures Code is often organized into different procedures, which may be invoked under different contexts with different arguments.
+Mathematical functions A procedure can change state (has a side-effect) and maybe return a value, doesn’t naturally correspond to mathematical function which cannot do this. So a function, which cannot have side-effects, can be viewed as a special type of procedure.
+C is a procedural programming language which is not structured.</description>
+    </item>
+    
+    <item>
+      <title>Goals</title>
+      <link>file:///storage/emulated/0/notesData/notes/computing/programming/tips/goals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///storage/emulated/0/notesData/notes/computing/programming/tips/goals/</guid>
+      <description>Overview In roughly descending order of importance:
+ Easy to understand. Easy to modify. Few errors. High coding speed. High computational efficiency.  Understanding specifications In the industry, this involves surveying customers, rapid prototyping, talking to end-users etc.. In research, the specifications come from the research problem.
+Complexity More complex code is harder to implement : sometimes, there one can make choices which lead to simpler code - by simplifying requirements or interface languages for example.</description>
+    </item>
+    
+    <item>
+      <title>Misc Tips</title>
+      <link>file:///storage/emulated/0/notesData/notes/computing/programming/tips/misc_tips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///storage/emulated/0/notesData/notes/computing/programming/tips/misc_tips/</guid>
+      <description>Meta Coding Packaging  Supply automatic packaging, build system. Publish periodic releases.  Reviews  Remember cause  Can&amp;rsquo;t write truly complete test cases education  Web based code review tool Ideal prerequisite for check-in  Readability review Code owner review  Separate changelists for separate changes Self critique  Beware over-confidence bias Take break, return fresh  Record confidence  &amp;lsquo;Confidence in correctness: High. Reason: Tested multiple times&amp;rsquo;   Separate data from code Externalizing messages Message strings should, in most cases, not be hard-coded inside the code.</description>
+    </item>
+    
+    <item>
+      <title>Misc topics</title>
+      <link>file:///storage/emulated/0/notesData/notes/computing/programming/languageDesign/language_design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///storage/emulated/0/notesData/notes/computing/programming/languageDesign/language_design/</guid>
+      <description>Programming is data processing.
+Type-generic definitions One may define generic classes or functions in a generic way. Such definitions accept a type parameter, apart from other values. Eg: class List[T] may define a linked list which holds objects of type T.
+Specifying generators These are functions which produce the ith element only on demand - a sort of lazy evaluation. They lead to time savings.
+These are often traversable only once.</description>
+    </item>
+    
+    <item>
+      <title>Objects</title>
+      <link>file:///storage/emulated/0/notesData/notes/computing/programming/languageDesign/objects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///storage/emulated/0/notesData/notes/computing/programming/languageDesign/objects/</guid>
+      <description>Object oriented design is considered in the software architecture survey.
+Object manipulation The main idea of object oriented programming is to describe computation in terms of manipulating states of objects. This causes state changes to be local - which helps programmers design a well structured view of state and behavior.
+This is distinct from the functional programming paradigm.
+Encapsulation and locality Hiding data and methods from outside methods restricts state changes to be local.</description>
+    </item>
+    
+    <item>
+      <title>Paradigms</title>
+      <link>file:///storage/emulated/0/notesData/notes/computing/programming/languageDesign/paradigms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///storage/emulated/0/notesData/notes/computing/programming/languageDesign/paradigms/</guid>
+      <description>Chapter Scope A signle programming language can support multiple paradigms. Programming language features enabling different programming paradigms and architectures are considered elsewhere. Eg: Higher order functions underlies functional programming paradigm.
+Imperative vs declarative programming Imperative programming Views computation in terms of altering state.
+Structured programming In this programming paradigm, state changes are restricted locally. This helps organize code and state information. Structured programming code is more easily understood and maintainable than common procedural language code.</description>
+    </item>
+    
+    <item>
+      <title>Pick language</title>
+      <link>file:///storage/emulated/0/notesData/notes/computing/programming/tips/pick_language/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///storage/emulated/0/notesData/notes/computing/programming/tips/pick_language/</guid>
+      <description>One must use the language most appropriate language to solve the problem at hand quickly and with computational efficiency.
+Sometimes, a tradeoff may be involved: tradeoff between expressiveness and efficiency of a language. One may even use different programming languages to specify different parts of the logic to the computer.
+Expressiveness/ conciseness Expressiveness is important in rapid prototyping/ programming. The presence of useful libraries is a major factor which affects conciseness.</description>
+    </item>
+    
+    <item>
+      <title>Syntax</title>
+      <link>file:///storage/emulated/0/notesData/notes/computing/programming/languageDesign/syntax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///storage/emulated/0/notesData/notes/computing/programming/languageDesign/syntax/</guid>
+      <description>Literals All literals, apart from comments, in a program are of the following sort: keywords; identifiers (names of variables); operators. Literals are separated using delimiters and by using rules which specify the allowed structure of the literal.
+Identifiers Overloading A language may allow methods/ operators with similar names, but different signature.
+Scope Namespace/ scope of variables and functions is ordinarily defined by the block of code wherein it is defined.</description>
+    </item>
+    
+    <item>
+      <title>Testing</title>
+      <link>file:///storage/emulated/0/notesData/notes/computing/programming/tips/testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///storage/emulated/0/notesData/notes/computing/programming/tips/testing/</guid>
+      <description>Use  Forces implementer to think like user. (Ease of use emphasized.) Useful for debugging. Testable code tends to be more readable. Safeguard against monkey-errors in future.  Test desiderata  Speed Isolation In production code  Check inputs - use assertions   What to test?  Prove assertions  Check safety: Recognize invariants Check progress Induction   Isolation testing  Unit test function  Mocking function calls Eg: to databases Use fake objects Eg: fake databases   End to end test High reliability, most important.</description>
+    </item>
+    
+    <item>
+      <title>User interface</title>
+      <link>file:///storage/emulated/0/notesData/notes/computing/programming/ui/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///storage/emulated/0/notesData/notes/computing/programming/ui/</guid>
+      <description>GUI Metaphors The most common graphical user interfaces use the desktop/ workspace and the windows metaphor.
+Desktop A desktop/ workspace corresponds to a big area in the available screen space whence applications are launched, and within which statuses, widgets and windows are displayed.
+There may be multiple workspaces on a device - especially in case of devices with limited screen size.
+Layering Various windows, widgets and the desktop conceptually form a stack of various displays available to the user.</description>
+    </item>
+    
+  </channel>
+</rss>

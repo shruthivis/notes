@@ -1,0 +1,2142 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Vishvas&#39;s notes  | Syntax</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.53" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    
+
+    
+
+    <meta property="og:title" content="Syntax" />
+<meta property="og:description" content="Literals All literals, apart from comments, in a program are of the following sort: keywords; identifiers (names of variables); operators. Literals are separated using delimiters and by using rules which specify the allowed structure of the literal.
+Identifiers Overloading A language may allow methods/ operators with similar names, but different signature.
+Scope Namespace/ scope of variables and functions is ordinarily defined by the block of code wherein it is defined." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="file:///storage/emulated/0/notesData/notes/computing/programming/languageDesign/syntax/" />
+
+<meta itemprop="name" content="Syntax">
+<meta itemprop="description" content="Literals All literals, apart from comments, in a program are of the following sort: keywords; identifiers (names of variables); operators. Literals are separated using delimiters and by using rules which specify the allowed structure of the literal.
+Identifiers Overloading A language may allow methods/ operators with similar names, but different signature.
+Scope Namespace/ scope of variables and functions is ordinarily defined by the block of code wherein it is defined.">
+
+
+
+<meta itemprop="wordCount" content="199">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Syntax"/>
+<meta name="twitter:description" content="Literals All literals, apart from comments, in a program are of the following sort: keywords; identifiers (names of variables); operators. Literals are separated using delimiters and by using rules which specify the allowed structure of the literal.
+Identifiers Overloading A language may allow methods/ operators with similar names, but different signature.
+Scope Namespace/ scope of variables and functions is ordinarily defined by the block of code wherein it is defined."/>
+
+      
+    
+    
+    <script type="text/javascript">
+    
+    let baseURL = "file:\/\/\/storage\/emulated\/0\/notesData\/notes";
+    let basePath = "/" + baseURL.split("/").slice(3).join("/");
+    let siteParams = JSON.parse("{\x22contactlink\x22:\x22https:\/\/github.com\/vvasuki\/notes\/issues\/new\x22,\x22disqusshortcode\x22:\x22vvasuki-site\x22,\x22env\x22:\x22production\x22,\x22githubeditmepathbase\x22:\x22https:\/\/github.com\/vvasuki\/notes\/edit\/master\/content\/\x22,\x22mainSections\x22:[\x22artha\x22],\x22mainsections\x22:[\x22artha\x22]}");
+    let pageDefaultsList = JSON.parse("[{\x22scope\x22:{\x22pathPrefix\x22:\x22\x22},\x22values\x22:{\x22comments\x22:true,\x22layout\x22:\x22page\x22,\x22search\x22:true,\x22sidebar\x22:\x22home_sidebar\x22}},{\x22scope\x22:{\x22pathPrefix\x22:\x22artha\x22},\x22values\x22:{\x22comments\x22:true,\x22layout\x22:\x22page\x22,\x22search\x22:true,\x22sidebar\x22:\x22artha_sidebar\x22}},{\x22scope\x22:{\x22pathPrefix\x22:\x22math\x22},\x22values\x22:{\x22comments\x22:true,\x22layout\x22:\x22page\x22,\x22search\x22:true,\x22sidebar\x22:\x22gaNita_sidebar\x22}},{\x22scope\x22:{\x22pathPrefix\x22:\x22computing\x22},\x22values\x22:{\x22comments\x22:true,\x22layout\x22:\x22page\x22,\x22search\x22:true,\x22sidebar\x22:\x22gaNita_sidebar\x22}},{\x22scope\x22:{\x22pathPrefix\x22:\x22misc\x22},\x22values\x22:{\x22comments\x22:true,\x22layout\x22:\x22page\x22,\x22search\x22:true,\x22sidebar\x22:\x22misc_sidebar\x22}}]");
+    let sidebarsData = JSON.parse("{\x22artha_sidebar\x22:{\x22contents\x22:[{\x22contents\x22:[{\x22url\x22:\x22dir:\/\/artha\/environment\/\x22}],\x22title\x22:\x22Environment\x22},{\x22contents\x22:[{\x22contents\x22:[{\x22url\x22:\x22dir:\/\/artha\/places\/usa\/\x22},{\x22contents\x22:[{\x22url\x22:\x22dir:\/\/artha\/places\/usa\/sf-bay\/\x22}],\x22title\x22:\x22SF Bay\x22}],\x22title\x22:\x22USA\x22},{\x22contents\x22:[{\x22url\x22:\x22dir:\/\/artha\/places\/india\/\x22},{\x22contents\x22:[{\x22url\x22:\x22dir:\/\/artha\/places\/india\/bengaluuru\/\x22}],\x22title\x22:\x22Beṇgaḷūru\x22}],\x22title\x22:\x22India\x22}],\x22title\x22:\x22Places\x22},{\x22contents\x22:[{\x22contents\x22:[{\x22contents\x22:[{\x22url\x22:\x22dir:\/\/artha\/economics\/businesses\/fundamentals\x22}],\x22title\x22:\x22Intro\x22},{\x22url\x22:\x22dir:\/\/artha\/economics\/businesses\/\x22}],\x22title\x22:\x22Businesses\x22},{\x22contents\x22:[{\x22url\x22:\x22dir:\/\/artha\/economics\/goods\/\x22}],\x22title\x22:\x22Goods and services\x22},{\x22contents\x22:[{\x22url\x22:\x22dir:\/\/artha\/economics\/investing\/\x22}],\x22title\x22:\x22Investing\x22},{\x22contents\x22:[{\x22url\x22:\x22dir:\/\/artha\/economics\/state-level\/\x22}],\x22title\x22:\x22State level\x22},{\x22title\x22:\x22Consumption \x2b Donation\x22,\x22url\x22:\x22\/artha\/economics\/spending\/\x22},{\x22contents\x22:[{\x22url\x22:\x22dir:\/\/artha\/economics\/trading\/\x22}],\x22title\x22:\x22Trading\x22},{\x22contents\x22:[{\x22url\x22:\x22dir:\/\/artha\/economics\/tax\/\x22}],\x22title\x22:\x22Tax\x22},{\x22contents\x22:[{\x22url\x22:\x22dir:\/\/artha\/economics\/geo\/\x22}],\x22title\x22:\x22Geo outlook\x22}],\x22title\x22:\x22Economics\x22},{\x22contents\x22:[{\x22title\x22:\x22Algorithmic game theory\x22,\x22url\x22:\x22\/artha\/society\/gameTheory\/gameTheory.pdf\x22}],\x22title\x22:\x22Society\x22},{\x22contents\x22:[{\x22contents\x22:[{\x22url\x22:\x22dir:\/\/artha\/skills\/clothing\/\x22}],\x22title\x22:\x22Clothing\x22},{\x22contents\x22:[{\x22url\x22:\x22dir:\/\/artha\/skills\/furniture\/\x22}],\x22title\x22:\x22Furniture\x22},{\x22contents\x22:[{\x22url\x22:\x22dir:\/\/artha\/skills\/learning\/\x22}],\x22title\x22:\x22Learning\x22},{\x22contents\x22:[{\x22contents\x22:[{\x22url\x22:\x22dir:\/\/artha\/skills\/communication\/real-time\/\x22}],\x22title\x22:\x22Real Time\x22},{\x22url\x22:\x22dir:\/\/artha\/skills\/communication\/\x22}],\x22title\x22:\x22Communication\x22},{\x22contents\x22:[{\x22url\x22:\x22dir:\/\/artha\/skills\/moving\/\x22}],\x22title\x22:\x22Moving\x22},{\x22contents\x22:[{\x22url\x22:\x22dir:\/\/artha\/skills\/research\/\x22}],\x22title\x22:\x22Research\x22},{\x22url\x22:\x22dir:\/\/artha\/skills\/\x22}],\x22title\x22:\x22Skills\x22},{\x22contents\x22:[{\x22title\x22:\x22Principles\x22,\x22url\x22:\x22\/artha\/education\/principles\/\x22},{\x22contents\x22:[{\x22url\x22:\x22dir:\/\/artha\/education\/home_school\/\x22},{\x22contents\x22:[{\x22url\x22:\x22dir:\/\/artha\/education\/home_school\/india\/\x22}],\x22title\x22:\x22India\x22}],\x22title\x22:\x22Home schooling\x22},{\x22title\x22:\x22Lecturing\x22,\x22url\x22:\x22\/artha\/education\/lecturing\/\x22}],\x22title\x22:\x22Education\x22},{\x22title\x22:\x22Notes Home\x22,\x22url\x22:\x22\/\x22},{\x22title\x22:\x22Vishvas\x27s home page\x22,\x22url\x22:\x22\/..\/\x22},{\x22title\x22:\x22Blog\x22,\x22url\x22:\x22\/assets\/blog\/\x22}],\x22title\x22:\x22Parts\x22},\x22gaNita_sidebar\x22:{\x22contents\x22:[{\x22contents\x22:[{\x22title\x22:\x22Number Theory\x22,\x22url\x22:\x22\/math\/numberTheory\/numberTheory.pdf\x22},{\x22title\x22:\x22Algebra\x22,\x22url\x22:\x22\/math\/algebra\/algebra.pdf\x22},{\x22title\x22:\x22Linear algebra\x22,\x22url\x22:\x22\/math\/linAlg\/linAlg.pdf\x22},{\x22title\x22:\x22Vector spaces\x22,\x22url\x22:\x22\/math\/vectorSpaces\/vectorSpaces.pdf\x22},{\x22title\x22:\x22Topology\x22,\x22url\x22:\x22\/math\/topology\/topology.pdf\x22},{\x22title\x22:\x22Complex analysis\x22,\x22url\x22:\x22\/math\/complexAnalysis\/complexAnalysis.pdf\x22},{\x22title\x22:\x22Functional analysis\x22,\x22url\x22:\x22\/math\/functionalAnalysis\/functionalAnalysis.pdf\x22},{\x22title\x22:\x22Boolean functions\x22,\x22url\x22:\x22\/math\/booleanFunctions\/booleanFunctions.pdf\x22},{\x22title\x22:\x22Graph theory\x22,\x22url\x22:\x22\/math\/graphTheory\/graphTheory.pdf\x22},{\x22title\x22:\x22Inference\x22,\x22url\x22:\x22\/math\/inference\/inference.pdf\x22},{\x22title\x22:\x22Approximation theory\x22,\x22url\x22:\x22\/math\/approxTheory\/approxTheory.pdf\x22}],\x22title\x22:\x22Mathematics\x22},{\x22contents\x22:[{\x22title\x22:\x22Probabilistic analysis\x22,\x22url\x22:\x22\/probability\/probability\/probability.pdf\x22},{\x22title\x22:\x22Probabilistic models\x22,\x22url\x22:\x22\/probability\/probabilisticModels\/probabilisticModels.pdf\x22},{\x22title\x22:\x22Statistics and pattern recognition\x22,\x22url\x22:\x22\/probability\/statistics\/statistics.pdf\x22}],\x22title\x22:\x22Probability and Statistics\x22},{\x22contents\x22:[{\x22title\x22:\x22Computer Architecture\x22,\x22url\x22:\x22\/computing\/computerArchitecture\/computerArchitecture.pdf\x22},{\x22title\x22:\x22Algorithms\x22,\x22url\x22:\x22\/computing\/algorithms\/algorithms.pdf\x22},{\x22title\x22:\x22Randomized Algorithms\x22,\x22url\x22:\x22\/computing\/randomizedAlgorithms\/randomizedAlgorithms.pdf\x22},{\x22contents\x22:[{\x22title\x22:\x22Computational complexity theory\x22,\x22url\x22:\x22\/computing\/computationalComplexity\/computationalComplexity.pdf\x22},{\x22title\x22:\x22Computational learning theory\x22,\x22url\x22:\x22\/computing\/colt\/colt.pdf\x22}],\x22title\x22:\x22Limits\x22},{\x22title\x22:\x22Cryptography\x22,\x22url\x22:\x22\/computing\/cryptography\/cryptography.pdf\x22},{\x22contents\x22:[{\x22url\x22:\x22dir:\/\/computing\/programming\/languageDesign\/\x22}],\x22title\x22:\x22Language design\x22},{\x22contents\x22:[{\x22title\x22:\x22Overview\x22,\x22url\x22:\x22\/computing\/programming\/\x22},{\x22contents\x22:[{\x22url\x22:\x22dir:\/\/computing\/programming\/tips\/\x22}],\x22title\x22:\x22Tips\x22},{\x22title\x22:\x22UI\x22,\x22url\x22:\x22\/computing\/programming\/ui\/\x22},{\x22url\x22:\x22\/computing\/programming\/profession\/\x22}],\x22title\x22:\x22Programming\x22},{\x22title\x22:\x22Distributed computing\x22,\x22url\x22:\x22\/computing\/distributedComputing\/distributedComputing.pdf\x22},{\x22title\x22:\x22Numerical Analysis\x22,\x22url\x22:\x22\/computing\/numericalAnalysis\/numericalAnalysis.pdf\x22},{\x22title\x22:\x22Optimization\x22,\x22url\x22:\x22\/computing\/optimization\/optimization.pdf\x22}],\x22title\x22:\x22Computing\x22},{\x22contents\x22:[{\x22title\x22:\x22Information and coding theory\x22,\x22url\x22:\x22\/math\/communication\/informationCodingTheory\/informationCodingTheory.pdf\x22}],\x22title\x22:\x22Communication\x22},{\x22title\x22:\x22Notes Home\x22,\x22url\x22:\x22\/\x22},{\x22title\x22:\x22Vishvas\x27s home page\x22,\x22url\x22:\x22\/..\/\x22},{\x22title\x22:\x22Blog\x22,\x22url\x22:\x22\/assets\/blog\/\x22}],\x22title\x22:\x22Parts\x22},\x22home_sidebar\x22:{\x22contents\x22:[{\x22title\x22:\x22अर्थः\x22,\x22url\x22:\x22\/artha\/economics\/investing\/portfolio\/\x22},{\x22title\x22:\x22Math, Computing\x22,\x22url\x22:\x22\/computing\/programming\/\x22},{\x22title\x22:\x22Misc परिशिष्टम्\x22,\x22url\x22:\x22\/misc\/\x22},{\x22title\x22:\x22संस्काराः\x22,\x22url\x22:\x22\/..\/saMskAra\/\x22},{\x22title\x22:\x22Poetry काव्यम्\x22,\x22url\x22:\x22\/..\/kAvya\/\x22},{\x22title\x22:\x22Vishvas\x27s home page\x22,\x22url\x22:\x22\/..\/\x22},{\x22title\x22:\x22Blog\x22,\x22url\x22:\x22\/assets\/blog\/\x22},{\x22title\x22:\x22\\u003ci class=\\\x22fas fa-hand-holding-heart\\\x22\\u003e\\u003c\/i\\u003eDonate Via Vishvas\x22,\x22url\x22:\x22https:\/\/vvasuki.github.io\/interests\/dharma-via-vishvas\/\x22}],\x22title\x22:\x22Parts\x22},\x22misc_sidebar\x22:{\x22contents\x22:[{\x22contents\x22:[{\x22url\x22:\x22dir:\/\/misc\/chambers\/\x22}],\x22title\x22:\x22Chambers\x22},{\x22contents\x22:[{\x22title\x22:\x22Animal cognition and affect\x22,\x22url\x22:\x22\/misc\/biology\/animalIntelligence\/animalIntelligence.pdf\x22},{\x22title\x22:\x22Computational biology\x22,\x22url\x22:\x22\/misc\/chemistry\/computationalBiology\/computationalBiology.pdf\x22}],\x22title\x22:\x22Biology, Chemistry\x22},{\x22title\x22:\x22Notes Home\x22,\x22url\x22:\x22\/\x22},{\x22title\x22:\x22Vishvas\x27s home page\x22,\x22url\x22:\x22\/..\/\x22},{\x22title\x22:\x22Blog\x22,\x22url\x22:\x22\/assets\/blog\/\x22},{\x22title\x22:\x22\\u003ci class=\\\x22fas fa-hand-holding-heart\\\x22\\u003e\\u003c\/i\\u003eDonate Via Vishvas\x22,\x22url\x22:\x22https:\/\/vvasuki.github.io\/interests\/dharma-via-vishvas\/\x22}],\x22title\x22:\x22Misc topics\x22}}");
+    let autocompletePageUrl = "\/storage\/emulated\/0\/notesData\/notes\/data\/pages.tsv";
+
+    var pageUrlToParams = new Map();
+    
+    
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/businesses\/manufacturing\/", JSON.parse("{}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/geo\/europe\/", JSON.parse("{}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/geo\/japan\/", JSON.parse("{}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/state-level\/government\/", JSON.parse("{}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/state-level\/growth\/", JSON.parse("{}"));
+    
+    
+    pageUrlToParams.set("\/\/computing\/ai\/", JSON.parse("{}"));
+    
+    
+    pageUrlToParams.set("\/\/computing\/colt\/", JSON.parse("{}"));
+    
+    
+    pageUrlToParams.set("\/\/computing\/cryptography\/", JSON.parse("{}"));
+    
+    
+    pageUrlToParams.set("\/\/computing\/optimization\/", JSON.parse("{}"));
+    
+    
+    pageUrlToParams.set("\/\/computing\/randomizedAlgorithms\/", JSON.parse("{}"));
+    
+    
+    pageUrlToParams.set("\/\/math\/algebra\/", JSON.parse("{}"));
+    
+    
+    pageUrlToParams.set("\/\/math\/approxTheory\/", JSON.parse("{}"));
+    
+    
+    pageUrlToParams.set("\/\/math\/booleanFunctions\/", JSON.parse("{}"));
+    
+    
+    pageUrlToParams.set("\/\/math\/complexAnalysis\/", JSON.parse("{}"));
+    
+    
+    pageUrlToParams.set("\/\/math\/graphTheory\/", JSON.parse("{}"));
+    
+    
+    pageUrlToParams.set("\/\/math\/linAlg\/", JSON.parse("{}"));
+    
+    
+    pageUrlToParams.set("\/\/math\/probability\/probabilisticModels\/graphicalModels\/", JSON.parse("{}"));
+    
+    
+    pageUrlToParams.set("\/\/math\/probability\/probability\/", JSON.parse("{}"));
+    
+    
+    pageUrlToParams.set("\/\/math\/probability\/statistics\/", JSON.parse("{}"));
+    
+    
+    pageUrlToParams.set("\/\/math\/topology\/", JSON.parse("{}"));
+    
+    
+    pageUrlToParams.set("\/\/misc\/chemistry\/proteinStructurePrediction\/proteinStructure\/literatureReview\/", JSON.parse("{}"));
+    
+    
+    pageUrlToParams.set("\/\/misc\/chemistry\/proteinStructurePrediction\/proteinStructure\/researchers\/", JSON.parse("{}"));
+    
+    
+    pageUrlToParams.set("\/\/misc\/chambers\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22sidebar\x22:\x22misc_sidebar\x22,\x22title\x22:\x22\x2bChambers\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/education\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22\x2bEducation\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/environment\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22\x2bEnvironment\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/misc\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22sidebar\x22:\x22misc_sidebar\x22,\x22title\x22:\x22\x2bMisc परिशिष्टम्\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22\x2bअर्थः\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/computing\/programming\/languageDesign\/hw_abstraction\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Abstraction from Hardware\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/businesses\/ads\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Ads\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/environment\/air\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Air\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/businesses\/air_travel\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Air travel\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/places\/usa\/sf-bay\/arts\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Arts\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/businesses\/banking\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Banking\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/businesses\/fundamentals\/bankruptcy\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Bankruptcy\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/communication\/real-time\/body-language\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Body language\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/communication\/branding\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Branding\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/tax\/capital-gains\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Capital gains\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/clothing\/cargo\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Cargo wear\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/categories\/", JSON.parse("null"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/trading\/charts\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Charts\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/geo\/china\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22China\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/clothing\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Clothing-Intro\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/computing\/programming\/profession\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Coder profession\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/clothing\/low-temperature\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Cold\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/research\/collaboration\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Collaboration\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/computing\/programming\/tips\/comments_names_size\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Comments, names, size\x22,\x22unicode_script\x22:\x22devanagari\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/communication\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Communication\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/communication\/real-time\/composure\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Composure\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/computing\/", JSON.parse("null"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/communication\/conning\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Conning\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/communication\/real-time\/content\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Content\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/communication\/real-time\/formality\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Courtesy, Formality\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/communication\/debate\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Debate\x22,\x22unicode_script\x22:\x22devanagari\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/computing\/programming\/tips\/debug\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Debug\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/computing\/programming\/languageDesign\/decision_structures\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Decision structures\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/communication\/real-time\/delivery\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Delivery voice\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/businesses\/distribution\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Distribution\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/moving\/driving\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Driving\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/", JSON.parse("null"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/clothing\/extremities\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Extremities\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/moving\/falling\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Falling\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/businesses\/food\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Food making\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/computing\/programming\/languageDesign\/procedures\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Functions\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/investing\/funds\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Funds\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/furniture\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Furniture\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/trading\/futures\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Futures\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/businesses\/gambling\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Gambling\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/investing\/goal\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Goal setting\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/computing\/programming\/tips\/goals\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Goals\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/goods\/intro\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Goods and services\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/clothing\/normal-temperature\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22High temp\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/education\/home_school\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Homeschooling गृहे शिक्षणम्\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/education\/home_school\/usa\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Homeschooling- USA CA\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/education\/home_school\/faq\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Homeschooling: FAQ गृहे शिक्षणम् - आक्षेपाः\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/investing\/implementation\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Implementation\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/incident-management\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Incident management\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/tax\/india\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22India\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/education\/home_school\/india\/examples\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22India\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/spending\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Individual spending\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/businesses\/insurance\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Insurance\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/businesses\/intermediary_trading\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Intermediary trading\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/businesses\/fundamentals\/0_intro\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Intro\x22,\x22unicode_script\x22:\x22devanagari\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/investing\/intro\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Intro\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/computing\/computationalComplexity\/intro\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Intro\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/computing\/programming\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Intro\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/places\/india\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Intro\/ Misc\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/places\/india\/bengaluuru\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Intro\/ Misc\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/places\/usa\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Intro\/ Misc\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/places\/usa\/sf-bay\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Intro\/ Misc\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/businesses\/fundamentals\/labor\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Labor\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/learning\/lectures\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Lectures\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/education\/lecturing\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Lecturing\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/clothing\/materials\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Materials\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/furniture\/materials\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Materials\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/math\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Math\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/communication\/email\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Messages\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/businesses\/misc\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Misc\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/computing\/programming\/tips\/misc_tips\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Misc Tips\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/learning\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Misc topics\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/computing\/programming\/languageDesign\/language_design\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Misc topics\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/state-level\/money\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Money\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/communication\/negotiation\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Negotiation\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/education\/home_school\/india\/news\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22News\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/learning\/news\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22News\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/learning\/notes\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Notes\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/computing\/programming\/languageDesign\/objects\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Objects\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/trading\/options\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Options\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/trading\/trading\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Orders\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/computing\/programming\/languageDesign\/paradigms\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Paradigms\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/businesses\/payment\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Payment\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/computing\/programming\/tips\/pick_language\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Pick language\x22,\x22unicode_script\x22:\x22devanagari\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/places\/", JSON.parse("null"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/investing\/portfolio\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Portfolio\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/education\/principles\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Principles\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/learning\/reading\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Reading\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/communication\/real-time\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Real time communication\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/research\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Research\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/investing\/risk\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Risk\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/tax\/savings-schemes\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Saving incentives\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Skills\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/clothing\/special\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Special\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/furniture\/storage\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Storage\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/computing\/programming\/languageDesign\/syntax\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Syntax\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/tags\/", JSON.parse("null"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/tax\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Tax\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/learning\/testing\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Testing\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/computing\/programming\/tips\/testing\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Testing\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/furniture\/tools\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Tools\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/goods\/tradeables\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Tradeables\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/places\/travel\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Travel\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/geo\/usa\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22practice_weight\x22:0,\x22title\x22:\x22USA\x22,\x22unicode_script\x22:\x22devanagari\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/tax\/usa\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22USA\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/education\/home_school\/india\/schools\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Un-schools\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/education\/home_school\/unschooling\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Unschooling\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/computing\/programming\/ui\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22User interface\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/investing\/valuation\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Valuation\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22sidebar\x22:\x22home_sidebar\x22,\x22summary\x22:\x22Welcome page.\x22,\x22title\x22:\x22Vishvas\x27s notes\x22,\x22topnav\x22:\x22home_sidebar\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/furniture\/materials\/wood\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Wood\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/misc\/chambers\/wood-stove\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Wood Stove\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/research\/writing_papers\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22Writing papers\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/economics\/trading\/infrastructure\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22infrastructure\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/moving\/kick-scooter\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22kick scooter\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/skills\/singing\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22गानम्\x22,\x22unicode_script\x22:\x22devanagari\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/education\/home_school\/india\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22भारतेषु गृहे शिक्षणम्\x22}"));
+    
+    
+    pageUrlToParams.set("\/\/artha\/society\/", JSON.parse("{\x22draft\x22:false,\x22iscjklanguage\x22:false,\x22title\x22:\x22समाजः\x22}"));
+    
+
+    var pageUrlToFileParams = new Map();
+    
+    
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/businesses\/manufacturing\/", JSON.parse(`{
+      "path": "artha\/economics\/businesses\/manufacturing.md",
+      "logicalName": "manufacturing.md",
+      "baseFileName": "manufacturing",
+      "dir": "artha\/economics\/businesses\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/geo\/europe\/", JSON.parse(`{
+      "path": "artha\/economics\/geo\/europe.md",
+      "logicalName": "europe.md",
+      "baseFileName": "europe",
+      "dir": "artha\/economics\/geo\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/geo\/japan\/", JSON.parse(`{
+      "path": "artha\/economics\/geo\/japan.md",
+      "logicalName": "japan.md",
+      "baseFileName": "japan",
+      "dir": "artha\/economics\/geo\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/state-level\/government\/", JSON.parse(`{
+      "path": "artha\/economics\/state-level\/government.md",
+      "logicalName": "government.md",
+      "baseFileName": "government",
+      "dir": "artha\/economics\/state-level\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/state-level\/growth\/", JSON.parse(`{
+      "path": "artha\/economics\/state-level\/growth.md",
+      "logicalName": "growth.md",
+      "baseFileName": "growth",
+      "dir": "artha\/economics\/state-level\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/computing\/ai\/", JSON.parse(`{
+      "path": "computing\/ai\/index.html",
+      "logicalName": "index.html",
+      "baseFileName": "index",
+      "dir": "computing\/ai\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/computing\/colt\/", JSON.parse(`{
+      "path": "computing\/colt\/index.html",
+      "logicalName": "index.html",
+      "baseFileName": "index",
+      "dir": "computing\/colt\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/computing\/cryptography\/", JSON.parse(`{
+      "path": "computing\/cryptography\/index.html",
+      "logicalName": "index.html",
+      "baseFileName": "index",
+      "dir": "computing\/cryptography\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/computing\/optimization\/", JSON.parse(`{
+      "path": "computing\/optimization\/index.html",
+      "logicalName": "index.html",
+      "baseFileName": "index",
+      "dir": "computing\/optimization\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/computing\/randomizedAlgorithms\/", JSON.parse(`{
+      "path": "computing\/randomizedAlgorithms\/index.html",
+      "logicalName": "index.html",
+      "baseFileName": "index",
+      "dir": "computing\/randomizedAlgorithms\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/math\/algebra\/", JSON.parse(`{
+      "path": "math\/algebra\/index.html",
+      "logicalName": "index.html",
+      "baseFileName": "index",
+      "dir": "math\/algebra\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/math\/approxTheory\/", JSON.parse(`{
+      "path": "math\/approxTheory\/index.html",
+      "logicalName": "index.html",
+      "baseFileName": "index",
+      "dir": "math\/approxTheory\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/math\/booleanFunctions\/", JSON.parse(`{
+      "path": "math\/booleanFunctions\/index.html",
+      "logicalName": "index.html",
+      "baseFileName": "index",
+      "dir": "math\/booleanFunctions\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/math\/complexAnalysis\/", JSON.parse(`{
+      "path": "math\/complexAnalysis\/index.html",
+      "logicalName": "index.html",
+      "baseFileName": "index",
+      "dir": "math\/complexAnalysis\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/math\/graphTheory\/", JSON.parse(`{
+      "path": "math\/graphTheory\/index.html",
+      "logicalName": "index.html",
+      "baseFileName": "index",
+      "dir": "math\/graphTheory\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/math\/linAlg\/", JSON.parse(`{
+      "path": "math\/linAlg\/index.html",
+      "logicalName": "index.html",
+      "baseFileName": "index",
+      "dir": "math\/linAlg\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/math\/probability\/probabilisticModels\/graphicalModels\/", JSON.parse(`{
+      "path": "math\/probability\/probabilisticModels\/graphicalModels\/index.html",
+      "logicalName": "index.html",
+      "baseFileName": "index",
+      "dir": "math\/probability\/probabilisticModels\/graphicalModels\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/math\/probability\/probability\/", JSON.parse(`{
+      "path": "math\/probability\/probability\/index.html",
+      "logicalName": "index.html",
+      "baseFileName": "index",
+      "dir": "math\/probability\/probability\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/math\/probability\/statistics\/", JSON.parse(`{
+      "path": "math\/probability\/statistics\/index.html",
+      "logicalName": "index.html",
+      "baseFileName": "index",
+      "dir": "math\/probability\/statistics\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/math\/topology\/", JSON.parse(`{
+      "path": "math\/topology\/index.html",
+      "logicalName": "index.html",
+      "baseFileName": "index",
+      "dir": "math\/topology\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/misc\/chemistry\/proteinStructurePrediction\/proteinStructure\/literatureReview\/", JSON.parse(`{
+      "path": "misc\/chemistry\/proteinStructurePrediction\/proteinStructure\/literatureReview.htm",
+      "logicalName": "literatureReview.htm",
+      "baseFileName": "literatureReview",
+      "dir": "misc\/chemistry\/proteinStructurePrediction\/proteinStructure\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/misc\/chemistry\/proteinStructurePrediction\/proteinStructure\/researchers\/", JSON.parse(`{
+      "path": "misc\/chemistry\/proteinStructurePrediction\/proteinStructure\/researchers.htm",
+      "logicalName": "researchers.htm",
+      "baseFileName": "researchers",
+      "dir": "misc\/chemistry\/proteinStructurePrediction\/proteinStructure\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/misc\/chambers\/", JSON.parse(`{
+      "path": "misc\/chambers\/_index.md",
+      "logicalName": "_index.md",
+      "baseFileName": "_index",
+      "dir": "misc\/chambers\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/education\/", JSON.parse(`{
+      "path": "artha\/education\/_index.md",
+      "logicalName": "_index.md",
+      "baseFileName": "_index",
+      "dir": "artha\/education\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/environment\/", JSON.parse(`{
+      "path": "artha\/environment\/_index.md",
+      "logicalName": "_index.md",
+      "baseFileName": "_index",
+      "dir": "artha\/environment\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/misc\/", JSON.parse(`{
+      "path": "misc\/_index.md",
+      "logicalName": "_index.md",
+      "baseFileName": "_index",
+      "dir": "misc\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/", JSON.parse(`{
+      "path": "artha\/_index.md",
+      "logicalName": "_index.md",
+      "baseFileName": "_index",
+      "dir": "artha\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/computing\/programming\/languageDesign\/hw_abstraction\/", JSON.parse(`{
+      "path": "computing\/programming\/languageDesign\/hw_abstraction.md",
+      "logicalName": "hw_abstraction.md",
+      "baseFileName": "hw_abstraction",
+      "dir": "computing\/programming\/languageDesign\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/businesses\/ads\/", JSON.parse(`{
+      "path": "artha\/economics\/businesses\/ads.md",
+      "logicalName": "ads.md",
+      "baseFileName": "ads",
+      "dir": "artha\/economics\/businesses\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/environment\/air\/", JSON.parse(`{
+      "path": "artha\/environment\/air.md",
+      "logicalName": "air.md",
+      "baseFileName": "air",
+      "dir": "artha\/environment\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/businesses\/air_travel\/", JSON.parse(`{
+      "path": "artha\/economics\/businesses\/air_travel.md",
+      "logicalName": "air_travel.md",
+      "baseFileName": "air_travel",
+      "dir": "artha\/economics\/businesses\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/places\/usa\/sf-bay\/arts\/", JSON.parse(`{
+      "path": "artha\/places\/usa\/sf-bay\/arts.md",
+      "logicalName": "arts.md",
+      "baseFileName": "arts",
+      "dir": "artha\/places\/usa\/sf-bay\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/businesses\/banking\/", JSON.parse(`{
+      "path": "artha\/economics\/businesses\/banking.md",
+      "logicalName": "banking.md",
+      "baseFileName": "banking",
+      "dir": "artha\/economics\/businesses\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/businesses\/fundamentals\/bankruptcy\/", JSON.parse(`{
+      "path": "artha\/economics\/businesses\/fundamentals\/bankruptcy.md",
+      "logicalName": "bankruptcy.md",
+      "baseFileName": "bankruptcy",
+      "dir": "artha\/economics\/businesses\/fundamentals\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/communication\/real-time\/body-language\/", JSON.parse(`{
+      "path": "artha\/skills\/communication\/real-time\/body-language.md",
+      "logicalName": "body-language.md",
+      "baseFileName": "body-language",
+      "dir": "artha\/skills\/communication\/real-time\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/communication\/branding\/", JSON.parse(`{
+      "path": "artha\/skills\/communication\/branding.md",
+      "logicalName": "branding.md",
+      "baseFileName": "branding",
+      "dir": "artha\/skills\/communication\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/tax\/capital-gains\/", JSON.parse(`{
+      "path": "artha\/economics\/tax\/capital-gains.md",
+      "logicalName": "capital-gains.md",
+      "baseFileName": "capital-gains",
+      "dir": "artha\/economics\/tax\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/clothing\/cargo\/", JSON.parse(`{
+      "path": "artha\/skills\/clothing\/cargo.md",
+      "logicalName": "cargo.md",
+      "baseFileName": "cargo",
+      "dir": "artha\/skills\/clothing\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/categories\/", JSON.parse(`{
+      "path": "",
+      "logicalName": "",
+      "baseFileName": "",
+      "dir": ""
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/trading\/charts\/", JSON.parse(`{
+      "path": "artha\/economics\/trading\/charts.md",
+      "logicalName": "charts.md",
+      "baseFileName": "charts",
+      "dir": "artha\/economics\/trading\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/geo\/china\/", JSON.parse(`{
+      "path": "artha\/economics\/geo\/china.md",
+      "logicalName": "china.md",
+      "baseFileName": "china",
+      "dir": "artha\/economics\/geo\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/clothing\/", JSON.parse(`{
+      "path": "artha\/skills\/clothing\/_index.md",
+      "logicalName": "_index.md",
+      "baseFileName": "_index",
+      "dir": "artha\/skills\/clothing\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/computing\/programming\/profession\/", JSON.parse(`{
+      "path": "computing\/programming\/profession.md",
+      "logicalName": "profession.md",
+      "baseFileName": "profession",
+      "dir": "computing\/programming\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/clothing\/low-temperature\/", JSON.parse(`{
+      "path": "artha\/skills\/clothing\/low-temperature.md",
+      "logicalName": "low-temperature.md",
+      "baseFileName": "low-temperature",
+      "dir": "artha\/skills\/clothing\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/research\/collaboration\/", JSON.parse(`{
+      "path": "artha\/skills\/research\/collaboration.md",
+      "logicalName": "collaboration.md",
+      "baseFileName": "collaboration",
+      "dir": "artha\/skills\/research\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/computing\/programming\/tips\/comments_names_size\/", JSON.parse(`{
+      "path": "computing\/programming\/tips\/comments_names_size.md",
+      "logicalName": "comments_names_size.md",
+      "baseFileName": "comments_names_size",
+      "dir": "computing\/programming\/tips\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/communication\/", JSON.parse(`{
+      "path": "artha\/skills\/communication\/_index.md",
+      "logicalName": "_index.md",
+      "baseFileName": "_index",
+      "dir": "artha\/skills\/communication\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/communication\/real-time\/composure\/", JSON.parse(`{
+      "path": "artha\/skills\/communication\/real-time\/composure.md",
+      "logicalName": "composure.md",
+      "baseFileName": "composure",
+      "dir": "artha\/skills\/communication\/real-time\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/computing\/", JSON.parse(`{
+      "path": "",
+      "logicalName": "",
+      "baseFileName": "",
+      "dir": ""
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/communication\/conning\/", JSON.parse(`{
+      "path": "artha\/skills\/communication\/conning.md",
+      "logicalName": "conning.md",
+      "baseFileName": "conning",
+      "dir": "artha\/skills\/communication\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/communication\/real-time\/content\/", JSON.parse(`{
+      "path": "artha\/skills\/communication\/real-time\/content.md",
+      "logicalName": "content.md",
+      "baseFileName": "content",
+      "dir": "artha\/skills\/communication\/real-time\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/communication\/real-time\/formality\/", JSON.parse(`{
+      "path": "artha\/skills\/communication\/real-time\/formality.md",
+      "logicalName": "formality.md",
+      "baseFileName": "formality",
+      "dir": "artha\/skills\/communication\/real-time\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/communication\/debate\/", JSON.parse(`{
+      "path": "artha\/skills\/communication\/debate.md",
+      "logicalName": "debate.md",
+      "baseFileName": "debate",
+      "dir": "artha\/skills\/communication\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/computing\/programming\/tips\/debug\/", JSON.parse(`{
+      "path": "computing\/programming\/tips\/debug.md",
+      "logicalName": "debug.md",
+      "baseFileName": "debug",
+      "dir": "computing\/programming\/tips\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/computing\/programming\/languageDesign\/decision_structures\/", JSON.parse(`{
+      "path": "computing\/programming\/languageDesign\/decision_structures.md",
+      "logicalName": "decision_structures.md",
+      "baseFileName": "decision_structures",
+      "dir": "computing\/programming\/languageDesign\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/communication\/real-time\/delivery\/", JSON.parse(`{
+      "path": "artha\/skills\/communication\/real-time\/delivery.md",
+      "logicalName": "delivery.md",
+      "baseFileName": "delivery",
+      "dir": "artha\/skills\/communication\/real-time\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/businesses\/distribution\/", JSON.parse(`{
+      "path": "artha\/economics\/businesses\/distribution.md",
+      "logicalName": "distribution.md",
+      "baseFileName": "distribution",
+      "dir": "artha\/economics\/businesses\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/moving\/driving\/", JSON.parse(`{
+      "path": "artha\/skills\/moving\/driving.md",
+      "logicalName": "driving.md",
+      "baseFileName": "driving",
+      "dir": "artha\/skills\/moving\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/", JSON.parse(`{
+      "path": "",
+      "logicalName": "",
+      "baseFileName": "",
+      "dir": ""
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/clothing\/extremities\/", JSON.parse(`{
+      "path": "artha\/skills\/clothing\/extremities.md",
+      "logicalName": "extremities.md",
+      "baseFileName": "extremities",
+      "dir": "artha\/skills\/clothing\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/moving\/falling\/", JSON.parse(`{
+      "path": "artha\/skills\/moving\/falling.md",
+      "logicalName": "falling.md",
+      "baseFileName": "falling",
+      "dir": "artha\/skills\/moving\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/businesses\/food\/", JSON.parse(`{
+      "path": "artha\/economics\/businesses\/food.md",
+      "logicalName": "food.md",
+      "baseFileName": "food",
+      "dir": "artha\/economics\/businesses\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/computing\/programming\/languageDesign\/procedures\/", JSON.parse(`{
+      "path": "computing\/programming\/languageDesign\/procedures.md",
+      "logicalName": "procedures.md",
+      "baseFileName": "procedures",
+      "dir": "computing\/programming\/languageDesign\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/investing\/funds\/", JSON.parse(`{
+      "path": "artha\/economics\/investing\/funds.md",
+      "logicalName": "funds.md",
+      "baseFileName": "funds",
+      "dir": "artha\/economics\/investing\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/furniture\/", JSON.parse(`{
+      "path": "artha\/skills\/furniture\/_index.md",
+      "logicalName": "_index.md",
+      "baseFileName": "_index",
+      "dir": "artha\/skills\/furniture\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/trading\/futures\/", JSON.parse(`{
+      "path": "artha\/economics\/trading\/futures.md",
+      "logicalName": "futures.md",
+      "baseFileName": "futures",
+      "dir": "artha\/economics\/trading\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/businesses\/gambling\/", JSON.parse(`{
+      "path": "artha\/economics\/businesses\/gambling.md",
+      "logicalName": "gambling.md",
+      "baseFileName": "gambling",
+      "dir": "artha\/economics\/businesses\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/investing\/goal\/", JSON.parse(`{
+      "path": "artha\/economics\/investing\/goal.md",
+      "logicalName": "goal.md",
+      "baseFileName": "goal",
+      "dir": "artha\/economics\/investing\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/computing\/programming\/tips\/goals\/", JSON.parse(`{
+      "path": "computing\/programming\/tips\/goals.md",
+      "logicalName": "goals.md",
+      "baseFileName": "goals",
+      "dir": "computing\/programming\/tips\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/goods\/intro\/", JSON.parse(`{
+      "path": "artha\/economics\/goods\/intro.md",
+      "logicalName": "intro.md",
+      "baseFileName": "intro",
+      "dir": "artha\/economics\/goods\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/clothing\/normal-temperature\/", JSON.parse(`{
+      "path": "artha\/skills\/clothing\/normal-temperature.md",
+      "logicalName": "normal-temperature.md",
+      "baseFileName": "normal-temperature",
+      "dir": "artha\/skills\/clothing\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/education\/home_school\/", JSON.parse(`{
+      "path": "artha\/education\/home_school\/_index.md",
+      "logicalName": "_index.md",
+      "baseFileName": "_index",
+      "dir": "artha\/education\/home_school\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/education\/home_school\/usa\/", JSON.parse(`{
+      "path": "artha\/education\/home_school\/usa.md",
+      "logicalName": "usa.md",
+      "baseFileName": "usa",
+      "dir": "artha\/education\/home_school\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/education\/home_school\/faq\/", JSON.parse(`{
+      "path": "artha\/education\/home_school\/faq.md",
+      "logicalName": "faq.md",
+      "baseFileName": "faq",
+      "dir": "artha\/education\/home_school\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/investing\/implementation\/", JSON.parse(`{
+      "path": "artha\/economics\/investing\/implementation.md",
+      "logicalName": "implementation.md",
+      "baseFileName": "implementation",
+      "dir": "artha\/economics\/investing\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/incident-management\/", JSON.parse(`{
+      "path": "artha\/skills\/incident-management.md",
+      "logicalName": "incident-management.md",
+      "baseFileName": "incident-management",
+      "dir": "artha\/skills\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/tax\/india\/", JSON.parse(`{
+      "path": "artha\/economics\/tax\/india.md",
+      "logicalName": "india.md",
+      "baseFileName": "india",
+      "dir": "artha\/economics\/tax\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/education\/home_school\/india\/examples\/", JSON.parse(`{
+      "path": "artha\/education\/home_school\/india\/examples.md",
+      "logicalName": "examples.md",
+      "baseFileName": "examples",
+      "dir": "artha\/education\/home_school\/india\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/spending\/", JSON.parse(`{
+      "path": "artha\/economics\/spending.md",
+      "logicalName": "spending.md",
+      "baseFileName": "spending",
+      "dir": "artha\/economics\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/businesses\/insurance\/", JSON.parse(`{
+      "path": "artha\/economics\/businesses\/insurance.md",
+      "logicalName": "insurance.md",
+      "baseFileName": "insurance",
+      "dir": "artha\/economics\/businesses\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/businesses\/intermediary_trading\/", JSON.parse(`{
+      "path": "artha\/economics\/businesses\/intermediary_trading.md",
+      "logicalName": "intermediary_trading.md",
+      "baseFileName": "intermediary_trading",
+      "dir": "artha\/economics\/businesses\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/businesses\/fundamentals\/0_intro\/", JSON.parse(`{
+      "path": "artha\/economics\/businesses\/fundamentals\/0_intro.md",
+      "logicalName": "0_intro.md",
+      "baseFileName": "0_intro",
+      "dir": "artha\/economics\/businesses\/fundamentals\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/investing\/intro\/", JSON.parse(`{
+      "path": "artha\/economics\/investing\/intro.md",
+      "logicalName": "intro.md",
+      "baseFileName": "intro",
+      "dir": "artha\/economics\/investing\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/computing\/computationalComplexity\/intro\/", JSON.parse(`{
+      "path": "computing\/computationalComplexity\/intro.md",
+      "logicalName": "intro.md",
+      "baseFileName": "intro",
+      "dir": "computing\/computationalComplexity\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/computing\/programming\/", JSON.parse(`{
+      "path": "computing\/programming\/_index.md",
+      "logicalName": "_index.md",
+      "baseFileName": "_index",
+      "dir": "computing\/programming\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/places\/india\/", JSON.parse(`{
+      "path": "artha\/places\/india\/_index.md",
+      "logicalName": "_index.md",
+      "baseFileName": "_index",
+      "dir": "artha\/places\/india\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/places\/india\/bengaluuru\/", JSON.parse(`{
+      "path": "artha\/places\/india\/bengaluuru\/_index.md",
+      "logicalName": "_index.md",
+      "baseFileName": "_index",
+      "dir": "artha\/places\/india\/bengaluuru\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/places\/usa\/", JSON.parse(`{
+      "path": "artha\/places\/usa\/_index.md",
+      "logicalName": "_index.md",
+      "baseFileName": "_index",
+      "dir": "artha\/places\/usa\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/places\/usa\/sf-bay\/", JSON.parse(`{
+      "path": "artha\/places\/usa\/sf-bay\/_index.md",
+      "logicalName": "_index.md",
+      "baseFileName": "_index",
+      "dir": "artha\/places\/usa\/sf-bay\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/businesses\/fundamentals\/labor\/", JSON.parse(`{
+      "path": "artha\/economics\/businesses\/fundamentals\/labor.md",
+      "logicalName": "labor.md",
+      "baseFileName": "labor",
+      "dir": "artha\/economics\/businesses\/fundamentals\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/learning\/lectures\/", JSON.parse(`{
+      "path": "artha\/skills\/learning\/lectures.md",
+      "logicalName": "lectures.md",
+      "baseFileName": "lectures",
+      "dir": "artha\/skills\/learning\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/education\/lecturing\/", JSON.parse(`{
+      "path": "artha\/education\/lecturing.md",
+      "logicalName": "lecturing.md",
+      "baseFileName": "lecturing",
+      "dir": "artha\/education\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/clothing\/materials\/", JSON.parse(`{
+      "path": "artha\/skills\/clothing\/materials.md",
+      "logicalName": "materials.md",
+      "baseFileName": "materials",
+      "dir": "artha\/skills\/clothing\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/furniture\/materials\/", JSON.parse(`{
+      "path": "artha\/skills\/furniture\/materials\/_index.md",
+      "logicalName": "_index.md",
+      "baseFileName": "_index",
+      "dir": "artha\/skills\/furniture\/materials\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/math\/", JSON.parse(`{
+      "path": "math\/_index.md",
+      "logicalName": "_index.md",
+      "baseFileName": "_index",
+      "dir": "math\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/communication\/email\/", JSON.parse(`{
+      "path": "artha\/skills\/communication\/email.md",
+      "logicalName": "email.md",
+      "baseFileName": "email",
+      "dir": "artha\/skills\/communication\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/businesses\/misc\/", JSON.parse(`{
+      "path": "artha\/economics\/businesses\/misc.md",
+      "logicalName": "misc.md",
+      "baseFileName": "misc",
+      "dir": "artha\/economics\/businesses\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/computing\/programming\/tips\/misc_tips\/", JSON.parse(`{
+      "path": "computing\/programming\/tips\/misc_tips.md",
+      "logicalName": "misc_tips.md",
+      "baseFileName": "misc_tips",
+      "dir": "computing\/programming\/tips\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/learning\/", JSON.parse(`{
+      "path": "artha\/skills\/learning\/_index.md",
+      "logicalName": "_index.md",
+      "baseFileName": "_index",
+      "dir": "artha\/skills\/learning\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/computing\/programming\/languageDesign\/language_design\/", JSON.parse(`{
+      "path": "computing\/programming\/languageDesign\/language_design.md",
+      "logicalName": "language_design.md",
+      "baseFileName": "language_design",
+      "dir": "computing\/programming\/languageDesign\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/state-level\/money\/", JSON.parse(`{
+      "path": "artha\/economics\/state-level\/money.md",
+      "logicalName": "money.md",
+      "baseFileName": "money",
+      "dir": "artha\/economics\/state-level\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/communication\/negotiation\/", JSON.parse(`{
+      "path": "artha\/skills\/communication\/negotiation.md",
+      "logicalName": "negotiation.md",
+      "baseFileName": "negotiation",
+      "dir": "artha\/skills\/communication\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/education\/home_school\/india\/news\/", JSON.parse(`{
+      "path": "artha\/education\/home_school\/india\/news.md",
+      "logicalName": "news.md",
+      "baseFileName": "news",
+      "dir": "artha\/education\/home_school\/india\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/learning\/news\/", JSON.parse(`{
+      "path": "artha\/skills\/learning\/news.md",
+      "logicalName": "news.md",
+      "baseFileName": "news",
+      "dir": "artha\/skills\/learning\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/learning\/notes\/", JSON.parse(`{
+      "path": "artha\/skills\/learning\/notes.md",
+      "logicalName": "notes.md",
+      "baseFileName": "notes",
+      "dir": "artha\/skills\/learning\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/computing\/programming\/languageDesign\/objects\/", JSON.parse(`{
+      "path": "computing\/programming\/languageDesign\/objects.md",
+      "logicalName": "objects.md",
+      "baseFileName": "objects",
+      "dir": "computing\/programming\/languageDesign\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/trading\/options\/", JSON.parse(`{
+      "path": "artha\/economics\/trading\/options.md",
+      "logicalName": "options.md",
+      "baseFileName": "options",
+      "dir": "artha\/economics\/trading\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/trading\/trading\/", JSON.parse(`{
+      "path": "artha\/economics\/trading\/trading.md",
+      "logicalName": "trading.md",
+      "baseFileName": "trading",
+      "dir": "artha\/economics\/trading\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/computing\/programming\/languageDesign\/paradigms\/", JSON.parse(`{
+      "path": "computing\/programming\/languageDesign\/paradigms.md",
+      "logicalName": "paradigms.md",
+      "baseFileName": "paradigms",
+      "dir": "computing\/programming\/languageDesign\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/businesses\/payment\/", JSON.parse(`{
+      "path": "artha\/economics\/businesses\/payment.md",
+      "logicalName": "payment.md",
+      "baseFileName": "payment",
+      "dir": "artha\/economics\/businesses\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/computing\/programming\/tips\/pick_language\/", JSON.parse(`{
+      "path": "computing\/programming\/tips\/pick_language.md",
+      "logicalName": "pick_language.md",
+      "baseFileName": "pick_language",
+      "dir": "computing\/programming\/tips\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/places\/", JSON.parse(`{
+      "path": "",
+      "logicalName": "",
+      "baseFileName": "",
+      "dir": ""
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/investing\/portfolio\/", JSON.parse(`{
+      "path": "artha\/economics\/investing\/portfolio.md",
+      "logicalName": "portfolio.md",
+      "baseFileName": "portfolio",
+      "dir": "artha\/economics\/investing\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/education\/principles\/", JSON.parse(`{
+      "path": "artha\/education\/principles.md",
+      "logicalName": "principles.md",
+      "baseFileName": "principles",
+      "dir": "artha\/education\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/learning\/reading\/", JSON.parse(`{
+      "path": "artha\/skills\/learning\/reading.md",
+      "logicalName": "reading.md",
+      "baseFileName": "reading",
+      "dir": "artha\/skills\/learning\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/communication\/real-time\/", JSON.parse(`{
+      "path": "artha\/skills\/communication\/real-time\/_index.md",
+      "logicalName": "_index.md",
+      "baseFileName": "_index",
+      "dir": "artha\/skills\/communication\/real-time\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/research\/", JSON.parse(`{
+      "path": "artha\/skills\/research\/_index.md",
+      "logicalName": "_index.md",
+      "baseFileName": "_index",
+      "dir": "artha\/skills\/research\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/investing\/risk\/", JSON.parse(`{
+      "path": "artha\/economics\/investing\/risk.md",
+      "logicalName": "risk.md",
+      "baseFileName": "risk",
+      "dir": "artha\/economics\/investing\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/tax\/savings-schemes\/", JSON.parse(`{
+      "path": "artha\/economics\/tax\/savings-schemes.md",
+      "logicalName": "savings-schemes.md",
+      "baseFileName": "savings-schemes",
+      "dir": "artha\/economics\/tax\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/", JSON.parse(`{
+      "path": "artha\/skills\/_index.md",
+      "logicalName": "_index.md",
+      "baseFileName": "_index",
+      "dir": "artha\/skills\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/clothing\/special\/", JSON.parse(`{
+      "path": "artha\/skills\/clothing\/special.md",
+      "logicalName": "special.md",
+      "baseFileName": "special",
+      "dir": "artha\/skills\/clothing\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/furniture\/storage\/", JSON.parse(`{
+      "path": "artha\/skills\/furniture\/storage.md",
+      "logicalName": "storage.md",
+      "baseFileName": "storage",
+      "dir": "artha\/skills\/furniture\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/computing\/programming\/languageDesign\/syntax\/", JSON.parse(`{
+      "path": "computing\/programming\/languageDesign\/syntax.md",
+      "logicalName": "syntax.md",
+      "baseFileName": "syntax",
+      "dir": "computing\/programming\/languageDesign\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/tags\/", JSON.parse(`{
+      "path": "",
+      "logicalName": "",
+      "baseFileName": "",
+      "dir": ""
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/tax\/", JSON.parse(`{
+      "path": "artha\/economics\/tax\/_index.md",
+      "logicalName": "_index.md",
+      "baseFileName": "_index",
+      "dir": "artha\/economics\/tax\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/learning\/testing\/", JSON.parse(`{
+      "path": "artha\/skills\/learning\/testing.md",
+      "logicalName": "testing.md",
+      "baseFileName": "testing",
+      "dir": "artha\/skills\/learning\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/computing\/programming\/tips\/testing\/", JSON.parse(`{
+      "path": "computing\/programming\/tips\/testing.md",
+      "logicalName": "testing.md",
+      "baseFileName": "testing",
+      "dir": "computing\/programming\/tips\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/furniture\/tools\/", JSON.parse(`{
+      "path": "artha\/skills\/furniture\/tools.md",
+      "logicalName": "tools.md",
+      "baseFileName": "tools",
+      "dir": "artha\/skills\/furniture\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/goods\/tradeables\/", JSON.parse(`{
+      "path": "artha\/economics\/goods\/tradeables.md",
+      "logicalName": "tradeables.md",
+      "baseFileName": "tradeables",
+      "dir": "artha\/economics\/goods\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/places\/travel\/", JSON.parse(`{
+      "path": "artha\/places\/travel.md",
+      "logicalName": "travel.md",
+      "baseFileName": "travel",
+      "dir": "artha\/places\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/geo\/usa\/", JSON.parse(`{
+      "path": "artha\/economics\/geo\/usa.md",
+      "logicalName": "usa.md",
+      "baseFileName": "usa",
+      "dir": "artha\/economics\/geo\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/tax\/usa\/", JSON.parse(`{
+      "path": "artha\/economics\/tax\/usa.md",
+      "logicalName": "usa.md",
+      "baseFileName": "usa",
+      "dir": "artha\/economics\/tax\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/education\/home_school\/india\/schools\/", JSON.parse(`{
+      "path": "artha\/education\/home_school\/india\/schools.md",
+      "logicalName": "schools.md",
+      "baseFileName": "schools",
+      "dir": "artha\/education\/home_school\/india\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/education\/home_school\/unschooling\/", JSON.parse(`{
+      "path": "artha\/education\/home_school\/unschooling.md",
+      "logicalName": "unschooling.md",
+      "baseFileName": "unschooling",
+      "dir": "artha\/education\/home_school\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/computing\/programming\/ui\/", JSON.parse(`{
+      "path": "computing\/programming\/ui.md",
+      "logicalName": "ui.md",
+      "baseFileName": "ui",
+      "dir": "computing\/programming\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/investing\/valuation\/", JSON.parse(`{
+      "path": "artha\/economics\/investing\/valuation.md",
+      "logicalName": "valuation.md",
+      "baseFileName": "valuation",
+      "dir": "artha\/economics\/investing\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/", JSON.parse(`{
+      "path": "_index.md",
+      "logicalName": "_index.md",
+      "baseFileName": "_index",
+      "dir": ""
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/furniture\/materials\/wood\/", JSON.parse(`{
+      "path": "artha\/skills\/furniture\/materials\/wood.md",
+      "logicalName": "wood.md",
+      "baseFileName": "wood",
+      "dir": "artha\/skills\/furniture\/materials\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/misc\/chambers\/wood-stove\/", JSON.parse(`{
+      "path": "misc\/chambers\/wood-stove.md",
+      "logicalName": "wood-stove.md",
+      "baseFileName": "wood-stove",
+      "dir": "misc\/chambers\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/research\/writing_papers\/", JSON.parse(`{
+      "path": "artha\/skills\/research\/writing_papers.md",
+      "logicalName": "writing_papers.md",
+      "baseFileName": "writing_papers",
+      "dir": "artha\/skills\/research\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/economics\/trading\/infrastructure\/", JSON.parse(`{
+      "path": "artha\/economics\/trading\/infrastructure.md",
+      "logicalName": "infrastructure.md",
+      "baseFileName": "infrastructure",
+      "dir": "artha\/economics\/trading\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/moving\/kick-scooter\/", JSON.parse(`{
+      "path": "artha\/skills\/moving\/kick-scooter.md",
+      "logicalName": "kick-scooter.md",
+      "baseFileName": "kick-scooter",
+      "dir": "artha\/skills\/moving\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/skills\/singing\/", JSON.parse(`{
+      "path": "artha\/skills\/singing.md",
+      "logicalName": "singing.md",
+      "baseFileName": "singing",
+      "dir": "artha\/skills\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/education\/home_school\/india\/", JSON.parse(`{
+      "path": "artha\/education\/home_school\/india\/_index.md",
+      "logicalName": "_index.md",
+      "baseFileName": "_index",
+      "dir": "artha\/education\/home_school\/india\/"
+    }`));
+    
+    
+    pageUrlToFileParams.set("\/\/artha\/society\/", JSON.parse(`{
+      "path": "artha\/society\/_index.md",
+      "logicalName": "_index.md",
+      "baseFileName": "_index",
+      "dir": "artha\/society\/"
+    }`));
+    
+
+    
+    var pageDirectoryToUrl = {};
+    
+
+    function addToPageDirectoryToUrlMap(dirPath, pageUrlTmp) {
+        if (pageDirectoryToUrl.hasOwnProperty(dirPath)) {
+            pageDirectoryToUrl[dirPath].push(pageUrlTmp);
+        } else {
+            pageDirectoryToUrl[dirPath] = [pageUrlTmp];
+        }
+    }
+    
+    
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/businesses\/", "\/\/artha\/economics\/businesses\/manufacturing\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/geo\/", "\/\/artha\/economics\/geo\/europe\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/geo\/", "\/\/artha\/economics\/geo\/japan\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/state-level\/", "\/\/artha\/economics\/state-level\/government\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/state-level\/", "\/\/artha\/economics\/state-level\/growth\/");
+     
+    addToPageDirectoryToUrlMap("/computing\/ai\/", "\/\/computing\/ai\/");
+     
+    addToPageDirectoryToUrlMap("/computing\/colt\/", "\/\/computing\/colt\/");
+     
+    addToPageDirectoryToUrlMap("/computing\/cryptography\/", "\/\/computing\/cryptography\/");
+     
+    addToPageDirectoryToUrlMap("/computing\/optimization\/", "\/\/computing\/optimization\/");
+     
+    addToPageDirectoryToUrlMap("/computing\/randomizedAlgorithms\/", "\/\/computing\/randomizedAlgorithms\/");
+     
+    addToPageDirectoryToUrlMap("/math\/algebra\/", "\/\/math\/algebra\/");
+     
+    addToPageDirectoryToUrlMap("/math\/approxTheory\/", "\/\/math\/approxTheory\/");
+     
+    addToPageDirectoryToUrlMap("/math\/booleanFunctions\/", "\/\/math\/booleanFunctions\/");
+     
+    addToPageDirectoryToUrlMap("/math\/complexAnalysis\/", "\/\/math\/complexAnalysis\/");
+     
+    addToPageDirectoryToUrlMap("/math\/graphTheory\/", "\/\/math\/graphTheory\/");
+     
+    addToPageDirectoryToUrlMap("/math\/linAlg\/", "\/\/math\/linAlg\/");
+     
+    addToPageDirectoryToUrlMap("/math\/probability\/probabilisticModels\/graphicalModels\/", "\/\/math\/probability\/probabilisticModels\/graphicalModels\/");
+     
+    addToPageDirectoryToUrlMap("/math\/probability\/probability\/", "\/\/math\/probability\/probability\/");
+     
+    addToPageDirectoryToUrlMap("/math\/probability\/statistics\/", "\/\/math\/probability\/statistics\/");
+     
+    addToPageDirectoryToUrlMap("/math\/topology\/", "\/\/math\/topology\/");
+     
+    addToPageDirectoryToUrlMap("/misc\/chemistry\/proteinStructurePrediction\/proteinStructure\/", "\/\/misc\/chemistry\/proteinStructurePrediction\/proteinStructure\/literatureReview\/");
+     
+    addToPageDirectoryToUrlMap("/misc\/chemistry\/proteinStructurePrediction\/proteinStructure\/", "\/\/misc\/chemistry\/proteinStructurePrediction\/proteinStructure\/researchers\/");
+     
+    addToPageDirectoryToUrlMap("/misc\/chambers\/", "\/\/misc\/chambers\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/education\/", "\/\/artha\/education\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/environment\/", "\/\/artha\/environment\/");
+     
+    addToPageDirectoryToUrlMap("/misc\/", "\/\/misc\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/", "\/\/artha\/");
+     
+    addToPageDirectoryToUrlMap("/computing\/programming\/languageDesign\/", "\/\/computing\/programming\/languageDesign\/hw_abstraction\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/businesses\/", "\/\/artha\/economics\/businesses\/ads\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/environment\/", "\/\/artha\/environment\/air\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/businesses\/", "\/\/artha\/economics\/businesses\/air_travel\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/places\/usa\/sf-bay\/", "\/\/artha\/places\/usa\/sf-bay\/arts\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/businesses\/", "\/\/artha\/economics\/businesses\/banking\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/businesses\/fundamentals\/", "\/\/artha\/economics\/businesses\/fundamentals\/bankruptcy\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/communication\/real-time\/", "\/\/artha\/skills\/communication\/real-time\/body-language\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/communication\/", "\/\/artha\/skills\/communication\/branding\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/tax\/", "\/\/artha\/economics\/tax\/capital-gains\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/clothing\/", "\/\/artha\/skills\/clothing\/cargo\/");
+     
+    addToPageDirectoryToUrlMap("/", "\/\/categories\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/trading\/", "\/\/artha\/economics\/trading\/charts\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/geo\/", "\/\/artha\/economics\/geo\/china\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/clothing\/", "\/\/artha\/skills\/clothing\/");
+     
+    addToPageDirectoryToUrlMap("/computing\/programming\/", "\/\/computing\/programming\/profession\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/clothing\/", "\/\/artha\/skills\/clothing\/low-temperature\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/research\/", "\/\/artha\/skills\/research\/collaboration\/");
+     
+    addToPageDirectoryToUrlMap("/computing\/programming\/tips\/", "\/\/computing\/programming\/tips\/comments_names_size\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/communication\/", "\/\/artha\/skills\/communication\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/communication\/real-time\/", "\/\/artha\/skills\/communication\/real-time\/composure\/");
+     
+    addToPageDirectoryToUrlMap("/", "\/\/computing\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/communication\/", "\/\/artha\/skills\/communication\/conning\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/communication\/real-time\/", "\/\/artha\/skills\/communication\/real-time\/content\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/communication\/real-time\/", "\/\/artha\/skills\/communication\/real-time\/formality\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/communication\/", "\/\/artha\/skills\/communication\/debate\/");
+     
+    addToPageDirectoryToUrlMap("/computing\/programming\/tips\/", "\/\/computing\/programming\/tips\/debug\/");
+     
+    addToPageDirectoryToUrlMap("/computing\/programming\/languageDesign\/", "\/\/computing\/programming\/languageDesign\/decision_structures\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/communication\/real-time\/", "\/\/artha\/skills\/communication\/real-time\/delivery\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/businesses\/", "\/\/artha\/economics\/businesses\/distribution\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/moving\/", "\/\/artha\/skills\/moving\/driving\/");
+     
+    addToPageDirectoryToUrlMap("/", "\/\/artha\/economics\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/clothing\/", "\/\/artha\/skills\/clothing\/extremities\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/moving\/", "\/\/artha\/skills\/moving\/falling\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/businesses\/", "\/\/artha\/economics\/businesses\/food\/");
+     
+    addToPageDirectoryToUrlMap("/computing\/programming\/languageDesign\/", "\/\/computing\/programming\/languageDesign\/procedures\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/investing\/", "\/\/artha\/economics\/investing\/funds\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/furniture\/", "\/\/artha\/skills\/furniture\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/trading\/", "\/\/artha\/economics\/trading\/futures\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/businesses\/", "\/\/artha\/economics\/businesses\/gambling\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/investing\/", "\/\/artha\/economics\/investing\/goal\/");
+     
+    addToPageDirectoryToUrlMap("/computing\/programming\/tips\/", "\/\/computing\/programming\/tips\/goals\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/goods\/", "\/\/artha\/economics\/goods\/intro\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/clothing\/", "\/\/artha\/skills\/clothing\/normal-temperature\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/education\/home_school\/", "\/\/artha\/education\/home_school\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/education\/home_school\/", "\/\/artha\/education\/home_school\/usa\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/education\/home_school\/", "\/\/artha\/education\/home_school\/faq\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/investing\/", "\/\/artha\/economics\/investing\/implementation\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/", "\/\/artha\/skills\/incident-management\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/tax\/", "\/\/artha\/economics\/tax\/india\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/education\/home_school\/india\/", "\/\/artha\/education\/home_school\/india\/examples\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/", "\/\/artha\/economics\/spending\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/businesses\/", "\/\/artha\/economics\/businesses\/insurance\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/businesses\/", "\/\/artha\/economics\/businesses\/intermediary_trading\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/businesses\/fundamentals\/", "\/\/artha\/economics\/businesses\/fundamentals\/0_intro\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/investing\/", "\/\/artha\/economics\/investing\/intro\/");
+     
+    addToPageDirectoryToUrlMap("/computing\/computationalComplexity\/", "\/\/computing\/computationalComplexity\/intro\/");
+     
+    addToPageDirectoryToUrlMap("/computing\/programming\/", "\/\/computing\/programming\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/places\/india\/", "\/\/artha\/places\/india\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/places\/india\/bengaluuru\/", "\/\/artha\/places\/india\/bengaluuru\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/places\/usa\/", "\/\/artha\/places\/usa\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/places\/usa\/sf-bay\/", "\/\/artha\/places\/usa\/sf-bay\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/businesses\/fundamentals\/", "\/\/artha\/economics\/businesses\/fundamentals\/labor\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/learning\/", "\/\/artha\/skills\/learning\/lectures\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/education\/", "\/\/artha\/education\/lecturing\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/clothing\/", "\/\/artha\/skills\/clothing\/materials\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/furniture\/materials\/", "\/\/artha\/skills\/furniture\/materials\/");
+     
+    addToPageDirectoryToUrlMap("/math\/", "\/\/math\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/communication\/", "\/\/artha\/skills\/communication\/email\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/businesses\/", "\/\/artha\/economics\/businesses\/misc\/");
+     
+    addToPageDirectoryToUrlMap("/computing\/programming\/tips\/", "\/\/computing\/programming\/tips\/misc_tips\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/learning\/", "\/\/artha\/skills\/learning\/");
+     
+    addToPageDirectoryToUrlMap("/computing\/programming\/languageDesign\/", "\/\/computing\/programming\/languageDesign\/language_design\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/state-level\/", "\/\/artha\/economics\/state-level\/money\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/communication\/", "\/\/artha\/skills\/communication\/negotiation\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/education\/home_school\/india\/", "\/\/artha\/education\/home_school\/india\/news\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/learning\/", "\/\/artha\/skills\/learning\/news\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/learning\/", "\/\/artha\/skills\/learning\/notes\/");
+     
+    addToPageDirectoryToUrlMap("/computing\/programming\/languageDesign\/", "\/\/computing\/programming\/languageDesign\/objects\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/trading\/", "\/\/artha\/economics\/trading\/options\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/trading\/", "\/\/artha\/economics\/trading\/trading\/");
+     
+    addToPageDirectoryToUrlMap("/computing\/programming\/languageDesign\/", "\/\/computing\/programming\/languageDesign\/paradigms\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/businesses\/", "\/\/artha\/economics\/businesses\/payment\/");
+     
+    addToPageDirectoryToUrlMap("/computing\/programming\/tips\/", "\/\/computing\/programming\/tips\/pick_language\/");
+     
+    addToPageDirectoryToUrlMap("/", "\/\/artha\/places\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/investing\/", "\/\/artha\/economics\/investing\/portfolio\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/education\/", "\/\/artha\/education\/principles\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/learning\/", "\/\/artha\/skills\/learning\/reading\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/communication\/real-time\/", "\/\/artha\/skills\/communication\/real-time\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/research\/", "\/\/artha\/skills\/research\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/investing\/", "\/\/artha\/economics\/investing\/risk\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/tax\/", "\/\/artha\/economics\/tax\/savings-schemes\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/", "\/\/artha\/skills\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/clothing\/", "\/\/artha\/skills\/clothing\/special\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/furniture\/", "\/\/artha\/skills\/furniture\/storage\/");
+     
+    addToPageDirectoryToUrlMap("/computing\/programming\/languageDesign\/", "\/\/computing\/programming\/languageDesign\/syntax\/");
+     
+    addToPageDirectoryToUrlMap("/", "\/\/tags\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/tax\/", "\/\/artha\/economics\/tax\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/learning\/", "\/\/artha\/skills\/learning\/testing\/");
+     
+    addToPageDirectoryToUrlMap("/computing\/programming\/tips\/", "\/\/computing\/programming\/tips\/testing\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/furniture\/", "\/\/artha\/skills\/furniture\/tools\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/goods\/", "\/\/artha\/economics\/goods\/tradeables\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/places\/", "\/\/artha\/places\/travel\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/geo\/", "\/\/artha\/economics\/geo\/usa\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/tax\/", "\/\/artha\/economics\/tax\/usa\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/education\/home_school\/india\/", "\/\/artha\/education\/home_school\/india\/schools\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/education\/home_school\/", "\/\/artha\/education\/home_school\/unschooling\/");
+     
+    addToPageDirectoryToUrlMap("/computing\/programming\/", "\/\/computing\/programming\/ui\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/investing\/", "\/\/artha\/economics\/investing\/valuation\/");
+     
+    addToPageDirectoryToUrlMap("/", "\/\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/furniture\/materials\/", "\/\/artha\/skills\/furniture\/materials\/wood\/");
+     
+    addToPageDirectoryToUrlMap("/misc\/chambers\/", "\/\/misc\/chambers\/wood-stove\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/research\/", "\/\/artha\/skills\/research\/writing_papers\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/economics\/trading\/", "\/\/artha\/economics\/trading\/infrastructure\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/moving\/", "\/\/artha\/skills\/moving\/kick-scooter\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/skills\/", "\/\/artha\/skills\/singing\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/education\/home_school\/india\/", "\/\/artha\/education\/home_school\/india\/");
+     
+    addToPageDirectoryToUrlMap("/artha\/society\/", "\/\/artha\/society\/");
+    
+
+</script>
+
+    <script>
+    
+    let pageUrlRelative = "\/storage\/emulated\/0\/notesData\/notes\/computing\/programming\/languageDesign\/syntax\/";
+    let pageUrlMinusBasePath = pageUrlRelative.replace(basePath, "/")
+    let pageParams = pageUrlToParams.get(pageUrlMinusBasePath) || {};
+    let pageFileParams = pageUrlToFileParams.get(pageUrlMinusBasePath) || {};
+    let pageSource = "computing\/programming\/languageDesign\/syntax.md";
+    console.log(pageSource);
+    var pageDefaults;
+    for (let possiblePageDefaults of pageDefaultsList) {
+      if (pageSource.startsWith(possiblePageDefaults.scope.pathPrefix)) {
+        pageDefaults = possiblePageDefaults.values
+      }
+    }
+    var sidebarId = pageParams.sidebar || pageDefaults.sidebar;
+    var topnavId = pageParams.topnav || pageDefaults.topnav;
+    var footernavId = pageParams.footernav || pageDefaults.footernav;
+    var unicodeScript = pageParams.unicode_script || pageDefaults.unicode_script;
+    
+    </script>
+    <script src="/storage/emulated/0/notesData/notes/dist/main-bundle.js"></script>
+    <script src="/storage/emulated/0/notesData/notes/dist/disqus.js"></script>
+    <script src="/storage/emulated/0/notesData/notes/dist/ui_lib-bundle.js"></script>
+    <link rel="stylesheet" href="/storage/emulated/0/notesData/notes/css/@fortawesome/fontawesome-free/css/solid.min.css">
+    <link rel="stylesheet" href="/storage/emulated/0/notesData/notes/css/@fortawesome/fontawesome-free/css/fontawesome.min.css">    
+  </head>
+
+  <body class="ma0 bg-near-white">
+
+    
+<header class="p-1 bg-yellow">
+    <nav role="navigation">
+      <div id="div_top_bar" class="row">
+        <div class="col-md-3 justify-content-start">
+          <a  href="/storage/emulated/0/notesData/notes/" class="btn col border">
+            <i class="fas fa-gopuram ">Vishvas&#39;s notes</i>
+          </a>
+        </div>
+        <div id="div_top_bar_right" class="col-md-auto d-flex justify-content-center">
+          <form action="/storage/emulated/0/notesData/notes/search">
+            <input id="titleSearchInputBox" placeholder="शीर्षिकान्विष्यताम्" name="s"><i class="btn fas fa-search "></i>
+          </form>
+          <a href="/storage/emulated/0/notesData/notes/custom_site_search/"  class="btn btn-default">Full search</a>
+        </div>
+      </div>
+    </nav>
+</header>
+
+    
+    <div class="row">
+      
+      <aside class="col-md-3 card border " id="sidebar">
+        <div id="sidebarTitle" class="card-title bg-light-gray border d-flex justify-content-between">
+          <a data-toggle="collapse" href="#sidebar_body" role="button" aria-expanded="true" aria-controls="sidebar_body">
+            Menu <i class="fas fa-caret-down"></i></a>
+        </div>
+        <nav class="card-body p-0" id="sidebar_body">
+        <ul id="displayed_sidebar" class="list pl2 p-2 bg-yellow">
+        </ul>
+        </nav>
+      </aside>
+      <main class="col p-3" role="main">
+        
+<header class='border d-flex justify-content-between'>
+    <h1 id="Syntax">Syntax</h1>
+    <a id="editLink" class="btn btn-primary"  href="https://github.com/vvasuki/notes/edit/master/content/computing/programming/languageDesign/syntax.md"><i class="fas fa-edit"></i></a>
+</header>
+<article>
+  <aside id="toc_card" class="card border ">
+    <div id="toc_header" class="card-title border d-flex justify-content-between">
+        <a data-toggle="collapse" href="#toc_body" role="button" aria-expanded="true" aria-controls="toc_body">
+          What's in this page? <i class="fas fa-caret-down"></i> </a>
+    </div>
+    <div id="toc_body" class="card-body collapse p-0">
+      
+      <ul id="toc_ul" class="list p-0">
+      </ul>
+    </div>
+  </aside>
+  <div id="post_content">
+  
+
+<h3 id="literals">Literals</h3>
+
+<p>All literals, apart from comments, in a program are of the following
+sort: keywords; identifiers (names of variables); operators. Literals
+are separated using delimiters and by using rules which specify the
+allowed structure of the literal.</p>
+
+<h3 id="identifiers">Identifiers</h3>
+
+<h4 id="overloading">Overloading</h4>
+
+<p>A language may allow methods/ operators with similar names, but
+different signature.</p>
+
+<h4 id="scope">Scope</h4>
+
+<p>Namespace/ scope of variables and functions is ordinarily defined by the
+block of code wherein it is defined.</p>
+
+<h4 id="implicit-scope">Implicit scope</h4>
+
+<p>But, in some cases, a variable may be defined to have ’implict’ scope.
+Such variables are automatically used by the compiler when necessary -
+example to bind an argument not explicitly passed to a function, to
+convert between data-types.</p>
+
+<h3 id="expression-evaluation">Expression evaluation</h3>
+
+<h4 id="lazy-vs-eager-evaluation">Lazy vs eager evaluation</h4>
+
+<p>In lazy eval: length([2+1, 3*2, <sup>1</sup>&frasl;<sub>0</sub>, 5-4]) returns 4 without even
+bothering to evaluate the values in the array. This difference in
+evaluation becomes important when the computations involved are costly:
+eg: function calls.</p>
+
+<h3 id="syntactic-sugar">Syntactic sugar</h3>
+
+<p>Some languages, for the convenience of the programmer, define shorter
+ways of writing various frequently used expression types.</p>
+
+<h4 id="macros">Macros</h4>
+
+<p>Sometimes, a user may add to syntactic sugar by the definition of
+’macros’ or expressions which are evaluated before the program is even
+parsed by the compiler.</p>
+
+  </div>
+</article>
+
+
+
+
+<aside class="card border" id="section-tree-item-computing_programming_languageDesign_syntax_md">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="#ZgotmplZ">Syntax </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-computing_programming_languageDesign_syntax_md" role="button" aria-expanded="false" aria-controls="section-tree-item-body-computing_programming_languageDesign_syntax_md" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-computing_programming_languageDesign_syntax_md" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>title: Syntax</li>
+        
+    </nav>
+</aside>
+
+
+      </main>
+    </div>
+    <footer class="bg-yellow  p-1" role="contentinfo">
+  <div id="disqus_thread"></div>
+  <div id="div_footer_bar" class="container-fluid d-flex justify-content-between">
+    <a class="btn btn-secondary" href="https://github.com/vvasuki/notes/issues/new" >
+      प्रतिस्पन्दः
+    </a>
+    <div class="btn small border">
+      Built on 2019 Sep 5 00:07:18 UTC
+    </div>
+    <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
+  </div>
+</footer>
+
+  </body>
+  <script type='text/javascript'>
+    
+    
+    
+    module_main.default.onDocumentReadyTasks();
+  </script>
+</html>
