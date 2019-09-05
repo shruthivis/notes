@@ -1,0 +1,1239 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vishvas&#39;s notes</title>
+    <link>https://vvasuki.github.io/notes/</link>
+    <description>Recent content on Vishvas&#39;s notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://vvasuki.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://vvasuki.github.io/notes/artha/economics/businesses/manufacturing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/businesses/manufacturing/</guid>
+      <description>Manufacturing Process design: Productivity and quality How to transform the shop-floor/ assembly process and the procurement/ design process to increase quantity and quality?
+Quality/ quantity trade-off When the focus is on quantity, quality often suffers, as workers are provided incentives and punishments which, focusing on quantity, largely ignore quality. Quality control is often postponed to a later stage.
+The Toyota process, observing that correcting/ tolerating mistakes can be costly, tries to ensure that they get it right the first time - workers have the ability to stop the assembly-line in order to fix a mistake when they make/ detect it.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vvasuki.github.io/notes/artha/economics/geo/europe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/geo/europe/</guid>
+      <description>Europe Economic union Many countries in Europe are part of a union which allows easy travel and relatively free trade with low taxation. Many are also use a common currency, Euro, issued by a central bank.
+A big part of the motivation for doing this was to quell fears that the strong German economy might again give rise to an expansionist war-machine.
+Euro [Incomplete]
+Strength of economies Economic viability of sovereigns is discussed elsewhere.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vvasuki.github.io/notes/artha/economics/geo/japan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/geo/japan/</guid>
+      <description>Japan Since 1990’s the country has been in ’stagflation’, with the economy shrinking in value due to the government allowing banks to make bad loans without repercussions by bailing them out.
+Deficit Faced with a declining work-force, strong anti-immigration sentiment and an aging population, government income is projected to decline compared to its expenditures.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vvasuki.github.io/notes/artha/economics/state-level/government/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/state-level/government/</guid>
+      <description>Government Services Government agencies or companies hired by them are responsible for providing basic infrastructure - public health-care, roads, water, security, regulation, environment protection, foreign policy, arbitration - to the public.
+Design Branches Government has 3 main arms: Legislative (to make laws and oversee policies), Executive (to provide services as designed at a high level by the legislature) and Judiciary (to take care of grievances, punish wrong-doing).
+Importance Government design determines the type and the quality of the services provided by the government.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vvasuki.github.io/notes/artha/economics/state-level/growth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/state-level/growth/</guid>
+      <description>Economic growth Economic value indicators Certain numbers reveal the current evaluation of the economy. The health of the economy can be roughly viewed in terms of the financial health and confidence of 4 major components: consumers, banks, non-bank businesses, government.
+Eg: Prices of critical commodities (like oil), value of index funds, growth in real estate prices, government debt, public debt.
+Gross domestic product As a summary This is a measure of the total gross income of the country.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vvasuki.github.io/notes/computing/ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/computing/ai/</guid>
+      <description>this.location=&#34;../../vishvas.htm&#34;;  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vvasuki.github.io/notes/computing/colt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/computing/colt/</guid>
+      <description>this.location=&#34;../../vishvas.htm&#34;;  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vvasuki.github.io/notes/computing/cryptography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/computing/cryptography/</guid>
+      <description>this.location=&#34;../../vishvas.htm&#34;;  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vvasuki.github.io/notes/computing/optimization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/computing/optimization/</guid>
+      <description>this.location=&#34;../../vishvas.htm&#34;;  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vvasuki.github.io/notes/computing/randomizedAlgorithms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/computing/randomizedAlgorithms/</guid>
+      <description>this.location=&#34;../../vishvas.htm&#34;;  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vvasuki.github.io/notes/math/algebra/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/math/algebra/</guid>
+      <description>this.location=&#34;../../vishvas.htm&#34;;  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vvasuki.github.io/notes/math/approxTheory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/math/approxTheory/</guid>
+      <description>this.location=&#34;../../vishvas.htm&#34;;  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vvasuki.github.io/notes/math/booleanFunctions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/math/booleanFunctions/</guid>
+      <description>this.location=&#34;../../vishvas.htm&#34;;  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vvasuki.github.io/notes/math/complexAnalysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/math/complexAnalysis/</guid>
+      <description>this.location=&#34;../../vishvas.htm&#34;;  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vvasuki.github.io/notes/math/graphTheory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/math/graphTheory/</guid>
+      <description>this.location=&#34;../../vishvas.htm&#34;;  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vvasuki.github.io/notes/math/linAlg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/math/linAlg/</guid>
+      <description>this.location=&#34;../../vishvas.htm&#34;;  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vvasuki.github.io/notes/math/probability/probabilisticModels/graphicalModels/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/math/probability/probabilisticModels/graphicalModels/</guid>
+      <description> this.location=&#34;../../..&#34;;    </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vvasuki.github.io/notes/math/probability/probability/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/math/probability/probability/</guid>
+      <description>this.location=&#34;../../vishvas.htm&#34;;  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vvasuki.github.io/notes/math/probability/statistics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/math/probability/statistics/</guid>
+      <description>this.location=&#34;../../vishvas.htm&#34;;  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vvasuki.github.io/notes/math/topology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/math/topology/</guid>
+      <description>this.location=&#34;../../vishvas.htm&#34;;  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vvasuki.github.io/notes/misc/chemistry/proteinStructurePrediction/proteinStructure/literatureReview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/misc/chemistry/proteinStructurePrediction/proteinStructure/literatureReview/</guid>
+      <description>Protein Structure prediction literature review   Protein structure prediction: Literature review Disclaimer: In the reviews below, portions of the original articles are presented verbatim - The authors have worked hard on it, after all.
+Sections: Protein Structure prediction:  Brunette, TJ and Oliver Brock. Improving Protein Structure Prediction with Model-Based Search. Bioinformatics 21(Suppl. 1):66-74, June 2005.
+Special Issue for the International Conference on Intelligent Systems for Molecular Biology (ISMB), Detroit, USA URL</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vvasuki.github.io/notes/misc/chemistry/proteinStructurePrediction/proteinStructure/researchers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/misc/chemistry/proteinStructurePrediction/proteinStructure/researchers/</guid>
+      <description>Protein Structure prediction researchers   Protein structure predictors Protein Structure Prediction Center is the organizer of CASP (Critical Assessment of Techniques for Protein Structure Prediction) events.
+Here is an incomplete and unordered list of professors who work on protein structure prediction:
+ David Baker, University of Washington John Moult, University of Maryland Biotechnology Institute Andrej Sali, University of California, San Francisco Oliver Brock, University of Massachusetts Michael James, University of Alberta Shoshana Wodak, Free University of Brussels Fred Cohen, University of California at San Francisco Jan Pedersen, UMBI Richard Judson, Sandia National Laboratories Krzysztof Fidelis, Lawrence Livermore National Laboratory Michael Levitt, Stanford University Ram Samudrala, University of Washington, Seattle Ron Unger, BIU, Israel Roberto Sanchez, Mount Sinai School of Medicine  -- Compiled by vishvAs vAsuki</description>
+    </item>
+    
+    <item>
+      <title>Abstraction from Hardware</title>
+      <link>https://vvasuki.github.io/notes/computing/programming/languageDesign/hw_abstraction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/computing/programming/languageDesign/hw_abstraction/</guid>
+      <description>View of memory If in writing code, one thinks in terms of instructions and data which can be understood by a processor (eg: bytes in the main memory, registers, hardware IO signals), one is working with a low level language.
+High level languages allow the programmer to think of memory locations and data more abstractly/ declaratively by starting with assumptions that there exist memory locations with certain properties which will be bound to variables used by the programmer by the compiler with the OS’s help.</description>
+    </item>
+    
+    <item>
+      <title>Ads</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/businesses/ads/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/businesses/ads/</guid>
+      <description>Fundamentals The basic problem in advertising is finding the audience who is likely to buy the product/ service (target audience).
+Placement and position There may be place for a limited number of advertisements to be displayed in a certain venue. Yet, there may be several advertisers competing for those places. Further they may be interested in gaining favorable placement in the ad-list.
+Coupon distribution Consider a seller wanting to advertise inventory to target customers, or wanting to spur business.</description>
+    </item>
+    
+    <item>
+      <title>Air</title>
+      <link>https://vvasuki.github.io/notes/artha/environment/air/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/environment/air/</guid>
+      <description>Quality maps  Detailed measurements available at aqicn.org - shows AQI with breakdown.  Pollutants Particulate matter  Size  Common measurements: PM2.5 (2.5 micrometers), PM10 (10 micrometers) &amp;ldquo;It is generally recognized that smaller particles are more harmful to human health. Unlike larger particles, PM0.1 can penetrate pulmonary tissue, enter the bloodstream, and circulate throughout the body. Thereby, PM0.1 can damage a number of internal systems that may be inaccessible to larger particles.</description>
+    </item>
+    
+    <item>
+      <title>Air travel</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/businesses/air_travel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/businesses/air_travel/</guid>
+      <description>Factors affecting price Travel date/ day Tickets cost more in certain months.
+Tickets tend to cost more on Fridays, saturday, sunday, than on weekdays (especially monday).
+Airport demand/ competition Flights from Dallas or houston probably cost less than flights from austin.
+Operation costs Some airlines are cheaper than others.
+Fuel costs This constitutes a major part of the operating costs.
+Airlines which have access to cheaper fuel - either due to a stockpile (Southwest Airlines in 2000-2009), or geographic location (Emirates airlines) can offer lower prices.</description>
+    </item>
+    
+    <item>
+      <title>Arts</title>
+      <link>https://vvasuki.github.io/notes/artha/places/usa/sf-bay/arts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/places/usa/sf-bay/arts/</guid>
+      <description>घोषणपत्त्रिका।  सर्वम्  Sulekha Events. Desi recreation group FB. High noise Desi group on FB. LOTUS volunteer group - FB, web, . दक्षिणभारतकलाः FB web. Bay area temples FB (High noise).  मन्दिराणि  maps  south bay Sunnyvale/ Santa Clara  सनातनधर्मकेन्द्रम् सन्निवेलि। sunnyvale temple. कृष्ण-वलराममन्दिरम् - मुखपुस्तके ऽत्र। mahAkAlamandiram. शिवदुर्गा-मन्दिरम्.. ISKCON Silicon Valley.  San Jose - [गणपति](http://vvgc.org/new/events.php)-आयतनम्.. - [कृष्णवृन्दावनम्](http://www.skvtemple.org/).. - http://vvgc.org/new/ - [satyanArAyaNa temple](http://www.siliconvalleytemple.net/contact_us.html) (VEDA)   BAPS.</description>
+    </item>
+    
+    <item>
+      <title>Banking</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/businesses/banking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/businesses/banking/</guid>
+      <description>Operation Capital Bank owners make an investment - this is called the capital. A part of the bank’s capital goes towards increasing the size of the capital.
+Liabilities/ Borrowed money They also borrow money from investors - in other words, investors deposit money in a bank. The bank promises a return on investment to the depositor, but this return on investment is but a part of the profit the bank makes using that money.</description>
+    </item>
+    
+    <item>
+      <title>Bankruptcy</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/businesses/fundamentals/bankruptcy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/businesses/fundamentals/bankruptcy/</guid>
+      <description>Definition When a company declares bankruptcy, it says that it is incapable of meeting all of its financial commitments/ liabilities. All of its agreements with trade-unions are then also canceled.
+The business’s assets can be liquidated (seized, valued and sold) to satisfy its liabilities. Also, the company may be taken over and restructured; and the new owner can repay outstanding debts.
+Rescue Motivation The government is often motivated to rescue failing businesses to prevent negative consequences like job loss, reduction in national pride etc.</description>
+    </item>
+    
+    <item>
+      <title>Body language</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/communication/real-time/body-language/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/communication/real-time/body-language/</guid>
+      <description>Intro The body language is indeed a language with words and phrases. The body can communicate even when there are no spoken words. The primary function of body language is to express emotions and status among surrounding animals; and its vocabulary is specialized for that. Using body language, one can speak multiple words simultaneously.
+Importance of mastering it Body language is widely understood, often unconsciously. Bad skill at it is often results in miscommunication.</description>
+    </item>
+    
+    <item>
+      <title>Branding</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/communication/branding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/communication/branding/</guid>
+      <description>Aim: honest appraisal Don’t worry about impressing people too much. Just be honest, don’t feel that you have to project a false image of yourself, while simultaneously avoiding erroneous perception of you by others.
+Sincerity and self confidence involved in doing so are valued.
+Informing others of your worth Discreetly sell your work and worth - It is insane to expect others to do it entirely for you. &amp;ldquo;If I tell you I’m good, you would probably think I’m boasting.</description>
+    </item>
+    
+    <item>
+      <title>Capital gains</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/tax/capital-gains/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/tax/capital-gains/</guid>
+      <description>Tax is levied on one’s gains realized using the sale of security holdings or from interest/ dividend income on such securities, with some quirky rules.
+Term Long-term capital gains (Eg: selling stock after holding it for a year) are usually taxed at a lower rate.
+Subscribing to a dividend reinvestment plan complicates calculation of capital gains.
+Wash sale One can offset gains obtained by selling some securities by selling securities on which one has made a loss - but it is forbidden to buy the same security again immediately after doing so (wash sale).</description>
+    </item>
+    
+    <item>
+      <title>Cargo wear</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/clothing/cargo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/clothing/cargo/</guid>
+      <description>Belt Useful not only for holding up pants tightly to the waist, ensuring good weight distribution, but also enables attachments like pouches.
+Buy a synthetic material belt, ideally one which can be used in professional circumstances, with very little metal (no big belt buckle), so that it need not be removed for airport security checks.
+Cargo pants/ shorts Can be found in military stores or online. Professional look is achievable.</description>
+    </item>
+    
+    <item>
+      <title>Charts</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/trading/charts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/trading/charts/</guid>
+      <description>These are especially useful for highly liquid items Eg: negotiable securities. Portfolio decisions can be based on looking at the chart for the appropriate time period. With a chart, one can observe features like support and resistence levels. Thence, one can decide whether it is a good time to buy or sell an equity.
+This is because charts contain in them the evaluations of large fund managers etc.. But that can be misleading in case of bubbles.</description>
+    </item>
+    
+    <item>
+      <title>China</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/geo/china/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/geo/china/</guid>
+      <description>Chinese economy is growing at a fast pace. Politically, China seems to be stable in the short to medium term.
+Manufacturing China has a trade surplus relative to the USA. It is a manufacturing hub.
+Media China, due to tight censorship, does not seem to be a hot-spot for internet businesses. It blocks Facebook, twitter - anything which can be used to organize subversion of the government.
+Middle class 1.</description>
+    </item>
+    
+    <item>
+      <title>Coder profession</title>
+      <link>https://vvasuki.github.io/notes/computing/programming/profession/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/computing/programming/profession/</guid>
+      <description>General advice Ergonomics - FB thread.
+On the software engineering profession. From an OLD (early 2010-s) email thread:
+ What are the 3 most important things such as experience you&amp;rsquo;ve had that helped you succeed as a software engineer?
+ The programming class I took as an undergraduate. My first job as a software engineer. Appreciation of theoretical aspects involved in programming from my theory classes and research.   Is the profession of software engineer overcrowded?</description>
+    </item>
+    
+    <item>
+      <title>Cold</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/clothing/low-temperature/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/clothing/low-temperature/</guid>
+      <description>General strategy Layer up Dressing with multiple layers of clothing essential, due to the wide use of heated buildings. It also insulates better.
+Wear a warm clothing a few minutes before stepping out - then, air will be trapped inside the clothes.
+Accesorize use faceguards, gloves, etc.. for extremities. This provides additional comfort. Eg: a hood not attached to the jacket provides improved mobility.
+Maintenance Look for machine washable and dryable clothes.</description>
+    </item>
+    
+    <item>
+      <title>Collaboration</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/research/collaboration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/research/collaboration/</guid>
+      <description>Benefits Gives Encouragement Doing research alone is possible; but it requires huge amount of focus and determination; especially when it comes to doing less pleasant tasks like experimentations and simulations.
+From collaborations, even boring aspects of research become more pleasant. Enthusiasm for research increases. It is also more pleasurable. See benefits of pair programming in ’programming strategy’.
+Toughness of problems solved With different viewpoints, the probability of the problem being solved is higher.</description>
+    </item>
+    
+    <item>
+      <title>Comments, names, size</title>
+      <link>https://vvasuki.github.io/notes/computing/programming/tips/comments_names_size/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/computing/programming/tips/comments_names_size/</guid>
+      <description>Readability techniques: Overview To borrow from, but not fully copy, &amp;ldquo;literate programming&amp;rdquo; - a code segment (say a file) should read like a clear book chapter or short wiki article. Readability (ease of understanding) can be accomplished by a combination of good variable naming, function and file size and comments - in that order of preference.
+Comments are the last resort (as they get out of sync), but should be quite copious when necessary (to communicate design choices, problems, describing obscure language features etc.</description>
+    </item>
+    
+    <item>
+      <title>Composure</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/communication/real-time/composure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/communication/real-time/composure/</guid>
+      <description>Prepare content in advance if necessary.
+Importance This is especially important while meeting strangers.
+Most people do not want to be burdened by an unsettled, harried individual - they are wary of getting tangled in unsavoury business.
+General technique Concentrate on the high order bits: the important matter. Solemnly recognize that exchange of information/ expectations is the most important point of the meeting and determinedly focus the intellect on it.</description>
+    </item>
+    
+    <item>
+      <title>Conning</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/communication/conning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/communication/conning/</guid>
+      <description>Control of body language during lying, and its detection are considered elsewhere.
+Conning requires generation of trust on the part of the victim. One clever way of doing this is by stimulating oxytocin generation in the victim by appearing to place trust and regard in him, thus triggering the reciprocation mechanism. Eg: Pegion drop con.
+Even simple lying exploits to a certain extant the willingness of the victim to be lied to, his eagerness to believe in something false.</description>
+    </item>
+    
+    <item>
+      <title>Content</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/communication/real-time/content/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/communication/real-time/content/</guid>
+      <description>In conversation, it is better to talk about others’ work and learn, than to talk about oneself.
+Ask questions that require more than a simple &amp;ldquo;yes&amp;rdquo; or &amp;ldquo;no&amp;rdquo; answer to subtly encourage a shy or introverted person to keep talking.
+Conduct interviews. Make them talk about themselves and their work.
+Be prepared - try not to ask questions which could have been answered by other means. Special questions: How did you get your job?</description>
+    </item>
+    
+    <item>
+      <title>Courtesy, Formality</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/communication/real-time/formality/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/communication/real-time/formality/</guid>
+      <description>Be courteous. Discourtesy implies not wanting friendship. Formality in politics and diplomacy was not invented without reason.
+Courtesy is required for smooth operation, without misunderstandings, in the society of strangers. This is particularly useful, if help or information is later required from those strangers.
+Common courtesys: Hold heavy doors open for people who are just behind you. Follow the queue system. Shake hands. Stand when others are standing.
+Say please. But, don’t overdo it.</description>
+    </item>
+    
+    <item>
+      <title>Debate</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/communication/debate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/communication/debate/</guid>
+      <description>सारः  संयतैः सत्पात्रैस् सहैव वादः। स च पूर्वपक्षकथनपूर्वक एव स्यात् सुव्यवस्थितः। अयोग्यैस् सह वादो हेयः, वितण्डाऽपि बलिष्ठकारणेनैव कार्या।  पात्राभिज्ञानम्  पूर्वपक्षकथने यः‌ प्रमादवान्, यश्च+अव्यग्रतया यथार्थवचने प्रामाणिके ऽसमर्थः, स अयोग्यः। यो हि वादे ऽपिक्षिते संयमे स्युव्यवस्थिततायां च न समर्थः, स अयोग्यः। The right intention: Agreement on essential truth.
+ I like to debate to reach an agreement on the essential truth being discussed, rather than to nitpick on the unimportant peripherals, just show my smarts or escape the need to admit defeat.</description>
+    </item>
+    
+    <item>
+      <title>Debug</title>
+      <link>https://vvasuki.github.io/notes/computing/programming/tips/debug/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/computing/programming/tips/debug/</guid>
+      <description> Method  Detective Analogy Isolate the bug.  Extract information from error report. Understand cryptic error codes. Unit testing. Leaks Profiling  Fix it.  Logging  Log important events Use good Logging framework  Prints source (line number etc..)  Destinations: Corresponding to each experiment, create a log file with a time stamp automatically, perhaps of the same name.  </description>
+    </item>
+    
+    <item>
+      <title>Decision structures</title>
+      <link>https://vvasuki.github.io/notes/computing/programming/languageDesign/decision_structures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/computing/programming/languageDesign/decision_structures/</guid>
+      <description>The conciseness and clarity of expression of branching and iterative operation in different languages is different.
+Branching The if-else structure is the most basic decision structure, using which more convenient decision structures like the if-elseif.. structure is defined.
+Matching a value Different branches of execution often depend on different tests performed over the value of an expression. This is provided in terms of the ’match with various cases’ construct.</description>
+    </item>
+    
+    <item>
+      <title>Delivery voice</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/communication/real-time/delivery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/communication/real-time/delivery/</guid>
+      <description>Use an accent understandable by them.
+Use the language closest to their native language.
+Voices Confidential voice Drop defenses, smile. Adapt a calm, soft/ confidential voice.
+Commanding voice Adapt a deep tone, clear and easily heard voice, act as if it is your right to be obeyed.</description>
+    </item>
+    
+    <item>
+      <title>Distribution</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/businesses/distribution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/businesses/distribution/</guid>
+      <description>Retail vs wholesale Retail business focuses on distributing goods to consumers, while making a profit. Wholesalers focus on selling goods in bulk at a lower price to other businesses and distributors. Eg in USA: Sam’s club, costco. In India: Metro.
+Price discrimination Different people are willing to pay different prices for the same product, and retailers try to exploit this.
+In general, retailers try to distinguish the two types of customers by offering lower prices only to those who participate in some undesirable process which costs extra time and attention- eg: waiting for a certain day to make a purchase, committing to purchase in advance, gathering coupons.</description>
+    </item>
+    
+    <item>
+      <title>Driving</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/moving/driving/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/moving/driving/</guid>
+      <description>Common failure points  narrow roads where vehicles need to scrape by entering and exiting parking merging into and out of highways passing cars stalled vehicles or building vehicle jams (need sudden decrease in speed)  Safety Passenger safety  Seat belts headrest adjustment to prevent whiplash  Anticipate dangers  Scan surroundings using mirrors often. Emergency conditions requiring quick response may arise. Look at tires making the turn, don&amp;rsquo;t trust the driver&amp;rsquo;s signals.</description>
+    </item>
+    
+    <item>
+      <title>Extremities</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/clothing/extremities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/clothing/extremities/</guid>
+      <description>Shoes Heavy or formal use Use water proof, breathable boots, with minimal heaviness. It must be usable even on formal occasions.
+Lace Shoes that don’t require lace-tying are generally looser and more uncomfortable during brisk walks.
+There are shoes which can be easily (un)tied by just pulling a loop. Use these.
+Use easy to tie lace: lock/ elastic/ speed/ quick/ lace.
+Avoid plastic shoes Leather boots, rather than plastic boots, are breathable.</description>
+    </item>
+    
+    <item>
+      <title>Falling</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/moving/falling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/moving/falling/</guid>
+      <description> प्रामुख्यम् शिरोरक्षणम् - मणिबन्धनाशेऽपि
+शिरो-रक्षणम्  शिरः वक्षस्पर्शि स्यात् - अनेन कन्धर-पीडा-वर्जनमपि पतनात् परम्।  अग्रे क्रमः तालपृष्टः, हस्तजङ्गः, हस्तजानुः, हस्तोरुः, भुजः
+अक्रमः अङ्गुल्यः करतलम्
+पृष्टतः यदि शक्यते कायवर्तनेन भुजपातनं कुरु। अनिवार्यतायाम् क्रमः - मुष्टिः, हस्तजङ्गः, हस्तजानुः, हस्तोरुः, भुजः
+अङ्गरक्षण-वस्त्र-धरणम् </description>
+    </item>
+    
+    <item>
+      <title>Food making</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/businesses/food/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/businesses/food/</guid>
+      <description>Agriculture Resources Agriculture requires non-saline water, fertile land, seeds, labor. Of these, overall, water is often most scarce.
+Artificial production Research is on to produce meat in-vitro.
+Demand and supply Past The discovery of agriculture enabled mass, reliable food production. For most of history, we have had a food surplus. When there was a famine in one country, one could rely on imports from another.
+Forecast Human population is growing.</description>
+    </item>
+    
+    <item>
+      <title>Functions</title>
+      <link>https://vvasuki.github.io/notes/computing/programming/languageDesign/procedures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/computing/programming/languageDesign/procedures/</guid>
+      <description>Procedures Code is often organized into different procedures, which may be invoked under different contexts with different arguments.
+Mathematical functions A procedure can change state (has a side-effect) and maybe return a value, doesn’t naturally correspond to mathematical function which cannot do this. So a function, which cannot have side-effects, can be viewed as a special type of procedure.
+C is a procedural programming language which is not structured.</description>
+    </item>
+    
+    <item>
+      <title>Funds</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/investing/funds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/investing/funds/</guid>
+      <description>Relying on experts or algorithms One can mitigate risks by relying on experts or well-tested algorithms to manage funds. In USA, publicly traded companies which follow the value investing philosophy include: Berkshire Hathaway, BBTEX, Boyar, Tweedy Borwne, YACKX.
+Index funds for a given economic sector simply invest in major companies in proportion to their market value. One relys on the less riskier supposition that the entire sector is likely to grow, rather than any single security belonging to that sector.</description>
+    </item>
+    
+    <item>
+      <title>Futures</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/trading/futures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/trading/futures/</guid>
+      <description>Anticipated trade One agent makes a deal with another to buy a certain amount of an ’underlying’ security on a specified future date at a certain ’strike’ price. To satisfy this deal, the seller is obliged to buy the security - if he does not already hold it - on or before the due-date.
+Motivation The seller is betting that the market price of the security on or before the due-date will be lower than the set price; and the buyer is betting that the market price will exceed the set-price on or after the due-date.</description>
+    </item>
+    
+    <item>
+      <title>Gambling</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/businesses/gambling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/businesses/gambling/</guid>
+      <description>Bet contract 2 outcomes Consider an event E. A bet between two people (A and B) is a contract which says that if E comes to pass (usually by a specified time), person A will pay an amount x to B; otherwise if E doesn’t happen, B will pay y to A.
+y is called the bet liability.
+Viability of the bet Rational B (who is not risk-averse) will enter the contract if according to his evaluation of a, _a__x_ − (1 − a)_y_ ≥ 0 or $a \geq \frac{y}{x+y}$.</description>
+    </item>
+    
+    <item>
+      <title>Goal setting</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/investing/goal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/investing/goal/</guid>
+      <description>Importance of planning An individual earns money from employment when young and healthy; but eventually they retire or get sick- either early or after going old.
+Many expenses are very predictable. Hence set up a retirement fund, children’s education fund, health/ emergency fund. Many people fail at doing this.
+Goals Investment horizon and age One should be clear about the investment horizon: when does one intend to withdraw money from the fund, with what frequency etc.</description>
+    </item>
+    
+    <item>
+      <title>Goals</title>
+      <link>https://vvasuki.github.io/notes/computing/programming/tips/goals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/computing/programming/tips/goals/</guid>
+      <description>Overview In roughly descending order of importance:
+ Easy to understand. Easy to modify. Few errors. High coding speed. High computational efficiency.  Understanding specifications In the industry, this involves surveying customers, rapid prototyping, talking to end-users etc.. In research, the specifications come from the research problem.
+Complexity More complex code is harder to implement : sometimes, there one can make choices which lead to simpler code - by simplifying requirements or interface languages for example.</description>
+    </item>
+    
+    <item>
+      <title>Goods and services</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/goods/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/goods/intro/</guid>
+      <description>Public goods Traits Non-exclusion Once the good has been provided - possibly with the support of certain people, there is no good way of excluding others (including unconnected ’free-riders’) from using it.
+Non-rivalry Use of the good by a person does not make it less enjoyable or worthwhile for other users.
+Examples Fresh air, pleasant weather. More controversial examples: roads.
+Funding Provision of public goods is often done by the government.</description>
+    </item>
+    
+    <item>
+      <title>High temp</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/clothing/normal-temperature/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/clothing/normal-temperature/</guid>
+      <description>Materials Cotton is popular. Absorbs sweat etc.. Better is something which wicks away moisture: like nylon weave.
+Underwear Purpose Prevent outer garments from being soiled by body fluids, body oils and perspiration. Provide support for genitalia.
+Strategy Use good (Jockey) boxer briefs with the elastic band embedded inside the cloth.
+Upper body Use T shirts next to the body. Use collarless, light colored ones if wearing a formal shirt above.</description>
+    </item>
+    
+    <item>
+      <title>Homeschooling- USA CA</title>
+      <link>https://vvasuki.github.io/notes/artha/education/home_school/usa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/education/home_school/usa/</guid>
+      <description> Groups and resources  A big list is available at Peach Blossom School site here.  County-wide support groups list here (they offer park days, social networks, cooperative activities, mom&amp;rsquo;s days). Classes, field trips pdf.  State wide  Homeschool Association of California - here, FB, yahoo.  Bay area  San Francisco Bay Area Gifted Homeschoolers - sitehere, talk by leader here -201804.   </description>
+    </item>
+    
+    <item>
+      <title>Homeschooling: FAQ गृहे शिक्षणम् - आक्षेपाः</title>
+      <link>https://vvasuki.github.io/notes/artha/education/home_school/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/education/home_school/faq/</guid>
+      <description>Motivation and intro  People with narrow backgrounds (never having seen gifted and normal homeschooled kids, themselves products of &amp;ldquo;factory model&amp;rdquo; education) find it hard to appreciate the benefits of homeschooling, while finding it easy to see supposed downsides. Hence this section. Here we try to answer some common objections from our perspective. But, please see other objection lists below. Where possible we try to avoid repeating answers.:  NC.</description>
+    </item>
+    
+    <item>
+      <title>Implementation</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/investing/implementation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/investing/implementation/</guid>
+      <description>Execution Summary समीकरणम् (rebalancing)  करवृद्धिरहित-लेखासु यथेष्टम् काले काले करव्याप्तौ स्थितासु लेखासु वर्षे वर्षे। कराधिक्यम् वारयितुम्।  अमेरिकेषु  TD Ameritrade इत्यत्र my account -&amp;gt; portfolio planner प्रयोगः पूर्वतटव्यवहारसमये। Use total money to be invested.  भारतेषु Post tax  Look up symbols in BSE and NSE websites. Sometimes equity is listed in both - only &amp;ldquo;EQ&amp;rdquo; is added in symbols to differentiate. upstox order tips: https://www.evernote.com/notelink/Login.action?targetUrl=%2Fshard%2Fs440%2Fnl%2F75394722%2Ff9a8ba31-ac3a-4c70-a836-4ead7b16439b%2F  Tax saving  Explore funds on morning-star : see 5 yr returns, expense ratio https://upstox.</description>
+    </item>
+    
+    <item>
+      <title>Incident management</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/incident-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/incident-management/</guid>
+      <description>DADA spy loop Data &amp;gt; Analysis &amp;gt; Decision &amp;gt; Action
+Separate from regular operation  No negotiation of interests Multiple teams involved Work with people you haven&amp;rsquo;t worked with before  Organization of roles  Ad hoc  Updates should be conscious, scheduled. No default / implicit handover to more senior person.   Roles  Hierarchical structure, no multiple supervisors. Command at the top.  Role vs people  Role is static, people may rotate.</description>
+    </item>
+    
+    <item>
+      <title>India</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/tax/india/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/tax/india/</guid>
+      <description>Tax residency Resident if one of the following is true
+ present in India for: 182 days or more in a fiscal year 60 days or more in a fiscal year and 365 days or more during the preceding 4 fiscal years; the 60 days may be extended to 182 days in certain cases.  Income tax Non-Residents are taxed on India income only. Residents are taxed on worldwide income (subject to DTAA(Double Taxation Avoidance Agreement) with the foreign countries.</description>
+    </item>
+    
+    <item>
+      <title>India</title>
+      <link>https://vvasuki.github.io/notes/artha/education/home_school/india/examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/education/home_school/india/examples/</guid>
+      <description>NIOS examples include savants like:  L. Athira Krishna ( internationally acclaimed prodigy violinist).  Ashok and siddhArth - H18 [YT]  She then took her children out of their elite private school in Pennsylvania and started home schooling. Ask Vijaya the reason, and she says, “The school they went to had children from highly well-to-do families and immense peer pressure to conform to pop culture, which was not aligned with our core values.</description>
+    </item>
+    
+    <item>
+      <title>Individual spending</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/spending/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/spending/</guid>
+      <description>Conspicuous consumption This is done mainly for the purpose of increasing one’s status in society (aka ’status signaling’). This is aka ’keeping up with the joneses’.
+Green consumption People might want to similarly enhance status among environmentally conscious people by making conspicuous green choices - even though a less conspicuous investment may have benefited the ecosystem more. Eg: Installing solar panels on street side of the house, Buying the distinctive Toyota Prius rather than other inconspicuous hybrid vehicles around 2010’s.</description>
+    </item>
+    
+    <item>
+      <title>Insurance</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/businesses/insurance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/businesses/insurance/</guid>
+      <description>Insurance products, besides serving the main purpose of hedging to counter financial risk, often also function as investment in mutual funds.
+Functioning As security This business takes advantage of the fact that risk of a particular kind (house burning down, theft, death), affects a small fraction of a population at any given time, with very high probability. So, it collects fees/ premiums from a large number of insured people, and compensates those on whom a bad event befalls.</description>
+    </item>
+    
+    <item>
+      <title>Intermediary trading</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/businesses/intermediary_trading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/businesses/intermediary_trading/</guid>
+      <description>Basic negotiable securities tradings actions are considered elsewhere.
+Role in markets Intermediary traders buy and sell items, holding them for a short time while it changes hands between long-term investors. In doing so, they make a profit.
+So, they focus strongly on the guessing and taking advantage of the motives of investors - aka front-running investors.
+Liquidity, cost The benefit they provide is in bringing greater liquidity to assets, buy supplying a sea of ready purchasing and selling power.</description>
+    </item>
+    
+    <item>
+      <title>Intro</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/businesses/fundamentals/0_intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/businesses/fundamentals/0_intro/</guid>
+      <description>Organizations Mission Some organizations are focused on earning money for their owners by pursuing and growing a certain business.
+Charitable organizations are focused on gathering resources (usually from donations) and spending them to promote social good by a ceratin type of activity. They are usually managed by a board of trustees.
+Ownership At any given point in time, it is clear from documentation/ declaration who the owners of a business are, what portion of the business they own.</description>
+    </item>
+    
+    <item>
+      <title>Intro</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/investing/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/investing/intro/</guid>
+      <description>Core idea Investment involves financing/ owning businesses - perhaps by buying stocks or bonds, with the aim of getting a good return on investment and with little risk of loss.
+Future Discount factor For most people and organizations, _x_ amount of money today is better than _k__x_ amount of money one year from now, where _k_ &amp;gt; 1. One reason for this is inflation.
+Among individuals Discount factor is much steeper in the short-term than in the long term.</description>
+    </item>
+    
+    <item>
+      <title>Intro</title>
+      <link>https://vvasuki.github.io/notes/computing/computationalComplexity/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/computing/computationalComplexity/intro/</guid>
+      <description> Useful resources elsewhere  Complexity Classes&amp;rsquo; Venn diagram, Inclusion graph. Theoretical Computer Science Cheat Sheet.  </description>
+    </item>
+    
+    <item>
+      <title>Labor</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/businesses/fundamentals/labor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/businesses/fundamentals/labor/</guid>
+      <description>Hiring in businesses Academic hiring follows a different pattern.
+Selectivity Hiring people is generally easier than getting rid of them. So, when possible, businesses create interview processes which have low ’false positive’ rates - even at the cost of high ’false negative’ rates.
+Process Often, specialized recruiters are used to make initial contacts with people - in order to get an idea of where how the candidate may fit the company’s needs.</description>
+    </item>
+    
+    <item>
+      <title>Lectures</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/learning/lectures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/learning/lectures/</guid>
+      <description>Difficulty An acquired skill: Learning to get information out of research seminars is an acquired skill, usually acquired much later than the skill of reading mathematics.
+Approximation of private tuition The purpose of attending a lecture is to learn from the lecturer’s insights, opinions and ways of solving problems. Private tuition is far better than a lecture. But lecture exists due to lack of sufficient number of tutors. If you cannot follow what is going on, and if it is not too disruptive, ask.</description>
+    </item>
+    
+    <item>
+      <title>Lecturing</title>
+      <link>https://vvasuki.github.io/notes/artha/education/lecturing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/education/lecturing/</guid>
+      <description>Write your own introductions.
+Importance They can add to reputation and opportunities beyond what may be earned through research. It is also very important during hiring considerations. It is essential in teaching.
+Objective setting Have a clear objective. Know your audience.
+Distinguish between tutorial presentations, job-talks and conference presentations. Talks at conferences are meant to encourage reading the paper, as it may not be possible to present the entire content of the paper in the given time.</description>
+    </item>
+    
+    <item>
+      <title>Materials</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/clothing/materials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/clothing/materials/</guid>
+      <description>Breathability It is the weave of the fabric (the size and number of holes) that determines breathability or resistance to air movement. Any woven or knit fabric will breathe - even if the weave is made of rubber strands.
+If the yarn on the outside of the garment is thinner than the yarn on the inside of the garment, capillary action will pull water to the outside. The increased surface area (not hollow fibre cores) of the thin yarn gives the water more space to spread out.</description>
+    </item>
+    
+    <item>
+      <title>Messages</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/communication/email/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/communication/email/</guid>
+      <description>उद्देशः स्पष्टता-रक्षणम्  लघु-चर्चासु मा भूच् च्युतिर् पाठक-लेखकयोर् अवधानोत्साहयोः। अपेक्षित-बिन्दोर् उत्तरं न विस्मरेत्। कस्योत्तरे किमुक्तमिति स्पष्टं स्यात्। अन्यस्मै सूत्र-प्रेषणाय उचितं स्यात्।  त्वरा-दोष-वारणम्  अनुचित-भाव-प्रकाशनं मा भूत्। लेखने स्खलनानि न स्युः।  उपायाः  न केवलम् अभिधावृत्तिकांशानाम् उत्तरणं स्यात्, ध्वनितांशोऽप्य् अभिज्ञायोत्तरणीयः। सारो बहुधा नोच्यते स्पष्टं प्रतिवादिभिः। उत्तर-बिन्दूनि प्रामुख्य-क्रमेण स्युः। मुख्यबिन्दूनि विशिष्या ऽभिज्ञाप्यन्ताम्। उत्तर-बिन्दुनाम् उपरि प्राक्तनपत्रेभ्यः सम्बद्ध-वाक्यानि दर्श्यन्ताम् quoted-text-रूपेण । प्राक्प्रेषितानि पत्राण्यप्य् अनुबद्धानि स्युः।  Addressing others In America, suppose that you are writing to X.</description>
+    </item>
+    
+    <item>
+      <title>Misc</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/businesses/misc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/businesses/misc/</guid>
+      <description>Arbitrage Goods/ services often have different values in different markets. So, often people can fulfill demand in the market where an item is costlier by buying it from a market where it is cheaper and getting it to the costlier market.
+For securities traded in different stock exchanges, automatons do this effectively.
+Crime This is considered in the ’society’ survey.</description>
+    </item>
+    
+    <item>
+      <title>Misc Tips</title>
+      <link>https://vvasuki.github.io/notes/computing/programming/tips/misc_tips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/computing/programming/tips/misc_tips/</guid>
+      <description>Meta Coding Packaging  Supply automatic packaging, build system. Publish periodic releases.  Reviews  Remember cause  Can&amp;rsquo;t write truly complete test cases education  Web based code review tool Ideal prerequisite for check-in  Readability review Code owner review  Separate changelists for separate changes Self critique  Beware over-confidence bias Take break, return fresh  Record confidence  &amp;lsquo;Confidence in correctness: High. Reason: Tested multiple times&amp;rsquo;   Separate data from code Externalizing messages Message strings should, in most cases, not be hard-coded inside the code.</description>
+    </item>
+    
+    <item>
+      <title>Misc topics</title>
+      <link>https://vvasuki.github.io/notes/computing/programming/languageDesign/language_design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/computing/programming/languageDesign/language_design/</guid>
+      <description>Programming is data processing.
+Type-generic definitions One may define generic classes or functions in a generic way. Such definitions accept a type parameter, apart from other values. Eg: class List[T] may define a linked list which holds objects of type T.
+Specifying generators These are functions which produce the ith element only on demand - a sort of lazy evaluation. They lead to time savings.
+These are often traversable only once.</description>
+    </item>
+    
+    <item>
+      <title>Money</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/state-level/money/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/state-level/money/</guid>
+      <description>Money and value The value of goods and services, for various people, keeps changing in accordance with demand and supply for it. Money is a common way of expressing this value numerically.
+Value of money, goods If more value has been created in the economy, if no new money is created/ the amount of money in the system remains the same, then the value of money increases, and there is deflation.</description>
+    </item>
+    
+    <item>
+      <title>Negotiation</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/communication/negotiation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/communication/negotiation/</guid>
+      <description>Use the Statue strategy to project forcefulness when necessary.
+It is always better to take time to think and then produce a response, than to produce a bad response.
+Don’t be fooled by smooth-talkers. They work mostly by making you take instantaneous decisions. Take as much time as you can while taking major decisions - such as those that involve a lot of money.
+Determine the other person’s motivation in interacting with you.</description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>https://vvasuki.github.io/notes/artha/education/home_school/india/news/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/education/home_school/india/news/</guid>
+      <description> पत्त्रिका-चित्राण्य् अत्र। Malvika Joshi (right), a 17-year-old homeschooled girl from Mumbai, was admitted to the famed Massachusetts Institute of Technology (MIT) for a degree programme in science. HT16 TOI18 TOI13 DNA12 IE13 (HS) PM13. Radio interviews - Tamil- hema1 NDTV India matters – Coming home to school – Part 1Part 2 Many svashikShan FB posts here. BI-sArang hills.  </description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/learning/news/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/learning/news/</guid>
+      <description>Content type This could be research news, news from friends through social media, newspapers etc..
+They often tend to be short messages leading to other links. Sometimes, they are followed by discussions.
+Research news Besides internet journals and pre-print collections, twitter feeds and blogs of researchers tend to be a very good source of research news.
+Lectures and course-notes are considered separately.
+Curation of articles and comments News can be chosen, curated, arranged and presented either by a small group of professional editors (Eg: BBC, Time, etc.</description>
+    </item>
+    
+    <item>
+      <title>Notes</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/learning/notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/learning/notes/</guid>
+      <description>Desiderata  Easy to navigate to topic of interests (on a variety of devices) Highlights a summary (सूत्रमन्त्रादिरूपेण) decision for execution, separate from exploratory notes. Highlights evocatively core ideas and wonders. Tight focus on essence - Learning involves repeated summarization.  In math - Record important patterns of ideas and solution strategies, with examples/ counter-examples and important results.  Builds complex ideas based on clear simple ideas. Easy to update, refactor.</description>
+    </item>
+    
+    <item>
+      <title>Objects</title>
+      <link>https://vvasuki.github.io/notes/computing/programming/languageDesign/objects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/computing/programming/languageDesign/objects/</guid>
+      <description>Object oriented design is considered in the software architecture survey.
+Object manipulation The main idea of object oriented programming is to describe computation in terms of manipulating states of objects. This causes state changes to be local - which helps programmers design a well structured view of state and behavior.
+This is distinct from the functional programming paradigm.
+Encapsulation and locality Hiding data and methods from outside methods restricts state changes to be local.</description>
+    </item>
+    
+    <item>
+      <title>Options</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/trading/options/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/trading/options/</guid>
+      <description>Definition The buyer of an option gains the right (not obligation) to buy or sell (depending on the option type) an underlying security (100 shares in case of a standard option) at a specified strike price per share by a certain expiration day in case of American-style options (which we consider here), or exactly on a certain day in case of European-style options.
+The seller of such an option is called a writer.</description>
+    </item>
+    
+    <item>
+      <title>Orders</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/trading/trading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/trading/trading/</guid>
+      <description>Here we consider basic (possibly multi-step) actions involving various negotiable instruments in the market.
+Buying and selling Basic actions in a stock market are to buy or sell a security. The securities exchange has programs/ machines which effectively communicate the price of various stocks based on what prices people are asking/ willing to pay for them - by recording these bids.
+Market price order A market order is an order to buy or sell a stock at the current market price.</description>
+    </item>
+    
+    <item>
+      <title>Paradigms</title>
+      <link>https://vvasuki.github.io/notes/computing/programming/languageDesign/paradigms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/computing/programming/languageDesign/paradigms/</guid>
+      <description>Chapter Scope A signle programming language can support multiple paradigms. Programming language features enabling different programming paradigms and architectures are considered elsewhere. Eg: Higher order functions underlies functional programming paradigm.
+Imperative vs declarative programming Imperative programming Views computation in terms of altering state.
+Structured programming In this programming paradigm, state changes are restricted locally. This helps organize code and state information. Structured programming code is more easily understood and maintainable than common procedural language code.</description>
+    </item>
+    
+    <item>
+      <title>Payment</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/businesses/payment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/businesses/payment/</guid>
+      <description>Credit cards Credit cards are a relatively safe way for lenders to encourage public borrowing while making purchases - that way, they can make a profit.
+Stores - possibly getting a commission - often offer credit cards (with attractive terms) under their brand-name to their customers; but they are actually managed by banks.
+The necessary infrastructure is managed by one of a handful of companies - like Visa, MasterCard, AmericanExpress etc.</description>
+    </item>
+    
+    <item>
+      <title>Pick language</title>
+      <link>https://vvasuki.github.io/notes/computing/programming/tips/pick_language/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/computing/programming/tips/pick_language/</guid>
+      <description>One must use the language most appropriate language to solve the problem at hand quickly and with computational efficiency.
+Sometimes, a tradeoff may be involved: tradeoff between expressiveness and efficiency of a language. One may even use different programming languages to specify different parts of the logic to the computer.
+Expressiveness/ conciseness Expressiveness is important in rapid prototyping/ programming. The presence of useful libraries is a major factor which affects conciseness.</description>
+    </item>
+    
+    <item>
+      <title>Portfolio</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/investing/portfolio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/investing/portfolio/</guid>
+      <description>Summary Also see implementation summary.
+ Pick a simple asset allocation model, stick to it, rebalance occasionally.  Possibly put a small portion of money in high-risk high-reward places. (NN Taleb&amp;rsquo;s barbell strategy.)  Initially, be equity heavy. But put some money in bonds (negatively correlated with equity).  USA - TSM core 5&amp;frasl;8, SV tilt 3&amp;frasl;8.  Switch to fixed income heavy portfolio when retiring.  &amp;ldquo;Let us call the first set ensemble probability (concerned with a collection of people) and the second one time probability or ergodicity (concerned with one person through time).</description>
+    </item>
+    
+    <item>
+      <title>Principles</title>
+      <link>https://vvasuki.github.io/notes/artha/education/principles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/education/principles/</guid>
+      <description>सुतेषु काङ्क्षाः Desiderata कस्यचित् Checkvist-टिप्पणयो ऽत्र।
+प्राचीनेषु+उदाहरणानि -
+ Paidea   विषयचयने  &amp;ldquo;We are moving as a society from content to competencies. It is not just what you know, but what you can do with what you know.&amp;rdquo; &amp;ldquo;The worst we can do to those children is put them in online courses which is where our education system is heading now. Online courses are someone else’s’ agenda (usually the government) of what they think learners need to know.</description>
+    </item>
+    
+    <item>
+      <title>Reading</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/learning/reading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/learning/reading/</guid>
+      <description>Purpose  Enjoyment Learn ideas and skills.  Choosing what to read Whatever the purpose, some works are more suitable than others. Recommendations of connoiseurs are paramount.
+General knowledge News is described elsewhere.
+Course-notes posted on the websites of university instructors and encyclopedias like the wikipedia are very useful in getting some good knowledge.
+Research papers Theses are often more detailed and friendly than journal papers. Journal papers are often better written than conference papers.</description>
+    </item>
+    
+    <item>
+      <title>Risk</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/investing/risk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/investing/risk/</guid>
+      <description>Risk and return-advantage types Risk in the investment is the potential to loose money. Risk is paired with advantage: investors promised a bigger return will tolerate some risk.
+Credit default risk This risk is particularly relevant for bonds. This is the risk of businesses not repaying their loans.
+The advantage is that riskier bonds yield bigger returns.
+Credit rating agencies Sometimes, the ultimate owners of bonds sometimes do not have a clear idea about the risk involved.</description>
+    </item>
+    
+    <item>
+      <title>Saving incentives</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/tax/savings-schemes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/tax/savings-schemes/</guid>
+      <description>To facilitate and encourage saving for large expenses in the future, governments often provide tax breaks for special investment accounts for retirement, medical expenses and children’s education (college funds).
+See here.
+Taxation-deferred funds Incomes earned using these special accounts are exempt from taxes while they stay within the fund. However, withdrawals, which are only under very restricted circumstances, are taxed.
+Eg: Individual Retirement Account [IRA] in USA, PPF in India (government managed with rate of interest determined by them).</description>
+    </item>
+    
+    <item>
+      <title>Special</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/clothing/special/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/clothing/special/</guid>
+      <description>Rain clothing Breathable rain clothing, with sealed seams are good.
+Full zip rain pants are easy to wear and remove.
+Swimwear Wetsuits, fast drying underwear.
+Hindu ceremonial dress KachchE panche with uttarIya or with a jubba: wearing technique explained in customs survey.</description>
+    </item>
+    
+    <item>
+      <title>Storage</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/furniture/storage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/furniture/storage/</guid>
+      <description>No fixed storage: A sliding door along the wall can separate out a narrow storage area, where shleves can be placed. Should be easy to disassemble, transport and reassemble. Prevent dust accumulation - have lids. Mesh attached to the wall for hanging lots of items with minimal damage? Above table working area. (Like a table over a table.) A entire wall section covered by a sliding doors. Clothes drying and hanging  Pull and Dry Lightweight Ceiling Mount Clothes Hanger Metal racks - can span them with screwed planks to get long sturdy shelfing.</description>
+    </item>
+    
+    <item>
+      <title>Syntax</title>
+      <link>https://vvasuki.github.io/notes/computing/programming/languageDesign/syntax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/computing/programming/languageDesign/syntax/</guid>
+      <description>Literals All literals, apart from comments, in a program are of the following sort: keywords; identifiers (names of variables); operators. Literals are separated using delimiters and by using rules which specify the allowed structure of the literal.
+Identifiers Overloading A language may allow methods/ operators with similar names, but different signature.
+Scope Namespace/ scope of variables and functions is ordinarily defined by the block of code wherein it is defined.</description>
+    </item>
+    
+    <item>
+      <title>Testing</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/learning/testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/learning/testing/</guid>
+      <description>Signs of understanding Ability to reduce everything to elementary school mathematics signifies true understanding.
+Ability to solve textbook problems is another important sign.
+Reconstruction ability One must be able to reconstruct important knowledge acquired so far, relevant to the subject being studied, from scratch. This must be done with minimal external reference, and with the power of one’s memory and abilities. This is helpful in preparing the mind for studies and in solidifying knowledge.</description>
+    </item>
+    
+    <item>
+      <title>Testing</title>
+      <link>https://vvasuki.github.io/notes/computing/programming/tips/testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/computing/programming/tips/testing/</guid>
+      <description>Use  Forces implementer to think like user. (Ease of use emphasized.) Useful for debugging. Testable code tends to be more readable. Safeguard against monkey-errors in future.  Test desiderata  Speed Isolation In production code  Check inputs - use assertions   What to test?  Prove assertions  Check safety: Recognize invariants Check progress Induction   Isolation testing  Unit test function  Mocking function calls Eg: to databases Use fake objects Eg: fake databases   End to end test High reliability, most important.</description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/furniture/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/furniture/tools/</guid>
+      <description>Safety  Face shield Work Gloves  Holding  G clamp - 8+ inch. Baby vice (clamp based)  Cutting  Shears for metal and branches. Chisel set.  Saw Descending order of preference - Alert - blades can break - wear protection!
+ Reciprocating saws  Pendulum Jigsaw with sightline channel (better visibility) Pendulum movement, where the blade goes back and forth as well as up and down, helps go through thick wood pieces more quickly.</description>
+    </item>
+    
+    <item>
+      <title>Tradeables</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/goods/tradeables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/goods/tradeables/</guid>
+      <description>Negotiable instruments Aka Securities. These are objects which promise payment to whoever holds the object. They include: stocks/ equities (which represent ownership in various businesses/ funds), bonds (loans), derivatives (whose value is determined based on the value of other instruments).
+Creating securities Investment bankers help raise capital for various businesses by creating bonds and stocks. They get big fees for it.
+Underwriting They often take the responsibility of selling such securities by purchasing it from the business and holding on to them - usually until they can sell it.</description>
+    </item>
+    
+    <item>
+      <title>Travel</title>
+      <link>https://vvasuki.github.io/notes/artha/places/travel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/places/travel/</guid>
+      <description>I keep an incomplete list of places visited and hiked. Maybe I&amp;rsquo;ll publish it some day.
+उद्देश-स्पष्टता  बहुदा सद्भावपूरणम्, अन्यत्र तपः, अन्यत्र अर्थः तीव्रानन्दस्यानुभूतीनाम् अल्पान्येव ये स्युर् यात्राजन्यानि क्षणानि, तेभ्यो महान् श्रमः  यात्राकुण्डं यदस्माकन् तोषपद्मैस् सुपूरितम्।
+दुर्वृत्तावर्त्तसन्त्यक्तं लसेदायुर्गिरौ क्वचित्॥
+Activities I like. Pictures? I liked taking pictures of extraordinary sights - for memory&amp;rsquo;s sake - though the times when I look back at them are very very rare.</description>
+    </item>
+    
+    <item>
+      <title>USA</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/geo/usa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/geo/usa/</guid>
+      <description>General economy USA has high trade deficit: especially with oil producing countries and manufacturers like China.
+GDP Growth is much lower than in emerging economies: 0-3%.
+Industry USA’s industry is highly innovative - one of the best in the world. Industries are highly mechanized.
+Manufacturing America is the biggest manufacturer of goods in the world. But, much of the manufacturing is done in highly automated factories which are run by a handful of skilled employees overseeing the automation; manufacturing involving low skilled labour has moved to countries (in the developing world) with cheaper labor.</description>
+    </item>
+    
+    <item>
+      <title>USA</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/tax/usa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/tax/usa/</guid>
+      <description>Residency for tax purposes  Passing Green card test or substantial presence (roughly- in use for over 183 days recently) test means you are a resident.  Income tax Retirement savings incentives For conceptual details, see the capital-gains page.
+Pre tax retirement savings (taxed on withdrawal): - 401(k) a type of 401(a) plan. - IRA
+Post tax retirement savings (not taxed on withdrawal): - Roth IRA. Contributions can be withdrawn anytime.</description>
+    </item>
+    
+    <item>
+      <title>Un-schools</title>
+      <link>https://vvasuki.github.io/notes/artha/education/home_school/india/schools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/education/home_school/india/schools/</guid>
+      <description>Microschools - LM15  Child-directed schools  The approach is to not teach, but to assist the child in learning and empower each child to become a better learner and to learn on its own. Freedom is provided to learn what the child is interested in. Freedom is provided to learn to the levels that a child is interested in and capable of.  Aarohi  beyond Hosur - visit ppt.</description>
+    </item>
+    
+    <item>
+      <title>Unschooling</title>
+      <link>https://vvasuki.github.io/notes/artha/education/home_school/unschooling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/education/home_school/unschooling/</guid>
+      <description>Intro  Unschooling is an educational method and philosophy that advocates learner-chosen activities as a primary means for learning. &amp;ldquo;Unschooling is education whereby the learner determines what he learns (content, pace, depth), when he learns it (any age, or not at all), where his learns (home, community, online or school) and how he learns (self-taught, teacher-taught, facilitated, classroom, apprenticeship, online, correspondence, book, video, game, experiential, lecture, volunteering, project, job, or travel).</description>
+    </item>
+    
+    <item>
+      <title>User interface</title>
+      <link>https://vvasuki.github.io/notes/computing/programming/ui/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/computing/programming/ui/</guid>
+      <description>GUI Metaphors The most common graphical user interfaces use the desktop/ workspace and the windows metaphor.
+Desktop A desktop/ workspace corresponds to a big area in the available screen space whence applications are launched, and within which statuses, widgets and windows are displayed.
+There may be multiple workspaces on a device - especially in case of devices with limited screen size.
+Layering Various windows, widgets and the desktop conceptually form a stack of various displays available to the user.</description>
+    </item>
+    
+    <item>
+      <title>Valuation</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/investing/valuation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/investing/valuation/</guid>
+      <description>Beliefs and market positions Agents, in trading securities, bet on change in market’s evaluation of securities. Thus, the market price of securities is adjusted continually.
+If agents believe that a security will increase in value, they are said to act from a bullish/ long position. If the reverse is true, they are said to act from a bearish/ short position.
+Agents may also believe a certain company will outperform or underperform other companies in the sector.</description>
+    </item>
+    
+    <item>
+      <title>Wood</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/furniture/materials/wood/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/furniture/materials/wood/</guid>
+      <description>MDF board Properties  Made by hot-pressing fiber (not sawdust) with resin. Isotropic (properties are the same in all directions as a result of no grain), so no tendency to split. Consistent in strength and size. Will deteriorate quickly if exposed to water and damp conditions. Dense and heavy.  Common measurements  19mm (~.75&amp;rdquo;) thickness is used for cabinets.  Cost  45 per sq ft regular &amp;lt;55 per sq ft prelaminated  Pre Laminated Particle Board (PLPB) - Properties  Made by hot-pressing sawdust (not fiber) with resin.</description>
+    </item>
+    
+    <item>
+      <title>Wood Stove</title>
+      <link>https://vvasuki.github.io/notes/misc/chambers/wood-stove/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/misc/chambers/wood-stove/</guid>
+      <description>Cubes with 1 side open  If the combustion area is large enough and not cramped, equivalent to burning wood out in the open. Or in principle equivalent to a &amp;ldquo;Cube with 2 sides open&amp;rdquo; type stove with pot on top.
+ Example: traditional homa-kUNDa-s (Idealized).
+         Characteristics  Consumes quite a bit of wood. Lot of smoke when the fire is low, and in the initial and terminal stages.</description>
+    </item>
+    
+    <item>
+      <title>Writing papers</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/research/writing_papers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/research/writing_papers/</guid>
+      <description>Objectives To publicize an important discovery, and submit it for criticism and improvement.
+Let it be Explanatory Telling a story Write as if you are writing a story. The abstract and the conclusion should contain mostly the same text, except one may say ’we will show’, and the other should say ’we have shown’.
+Don’t try to sound impressive Academics have the bad habit of using jargon and stilted prose.</description>
+    </item>
+    
+    <item>
+      <title>infrastructure</title>
+      <link>https://vvasuki.github.io/notes/artha/economics/trading/infrastructure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/economics/trading/infrastructure/</guid>
+      <description>Securities Exchanges Stock markets provide a regulated/ facilitated environment for carrying out securities transactions/ trades. It operates in fixed trading hours - beyond those hours, brokers may trade on their amongst themselves in extended trading hours.
+Brokerages Every trade is accomplished by agents/ brokers authorized to trade in the stock market - usually on behalf of their customers. A fraction of each trade is usually collected by the stock exchange as fees.</description>
+    </item>
+    
+    <item>
+      <title>kick scooter</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/moving/kick-scooter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/moving/kick-scooter/</guid>
+      <description> Failure spots  Steep slopes - difficult speed control wet surfaces - slippage transitions - eg. road to footpath collision, sudden fall (usually stopped by left palm).  कवचम्  पाणि-रक्षणवस्त्रधरणम् - विशिष्य वामपाणौ शिरोरक्षणम्  स्थितिर् उचिता स्यात्  हेतुस्मरणम् - जानुपीडादिवारणम्
+ वर्तनदण्डो नुद्यताम्, नाकृश्यताम्।
+ स्थिर-पादो वर्तनदण्डाद् दूरे स्यात्।
+ पादताडनं क्रमशो वामदक्षिणपद्भ्यां क्रियताम्
+  वेलोल्लङ्घन-रीतिः  वेला-प्रज्ञा  कुत्र स्याद् वेलेति अनुमातव्यम् - वर्षाजलसङ्ग्रहेण गुप्ता स्यद् वेला  अग्रिमचक्रस्य उन्नयनम्  वेग-नियन्त्रणम्  वृष्टौ न्यूनस् स्याद् वेगः  </description>
+    </item>
+    
+    <item>
+      <title>गानम्</title>
+      <link>https://vvasuki.github.io/notes/artha/skills/singing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/artha/skills/singing/</guid>
+      <description>शिक्षणतन्त्राणि  विद्वद्-ध्वनिं रक्षित्वा यन्त्रे, तेन सह गानम्  शरीर-साधनम्  सशरीरं गातव्यम्, न केवलेन कण्ठेन  साहित्य-विकारः प्रधानभेदाः  सन्धिविच्छेदो विश्लेषः वर्णस्यानुच्चारणं लोपः अधिकवर्णस्योच्चारणमागमः  पुनरावर्तनम् पाठांशानाम्  विद्यमानस्य वर्णस्य स्थाने वर्णान्तरोच्चारणं विकारः  स्तोभ-निवेषणम् व्यर्थस्यानन्वितस्य शब्दस्योच्चारणम्
+&amp;ldquo;वर्णस्तोभः, पदस्तोभः, वाक्यस्तोभश्चेति। तत्र वर्णस्तोभ इकारादिः, पदस्तोभो हाइ, हाउ आदिः। वाक्यस्तोभो नवविधः - अशस्तिः, स्तुतिः, संख्यानम्, प्रलयः, परिवेदनम्, प्रैषः, अन्वेषणम्, सृष्टिः, आख्यानमिति। एतेषां लक्षणादिकं स्तोभग्रन्थादवगन्तव्यम्।&amp;rdquo; इति गिरिजाप्रसादः।
+सामसु - हाउ हाउ</description>
+    </item>
+    
+  </channel>
+</rss>
